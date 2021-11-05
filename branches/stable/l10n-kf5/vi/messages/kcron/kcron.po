@@ -63,8 +63,8 @@ msgid ""
 "<p><strong>Command:</strong> %1</p><strong>Standard Output :</strong><pre>"
 "%2</pre><strong>Error Output :</strong><pre>%3</pre>"
 msgstr ""
-"<p><strong>Lệnh:</strong> %1</p><strong>Đầu ra tiêu chuẩn:</strong><pre>"
-"%2</pre><strong>Đầu ra lỗi:</strong><pre>%3</pre>"
+"<p><strong>Lệnh:</strong> %1</p><strong>Đầu ra tiêu chuẩn:</strong><pre>%2</"
+"pre><strong>Đầu ra lỗi:</strong><pre>%3</pre>"
 
 #: src/crontablib/ctcron.cpp:298
 #, kde-format
@@ -320,7 +320,6 @@ msgstr "In &mọi người dùng"
 
 #: src/crontablib/ctHelper.cpp:20
 #, kde-format
-#| msgid "Co&mment:"
 msgid "No comment"
 msgstr "Không có chú thích"
 
@@ -333,7 +332,8 @@ msgid ""
 "Check the crontab man page for further details."
 msgstr ""
 "Bạn đã bị chặn không được dùng KCron\t                      bởi hoặc là tệp /"
-"etc/cron.allow, hoặc là tệp /etc/cron.deny.\t                      \n\n"
+"etc/cron.allow, hoặc là tệp /etc/cron.deny.\t                      \n"
+"\n"
 "Xem thêm chi tiết trong trang sổ tay crontab."
 
 #: src/crontablib/cthost.cpp:138
@@ -345,7 +345,6 @@ msgstr "%H:%M"
 
 #: src/crontablib/ctmonth.cpp:22
 #, kde-format
-#| msgid "every month "
 msgid "every month"
 msgstr "hằng tháng"
 
@@ -382,7 +381,6 @@ msgstr "Tháng Sáu"
 
 #: src/crontablib/ctmonth.cpp:35
 #, kde-format
-#| msgid "July"
 msgctxt "July long"
 msgid "July"
 msgstr "Tháng Bảy"
@@ -414,7 +412,6 @@ msgstr "Tháng Mười Hai"
 
 #: src/crontablib/ctSystemCron.cpp:45 src/crontabPrinter.cpp:154
 #, kde-format
-#| msgid "(System Crontab)"
 msgid "System Crontab"
 msgstr "Crontab hệ thống"
 
@@ -431,7 +428,6 @@ msgstr "%1, %2"
 
 #: src/crontablib/cttask.cpp:276
 #, kde-format
-#| msgid "every day "
 msgctxt "Every 'days of week'"
 msgid "every %1"
 msgstr "%1 hằng tuần"
@@ -450,7 +446,6 @@ msgstr "%1 cũng như %2"
 
 #: src/crontablib/cttask.cpp:335
 #, kde-format
-#| msgid "%H:%M"
 msgctxt "1:Hour, 2:Minute"
 msgid "%1:%2"
 msgstr "%1:%2"
@@ -478,7 +473,6 @@ msgstr "Vào %1"
 
 #: src/crontablib/cttask.cpp:365
 #, kde-format
-#| msgid "the minutes"
 msgid "Every minute"
 msgid_plural "Every %1 minutes"
 msgstr[0] "Mỗi %1 phút"
@@ -515,13 +509,11 @@ msgstr "Địa điểm chứa các thư viện động."
 
 #: src/crontablib/ctvariable.cpp:146
 #, kde-format
-#| msgid "Variables"
 msgid "Local Variable"
 msgstr "Biến cục bộ"
 
 #: src/crontabPrinter.cpp:91
 #, kde-format
-#| msgid "Scheduled Tasks"
 msgid "Scheduled Tasks"
 msgstr "Tác vụ đã lập lịch"
 
@@ -532,7 +524,6 @@ msgstr "Lịch"
 
 #: src/crontabPrinter.cpp:108 src/tasksWidget.cpp:226
 #, kde-format
-#| msgid "Modify Task"
 msgid "Command"
 msgstr "Lệnh"
 
@@ -543,13 +534,11 @@ msgstr "Mô tả"
 
 #: src/crontabPrinter.cpp:129
 #, kde-format
-#| msgid "Variables"
 msgid "Environment Variables"
 msgstr "Biến môi trường"
 
 #: src/crontabPrinter.cpp:156
 #, kde-format
-#| msgid "(System Crontab)"
 msgid "All Users Crontabs"
 msgstr "Crontab của tất cả các người dùng"
 
@@ -586,7 +575,6 @@ msgstr "Cron cá nhân"
 
 #: src/crontabWidget.cpp:109
 #, kde-format
-#| msgid "(System Crontab)"
 msgid "System Cron"
 msgstr "Cron hệ thống"
 
@@ -667,8 +655,8 @@ msgid ""
 "from the menu."
 msgstr ""
 "Bạn có thể dùng ứng dụng này để lập lịch cho các chương trình chạy ở nền.\n"
-"Để lập lịch cho một tác vụ mới, hãy bấm vào thư mục \"Tác vụ\" rồi chọn "
-"Sửa/Tạo trong trình đơn."
+"Để lập lịch cho một tác vụ mới, hãy bấm vào thư mục \"Tác vụ\" rồi chọn Sửa/"
+"Tạo trong trình đơn."
 
 #: src/kcmCron.cpp:123
 #, kde-format
@@ -677,7 +665,6 @@ msgstr "Chào mừng đến với Trình lập lịch tác vụ"
 
 #: src/taskEditorDialog.cpp:69
 #, kde-format
-#| msgid "Modify Variable"
 msgid "Add or modify a scheduled task"
 msgstr "Thêm hoặc chỉnh sửa một tác vụ đã lập lịch"
 
@@ -688,7 +675,6 @@ msgstr "<i>Tác vụ này sẽ được thực thi ở khoảng thời gian đư
 
 #: src/taskEditorDialog.cpp:78
 #, kde-format
-#| msgid "Modify Task"
 msgid "&Command:"
 msgstr "&Lệnh:"
 
@@ -714,7 +700,6 @@ msgstr "Chạy khi &khởi động hệ thống"
 
 #: src/taskEditorDialog.cpp:139
 #, kde-format
-#| msgid "Run every day"
 msgid "Run &every day"
 msgstr "Chạy &hằng ngày"
 
@@ -740,7 +725,6 @@ msgstr "Phút"
 
 #: src/taskEditorDialog.cpp:461
 #, kde-format
-#| msgid "Description:"
 msgid "Preselection:"
 msgstr "Lựa chọn sẵn:"
 
@@ -756,43 +740,36 @@ msgstr "Lựa chọn riêng"
 
 #: src/taskEditorDialog.cpp:470
 #, kde-format
-#| msgid "the minutes"
 msgid "Each minute"
 msgstr "Mỗi phút"
 
 #: src/taskEditorDialog.cpp:471
 #, kde-format
-#| msgid "the minutes"
 msgid "Every 2 minutes"
 msgstr "Mỗi 2 phút"
 
 #: src/taskEditorDialog.cpp:472
 #, kde-format
-#| msgid "the minutes"
 msgid "Every 5 minutes"
 msgstr "Mỗi 5 phút"
 
 #: src/taskEditorDialog.cpp:473
 #, kde-format
-#| msgid "the minutes"
 msgid "Every 10 minutes"
 msgstr "Mỗi 10 phút"
 
 #: src/taskEditorDialog.cpp:474
 #, kde-format
-#| msgid "the minutes"
 msgid "Every 15 minutes"
 msgstr "Mỗi 15 phút"
 
 #: src/taskEditorDialog.cpp:475
 #, kde-format
-#| msgid "the minutes"
 msgid "Every 20 minutes"
 msgstr "Mỗi 20 phút"
 
 #: src/taskEditorDialog.cpp:476
 #, kde-format
-#| msgid "the minutes"
 msgid "Every 30 minutes"
 msgstr "Mỗi 30 phút"
 
@@ -803,25 +780,21 @@ msgstr "Giờ"
 
 #: src/taskEditorDialog.cpp:513
 #, kde-format
-#| msgid "AM"
 msgid "AM:"
 msgstr "SA:"
 
 #: src/taskEditorDialog.cpp:528
 #, kde-format
-#| msgid "PM"
 msgid "PM:"
 msgstr "CH:"
 
 #: src/taskEditorDialog.cpp:702 src/taskEditorDialog.cpp:712
 #, kde-format
-#| msgid "Please enter the variable name."
 msgid "<i>Please type a valid command line...</i>"
 msgstr "<i>Vui lòng nhập một dòng lệnh hợp lệ...</i>"
 
 #: src/taskEditorDialog.cpp:736
 #, kde-format
-#| msgid "Please enter the variable name."
 msgid "<i>Please select an executable program...</i>"
 msgstr "<i>Vui lòng chọn một chương trình thực thi được...</i>"
 
@@ -842,7 +815,6 @@ msgstr "<i>Tác vụ này sẽ được chạy khi khởi động hệ thống.<
 
 #: src/taskEditorDialog.cpp:791
 #, kde-format
-#| msgid "Please enter the variable name."
 msgid "<i>Please select from the 'Months' section...</i>"
 msgstr "<i>Vui lòng chọn trong vùng 'Tháng'...</i>"
 
@@ -856,13 +828,11 @@ msgstr ""
 
 #: src/taskEditorDialog.cpp:830
 #, kde-format
-#| msgid "Please enter the variable name."
 msgid "<i>Please select from the 'Hours' section...</i>"
 msgstr "<i>Vui lòng chọn trong vùng 'Giờ'...</i>"
 
 #: src/taskEditorDialog.cpp:847
 #, kde-format
-#| msgid "Please enter the variable name."
 msgid "<i>Please select from the 'Minutes' section...</i>"
 msgstr "<i>Vui lòng chọn trong vùng 'Phút'...</i>"
 
@@ -878,7 +848,6 @@ msgstr "Xoá hết"
 
 #: src/tasksWidget.cpp:32
 #, kde-format
-#| msgid "Scheduled Tasks"
 msgid "<b>Scheduled Tasks</b>"
 msgstr "<b>Tác vụ đã lập lịch</b>"
 
@@ -890,7 +859,6 @@ msgstr "Kết thúc việc thực thi kịch banrn. Gõ Enter hoặc Ctrl+C đ�
 
 #: src/tasksWidget.cpp:126
 #, kde-format
-#| msgid "Tasks"
 msgid "New Task"
 msgstr "Tác vụ mới"
 
@@ -906,26 +874,22 @@ msgstr "Người dùng"
 
 #: src/tasksWidget.cpp:227 src/variablesWidget.cpp:189
 #, kde-format
-#| msgid "Sat"
 msgid "Status"
 msgstr "Trạng thái"
 
 #: src/tasksWidget.cpp:229
 #, kde-format
-#| msgid "Scheduled Tasks"
 msgid "Scheduling Details"
 msgstr "Chi tiết lập lịch"
 
 #: src/tasksWidget.cpp:254
 #, kde-format
-#| msgid "No tasks..."
 msgctxt "Adds a new task"
 msgid "New &Task..."
 msgstr "Tác vụ &mới..."
 
 #: src/tasksWidget.cpp:255
 #, kde-format
-#| msgid "Create a new task or variable."
 msgid "Create a new task."
 msgstr "Tạo một tác vụ mới."
 
@@ -936,7 +900,6 @@ msgstr "Chỉnh sử&a..."
 
 #: src/tasksWidget.cpp:261
 #, kde-format
-#| msgid "Run the selected task now."
 msgid "Modify the selected task."
 msgstr "Chỉnh sửa tác vụ đã chọn."
 
@@ -947,7 +910,6 @@ msgstr "&Xoá"
 
 #: src/tasksWidget.cpp:267
 #, kde-format
-#| msgid "Delete the selected task or variable."
 msgid "Delete the selected task."
 msgstr "Xoá tác vụ đã chọn."
 
@@ -963,25 +925,21 @@ msgstr "Chạy tác vụ đã chọn ngay."
 
 #: src/taskWidget.cpp:44 src/variableWidget.cpp:41
 #, kde-format
-#| msgid "&Enabled"
 msgid "Enabled"
 msgstr "Bật"
 
 #: src/taskWidget.cpp:47 src/variableWidget.cpp:44
 #, kde-format
-#| msgid "Disabled"
 msgid "Disabled"
 msgstr "Tắt"
 
 #: src/variableEditorDialog.cpp:49
 #, kde-format
-#| msgid "Modify Variable"
 msgid "Add or modify a variable"
 msgstr "Thêm hoặc chỉnh sửa biến"
 
 #: src/variableEditorDialog.cpp:53
 #, kde-format
-#| msgid "&Variable:"
 msgctxt "The environmental variable name ie HOME, MAILTO etc"
 msgid "&Variable:"
 msgstr "&Biến:"
@@ -1008,19 +966,16 @@ msgstr "<i>Biến này bị tắt.</i>"
 
 #: src/variableEditorDialog.cpp:201
 #, kde-format
-#| msgid "Please enter the variable name."
 msgid "<i>Please enter the variable name...</i>"
 msgstr "<i>Vui lòng nhập tên biến...</i>"
 
 #: src/variableEditorDialog.cpp:208
 #, kde-format
-#| msgid "Please enter the variable value."
 msgid "<i>Please enter the variable value ...</i>"
 msgstr "<i>Vui lòng nhập giá trị biến...</i>"
 
 #: src/variablesWidget.cpp:30
 #, kde-format
-#| msgid "Variables"
 msgid "<b>Environment Variables</b>"
 msgstr "<b>Biến môi trường</b>"
 
@@ -1031,13 +986,11 @@ msgstr "Chỉnh sửa biến"
 
 #: src/variablesWidget.cpp:143
 #, kde-format
-#| msgid "Variables"
 msgid "New Variable"
 msgstr "Biến mới"
 
 #: src/variablesWidget.cpp:187
 #, kde-format
-#| msgid "Variables"
 msgid "Variable"
 msgstr "Biến"
 
@@ -1048,31 +1001,26 @@ msgstr "Giá trị"
 
 #: src/variablesWidget.cpp:190
 #, kde-format
-#| msgid "Co&mment:"
 msgid "Comment"
 msgstr "Chú thích"
 
 #: src/variablesWidget.cpp:205
 #, kde-format
-#| msgid "No variables..."
 msgctxt "Adds a new variable"
 msgid "New &Variable..."
 msgstr "&Biến mới..."
 
 #: src/variablesWidget.cpp:206
 #, kde-format
-#| msgid "Create a new task or variable."
 msgid "Create a new variable."
 msgstr "Tạo một biến mới."
 
 #: src/variablesWidget.cpp:212
 #, kde-format
-#| msgid "Edit the selected task or variable."
 msgid "Modify the selected variable."
 msgstr "Chỉnh sửa biến đã chọn."
 
 #: src/variablesWidget.cpp:218
 #, kde-format
-#| msgid "Delete the selected task or variable."
 msgid "Delete the selected variable."
 msgstr "Xoá biến đã chọn."

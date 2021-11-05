@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-20 00:30+0000\n"
+"POT-Creation-Date: 2021-11-03 00:32+0000\n"
 "PO-Revision-Date: 2021-10-20 21:02+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -13,6 +13,36 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 20.12.2\n"
+
+#: src/backends/drm/drm.json
+msgctxt "Name"
+msgid "drm"
+msgstr "drm"
+
+#: src/backends/fbdev/fbdev.json
+msgctxt "Name"
+msgid "framebuffer"
+msgstr "framebuffer"
+
+#: src/backends/virtual/virtual.json
+msgctxt "Name"
+msgid "virtual"
+msgstr "ảo"
+
+#: src/backends/wayland/wayland.json
+msgctxt "Name"
+msgid "wayland"
+msgstr "wayland"
+
+#: src/backends/x11/standalone/x11.json
+msgctxt "Name"
+msgid "x11-standalone"
+msgstr "x11-độc-lập"
+
+#: src/backends/x11/windowed/x11.json
+msgctxt "Name"
+msgid "x11"
+msgstr "x11"
 
 #: src/effects/backgroundcontrast/metadata.json
 msgctxt "Name"
@@ -214,36 +244,6 @@ msgctxt "Name"
 msgid "KWin Window Switcher"
 msgstr "Trình chuyển cửa sổ KWin"
 
-#: src/plugins/platforms/drm/drm.json
-msgctxt "Name"
-msgid "drm"
-msgstr "drm"
-
-#: src/plugins/platforms/fbdev/fbdev.json
-msgctxt "Name"
-msgid "framebuffer"
-msgstr "framebuffer"
-
-#: src/plugins/platforms/virtual/virtual.json
-msgctxt "Name"
-msgid "virtual"
-msgstr "ảo"
-
-#: src/plugins/platforms/wayland/wayland.json
-msgctxt "Name"
-msgid "wayland"
-msgstr "wayland"
-
-#: src/plugins/platforms/x11/standalone/x11.json
-msgctxt "Name"
-msgid "x11-standalone"
-msgstr "x11-độc-lập"
-
-#: src/plugins/platforms/x11/windowed/x11.json
-msgctxt "Name"
-msgid "x11"
-msgstr "x11"
-
 #: src/plugins/scenes/opengl/opengl.json
 msgctxt "Name"
 msgid "SceneOpenGL"
@@ -253,6 +253,36 @@ msgstr "SceneOpenGL"
 msgctxt "Name"
 msgid "SceneQPainter"
 msgstr "SceneQPainter"
+
+#: src/backends/drm/drm.json
+msgctxt "Description"
+msgid "Render through drm node."
+msgstr "Kết xuất qua nút drm."
+
+#: src/backends/fbdev/fbdev.json
+msgctxt "Description"
+msgid "Render to framebuffer."
+msgstr "Kết xuất vào framebuffer."
+
+#: src/backends/virtual/virtual.json
+msgctxt "Description"
+msgid "Render to a virtual framebuffer."
+msgstr "Kết xuất vào một framebuffer ảo."
+
+#: src/backends/wayland/wayland.json
+msgctxt "Description"
+msgid "Render to a nested window on running Wayland compositor."
+msgstr "Kết xuất vào một cửa sổ lồng trong trình kết hợp Wayland đang chạy."
+
+#: src/backends/x11/standalone/x11.json
+msgctxt "Description"
+msgid "Platform plugin for standalone x11 in kwin_x11."
+msgstr "Phần cài cắm nền tảng cho x11 độc lập trong kwin_x11."
+
+#: src/backends/x11/windowed/x11.json
+msgctxt "Description"
+msgid "Render to a nested window on X11 windowing system."
+msgstr "Kết xuất vào một cửa sổ lồng trong hệ thống cửa sổ X11."
 
 #: src/effects/backgroundcontrast/metadata.json
 msgctxt "Description"
@@ -438,36 +468,6 @@ msgstr "Làm méo các cửa sổ khi chúng di chuyển"
 msgctxt "Description"
 msgid "Magnify the entire desktop"
 msgstr "Phóng đại toàn bộ bàn làm việc"
-
-#: src/plugins/platforms/drm/drm.json
-msgctxt "Description"
-msgid "Render through drm node."
-msgstr "Kết xuất qua nút drm."
-
-#: src/plugins/platforms/fbdev/fbdev.json
-msgctxt "Description"
-msgid "Render to framebuffer."
-msgstr "Kết xuất vào framebuffer."
-
-#: src/plugins/platforms/virtual/virtual.json
-msgctxt "Description"
-msgid "Render to a virtual framebuffer."
-msgstr "Kết xuất vào một framebuffer ảo."
-
-#: src/plugins/platforms/wayland/wayland.json
-msgctxt "Description"
-msgid "Render to a nested window on running Wayland compositor."
-msgstr "Kết xuất vào một cửa sổ lồng trong trình kết hợp Wayland đang chạy."
-
-#: src/plugins/platforms/x11/standalone/x11.json
-msgctxt "Description"
-msgid "Platform plugin for standalone x11 in kwin_x11."
-msgstr "Phần cài cắm nền tảng cho x11 độc lập trong kwin_x11."
-
-#: src/plugins/platforms/x11/windowed/x11.json
-msgctxt "Description"
-msgid "Render to a nested window on X11 windowing system."
-msgstr "Kết xuất vào một cửa sổ lồng trong hệ thống cửa sổ X11."
 
 #: src/plugins/scenes/opengl/opengl.json
 msgctxt "Description"

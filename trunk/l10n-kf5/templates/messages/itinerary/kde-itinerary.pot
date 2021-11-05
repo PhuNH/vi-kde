@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-27 00:21+0000\n"
+"POT-Creation-Date: 2021-11-05 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -90,51 +90,51 @@ msgstr ""
 msgid "Extractor capabilities:"
 msgstr ""
 
-#: app/applicationcontroller.cpp:307
+#: app/applicationcontroller.cpp:312
 #, kde-format
 msgid "Download failed: %1"
 msgstr ""
 
-#: app/applicationcontroller.cpp:328 app/applicationcontroller.cpp:488
-#: app/applicationcontroller.cpp:503
+#: app/applicationcontroller.cpp:333 app/applicationcontroller.cpp:493
+#: app/applicationcontroller.cpp:508
 #, kde-format
 msgid "Import failed: %1"
 msgstr ""
 
-#: app/applicationcontroller.cpp:333
+#: app/applicationcontroller.cpp:338
 #, kde-format
 msgid "Import failed: File too large."
 msgstr ""
 
-#: app/applicationcontroller.cpp:391 app/applicationcontroller.cpp:560
-#: app/applicationcontroller.cpp:570
+#: app/applicationcontroller.cpp:396 app/applicationcontroller.cpp:565
+#: app/applicationcontroller.cpp:575
 #, kde-format
 msgid "One reservation imported."
 msgid_plural "%1 reservations imported."
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/applicationcontroller.cpp:398
+#: app/applicationcontroller.cpp:403
 #, kde-format
 msgid "Health certificate imported."
 msgstr ""
 
-#: app/applicationcontroller.cpp:403
+#: app/applicationcontroller.cpp:408
 #, kde-format
 msgid "Nothing imported."
 msgstr ""
 
-#: app/applicationcontroller.cpp:442 app/applicationcontroller.cpp:467
+#: app/applicationcontroller.cpp:447 app/applicationcontroller.cpp:472
 #, kde-format
 msgid "Export failed: %1"
 msgstr ""
 
-#: app/applicationcontroller.cpp:455 app/applicationcontroller.cpp:480
+#: app/applicationcontroller.cpp:460 app/applicationcontroller.cpp:485
 #, kde-format
 msgid "Export completed."
 msgstr ""
 
-#: app/applicationcontroller.cpp:527
+#: app/applicationcontroller.cpp:532
 #, kde-format
 msgid "Import completed."
 msgstr ""
@@ -144,7 +144,7 @@ msgstr ""
 msgid "In barcode scanning mode"
 msgstr ""
 
-#: app/BusDelegate.qml:24 app/TrainDelegate.qml:24 app/TransferDelegate.qml:44
+#: app/BusDelegate.qml:24 app/TrainDelegate.qml:27 app/TransferDelegate.qml:47
 #, kde-format
 msgid "%1 to %2"
 msgstr ""
@@ -159,7 +159,7 @@ msgstr ""
 msgid "To: %1"
 msgstr ""
 
-#: app/BusDelegate.qml:75 app/TrainDelegate.qml:81
+#: app/BusDelegate.qml:75 app/TrainDelegate.qml:84
 #, kde-format
 msgid "Arrival time: %1"
 msgstr ""
@@ -180,53 +180,58 @@ msgstr ""
 msgid "Alternatives"
 msgstr ""
 
-#: app/BusPage.qml:84 app/TrainEditor.qml:45 app/TrainPage.qml:144
+#: app/BusPage.qml:49 app/JourneySectionPage.qml:15
+#: app/TrainPage.qml:87
+#, kde-format
+msgid "Journey Details"
+msgstr ""
+
+#: app/BusPage.qml:93 app/TrainEditor.qml:126 app/TrainPage.qml:144
 #, kde-format
 msgid "Departure"
 msgstr ""
 
-#: app/BusPage.qml:87 app/BusPage.qml:106 app/CarRentalPage.qml:27
+#: app/BusPage.qml:96 app/BusPage.qml:115 app/CarRentalPage.qml:27
 #: app/CarRentalPage.qml:45 app/FlightPage.qml:115 app/FlightPage.qml:147
 #, kde-format
 msgid "Time:"
 msgstr ""
 
-#: app/BusPage.qml:91 app/BusPage.qml:110 app/TrainEditor.qml:50
-#: app/TrainEditor.qml:67
+#: app/BusPage.qml:100 app/BusPage.qml:119
 #, kde-format
 msgid "Station:"
 msgstr ""
 
-#: app/BusPage.qml:102 app/TrainEditor.qml:62 app/TrainPage.qml:194
+#: app/BusPage.qml:111 app/TrainEditor.qml:143 app/TrainPage.qml:194
 #, kde-format
 msgid "Arrival"
 msgstr ""
 
-#: app/BusPage.qml:121 app/TrainEditor.qml:79 app/TrainPage.qml:243
+#: app/BusPage.qml:130 app/TrainEditor.qml:160 app/TrainPage.qml:243
 #, kde-format
 msgid "Seat"
 msgstr ""
 
-#: app/BusPage.qml:125 app/FlightEditor.qml:57 app/FlightPage.qml:97
-#: app/TrainEditor.qml:89 app/TrainPage.qml:255
+#: app/BusPage.qml:136 app/FlightEditor.qml:57 app/FlightPage.qml:97
+#: app/TrainEditor.qml:170 app/TrainPage.qml:255
 #, kde-format
 msgid "Seat:"
 msgstr ""
 
-#: app/BusPage.qml:131 app/FlightPage.qml:170 app/TrainEditor.qml:100
+#: app/BusPage.qml:143 app/FlightPage.qml:170 app/TrainEditor.qml:181
 #: app/TrainPage.qml:287
 #, kde-format
 msgid "Booking"
 msgstr ""
 
-#: app/BusPage.qml:135 app/CarRentalPage.qml:87 app/FlightPage.qml:176
-#: app/TrainEditor.qml:104 app/TrainPage.qml:291
+#: app/BusPage.qml:147 app/CarRentalPage.qml:87 app/FlightPage.qml:176
+#: app/TrainEditor.qml:185 app/TrainPage.qml:291
 #, kde-format
 msgid "Reference:"
 msgstr ""
 
-#: app/BusPage.qml:139 app/CarRentalPage.qml:83 app/FlightPage.qml:176
-#: app/HotelPage.qml:69 app/RestaurantPage.qml:73 app/TrainEditor.qml:108
+#: app/BusPage.qml:151 app/CarRentalPage.qml:83 app/FlightPage.qml:176
+#: app/HotelPage.qml:69 app/RestaurantPage.qml:73 app/TrainEditor.qml:189
 #: app/TrainPage.qml:295
 #, kde-format
 msgid "Under name:"
@@ -437,13 +442,13 @@ msgstr ""
 msgid "No documents attached to this reservation."
 msgstr ""
 
-#: app/EditorPage.qml:38
+#: app/EditorPage.qml:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit date/time"
 msgstr ""
 
-#: app/EditorPage.qml:52
+#: app/EditorPage.qml:53
 #, kde-format
 msgid "Ok"
 msgstr ""
@@ -496,7 +501,7 @@ msgid "End Time:"
 msgstr ""
 
 #: app/favoritelocationmodel.cpp:129 app/favoritelocationmodel.cpp:149
-#: app/SettingsPage.qml:41 app/transfermanager.cpp:327
+#: app/SettingsPage.qml:41
 #, kde-format
 msgid "Home"
 msgstr ""
@@ -691,7 +696,7 @@ msgstr ""
 msgid "Number:"
 msgstr ""
 
-#: app/gpxexport.cpp:32 app/main.cpp:222 app/main.qml:17 app/main.qml:42
+#: app/gpxexport.cpp:32 app/main.cpp:228 app/main.qml:17 app/main.qml:42
 #, kde-format
 msgid "KDE Itinerary"
 msgstr ""
@@ -1134,11 +1139,6 @@ msgstr ""
 msgid "Drive %1 (%2)"
 msgstr ""
 
-#: app/JourneySectionPage.qml:15 app/TrainPage.qml:87
-#, kde-format
-msgid "Journey Details"
-msgstr ""
-
 #: app/JourneySectionPage.qml:51
 #, kde-format
 msgid "Direction: %1"
@@ -1162,7 +1162,7 @@ msgid_plural "%1 changes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/livedatamanager.cpp:638
+#: app/livedatamanager.cpp:641
 #, kde-format
 msgid "Itinerary change"
 msgstr ""
@@ -1282,17 +1282,22 @@ msgstr ""
 msgid "Type N"
 msgstr ""
 
-#: app/main.cpp:229
+#: app/main.cpp:235
 #, kde-format
 msgid "Digital Travel Assistant"
 msgstr ""
 
-#: app/main.cpp:230
+#: app/main.cpp:236
 #, kde-format
 msgid "Copyright © 2018-2021 The KDE Community"
 msgstr ""
 
-#: app/main.cpp:237
+#: app/main.cpp:242
+#, kde-format
+msgid "Open Itinerary on the given page"
+msgstr ""
+
+#: app/main.cpp:245
 #, kde-format
 msgid "PkPass or JSON-LD file to import."
 msgstr ""
@@ -1367,7 +1372,7 @@ msgstr ""
 msgid "Help"
 msgstr ""
 
-#: app/main.qml:158
+#: app/main.qml:170
 #, kde-format
 msgid "Map download finished."
 msgstr ""
@@ -1743,12 +1748,12 @@ msgstr ""
 msgid "Traveler %1"
 msgstr ""
 
-#: app/timelinemodel.cpp:205 app/TimelinePage.qml:24
+#: app/timelinemodel.cpp:204 app/TimelinePage.qml:24
 #, kde-format
 msgid "Today"
 msgstr ""
 
-#: app/timelinemodel.cpp:207
+#: app/timelinemodel.cpp:206
 #, kde-format
 msgctxt "weekday, date"
 msgid "%1, %2"
@@ -1789,33 +1794,70 @@ msgstr ""
 msgid "Departure Time:"
 msgstr ""
 
-#: app/TrainDelegate.qml:48
+#: app/TrainDelegate.qml:51
 #, kde-format
 msgid "Departure from %1 on platform %2"
 msgstr ""
 
-#: app/TrainDelegate.qml:69
+#: app/TrainDelegate.qml:72
 #, kde-format
 msgid "Arrival at %1 on platform %2"
 msgstr ""
 
-#: app/TrainEditor.qml:17
+#: app/TrainEditor.qml:18
 #, kde-format
 msgid "Edit Train Reservation"
 msgstr ""
 
-#: app/TrainEditor.qml:55 app/TrainEditor.qml:72 app/TrainPage.qml:167
+#: app/TrainEditor.qml:27
+#, kde-format
+msgid "Board later"
+msgstr ""
+
+#: app/TrainEditor.qml:33
+#, kde-format
+msgid "Alight earlier"
+msgstr ""
+
+#: app/TrainEditor.qml:75
+#, kde-format
+msgid "Board Later"
+msgstr ""
+
+#: app/TrainEditor.qml:85
+#, kde-format
+msgid "Change departure station"
+msgstr ""
+
+#: app/TrainEditor.qml:97
+#, kde-format
+msgid "Alight Earlier"
+msgstr ""
+
+#: app/TrainEditor.qml:107
+#, kde-format
+msgid "Change arrival station"
+msgstr ""
+
+#: app/TrainEditor.qml:131 app/TrainEditor.qml:148 app/TrainPage.qml:158
+#: app/TrainPage.qml:208
+#, kde-format
+msgctxt "train station"
+msgid "Station:"
+msgstr ""
+
+#: app/TrainEditor.qml:136 app/TrainEditor.qml:153 app/TrainPage.qml:167
 #: app/TrainPage.qml:217
 #, kde-format
 msgid "Platform:"
 msgstr ""
 
-#: app/TrainEditor.qml:84
+#: app/TrainEditor.qml:165
 #, kde-format
 msgid "Coach:"
 msgstr ""
 
-#: app/TrainEditor.qml:94 app/TrainPage.qml:261
+#: app/TrainEditor.qml:175 app/TrainPage.qml:261
 #, kde-format
 msgid "Class:"
 msgstr ""
@@ -1838,12 +1880,6 @@ msgstr ""
 #: app/TrainPage.qml:147
 #, kde-format
 msgid "Departure time:"
-msgstr ""
-
-#: app/TrainPage.qml:158 app/TrainPage.qml:208
-#, kde-format
-msgctxt "train station"
-msgid "Station:"
 msgstr ""
 
 #: app/TrainPage.qml:177 app/TrainPage.qml:227
@@ -1869,12 +1905,12 @@ msgctxt "bonus, discount or frequent traveler program"
 msgid "Program"
 msgstr ""
 
-#: app/TransferDelegate.qml:79
+#: app/TransferDelegate.qml:92
 #, kde-format
 msgid "Select..."
 msgstr ""
 
-#: app/TransferDelegate.qml:91
+#: app/TransferDelegate.qml:104
 #, kde-format
 msgid "Select transfer..."
 msgstr ""

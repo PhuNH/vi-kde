@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmymoney\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-27 00:20+0000\n"
+"POT-Creation-Date: 2021-11-05 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -8205,9 +8205,36 @@ msgctxt "@title:column Column heading for description"
 msgid "Description"
 msgstr ""
 
-#: kmymoney/plugins/checkprinting/checkprinting.cpp:189
+#: kmymoney/plugins/checkprinting/checkprinting.cpp:188
 #, kde-format
 msgid "Print check"
+msgstr ""
+
+#. i18n: ectx: label, entry (useCustomCheckTemplate), group (General)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useCustomCheckTemplate)
+#: kmymoney/plugins/checkprinting/checkprintingsettings.kcfg:10
+#: kmymoney/plugins/checkprinting/checkprintingsettingsdecl.ui:36
+#, kde-format
+msgid "Use custom check template"
+msgstr ""
+
+#. i18n: ectx: label, entry (checkTemplateFile), group (General)
+#: kmymoney/plugins/checkprinting/checkprintingsettings.kcfg:14
+#, kde-format
+msgid ""
+"The check template file which defines the way the printed check will look."
+msgstr ""
+
+#. i18n: ectx: label, entry (printedChecks), group (General)
+#: kmymoney/plugins/checkprinting/checkprintingsettings.kcfg:18
+#, kde-format
+msgid "A list containing the id's of already printed checks."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CheckPrintingSettingsDecl)
+#: kmymoney/plugins/checkprinting/checkprintingsettingsdecl.ui:20
+#, kde-format
+msgid "Checking settings"
 msgstr ""
 
 #: kmymoney/plugins/checkprinting/numbertowords.cpp:14
@@ -8462,33 +8489,6 @@ msgctxt ""
 "@label The first argument is the amount in words, the second is the "
 "denominator of the fractional part"
 msgid "%1 and No/%2"
-msgstr ""
-
-#. i18n: ectx: label, entry (useCustomCheckTemplate), group (General)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useCustomCheckTemplate)
-#: kmymoney/plugins/checkprinting/pluginsettings.kcfg:10
-#: kmymoney/plugins/checkprinting/pluginsettingsdecl.ui:36
-#, kde-format
-msgid "Use custom check template"
-msgstr ""
-
-#. i18n: ectx: label, entry (checkTemplateFile), group (General)
-#: kmymoney/plugins/checkprinting/pluginsettings.kcfg:14
-#, kde-format
-msgid ""
-"The check template file which defines the way the printed check will look."
-msgstr ""
-
-#. i18n: ectx: label, entry (printedChecks), group (General)
-#: kmymoney/plugins/checkprinting/pluginsettings.kcfg:18
-#, kde-format
-msgid "A list containing the id's of already printed checks."
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, PluginSettingsDecl)
-#: kmymoney/plugins/checkprinting/pluginsettingsdecl.ui:20
-#, kde-format
-msgid "Checking settings"
 msgstr ""
 
 #: kmymoney/plugins/csv/export/csvexportdlg.cpp:56
@@ -10621,6 +10621,106 @@ msgstr ""
 msgid "Export as"
 msgstr ""
 
+#. i18n: ectx: label, entry (createAlarm), group (General)
+#: kmymoney/plugins/icalendar/export/icalendarsettings.kcfg:9
+#, kde-format
+msgid "To create an alarm for the exported schedules"
+msgstr ""
+
+#. i18n: ectx: label, entry (beforeAfter), group (General)
+#: kmymoney/plugins/icalendar/export/icalendarsettings.kcfg:13
+#, kde-format
+msgid ""
+"Tells whether the reminder should be triggered before or after the schedule "
+"start"
+msgstr ""
+
+#. i18n: ectx: label, entry (timeUnits), group (General)
+#: kmymoney/plugins/icalendar/export/icalendarsettings.kcfg:17
+#, kde-format
+msgid "The number of units of the interval before or after the schedule starts"
+msgstr ""
+
+#. i18n: ectx: label, entry (timeUnitInSeconds), group (General)
+#: kmymoney/plugins/icalendar/export/icalendarsettings.kcfg:21
+#, kde-format
+msgid ""
+"The units of the interval before or after the schedule starts in seconds "
+msgstr ""
+
+#. i18n: ectx: label, entry (repeatingReminders), group (General)
+#: kmymoney/plugins/icalendar/export/icalendarsettings.kcfg:25
+#, kde-format
+msgid "If the reminders should repeat or not"
+msgstr ""
+
+#. i18n: ectx: label, entry (intervalBetweenRemindersTimeUnits), group (General)
+#: kmymoney/plugins/icalendar/export/icalendarsettings.kcfg:29
+#, kde-format
+msgid "The number of units of the interval between reminders"
+msgstr ""
+
+#. i18n: ectx: label, entry (intervalBetweenRemindersTimeUnitInSeconds), group (General)
+#: kmymoney/plugins/icalendar/export/icalendarsettings.kcfg:33
+#, kde-format
+msgid "The units of the interval between reminders in seconds "
+msgstr ""
+
+#. i18n: ectx: label, entry (numberOfReminders), group (General)
+#: kmymoney/plugins/icalendar/export/icalendarsettings.kcfg:37
+#, kde-format
+msgid "The number of reminders to be generated for the schedule "
+msgstr ""
+
+#. i18n: ectx: label, entry (icalendarFile), group (General)
+#: kmymoney/plugins/icalendar/export/icalendarsettings.kcfg:41
+#, kde-format
+msgid "The icalendar file in which to export the schedules."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ICalendarSettingsDecl)
+#: kmymoney/plugins/icalendar/export/icalendarsettingsdecl.ui:26
+#, kde-format
+msgid "Icalendar export settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_createAlarm)
+#: kmymoney/plugins/icalendar/export/icalendarsettingsdecl.ui:34
+#, kde-format
+msgid "Create reminders"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_repeatingReminders)
+#: kmymoney/plugins/icalendar/export/icalendarsettingsdecl.ui:70
+#, kde-format
+msgctxt "@action whether the schedule will have more occurrences over time"
+msgid "Repeating:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: kmymoney/plugins/icalendar/export/icalendarsettingsdecl.ui:79
+#, kde-format
+msgid "How often:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: kmymoney/plugins/icalendar/export/icalendarsettingsdecl.ui:89
+#, kde-format
+msgid "Interval:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: kmymoney/plugins/icalendar/export/icalendarsettingsdecl.ui:124
+#, kde-format
+msgid "Time(s)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, iCalendar_file)
+#: kmymoney/plugins/icalendar/export/icalendarsettingsdecl.ui:149
+#, kde-format
+msgid "iCalendar file"
+msgstr ""
+
 #: kmymoney/plugins/icalendar/export/kcm_icalendarexporter.cpp:27
 #: kmymoney/plugins/icalendar/export/kcm_icalendarexporter.cpp:31
 #, kde-format
@@ -10658,106 +10758,6 @@ msgstr ""
 #: kmymoney/plugins/icalendar/export/kcm_icalendarexporter.cpp:47
 #, kde-format
 msgid "Copyright 2009"
-msgstr ""
-
-#. i18n: ectx: label, entry (createAlarm), group (General)
-#: kmymoney/plugins/icalendar/export/pluginsettings.kcfg:9
-#, kde-format
-msgid "To create an alarm for the exported schedules"
-msgstr ""
-
-#. i18n: ectx: label, entry (beforeAfter), group (General)
-#: kmymoney/plugins/icalendar/export/pluginsettings.kcfg:13
-#, kde-format
-msgid ""
-"Tells whether the reminder should be triggered before or after the schedule "
-"start"
-msgstr ""
-
-#. i18n: ectx: label, entry (timeUnits), group (General)
-#: kmymoney/plugins/icalendar/export/pluginsettings.kcfg:17
-#, kde-format
-msgid "The number of units of the interval before or after the schedule starts"
-msgstr ""
-
-#. i18n: ectx: label, entry (timeUnitInSeconds), group (General)
-#: kmymoney/plugins/icalendar/export/pluginsettings.kcfg:21
-#, kde-format
-msgid ""
-"The units of the interval before or after the schedule starts in seconds "
-msgstr ""
-
-#. i18n: ectx: label, entry (repeatingReminders), group (General)
-#: kmymoney/plugins/icalendar/export/pluginsettings.kcfg:25
-#, kde-format
-msgid "If the reminders should repeat or not"
-msgstr ""
-
-#. i18n: ectx: label, entry (intervalBetweenRemindersTimeUnits), group (General)
-#: kmymoney/plugins/icalendar/export/pluginsettings.kcfg:29
-#, kde-format
-msgid "The number of units of the interval between reminders"
-msgstr ""
-
-#. i18n: ectx: label, entry (intervalBetweenRemindersTimeUnitInSeconds), group (General)
-#: kmymoney/plugins/icalendar/export/pluginsettings.kcfg:33
-#, kde-format
-msgid "The units of the interval between reminders in seconds "
-msgstr ""
-
-#. i18n: ectx: label, entry (numberOfReminders), group (General)
-#: kmymoney/plugins/icalendar/export/pluginsettings.kcfg:37
-#, kde-format
-msgid "The number of reminders to be generated for the schedule "
-msgstr ""
-
-#. i18n: ectx: label, entry (icalendarFile), group (General)
-#: kmymoney/plugins/icalendar/export/pluginsettings.kcfg:41
-#, kde-format
-msgid "The icalendar file in which to export the schedules."
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, PluginSettingsDecl)
-#: kmymoney/plugins/icalendar/export/pluginsettingsdecl.ui:26
-#, kde-format
-msgid "Icalendar export settings"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_createAlarm)
-#: kmymoney/plugins/icalendar/export/pluginsettingsdecl.ui:34
-#, kde-format
-msgid "Create reminders"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_repeatingReminders)
-#: kmymoney/plugins/icalendar/export/pluginsettingsdecl.ui:70
-#, kde-format
-msgctxt "@action whether the schedule will have more occurrences over time"
-msgid "Repeating:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: kmymoney/plugins/icalendar/export/pluginsettingsdecl.ui:79
-#, kde-format
-msgid "How often:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: kmymoney/plugins/icalendar/export/pluginsettingsdecl.ui:89
-#, kde-format
-msgid "Interval:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: kmymoney/plugins/icalendar/export/pluginsettingsdecl.ui:124
-#, kde-format
-msgid "Time(s)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, iCalendar_file)
-#: kmymoney/plugins/icalendar/export/pluginsettingsdecl.ui:149
-#, kde-format
-msgid "iCalendar file"
 msgstr ""
 
 #: kmymoney/plugins/icalendar/export/schedulestoicalendar.cpp:207
@@ -17313,13 +17313,13 @@ msgid "Interest Income"
 msgstr ""
 
 #: kmymoney/views/investtransactioneditor.cpp:245
-#: kmymoney/views/newtransactioneditor.cpp:211
+#: kmymoney/views/newtransactioneditor.cpp:213
 #, kde-format
 msgid "The posting date of the transaction."
 msgstr ""
 
 #: kmymoney/views/investtransactioneditor.cpp:269
-#: kmymoney/views/newtransactioneditor.cpp:225
+#: kmymoney/views/newtransactioneditor.cpp:227
 #, kde-format
 msgid "The posting date is prior to the opening date of account <b>%1</b>."
 msgstr ""
@@ -18154,67 +18154,67 @@ msgstr ""
 msgid "Ledgers"
 msgstr ""
 
-#: kmymoney/views/kmymoneyview.cpp:493
+#: kmymoney/views/kmymoneyview.cpp:497
 #, kde-format
 msgid "Show home page"
 msgstr ""
 
-#: kmymoney/views/kmymoneyview.cpp:494
+#: kmymoney/views/kmymoneyview.cpp:498
 #, kde-format
 msgid "Show institutions page"
 msgstr ""
 
-#: kmymoney/views/kmymoneyview.cpp:495
+#: kmymoney/views/kmymoneyview.cpp:499
 #, kde-format
 msgid "Show accounts page"
 msgstr ""
 
-#: kmymoney/views/kmymoneyview.cpp:496
+#: kmymoney/views/kmymoneyview.cpp:500
 #, kde-format
 msgid "Show scheduled transactions page"
 msgstr ""
 
-#: kmymoney/views/kmymoneyview.cpp:497
+#: kmymoney/views/kmymoneyview.cpp:501
 #, kde-format
 msgid "Show categories page"
 msgstr ""
 
-#: kmymoney/views/kmymoneyview.cpp:498
+#: kmymoney/views/kmymoneyview.cpp:502
 #, kde-format
 msgid "Show tags page"
 msgstr ""
 
-#: kmymoney/views/kmymoneyview.cpp:499
+#: kmymoney/views/kmymoneyview.cpp:503
 #, kde-format
 msgid "Show payees page"
 msgstr ""
 
-#: kmymoney/views/kmymoneyview.cpp:500
+#: kmymoney/views/kmymoneyview.cpp:504
 #, kde-format
 msgid "Show ledgers page"
 msgstr ""
 
-#: kmymoney/views/kmymoneyview.cpp:501
+#: kmymoney/views/kmymoneyview.cpp:505
 #, kde-format
 msgid "Show investments page"
 msgstr ""
 
-#: kmymoney/views/kmymoneyview.cpp:502
+#: kmymoney/views/kmymoneyview.cpp:506
 #, kde-format
 msgid "Show reports page"
 msgstr ""
 
-#: kmymoney/views/kmymoneyview.cpp:503
+#: kmymoney/views/kmymoneyview.cpp:507
 #, kde-format
 msgid "Show budget page"
 msgstr ""
 
-#: kmymoney/views/kmymoneyview.cpp:504
+#: kmymoney/views/kmymoneyview.cpp:508
 #, kde-format
 msgid "Show forecast page"
 msgstr ""
 
-#: kmymoney/views/kmymoneyview.cpp:505
+#: kmymoney/views/kmymoneyview.cpp:509
 #, kde-format
 msgid "Show outbox page"
 msgstr ""
@@ -19076,24 +19076,24 @@ msgstr ""
 msgid "TextLabel"
 msgstr ""
 
-#: kmymoney/views/newspliteditor.cpp:133 kmymoney/views/newtransactioneditor.cpp:237
+#: kmymoney/views/newspliteditor.cpp:136 kmymoney/views/newtransactioneditor.cpp:239
 #, kde-format
 msgid "The cost center this transaction should be assigned to."
 msgstr ""
 
-#: kmymoney/views/newspliteditor.cpp:136 kmymoney/views/newtransactioneditor.cpp:240
+#: kmymoney/views/newspliteditor.cpp:139 kmymoney/views/newtransactioneditor.cpp:242
 #, kde-format
 msgid ""
 "A cost center assignment is required for a transaction in the selected "
 "category."
 msgstr ""
 
-#: kmymoney/views/newspliteditor.cpp:177 kmymoney/views/newtransactioneditor.cpp:346
+#: kmymoney/views/newspliteditor.cpp:180 kmymoney/views/newtransactioneditor.cpp:348
 #, kde-format
 msgid "The check number used for this transaction."
 msgstr ""
 
-#: kmymoney/views/newspliteditor.cpp:186 kmymoney/views/newtransactioneditor.cpp:356
+#: kmymoney/views/newspliteditor.cpp:189 kmymoney/views/newtransactioneditor.cpp:358
 #, kde-format
 msgid "The check number <b>%1</b> has already been used in this account."
 msgstr ""
@@ -19212,13 +19212,13 @@ msgid ""
 "to add accounts.</p></body></html>"
 msgstr ""
 
-#: kmymoney/views/splitdialog.cpp:274
+#: kmymoney/views/splitdialog.cpp:276
 #, kde-format
 msgctxt "Split editor summary"
 msgid "Assigned too much"
 msgstr ""
 
-#: kmymoney/views/splitdialog.cpp:276
+#: kmymoney/views/splitdialog.cpp:278
 #, kde-format
 msgctxt "Split editor summary"
 msgid "Unassigned"
@@ -19305,31 +19305,31 @@ msgstr ""
 msgid "&Cancel"
 msgstr ""
 
-#: kmymoney/views/splitview.cpp:89
+#: kmymoney/views/splitview.cpp:90
 #, kde-format
 msgctxt "@title:menu split context menu"
 msgid "Split Options"
 msgstr ""
 
-#: kmymoney/views/splitview.cpp:91
+#: kmymoney/views/splitview.cpp:92
 #, kde-format
 msgctxt "@item:inmenu Create a split"
 msgid "New..."
 msgstr ""
 
-#: kmymoney/views/splitview.cpp:106
+#: kmymoney/views/splitview.cpp:107
 #, kde-format
 msgctxt "@item:inmenu Edit a split"
 msgid "Edit..."
 msgstr ""
 
-#: kmymoney/views/splitview.cpp:111
+#: kmymoney/views/splitview.cpp:112
 #, kde-format
 msgctxt "@item:inmenu Duplicate selected split(s)"
 msgid "Duplicate"
 msgstr ""
 
-#: kmymoney/views/splitview.cpp:154
+#: kmymoney/views/splitview.cpp:155
 #, kde-format
 msgctxt "@item:inmenu Delete selected split(s)"
 msgid "Delete"

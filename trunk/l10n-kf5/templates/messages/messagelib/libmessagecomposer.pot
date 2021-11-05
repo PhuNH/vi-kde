@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messagelib\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-25 00:19+0000\n"
+"POT-Creation-Date: 2021-11-05 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -258,42 +258,49 @@ msgid "&Replace"
 msgstr ""
 
 #: attachment/attachmentcontrollerbase.cpp:848
-#: attachment/attachmentcontrollerbase.cpp:904
+#: attachment/attachmentcontrollerbase.cpp:906
 #, kde-format
 msgid "Do you really want to attach this directory \"%1\"?"
 msgstr ""
 
 #: attachment/attachmentcontrollerbase.cpp:849
-#: attachment/attachmentcontrollerbase.cpp:905
+#: attachment/attachmentcontrollerbase.cpp:907
 #, kde-format
 msgctxt "@title:window"
 msgid "Attach directory"
 msgstr ""
 
-#: attachment/attachmentcontrollerbase.cpp:883
+#: attachment/attachmentcontrollerbase.cpp:850
+#: attachment/attachmentcontrollerbase.cpp:908
+#, kde-format
+msgctxt "@action:button"
+msgid "Attach"
+msgstr ""
+
+#: attachment/attachmentcontrollerbase.cpp:885
 #, kde-format
 msgctxt "@title:window"
 msgid "Attach Directory"
 msgstr ""
 
-#: attachment/attachmentcontrollerbase.cpp:892
+#: attachment/attachmentcontrollerbase.cpp:894
 #, kde-format
 msgctxt "@title:window"
 msgid "Attach File"
 msgstr ""
 
-#: attachment/attachmentcontrollerbase.cpp:933
+#: attachment/attachmentcontrollerbase.cpp:937
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed to attach file"
 msgstr ""
 
-#: attachment/attachmentcontrollerbase.cpp:957
+#: attachment/attachmentcontrollerbase.cpp:961
 #, kde-format
 msgid "Attach Public OpenPGP Key"
 msgstr ""
 
-#: attachment/attachmentcontrollerbase.cpp:958
+#: attachment/attachmentcontrollerbase.cpp:962
 #, kde-format
 msgid "Select the public key which should be attached."
 msgstr ""
@@ -417,6 +424,18 @@ msgstr ""
 #: composer/composerviewbase.cpp:526
 #, kde-format
 msgid "Auto Resize Images"
+msgstr ""
+
+#: composer/composerviewbase.cpp:527
+#, kde-format
+msgctxt "@action:button"
+msgid "Auto Resize"
+msgstr ""
+
+#: composer/composerviewbase.cpp:528
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Resize"
 msgstr ""
 
 #: composer/composerviewbase.cpp:788 composer/composerviewbase.cpp:802
@@ -1265,17 +1284,17 @@ msgstr ""
 msgid "Invalid folder"
 msgstr ""
 
-#: helper/messagefactoryng.cpp:410 helper/messagefactoryng.cpp:733
+#: helper/messagefactoryng.cpp:409 helper/messagefactoryng.cpp:732
 #, kde-format
 msgid "forwarded message"
 msgstr ""
 
-#: helper/messagefactoryng.cpp:578
+#: helper/messagefactoryng.cpp:577
 #, kde-format
 msgid "Receipt: "
 msgstr ""
 
-#: helper/messagefactoryng.cpp:705
+#: helper/messagefactoryng.cpp:704
 #, kde-format
 msgid ""
 "\n"
@@ -2393,6 +2412,12 @@ msgstr ""
 msgid "No mail dispatcher."
 msgstr ""
 
+#: utils/util.cpp:295
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Mail Dispatcher"
+msgstr ""
+
 #: utils/util.cpp:310
 #, kde-format
 msgid ""
@@ -2403,4 +2428,10 @@ msgstr ""
 #: utils/util.cpp:311
 #, kde-format
 msgid "Mail dispatcher offline."
+msgstr ""
+
+#: utils/util.cpp:312
+#, kde-format
+msgctxt "@action:button"
+msgid "Set Online"
 msgstr ""

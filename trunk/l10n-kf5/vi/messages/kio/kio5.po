@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-27 00:15+0000\n"
+"POT-Creation-Date: 2021-11-04 00:14+0000\n"
 "PO-Revision-Date: 2021-10-28 14:39+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -48,7 +48,7 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr "Không thể tạo io-slave: %1"
 
-#: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1283
+#: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1284
 #, kde-format
 msgctxt ""
 "The first arg is the path to the symlink that couldn't be created, the "
@@ -341,7 +341,7 @@ msgid ""
 msgstr ""
 "Cần có đặc quyền gốc để hoàn tất thao tác chuyển. Bạn có muốn tiếp tục không?"
 
-#: core/job.cpp:294 ioslaves/file/file_unix.cpp:124
+#: core/job.cpp:294 ioslaves/file/file_unix.cpp:125
 #, kde-format
 msgid "Rename"
 msgstr "Đổi tên"
@@ -354,7 +354,7 @@ msgstr ""
 "Cần có đặc quyền gốc để hoàn tất việc đổi tên. Bạn có muốn tiếp tục không?"
 
 #: core/job.cpp:300 filewidgets/knewfilemenu.cpp:597
-#: ioslaves/file/file_unix.cpp:128
+#: ioslaves/file/file_unix.cpp:129
 #, kde-format
 msgid "Create Symlink"
 msgstr "Tạo liên kết tượng trưng"
@@ -3149,29 +3149,29 @@ msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "Âm thanh"
 
-#: filewidgets/kfileplacesmodel.cpp:1364
+#: filewidgets/kfileplacesmodel.cpp:1369
 #, kde-format
 msgid "&Release '%1'"
 msgstr "&Rút '%1'"
 
-#: filewidgets/kfileplacesmodel.cpp:1366
+#: filewidgets/kfileplacesmodel.cpp:1371
 #, kde-format
 msgid "&Safely Remove '%1'"
 msgstr "Rút an &toàn '%1'"
 
 # msgid "Unmount"
-#: filewidgets/kfileplacesmodel.cpp:1369
+#: filewidgets/kfileplacesmodel.cpp:1374
 #, kde-format
 msgid "&Unmount '%1'"
 msgstr "Bỏ &gắn kết '%1'"
 
 # msgid "Eject"
-#: filewidgets/kfileplacesmodel.cpp:1389
+#: filewidgets/kfileplacesmodel.cpp:1394
 #, kde-format
 msgid "&Eject '%1'"
 msgstr "Rú&t '%1'"
 
-#: filewidgets/kfileplacesmodel.cpp:1425
+#: filewidgets/kfileplacesmodel.cpp:1430
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Thiết bị '%1' không phải là đĩa và không thể rút ra được."
@@ -3179,13 +3179,13 @@ msgstr "Thiết bị '%1' không phải là đĩa và không thể rút ra đư�
 # msgid ""
 # An error occurred while attempting to %1, %2. A summary of the reasons is
 # below.<ul>
-#: filewidgets/kfileplacesmodel.cpp:1460
+#: filewidgets/kfileplacesmodel.cpp:1465
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Lỗi xảy ra khi đang truy cập '%1', phản hồi từ hệ thống: %2"
 
 # msgid "An unexpected error (%1) occurred while attempting to %2."
-#: filewidgets/kfileplacesmodel.cpp:1462
+#: filewidgets/kfileplacesmodel.cpp:1467
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "Lỗi xảy ra khi đang truy cập '%1'"
@@ -4009,77 +4009,77 @@ msgstr "Việc bỏ gắn kết không được Windows CE hỗ trợ."
 msgid "Could not find program \"umount\""
 msgstr "Không tìm được chương trình \"unmount\""
 
-#: ioslaves/file/file_unix.cpp:100
+#: ioslaves/file/file_unix.cpp:101
 #, kde-format
 msgid "Change File Permissions"
 msgstr "Thay đổi quyền truy cập tệp"
 
-#: ioslaves/file/file_unix.cpp:101
+#: ioslaves/file/file_unix.cpp:102
 #, kde-format
 msgid "New Permissions: %1"
 msgstr "Quyền truy cập mới: %1"
 
-#: ioslaves/file/file_unix.cpp:104
+#: ioslaves/file/file_unix.cpp:105
 #, kde-format
 msgid "Change File Owner"
 msgstr "Thay đổi chủ sở hữu tệp"
 
-#: ioslaves/file/file_unix.cpp:105
+#: ioslaves/file/file_unix.cpp:106
 #, kde-format
 msgid "New Owner: UID=%1, GID=%2"
 msgstr "Chủ sở hữu mới: UID=%1, GID=%2"
 
-#: ioslaves/file/file_unix.cpp:108
+#: ioslaves/file/file_unix.cpp:109
 #, kde-format
 msgid "Remove File"
 msgstr "Xoá tệp"
 
-#: ioslaves/file/file_unix.cpp:111
+#: ioslaves/file/file_unix.cpp:112
 #, kde-format
 msgid "Remove Directory"
 msgstr "Xoá thư mục"
 
-#: ioslaves/file/file_unix.cpp:114
+#: ioslaves/file/file_unix.cpp:115
 #, kde-format
 msgid "Create Directory"
 msgstr "Tạo thư mục"
 
-#: ioslaves/file/file_unix.cpp:115
+#: ioslaves/file/file_unix.cpp:116
 #, kde-format
 msgid "Directory Permissions: %1"
 msgstr "Quyền truy cập thư mục: %1"
 
-#: ioslaves/file/file_unix.cpp:118
+#: ioslaves/file/file_unix.cpp:119
 #, kde-format
 msgid "Open File"
 msgstr "Mở tệp"
 
-#: ioslaves/file/file_unix.cpp:121
+#: ioslaves/file/file_unix.cpp:122
 #, kde-format
 msgid "Open Directory"
 msgstr "Mở thư mục"
 
-#: ioslaves/file/file_unix.cpp:125
+#: ioslaves/file/file_unix.cpp:126
 #, kde-format
 msgid "New Filename: %1"
 msgstr "Tên tệp mới: %1"
 
-#: ioslaves/file/file_unix.cpp:129
+#: ioslaves/file/file_unix.cpp:130
 #, kde-format
 msgid "Target: %1"
 msgstr "Đích: %1"
 
-#: ioslaves/file/file_unix.cpp:132
+#: ioslaves/file/file_unix.cpp:133
 #, kde-format
 msgid "Change Timestamp"
 msgstr "Đổi mốc thời gian"
 
-#: ioslaves/file/file_unix.cpp:135
+#: ioslaves/file/file_unix.cpp:136
 #, kde-format
 msgid "Unknown Action"
 msgstr "Hành động không rõ"
 
-#: ioslaves/file/file_unix.cpp:140
+#: ioslaves/file/file_unix.cpp:141
 #, kde-format
 msgid ""
 "Action: %1\n"
@@ -4090,22 +4090,22 @@ msgstr ""
 "Nguồn: %2\n"
 "%3"
 
-#: ioslaves/file/file_unix.cpp:832
+#: ioslaves/file/file_unix.cpp:833
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr "Không thể chép tệp từ %1 đến %2. (Lỗi: %3)"
 
-#: ioslaves/file/file_unix.cpp:1057
+#: ioslaves/file/file_unix.cpp:1058
 #, kde-format
 msgid "No media in device for %1"
 msgstr "Không có phương tiện trong thiết bị cho %1"
 
-#: ioslaves/file/file_unix.cpp:1368
+#: ioslaves/file/file_unix.cpp:1369
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr "Không lấy được mã định danh người dùng cho tên người dùng đã cho %1"
 
-#: ioslaves/file/file_unix.cpp:1380
+#: ioslaves/file/file_unix.cpp:1381
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr "Không lấy được mã định danh nhóm cho tên nhóm đã cho %1"
@@ -8749,7 +8749,7 @@ msgstr "Tên tệp cho nội dung bảng nháp:"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: widgets/paste.cpp:160
+#: widgets/paste.cpp:161
 #, kde-format
 msgid ""
 "The clipboard has changed since you used 'paste': the chosen data format is "

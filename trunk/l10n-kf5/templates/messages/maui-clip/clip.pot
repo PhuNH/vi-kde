@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maui-clip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-14 00:16+0000\n"
+"POT-Creation-Date: 2021-11-03 00:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -43,32 +43,32 @@ msgstr ""
 msgid "Search videos..."
 msgstr ""
 
-#: src/main.cpp:96
+#: src/main.cpp:99
 #, kde-format
 msgid "Clip"
 msgstr ""
 
-#: src/main.cpp:96
+#: src/main.cpp:99
 #, kde-format
 msgid "Browse and play your videos."
 msgstr ""
 
-#: src/main.cpp:97
+#: src/main.cpp:100
 #, kde-format
 msgid "© 2019-%1 Maui Development Team"
 msgstr ""
 
-#: src/main.cpp:98
+#: src/main.cpp:101
 #, kde-format
 msgid "Camilo Higuita"
 msgstr ""
 
-#: src/main.cpp:98
+#: src/main.cpp:101
 #, kde-format
 msgid "Developer"
 msgstr ""
 
-#: src/main.qml:101
+#: src/main.qml:101 src/main.qml:233
 #, kde-format
 msgid "Open URL"
 msgstr ""
@@ -105,52 +105,52 @@ msgstr ""
 msgid "Now playing"
 msgstr ""
 
-#: src/main.qml:206
-#, kde-format
-msgid "Player"
-msgstr ""
-
-#: src/main.qml:266 src/views/youtube/YouTubeView.qml:26
-#, kde-format
-msgid "Nothing Here!"
-msgstr ""
-
-#: src/main.qml:267
-#, kde-format
-msgid "Open a new video from your collection or file system."
-msgstr ""
-
-#: src/main.qml:288 src/main.qml:510 src/views/settings/SettingsDialog.qml:39
-#, kde-format
-msgid "Collection"
-msgstr ""
-
-#: src/main.qml:295
+#: src/main.qml:220
 #, kde-format
 msgid "Open"
 msgstr ""
 
-#: src/main.qml:416
-#, kde-format
-msgid "Toggle SideBar"
-msgstr ""
-
-#: src/main.qml:484
+#: src/main.qml:244
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: src/main.qml:496
+#: src/main.qml:256
 #, kde-format
 msgid "About"
 msgstr ""
 
-#: src/main.qml:517 src/views/ItemMenu.qml:31
+#: src/main.qml:264 src/main.qml:385 src/views/settings/SettingsDialog.qml:39
+#, kde-format
+msgid "Collection"
+msgstr ""
+
+#: src/main.qml:271 src/views/ItemMenu.qml:31
 #, kde-format
 msgid "Tags"
 msgstr ""
 
-#: src/views/BrowserLayout.qml:71
+#: src/main.qml:302
+#, kde-format
+msgid "Player"
+msgstr ""
+
+#: src/main.qml:363 src/views/youtube/YouTubeView.qml:26
+#, kde-format
+msgid "Nothing Here!"
+msgstr ""
+
+#: src/main.qml:364
+#, kde-format
+msgid "Open a new video from your collection or file system."
+msgstr ""
+
+#: src/main.qml:504
+#, kde-format
+msgid "Toggle SideBar"
+msgstr ""
+
+#: src/views/BrowserLayout.qml:67
 #, kde-format
 msgid "Search %1 video"
 msgid_plural "Search %1 videos"
@@ -204,7 +204,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/views/player/MPVPlayer.qml:31 src/views/settings/SettingsDialog.qml:172
+#: src/views/player/MPVPlayer.qml:31 src/views/settings/SettingsDialog.qml:173
 #, kde-format
 msgid "Subtitles"
 msgstr ""
@@ -212,6 +212,11 @@ msgstr ""
 #: src/views/player/MPVPlayer.qml:49
 #, kde-format
 msgid "Audio Tracks"
+msgstr ""
+
+#: src/views/player/PlayerView.qml:44
+#, kde-format
+msgid "Playing mode"
 msgstr ""
 
 #: src/views/player/Playlist.qml:21 src/views/tags/TagsView.qml:40
@@ -344,89 +349,89 @@ msgstr ""
 msgid "Configure the player audio behaviour."
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:157
+#: src/views/settings/SettingsDialog.qml:158
 #, kde-format
 msgid "Preferred Language"
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:158
+#: src/views/settings/SettingsDialog.qml:159
 #, kde-format
 msgid "Preferred language if available."
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:173
+#: src/views/settings/SettingsDialog.qml:174
 #, kde-format
 msgid "Configure the app UI."
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:177
+#: src/views/settings/SettingsDialog.qml:179
 #, kde-format
 msgid "Directory"
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:178
+#: src/views/settings/SettingsDialog.qml:180
 #, kde-format
 msgid "Folder path containing the subtitle files."
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:208
+#: src/views/settings/SettingsDialog.qml:210
 #, kde-format
 msgid "Font Family"
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:221
+#: src/views/settings/SettingsDialog.qml:223
 #, kde-format
 msgid "Font Size"
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:236
+#: src/views/settings/SettingsDialog.qml:238
 #, kde-format
 msgid "YouTube"
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:237
+#: src/views/settings/SettingsDialog.qml:239
 #, kde-format
 msgid "Configure YouTube details."
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:241
+#: src/views/settings/SettingsDialog.qml:243
 #, kde-format
 msgid "Key"
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:242
+#: src/views/settings/SettingsDialog.qml:244
 #, kde-format
 msgid "Personal key for limitless browsing."
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:255
+#: src/views/settings/SettingsDialog.qml:257
 #, kde-format
 msgid ""
 "<a href='https://console.developers.google.com/apis/credentials'>Get your "
 "personal key.</a>"
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:264
+#: src/views/settings/SettingsDialog.qml:266
 #, kde-format
 msgid "Sources"
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:265
+#: src/views/settings/SettingsDialog.qml:267
 #, kde-format
 msgid "Add new sources to manage and browse your video collection"
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:308
+#: src/views/settings/SettingsDialog.qml:310
 #, kde-format
 msgid "Add"
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:330
+#: src/views/settings/SettingsDialog.qml:332
 #, kde-format
 msgid "Remove source"
 msgstr ""
 
-#: src/views/settings/SettingsDialog.qml:331
+#: src/views/settings/SettingsDialog.qml:333
 #, kde-format
 msgid ""
 "Are you sure you want to remove the source: \n"
