@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skanpage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-24 00:21+0000\n"
+"POT-Creation-Date: 2021-11-07 00:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,9 +28,15 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: DocumentModel.cpp:32
+#: DocumentModel.cpp:35
 #, kde-format
 msgid "New document"
+msgstr ""
+
+#: DocumentModel.cpp:49
+#, kde-format
+msgctxt "Description for the name filter of a QML file dialog"
+msgid "All files"
 msgstr ""
 
 #: DocumentPrinter.cpp:33
@@ -68,37 +74,42 @@ msgstr ""
 msgid "Document saved as image."
 msgstr ""
 
-#: DocumentSaver.cpp:143
+#: DocumentSaver.cpp:58
+#, kde-format
+msgid "Failed to save document as image."
+msgstr ""
+
+#: DocumentSaver.cpp:150
 #, kde-format
 msgid "Failed to save image"
 msgstr ""
 
-#: main.cpp:49
+#: main.cpp:50
 #, kde-format
 msgid "Skanpage"
 msgstr ""
 
-#: main.cpp:51
+#: main.cpp:52
 #, kde-format
 msgid "Page-scanning application by KDE based on libksane."
 msgstr ""
 
-#: main.cpp:53
+#: main.cpp:54
 #, kde-format
 msgid "© 2015-2021 Kåre Särs, Alexander Stippich"
 msgstr ""
 
-#: main.cpp:56 main.cpp:57
+#: main.cpp:57 main.cpp:58
 #, kde-format
 msgid "developer"
 msgstr ""
 
-#: main.cpp:68
+#: main.cpp:69
 #, kde-format
 msgid "Sane scanner device name. Use 'test' for test device."
 msgstr ""
 
-#: main.cpp:68
+#: main.cpp:69
 #, kde-format
 msgid "device"
 msgstr ""
@@ -218,6 +229,12 @@ msgctxt "menu category"
 msgid "Help"
 msgstr ""
 
+#: qml/InProgressPage.qml:26
+#, kde-kuit-format
+msgctxt "Countdown string with time given in seconds"
+msgid "Next scan starts in<nl/>%1 s"
+msgstr ""
+
 #: qml/MainWindow.qml:24
 #, kde-format
 msgctxt "document title - scanner device - app title"
@@ -275,26 +292,6 @@ msgstr ""
 msgid "Reselect scanning device"
 msgstr ""
 
-#: qml/MainWindow.qml:346
-#, kde-format
-msgid "PDF files (*.pdf)"
-msgstr ""
-
-#: qml/MainWindow.qml:346
-#, kde-format
-msgid "JPEG files (*.jpg)"
-msgstr ""
-
-#: qml/MainWindow.qml:346
-#, kde-format
-msgid "PNG files (*.png)"
-msgstr ""
-
-#: qml/MainWindow.qml:346
-#, kde-format
-msgid "All files (*)"
-msgstr ""
-
 #: qml/OptionDelegate.qml:117
 #, kde-format
 msgctxt "Adding unit suffix"
@@ -321,17 +318,23 @@ msgstr ""
 
 #: qml/OptionDelegate.qml:149
 #, kde-format
+msgctxt "Unit suffix for second"
+msgid "s"
+msgstr ""
+
+#: qml/OptionDelegate.qml:152
+#, kde-format
 msgctxt "Unit suffix for millimeter"
 msgid "mm"
 msgstr ""
 
-#: qml/OptionDelegate.qml:152
+#: qml/OptionDelegate.qml:155
 #, kde-format
 msgctxt "Unit suffix for percent"
 msgid "%"
 msgstr ""
 
-#: qml/OptionDelegate.qml:155
+#: qml/OptionDelegate.qml:158
 #, kde-format
 msgctxt "Unit suffix for pixel"
 msgid "px"
