@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kphotoalbum\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-07 00:15+0000\n"
+"POT-Creation-Date: 2021-11-17 00:25+0000\n"
 "PO-Revision-Date: 2012-01-16 16:58+0700\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -1338,24 +1338,122 @@ msgstr ""
 msgid "Following files could not be read:"
 msgstr ""
 
-#: Exif/InfoDialog.cpp:30
+#: Exif/InfoDialog.cpp:32
 #, fuzzy, kde-format
 #| msgid "EXIF Information"
 msgctxt "@title:window"
-msgid "Exif Information"
+msgid "Exif Information and file metadata"
 msgstr "Thông tin EXIF"
 
-#: Exif/InfoDialog.cpp:65
+#: Exif/InfoDialog.cpp:72
 #, kde-format
 msgctxt ""
 "@label:textbox The search box allows the user to filter by exif label names"
 msgid "Filter labels ..."
 msgstr ""
 
-#: Exif/InfoDialog.cpp:69
+#: Exif/InfoDialog.cpp:76
 #, kde-format
 msgid "IPTC character set:"
 msgstr ""
+
+#: Exif/InfoDialog.cpp:94
+#, fuzzy, kde-format
+#| msgid "Exif Info"
+msgid "Exif info"
+msgstr "Thông tin EXIF"
+
+#: Exif/InfoDialog.cpp:95
+#, fuzzy, kde-format
+#| msgid "AVI video support"
+msgid "File metadata"
+msgstr "Hỗ trợ ảnh động AVI"
+
+#: Exif/MetaDataDisplay.cpp:35
+#, kde-format
+msgid "Absolute path:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:40
+#, kde-format
+msgid "MIME type:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:44 Settings/ViewerSizeConfig.cpp:26
+#, kde-format
+msgid "Size:"
+msgstr "Cỡ :"
+
+#: Exif/MetaDataDisplay.cpp:48
+#, kde-format
+msgid "Created:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:52
+#, kde-format
+msgid "Changed:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:56
+#, kde-format
+msgid "Owner:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:60
+#, fuzzy, kde-format
+#| msgid "Group name:"
+msgid "Group:"
+msgstr "Tên nhóm:"
+
+#: Exif/MetaDataDisplay.cpp:64
+#, kde-format
+msgid "Permissions:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:99
+#, kde-format
+msgid "Open directory with a file manager"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:106
+#, fuzzy, kde-format
+#| msgid "%1 (by %2)"
+msgctxt ""
+"File size composed of a pre-formatted (already localized) human-readable "
+"file size (%1) and the number of bytes (%2)"
+msgid "%1 (%2 B)"
+msgstr "%1 (của %2)"
+
+#: Exif/MetaDataDisplay.cpp:120 Exif/MetaDataDisplay.cpp:126
+#: Exif/MetaDataDisplay.cpp:132
+#, fuzzy, kde-format
+#| msgid "or"
+msgctxt "File permission shortcut for \"reading allowed\""
+msgid "r"
+msgstr "hoặc"
+
+#: Exif/MetaDataDisplay.cpp:122 Exif/MetaDataDisplay.cpp:128
+#: Exif/MetaDataDisplay.cpp:134
+#, kde-format
+msgctxt "File permission shortcut for \"writing allowed\""
+msgid "w"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:124 Exif/MetaDataDisplay.cpp:130
+#: Exif/MetaDataDisplay.cpp:136
+#, kde-format
+msgctxt "File permission shortcut for \"executing allowed\""
+msgid "x"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:153
+#, fuzzy, kde-format
+#| msgid "%1 (by %2)"
+msgctxt ""
+"File permissions string compiled from a parsed variant (e.g. \"rw-rw-r--\", "
+"%1) and it's octal representation (e.g. \"0644\")"
+msgid "%1 (%2)"
+msgstr "%1 (của %2)"
 
 #: Exif/ReReadDialog.cpp:28
 #, fuzzy, kde-format
@@ -4001,9 +4099,10 @@ msgstr "Trạng thái tính năng KPhotoAlbum"
 msgid "Show Demo Videos"
 msgstr "Hiện ảnh động"
 
-#: MainWindow/Window.cpp:988 Viewer/ViewerWidget.cpp:171
-#, kde-format
-msgid "Show Exif Info"
+#: MainWindow/Window.cpp:988 Viewer/ViewerWidget.cpp:173
+#, fuzzy, kde-format
+#| msgid "Show Exif Info"
+msgid "Show Exif Info and file metadata"
 msgstr "Hiện thông tin EXIF"
 
 #: MainWindow/Window.cpp:991
@@ -5656,11 +5755,6 @@ msgstr "Hậu phương co sở dữ liệu"
 msgid "Launch in full screen"
 msgstr "Khởi chạy trên toàn màn hình"
 
-#: Settings/ViewerSizeConfig.cpp:26
-#, kde-format
-msgid "Size:"
-msgstr "Cỡ :"
-
 #: ThumbnailView/Delegate.cpp:237
 #, fuzzy, kde-format
 #| msgid "1 video"
@@ -6298,7 +6392,7 @@ msgstr ""
 msgid "Error playing media"
 msgstr "Gặp lỗi khi lưu ảnh"
 
-#: Viewer/QtAVDisplay.cpp:26 Viewer/QtAVDisplay.cpp:41
+#: Viewer/QtAVDisplay.cpp:26 Viewer/QtAVDisplay.cpp:39
 #, kde-format
 msgid "Failed to set up video playback"
 msgstr ""
@@ -6308,7 +6402,7 @@ msgstr ""
 msgid "Failed to set up video playback (renderer wasn't created)"
 msgstr ""
 
-#: Viewer/QtAVDisplay.cpp:41
+#: Viewer/QtAVDisplay.cpp:39
 #, kde-format
 msgid "Failed to set up video playback (widget wasn't created)"
 msgstr ""
@@ -6338,404 +6432,404 @@ msgid "<p><center><font size=\"+4\">Ending Slideshow</font></center></p>"
 msgstr ""
 "<p><center><font size=\"+4\">Đang kết thúc chiếu ảnh</font></center></p>"
 
-#: Viewer/ViewerWidget.cpp:161
+#: Viewer/ViewerWidget.cpp:163
 #, fuzzy, kde-format
 #| msgid "Annotate..."
 msgctxt "@action:inmenu"
 msgid "Annotate..."
 msgstr "Chú giải..."
 
-#: Viewer/ViewerWidget.cpp:166
+#: Viewer/ViewerWidget.cpp:168
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Set as First Image in Stack"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:177
+#: Viewer/ViewerWidget.cpp:179
 #, fuzzy, kde-format
 #| msgid "Copying Images"
 msgctxt "@action:inmenu"
 msgid "Copy image to ..."
 msgstr "Đang sao chép ảnh"
 
-#: Viewer/ViewerWidget.cpp:182
+#: Viewer/ViewerWidget.cpp:184
 #, fuzzy, kde-format
 #| msgid "Copying Images"
 msgctxt "@action:inmenu"
 msgid "Link image to ..."
 msgstr "Đang sao chép ảnh"
 
-#: Viewer/ViewerWidget.cpp:190
+#: Viewer/ViewerWidget.cpp:192
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Close"
 msgstr "Đóng"
 
-#: Viewer/ViewerWidget.cpp:246
+#: Viewer/ViewerWidget.cpp:248
 #, fuzzy, kde-format
 #| msgid "Rotate"
 msgctxt "@title:inmenu"
 msgid "Rotate"
 msgstr "Xoay"
 
-#: Viewer/ViewerWidget.cpp:257
+#: Viewer/ViewerWidget.cpp:259
 #, fuzzy, kde-format
 #| msgid "Rotate clockwise (to the right)"
 msgctxt "@action:inmenu"
 msgid "Rotate clockwise"
 msgstr "Xoay theo chiều kim đồng hồ"
 
-#: Viewer/ViewerWidget.cpp:258
+#: Viewer/ViewerWidget.cpp:260
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Flip Over"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:259
+#: Viewer/ViewerWidget.cpp:261
 #, fuzzy, kde-format
 #| msgid "Rotate contra-clockwise (to the left)"
 msgctxt "@action:inmenu"
 msgid "Rotate counterclockwise"
 msgstr "Xoay theo ngược chiều kim đồng hồ"
 
-#: Viewer/ViewerWidget.cpp:266
+#: Viewer/ViewerWidget.cpp:268
 #, fuzzy, kde-format
 #| msgid "Skip"
 msgctxt "@title:inmenu As in 'skip 2 images'"
 msgid "Skip"
 msgstr "Bỏ qua"
 
-#: Viewer/ViewerWidget.cpp:269
+#: Viewer/ViewerWidget.cpp:271
 #, fuzzy, kde-format
 #| msgid "First"
 msgctxt "@action:inmenu Go to first image"
 msgid "First"
 msgstr "Đầu"
 
-#: Viewer/ViewerWidget.cpp:276
+#: Viewer/ViewerWidget.cpp:278
 #, fuzzy, kde-format
 #| msgid "Last"
 msgctxt "@action:inmenu Go to last image"
 msgid "Last"
 msgstr "Cuối"
 
-#: Viewer/ViewerWidget.cpp:283
+#: Viewer/ViewerWidget.cpp:285
 #, fuzzy, kde-format
 #| msgid "Show Next"
 msgctxt "@action:inmenu"
 msgid "Show Next"
 msgstr "Hiện kế"
 
-#: Viewer/ViewerWidget.cpp:289
+#: Viewer/ViewerWidget.cpp:291
 #, fuzzy, kde-format
 #| msgid "Skip 10 Forward"
 msgctxt "@action:inmenu"
 msgid "Skip 10 Forward"
 msgstr "Nhảy 10 tới"
 
-#: Viewer/ViewerWidget.cpp:295
+#: Viewer/ViewerWidget.cpp:297
 #, fuzzy, kde-format
 #| msgid "Skip 100 Forward"
 msgctxt "@action:inmenu"
 msgid "Skip 100 Forward"
 msgstr "Nhảy 100 tới"
 
-#: Viewer/ViewerWidget.cpp:301
+#: Viewer/ViewerWidget.cpp:303
 #, fuzzy, kde-format
 #| msgid "Skip 1000 Forward"
 msgctxt "@action:inmenu"
 msgid "Skip 1000 Forward"
 msgstr "Nhảy 1000 tới"
 
-#: Viewer/ViewerWidget.cpp:307
+#: Viewer/ViewerWidget.cpp:309
 #, fuzzy, kde-format
 #| msgid "Show Previous"
 msgctxt "@action:inmenu"
 msgid "Show Previous"
 msgstr "Hiện lùi"
 
-#: Viewer/ViewerWidget.cpp:313
+#: Viewer/ViewerWidget.cpp:315
 #, fuzzy, kde-format
 #| msgid "Skip 10 Backward"
 msgctxt "@action:inmenu"
 msgid "Skip 10 Backward"
 msgstr "Nhảy 10 ngược"
 
-#: Viewer/ViewerWidget.cpp:319
+#: Viewer/ViewerWidget.cpp:321
 #, fuzzy, kde-format
 #| msgid "Skip 100 Backward"
 msgctxt "@action:inmenu"
 msgid "Skip 100 Backward"
 msgstr "Nhảy 100 ngược"
 
-#: Viewer/ViewerWidget.cpp:325
+#: Viewer/ViewerWidget.cpp:327
 #, fuzzy, kde-format
 #| msgid "Skip 1000 Backward"
 msgctxt "@action:inmenu"
 msgid "Skip 1000 Backward"
 msgstr "Nhảy 1000 ngược"
 
-#: Viewer/ViewerWidget.cpp:331
+#: Viewer/ViewerWidget.cpp:333
 #, fuzzy, kde-format
 #| msgid "Delete image"
 msgctxt "@action:inmenu"
 msgid "Delete Image"
 msgstr "Xoá ảnh"
 
-#: Viewer/ViewerWidget.cpp:336
+#: Viewer/ViewerWidget.cpp:338
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Image from Display List"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:347
+#: Viewer/ViewerWidget.cpp:349
 #, fuzzy, kde-format
 #| msgid "Zoom"
 msgctxt "@action:inmenu"
 msgid "Zoom"
 msgstr "Phóng/thu"
 
-#: Viewer/ViewerWidget.cpp:351
+#: Viewer/ViewerWidget.cpp:353
 #, fuzzy, kde-format
 #| msgid "Zoom In"
 msgctxt "@action:inmenu"
 msgid "Zoom In"
 msgstr "Phóng to"
 
-#: Viewer/ViewerWidget.cpp:357
+#: Viewer/ViewerWidget.cpp:359
 #, fuzzy, kde-format
 #| msgid "Zoom Out"
 msgctxt "@action:inmenu"
 msgid "Zoom Out"
 msgstr "Thu nhỏ"
 
-#: Viewer/ViewerWidget.cpp:363
+#: Viewer/ViewerWidget.cpp:365
 #, fuzzy, kde-format
 #| msgid "Full View"
 msgctxt "@action:inmenu"
 msgid "Full View"
 msgstr "Xem toàn"
 
-#: Viewer/ViewerWidget.cpp:369
+#: Viewer/ViewerWidget.cpp:371
 #, fuzzy, kde-format
 #| msgid "Pixel for Pixel View"
 msgctxt "@action:inmenu"
 msgid "Pixel for Pixel View"
 msgstr "Xem mỗi điểm ảnh"
 
-#: Viewer/ViewerWidget.cpp:375
+#: Viewer/ViewerWidget.cpp:377
 #, fuzzy, kde-format
 #| msgid "Toggle Full Screen"
 msgctxt "@action:inmenu"
 msgid "Toggle Full Screen"
 msgstr "Hiện/ẩn toàn màn hình"
 
-#: Viewer/ViewerWidget.cpp:385
+#: Viewer/ViewerWidget.cpp:387
 #, fuzzy, kde-format
 #| msgid "Slideshow"
 msgctxt "@title:inmenu"
 msgid "Slideshow"
 msgstr "Chiếu ảnh"
 
-#: Viewer/ViewerWidget.cpp:388 Viewer/ViewerWidget.cpp:781
+#: Viewer/ViewerWidget.cpp:390 Viewer/ViewerWidget.cpp:783
 #, fuzzy, kde-format
 #| msgid "Run Slideshow"
 msgctxt "@action:inmenu"
 msgid "Run Slideshow"
 msgstr "Chạy chiếu ảnh"
 
-#: Viewer/ViewerWidget.cpp:393
+#: Viewer/ViewerWidget.cpp:395
 #, fuzzy, kde-format
 #| msgid "Run Faster"
 msgctxt "@action:inmenu"
 msgid "Run Faster"
 msgstr "Chạy nhanh hơn"
 
-#: Viewer/ViewerWidget.cpp:398
+#: Viewer/ViewerWidget.cpp:400
 #, fuzzy, kde-format
 #| msgid "Run Slower"
 msgctxt "@action:inmenu"
 msgid "Run Slower"
 msgstr "Chạy chậm hơn"
 
-#: Viewer/ViewerWidget.cpp:431
+#: Viewer/ViewerWidget.cpp:433
 #, kde-format
 msgid "File not available"
 msgstr "Tệp không sẵn sàng"
 
-#: Viewer/ViewerWidget.cpp:481
+#: Viewer/ViewerWidget.cpp:483
 #, fuzzy, kde-format
 #| msgid "%1 to %2  %3"
 msgctxt "@title:window %1 is the filename, %2 its detail info"
 msgid "%1 %2"
 msgstr "%1 đến %2  %3"
 
-#: Viewer/ViewerWidget.cpp:497
+#: Viewer/ViewerWidget.cpp:499
 #, fuzzy, kde-format
 #| msgid "Play"
 msgctxt "@action:inmenu Start video playback"
 msgid "Play"
 msgstr "Phát"
 
-#: Viewer/ViewerWidget.cpp:499
+#: Viewer/ViewerWidget.cpp:501
 #, fuzzy, kde-format
 #| msgid "Pause"
 msgctxt "@action:inmenu Pause video playback"
 msgid "Pause"
 msgstr "Tạm dừng"
 
-#: Viewer/ViewerWidget.cpp:734
+#: Viewer/ViewerWidget.cpp:736
 #, fuzzy, kde-format
 #| msgid "<b>Sub Categories</b>"
 msgctxt "Basically 'enter a category name'"
 msgid "<b>Setting Category: </b>"
 msgstr "<b>Phân loại con</b>"
 
-#: Viewer/ViewerWidget.cpp:739
+#: Viewer/ViewerWidget.cpp:741
 #, fuzzy, kde-format
 #| msgid "<b>Description: </b> "
 msgctxt "Basically 'enter a tag name'"
 msgid "<b>Assigning: </b>"
 msgstr "<b>Mô tả: </b> "
 
-#: Viewer/ViewerWidget.cpp:787
+#: Viewer/ViewerWidget.cpp:789
 #, fuzzy, kde-format
 #| msgid "Stop Slideshow"
 msgctxt "@action:inmenu"
 msgid "Stop Slideshow"
 msgstr "Dừng chiếu ảnh"
 
-#: Viewer/ViewerWidget.cpp:1184
+#: Viewer/ViewerWidget.cpp:1186
 #, fuzzy, kde-format
 #| msgid "1 Week"
 msgctxt "@title:inmenu"
 msgid "Seek"
 msgstr "1 tuần"
 
-#: Viewer/ViewerWidget.cpp:1205
+#: Viewer/ViewerWidget.cpp:1207
 #, fuzzy, kde-format
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "10 minutes backward"
 msgstr "10 phút"
 
-#: Viewer/ViewerWidget.cpp:1206
+#: Viewer/ViewerWidget.cpp:1208
 #, fuzzy, kde-format
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "1 minute backward"
 msgstr "10 phút"
 
-#: Viewer/ViewerWidget.cpp:1207
+#: Viewer/ViewerWidget.cpp:1209
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "10 seconds backward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1208
+#: Viewer/ViewerWidget.cpp:1210
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "1 seconds backward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1209
+#: Viewer/ViewerWidget.cpp:1211
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "100 milliseconds backward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1210
+#: Viewer/ViewerWidget.cpp:1212
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "100 milliseconds forward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1211
+#: Viewer/ViewerWidget.cpp:1213
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "1 seconds forward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1212
+#: Viewer/ViewerWidget.cpp:1214
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "10 seconds forward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1213
+#: Viewer/ViewerWidget.cpp:1215
 #, fuzzy, kde-format
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "1 minute forward"
 msgstr "10 phút"
 
-#: Viewer/ViewerWidget.cpp:1214
+#: Viewer/ViewerWidget.cpp:1216
 #, fuzzy, kde-format
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "10 minutes forward"
 msgstr "10 phút"
 
-#: Viewer/ViewerWidget.cpp:1222
+#: Viewer/ViewerWidget.cpp:1224
 #, fuzzy, kde-format
 #| msgid "Stop"
 msgctxt "@action:inmenu Stop video playback"
 msgid "Stop"
 msgstr "Dừng"
 
-#: Viewer/ViewerWidget.cpp:1235
+#: Viewer/ViewerWidget.cpp:1237
 #, fuzzy, kde-format
 #| msgid "Display categories in thumbnail view"
 msgctxt "@action:inmenu"
 msgid "Use current frame in thumbnail view"
 msgstr "Hiện nhãn trong ô xem mẫu ảnh"
 
-#: Viewer/ViewerWidget.cpp:1241
+#: Viewer/ViewerWidget.cpp:1243
 #, fuzzy, kde-format
 #| msgid "Restart"
 msgctxt "@action:inmenu Restart video playback."
 msgid "Restart"
 msgstr "Chạy lại"
 
-#: Viewer/ViewerWidget.cpp:1256
+#: Viewer/ViewerWidget.cpp:1258
 #, fuzzy, kde-format
 #| msgid "First"
 msgctxt "@title:inmenu"
 msgid "Filters"
 msgstr "Đầu"
 
-#: Viewer/ViewerWidget.cpp:1259
+#: Viewer/ViewerWidget.cpp:1261
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove All Filters"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1263
+#: Viewer/ViewerWidget.cpp:1265
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Grayscale Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1268
+#: Viewer/ViewerWidget.cpp:1270
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Contrast Stretching Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1273
+#: Viewer/ViewerWidget.cpp:1275
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Histogram Equalization Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1278
+#: Viewer/ViewerWidget.cpp:1280
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Monochrome Filter"

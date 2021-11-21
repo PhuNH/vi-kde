@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktorrent\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-28 00:19+0000\n"
+"POT-Creation-Date: 2021-08-27 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -176,7 +176,6 @@ msgstr ""
 #: ktorrent/dialogs/addpeersdlg.ui:57 ktorrent/dialogs/torrentcreatordlg.ui:258
 #: ktorrent/pref/networkpref.ui:23 ktorrent/pref/proxypref.ui:49
 #: ktorrent/pref/proxypref.ui:130 ktupnptest/upnptestwidget.ui:65
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:61
 #, kde-format
 msgid "Port:"
 msgstr ""
@@ -991,8 +990,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, m_tracker_tab)
 #: ktorrent/dialogs/torrentcreatordlg.ui:182
-#: plugins/infowidget/infowidgetplugin.cpp:236
-#: plugins/scripting/scripts/tracker_groups/tracker_groups.py:59
+#: plugins/infowidget/infowidgetplugin.cpp:223
 #, kde-format
 msgid "Trackers"
 msgstr ""
@@ -1255,8 +1253,8 @@ msgid "Open a URL which points to a torrent, magnet links are supported"
 msgstr ""
 
 #: ktorrent/gui.cpp:380 plugins/ipfilter/ipblockingprefpage.cpp:19
-#: plugins/ipfilter/ipfilterplugin.cpp:45
-#: plugins/ipfilter/ipfilterplugin.cpp:58
+#: plugins/ipfilter/ipfilterplugin.cpp:44
+#: plugins/ipfilter/ipfilterplugin.cpp:57
 #, kde-format
 msgid "IP Filter"
 msgstr ""
@@ -2539,13 +2537,14 @@ msgstr ""
 #: ktorrent/pref/generalpref.ui:149
 #, kde-format
 msgid ""
-"Prevent computer from going into a sleep state when torrents are running."
+"Prevent computer from going into a sleep state or locking the screen when "
+"torrents are running."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_suppressSleep)
 #: ktorrent/pref/generalpref.ui:152
 #, kde-format
-msgid "Suppress sleep when torrents are running"
+msgid "Suppress sleep and automatic screen locking when torrents are running"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_autoRenameSingleFileTorrents)
@@ -2906,7 +2905,7 @@ msgid "Username and password required"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: ktorrent/pref/proxypref.ui:170 plugins/scripting/scripts/email_notifications/emailconfig.ui:25
+#: ktorrent/pref/proxypref.ui:170
 #, kde-format
 msgid "Username:"
 msgstr ""
@@ -2918,8 +2917,7 @@ msgid "Username for the SOCKS proxy server."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: ktorrent/pref/proxypref.ui:184 plugins/scripting/scripts/email_notifications/emailconfig.ui:35
+#: ktorrent/pref/proxypref.ui:184
 #, kde-format
 msgid "Password:"
 msgstr ""
@@ -3283,7 +3281,7 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: ktorrent/tools/magnetmodel.cpp:106 plugins/infowidget/infowidgetplugin.cpp:198
+#: ktorrent/tools/magnetmodel.cpp:106 plugins/infowidget/infowidgetplugin.cpp:185
 #, kde-format
 msgid "Peers"
 msgstr ""
@@ -3642,7 +3640,7 @@ msgid "Torrent Settings"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, PropertiesDlg)
-#: ktorrent/view/propertiesdlg.ui:14 plugins/scripting/scriptmanager.cpp:99
+#: ktorrent/view/propertiesdlg.ui:14
 #, kde-format
 msgid "Properties"
 msgstr ""
@@ -4317,7 +4315,6 @@ msgid "Torrents"
 msgstr ""
 
 #: libktcore/interfaces/functions.cpp:151
-#: plugins/scripting/scriptingplugin.cpp:159
 #, kde-format
 msgid "All files"
 msgstr ""
@@ -4523,7 +4520,7 @@ msgid "Maximum seed time in hours (0 = no limit)"
 msgstr ""
 
 #: libktcore/plugin/pluginactivity.cpp:24
-#: libktcore/plugin/pluginactivity.cpp:41
+#: libktcore/plugin/pluginactivity.cpp:42
 #, kde-format
 msgid "Plugins"
 msgstr ""
@@ -4632,7 +4629,7 @@ msgstr ""
 msgid "Cannot write beyond end of the mmap buffer."
 msgstr ""
 
-#: plugins/bwscheduler/bwprefpage.cpp:12 plugins/bwscheduler/bwschedulerplugin.cpp:60
+#: plugins/bwscheduler/bwprefpage.cpp:12 plugins/bwscheduler/bwschedulerplugin.cpp:59
 #, kde-format
 msgid "Scheduler"
 msgstr ""
@@ -4717,8 +4714,8 @@ msgstr ""
 msgid "Color of each suspended item on the schedule."
 msgstr ""
 
-#: plugins/bwscheduler/bwschedulerplugin.cpp:89
-#: plugins/infowidget/infowidgetplugin.cpp:76
+#: plugins/bwscheduler/bwschedulerplugin.cpp:88
+#: plugins/infowidget/infowidgetplugin.cpp:68
 #, kde-format
 msgid "Bandwidth Scheduler"
 msgstr ""
@@ -4937,7 +4934,7 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DownloadOrderWidget)
 #: plugins/downloadorder/downloadorderdialog.cpp:30
-#: plugins/downloadorder/downloadorderplugin.cpp:32
+#: plugins/downloadorder/downloadorderplugin.cpp:31
 #: plugins/downloadorder/downloadorderwidget.ui:14
 #, kde-format
 msgid "File Download Order"
@@ -5059,7 +5056,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, hdr_chunks)
 #. i18n: ectx: property (windowTitle), widget (QWidget, ChunkDownloadView)
 #: plugins/infowidget/chunkdownloadview.ui:13
-#: plugins/infowidget/infowidgetplugin.cpp:217
+#: plugins/infowidget/infowidgetplugin.cpp:204
 #: plugins/infowidget/statustab.ui:181
 #, kde-format
 msgid "Chunks"
@@ -5184,55 +5181,55 @@ msgid ""
 "higher priority?"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:54
+#: plugins/infowidget/infowidgetplugin.cpp:46
 #: plugins/infowidget/iwprefpage.cpp:12
 #, kde-format
 msgid "Info Widget"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:65
+#: plugins/infowidget/infowidgetplugin.cpp:57
 #, kde-format
 msgctxt "@title:tab"
 msgid "Status"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:65
+#: plugins/infowidget/infowidgetplugin.cpp:57
 #, kde-format
 msgid "Displays status information about a torrent"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:66
+#: plugins/infowidget/infowidgetplugin.cpp:58
 #, kde-format
 msgctxt "@title:tab"
 msgid "Files"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:66
+#: plugins/infowidget/infowidgetplugin.cpp:58
 #, kde-format
 msgid "Shows all the files in a torrent"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:198
+#: plugins/infowidget/infowidgetplugin.cpp:185
 #, kde-format
 msgid "Displays all the peers you are connected to for a torrent"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:217
+#: plugins/infowidget/infowidgetplugin.cpp:204
 #, kde-format
 msgid "Displays all the chunks you are downloading, of a torrent"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:236
+#: plugins/infowidget/infowidgetplugin.cpp:223
 #, kde-format
 msgid "Displays information about all the trackers of a torrent"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:252
+#: plugins/infowidget/infowidgetplugin.cpp:239
 #, kde-format
 msgid "Webseeds"
 msgstr ""
 
-#: plugins/infowidget/infowidgetplugin.cpp:252
+#: plugins/infowidget/infowidgetplugin.cpp:239
 #, kde-format
 msgid "Displays all the webseeds of a torrent"
 msgstr ""
@@ -6228,12 +6225,12 @@ msgstr ""
 msgid "Only enable on public torrents"
 msgstr ""
 
-#: plugins/magnetgenerator/magnetgeneratorplugin.cpp:38
+#: plugins/magnetgenerator/magnetgeneratorplugin.cpp:37
 #, kde-format
 msgid "Copy Magnet URI"
 msgstr ""
 
-#: plugins/magnetgenerator/magnetgeneratorplugin.cpp:121
+#: plugins/magnetgenerator/magnetgeneratorplugin.cpp:115
 #, kde-format
 msgid "Magnet link copied to clipboard"
 msgstr ""
@@ -6352,8 +6349,8 @@ msgstr ""
 #: plugins/mediaplayer/mediaplayeractivity.cpp:56
 #: plugins/mediaplayer/mediaplayeractivity.cpp:147
 #: plugins/mediaplayer/mediaplayeractivity.cpp:333
-#: plugins/mediaplayer/mediaplayerplugin.cpp:35
-#: plugins/mediaplayer/mediaplayerplugin.cpp:46
+#: plugins/mediaplayer/mediaplayerplugin.cpp:34
+#: plugins/mediaplayer/mediaplayerplugin.cpp:45
 #, kde-format
 msgid "Media Player"
 msgstr ""
@@ -6502,8 +6499,8 @@ msgctxt "folder name part"
 msgid "loaded"
 msgstr ""
 
-#: plugins/scanfolder/scanfolderplugin.cpp:45
-#: plugins/scanfolder/scanfolderplugin.cpp:58
+#: plugins/scanfolder/scanfolderplugin.cpp:43
+#: plugins/scanfolder/scanfolderplugin.cpp:56
 #: plugins/scanfolder/scanfolderprefpage.cpp:20
 #, kde-format
 msgctxt "plugin name"
@@ -6674,267 +6671,6 @@ msgstr ""
 msgid "Ctrl+C"
 msgstr ""
 
-#. i18n: ectx: ToolBar (ScriptingToolbar)
-#. i18n: ectx: Menu (ScriptingMenu)
-#: plugins/scripting/ktorrent_scriptingui.rc:5
-#: plugins/scripting/ktorrent_scriptingui.rc:16
-#: plugins/scripting/scriptingplugin.cpp:59
-#: plugins/scripting/scriptingplugin.cpp:80
-#, kde-format
-msgid "Scripting"
-msgstr ""
-
-#: plugins/scripting/scriptingplugin.cpp:158
-#: plugins/scripting/scriptmanager.cpp:34
-#, kde-format
-msgid "Scripts"
-msgstr ""
-
-#: plugins/scripting/scriptingplugin.cpp:158
-#, kde-format
-msgid "KTorrent Script Packages"
-msgstr ""
-
-#: plugins/scripting/scriptingplugin.cpp:205
-#, kde-format
-msgid ""
-"Removing these scripts will fully delete them from your disk. Are you sure "
-"you want to do this?"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:39
-#, kde-format
-msgid "Widget to start, stop and manage scripts"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:79
-#, kde-format
-msgid "Add Script"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:83
-#, kde-format
-msgid "Remove Script"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:87
-#, kde-format
-msgid "Run Script"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:91
-#, kde-format
-msgid "Stop Script"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:95
-#, kde-format
-msgid "Edit Script"
-msgstr ""
-
-#: plugins/scripting/scriptmanager.cpp:103
-#, kde-format
-msgid "Configure"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, ScriptProperties)
-#: plugins/scripting/scriptmanager.cpp:220
-#: plugins/scripting/scriptproperties.ui:13
-#, kde-format
-msgid "Script Properties"
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:90
-#, kde-format
-msgid "Cannot open archive for reading."
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:94
-#, kde-format
-msgid "Invalid archive."
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:117
-#, kde-format
-msgid "There is already a script package named %1 installed."
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:123
-#, kde-format
-msgid ""
-"Failed to load script from archive. There is something wrong with the "
-"desktop file."
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:128
-#, kde-format
-msgid "No script found in archive."
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:151 plugins/syndication/feedlist.cpp:161
-#, kde-format
-msgid "<b>%1</b><br/><br/>%2"
-msgstr ""
-
-#: plugins/scripting/scriptmodel.cpp:154
-#, kde-format
-msgid ""
-"No interpreter for this script could be found, so it cannot be executed. "
-"Please make sure the right interpreter is installed.<br/><br/><b>Hint:</b> "
-"All standard ktorrent scripts require krosspython"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/scripting/scriptproperties.ui:51
-#, kde-format
-msgid "Description:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/scripting/scriptproperties.ui:65
-#, kde-format
-msgid "License:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/scripting/scriptproperties.ui:79
-#, kde-format
-msgid "Author:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/scripting/scriptproperties.ui:93
-#, kde-format
-msgid "E-Mail:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: plugins/scripting/scriptproperties.ui:107
-#, kde-format
-msgid "Website:"
-msgstr ""
-
-#: plugins/scripting/scripts/auto_remove/auto_remove.py:53
-msgid "Auto Remove Settings"
-msgstr ""
-
-#: plugins/scripting/scripts/auto_remove/auto_remove.py:55
-msgid "Auto Remove"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, AutoResumeConfig)
-#. i18n: ectx: property (windowTitle), widget (QWidget, AutoRemoveConfig)
-#: plugins/scripting/scripts/auto_remove/auto_remove.ui:13
-#: plugins/scripting/scripts/auto_resume/auto_resume.py:53
-#: plugins/scripting/scripts/auto_resume/auto_resume.ui:13
-#, kde-format
-msgid "Auto Resume Settings"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/scripting/scripts/auto_remove/auto_remove.ui:19
-#, kde-format
-msgid "Auto remove a torrent when:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, finish_downloading)
-#: plugins/scripting/scripts/auto_remove/auto_remove.ui:26
-#, kde-format
-msgid "The torrent finishes downloading"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, finish_seeding)
-#: plugins/scripting/scripts/auto_remove/auto_remove.ui:33
-#, kde-format
-msgid "The torrent finishes seeding"
-msgstr ""
-
-#: plugins/scripting/scripts/auto_resume/auto_resume.py:55
-msgid "Auto Resume"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, auto_resume)
-#: plugins/scripting/scripts/auto_resume/auto_resume.ui:19
-#, kde-format
-msgid "Auto resume after:"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, hours)
-#: plugins/scripting/scripts/auto_resume/auto_resume.ui:41
-#, kde-format
-msgid " hours"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, minutes)
-#. i18n: ectx: property (suffix), widget (QSpinBox, m_refresh_rate)
-#: plugins/scripting/scripts/auto_resume/auto_resume.ui:51
-#: plugins/syndication/feedwidget.ui:141
-#, kde-format
-msgid " minutes"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, seconds)
-#: plugins/scripting/scripts/auto_resume/auto_resume.ui:61
-#, kde-format
-msgid " seconds"
-msgstr ""
-
-#: plugins/scripting/scripts/email_notifications/email_notifications.py:105
-msgid "E-Mail Script Settings"
-msgstr ""
-
-#: plugins/scripting/scripts/email_notifications/email_notifications.py:107
-msgid "E-Mail Settings"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, EMailConfigWidget)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:13
-#, kde-format
-msgid "EMail Settings"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:19
-#, kde-format
-msgid "SMTP Server"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:49
-#, kde-format
-msgid "SMTP server:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, tls)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:80
-#, kde-format
-msgid "Use SSL/TLS encryption"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:90
-#, kde-format
-msgid "Destination"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:96
-#, kde-format
-msgid "Send mails to:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, add_cc)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:106
-#, kde-format
-msgid "Add CC:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, add_bcc)
-#: plugins/scripting/scripts/email_notifications/emailconfig.ui:116
-#, kde-format
-msgid "Add BCC:"
-msgstr ""
-
 #. i18n: ectx: ToolBar (SearchToolBar)
 #: plugins/search/ktorrent_searchui.rc:4
 #, kde-format
@@ -6973,8 +6709,8 @@ msgstr ""
 msgid "Custom browser executable path"
 msgstr ""
 
-#: plugins/search/searchactivity.cpp:36 plugins/search/searchplugin.cpp:52
-#: plugins/search/searchplugin.cpp:71 plugins/search/searchprefpage.cpp:42
+#: plugins/search/searchactivity.cpp:36 plugins/search/searchplugin.cpp:49
+#: plugins/search/searchplugin.cpp:68 plugins/search/searchprefpage.cpp:42
 #, kde-format
 msgctxt "plugin name"
 msgid "Search"
@@ -7219,7 +6955,7 @@ msgstr ""
 
 #. i18n: ectx: Menu (shutdown)
 #: plugins/shutdown/ktorrent_shutdownui.rc:6
-#: plugins/shutdown/shutdowndlg.cpp:26 plugins/shutdown/shutdownplugin.cpp:132
+#: plugins/shutdown/shutdowndlg.cpp:26 plugins/shutdown/shutdownplugin.cpp:125
 #: plugins/shutdown/shutdownruleset.cpp:242
 #, kde-format
 msgid "Shutdown"
@@ -7237,19 +6973,19 @@ msgctxt "@title:window"
 msgid "Configure Shutdown"
 msgstr ""
 
-#: plugins/shutdown/shutdowndlg.cpp:27 plugins/shutdown/shutdownplugin.cpp:136
+#: plugins/shutdown/shutdowndlg.cpp:27 plugins/shutdown/shutdownplugin.cpp:129
 #: plugins/shutdown/shutdownruleset.cpp:245
 #, kde-format
 msgid "Lock"
 msgstr ""
 
-#: plugins/shutdown/shutdowndlg.cpp:37 plugins/shutdown/shutdownplugin.cpp:140
+#: plugins/shutdown/shutdowndlg.cpp:37 plugins/shutdown/shutdownplugin.cpp:133
 #: plugins/shutdown/shutdownruleset.cpp:248
 #, kde-format
 msgid "Sleep (suspend to RAM)"
 msgstr ""
 
-#: plugins/shutdown/shutdowndlg.cpp:43 plugins/shutdown/shutdownplugin.cpp:144
+#: plugins/shutdown/shutdowndlg.cpp:43 plugins/shutdown/shutdownplugin.cpp:137
 #: plugins/shutdown/shutdownruleset.cpp:251
 #, kde-format
 msgid "Hibernate (suspend to disk)"
@@ -7302,12 +7038,12 @@ msgstr ""
 msgid "All events must have happened"
 msgstr ""
 
-#: plugins/shutdown/shutdownplugin.cpp:34
+#: plugins/shutdown/shutdownplugin.cpp:32
 #, kde-format
 msgid "Shutdown Enabled"
 msgstr ""
 
-#: plugins/shutdown/shutdownplugin.cpp:38
+#: plugins/shutdown/shutdownplugin.cpp:36
 #, kde-format
 msgid "Configure Shutdown"
 msgstr ""
@@ -8029,22 +7765,22 @@ msgctxt "Name of a line on upload chart"
 msgid "Speed limit"
 msgstr ""
 
-#: plugins/stats/StatsPlugin.cc:33
+#: plugins/stats/StatsPlugin.cc:34
 #, kde-format
 msgid "Speed charts"
 msgstr ""
 
-#: plugins/stats/StatsPlugin.cc:33
+#: plugins/stats/StatsPlugin.cc:34
 #, kde-format
 msgid "Displays charts about download and upload speed"
 msgstr ""
 
-#: plugins/stats/StatsPlugin.cc:34
+#: plugins/stats/StatsPlugin.cc:35
 #, kde-format
 msgid "Connections charts"
 msgstr ""
 
-#: plugins/stats/StatsPlugin.cc:34
+#: plugins/stats/StatsPlugin.cc:35
 #, kde-format
 msgid "Displays charts about connections"
 msgstr ""
@@ -8063,6 +7799,11 @@ msgstr[1] ""
 #: plugins/syndication/feedlist.cpp:159
 #, kde-format
 msgid "<b>%1</b><br/><br/>Download failed: <b>%2</b>"
+msgstr ""
+
+#: plugins/syndication/feedlist.cpp:161
+#, kde-format
+msgid "<b>%1</b><br/><br/>%2"
 msgstr ""
 
 #: plugins/syndication/feedwidget.cpp:29
@@ -8128,6 +7869,12 @@ msgstr ""
 msgid "Time between automatic refreshes of the feed."
 msgstr ""
 
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_refresh_rate)
+#: plugins/syndication/feedwidget.ui:141
+#, kde-format
+msgid " minutes"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, m_cookies)
 #: plugins/syndication/feedwidget.ui:170
 #, kde-format
@@ -8146,7 +7893,7 @@ msgid "Date Published"
 msgstr ""
 
 #: plugins/syndication/filtereditor.cpp:38
-#: plugins/syndication/syndicationplugin.cpp:89
+#: plugins/syndication/syndicationplugin.cpp:82
 #, kde-format
 msgid "Edit Filter"
 msgstr ""
@@ -8414,7 +8161,7 @@ msgid "Could not find a valid link to a torrent on %1"
 msgstr ""
 
 #: plugins/syndication/managefiltersdlg.cpp:27
-#: plugins/syndication/syndicationplugin.cpp:77
+#: plugins/syndication/syndicationplugin.cpp:70
 #, kde-format
 msgid "Add/Remove Filters"
 msgstr ""
@@ -8462,8 +8209,8 @@ msgid "New Filter"
 msgstr ""
 
 #: plugins/syndication/syndicationactivity.cpp:39
-#: plugins/syndication/syndicationplugin.cpp:32
-#: plugins/syndication/syndicationplugin.cpp:37
+#: plugins/syndication/syndicationplugin.cpp:30
+#: plugins/syndication/syndicationplugin.cpp:35
 #, kde-format
 msgid "Syndication"
 msgstr ""
@@ -8498,27 +8245,27 @@ msgstr ""
 msgid "Add New Filter"
 msgstr ""
 
-#: plugins/syndication/syndicationplugin.cpp:71
+#: plugins/syndication/syndicationplugin.cpp:64
 #, kde-format
 msgid "Add Feed"
 msgstr ""
 
-#: plugins/syndication/syndicationplugin.cpp:74
+#: plugins/syndication/syndicationplugin.cpp:67
 #, kde-format
 msgid "Remove Feed"
 msgstr ""
 
-#: plugins/syndication/syndicationplugin.cpp:80
+#: plugins/syndication/syndicationplugin.cpp:73
 #, kde-format
 msgid "Rename"
 msgstr ""
 
-#: plugins/syndication/syndicationplugin.cpp:83
+#: plugins/syndication/syndicationplugin.cpp:76
 #, kde-format
 msgid "Add Filter"
 msgstr ""
 
-#: plugins/syndication/syndicationplugin.cpp:86
+#: plugins/syndication/syndicationplugin.cpp:79
 #, kde-format
 msgid "Remove Filter"
 msgstr ""
@@ -8547,13 +8294,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, UPnPWidget)
-#: plugins/upnp/upnpplugin.cpp:41 plugins/upnp/upnpplugin.cpp:45
-#: plugins/upnp/upnpplugin.cpp:55 plugins/upnp/upnpwidget.ui:13
+#: plugins/upnp/upnpplugin.cpp:39 plugins/upnp/upnpplugin.cpp:43
+#: plugins/upnp/upnpplugin.cpp:53 plugins/upnp/upnpwidget.ui:13
 #, kde-format
 msgid "UPnP"
 msgstr ""
 
-#: plugins/upnp/upnpplugin.cpp:45
+#: plugins/upnp/upnpplugin.cpp:43
 #, kde-format
 msgid "Shows the status of the UPnP plugin"
 msgstr ""
@@ -8564,8 +8311,8 @@ msgstr ""
 msgid "Rescan"
 msgstr ""
 
-#: plugins/zeroconf/zeroconfplugin.cpp:34
-#: plugins/zeroconf/zeroconfplugin.cpp:48
+#: plugins/zeroconf/zeroconfplugin.cpp:33
+#: plugins/zeroconf/zeroconfplugin.cpp:47
 #, kde-format
 msgid "ZeroConf"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kphotoalbum\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-07 00:15+0000\n"
+"POT-Creation-Date: 2021-11-17 00:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1220,22 +1220,114 @@ msgstr ""
 msgid "Following files could not be read:"
 msgstr ""
 
-#: Exif/InfoDialog.cpp:30
+#: Exif/InfoDialog.cpp:32
 #, kde-format
 msgctxt "@title:window"
-msgid "Exif Information"
+msgid "Exif Information and file metadata"
 msgstr ""
 
-#: Exif/InfoDialog.cpp:65
+#: Exif/InfoDialog.cpp:72
 #, kde-format
 msgctxt ""
 "@label:textbox The search box allows the user to filter by exif label names"
 msgid "Filter labels ..."
 msgstr ""
 
-#: Exif/InfoDialog.cpp:69
+#: Exif/InfoDialog.cpp:76
 #, kde-format
 msgid "IPTC character set:"
+msgstr ""
+
+#: Exif/InfoDialog.cpp:94
+#, kde-format
+msgid "Exif info"
+msgstr ""
+
+#: Exif/InfoDialog.cpp:95
+#, kde-format
+msgid "File metadata"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:35
+#, kde-format
+msgid "Absolute path:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:40
+#, kde-format
+msgid "MIME type:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:44 Settings/ViewerSizeConfig.cpp:26
+#, kde-format
+msgid "Size:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:48
+#, kde-format
+msgid "Created:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:52
+#, kde-format
+msgid "Changed:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:56
+#, kde-format
+msgid "Owner:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:60
+#, kde-format
+msgid "Group:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:64
+#, kde-format
+msgid "Permissions:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:99
+#, kde-format
+msgid "Open directory with a file manager"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:106
+#, kde-format
+msgctxt ""
+"File size composed of a pre-formatted (already localized) human-readable "
+"file size (%1) and the number of bytes (%2)"
+msgid "%1 (%2 B)"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:120 Exif/MetaDataDisplay.cpp:126
+#: Exif/MetaDataDisplay.cpp:132
+#, kde-format
+msgctxt "File permission shortcut for \"reading allowed\""
+msgid "r"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:122 Exif/MetaDataDisplay.cpp:128
+#: Exif/MetaDataDisplay.cpp:134
+#, kde-format
+msgctxt "File permission shortcut for \"writing allowed\""
+msgid "w"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:124 Exif/MetaDataDisplay.cpp:130
+#: Exif/MetaDataDisplay.cpp:136
+#, kde-format
+msgctxt "File permission shortcut for \"executing allowed\""
+msgid "x"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:153
+#, kde-format
+msgctxt ""
+"File permissions string compiled from a parsed variant (e.g. \"rw-rw-r--\", "
+"%1) and it's octal representation (e.g. \"0644\")"
+msgid "%1 (%2)"
 msgstr ""
 
 #: Exif/ReReadDialog.cpp:28
@@ -3619,9 +3711,9 @@ msgstr ""
 msgid "Show Demo Videos"
 msgstr ""
 
-#: MainWindow/Window.cpp:988 Viewer/ViewerWidget.cpp:171
+#: MainWindow/Window.cpp:988 Viewer/ViewerWidget.cpp:173
 #, kde-format
-msgid "Show Exif Info"
+msgid "Show Exif Info and file metadata"
 msgstr ""
 
 #: MainWindow/Window.cpp:991
@@ -5129,11 +5221,6 @@ msgstr ""
 msgid "Launch in full screen"
 msgstr ""
 
-#: Settings/ViewerSizeConfig.cpp:26
-#, kde-format
-msgid "Size:"
-msgstr ""
-
 #: ThumbnailView/Delegate.cpp:237
 #, kde-format
 msgctxt ""
@@ -5648,7 +5735,7 @@ msgstr ""
 msgid "Error playing media"
 msgstr ""
 
-#: Viewer/QtAVDisplay.cpp:26 Viewer/QtAVDisplay.cpp:41
+#: Viewer/QtAVDisplay.cpp:26 Viewer/QtAVDisplay.cpp:39
 #, kde-format
 msgid "Failed to set up video playback"
 msgstr ""
@@ -5658,7 +5745,7 @@ msgstr ""
 msgid "Failed to set up video playback (renderer wasn't created)"
 msgstr ""
 
-#: Viewer/QtAVDisplay.cpp:41
+#: Viewer/QtAVDisplay.cpp:39
 #, kde-format
 msgid "Failed to set up video playback (widget wasn't created)"
 msgstr ""
@@ -5683,354 +5770,354 @@ msgctxt "OSD for slideshow"
 msgid "<p><center><font size=\"+4\">Ending Slideshow</font></center></p>"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:161
+#: Viewer/ViewerWidget.cpp:163
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Annotate..."
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:166
+#: Viewer/ViewerWidget.cpp:168
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Set as First Image in Stack"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:177
+#: Viewer/ViewerWidget.cpp:179
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy image to ..."
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:182
+#: Viewer/ViewerWidget.cpp:184
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Link image to ..."
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:190
+#: Viewer/ViewerWidget.cpp:192
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Close"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:246
+#: Viewer/ViewerWidget.cpp:248
 #, kde-format
 msgctxt "@title:inmenu"
 msgid "Rotate"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:257
+#: Viewer/ViewerWidget.cpp:259
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Rotate clockwise"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:258
+#: Viewer/ViewerWidget.cpp:260
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Flip Over"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:259
+#: Viewer/ViewerWidget.cpp:261
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Rotate counterclockwise"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:266
+#: Viewer/ViewerWidget.cpp:268
 #, kde-format
 msgctxt "@title:inmenu As in 'skip 2 images'"
 msgid "Skip"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:269
+#: Viewer/ViewerWidget.cpp:271
 #, kde-format
 msgctxt "@action:inmenu Go to first image"
 msgid "First"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:276
+#: Viewer/ViewerWidget.cpp:278
 #, kde-format
 msgctxt "@action:inmenu Go to last image"
 msgid "Last"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:283
+#: Viewer/ViewerWidget.cpp:285
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Next"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:289
+#: Viewer/ViewerWidget.cpp:291
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Skip 10 Forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:295
+#: Viewer/ViewerWidget.cpp:297
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Skip 100 Forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:301
+#: Viewer/ViewerWidget.cpp:303
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Skip 1000 Forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:307
+#: Viewer/ViewerWidget.cpp:309
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Previous"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:313
+#: Viewer/ViewerWidget.cpp:315
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Skip 10 Backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:319
+#: Viewer/ViewerWidget.cpp:321
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Skip 100 Backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:325
+#: Viewer/ViewerWidget.cpp:327
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Skip 1000 Backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:331
+#: Viewer/ViewerWidget.cpp:333
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Delete Image"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:336
+#: Viewer/ViewerWidget.cpp:338
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Image from Display List"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:347
+#: Viewer/ViewerWidget.cpp:349
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Zoom"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:351
+#: Viewer/ViewerWidget.cpp:353
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Zoom In"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:357
+#: Viewer/ViewerWidget.cpp:359
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Zoom Out"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:363
+#: Viewer/ViewerWidget.cpp:365
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Full View"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:369
+#: Viewer/ViewerWidget.cpp:371
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Pixel for Pixel View"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:375
+#: Viewer/ViewerWidget.cpp:377
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle Full Screen"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:385
+#: Viewer/ViewerWidget.cpp:387
 #, kde-format
 msgctxt "@title:inmenu"
 msgid "Slideshow"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:388 Viewer/ViewerWidget.cpp:781
+#: Viewer/ViewerWidget.cpp:390 Viewer/ViewerWidget.cpp:783
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Run Slideshow"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:393
+#: Viewer/ViewerWidget.cpp:395
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Run Faster"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:398
+#: Viewer/ViewerWidget.cpp:400
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Run Slower"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:431
+#: Viewer/ViewerWidget.cpp:433
 #, kde-format
 msgid "File not available"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:481
+#: Viewer/ViewerWidget.cpp:483
 #, kde-format
 msgctxt "@title:window %1 is the filename, %2 its detail info"
 msgid "%1 %2"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:497
+#: Viewer/ViewerWidget.cpp:499
 #, kde-format
 msgctxt "@action:inmenu Start video playback"
 msgid "Play"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:499
+#: Viewer/ViewerWidget.cpp:501
 #, kde-format
 msgctxt "@action:inmenu Pause video playback"
 msgid "Pause"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:734
+#: Viewer/ViewerWidget.cpp:736
 #, kde-format
 msgctxt "Basically 'enter a category name'"
 msgid "<b>Setting Category: </b>"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:739
+#: Viewer/ViewerWidget.cpp:741
 #, kde-format
 msgctxt "Basically 'enter a tag name'"
 msgid "<b>Assigning: </b>"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:787
+#: Viewer/ViewerWidget.cpp:789
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Stop Slideshow"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1184
+#: Viewer/ViewerWidget.cpp:1186
 #, kde-format
 msgctxt "@title:inmenu"
 msgid "Seek"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1205
+#: Viewer/ViewerWidget.cpp:1207
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "10 minutes backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1206
+#: Viewer/ViewerWidget.cpp:1208
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "1 minute backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1207
+#: Viewer/ViewerWidget.cpp:1209
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "10 seconds backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1208
+#: Viewer/ViewerWidget.cpp:1210
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "1 seconds backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1209
+#: Viewer/ViewerWidget.cpp:1211
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "100 milliseconds backward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1210
+#: Viewer/ViewerWidget.cpp:1212
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "100 milliseconds forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1211
+#: Viewer/ViewerWidget.cpp:1213
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "1 seconds forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1212
+#: Viewer/ViewerWidget.cpp:1214
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "10 seconds forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1213
+#: Viewer/ViewerWidget.cpp:1215
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "1 minute forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1214
+#: Viewer/ViewerWidget.cpp:1216
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "10 minutes forward"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1222
+#: Viewer/ViewerWidget.cpp:1224
 #, kde-format
 msgctxt "@action:inmenu Stop video playback"
 msgid "Stop"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1235
+#: Viewer/ViewerWidget.cpp:1237
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Use current frame in thumbnail view"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1241
+#: Viewer/ViewerWidget.cpp:1243
 #, kde-format
 msgctxt "@action:inmenu Restart video playback."
 msgid "Restart"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1256
+#: Viewer/ViewerWidget.cpp:1258
 #, kde-format
 msgctxt "@title:inmenu"
 msgid "Filters"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1259
+#: Viewer/ViewerWidget.cpp:1261
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove All Filters"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1263
+#: Viewer/ViewerWidget.cpp:1265
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Grayscale Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1268
+#: Viewer/ViewerWidget.cpp:1270
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Contrast Stretching Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1273
+#: Viewer/ViewerWidget.cpp:1275
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Histogram Equalization Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1278
+#: Viewer/ViewerWidget.cpp:1280
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Monochrome Filter"

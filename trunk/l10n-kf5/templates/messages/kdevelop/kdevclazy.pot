@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-20 02:08+0200\n"
+"POT-Creation-Date: 2021-11-09 00:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,87 +18,87 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: analyzer.cpp:45
+#: analyzer.cpp:30
 #, kde-format
 msgid "Clazy"
 msgstr ""
 
-#: checksdb.cpp:42
+#: checksdb.cpp:28
 #, kde-format
 msgctxt "@item level of checks"
 msgid "Level 0"
 msgstr ""
 
-#: checksdb.cpp:43
+#: checksdb.cpp:29
 #, kde-format
 msgctxt "@item level of checks"
 msgid "Level 1"
 msgstr ""
 
-#: checksdb.cpp:44
+#: checksdb.cpp:30
 #, kde-format
 msgctxt "@item level of checks"
 msgid "Level 2"
 msgstr ""
 
-#: checksdb.cpp:45
+#: checksdb.cpp:31
 #, kde-format
 msgctxt "@item level of checks"
 msgid "Level 3"
 msgstr ""
 
-#: checksdb.cpp:46
+#: checksdb.cpp:32
 #, kde-format
 msgctxt "@item level of checks"
 msgid "Manual Level"
 msgstr ""
 
-#: checksdb.cpp:51
+#: checksdb.cpp:37
 #, kde-format
 msgid ""
 "Very stable checks, 99.99% safe, mostly no false-positives, very desirable."
 msgstr ""
 
-#: checksdb.cpp:54
+#: checksdb.cpp:40
 #, kde-format
 msgid ""
 "The default level. Very similar to level 0, slightly more false-positives "
 "but very few."
 msgstr ""
 
-#: checksdb.cpp:57
+#: checksdb.cpp:43
 #, kde-format
 msgid ""
 "Also very few false-positives, but contains noisy checks which not everyone "
 "agree should be default."
 msgstr ""
 
-#: checksdb.cpp:60
+#: checksdb.cpp:46
 #, kde-format
 msgid "Contains checks with high rate of false-positives."
 msgstr ""
 
-#: checksdb.cpp:63
+#: checksdb.cpp:49
 #, kde-format
 msgid ""
 "Checks here need to be enabled explicitly, as they don't belong to any "
 "level. Checks here are very stable and have very few false-positives."
 msgstr ""
 
-#: checksdb.cpp:68
+#: checksdb.cpp:54
 #, kde-format
 msgid ""
 "Unable to load Clazy checks information from '%1'. Please check your "
 "settings."
 msgstr ""
 
-#: config/checksetmanagewidget.cpp:104
+#: config/checksetmanagewidget.cpp:89
 #, kde-format
 msgctxt "@title:window"
 msgid "Enter Name of New Check Set"
 msgstr ""
 
-#: config/checksetmanagewidget.cpp:110
+#: config/checksetmanagewidget.cpp:95
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -146,25 +146,25 @@ msgctxt "@info:tooltip"
 msgid "Edit name of check set"
 msgstr ""
 
-#: config/checksetselectioncombobox.cpp:41
+#: config/checksetselectioncombobox.cpp:26
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Custom"
 msgstr ""
 
-#: config/checksetselectioncombobox.cpp:45
+#: config/checksetselectioncombobox.cpp:30
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Use default (currently: %1)"
 msgstr ""
 
-#: config/checksetselectionlistmodel.cpp:79
+#: config/checksetselectionlistmodel.cpp:64
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "%1 (default selection)"
 msgstr ""
 
-#: config/checkswidget.cpp:51
+#: config/checkswidget.cpp:37
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Search checks..."
@@ -205,20 +205,20 @@ msgctxt "@option:check"
 msgid "Break lines"
 msgstr ""
 
-#: config/globalconfigpage.cpp:43
+#: config/globalconfigpage.cpp:29
 #, kde-format
 msgid "1 check detected"
 msgid_plural "%1 checks detected"
 msgstr[0] ""
 msgstr[1] ""
 
-#: config/globalconfigpage.cpp:93 config/projectconfigpage.cpp:120
+#: config/globalconfigpage.cpp:79 config/projectconfigpage.cpp:106
 #, kde-format
 msgctxt "@title:tab"
 msgid "Clazy"
 msgstr ""
 
-#: config/globalconfigpage.cpp:98
+#: config/globalconfigpage.cpp:84
 #, kde-format
 msgctxt "@title:tab"
 msgid "Configure Clazy Settings"
@@ -491,87 +491,87 @@ msgctxt "@label:textbox"
 msgid "Extra parameters:"
 msgstr ""
 
-#: job.cpp:119
+#: job.cpp:105
 #, kde-format
 msgid "Clazy Analysis (%1)"
 msgstr ""
 
-#: job.cpp:149
+#: job.cpp:135
 #, kde-format
 msgid "Unknown Level"
 msgstr ""
 
-#: job.cpp:215
+#: job.cpp:201
 #, kde-format
 msgid "Failed to start Clazy analysis process."
 msgstr ""
 
-#: job.cpp:220
+#: job.cpp:206
 #, kde-format
 msgid "Clazy analysis process crashed."
 msgstr ""
 
-#: job.cpp:225
+#: job.cpp:211
 #, kde-format
 msgid "Clazy analysis process timed out."
 msgstr ""
 
-#: job.cpp:229
+#: job.cpp:215
 #, kde-format
 msgid "Write to Clazy analysis process failed."
 msgstr ""
 
-#: job.cpp:233
+#: job.cpp:219
 #, kde-format
 msgid "Read from Clazy analysis process failed."
 msgstr ""
 
-#: job.cpp:243
+#: job.cpp:229
 #, kde-format
 msgctxt "@title:window"
 msgid "Clazy Error"
 msgstr ""
 
-#: jobparameters.cpp:53
+#: jobparameters.cpp:39
 #, kde-format
 msgid ""
 "clazy-standalone path cannot be detected. Set the path manually if Clazy is "
 "already installed."
 msgstr ""
 
-#: jobparameters.cpp:56
+#: jobparameters.cpp:42
 #, kde-format
 msgid "clazy-standalone path is empty."
 msgstr ""
 
-#: jobparameters.cpp:64
+#: jobparameters.cpp:50
 #, kde-format
 msgid "clazy-standalone path '%1' does not exists."
 msgstr ""
 
-#: jobparameters.cpp:69
+#: jobparameters.cpp:55
 #, kde-format
 msgid "clazy-standalone path '%1' is not an executable."
 msgstr ""
 
-#: jobparameters.cpp:78
+#: jobparameters.cpp:64
 #, kde-format
 msgid ""
 "Clazy documentation path cannot be detected. Set the path manually if Clazy "
 "is already installed."
 msgstr ""
 
-#: jobparameters.cpp:81
+#: jobparameters.cpp:67
 #, kde-format
 msgid "Clazy documentation path is empty."
 msgstr ""
 
-#: jobparameters.cpp:89
+#: jobparameters.cpp:75
 #, kde-format
 msgid "Clazy documentation path '%1' does not exists."
 msgstr ""
 
-#: jobparameters.cpp:94
+#: jobparameters.cpp:80
 #, kde-format
 msgid "Clazy documentation path '%1' is not a directory."
 msgstr ""

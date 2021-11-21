@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-20 02:08+0200\n"
+"POT-Creation-Date: 2021-11-11 00:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: customscript_plugin.cpp:98
+#: customscript_plugin.cpp:86
 #, kde-format
 msgid ""
 "<b>Indent and Format Source Code.</b><br />This plugin allows using powerful "
@@ -28,27 +28,35 @@ msgid ""
 "independent of their preferred IDE."
 msgstr ""
 
-#: customscript_plugin.cpp:240
+#: customscript_plugin.cpp:98
+#, kde-format
+msgctxt "@info formatter usage hint"
+msgid ""
+"Note: each custom script style requires a certain tool executable to be "
+"installed. Otherwise, code will not be formatted."
+msgstr ""
+
+#: customscript_plugin.cpp:235
 #, kde-format
 msgid "Gnu Indent: GNU"
 msgstr ""
 
-#: customscript_plugin.cpp:244
+#: customscript_plugin.cpp:246
 #, kde-format
 msgid "Gnu Indent: Kernighan & Ritchie"
 msgstr ""
 
-#: customscript_plugin.cpp:248
+#: customscript_plugin.cpp:257
 #, kde-format
 msgid "Gnu Indent: Original Berkeley indent style"
 msgstr ""
 
-#: customscript_plugin.cpp:252
+#: customscript_plugin.cpp:268
 #, kde-format
 msgid "Clang Format"
 msgstr ""
 
-#: customscript_plugin.cpp:255
+#: customscript_plugin.cpp:271
 #, kde-format
 msgid ""
 "Description:<br /><br /><b>clang-format</b> is an automatic source formater "
@@ -57,7 +65,7 @@ msgid ""
 "directory."
 msgstr ""
 
-#: customscript_plugin.cpp:264
+#: customscript_plugin.cpp:287
 #, kde-format
 msgid ""
 "Description:<br /><b>kdev_format_source</b> is a script bundled with "
@@ -75,13 +83,13 @@ msgid ""
 "config</b>."
 msgstr ""
 
-#: customscript_plugin.cpp:521
+#: customscript_plugin.cpp:544
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Command:"
 msgstr ""
 
-#: customscript_plugin.cpp:530
+#: customscript_plugin.cpp:553
 #, kde-format
 msgid ""
 "<i>You can enter an arbitrary shell command.</i><br />The unformatted source-"
@@ -91,18 +99,18 @@ msgid ""
 "for transferring the code."
 msgstr ""
 
-#: customscript_plugin.cpp:542
+#: customscript_plugin.cpp:565
 #, kde-format
 msgctxt "@action:button"
 msgid "More Variables"
 msgstr ""
 
-#: customscript_plugin.cpp:552
+#: customscript_plugin.cpp:575
 #, kde-format
 msgid "Style: %1"
 msgstr ""
 
-#: customscript_plugin.cpp:565
+#: customscript_plugin.cpp:588
 #, kde-format
 msgid ""
 "<b>$TMPFILE</b> will be replaced with the path to a temporary file. <br /"
@@ -110,12 +118,12 @@ msgid ""
 "substituted into that position, and the result <br />will be read out of "
 "that file. <br /><br /><b>$FILE</b> will be replaced with the path of the "
 "original file. <br />The contents of the file must not be modified, changes "
-"are allowed <br />only in $TMPFILE.<br /><br /><b>${PROJECT_NAME}</b> will "
-"be replaced by the path of <br />the currently open project with the "
-"matching name."
+"are allowed <br />only in $TMPFILE.<br /><br /><b>${&lt;project name&gt;}</"
+"b> will be replaced by the path of <br />a currently open project whose name "
+"is &lt;project name&gt;."
 msgstr ""
 
-#: customscript_plugin.cpp:577
+#: customscript_plugin.cpp:600
 #, kde-format
 msgctxt "@title:window"
 msgid "Variable Replacements"

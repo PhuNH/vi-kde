@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-25 00:17+0000\n"
+"POT-Creation-Date: 2021-09-23 00:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,118 +17,84 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: configdialog.cpp:43
+#: configdialog.cpp:30
+#, kde-format
+msgctxt "@title:window"
+msgid "DAV Resource Configuration"
+msgstr ""
+
+#: configdialog.cpp:44
 #, kde-format
 msgid "Protocol"
 msgstr ""
 
-#: configdialog.cpp:43 urlconfigurationdialog.cpp:263
+#: configdialog.cpp:44 urlconfigurationdialog.cpp:263
 #, kde-format
 msgid "URL"
 msgstr ""
 
-#: configdialog.cpp:56
+#: configdialog.cpp:57
 #, kde-format
 msgid "Days"
 msgstr ""
 
-#: configdialog.cpp:57
+#: configdialog.cpp:58
 #, kde-format
 msgid "Months"
 msgstr ""
 
-#: configdialog.cpp:58
+#: configdialog.cpp:59
 #, kde-format
 msgid "Years"
 msgstr ""
 
-#: configdialog.cpp:134
+#: configdialog.cpp:135
 #, kde-format
 msgid ""
 "Another configuration entry already uses the same URL/protocol couple.\n"
 "Please use a different URL"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: configdialog.ui:32
-#, kde-format
-msgid "General Configuration"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: configdialog.ui:43
+#: configdialog.ui:29
 #, kde-format
 msgid "Display name:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: configdialog.ui:56
+#: configdialog.ui:39
 #, kde-format
 msgid "Refresh every:"
 msgstr ""
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_refreshInterval)
-#: configdialog.ui:68
+#: configdialog.ui:48
 #, kde-format
 msgid "Never"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: configdialog.ui:81
+#: configdialog.ui:58
 #, kde-format
 msgid "minutes"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: configdialog.ui:106
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: configdialog.ui:80 urlconfigurationdialog.ui:111
 #, kde-format
 msgid "Username:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: configdialog.ui:140 setupwizard.cpp:222
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: configdialog.ui:108 setupwizard.cpp:224 urlconfigurationdialog.ui:127
 #, kde-format
 msgid "Password:"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: configdialog.ui:176
-#, kde-format
-msgid "Server Configuration"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: configdialog.ui:189
-#, kde-format
-msgid "Add"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, searchButton)
-#: configdialog.ui:196 searchdialog.ui:151
-#, kde-format
-msgid "Search"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: configdialog.ui:203
-#, kde-format
-msgid "Remove"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, editButton)
-#: configdialog.ui:210
-#, kde-format
-msgid "Edit"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: configdialog.ui:237
-#, kde-format
-msgid "Synchronization"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_limitSyncRange)
-#: configdialog.ui:243
+#: configdialog.ui:136
 #, kde-format
 msgid ""
 "Select this if your calendars contain a lot of events and the server cannot "
@@ -136,15 +102,45 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitSyncRange)
-#: configdialog.ui:249
+#: configdialog.ui:139
 #, kde-format
 msgid "Limit CalDav retrieval time range"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: configdialog.ui:264
+#: configdialog.ui:151
 #, kde-format
 msgid "Only sync events more recent than"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_41)
+#: configdialog.ui:190
+#, kde-format
+msgid "Server Configuration:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: configdialog.ui:204
+#, kde-format
+msgid "Add"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, searchButton)
+#: configdialog.ui:211 searchdialog.ui:151
+#, kde-format
+msgid "Search"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: configdialog.ui:218
+#, kde-format
+msgid "Remove"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, editButton)
+#: configdialog.ui:225
+#, kde-format
+msgid "Edit"
 msgstr ""
 
 #: daverror-kdepim-runtime.cpp:26
@@ -286,75 +282,75 @@ msgstr ""
 msgid "Unable to parse free-busy data received"
 msgstr ""
 
-#: davgroupwareresource.cpp:162
+#: davgroupwareresource.cpp:163
 #, kde-format
 msgid "Unable to retrieve free-busy info while offline"
 msgstr ""
 
-#: davgroupwareresource.cpp:245
+#: davgroupwareresource.cpp:246
 #, kde-format
 msgid "Fetching collections"
 msgstr ""
 
-#: davgroupwareresource.cpp:313
+#: davgroupwareresource.cpp:314
 #, kde-format
 msgid "Asked to retrieve items for an unknown collection: %1"
 msgstr ""
 
-#: davgroupwareresource.cpp:370
+#: davgroupwareresource.cpp:371
 #, kde-format
 msgid "Invalid collection for item %1."
 msgstr ""
 
-#: davgroupwareresource.cpp:607
+#: davgroupwareresource.cpp:608
 #, kde-format
 msgid "Unable to modify collection: %1"
 msgstr ""
 
-#: davgroupwareresource.cpp:676
+#: davgroupwareresource.cpp:677
 #, kde-format
 msgid "Unable to remove collection: %1"
 msgstr ""
 
-#: davgroupwareresource.cpp:696
+#: davgroupwareresource.cpp:697
 #, kde-format
 msgid "Unable to retrieve collections: %1"
 msgstr ""
 
-#: davgroupwareresource.cpp:829 davgroupwareresource.cpp:926
+#: davgroupwareresource.cpp:831 davgroupwareresource.cpp:930
 #, kde-format
 msgid "Unable to retrieve items: %1"
 msgstr ""
 
-#: davgroupwareresource.cpp:1006
+#: davgroupwareresource.cpp:1010
 #, kde-format
 msgid "Unable to retrieve item: %1"
 msgstr ""
 
-#: davgroupwareresource.cpp:1026
+#: davgroupwareresource.cpp:1030
 #, kde-format
 msgid ""
 "Unable to retrieve item: failed to parse item data. Maybe it was deleted "
 "already."
 msgstr ""
 
-#: davgroupwareresource.cpp:1063
+#: davgroupwareresource.cpp:1067
 #, kde-format
 msgid "Unable to add item: %1"
 msgstr ""
 
-#: davgroupwareresource.cpp:1107 davgroupwareresource.cpp:1220
-#: davgroupwareresource.cpp:1232
+#: davgroupwareresource.cpp:1111 davgroupwareresource.cpp:1224
+#: davgroupwareresource.cpp:1236
 #, kde-format
 msgid "Unable to change item: %1"
 msgstr ""
 
-#: davgroupwareresource.cpp:1194 davgroupwareresource.cpp:1251
+#: davgroupwareresource.cpp:1198 davgroupwareresource.cpp:1255
 #, kde-format
 msgid "Unable to remove item: %1"
 msgstr ""
 
-#: davgroupwareresource.cpp:1338 davgroupwareresource.cpp:1339
+#: davgroupwareresource.cpp:1342 davgroupwareresource.cpp:1343
 #, kde-format
 msgid "The resource is not configured yet"
 msgstr ""
@@ -452,31 +448,31 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, useDefaultCreds)
-#: searchdialog.ui:32 urlconfigurationdialog.ui:89
+#: searchdialog.ui:32 urlconfigurationdialog.ui:85
 #, kde-format
 msgid "Use global creden&tials"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, useSpecificCreds)
-#: searchdialog.ui:42 urlconfigurationdialog.ui:99
+#: searchdialog.ui:42 urlconfigurationdialog.ui:95
 #, kde-format
 msgid "Use specific credentials"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, credentialsGroup)
-#: searchdialog.ui:49 urlconfigurationdialog.ui:106
+#: searchdialog.ui:49
 #, kde-format
 msgid "Credentials"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: searchdialog.ui:61 urlconfigurationdialog.ui:118
+#: searchdialog.ui:61
 #, kde-format
 msgid "Username"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: searchdialog.ui:77 urlconfigurationdialog.ui:134
+#: searchdialog.ui:77
 #, kde-format
 msgid "Password"
 msgstr ""
@@ -515,43 +511,43 @@ msgstr ""
 msgid "Password: "
 msgstr ""
 
-#: setupwizard.cpp:140
+#: setupwizard.cpp:142
 #, kde-format
 msgctxt "@title:window"
 msgid "DAV groupware configuration wizard"
 msgstr ""
 
-#: setupwizard.cpp:211
+#: setupwizard.cpp:213
 #, kde-format
 msgid "Login Credentials"
 msgstr ""
 
-#: setupwizard.cpp:212
+#: setupwizard.cpp:214
 #, kde-format
 msgid "Enter your credentials to login to the groupware server"
 msgstr ""
 
-#: setupwizard.cpp:217
+#: setupwizard.cpp:219
 #, kde-format
 msgid "User:"
 msgstr ""
 
-#: setupwizard.cpp:252
+#: setupwizard.cpp:257
 #, kde-format
 msgid "Predefined provider found"
 msgstr ""
 
-#: setupwizard.cpp:253
+#: setupwizard.cpp:258
 #, kde-format
 msgid "Select if you want to use the auto-detected provider"
 msgstr ""
 
-#: setupwizard.cpp:268
+#: setupwizard.cpp:273
 #, kde-format
 msgid "No, choose another server"
 msgstr ""
 
-#: setupwizard.cpp:276
+#: setupwizard.cpp:281
 #, kde-format
 msgid ""
 "Based on the email address you used as a login, this wizard\n"
@@ -559,89 +555,89 @@ msgid ""
 "Do you wish to do so?"
 msgstr ""
 
-#: setupwizard.cpp:281
+#: setupwizard.cpp:286
 #, kde-format
 msgid "Yes, use %1 as provider"
 msgstr ""
 
-#: setupwizard.cpp:307
+#: setupwizard.cpp:312
 #, kde-format
 msgid "Groupware Server"
 msgstr ""
 
-#: setupwizard.cpp:308
+#: setupwizard.cpp:313
 #, kde-format
 msgid "Select the groupware server the resource shall be configured for"
 msgstr ""
 
-#: setupwizard.cpp:333
+#: setupwizard.cpp:343
 #, kde-format
 msgid "Use one of those servers:"
 msgstr ""
 
-#: setupwizard.cpp:342
+#: setupwizard.cpp:352
 #, kde-format
 msgid "Configure the resource manually"
 msgstr ""
 
-#: setupwizard.cpp:380
+#: setupwizard.cpp:390
 #, kde-format
 msgid "Connection"
 msgstr ""
 
-#: setupwizard.cpp:381
+#: setupwizard.cpp:391
 #, kde-format
 msgid "Enter the connection information for the groupware server"
 msgstr ""
 
-#: setupwizard.cpp:388
+#: setupwizard.cpp:398
 #, kde-format
 msgid "Host"
 msgstr ""
 
-#: setupwizard.cpp:391
+#: setupwizard.cpp:401
 #, kde-format
 msgid "Installation path"
 msgstr ""
 
-#: setupwizard.cpp:394
+#: setupwizard.cpp:404
 #, kde-format
 msgid "Use secure connection"
 msgstr ""
 
-#: setupwizard.cpp:422
+#: setupwizard.cpp:432
 #, kde-format
 msgid "Final URL (CalDav)"
 msgstr ""
 
-#: setupwizard.cpp:427
+#: setupwizard.cpp:437
 #, kde-format
 msgid "Final URL (CardDav)"
 msgstr ""
 
-#: setupwizard.cpp:432
+#: setupwizard.cpp:442
 #, kde-format
 msgid "Final URL (GroupDav)"
 msgstr ""
 
-#: setupwizard.cpp:495 setupwizard.cpp:501
+#: setupwizard.cpp:505 setupwizard.cpp:511
 #, kde-format
 msgid "Test Connection"
 msgstr ""
 
-#: setupwizard.cpp:496
+#: setupwizard.cpp:506
 #, kde-format
 msgid ""
 "You can test now whether the groupware server can be accessed with the "
 "current configuration"
 msgstr ""
 
-#: setupwizard.cpp:542
+#: setupwizard.cpp:552
 #, kde-format
 msgid "An error occurred: %1"
 msgstr ""
 
-#: setupwizard.cpp:545
+#: setupwizard.cpp:555
 #, kde-format
 msgid "Connected successfully"
 msgstr ""
@@ -651,50 +647,50 @@ msgstr ""
 msgid "Display Name"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, remoteProtocol)
-#: urlconfigurationdialog.ui:41
+#. i18n: ectx: property (text), widget (QLabel, remoteProtocol)
+#: urlconfigurationdialog.ui:35
 #, kde-format
-msgid "Remote calendar access protocol"
+msgid "Access protocol:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, caldav)
-#: urlconfigurationdialog.ui:50
+#: urlconfigurationdialog.ui:42
 #, kde-format
 msgid "CalDA&V"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, carddav)
-#: urlconfigurationdialog.ui:60
+#: urlconfigurationdialog.ui:52
 #, kde-format
 msgid "CardDAV"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, groupdav)
-#: urlconfigurationdialog.ui:67
+#: urlconfigurationdialog.ui:59
 #, kde-format
 msgid "GroupDAV"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: urlconfigurationdialog.ui:80
-#, kde-format
-msgid "Remote calendar access"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: urlconfigurationdialog.ui:148
+#: urlconfigurationdialog.ui:66
 #, kde-format
 msgid "Remote URL:"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: urlconfigurationdialog.ui:161
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#: urlconfigurationdialog.ui:76
 #, kde-format
-msgid "Discovered collections"
+msgid "Access:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, collectionsLabel)
+#: urlconfigurationdialog.ui:146
+#, kde-format
+msgid "Discovered collections:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, fetchButton)
-#: urlconfigurationdialog.ui:182
+#: urlconfigurationdialog.ui:174
 #, kde-format
 msgid "Fetch"
 msgstr ""

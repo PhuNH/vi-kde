@@ -37,7 +37,7 @@ msgstr ""
 msgid "Learning to create your first applications using Kirigami\n"
 msgstr ""
 
-#: content/docs/kirigami/_index.md:11
+#: content/docs/kirigami/_index.md:20
 msgid ""
 "This tutorial will guide you through the process of creating your own "
 "convergent application using the [Kirigami framework](/frameworks/kirigami)."
@@ -48,7 +48,7 @@ msgid ""
 " adapt to a smaller portrait screen. And so on."
 msgstr ""
 
-#: content/docs/kirigami/_index.md:17
+#: content/docs/kirigami/_index.md:28
 msgid ""
 "Kirigami is built on top of the QML language and Qt Quick Controls 2 "
 "components provided by the Qt project. QML has built in support for touch "
@@ -58,7 +58,7 @@ msgid ""
 "applications."
 msgstr ""
 
-#: content/docs/kirigami/_index.md:22
+#: content/docs/kirigami/_index.md:34
 msgid ""
 "While you will use QML to create the visual part of your application, the "
 "business logic -- the code that does the heavy lifting for your "
@@ -75,30 +75,30 @@ msgstr ""
 msgid "Informations about your application"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:5
+#: content/docs/kirigami/advanced-add_about_page.md:8
 msgid ""
 "The About Page allows you to have a page that shows the copyright notice of "
 "the application together with the contributors and some information of which"
 " platform it's running on."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:7
+#: content/docs/kirigami/advanced-add_about_page.md:10
 msgid ""
 "First, we are going to create two files in the `src/` directory called "
 "`about.cpp` and `about.h`."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:9
+#: content/docs/kirigami/advanced-add_about_page.md:12
 msgid "about.h"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:28
+#: content/docs/kirigami/advanced-add_about_page.md:31
 msgid ""
 "In the `.h` file we create this class `AboutType` which is inherited from "
 "[QObject](https://doc.qt.io/qt-5/qobject.html)."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:31
+#: content/docs/kirigami/advanced-add_about_page.md:34
 msgid ""
 "The `Q_OBJECT` macro tells the compiler that this class uses own signals and"
 " slots, the `Q_PROPERTY` macro behaves like a class data member, but it has "
@@ -106,49 +106,49 @@ msgid ""
 "class."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:34
+#: content/docs/kirigami/advanced-add_about_page.md:37
 msgid ""
 "The `aboutData` method will return the application data from `KAboutData`."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:36
+#: content/docs/kirigami/advanced-add_about_page.md:39
 msgid "about.cpp"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:42
+#: content/docs/kirigami/advanced-add_about_page.md:45
 msgid "In the `.cpp` file we just include the `.h` file."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:44
-#: content/docs/kirigami/introduction-getting_started.md:86
+#: content/docs/kirigami/advanced-add_about_page.md:47
+#: content/docs/kirigami/introduction-getting_started.md:90
 msgid "main.cpp"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:58
+#: content/docs/kirigami/advanced-add_about_page.md:61
 msgid "The program name used internally."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:60
+#: content/docs/kirigami/advanced-add_about_page.md:63
 msgid "A displayable program name string."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:62
+#: content/docs/kirigami/advanced-add_about_page.md:65
 msgid "The program version string."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:64
+#: content/docs/kirigami/advanced-add_about_page.md:67
 msgid "Short description of what the app does."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:66
+#: content/docs/kirigami/advanced-add_about_page.md:69
 msgid "The license this code is released under."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:68
+#: content/docs/kirigami/advanced-add_about_page.md:71
 msgid "Copyright Statement."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:85
+#: content/docs/kirigami/advanced-add_about_page.md:88
 msgid ""
 "In the cpp file we include `KAboutData` and the `.h` file we just created, "
 "[KAboutData](docs:kcoreaddons;KAboutData) is a core KDE Frameworks component"
@@ -158,20 +158,20 @@ msgid ""
 "information."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:88
+#: content/docs/kirigami/advanced-add_about_page.md:91
 msgid ""
 "We also include this `config-helloworld.h` file which gives us this "
 "`HELLOWORLD_VERSION_STRING` variable that we'll set later in this tutorial."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:90
+#: content/docs/kirigami/advanced-add_about_page.md:93
 msgid ""
 "After all the required information has been set, we call "
 "`KAboutData::setApplicationData` to initialize the properties of the "
 "[QApplication ](https://doc.qt.io/qt-5/qapplication.html) object."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:93
+#: content/docs/kirigami/advanced-add_about_page.md:96
 msgid ""
 "After the QML Engine definition, we create a "
 "[qmlRegisterSingletonType](https://doc.qt.io/qt-5/qqmlengine.html#qmlRegisterSingletonType),"
@@ -180,18 +180,18 @@ msgid ""
 " name, the name that we will call when accessing the `AboutType` methods."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:95
+#: content/docs/kirigami/advanced-add_about_page.md:98
 msgid ""
 "In the `qmlRegisterSingletonType` lambda we just return a new `AboutType` "
 "object;"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:98
-#: content/docs/kirigami/introduction-getting_started.md:52
+#: content/docs/kirigami/advanced-add_about_page.md:101
+#: content/docs/kirigami/introduction-getting_started.md:56
 msgid "main.qml"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:130
+#: content/docs/kirigami/advanced-add_about_page.md:133
 msgid ""
 "First, we import the package we defined in the `main.cpp` file, add a "
 "`Kirigami.Action` to our global drawer that will send us to the about page "
@@ -200,11 +200,11 @@ msgid ""
 "it."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:133
+#: content/docs/kirigami/advanced-add_about_page.md:136
 msgid "CMakeLists"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:156
+#: content/docs/kirigami/advanced-add_about_page.md:159
 msgid ""
 "In the CMakeLists.txt file in our top-level folder, add `CoreAddons` to the "
 "`find_package` module. You'll also want to add these three `ECM` includes "
@@ -213,24 +213,24 @@ msgid ""
 "change one variable when bumping up versions."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:164
+#: content/docs/kirigami/advanced-add_about_page.md:167
 msgid ""
 "In the CMakeLists.txt file in the ‘src’ directory, add `controller.cpp` to "
 "the `add_executable` module and `KF5::CoreAddons` to the "
 "`target_link_libraries` module."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:166
+#: content/docs/kirigami/advanced-add_about_page.md:169
 msgid "Running the application"
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:168
+#: content/docs/kirigami/advanced-add_about_page.md:171
 msgid ""
 "Now if you run your application and trigger the \"About\" action in the "
 "global drawer you should see our about page."
 msgstr ""
 
-#: content/docs/kirigami/advanced-add_about_page.md:170
+#: content/docs/kirigami/advanced-add_about_page.md:173
 msgid "![Screenshot of the Kirigami About Page](about-page.png)"
 msgstr ""
 
@@ -244,7 +244,7 @@ msgid ""
 "data to display"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:5
+#: content/docs/kirigami/advanced-connect_backend.md:8
 msgid ""
 "To integrate logic into the application, we need C++ backend classes that "
 "can do the important calculations. Writing logic in the QML files is "
@@ -252,26 +252,26 @@ msgid ""
 "purely used for displaying the user interface, which is what it is best at."
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:7
+#: content/docs/kirigami/advanced-connect_backend.md:10
 msgid ""
 "For your new backend class, create two new files called `backend.cpp` and "
 "`backend.h`. Don't forget to add the new cpp file to the executable in "
 "`src/CMakeLists.txt`, next to main.cpp."
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:9
+#: content/docs/kirigami/advanced-connect_backend.md:12
 msgid ""
 "Add the following content to the new header file (the one with the `.h` "
 "extension):"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:24
+#: content/docs/kirigami/advanced-connect_backend.md:27
 msgid ""
 "The cpp file containing the definitions is similarly empty right now, it "
 "should contain something like the following:"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:35
+#: content/docs/kirigami/advanced-connect_backend.md:38
 msgid ""
 "Currently the user interface doesn't know about your backend class. To "
 "change that, we need to register the new type in `main.cpp`. The backend "
@@ -279,17 +279,17 @@ msgid ""
 "exist through the whole time from starting the application to closing it."
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:37
+#: content/docs/kirigami/advanced-connect_backend.md:40
 msgid ""
 "To `main.cpp`, right after creating the `QQmlApplicationEngine`, add the "
 "type registration as follows:"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:43
+#: content/docs/kirigami/advanced-connect_backend.md:46
 msgid "Don't forget to include the new header file at the top of `main.cpp`."
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:45
+#: content/docs/kirigami/advanced-connect_backend.md:48
 msgid ""
 "From now on, the backend will be known to QML as `Backend`. It is contained "
 "in a module called `org.kde.example`. Since the module is part of the "
@@ -297,11 +297,11 @@ msgid ""
 " and use it consistently throughout the application."
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:47
+#: content/docs/kirigami/advanced-connect_backend.md:50
 msgid "In `main.qml`, import the new module:"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:52
+#: content/docs/kirigami/advanced-connect_backend.md:55
 msgid ""
 "Now we have connected the class holding the future logic to the application,"
 " but it still doesn't do anything. To change that, let's add a property to "
@@ -309,11 +309,11 @@ msgid ""
 " the UI about changes so it can update the right areas."
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:54
+#: content/docs/kirigami/advanced-connect_backend.md:57
 msgid "Right under the `Q_OBJECT` macro, add a new `Q_PROPERTY`."
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:61
+#: content/docs/kirigami/advanced-connect_backend.md:63
 msgid ""
 "That seems like quite a lot for a simple property we'll use to show some "
 "text from the backend, right? But a closer look reveals that this can "
@@ -321,18 +321,18 @@ msgid ""
 "it is written. It will automatically inform frontend and backend of changes."
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:63
+#: content/docs/kirigami/advanced-connect_backend.md:66
 msgid ""
 "The reading and writing is based on getter and setter functions, so add a "
 "new private attribute to your class, like this, and add getter and setter "
 "functions."
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:69
+#: content/docs/kirigami/advanced-connect_backend.md:72
 msgid "To the public section, add"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:75
+#: content/docs/kirigami/advanced-connect_backend.md:78
 msgid ""
 "The first function is the getter, the second the setter, and the third a "
 "signal that is emitted when the property was changed. The signal doesn't "
@@ -341,52 +341,52 @@ msgid ""
 "the following:"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:89
+#: content/docs/kirigami/advanced-connect_backend.md:92
 msgid ""
 "As you can see, when the setter is called, the signal will be emitted, and "
 "inform the ui and backend of the change."
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:91
+#: content/docs/kirigami/advanced-connect_backend.md:94
 msgid ""
 "To display the text, in `main.qml` add a heading displaying it right under "
 "the text property of the `Kirigami.Page` element that is already contained "
 "in the template."
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:93
+#: content/docs/kirigami/advanced-connect_backend.md:96
 msgid "The resulting code in that part of the file should look like this:"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:109
+#: content/docs/kirigami/advanced-connect_backend.md:112
 msgid "Now compile and start your program again."
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:111
+#: content/docs/kirigami/advanced-connect_backend.md:114
 msgid "Congratulations, you learned:"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:112
+#: content/docs/kirigami/advanced-connect_backend.md:115
 msgid "How to register backend types to QML"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:113
+#: content/docs/kirigami/advanced-connect_backend.md:116
 msgid "Add new elements to the QML file"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:114
+#: content/docs/kirigami/advanced-connect_backend.md:117
 msgid "Create new QObject subclasses"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:115
+#: content/docs/kirigami/advanced-connect_backend.md:118
 msgid "How to add properties and what they do"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:116
+#: content/docs/kirigami/advanced-connect_backend.md:119
 msgid "What signals are"
 msgstr ""
 
-#: content/docs/kirigami/advanced-connect_backend.md:118
+#: content/docs/kirigami/advanced-connect_backend.md:121
 msgid ""
 "If you want to know more about the integration between QML and C++, we "
 "recommend reading the [official Qt "
@@ -399,14 +399,14 @@ msgid "Figuring out main.cpp"
 msgstr ""
 
 #: content/docs/kirigami/advanced-maincpp.md:0
-msgid "Understanding the central file of our backend code\n"
+msgid "Understanding the central file of our backend code"
 msgstr ""
 
-#: content/docs/kirigami/advanced-maincpp.md:5
+#: content/docs/kirigami/advanced-maincpp.md:9
 msgid "The role of main.cpp"
 msgstr ""
 
-#: content/docs/kirigami/advanced-maincpp.md:7
+#: content/docs/kirigami/advanced-maincpp.md:11
 msgid ""
 "While QML is used for the front-end of Kirigami applications, the backend is"
 " usually written in C++ thanks to this language's speed and flexibility. "
@@ -415,7 +415,7 @@ msgid ""
 " that are more useful than what we can achieve with pure QML."
 msgstr ""
 
-#: content/docs/kirigami/advanced-maincpp.md:9
+#: content/docs/kirigami/advanced-maincpp.md:13
 msgid ""
 "Here, we'll be going over the `main.cpp` file we created in the 'Getting "
 "Started' page so that we can better understand what is going on in the "
@@ -424,11 +424,11 @@ msgid ""
 "application it is that you decide to create."
 msgstr ""
 
-#: content/docs/kirigami/advanced-maincpp.md:11
+#: content/docs/kirigami/advanced-maincpp.md:15
 msgid "What it does"
 msgstr ""
 
-#: content/docs/kirigami/advanced-maincpp.md:15
+#: content/docs/kirigami/advanced-maincpp.md:19
 msgid ""
 "First we must include a number of Qt header files, allowing us to use their "
 "functions. In this case, we include a number of Qt headers that handle "
@@ -436,7 +436,7 @@ msgid ""
 "`resources.qrc`."
 msgstr ""
 
-#: content/docs/kirigami/advanced-maincpp.md:17
+#: content/docs/kirigami/advanced-maincpp.md:21
 msgid ""
 "Enter our main function. Its first line "
 "`QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);` enables High "
@@ -444,7 +444,7 @@ msgid ""
 "different display pixel densities."
 msgstr ""
 
-#: content/docs/kirigami/advanced-maincpp.md:19
+#: content/docs/kirigami/advanced-maincpp.md:23
 msgid ""
 "We then create a "
 "[`QApplication`](https://doc.qt.io/qt-5/qapplication.html#QApplication) "
@@ -452,7 +452,7 @@ msgid ""
 "here, letting Qt parse and use arguments meant to affect Qt."
 msgstr ""
 
-#: content/docs/kirigami/advanced-maincpp.md:21
+#: content/docs/kirigami/advanced-maincpp.md:25
 msgid ""
 "We also set some metadata relating to the application. These include the "
 "organisation that created the application, the organisation's website, and "
@@ -463,7 +463,7 @@ msgid ""
 "metadata would still be set)."
 msgstr ""
 
-#: content/docs/kirigami/advanced-maincpp.md:23
+#: content/docs/kirigami/advanced-maincpp.md:27
 msgid ""
 "The "
 "[`QQmlApplicationEngine`](https://doc.qt.io/qt-5/qqmlapplicationengine.html)"
@@ -472,7 +472,7 @@ msgid ""
 "from a URL in our `resources.qrc` file."
 msgstr ""
 
-#: content/docs/kirigami/advanced-maincpp.md:25
+#: content/docs/kirigami/advanced-maincpp.md:29
 msgid ""
 "Next, we check if our engine correctly loaded the QML file by checking that "
 "the engine's `rootObjects` list is not empty. We can then run our "
@@ -484,14 +484,14 @@ msgid "Understanding CMakeLists"
 msgstr ""
 
 #: content/docs/kirigami/advanced-understanding_cmakelists.md:0
-msgid "Getting to grips with how CMakeLists.txt files work\n"
+msgid "Getting to grips with how CMakeLists.txt files work"
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:5
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:9
 msgid "CMake"
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:6
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:10
 msgid ""
 "In our introductory tutorial, we used CMake as the build system for our "
 "application, but we only really paid close attention to one of our "
@@ -499,26 +499,26 @@ msgid ""
 "detail."
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:8
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:12
 msgid ""
 "CMake is useful because it allows us to automate much of the stuff that "
 "needs to be done before compilation."
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:10
-#: content/docs/kirigami/introduction-getting_started.md:106
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:14
+#: content/docs/kirigami/introduction-getting_started.md:110
 msgid "CMakeLists.txt"
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:12
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:16
 msgid "You might remember this CMakeLists file from the first tutorial:"
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:16
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:20
 msgid "The first line, `project(helloworld)` defines the name of the project."
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:18
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:22
 msgid ""
 "After that, we are setting the versions of our needed tools. "
 "`cmake_minimum_required(VERSION 3.10)` sets the version of CMake we will be "
@@ -526,104 +526,104 @@ msgid ""
 "`QT_MIN_VERSION`) containing the versions of the KDE Frameworks and Qt."
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:20
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:24
 msgid ""
 "Then we get to a section where we include a number of necessary CMake and "
 "KDE settings. You shouldn't worry too much about these lines for now and we "
 "won't need to change them in this tutorial."
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:22
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:26
 msgid ""
 "The following section is important, because it specifies which dependencies "
 "we'll be bringing in at compile time. Let's look at the first line:"
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:24
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:28
 msgid ""
 "`find_package(KF5 ${KF5_MIN_VERSION} COMPONENTS Kirigami2 I18n CoreAddons "
 "WidgetsAddons)`"
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:25
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:29
 msgid "`find_package` finds and loads the external component."
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:26
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:30
 msgid "The first word is the framework (`KF5`)."
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:27
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:31
 msgid ""
 "Then we are calling the variable with the versions we set in the second "
 "line."
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:28
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:32
 msgid ""
 "`COMPONENTS` is a parameter that precedes the specific components of the "
 "framework we will include."
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:29
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:33
 msgid "Each word after `COMPONENTS` refers to a specific component."
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:33
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:47
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:35
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:49
 #: content/docs/kirigami/components-actions.md:12
-#: content/docs/kirigami/components-actions.md:29
-#: content/docs/kirigami/components-actions.md:216
-#: content/docs/kirigami/components-actiontoolbar.md:11
-#: content/docs/kirigami/components-card.md:93
-#: content/docs/kirigami/components-controls.md:76
-#: content/docs/kirigami/components-drawers.md:106
-#: content/docs/kirigami/components-drawers.md:185
-#: content/docs/kirigami/components-pagerow_pagestack.md:60
-#: content/docs/kirigami/introduction-actions.md:49
-#: content/docs/kirigami/introduction-actions.md:97
-#: content/docs/kirigami/introduction-getting_started.md:74
-#: content/docs/kirigami/introduction-getting_started.md:125
-#: content/docs/kirigami/introduction-getting_started.md:151
+#: content/docs/kirigami/components-actions.md:32
+#: content/docs/kirigami/components-actions.md:215
+#: content/docs/kirigami/components-actiontoolbar.md:12
+#: content/docs/kirigami/components-card.md:95
+#: content/docs/kirigami/components-controls.md:80
+#: content/docs/kirigami/components-drawers.md:109
+#: content/docs/kirigami/components-drawers.md:188
+#: content/docs/kirigami/components-pagerow_pagestack.md:61
+#: content/docs/kirigami/introduction-actions.md:52
+#: content/docs/kirigami/introduction-actions.md:100
+#: content/docs/kirigami/introduction-getting_started.md:78
+#: content/docs/kirigami/introduction-getting_started.md:129
+#: content/docs/kirigami/introduction-getting_started.md:155
 #: content/docs/kirigami/introduction-listviews.md:42
 #: content/docs/kirigami/introduction-listviews.md:171
-#: content/docs/kirigami/introduction-next_steps.md:21
-#: content/docs/kirigami/introduction-pages.md:23
-#: content/docs/kirigami/introduction-pages.md:55
+#: content/docs/kirigami/introduction-next_steps.md:23
+#: content/docs/kirigami/introduction-pages.md:25
+#: content/docs/kirigami/introduction-pages.md:57
 msgid "Note"
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:35
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:39
 msgid ""
 "The final line, `add_subdirectory(src)`, points CMake into the 'src' "
 "directory."
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:39
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:43
 msgid ""
 "Since most of the heavy lifting is done by the first file, this one is a lot"
 " shorter."
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:41
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:45
 msgid ""
 "`set` is used to set `helloworld_SRCS` to `main.cpp` and `resources.qrc` (if"
 " we decide to create additional C++ files we'll need to add them here too)"
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:42
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:46
 msgid ""
 "`add_executable` takes care of naming our executable and grabbing the files "
 "needed to create it"
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:43
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:47
 msgid ""
 "`target_link_libraries` dynamically links the libraries used in our code to "
 "our executable."
 msgstr ""
 
-#: content/docs/kirigami/advanced-understanding_cmakelists.md:49
+#: content/docs/kirigami/advanced-understanding_cmakelists.md:53
 msgid "This setup will be useful when developing most Kirigami apps."
 msgstr ""
 
@@ -632,29 +632,29 @@ msgid "Actions based components"
 msgstr ""
 
 #: content/docs/kirigami/components-actions.md:0
-msgid "Kirigami's Actions are used to add functionality to components.\n"
+msgid "Kirigami's Actions are used to add functionality to components."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:5
-#: content/docs/kirigami/introduction-actions.md:11
+#: content/docs/kirigami/components-actions.md:8
+#: content/docs/kirigami/introduction-actions.md:14
 msgid "Actions"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:7
-#: content/docs/kirigami/introduction-actions.md:13
+#: content/docs/kirigami/components-actions.md:10
+#: content/docs/kirigami/introduction-actions.md:16
 msgid ""
 "A Kirigami Action encapsulates a user interface action. We can use these to "
 "provide our applications with easy-to-reach actions that are essential to "
 "their functionality."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:15
+#: content/docs/kirigami/components-actions.md:17
 msgid ""
 "Like QtQuick Controls Actions, they can be assigned to menu items and "
 "toolbar buttons, but also to multiple other Kirigami components."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:31
+#: content/docs/kirigami/components-actions.md:34
 msgid ""
 "The `icon.name` property takes names for system-wide icons per the "
 "FreeDesktop specification. These icons and icon names can be viewed with "
@@ -663,39 +663,40 @@ msgid ""
 "naming-spec-latest.html)."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:36
+#: content/docs/kirigami/components-actions.md:38
 msgid ""
 "One feature offered by Kirigami Actions on top of QtQuick Actions is the "
 "possibility to nest actions."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:57
+#: content/docs/kirigami/components-actions.md:58
 msgid ""
 "Another feature of Kirigami Actions is to provide various hints to items "
 "using actions about how they should display the action. These are primarily "
 "handled by the `displayHint` and `displayComponent` properties."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:61
+#: content/docs/kirigami/components-actions.md:62
 msgid ""
 "These properties will be respected by the item if possible. For example, the"
 " following action will be displayed as a TextField with the item trying its "
 "best to keep the item visible as long as possible."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:76
+#: content/docs/kirigami/components-actions.md:79
 msgid "Using actions in other components"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:78
+#: content/docs/kirigami/components-actions.md:81
+#: content/docs/kirigami/introduction-next_steps.md:63
 msgid "Page"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:80
+#: content/docs/kirigami/components-actions.md:83
 msgid "One of the features of pages is that Actions can be added to them."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:84
+#: content/docs/kirigami/components-actions.md:85
 msgid ""
 "You can add a main action, a left and right action and additional context "
 "actions that are displayed on the toolbar if there is enough place or in a "
@@ -710,17 +711,17 @@ msgstr ""
 msgid "Page actions on a mobile device"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:129
-#: content/docs/kirigami/components-scrollablepages_listviews.md:24
-#: content/docs/kirigami/introduction-pages.md:40
+#: content/docs/kirigami/components-actions.md:130
+#: content/docs/kirigami/components-scrollablepages_listviews.md:27
+#: content/docs/kirigami/introduction-pages.md:42
 msgid "Warning"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:142
+#: content/docs/kirigami/components-actions.md:145
 msgid "Global Drawer"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:145
+#: content/docs/kirigami/components-actions.md:147
 msgid ""
 "The global drawer provides an action based navigation to your application. "
 "This is the place, where nested actions are useful because it allows you to "
@@ -735,53 +736,57 @@ msgstr ""
 msgid "Global Drawers actions on a mobile device"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:185
+#: content/docs/kirigami/components-actions.md:188
 msgid ""
 "You can read more about Global Drawers in the [documentation page for "
 "drawers](../components-drawers/)."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:187
+#: content/docs/kirigami/components-actions.md:190
 msgid "ActionTextFields"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:190
+#: content/docs/kirigami/components-actions.md:192
 msgid ""
 "A [Kirigami ActionTextField](docs:kirigami2;ActionTextField) is used to add "
 "some contextual actions to a text field, for example to clear the text, or "
 "to search for the text."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:208
+#: content/docs/kirigami/components-actions.md:211
 msgid ""
 "In this example, we are creating a clear button for a search field only "
 "visible when text is entered."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:210
+#: content/docs/kirigami/components-actions.md:213
 msgid "![Search field with text: \"I want ](searchfield.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:218
+#: content/docs/kirigami/components-actions.md:221
 msgid "SwipeListItem"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:222
+#: content/docs/kirigami/components-actions.md:223
 msgid ""
 "A [SwipeListItem](docs:kirigami2;SwipeListItem) is a delegate intended to "
 "support extra actions. When using a mouse, they will be shown on hover. On a"
 " touch device, they can be shown by dragging the item with the handle."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:245
+#: content/docs/kirigami/components-actions.md:241
+msgid "do something"
+msgstr ""
+
+#: content/docs/kirigami/components-actions.md:248
 msgid "SwipeListItem on a computer"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:247
+#: content/docs/kirigami/components-actions.md:250
 msgid "SwipeListItem on a mobile device"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:249
+#: content/docs/kirigami/components-actions.md:252
 msgid "ActionToolBar"
 msgstr ""
 
@@ -793,27 +798,27 @@ msgid ""
 "a menu at the end of the toolbar."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:257
+#: content/docs/kirigami/components-actions.md:259
 msgid ""
 "Like ActionTextField, you may not need to use ActionToolBar directly as it "
 "is used by page headers and cards to provide their action display."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:282
+#: content/docs/kirigami/components-actions.md:285
 msgid "![](action_tool_bar.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:284
+#: content/docs/kirigami/components-actions.md:287
 msgid ""
 "You can read more about ActionToolBar components in their [dedicated "
 "documentation page](../components-actiontoolbar/)."
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:286
+#: content/docs/kirigami/components-actions.md:289
 msgid "Cards"
 msgstr ""
 
-#: content/docs/kirigami/components-actions.md:288
+#: content/docs/kirigami/components-actions.md:291
 msgid ""
 "The cards components can also take an action. For more information consult "
 "the [component page for Cards](../components-card/)."
@@ -828,14 +833,14 @@ msgid ""
 "Create your own customisable tool bars with the ActionToolBar component"
 msgstr ""
 
-#: content/docs/kirigami/components-actiontoolbar.md:5
+#: content/docs/kirigami/components-actiontoolbar.md:8
 msgid ""
 "While Kirigami pages allow you to easily place a set of actions in the page "
 "header, there are times when you might prefer to have something more "
 "flexible."
 msgstr ""
 
-#: content/docs/kirigami/components-actiontoolbar.md:7
+#: content/docs/kirigami/components-actiontoolbar.md:10
 msgid ""
 "Kirigami provides the component `Kirigami.ActionToolBar`. It will display a "
 "list of `Kirigami.Action` objects and will display as many of them as "
@@ -844,11 +849,11 @@ msgid ""
 "menu depending on the size available to it."
 msgstr ""
 
-#: content/docs/kirigami/components-actiontoolbar.md:13
+#: content/docs/kirigami/components-actiontoolbar.md:16
 msgid "Creating our first ActionToolBar"
 msgstr ""
 
-#: content/docs/kirigami/components-actiontoolbar.md:15
+#: content/docs/kirigami/components-actiontoolbar.md:18
 msgid ""
 "The layout and location of your `Kirigami.ActionToolBar` are really up to "
 "you, though for the sake of user-friendliness it is usually a good idea to "
@@ -856,7 +861,7 @@ msgid ""
 "page and to have it spread width-wise."
 msgstr ""
 
-#: content/docs/kirigami/components-actiontoolbar.md:17
+#: content/docs/kirigami/components-actiontoolbar.md:20
 msgid ""
 "Like most other action-holding components, `Kirigami.ActionToolBar` has an "
 "`actions` property. We can assign an array of `Kirigami.Action` components "
@@ -871,11 +876,11 @@ msgstr ""
 msgid "ActionToolBar with overflow menu containing children"
 msgstr ""
 
-#: content/docs/kirigami/components-actiontoolbar.md:66
+#: content/docs/kirigami/components-actiontoolbar.md:69
 msgid "Alignment"
 msgstr ""
 
-#: content/docs/kirigami/components-actiontoolbar.md:68
+#: content/docs/kirigami/components-actiontoolbar.md:71
 msgid ""
 "By default, actions in the ActionToolBar will be left aligned. This might "
 "not be desirable in all situations. Thankfully we can change this with the "
@@ -885,7 +890,7 @@ msgid ""
 "alignment)."
 msgstr ""
 
-#: content/docs/kirigami/components-actiontoolbar.md:97
+#: content/docs/kirigami/components-actiontoolbar.md:100
 msgid ""
 "![ActionToolBar with children center-aligned](actiontoolbar-alignment.png)"
 msgstr ""
@@ -893,10 +898,10 @@ msgstr ""
 #: content/docs/kirigami/components-card.md:0
 msgid ""
 "A card serves as overview and an entry point for more detailed information "
-"and can offer direct access to the most important actions on an item.\n"
+"and can offer direct access to the most important actions on an item."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:5
+#: content/docs/kirigami/components-card.md:9
 msgid ""
 "The Kirigami types "
 "[`Kirigami.AbstractCard`](docs:kirigami2;org::kde::kirigami::AbstractCard) "
@@ -906,17 +911,17 @@ msgid ""
 "attractive and distinctive way."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:7
+#: content/docs/kirigami/components-card.md:11
 msgid ""
 "Kirigami also offers 3 kinds of views and positioners to aid you in "
 "presenting your cards with beautiful and responsive layouts."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:9
+#: content/docs/kirigami/components-card.md:13
 msgid "AbstractCard"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:11
+#: content/docs/kirigami/components-card.md:15
 msgid ""
 "A [`Kirigami.AbstractCard`](docs:kirigami2;Card) is the simplest type of "
 "card. It's just a rectangle with a shadow, which can contain any `Item` in "
@@ -926,15 +931,15 @@ msgid ""
 "`wrapMode` set to `Text.WordWrap` is the card's `contentItem`."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:35
+#: content/docs/kirigami/components-card.md:39
 msgid "![Screenshot of an Abstract Card](abstract-card.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:42
+#: content/docs/kirigami/components-card.md:46
 msgid "Card"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:44
+#: content/docs/kirigami/components-card.md:48
 msgid ""
 "A [`Kirigami.Card`](docs:kirigami2;Card) inherits from "
 "[`Kirigami.AbstractCard`](docs:kirigami2;AbstractCard) and provides more "
@@ -943,23 +948,23 @@ msgid ""
 "alongside its main content."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:61
+#: content/docs/kirigami/components-card.md:65
 msgid "..."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:66
+#: content/docs/kirigami/components-card.md:70
 msgid "The title can be positioned in the banner"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:81
+#: content/docs/kirigami/components-card.md:85
 msgid "![](card1.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:87
+#: content/docs/kirigami/components-card.md:91
 msgid "CardsLayout"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:89
+#: content/docs/kirigami/components-card.md:93
 msgid ""
 "A [`Kirigami.CardsLayout`](docs:kirigami2;CardsLayout) is most useful when "
 "the cards being presented are not instantiated by a model or by a model "
@@ -969,33 +974,33 @@ msgid ""
 " phone screen."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:95
+#: content/docs/kirigami/components-card.md:99
 msgid "**A CardsLayout should always be contained within a ColumnLayout.**"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:97
+#: content/docs/kirigami/components-card.md:101
 msgid ""
 "A card can optionally be oriented horizontally. In this case it will be "
 "wider than tall, and is better suited to being placed in a ColumnLayout. If "
 "you must put it in a CardsLayout, it will have a columnSpan of 2 by default."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:132
+#: content/docs/kirigami/components-card.md:136
 msgid "![Screenshot of a CardsLayout](cardslayout.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:138
+#: content/docs/kirigami/components-card.md:142
 msgid "CardsListView"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:140
+#: content/docs/kirigami/components-card.md:144
 msgid ""
 "A [`Kirigami.CardsListView`](docs:kirigami2;CardsListView) is a list view "
 "that can be used with [`Kirigami.AbstractCard`](docs:kirigami2;AbstractCard)"
 " components."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:142
+#: content/docs/kirigami/components-card.md:146
 msgid ""
 "A `Kirigami.CardsListView` will stretch child cards to its own width. This "
 "component should therefore only be used with cards which will look good at "
@@ -1004,7 +1009,7 @@ msgid ""
 "`headerOrientation` property."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:144
+#: content/docs/kirigami/components-card.md:148
 msgid ""
 "The choice between using this view with `Kirigami.AbstractCard` components "
 "or a conventional `ListView` with "
@@ -1012,46 +1017,54 @@ msgid ""
 " components is purely an aesthetic one."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:196
+#: content/docs/kirigami/components-card.md:160
+msgid "NOTE: never put a Layout as contentItem as it will cause binding loops"
+msgstr ""
+
+#: content/docs/kirigami/components-card.md:170
+msgid "IMPORTANT: never put the bottom margin"
+msgstr ""
+
+#: content/docs/kirigami/components-card.md:200
 msgid "![Screenshot of a CardsListView](cardslistview.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:202
+#: content/docs/kirigami/components-card.md:206
 msgid "CardsGridView"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:204
+#: content/docs/kirigami/components-card.md:208
 msgid ""
 "Use a "
 "[`Kirigami.CardsGridView`](docs:kirigami2;org::kde::kirigami::CardsGridView)"
 " to display cards in a grid."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:206
+#: content/docs/kirigami/components-card.md:210
 msgid ""
 "Its behavior is the same as a `Kirigami.CardsLayout`, and it allows cards to"
 " be put in one or two columns depending on the available width."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:208
+#: content/docs/kirigami/components-card.md:212
 msgid ""
 "CardsGridView has the limitation that every card must have the same exact "
 "height, so `cellHeight` must be manually set to a value for which the "
 "content must fit for every child card."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:210
+#: content/docs/kirigami/components-card.md:214
 msgid ""
 "If possible use `Kirigami.CardsGridView` only when you need to instantiate "
 "many cards. If you are only going to instantiate a few cards, opt for a "
 "`Kirigami.CardsLayout` with a `Repeater` instead."
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:222
+#: content/docs/kirigami/components-card.md:225
 msgid "Model with the following roles: text, actions and image"
 msgstr ""
 
-#: content/docs/kirigami/components-card.md:253
+#: content/docs/kirigami/components-card.md:257
 msgid "![Screenshot of a CardsGridView](cardsgridview.png)"
 msgstr ""
 
@@ -1065,7 +1078,7 @@ msgid ""
 "sliders, and text fields."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:5
+#: content/docs/kirigami/components-controls.md:9
 msgid ""
 "Kirigami offers a wide selection of different interactive elements that you "
 "can use in your applications. Each different type has slightly different "
@@ -1074,26 +1087,26 @@ msgid ""
 "responsive and intuitive."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:7
+#: content/docs/kirigami/components-controls.md:11
 msgid "Buttons"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:9
+#: content/docs/kirigami/components-controls.md:13
 msgid ""
 "In Kirigami apps, we use buttons from QtQuick Controls. Using them is pretty"
 " straightforward: we set the text to the `text` property and any action we "
 "want it to perform is set to the `onClicked` property."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:33
+#: content/docs/kirigami/components-controls.md:37
 msgid "![A freshly-clicked button](controls-button.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:38
+#: content/docs/kirigami/components-controls.md:42
 msgid "Toggleable buttons"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:40
+#: content/docs/kirigami/components-controls.md:44
 msgid ""
 "Buttons' behaviour can be changed to make them toggleable: in this mode, "
 "they will stay pressed until clicked on once more. This mode can be "
@@ -1102,7 +1115,7 @@ msgid ""
 "`true`."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:42
+#: content/docs/kirigami/components-controls.md:46
 msgid ""
 "We can get the most out of toggleable buttons by using the "
 "`onCheckedChanged` property. It works similarly to `onClicked`, except here "
@@ -1111,17 +1124,17 @@ msgid ""
 "specific use-cases."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:44
+#: content/docs/kirigami/components-controls.md:48
 msgid ""
 "In this example, we set the visibility of an in-line drawer according to the"
 " status of a toggleable button:"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:71
+#: content/docs/kirigami/components-controls.md:75
 msgid "![A toggleable button](controls-togglebutton.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:78
+#: content/docs/kirigami/components-controls.md:82
 msgid ""
 "With the default Breeze theme in KDE Plasma it can be hard to tell whether a"
 " button is toggled, since buttons are coloured blue when they are clicked "
@@ -1129,11 +1142,11 @@ msgid ""
 "different control might be more user-friendly."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:82
+#: content/docs/kirigami/components-controls.md:86
 msgid "Toolbar buttons"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:84
+#: content/docs/kirigami/components-controls.md:88
 msgid ""
 "There is a specific button type meant for use in toolbars, "
 "`Controls.ToolButton`. The most obvious difference between this and a "
@@ -1141,82 +1154,82 @@ msgid ""
 " is alterable with the boolean property `flat`)."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:99
+#: content/docs/kirigami/components-controls.md:103
 msgid "![A tool button](controls-toolbutton.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:104
+#: content/docs/kirigami/components-controls.md:108
 msgid "Selection controls"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:106
+#: content/docs/kirigami/components-controls.md:110
 msgid ""
 "Selection controls let users make a choice or pick an option. There are "
 "different types that are best suited to different situations."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:108
+#: content/docs/kirigami/components-controls.md:112
 msgid "Checkboxes"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:110
+#: content/docs/kirigami/components-controls.md:114
 msgid ""
 "Checkboxes are meant for options where the choices are non-exclusive and "
 "where each option has a clear alternative."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:129
+#: content/docs/kirigami/components-controls.md:133
 msgid "![A set of checkboxes](controls-checkbox.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:134
+#: content/docs/kirigami/components-controls.md:138
 msgid ""
 "As you can see, they are simple to use. The property `checked` holds a "
 "boolean value determining whether or not they have been checked."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:136
+#: content/docs/kirigami/components-controls.md:140
 msgid "Radio buttons"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:138
+#: content/docs/kirigami/components-controls.md:142
 msgid ""
 "Radio buttons are designed for situations where the user must choose one "
 "option from a set of several options."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:140
+#: content/docs/kirigami/components-controls.md:144
 msgid ""
 "Radio buttons are exclusive by default: only one button can be checked in "
 "the same parent item."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:142
+#: content/docs/kirigami/components-controls.md:146
 msgid ""
 "Like checkboxes, they can be set to be checked or unchecked by default with "
 "the `checked` property."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:163
+#: content/docs/kirigami/components-controls.md:167
 msgid "![A set of radio buttons](controls-radiobutton.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:168
+#: content/docs/kirigami/components-controls.md:172
 msgid "Switches"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:170
+#: content/docs/kirigami/components-controls.md:174
 msgid "Switches are primarily designed for use on mobile devices."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:172
+#: content/docs/kirigami/components-controls.md:176
 msgid ""
 "On the desktop, changing settings usually involves changing the setting and "
 "then applying the setting by clicking on an 'Apply' or 'OK' button. On "
 "mobile, we can use switches instead."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:174
+#: content/docs/kirigami/components-controls.md:178
 msgid ""
 "Switches can be toggled between an on and off state. They can be clicked or "
 "tapped on to toggle them, or they can be dragged towards the 'on' or 'off' "
@@ -1224,15 +1237,15 @@ msgid ""
 "the `checked` property."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:193
+#: content/docs/kirigami/components-controls.md:197
 msgid "![A set of switches](controls-switch.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:198
+#: content/docs/kirigami/components-controls.md:202
 msgid "Sliders"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:200
+#: content/docs/kirigami/components-controls.md:204
 msgid ""
 "Sliders allow users to select certain values by sliding a handle along a "
 "track. Thanks to QtQuick Controls, there are several types that you can "
@@ -1240,50 +1253,50 @@ msgid ""
 "your application."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:202
+#: content/docs/kirigami/components-controls.md:206
 msgid "Standard and tickmarked sliders"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:204
+#: content/docs/kirigami/components-controls.md:208
 msgid ""
 "A standard slider provides the user with very fine control over the "
 "selection they wish to make."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:206
+#: content/docs/kirigami/components-controls.md:210
 msgid ""
 "By default, sliders go left to right to increase (and bottom up to increase "
 "when vertical). The coloration provides a visual indicator of how large the "
 "value you are selecting is."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:208
+#: content/docs/kirigami/components-controls.md:212
 msgid "Sliders have a few important properties we must pay attention to:"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:210
+#: content/docs/kirigami/components-controls.md:214
 msgid ""
 "`value`: contains the value at which the handle is placed, and can also be "
 "set manually to provide a default starting value"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:211
+#: content/docs/kirigami/components-controls.md:215
 msgid ""
 "`to`: defines the range of the slider by specifying the maximum value it can"
 " go to"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:212
+#: content/docs/kirigami/components-controls.md:216
 msgid ""
 "`orientation`: allows the slider to be set to a vertical orientation with "
 "`Qt.Vertical`"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:229
+#: content/docs/kirigami/components-controls.md:233
 msgid "![A set of sliders](controls-sliders.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:234
+#: content/docs/kirigami/components-controls.md:238
 msgid ""
 "Another useful property we can use is `stepSize`. Setting this to a "
 "numerical value allows us to create a slider that snaps onto values that are"
@@ -1293,32 +1306,32 @@ msgid ""
 "`4.0`, etc. up to the value specified in the `to` property."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:251
+#: content/docs/kirigami/components-controls.md:255
 msgid "![A set of tickmarked sliders](controls-tickmarkedsliders.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:256
+#: content/docs/kirigami/components-controls.md:260
 msgid "Range slider"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:258
+#: content/docs/kirigami/components-controls.md:262
 msgid ""
 "QtQuick Controls also provides ranged sliders. These have two handles, hence"
 " allowing you to define a range of numbers between the two handles."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:260
+#: content/docs/kirigami/components-controls.md:264
 msgid ""
 "Two new properties are important to keep in mind: `first.value` and "
 "`second.value`, which hold the values of the two handles. Like the `value` "
 "property of the standard sliders, these can be pre-set."
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:277
+#: content/docs/kirigami/components-controls.md:281
 msgid "![A set of range sliders](controls-rangesliders.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-controls.md:282
+#: content/docs/kirigami/components-controls.md:286
 msgid ""
 "We can also make it a tickmarked slider by setting the `stepSize` property "
 "value to a number, in the exact same way as a standard slider."
@@ -1334,25 +1347,25 @@ msgid ""
 " application."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:5
+#: content/docs/kirigami/components-drawers.md:8
 msgid ""
 "Drawers are panels that slide out of the sides of the application window. "
 "They can be populated with interactive elements such as Kirigami Actions, "
 "buttons, text, and more."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:7
+#: content/docs/kirigami/components-drawers.md:10
 msgid ""
 "Drawers come in different types, shapes, and forms. In this page we will go "
 "over each type and provide an overview of their characteristics."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:9
-#: content/docs/kirigami/introduction-actions.md:61
+#: content/docs/kirigami/components-drawers.md:12
+#: content/docs/kirigami/introduction-actions.md:64
 msgid "Global drawer"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:11
+#: content/docs/kirigami/components-drawers.md:14
 msgid ""
 "The global drawer is a standard feature in KDE's mobile applications and can"
 " sometimes be found in their desktop incarnations too. It contains an "
@@ -1361,7 +1374,7 @@ msgid ""
 "interaction within the application."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:13
+#: content/docs/kirigami/components-drawers.md:16
 msgid ""
 "`Kirigami.GlobalDrawer` components are what we use to create such drawers. "
 "These are set to the `globalDrawer` property of the "
@@ -1369,15 +1382,15 @@ msgid ""
 "application."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:46
+#: content/docs/kirigami/components-drawers.md:49
 msgid "![Our new global drawer](globaldrawer_simple.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:51
+#: content/docs/kirigami/components-drawers.md:54
 msgid "Header"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:53
+#: content/docs/kirigami/components-drawers.md:56
 msgid ""
 "Headers can be used to place sticky components at the top of your global "
 "drawer. Header components will stay in place even if your global drawer "
@@ -1385,76 +1398,76 @@ msgid ""
 "global drawer."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:55
+#: content/docs/kirigami/components-drawers.md:58
 msgid ""
 "Your chosen header component can be set with the global drawer's `header` "
 "property."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:92
+#: content/docs/kirigami/components-drawers.md:95
 msgid "![Search bar header global drawer](globaldrawer_header.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:94
+#: content/docs/kirigami/components-drawers.md:97
 msgid ""
 "Our global drawer now shows the search bar component we set as the header."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:100
+#: content/docs/kirigami/components-drawers.md:103
 msgid "Adapting for the desktop"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:102
+#: content/docs/kirigami/components-drawers.md:105
 msgid ""
 "While panel-style global drawers can be useful in mobile environments, they "
 "might be too large on the desktop."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:104
+#: content/docs/kirigami/components-drawers.md:107
 msgid ""
 "Thankfully, Kirigami global drawers provide an `isMenu` property. When set "
 "to `true`, our global drawers turn into more traditional menus only on the "
 "desktop."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:108
+#: content/docs/kirigami/components-drawers.md:111
 msgid "In this menu mode, headers and banners are not visible."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:139
+#: content/docs/kirigami/components-drawers.md:142
 msgid "![Global drawer as a menu on the desktop](globaldrawer_menu.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:144
+#: content/docs/kirigami/components-drawers.md:147
 msgid "Banners"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:146
+#: content/docs/kirigami/components-drawers.md:149
 msgid ""
 "Banners allow you to display a title and an icon at the top of your global "
 "drawer (even above the header)."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:148
+#: content/docs/kirigami/components-drawers.md:151
 msgid ""
 "Titles, set with the `title` property, can be used to pretty up your global "
 "drawer and make it seem less sparse. More importantly, it can remind your "
 "users that this is a global and app-wide drawer rather than a local drawer."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:150
+#: content/docs/kirigami/components-drawers.md:153
 msgid ""
 "There is also a `titleIcon` property, which can be paired with your title to"
 " make the global drawer even more aesthetically pleasing. This icon will be "
 "placed to the left of the title."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:180
+#: content/docs/kirigami/components-drawers.md:183
 msgid ""
 "![Global drawer with title and icon in banner](globaldrawer-banner.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:187
+#: content/docs/kirigami/components-drawers.md:190
 msgid ""
 "The `titleIcon` property takes names for system-wide icons per the "
 "FreeDesktop specification. These icons and icon names can be viewed with "
@@ -1463,18 +1476,18 @@ msgid ""
 "naming-spec-latest.html)."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:191
+#: content/docs/kirigami/components-drawers.md:194
 msgid ""
 "However, by default, banners are only visible on mobile environments. You "
 "can change this by setting the global drawer component's `bannerVisible` "
 "property to `true`."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:193
+#: content/docs/kirigami/components-drawers.md:196
 msgid "Modal and Inline drawers"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:195
+#: content/docs/kirigami/components-drawers.md:198
 msgid ""
 "Kirigami offers two additional types of drawers, modal drawers and inline "
 "drawers. They are quite similar to each other: both span the entirety of the"
@@ -1482,45 +1495,45 @@ msgid ""
 "window. However, they do react differently to user interaction."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:197
+#: content/docs/kirigami/components-drawers.md:200
 msgid ""
 "Modal drawers darken the rest of the application and, like overlay sheets, "
 "will be dismissed when clicking on a darkened area."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:198
+#: content/docs/kirigami/components-drawers.md:201
 msgid ""
 "Inline drawers allow the user to still interact with the rest of the "
 "application without being dismissed, and do not darken other areas."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:200
+#: content/docs/kirigami/components-drawers.md:203
 msgid ""
 "These two drawers are so similar because they are, in fact, the same "
 "Kirigami component: `Kirigami.OverlayDrawer`. Important properties of this "
 "component to keep in mind:"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:202
+#: content/docs/kirigami/components-drawers.md:205
 msgid ""
 "`modal` controls whether the drawer will be modal or inline depending on a "
 "boolean value"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:203
+#: content/docs/kirigami/components-drawers.md:206
 msgid ""
 "`edge` controls which edge of the application window the drawer will appear "
 "on; options for this property are `Qt.TopEdge`, `Qt.RightEdge`, "
 "`Qt.BottomEdge`, and `Qt.LeftEdge`"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:204
+#: content/docs/kirigami/components-drawers.md:207
 msgid ""
 "`contentItem` contains the component that will form the content of your "
 "drawer"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:215
+#: content/docs/kirigami/components-drawers.md:218
 msgid "Set modal to false to make this drawer inline!"
 msgstr ""
 
@@ -1532,22 +1545,22 @@ msgstr ""
 msgid "Inline drawer on the bottom edge of the screen."
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:250
+#: content/docs/kirigami/components-drawers.md:253
 msgid "A usecase for overlay bottom drawers: NeoChat"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:252
+#: content/docs/kirigami/components-drawers.md:255
 msgid ""
 "NeoChat uses bottom overlay drawers to provide user with a number of actions"
 " they can perform on a message they have long-pressed. Here is a simplified "
 "example of what that looks like:"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:280
+#: content/docs/kirigami/components-drawers.md:283
 msgid "Message information"
 msgstr ""
 
-#: content/docs/kirigami/components-drawers.md:283
+#: content/docs/kirigami/components-drawers.md:286
 msgid "Message actions"
 msgstr ""
 
@@ -1559,7 +1572,7 @@ msgstr ""
 msgid "Easily create attractive interaction areas with Kirigami FormLayouts"
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:5
+#: content/docs/kirigami/components-formlayouts.md:8
 msgid ""
 "`Kirigami.FormLayout` components make it easy for you to create forms that "
 "conform to the KDE Human Interface Guidelines. They are optimal for settings"
@@ -1567,7 +1580,7 @@ msgid ""
 "to each other."
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:7
+#: content/docs/kirigami/components-formlayouts.md:10
 msgid ""
 "When provided with enough space, form layouts will take up two columns. The "
 "column on the left will be occupied by the labels provided for the form's "
@@ -1577,11 +1590,11 @@ msgid ""
 "above their respective component."
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:9
+#: content/docs/kirigami/components-formlayouts.md:12
 msgid "Simple form"
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:11
+#: content/docs/kirigami/components-formlayouts.md:14
 msgid ""
 "`Kirigami.FormLayout` components are similar in use to QtQuick Layout "
 "components such as `ColumnLayout` or `RowLayout`. The child components will "
@@ -1589,22 +1602,22 @@ msgid ""
 "layout."
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:13
+#: content/docs/kirigami/components-formlayouts.md:16
 msgid ""
 "Children of a `Kirigami.FormLayout` have a property named "
 "`Kirigami.FormData.label`. This property lets you set the label that will be"
 " provided for the child component in question."
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:47
+#: content/docs/kirigami/components-formlayouts.md:50
 msgid "![A simple formlayout](formlayouts-simple.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:52
+#: content/docs/kirigami/components-formlayouts.md:55
 msgid "Sections and separators"
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:54
+#: content/docs/kirigami/components-formlayouts.md:57
 msgid ""
 "FormLayouts can also be divided into sections. Setting where a section "
 "starts is as easy as setting a child component's "
@@ -1612,7 +1625,7 @@ msgid ""
 "some extra margin at the top to demarcate the start of the new section."
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:56
+#: content/docs/kirigami/components-formlayouts.md:59
 msgid ""
 "`Kirigami.Separator` components are best suited for starting new sections. A"
 " `Kirigami.Separator` will draw a thin horizontal line, demarcating the end "
@@ -1621,7 +1634,7 @@ msgid ""
 "`Kirigami.FormData.isSection` property on any other component."
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:58
+#: content/docs/kirigami/components-formlayouts.md:61
 msgid ""
 "However, this is not recommended. On components where "
 "`Kirigami.FormData.isSection` is set to true, the label text provided for "
@@ -1633,15 +1646,15 @@ msgid ""
 " of what the form layout section is about."
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:113
+#: content/docs/kirigami/components-formlayouts.md:116
 msgid "![A formlayout with sections](formlayouts-sections.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:119
+#: content/docs/kirigami/components-formlayouts.md:122
 msgid "Checkable children"
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:121
+#: content/docs/kirigami/components-formlayouts.md:124
 msgid ""
 "A handy feature of `Kirigami.FormLayout` is that you can add checkboxes to "
 "its children. This can be useful in settings pages where you might want to "
@@ -1649,34 +1662,34 @@ msgid ""
 "some extra information in a component such as a textfield."
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:148
+#: content/docs/kirigami/components-formlayouts.md:151
 msgid "![A formlayout with checkable child](formlayouts-checkable.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:153
+#: content/docs/kirigami/components-formlayouts.md:156
 msgid "Forcing a desktop or mobile layout"
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:155
+#: content/docs/kirigami/components-formlayouts.md:158
 msgid ""
 "If you would rather have your form layout stay consistent regardless of your"
 " application's environment, you can use the `wideMode` property of the "
 "`Kirigami.FormLayout` component. `wideMode` is a boolean property:"
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:157
+#: content/docs/kirigami/components-formlayouts.md:160
 msgid ""
 "When set to `true`, the form layout will be structured in a desktop-"
 "optimized widescreen (double-column) layout"
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:158
+#: content/docs/kirigami/components-formlayouts.md:161
 msgid ""
 "When set to `false`, the form layout will be structured in a mobile layout "
 "(single column)"
 msgstr ""
 
-#: content/docs/kirigami/components-formlayouts.md:184
+#: content/docs/kirigami/components-formlayouts.md:187
 msgid "![A formlayout with forced mobile layout](formlayouts-widemode.png)"
 msgstr ""
 
@@ -1688,23 +1701,23 @@ msgstr ""
 msgid "Display messages related to the content in your application"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:5
+#: content/docs/kirigami/components-inlinemessages.md:8
 msgid ""
 "Inline messages provide an immediate way for you to notify your users about "
 "something that happened while using the application."
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:7
+#: content/docs/kirigami/components-inlinemessages.md:10
 msgid "Basic inline message"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:9
+#: content/docs/kirigami/components-inlinemessages.md:12
 msgid ""
 "`Kirigami.InlineMessage` components have two important properties to be "
 "mindful of:"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:10
+#: content/docs/kirigami/components-inlinemessages.md:13
 msgid ""
 "`visible`: by default this is set to false, so that the message only appears"
 " when you explicitly want it to. This can be overridden if you wish by "
@@ -1712,19 +1725,19 @@ msgid ""
 "get a nice animation."
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:11
+#: content/docs/kirigami/components-inlinemessages.md:14
 msgid "`text`: here is where you set the text of your inline message."
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:43
+#: content/docs/kirigami/components-inlinemessages.md:46
 msgid "![A simple inline message and button](inlinemessages-simple.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:48
+#: content/docs/kirigami/components-inlinemessages.md:51
 msgid "Different types"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:50
+#: content/docs/kirigami/components-inlinemessages.md:53
 msgid ""
 "Standard inline messages are like the ones above: they have a blue "
 "background and a default icon. We can change that with the `type` property, "
@@ -1732,57 +1745,57 @@ msgid ""
 "types we can choose from:"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:52
+#: content/docs/kirigami/components-inlinemessages.md:55
 msgid ""
 "**Information** (`Kirigami.MessageType.Information`): the default. Has a "
 "blue background, an 'i' icon, and is used to announce a result or tell the "
 "user something general. It is not necessary to manually set it."
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:53
+#: content/docs/kirigami/components-inlinemessages.md:56
 msgid ""
 "**Positive** (`Kirigami.MessageType.Positive`): has a green background, tick"
 " icon, and indicates that something went well."
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:54
+#: content/docs/kirigami/components-inlinemessages.md:57
 msgid ""
 "**Warning** (`Kirigami.MessageType.Warning`): has an orange background, an "
 "exclamation-mark icon, and can be used to warn the user about something they"
 " should be mindful of."
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:55
+#: content/docs/kirigami/components-inlinemessages.md:58
 msgid ""
 "**Error** (`Kirigami.MessageType.Error`): has a red background, a cross "
 "icon, and can be used to tell the user that something has gone wrong."
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:96
+#: content/docs/kirigami/components-inlinemessages.md:99
 msgid "![Different inline message types](inlinemessages-types.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:101
+#: content/docs/kirigami/components-inlinemessages.md:104
 msgid "Customising text and icons"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:103
+#: content/docs/kirigami/components-inlinemessages.md:106
 msgid ""
 "Inline messages support rich text, which can be defined with simple HTML-"
 "like markup. This allows you to add some formatting to your inline message's"
 " text or even include an external web link if you want to."
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:111
+#: content/docs/kirigami/components-inlinemessages.md:114
 msgid ""
 "Note that when you use quotes in a string you will have to escape them!"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:121
+#: content/docs/kirigami/components-inlinemessages.md:124
 msgid "![An inline message with rich text](inlinemessages-richtext.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:126
+#: content/docs/kirigami/components-inlinemessages.md:129
 msgid ""
 "You can also customise the icon that appears on the top-left of your message"
 " by providing a system icon name for the `icon.source` property. These icon "
@@ -1791,15 +1804,15 @@ msgid ""
 "your system, and what their names are."
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:143
+#: content/docs/kirigami/components-inlinemessages.md:146
 msgid "![An inline message with a specified icon](inlinemessages-icon.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:148
+#: content/docs/kirigami/components-inlinemessages.md:151
 msgid "Using actions in inline messages"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:150
+#: content/docs/kirigami/components-inlinemessages.md:153
 msgid ""
 "If your messages need to be interactive, you can attach Kirigami actions to "
 "your inline messages. Like with pages, you can do this by setting the inline"
@@ -1807,27 +1820,27 @@ msgid ""
 "containing `Kirigami.Action` components."
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:190
+#: content/docs/kirigami/components-inlinemessages.md:193
 msgid "![An inline message with two actions](inlinemessages-actions.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:195
+#: content/docs/kirigami/components-inlinemessages.md:198
 msgid "Close buttons"
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:197
+#: content/docs/kirigami/components-inlinemessages.md:200
 msgid ""
 "Inline messages provide a close button that can be used to easily dismiss "
 "them."
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:199
+#: content/docs/kirigami/components-inlinemessages.md:202
 msgid ""
 "By default, this close button is hidden, but this can be overridden by "
 "setting the `showCloseButton` property to `true`."
 msgstr ""
 
-#: content/docs/kirigami/components-inlinemessages.md:216
+#: content/docs/kirigami/components-inlinemessages.md:219
 msgid ""
 "![An inline message with close button showing](inlinemessages-"
 "closebutton.png)"
@@ -1838,84 +1851,84 @@ msgid "List views"
 msgstr ""
 
 #: content/docs/kirigami/components-listview.md:0
-msgid "A list view can help you easily display many components dynamically.\n"
+msgid "A list view can help you easily display many components dynamically."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:5
+#: content/docs/kirigami/components-listview.md:9
 msgid ""
 "Listviews can help you display objects from a model in an attractive way. To"
 " use a list view, you have to keep track of three things:"
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:7
+#: content/docs/kirigami/components-listview.md:11
 msgid ""
 "The **model**, which contains the data you want your list view to display"
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:8
+#: content/docs/kirigami/components-listview.md:12
 msgid ""
 "The **delegate**, which defines how each element in the model will be "
 "displayed"
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:9
+#: content/docs/kirigami/components-listview.md:13
 msgid ""
 "The **list view** itself, which will display information from the model "
 "according to the delegate"
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:11
+#: content/docs/kirigami/components-listview.md:15
 msgid ""
 "If you would like further clarification, the Qt documentation has [an "
 "informative page](https://doc.qt.io/qt-5/qtquick-modelviewsdata-"
 "modelview.html) on the topic."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:13
+#: content/docs/kirigami/components-listview.md:17
 msgid "Creating a basic listview"
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:15
+#: content/docs/kirigami/components-listview.md:19
 msgid "A list view has two essential properties we must pay attention to:"
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:17
+#: content/docs/kirigami/components-listview.md:21
 msgid ""
 "`model`, which accepts the data or the `id` of the object that holds the "
 "data"
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:18
+#: content/docs/kirigami/components-listview.md:22
 msgid ""
 "`delegate`, which accepts the component we will use to display the data in "
 "the model"
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:36
+#: content/docs/kirigami/components-listview.md:38
 msgid ""
 "Providing a number for the model property will generate that number of data "
 "entries starting from 0."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:50
+#: content/docs/kirigami/components-listview.md:54
 msgid "![A simple listview](listview-simple.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:55
+#: content/docs/kirigami/components-listview.md:59
 msgid ""
 "In cases where your model data only contain a single piece of data, like in "
 "the example above, you can just grab the data in the model by referencing "
 "`modelData`."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:57
+#: content/docs/kirigami/components-listview.md:61
 msgid ""
 "A note on delegates: if your model contains objects with data in named "
 "properties, the name of these properties will be automatically exposed to "
 "your delegate and you will only need to use these names in your delegate."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:79
+#: content/docs/kirigami/components-listview.md:83
 msgid ""
 "Kirigami offers a number of components that have been designed specifically "
 "for use in list views, such as `Kirigami.BasicListItem`, "
@@ -1926,17 +1939,17 @@ msgid ""
 "specific controls."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:81
+#: content/docs/kirigami/components-listview.md:85
 msgid ""
 "However, you are not limited to using these components and can choose "
 "whichever ones you wish - though this may mean some tweaking to your layout."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:83
+#: content/docs/kirigami/components-listview.md:87
 msgid "Placeholder messages"
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:85
+#: content/docs/kirigami/components-listview.md:89
 msgid ""
 "In some cases, you might want to use a list view that is empty until the "
 "user does something. In these situations, using a "
@@ -1944,7 +1957,7 @@ msgid ""
 "that the list is empty and that they can do something about it."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:87
+#: content/docs/kirigami/components-listview.md:91
 msgid ""
 "You will generally want to place a PlaceholderMessage in the center of the "
 "ListView and you will want it to not span the entire width of the ListView "
@@ -1953,23 +1966,23 @@ msgid ""
 "property named `count` that makes doing this quite easy."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:89
+#: content/docs/kirigami/components-listview.md:93
 msgid ""
 "You might also want to add a helpful action to your placeholder message. "
 "This can be done by attaching an action to the "
 "`Kirigami.PlaceHolderMessage`'s `helpfulAction` property."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:123
+#: content/docs/kirigami/components-listview.md:127
 msgid ""
 "![A list view with a placeholder message](listview-placeholdermessage.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:128
+#: content/docs/kirigami/components-listview.md:132
 msgid "List headers"
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:130
+#: content/docs/kirigami/components-listview.md:134
 msgid ""
 "ListViews also support header components with the `header` property, and "
 "Kirigami provides an attractive component for this purpose: "
@@ -1978,7 +1991,7 @@ msgid ""
 " property and we are set."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:132
+#: content/docs/kirigami/components-listview.md:136
 msgid ""
 "An interesting property of the list view is `headerPositioning`. This "
 "affects the way that our header will move when we are interacting with a "
@@ -1986,26 +1999,26 @@ msgid ""
 "`headerPositioning` can be set to three different settings:"
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:134
+#: content/docs/kirigami/components-listview.md:138
 msgid ""
 "`ListView.OverlayHeader`: In this setting, the header will contract once we "
 "start scrolling down but will remain visible in a more compact state."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:135
+#: content/docs/kirigami/components-listview.md:139
 msgid ""
 "`ListView.PullBackHeader`: The header will disappear as we scroll down, but "
 "will reappear as we scroll back up, even if we haven't yet reached the top "
 "of the list view."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:136
+#: content/docs/kirigami/components-listview.md:140
 msgid ""
 "`ListView.InlineHeader`: The header will act like a part of the listview and"
 " remain at the top of the listview."
 msgstr ""
 
-#: content/docs/kirigami/components-listview.md:162
+#: content/docs/kirigami/components-listview.md:166
 msgid "![A listview with a header](listview-header.png)"
 msgstr ""
 
@@ -2019,7 +2032,7 @@ msgid ""
 "data."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:5
+#: content/docs/kirigami/components-overlaysheets.md:8
 msgid ""
 "Overlay sheets provide a simple component that you can use to supplement the"
 " content being displayed on an application's page. They are designed to "
@@ -2027,34 +2040,34 @@ msgid ""
 "application window itself."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:7
+#: content/docs/kirigami/components-overlaysheets.md:10
 msgid ""
 "They can be dismissed by clicking or tapping outside of their area or by "
 "clicking the 'x' icon on sheets' headers."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:9
+#: content/docs/kirigami/components-overlaysheets.md:12
 msgid "Learning about the sheet"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:11
+#: content/docs/kirigami/components-overlaysheets.md:14
 msgid ""
 "In order to use an overlay sheet, we should create it inside the Kirigami "
 "Page we want it to appear in."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:41
+#: content/docs/kirigami/components-overlaysheets.md:44
 msgid "![Simple overlay sheet](sheet_simple.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:47
+#: content/docs/kirigami/components-overlaysheets.md:50
 msgid ""
 "Overlay sheets come with methods we can use to open (`mySheet.open()`) or "
 "close (`mySheet.close()`) them as we see fit. By default overlay sheets are "
 "hidden, so at the very least we will need to use the `open()` method."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:56
+#: content/docs/kirigami/components-overlaysheets.md:59
 msgid ""
 "When opened, this overlay sheet will appear centered vertically and "
 "horizontally within its parent page. Horizontally it will be bounded by its "
@@ -2063,11 +2076,11 @@ msgid ""
 " its top position, and will be scrollable."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:58
+#: content/docs/kirigami/components-overlaysheets.md:61
 msgid "Global sheet"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:60
+#: content/docs/kirigami/components-overlaysheets.md:63
 msgid ""
 "If you want to display the sheet as a global sheet — one that spans across "
 "the entire width of the application, regardless of the page it is a child to"
@@ -2075,19 +2088,19 @@ msgid ""
 " property. We can do this with the `parent` property."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:85
+#: content/docs/kirigami/components-overlaysheets.md:88
 msgid "Non-global overlay sheet"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:87
+#: content/docs/kirigami/components-overlaysheets.md:90
 msgid "Global overlay sheet"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:95
+#: content/docs/kirigami/components-overlaysheets.md:98
 msgid "Fixed sizing"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:97
+#: content/docs/kirigami/components-overlaysheets.md:100
 msgid ""
 "A sheet is greedy and will take the maximum amount of available width in a "
 "page if needed. We can avoid this by specifying an `implicitWidth` or a "
@@ -2095,19 +2108,19 @@ msgid ""
 "the sheet will grow width-wise."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:120
+#: content/docs/kirigami/components-overlaysheets.md:123
 msgid "Non-fixed width overlay sheet"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:122
+#: content/docs/kirigami/components-overlaysheets.md:125
 msgid "Fixed width overlay sheet"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:130
+#: content/docs/kirigami/components-overlaysheets.md:133
 msgid "Headers and footers"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:132
+#: content/docs/kirigami/components-overlaysheets.md:135
 msgid ""
 "Overlay sheets come by default with a header which only contains a button "
 "for closing our overlay sheet. We can add a Kirigami heading as a title in "
@@ -2116,11 +2129,11 @@ msgid ""
 "heading component."
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:157
+#: content/docs/kirigami/components-overlaysheets.md:160
 msgid "![Sheet header](sheet_header.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:163
+#: content/docs/kirigami/components-overlaysheets.md:166
 msgid ""
 "We can also provide our overlay sheet with a footer. Footers in overlay "
 "sheets are quite flexible, but most often they are used to provide overlay "
@@ -2128,19 +2141,19 @@ msgid ""
 " modal dialogs (e.g. buttons for 'Apply', 'Ok', 'Cancel', 'Close', etc.)"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:165
+#: content/docs/kirigami/components-overlaysheets.md:168
 msgid "Footers are set in much the same way as headers:"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:195
+#: content/docs/kirigami/components-overlaysheets.md:198
 msgid "![Sheet footer](sheet_footer.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:201
+#: content/docs/kirigami/components-overlaysheets.md:204
 msgid "Using delegate / model views"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:203
+#: content/docs/kirigami/components-overlaysheets.md:206
 msgid ""
 "Since overlay sheets are designed to display vertical content, they can be "
 "especially useful when used in conjunction with components such as "
@@ -2148,7 +2161,7 @@ msgid ""
 "itself, the overlay sheet becomes scrollable:"
 msgstr ""
 
-#: content/docs/kirigami/components-overlaysheets.md:226
+#: content/docs/kirigami/components-overlaysheets.md:229
 msgid "![Sheet with a listview](sheet_listview.png)"
 msgstr ""
 
@@ -2162,11 +2175,11 @@ msgid ""
 "ways"
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:5
+#: content/docs/kirigami/components-pagerow_pagestack.md:8
 msgid "The PageRow"
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:9
+#: content/docs/kirigami/components-pagerow_pagestack.md:10
 msgid ""
 "The [PageRow](docs:kirigami2;PageRow) is a container that lays out items "
 "horizontally in a row. If all child items don't fit in the "
@@ -2175,7 +2188,7 @@ msgid ""
 " will become a horizontal scrollable view of columns."
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:13
+#: content/docs/kirigami/components-pagerow_pagestack.md:14
 msgid ""
 "A [PageRow](docs:kirigami2;PageRow) can show a single page or several of "
 "them as columns, depending on the window width. On a phone, a single column "
@@ -2183,32 +2196,32 @@ msgid ""
 " be visible at once."
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:17
+#: content/docs/kirigami/components-pagerow_pagestack.md:18
 msgid ""
 "The columns can either all have the same fixed size, size themselves with "
 "`implicitWidth`, or automatically expand to take up all available width. By "
 "default, the last column will expand to take up all available space."
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:19
+#: content/docs/kirigami/components-pagerow_pagestack.md:22
 msgid "Screenshot of a PageRow"
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:23
+#: content/docs/kirigami/components-pagerow_pagestack.md:24
 msgid ""
 "You can access the column view methods from the `pageStack` property of your"
 " [Kirigami.ApplicationWindow](docs:kirigami2;ApplicationWindow) element or "
 "from anywhere else using `applicationWindow().pageStack`."
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:26
+#: content/docs/kirigami/components-pagerow_pagestack.md:28
 msgid ""
 "The initial page is added with the `pageStack.initialPage` property. As an "
 "example: in a simple application that required the user to authenticate "
 "themselves, the initial page would be a login page."
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:36
+#: content/docs/kirigami/components-pagerow_pagestack.md:37
 msgid ""
 "Once the user has logged into the application, you would need to replace the"
 " login page with the home page of the application. To do this, you would use"
@@ -2216,15 +2229,19 @@ msgid ""
 "HomePage."
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:39
+#: content/docs/kirigami/components-pagerow_pagestack.md:42
 msgid "LoginPage.qml"
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:41
+#: content/docs/kirigami/components-pagerow_pagestack.md:44
 msgid "login formular"
 msgstr ""
 
 #: content/docs/kirigami/components-pagerow_pagestack.md:51
+msgid "give the registered user information to the homepage"
+msgstr ""
+
+#: content/docs/kirigami/components-pagerow_pagestack.md:54
 msgid "display error message"
 msgstr ""
 
@@ -2236,65 +2253,65 @@ msgid ""
 " stack."
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:68
+#: content/docs/kirigami/components-pagerow_pagestack.md:71
 msgid "ConfigurationPage.qml"
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:75
+#: content/docs/kirigami/components-pagerow_pagestack.md:78
 msgid "HomePage.qml"
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:81
+#: content/docs/kirigami/components-pagerow_pagestack.md:84
 msgid "You can also:"
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:82
+#: content/docs/kirigami/components-pagerow_pagestack.md:85
 msgid ""
 "[pop](docs:kirigami2;PageRow::pop) a page (which removes the last page in "
 "the stack) or"
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:83
+#: content/docs/kirigami/components-pagerow_pagestack.md:86
 msgid ""
 "use [insertPage](docs:kirigami2;PageRow::insertPage) to insert a page at a "
 "specific position in the stack,"
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:84
+#: content/docs/kirigami/components-pagerow_pagestack.md:87
 msgid ""
 "use [movePage](docs:kirigami2;PageRow::movePage) to move specific pages "
 "within the stack, or"
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:85
+#: content/docs/kirigami/components-pagerow_pagestack.md:88
 msgid "[clear](docs:kirigami2;PageRow::clear) all pages from the stack."
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:89
+#: content/docs/kirigami/components-pagerow_pagestack.md:90
 msgid ""
 "You can also modify `currentIndex` to change the currently active page "
 "programmatically, or use [flickBack](docs;Kirigami2;PageRow::flickBack) to "
 "simulate moving a page backwards in the stack."
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:91
+#: content/docs/kirigami/components-pagerow_pagestack.md:94
 msgid "Layers"
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:94
+#: content/docs/kirigami/components-pagerow_pagestack.md:96
 msgid ""
 "For the moment, we only saw horizontal navigation working in a 2 dimensional"
 " stack. You can also use layers in your application to push full-screen page"
 " into your application."
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:96
+#: content/docs/kirigami/components-pagerow_pagestack.md:99
 msgid ""
 "In this case, only one page is visible at the same time on mobile and on the"
 " **desktop**."
 msgstr ""
 
-#: content/docs/kirigami/components-pagerow_pagestack.md:98
+#: content/docs/kirigami/components-pagerow_pagestack.md:101
 msgid ""
 "The layers are accessible from `pageStack.layers` and use the same API as "
 "`pageStack`."
@@ -2308,60 +2325,60 @@ msgstr ""
 msgid "Provide your users with loading state information using progress bars."
 msgstr ""
 
-#: content/docs/kirigami/components-progressbars.md:5
+#: content/docs/kirigami/components-progressbars.md:8
 msgid ""
 "Whenever your application does something that takes a noticeable amount of "
 "time, you will want to use a visual element that tells the user that "
 "something is happening in the background."
 msgstr ""
 
-#: content/docs/kirigami/components-progressbars.md:7
+#: content/docs/kirigami/components-progressbars.md:10
 msgid ""
 "QtQuick Controls provides two useful components that you can use to this "
 "end."
 msgstr ""
 
-#: content/docs/kirigami/components-progressbars.md:9
+#: content/docs/kirigami/components-progressbars.md:12
 msgid "Progress bar"
 msgstr ""
 
-#: content/docs/kirigami/components-progressbars.md:11
+#: content/docs/kirigami/components-progressbars.md:14
 msgid ""
 "`Controls.ProgressBar` is a component that lets you easily include progress "
 "bars in your application. There are four main properties you will need to "
 "use:"
 msgstr ""
 
-#: content/docs/kirigami/components-progressbars.md:13
+#: content/docs/kirigami/components-progressbars.md:16
 msgid "`from`: the minimum value represented by the start of the progress bar"
 msgstr ""
 
-#: content/docs/kirigami/components-progressbars.md:14
+#: content/docs/kirigami/components-progressbars.md:17
 msgid "`to`: the maximum value represented by the end of the progress bar"
 msgstr ""
 
-#: content/docs/kirigami/components-progressbars.md:15
+#: content/docs/kirigami/components-progressbars.md:18
 msgid ""
 "`value`: the current value of the action that is in progress (e.g. 50% "
 "loaded)"
 msgstr ""
 
-#: content/docs/kirigami/components-progressbars.md:16
+#: content/docs/kirigami/components-progressbars.md:19
 msgid ""
 "`indeterminate`: if the action that is in process currently has no clear "
 "progress value, you can set this property to true to show the user something"
 " is happening but its progress is not yet clear (but will be soon)."
 msgstr ""
 
-#: content/docs/kirigami/components-progressbars.md:42
+#: content/docs/kirigami/components-progressbars.md:45
 msgid "Above: progress bar at 50%; Below: indeterminate progress bar"
 msgstr ""
 
-#: content/docs/kirigami/components-progressbars.md:47
+#: content/docs/kirigami/components-progressbars.md:50
 msgid "Busy indicator"
 msgstr ""
 
-#: content/docs/kirigami/components-progressbars.md:49
+#: content/docs/kirigami/components-progressbars.md:52
 msgid ""
 "In cases where loading times are shorter or measuring progress is not "
 "feasible, you can instead use `Controls.BusyIndicator`. This component "
@@ -2369,11 +2386,11 @@ msgid ""
 "happening."
 msgstr ""
 
-#: content/docs/kirigami/components-progressbars.md:61
+#: content/docs/kirigami/components-progressbars.md:64
 msgid "![A busy indicator](busyindicator.png)"
 msgstr ""
 
-#: content/docs/kirigami/components-progressbars.md:66
+#: content/docs/kirigami/components-progressbars.md:69
 msgid ""
 "If you want the indicator to stop running, you can do so by setting the "
 "`running` property to false."
@@ -2389,50 +2406,54 @@ msgid ""
 "dynamic components such as List Views."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:5
+#: content/docs/kirigami/components-scrollablepages_listviews.md:8
 msgid "`Kirigami.ScrollablePage`"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:9
+#: content/docs/kirigami/components-scrollablepages_listviews.md:10
 msgid ""
 "A [`Kirigami.ScrollablePage`](docs:kirigami2;ScrollablePage) is a page that "
 "holds scrollable content, such as `ListView`s. Scrolling and scrolling "
 "indicators are automatically managed."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:22
+#: content/docs/kirigami/components-scrollablepages_listviews.md:17
+msgid "The rectangle will automatically be scrollable"
+msgstr ""
+
+#: content/docs/kirigami/components-scrollablepages_listviews.md:25
 msgid ""
 "In almost every other way, a scrollable page is the same as a normal page."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:27
+#: content/docs/kirigami/components-scrollablepages_listviews.md:29
 msgid ""
 "Do not put a `ScrollView` inside of a `Kirigami.ScrollablePage`; children of"
 " a `Kirigami.ScrollablePage` are already inside a `ScrollView`."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:31
+#: content/docs/kirigami/components-scrollablepages_listviews.md:34
 msgid "ListView in a ScrollablePage"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:35
+#: content/docs/kirigami/components-scrollablepages_listviews.md:36
 msgid ""
 "When a `Kirigami.ScrollablePage`'s direct children extend vertically beyond "
 "the size of the page itself, a scrollbar appears at the right edge of the "
 "page and the page will be scrollable."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:38
+#: content/docs/kirigami/components-scrollablepages_listviews.md:40
 msgid "NeoChat Scrollable Page Screenshot"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:38
+#: content/docs/kirigami/components-scrollablepages_listviews.md:40
 msgid ""
 "Two scrollable pages, both containing a ListView with custom contents "
 "(Screenshot of NeoChat)"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:41
+#: content/docs/kirigami/components-scrollablepages_listviews.md:43
 msgid ""
 "Often you have more than one child in your `Kirigami.ScrollablePage`, and "
 "positioning items can be tricky - especially in combination with a "
@@ -2447,50 +2468,50 @@ msgid ""
 "messages for empty `ListView`s."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:48
+#: content/docs/kirigami/components-scrollablepages_listviews.md:50
 msgid ""
 "For other items, it might make sense to move them to the header or footer of"
 " the `Kirigami.ScrollablePage`. This is often the case for search bars."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:50
+#: content/docs/kirigami/components-scrollablepages_listviews.md:53
 msgid "PlaceholderMessage"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:53
+#: content/docs/kirigami/components-scrollablepages_listviews.md:55
 msgid ""
 "It is possible to add a "
 "[`Kirigami.PlaceholderMessage`](docs:kirigami2;PlaceholderMessage) with some"
 " instructions in case the list view is empty."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:74
+#: content/docs/kirigami/components-scrollablepages_listviews.md:77
 msgid "Search in the ListView"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:78
+#: content/docs/kirigami/components-scrollablepages_listviews.md:79
 msgid ""
 "A search field is often added to a `Kirigami.ScrollablePage` to filter the "
 "`ListView`. This can be done by changing the default `titleDelegate` to use "
 "a [`Kirigami.SearchField`](docs:kirigami2;SearchField) instead."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:98
+#: content/docs/kirigami/components-scrollablepages_listviews.md:101
 msgid "Hint"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:102
+#: content/docs/kirigami/components-scrollablepages_listviews.md:103
 msgid ""
 "You can use [KSortFilterProxyModel](docs:kitemmodels;SortFilterModel) from "
 "[KItemModel](https://api.kde.org/frameworks/kitemmodels/html/) to easily add"
 " filtering capability directly in QML without any need for C++ code."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:106
+#: content/docs/kirigami/components-scrollablepages_listviews.md:109
 msgid "Pull to refresh"
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:109
+#: content/docs/kirigami/components-scrollablepages_listviews.md:111
 msgid ""
 "Another function provided by this component is a \"pull to refresh\" action."
 " To use this, activate it as follows:"
@@ -2503,7 +2524,7 @@ msgid ""
 "model and signals when it's done."
 msgstr ""
 
-#: content/docs/kirigami/components-scrollablepages_listviews.md:134
+#: content/docs/kirigami/components-scrollablepages_listviews.md:136
 msgid ""
 "By pulling down, you can also activate a special mode with a larger top "
 "margin which makes single-handed use of the application easier."
@@ -2516,30 +2537,30 @@ msgstr ""
 #: content/docs/kirigami/introduction-actions.md:0
 msgid ""
 "Learning more about Kirigami's Actions will help us make our application "
-"more useful.\n"
+"more useful."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:5
+#: content/docs/kirigami/introduction-actions.md:8
 msgid "Recap"
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:7
+#: content/docs/kirigami/introduction-actions.md:10
 msgid ""
 "So far, we have managed to build a simple app that can display cards. "
 "However, we don't yet have a way of adding new cards to our card view."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:9
+#: content/docs/kirigami/introduction-actions.md:12
 msgid ""
 "In this tutorial, we'll be looking at Kirigami actions. These will help us "
 "add interactivity to our app in a consistent, fast, and accessible way."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:15
+#: content/docs/kirigami/introduction-actions.md:18
 msgid "Page actions on the desktop."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:17
+#: content/docs/kirigami/introduction-actions.md:20
 msgid ""
 "If you have used Kirigami apps before, you have certainly interacted with "
 "Kirigami Actions. In this image, we can see actions to the right of the page"
@@ -2547,17 +2568,17 @@ msgid ""
 " and can do a wide variety of things."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:19
+#: content/docs/kirigami/introduction-actions.md:22
 msgid "Adding countdowns"
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:21
+#: content/docs/kirigami/introduction-actions.md:24
 msgid ""
 "A countdown app is pretty useless without the ability to add countdowns. "
 "Let's create an action that'll let us do this."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:45
+#: content/docs/kirigami/introduction-actions.md:48
 msgid ""
 "We are placing our Kirigami Action within our main page from our previous "
 "tutorials. If we wanted to, we could add more actions to our page (and even "
@@ -2569,7 +2590,7 @@ msgid ""
 "action of this page."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:47
+#: content/docs/kirigami/introduction-actions.md:50
 msgid ""
 "The `id` and `text` properties should be familiar from previous tutorials. "
 "However, the new `icon` property should be interesting: it is an object with"
@@ -2578,7 +2599,7 @@ msgid ""
 " for the icon property, `icon.name`."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:51
+#: content/docs/kirigami/introduction-actions.md:54
 msgid ""
 "Cuttlefish is a KDE application that lets you view all the icons that you "
 "can use for your application. It offers a number of useful features such as "
@@ -2587,7 +2608,7 @@ msgid ""
 "which icons to use in your application."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:53
+#: content/docs/kirigami/introduction-actions.md:56
 msgid ""
 "Many of KDE's icons follow the FreeDesktop Icon Naming specification. "
 "Therefore, you might also find it useful to consult The FreeDesktop "
@@ -2596,7 +2617,7 @@ msgid ""
 "spec/icon-naming-spec-latest.html)."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:57
+#: content/docs/kirigami/introduction-actions.md:60
 msgid ""
 "The `onTriggered` property is the most important. This is what our action "
 "will do when it is used. You'll notice that in our example we're using the "
@@ -2606,13 +2627,13 @@ msgid ""
 "for our countdowns (name, description, and a placeholder date)."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:59
+#: content/docs/kirigami/introduction-actions.md:62
 msgid ""
 "Each time we click our now 'Add kountdown' button on the top right, our "
 "custom countdown is added."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:63
+#: content/docs/kirigami/introduction-actions.md:66
 msgid ""
 "Did you notice those three lines next to the page title on the previous "
 "screenshot? That's a global drawer. Global drawers are useful for global "
@@ -2621,7 +2642,7 @@ msgid ""
 "that includes a quit button."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:89
+#: content/docs/kirigami/introduction-actions.md:92
 msgid ""
 "Here, we put our global drawer inside our application window. The main "
 "property we need to pay attention to is `actions`, which takes the form of "
@@ -2629,22 +2650,22 @@ msgid ""
 "icon and triggers the `Qt.quit()` function, closing the application."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:91
+#: content/docs/kirigami/introduction-actions.md:94
 msgid "![](global_drawer.png)"
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:93
+#: content/docs/kirigami/introduction-actions.md:96
 msgid ""
 "Since we are keeping our global drawer simple for now, we are setting the "
 "`isMenu` property to true. This displays our global drawer as a normal "
 "application menu, taking up less space than the default global drawer pane."
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:95
+#: content/docs/kirigami/introduction-actions.md:98
 msgid "![](quit_action.png)"
 msgstr ""
 
-#: content/docs/kirigami/introduction-actions.md:99
+#: content/docs/kirigami/introduction-actions.md:102
 msgid ""
 "The ['Actions'](https://develop.kde.org/docs/kirigami/actions/) page in the "
 "'Components' section of these docs provides further detail on Kirigami "
@@ -2656,54 +2677,54 @@ msgid "Setting up and getting started"
 msgstr ""
 
 #: content/docs/kirigami/introduction-getting_started.md:0
-msgid "Getting ready to create our first Kirigami application\n"
+msgid "Getting ready to create our first Kirigami application"
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:5
+#: content/docs/kirigami/introduction-getting_started.md:9
 msgid "Installing required packages"
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:7
+#: content/docs/kirigami/introduction-getting_started.md:11
 msgid ""
 "Before getting started, we must install a few things. We need a C++ "
 "compiler, Qt development packages, and Kirigami."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:9
+#: content/docs/kirigami/introduction-getting_started.md:13
 msgid "On Ubuntu, Debian and Neon we can install these with APT:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:15
+#: content/docs/kirigami/introduction-getting_started.md:19
 msgid "On Arch-based distributions (like Manjaro) we can use Pacman:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:21
+#: content/docs/kirigami/introduction-getting_started.md:25
 msgid "For Fedora, we use DNF:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:28
+#: content/docs/kirigami/introduction-getting_started.md:32
 msgid ""
 "Further information for other distributions can be found "
 "[here](https://community.kde.org/Guidelines_and_HOWTOs/Build_from_source/Install_the_dependencies)."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:30
+#: content/docs/kirigami/introduction-getting_started.md:34
 msgid "Project structure"
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:32
+#: content/docs/kirigami/introduction-getting_started.md:36
 msgid ""
 "While there are tools that can easily set up our files, we are going to "
 "create them manually. This will let us better understand the pieces that are"
 " going to make up our new application."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:34
+#: content/docs/kirigami/introduction-getting_started.md:38
 msgid ""
 "First we create our project folder. We are going to call ours 'helloworld'."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:48
+#: content/docs/kirigami/introduction-getting_started.md:52
 msgid ""
 "Within this folder we are going to create a `src` folder and "
 "`CMakeLists.txt`. It is generally considered good practice to place all our "
@@ -2712,18 +2733,18 @@ msgid ""
 " where we will create our QML files."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:50
+#: content/docs/kirigami/introduction-getting_started.md:54
 msgid ""
 "This is KDE convention, but not all KDE projects use this structure. You are"
 " free to set things up differently, but you will have to take this into "
 "account when creating your `CMakeLists.txt` and `resources.qrc` files."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:56
+#: content/docs/kirigami/introduction-getting_started.md:60
 msgid "Here's where we will be handling our application's frontend."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:58
+#: content/docs/kirigami/introduction-getting_started.md:62
 msgid ""
 "If you know some Javascript, then much of QML will seem familiar to you "
 "(though it does have its own peculiarities). [Qt's "
@@ -2734,35 +2755,35 @@ msgid ""
 " it."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:60
+#: content/docs/kirigami/introduction-getting_started.md:64
 msgid ""
 "For now, let's focus on `main.qml`. First we import a number of important "
 "modules:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:62
+#: content/docs/kirigami/introduction-getting_started.md:66
 msgid "QtQuick, the standard library used in QML applications."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:63
+#: content/docs/kirigami/introduction-getting_started.md:67
 msgid ""
 "QtQuick Controls, which provides a number of standard controls we can use to"
 " make our applications interactive."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:64
+#: content/docs/kirigami/introduction-getting_started.md:68
 msgid ""
 "QtQuick Layouts, which provides tools for placing components within the "
 "applications window."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:65
+#: content/docs/kirigami/introduction-getting_started.md:69
 msgid ""
 "Kirigami, which provides a number of components suited for creating "
 "applications that work across devices of different shapes and sizes."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:68
+#: content/docs/kirigami/introduction-getting_started.md:71
 msgid ""
 "We then come to our base element, "
 "[`Kirigami.ApplicationWindow`](docs:kirigami2;ApplicationWindow) which "
@@ -2770,21 +2791,21 @@ msgid ""
 "the window that will contain each of our pages, the main sections of our UI."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:70
+#: content/docs/kirigami/introduction-getting_started.md:74
 msgid ""
 "We then set the `id` property of `Kirigami.ApplicationWindow` to 'root'. IDs"
 " are useful because they let us uniquely reference a component, even if we "
 "have several of the same type."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:72
+#: content/docs/kirigami/introduction-getting_started.md:76
 msgid ""
 "We also set the window `title` property to 'Hello World'. You'll notice that"
 " we have wrapped our \"Hello World\" string in a function called `i18nc`, "
 "where we detail the context of the string as well as the string itself."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:76
+#: content/docs/kirigami/introduction-getting_started.md:80
 msgid ""
 "[`i18n()`](https://techbase.kde.org/Development/Tutorials/Localization/i18n#Translatable_Code_Using_i18n.28.29)"
 " functions make your app more easily translatable, as they return a version "
@@ -2793,7 +2814,7 @@ msgid ""
 "title as 'Hello World', a Spanish user would see 'Hola Mundo'."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:78
+#: content/docs/kirigami/introduction-getting_started.md:82
 msgid ""
 "[`i18nc()`](https://techbase.kde.org/Development/Tutorials/Localization/i18n#Adding_Context_with_i18nc.28.29)"
 " builds on the `i18n()` function by allowing developers to provide some "
@@ -2801,7 +2822,7 @@ msgid ""
 "string \"@title\" before \"Hello World\"."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:82
+#: content/docs/kirigami/introduction-getting_started.md:86
 msgid ""
 "We then set the first page of our page stack. Most Kirigami applications are"
 " organised as a stack of pages, each page containing related components "
@@ -2811,7 +2832,7 @@ msgid ""
 "which will contain all our content."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:84
+#: content/docs/kirigami/introduction-getting_started.md:88
 msgid ""
 "Finally, we include in our page a `Controls.Label` that lets us place text "
 "on our page. We use `anchors.centerIn: parent` to center our label "
@@ -2820,21 +2841,21 @@ msgid ""
 "need to do is set the text: `text: i18n(\"Hello World!\")`."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:88
+#: content/docs/kirigami/introduction-getting_started.md:92
 msgid ""
 "`main.cpp` handles the 'business logic' of our application. C++ is handy "
 "because it is flexible and fast, even if it is more involved than other "
 "programming languages."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:90
+#: content/docs/kirigami/introduction-getting_started.md:94
 msgid ""
 "`main.cpp` is also the entrypoint to our application. The two parts of our "
 "project, the backend and the user interface, are both set up and started "
 "here."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:94
+#: content/docs/kirigami/introduction-getting_started.md:98
 msgid ""
 "For now, we don't need to go into too much detail regarding what our "
 "`main.cpp` code does, but its role will grow significantly more important "
@@ -2843,17 +2864,17 @@ msgid ""
 "`main.cpp` works [in this page](/docs/kirigami/advanced-maincpp/)."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:96
+#: content/docs/kirigami/introduction-getting_started.md:100
 msgid "resources.qrc"
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:98
+#: content/docs/kirigami/introduction-getting_started.md:102
 msgid ""
 "`resources.qrc` contains the list of all QML files as well as other files "
 "(like custom icons) that will be included in the binary."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:102
+#: content/docs/kirigami/introduction-getting_started.md:106
 msgid ""
 "Notice the line `<file alias=\"main.qml\">contents/ui/main.qml</file>`. It "
 "details which QML files are going to be included in the compilation process."
@@ -2862,13 +2883,13 @@ msgid ""
 "file by adding another line like this one."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:104
+#: content/docs/kirigami/introduction-getting_started.md:108
 msgid ""
 "You can read more about the specifics of how the Qt resource system works "
 "[in Qt's docs](https://doc.qt.io/qt-5/resources.html)."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:108
+#: content/docs/kirigami/introduction-getting_started.md:112
 msgid ""
 "`CMakeLists.txt` files are needed to use KDE's build system of choice, "
 "[CMake](https://cmake.org/). The CMakeLists.txt file in our top-level folder"
@@ -2876,7 +2897,7 @@ msgid ""
 "includes some of the dependencies we need to compile it."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:112
+#: content/docs/kirigami/introduction-getting_started.md:116
 msgid ""
 "The CMakeLists.txt defines how to build your projects. Most of the content "
 "here is just to bootstrap your project. You can read a line-by-line, in-"
@@ -2885,7 +2906,7 @@ msgid ""
 "understanding_cmakelists/)."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:114
+#: content/docs/kirigami/introduction-getting_started.md:118
 msgid ""
 "The most important thing to keep in mind is that the Qt and KDE Frameworks "
 "dependencies are managed with `find_package`. You will have to modify these "
@@ -2893,66 +2914,66 @@ msgid ""
 "the development of your application."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:116
+#: content/docs/kirigami/introduction-getting_started.md:120
 msgid ""
 "The final line, `add_subdirectory(src)`, points CMake into the 'src' "
 "directory, where our source code is located. Let's delve into the "
 "CMakeLists.txt file in there."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:120
+#: content/docs/kirigami/introduction-getting_started.md:124
 msgid "This one's a lot shorter! Let's go through what it does:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:122
+#: content/docs/kirigami/introduction-getting_started.md:126
 msgid "`add_executable` creates an executable from the given source files."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:123
+#: content/docs/kirigami/introduction-getting_started.md:127
 msgid ""
 "`target_link_libraries` links the libraries used in our code to our "
 "executable."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:127
+#: content/docs/kirigami/introduction-getting_started.md:131
 msgid ""
 "Note that these libraries should match the components that we included in "
 "our previous CMakeLists.txt file - otherwise these components will not be "
 "included and our application won't compile."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:131
+#: content/docs/kirigami/introduction-getting_started.md:135
 msgid ""
 "Now that CMake has been taken care of, let's look at the files we are going "
 "to spend the majority of our time working with."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:133
+#: content/docs/kirigami/introduction-getting_started.md:137
 msgid "Compiling and running the application"
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:135
+#: content/docs/kirigami/introduction-getting_started.md:139
 msgid ""
 "We are almost at the finish line. The last thing we need to do is build and "
 "compile our application. To do that, we need to enter our 'helloworld' "
 "folder in our terminal application of choice and run the following command:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:141
+#: content/docs/kirigami/introduction-getting_started.md:145
 msgid "And launch it with:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:147
+#: content/docs/kirigami/introduction-getting_started.md:151
 msgid ""
 "Voila! Now you will see your very first Kirigami app appear before your very"
 " own eyes."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:149
+#: content/docs/kirigami/introduction-getting_started.md:153
 msgid "![Screenshot of the generated Kirigami application](hello-kworld.png)"
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:153
+#: content/docs/kirigami/introduction-getting_started.md:157
 msgid ""
 "Next time you want to create the files and folders needed, you can use "
 "[KAppTemplate](https://apps.kde.org/kapptemplate) or KDevelop to "
@@ -2965,7 +2986,7 @@ msgid ""
 "application launcher."
 msgstr ""
 
-#: content/docs/kirigami/introduction-getting_started.md:155
+#: content/docs/kirigami/introduction-getting_started.md:159
 msgid ""
 "Thanks to the magic of CMakeLists, you can also use IDEs such as KDevelop or"
 " QtCreator to develop this application within a comfortable environment with"
@@ -2977,7 +2998,7 @@ msgid "Using Kirigami Gallery"
 msgstr ""
 
 #: content/docs/kirigami/introduction-kirigami-gallery.md:0
-msgid "Using Kirigami Gallery to find code patterns\n"
+msgid "Using Kirigami Gallery to find code patterns"
 msgstr ""
 
 #: content/docs/kirigami/introduction-kirigami-gallery.md:8
@@ -2989,50 +3010,50 @@ msgid ""
 "pages."
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:10
-#: content/docs/kirigami/introduction-kirigami-gallery.md:129
+#: content/docs/kirigami/introduction-kirigami-gallery.md:13
+#: content/docs/kirigami/introduction-kirigami-gallery.md:132
 msgid "Tip"
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:13
+#: content/docs/kirigami/introduction-kirigami-gallery.md:15
 msgid ""
 "Before continuing please install Kirigami Gallery. It should already be in "
 "the repository of your Linux distribution."
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:17
+#: content/docs/kirigami/introduction-kirigami-gallery.md:20
 msgid "Find a card grid"
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:21
+#: content/docs/kirigami/introduction-kirigami-gallery.md:22
 msgid ""
 "Navigating through the Kirigami Gallery application, we will stumble upon "
 "the \"Grid view of cards\" gallery component. This is a good candidate for "
 "example to display a grid of contact cards."
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:23
+#: content/docs/kirigami/introduction-kirigami-gallery.md:26
 msgid "![List of kirigami gallery components](components.png)"
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:26
+#: content/docs/kirigami/introduction-kirigami-gallery.md:28
 msgid ""
 "After selecting the \"Grid view of cards\" gallery component, we will click "
 "to the bottom action and we will get some useful information about the Card "
 "and Abstract Card types."
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:28
+#: content/docs/kirigami/introduction-kirigami-gallery.md:31
 msgid "![Kirigami gallery grid view](cards.png)"
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:31
+#: content/docs/kirigami/introduction-kirigami-gallery.md:33
 msgid ""
 "In this information dialog we will also find a link to the source code of "
 "the Cards Grid View. Let's navigate to this page."
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:33
+#: content/docs/kirigami/introduction-kirigami-gallery.md:36
 msgid "Implement the card grid"
 msgstr ""
 
@@ -3046,13 +3067,13 @@ msgid ""
 "kirigami-gallery source code repository)."
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:41
+#: content/docs/kirigami/introduction-kirigami-gallery.md:43
 msgid ""
 "So, we are going to substitute the Page component of main.qml of the "
 "skeleton app with the below Scrollable Page:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:63
+#: content/docs/kirigami/introduction-kirigami-gallery.md:62
 msgid ""
 "What we have done so far is to create a "
 "[ScrollablePage](docs:kirigami2;ScrollablePage) and put a "
@@ -3064,18 +3085,18 @@ msgid ""
 "[here](https://doc.qt.io/qt-5/qtquick-modelviewsdata-modelview.html)."
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:66
+#: content/docs/kirigami/introduction-kirigami-gallery.md:68
 msgid ""
 "Now let's populate the model that will feed our grid view with data. In "
 "[Kirigami.ScrollablePage](docs:kirigami2;ScrollablePage) definition, just "
 "after:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:74
+#: content/docs/kirigami/introduction-kirigami-gallery.md:77
 msgid "add the below:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:87
+#: content/docs/kirigami/introduction-kirigami-gallery.md:90
 msgid ""
 "The model part of our implementation is ready. Let's proceed to defining a "
 "delegate that will be responsible for displaying the data. So, we add the "
@@ -3083,14 +3104,14 @@ msgid ""
 "definition:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:121
+#: content/docs/kirigami/introduction-kirigami-gallery.md:124
 msgid ""
 "Following the related information on the [api page](docs:kirigami2;Card) we "
 "populate a \"banner\" (although without an image yet), that will act as a "
 "header that will display the name of the contact as well as a contact icon."
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:123
+#: content/docs/kirigami/introduction-kirigami-gallery.md:126
 msgid ""
 "The main content of the card has been populated with the cell phone number "
 "and the email of the contact, structured as a "
@@ -3098,21 +3119,21 @@ msgid ""
 "[labels](https://doc.qt.io/qt-5/qml-qtquick-controls2-label.html)."
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:125
+#: content/docs/kirigami/introduction-kirigami-gallery.md:128
 msgid "The application should look like this:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:127
+#: content/docs/kirigami/introduction-kirigami-gallery.md:130
 msgid "![Simple grid of cards](implementation.png)"
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:131
+#: content/docs/kirigami/introduction-kirigami-gallery.md:134
 msgid ""
 "You can find the full source code of the tutorial at "
 "[invent.kde.org](https://invent.kde.org/dkardarakos/kirigami-tutorial)."
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:136
+#: content/docs/kirigami/introduction-kirigami-gallery.md:138
 msgid ""
 "As a last step we will add some dummy functionality to each card. In "
 "particular, a \"call\" action will be added. Nevertheless, instead of a real"
@@ -3120,18 +3141,18 @@ msgid ""
 "Component to the following:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:180
+#: content/docs/kirigami/introduction-kirigami-gallery.md:182
 msgid ""
 "So, we added an [action](docs:kirigami2;Action) that, as soon as it is "
 "triggered (by pressing the action button), a [passive "
 "notification](docs:kirigami2;AbstractApplicationWindow) is displayed."
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:182
+#: content/docs/kirigami/introduction-kirigami-gallery.md:185
 msgid "Finally, our application should look like this:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-kirigami-gallery.md:184
+#: content/docs/kirigami/introduction-kirigami-gallery.md:187
 msgid "![Grid with calling action triggered](implementation-actions.png)"
 msgstr ""
 
@@ -3143,40 +3164,40 @@ msgstr ""
 msgid "Figuring out the different ways of placing things on a page"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:5
+#: content/docs/kirigami/introduction-listviews.md:7
 msgid "Laying out your content"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:7
+#: content/docs/kirigami/introduction-listviews.md:9
 msgid ""
 "Now that we understand how pages work, it is time to add stuff to ours. We "
 "will be going through a number of important layout components and elements "
 "that will be useful when designing our app."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:9
+#: content/docs/kirigami/introduction-listviews.md:11
 msgid ""
 "Don't be scared by the big chunks of code! We'll be going over everything "
 "that we haven't covered before, and by the end of this section you'll have a"
 " neat-looking app."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:11
+#: content/docs/kirigami/introduction-listviews.md:13
 msgid "ListViews"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:13
+#: content/docs/kirigami/introduction-listviews.md:15
 msgid ""
 "If you've ever used Discover, NeoChat, or Plasma's System Settings, you will"
 " have come across a ListView. Quite simply, ListViews let you display data "
 "on a list."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:24
+#: content/docs/kirigami/introduction-listviews.md:26
 msgid "That seems cryptic, but don't worry. Let's start from the top."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:26
+#: content/docs/kirigami/introduction-listviews.md:28
 msgid ""
 "The first thing you'll notice is that we're using `Kirigami.CardsListView`. "
 "This is a ListView that allows us to easily display cards in a list. "
@@ -3186,15 +3207,15 @@ msgid ""
 "`kountdownModel`."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:28
+#: content/docs/kirigami/introduction-listviews.md:30
 msgid "Model"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:33
+#: content/docs/kirigami/introduction-listviews.md:35
 msgid "Each ListElement is an element on the list, containing information"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:38
+#: content/docs/kirigami/introduction-listviews.md:40
 msgid ""
 "A model defines the way that a data entry is structured. By looking at our "
 "ListElement above we can see how elements of kountdownModel are structured: "
@@ -3202,13 +3223,13 @@ msgid ""
 "strings, and the third is a number we're using as a placeholder."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:44
+#: content/docs/kirigami/introduction-listviews.md:46
 msgid ""
 "Models are also useful in how they can be modified through the use of "
 "several methods. Some important ones are:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:45
+#: content/docs/kirigami/introduction-listviews.md:47
 msgid ""
 "ListModelName.append(jsobject yourobject) adds a JavaScript object you "
 "provide to the ListModel, and places it after the last item in the model. "
@@ -3216,31 +3237,31 @@ msgid ""
 "correct properties and corresponding datatypes."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:46
+#: content/docs/kirigami/introduction-listviews.md:48
 msgid ""
 "ListModelName.get(int index) returns the JSObject at the index location you "
 "provide."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:47
+#: content/docs/kirigami/introduction-listviews.md:49
 msgid ""
 "ListModelName.remove(int index, int count) removes the JSObject at the "
 "provided index location, and as many after that index location as you wish "
 "(1 includes only the JSObject at the provided index)"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:48
+#: content/docs/kirigami/introduction-listviews.md:50
 msgid ""
 "ListModelName.set(int index, jsobject yourobject) changes the item at the "
 "provided index location with the values provided in yourobject. Same rules "
 "as with `.append`."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:50
+#: content/docs/kirigami/introduction-listviews.md:52
 msgid "Delegate"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:52
+#: content/docs/kirigami/introduction-listviews.md:54
 msgid ""
 "The delegate handles how your ListModel's data will be displayed in the "
 "ListView. CardsListView elements are designed with card-type delegates in "
@@ -3248,7 +3269,7 @@ msgid ""
 "delegate in the excerpt above."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:54
+#: content/docs/kirigami/introduction-listviews.md:56
 msgid ""
 "Delegates automatically receive the properties of the ListElements that we "
 "have specified in our model. We can therefore just refer to the `name`, "
@@ -3256,26 +3277,26 @@ msgid ""
 "conventional variable within our delegate."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:56
+#: content/docs/kirigami/introduction-listviews.md:58
 msgid "Building our delegate card"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:64
+#: content/docs/kirigami/introduction-listviews.md:65
 msgid ""
 "implicitWidth/Height define the natural width/height of an item if no width "
 "or height is specified. The setting below defines a component's preferred "
 "size based on its content"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:105
+#: content/docs/kirigami/introduction-listviews.md:107
 msgid "onClicked: to be done... soon!"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:113
+#: content/docs/kirigami/introduction-listviews.md:115
 msgid "implicitWidth and implicitHeight"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:129
+#: content/docs/kirigami/introduction-listviews.md:131
 msgid ""
 "Looking at our Kirigami.AbstractCard, the first properties we set are "
 "`implicitWidth` and `implicitHeight`. We have set these to the "
@@ -3288,46 +3309,46 @@ msgid ""
 "`GridLayout` does not spill out of the card."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:131
+#: content/docs/kirigami/introduction-listviews.md:133
 msgid "Layouts"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:133
+#: content/docs/kirigami/introduction-listviews.md:135
 msgid ""
 "The `GridLayout` is inside the `Item` component we have provided for the "
 "property `contentItem`. This is the item that contains what will be "
 "displayed in your card."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:135
+#: content/docs/kirigami/introduction-listviews.md:137
 msgid ""
 "We also need to choose a layout for our components so that they don't just "
 "pile on top of each other. There are three main types that we can choose "
 "from:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:136
+#: content/docs/kirigami/introduction-listviews.md:138
 msgid "`ColumnLayout` lays out your components vertically, in a single column"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:137
+#: content/docs/kirigami/introduction-listviews.md:139
 msgid "`RowLayout` lays out your components horizontally, in a single row"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:138
+#: content/docs/kirigami/introduction-listviews.md:140
 msgid ""
 "`GridLayout` lays out your components in a grid with a composition of your "
 "choosing"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:140
+#: content/docs/kirigami/introduction-listviews.md:142
 msgid ""
 "With ColumnLayout and RowLayout, all we have to do is write our components "
 "inside the Layout component. As you can see, we went with a grid layout, "
 "which entails a bit more handiwork."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:159
+#: content/docs/kirigami/introduction-listviews.md:161
 msgid ""
 "The first thing you see is our `anchor`. QtQuick's anchoring system provides"
 " a useful way of making sure your components are positioned on certain parts"
@@ -3336,20 +3357,46 @@ msgid ""
 "whole card."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:161
+#: content/docs/kirigami/introduction-listviews.md:163
 msgid ""
 "Next we specify the spacing between the rows and columns within our grid, so"
 " that our components don't bunch up. Kirigami provides a number of handy "
 "pre-defined units to use for this purpose:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:167
-msgid ""
-"| Kirigami Unit | Pixels | | ------ | ------ | | smallSpacing | 4px | | "
-"largeSpacing | 8px | | gridUnit | 18px |"
+#: content/docs/kirigami/introduction-listviews.md:165
+msgid "Kirigami Unit"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:173
+#: content/docs/kirigami/introduction-listviews.md:165
+msgid "Pixels"
+msgstr ""
+
+#: content/docs/kirigami/introduction-listviews.md:167
+msgid "smallSpacing"
+msgstr ""
+
+#: content/docs/kirigami/introduction-listviews.md:167
+msgid "4px"
+msgstr ""
+
+#: content/docs/kirigami/introduction-listviews.md:168
+msgid "largeSpacing"
+msgstr ""
+
+#: content/docs/kirigami/introduction-listviews.md:168
+msgid "8px"
+msgstr ""
+
+#: content/docs/kirigami/introduction-listviews.md:169
+msgid "gridUnit"
+msgstr ""
+
+#: content/docs/kirigami/introduction-listviews.md:169
+msgid "18px"
+msgstr ""
+
+#: content/docs/kirigami/introduction-listviews.md:175
 msgid ""
 "We have also used a conditional here to vary the number of columns in our "
 "grid depending on the screen we are using. If we are using a widescreen "
@@ -3357,27 +3404,27 @@ msgid ""
 "columns, else it will have 2."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:175
+#: content/docs/kirigami/introduction-listviews.md:177
 msgid "Interior components"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:177
+#: content/docs/kirigami/introduction-listviews.md:179
 msgid ""
 "We could just create three labels within our delegate component and call it "
 "a day. But that wouldn't look particularly nice."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:217
+#: content/docs/kirigami/introduction-listviews.md:219
 msgid "![](CardDesign.png)"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:219
+#: content/docs/kirigami/introduction-listviews.md:221
 msgid ""
 "Left, `Kirigami.Heading`: uses the `ListElement`'s `date` as a level 1 "
 "heading."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:221
+#: content/docs/kirigami/introduction-listviews.md:223
 msgid ""
 "Middle, `ColumnLayout`: has a `Kirigami.Heading` that displays the task "
 "name; a `Kirigami.Separator`, which provides the horizontal line; and a "
@@ -3387,23 +3434,23 @@ msgid ""
 "`description.length > 0`."
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:223
+#: content/docs/kirigami/introduction-listviews.md:225
 msgid "Right, `Controls.Button`: a button that will do something... soon!"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:225
+#: content/docs/kirigami/introduction-listviews.md:227
 msgid "Our app so far"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:227
+#: content/docs/kirigami/introduction-listviews.md:229
 msgid "![](Screenshot.png)"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:229
+#: content/docs/kirigami/introduction-listviews.md:231
 msgid "So there is our basic card!"
 msgstr ""
 
-#: content/docs/kirigami/introduction-listviews.md:231
+#: content/docs/kirigami/introduction-listviews.md:233
 msgid ""
 "With these steps, we have now laid the basic groundwork for adding all the "
 "functionality to our app."
@@ -3414,14 +3461,14 @@ msgid "Next steps"
 msgstr ""
 
 #: content/docs/kirigami/introduction-next_steps.md:0
-msgid "What to do after finishing your first simple Kirigami application\n"
+msgid "What to do after finishing your first simple Kirigami application"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:5
+#: content/docs/kirigami/introduction-next_steps.md:9
 msgid "What we have built"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:7
+#: content/docs/kirigami/introduction-next_steps.md:11
 msgid ""
 "Over the past few tutorials you have built a basic but functional Kirigami "
 "application that lets you add, edit, and delete date countdowns. In doing so"
@@ -3429,30 +3476,30 @@ msgid ""
 "systems, basic application layouts, and more. Not bad at all!"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:9
+#: content/docs/kirigami/introduction-next_steps.md:13
 msgid ""
 "You now have a grasp of the basics that make up many of KDE's most popular "
 "applications. You might be asking yourself: what now?"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:11
+#: content/docs/kirigami/introduction-next_steps.md:15
 msgid ""
 "Well, don't worry: we have taken the time to provide some pointers as to "
 "where you can go from here."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:13
+#: content/docs/kirigami/introduction-next_steps.md:17
 msgid "Contributing to KDE projects"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:15
+#: content/docs/kirigami/introduction-next_steps.md:19
 msgid ""
 "One of the best ways to improve your development skills is by putting them "
 "into practice. KDE's community is welcoming and always looking for more "
 "passionate developers!"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:17
+#: content/docs/kirigami/introduction-next_steps.md:21
 msgid ""
 "We have several pieces of documentation that can help guide you towards "
 "becoming a contributor. We recommend you take a look at the developer-"
@@ -3467,7 +3514,7 @@ msgid ""
 "setting up with your very own account."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:23
+#: content/docs/kirigami/introduction-next_steps.md:27
 msgid ""
 "With your newfound skills you are in a good position to begin contributing "
 "to Kirigami projects. Thankfully, many of KDE's most popular applications "
@@ -3475,146 +3522,297 @@ msgid ""
 "you are welcome to help with."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:25
+#: content/docs/kirigami/introduction-next_steps.md:29
 msgid "Beginner-friendly Kirigami projects"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:32
+#: content/docs/kirigami/introduction-next_steps.md:31
+#: content/docs/kirigami/introduction-next_steps.md:40
+msgid "Project"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:31
+#: content/docs/kirigami/introduction-next_steps.md:40
+msgid "What it is"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:31
+#: content/docs/kirigami/introduction-next_steps.md:40
+msgid "Links"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:33
 msgid ""
-"| Project | What it is | Links | | --- | --- | --- | | <img "
-"src=\"https://apps.kde.org/app-icons/org.kde.calindori.svg\" width=\"50\" "
-"height=\"50\"><br />Calindori | A touch friendly calendar application "
-"designed for mobile devices | [KDE Apps "
-"page](https://apps.kde.org/en/calindori)<br />[KDE Invent "
-"page](https://invent.kde.org/plasma-mobile/calindori) | | <img "
-"src=\"https://apps.kde.org/app-icons/org.kde.kdeconnect.kcm.svg\" "
-"width=\"50\" height=\"50\"><br />KDE Connect | A multi-platform app that "
-"allows your devices to communicate (eg: your phone and your computer). | "
-"[Home page](https://kdeconnect.kde.org/)<br />[KDE Community Wiki "
-"page](https://community.kde.org/KDEConnect)<br />[KDE Invent "
-"page](https://invent.kde.org/network/kdeconnect-kde) | | <img "
-"src=\"https://invent.kde.org/graphics/koko/-/raw/master/logo.png\" "
-"width=\"50\" height=\"50\"><br />Koko | An image viewer designed for desktop"
-" and touch devices. | [Userbase page](https://userbase.kde.org/Koko)<br "
-"/>[KDE Invent page](https://invent.kde.org/graphics/koko) | | <img "
-"src=\"https://apps.kde.org/app-icons/org.kde.kontrast.svg\" width=\"50\" "
-"height=\"50\"><br />Kontrast | A color contrast checker that tells you if "
-"your color combinations are accessible for people with color vision "
-"deficiencies. | [KDE Apps page](https://apps.kde.org/en/kontrast)<br />[KDE "
-"Invent page](https://invent.kde.org/accessibility/kontrast) |"
+"<img src=\"https://apps.kde.org/app-icons/org.kde.calindori.svg\" "
+"width=\"50\" height=\"50\"><br />Calindori"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:33
+msgid "A touch friendly calendar application designed for mobile devices"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:33
+msgid ""
+"[KDE Apps page](https://apps.kde.org/en/calindori)<br />[KDE Invent "
+"page](https://invent.kde.org/plasma-mobile/calindori)"
 msgstr ""
 
 #: content/docs/kirigami/introduction-next_steps.md:34
+msgid ""
+"<img src=\"https://apps.kde.org/app-icons/org.kde.kdeconnect.kcm.svg\" "
+"width=\"50\" height=\"50\"><br />KDE Connect"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:34
+msgid ""
+"A multi-platform app that allows your devices to communicate (eg: your phone"
+" and your computer)."
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:34
+msgid ""
+"[Home page](https://kdeconnect.kde.org/)<br />[KDE Community Wiki "
+"page](https://community.kde.org/KDEConnect)<br />[KDE Invent "
+"page](https://invent.kde.org/network/kdeconnect-kde)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:35
+msgid ""
+"<img src=\"https://invent.kde.org/graphics/koko/-/raw/master/logo.png\" "
+"width=\"50\" height=\"50\"><br />Koko"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:35
+msgid "An image viewer designed for desktop and touch devices."
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:35
+msgid ""
+"[Userbase page](https://userbase.kde.org/Koko)<br />[KDE Invent "
+"page](https://invent.kde.org/graphics/koko)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:36
+msgid ""
+"<img src=\"https://apps.kde.org/app-icons/org.kde.kontrast.svg\" "
+"width=\"50\" height=\"50\"><br />Kontrast"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:36
+msgid ""
+"A color contrast checker that tells you if your color combinations are "
+"accessible for people with color vision deficiencies."
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:36
+msgid ""
+"[KDE Apps page](https://apps.kde.org/en/kontrast)<br />[KDE Invent "
+"page](https://invent.kde.org/accessibility/kontrast)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:38
 msgid "More complex Kirigami projects"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:41
+#: content/docs/kirigami/introduction-next_steps.md:42
 msgid ""
-"| Project | What it is | Links | | --- | --- | --- | | <img "
-"src=\"https://apps.kde.org/app-icons/org.kde.discover.svg\" width=\"50\" "
-"height=\"50\"><br />Discover | An application that helps you find and "
-"install applications, games, and tools. | [KDE Apps "
-"page](https://apps.kde.org/en/discover)<br />[KDE Userbase "
+"<img src=\"https://apps.kde.org/app-icons/org.kde.discover.svg\" "
+"width=\"50\" height=\"50\"><br />Discover"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:42
+msgid ""
+"An application that helps you find and install applications, games, and "
+"tools."
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:42
+msgid ""
+"[KDE Apps page](https://apps.kde.org/en/discover)<br />[KDE Userbase "
 "page](https://userbase.kde.org/Discover)<br />[KDE Invent "
-"page](https://invent.kde.org/plasma/discover) | | <img "
-"src=\"https://apps.kde.org/app-icons/org.kde.elisa.svg\" width=\"50\" "
-"height=\"50\"><br />Elisa | A music player that strives to be simple and "
-"nice to use. | [Home page](https://elisa.kde.org/)<br />[KDE Apps "
-"page](https://apps.kde.org/en/elisa)<br />[KDE Community Wiki "
-"page](https://community.kde.org/KDEConnect)<br />[KDE Invent "
-"page](https://invent.kde.org/multimedia/elisa) | | <img "
-"src=\"https://invent.kde.org/utilities/kongress/-/raw/master/org.kde.kongress.svg\""
-" width=\"50\" height=\"50\"><br />Kongress | A companion application for "
-"conference attendees. | [KDE Invent "
-"page](https://invent.kde.org/utilities/kongress) | | <img "
-"src=\"https://apps.kde.org/app-icons/org.kde.neochat.svg\" width=\"50\" "
-"height=\"50\"><br />NeoChat | A client for Matrix, the decentralized "
-"communication protocol for instant messaging. | [KDE Apps "
-"page](https://apps.kde.org/en/neochat)<br />[KDE Invent "
-"page](https://invent.kde.org/network/neochat) |"
+"page](https://invent.kde.org/plasma/discover)"
 msgstr ""
 
 #: content/docs/kirigami/introduction-next_steps.md:43
-msgid "Learning more"
+msgid ""
+"<img src=\"https://apps.kde.org/app-icons/org.kde.elisa.svg\" width=\"50\" "
+"height=\"50\"><br />Elisa"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:43
+msgid "A music player that strives to be simple and nice to use."
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:43
+msgid ""
+"[Home page](https://elisa.kde.org/)<br />[KDE Apps "
+"page](https://apps.kde.org/en/elisa)<br />[KDE Community Wiki "
+"page](https://community.kde.org/KDEConnect)<br />[KDE Invent "
+"page](https://invent.kde.org/multimedia/elisa)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:44
+msgid ""
+"<img "
+"src=\"https://invent.kde.org/utilities/kongress/-/raw/master/org.kde.kongress.svg\""
+" width=\"50\" height=\"50\"><br />Kongress"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:44
+msgid "A companion application for conference attendees."
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:44
+msgid "[KDE Invent page](https://invent.kde.org/utilities/kongress)"
 msgstr ""
 
 #: content/docs/kirigami/introduction-next_steps.md:45
-msgid "Not feeling quite ready yet? That's okay too."
+msgid ""
+"<img src=\"https://apps.kde.org/app-icons/org.kde.neochat.svg\" width=\"50\""
+" height=\"50\"><br />NeoChat"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:45
+msgid ""
+"A client for Matrix, the decentralized communication protocol for instant "
+"messaging."
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:45
+msgid ""
+"[KDE Apps page](https://apps.kde.org/en/neochat)<br />[KDE Invent "
+"page](https://invent.kde.org/network/neochat)"
 msgstr ""
 
 #: content/docs/kirigami/introduction-next_steps.md:47
+msgid "Learning more"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:49
+msgid "Not feeling quite ready yet? That's okay too."
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:51
 msgid ""
 "Many of the projects listed above are invaluable learning resources. You can"
 " poke through the code and see how experienced developers have created "
 "fully-featured applications, and use these techniques yourself."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:49
+#: content/docs/kirigami/introduction-next_steps.md:53
 msgid ""
 "If you feel you need a more gentle approach, we have also compiled some "
 "resources we think you might find useful."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:51
+#: content/docs/kirigami/introduction-next_steps.md:55
 msgid "The backend and C++"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:53
+#: content/docs/kirigami/introduction-next_steps.md:57
 msgid ""
 "While we have learned a lot about QML, we haven't really touched upon how to"
 " handle backend code all that much. This is, however, an essential facet of "
 "KDE application development."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:55
+#: content/docs/kirigami/introduction-next_steps.md:59
 msgid "C++/Qt with Kirigami"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:57
+#: content/docs/kirigami/introduction-next_steps.md:61
 msgid ""
 "In the advanced section of this Kirigami documentation we have some pages "
 "that can help you get started:"
 msgstr ""
 
 #: content/docs/kirigami/introduction-next_steps.md:63
-msgid ""
-"| Page | Topic | | --- | --- | | [Understanding "
-"CMakeLists](/docs/kirigami/advanced-understanding_cmakelists) | Learn all "
-"about CMake and how to compile your applications. | | [Figuring out "
-"main.cpp](/docs/kirigami/advanced-maincpp) | Getting to grips with the "
-"central C++ file that handles your applications' initialisation. | | "
-"[Connect logic to your QML user interface](/docs/kirigami/advanced-"
-"connect_backend) | Add advanced functionality to your Kirigami application "
-"and connect it to your UI. |"
+#: content/docs/kirigami/introduction-next_steps.md:73
+msgid "Topic"
 msgstr ""
 
 #: content/docs/kirigami/introduction-next_steps.md:65
-msgid "Beginner C++ resources"
+msgid ""
+"[Understanding CMakeLists](/docs/kirigami/advanced-understanding_cmakelists)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:65
+msgid "Learn all about CMake and how to compile your applications."
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:66
+msgid "[Figuring out main.cpp](/docs/kirigami/advanced-maincpp)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:66
+msgid ""
+"Getting to grips with the central C++ file that handles your applications' "
+"initialisation."
 msgstr ""
 
 #: content/docs/kirigami/introduction-next_steps.md:67
+msgid ""
+"[Connect logic to your QML user interface](/docs/kirigami/advanced-"
+"connect_backend)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:67
+msgid ""
+"Add advanced functionality to your Kirigami application and connect it to "
+"your UI."
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:69
+msgid "Beginner C++ resources"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:71
 msgid ""
 "If you are completely new to C++ there are numerous resources available "
 "throughout the web. Here are some that may be useful."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:74
-msgid ""
-"| Resource | Topic | | --- | --- | | [Wikibooks "
-"C++](https://en.wikibooks.org/wiki/C%2B%2B_Programming) | A comprehensive "
-"wikibook with C++ lessons and exercises | | [W3Schools "
-"C++](https://www.w3schools.com/cpp/cpp_intro.asp) | A set of C++ tutorials "
-"and other resources aimed at beginners | | "
-"[LearnCpp](https://www.learncpp.com/) | Tutorials to get to grips with C++ |"
-" | [cppreference](https://en.cppreference.com/w/) | A reference site for C++"
-" |"
+#: content/docs/kirigami/introduction-next_steps.md:73
+msgid "Resource"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:75
+msgid "[Wikibooks C++](https://en.wikibooks.org/wiki/C%2B%2B_Programming)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:75
+msgid "A comprehensive wikibook with C++ lessons and exercises"
 msgstr ""
 
 #: content/docs/kirigami/introduction-next_steps.md:76
-msgid "Creating classic KDE applications using QtWidgets"
+msgid "[W3Schools C++](https://www.w3schools.com/cpp/cpp_intro.asp)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:76
+msgid "A set of C++ tutorials and other resources aimed at beginners"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:77
+msgid "[LearnCpp](https://www.learncpp.com/)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:77
+msgid "Tutorials to get to grips with C++"
 msgstr ""
 
 #: content/docs/kirigami/introduction-next_steps.md:78
+msgid "[cppreference](https://en.cppreference.com/w/)"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:78
+msgid "A reference site for C++"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:80
+msgid "Creating classic KDE applications using QtWidgets"
+msgstr ""
+
+#: content/docs/kirigami/introduction-next_steps.md:82
 msgid ""
 "If you'd like to work on more complex KDE applications such as Dolphin, "
 "Kontact, or Kate, you will need to learn more about how to use QtWidgets, "
@@ -3624,7 +3822,7 @@ msgid ""
 " be built with QtWidgets."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:80
+#: content/docs/kirigami/introduction-next_steps.md:84
 msgid ""
 "QtWidgets are somewhat more daunting to work with than QML (and *much* more "
 "C++ intensive!). Luckily, we have [a set of "
@@ -3632,42 +3830,42 @@ msgid ""
 " become more familiar with them."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:82
+#: content/docs/kirigami/introduction-next_steps.md:86
 msgid "More QML and QtQuick"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:84
+#: content/docs/kirigami/introduction-next_steps.md:88
 msgid ""
 "The Qt project is extensive, and so are QML and QtQuick. There is a lot of "
 "functionality we haven't covered, but there is a lot of documentation we can"
 " pull from to find out more."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:86
+#: content/docs/kirigami/introduction-next_steps.md:90
 msgid ""
 "If you want to look up what specific components do, look no further than "
 "[Qt's official QML documentation.](https://doc.qt.io/qt-5/qtquick-"
 "index.html)"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:87
+#: content/docs/kirigami/introduction-next_steps.md:91
 msgid ""
 "If you are looking for a more guided approach to learning, [the "
 "QMLBook](https://qmlbook.github.io/) is a great place to start."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:89
+#: content/docs/kirigami/introduction-next_steps.md:93
 msgid "More Kirigami"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:91
+#: content/docs/kirigami/introduction-next_steps.md:95
 msgid ""
 "This documentation includes a lot more about Kirigami. You can poke through "
 "some of the Components pages to find out more about some of the QML "
 "components that Kirigami provides for you to use."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:93
+#: content/docs/kirigami/introduction-next_steps.md:97
 msgid ""
 "We recommend you also take a look at Kirigami Gallery (`kirigami2gallery`), "
 "an application designed by KDE developers to demonstrate Kirigami's tools "
@@ -3678,11 +3876,11 @@ msgid ""
 "gallery)."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:95
+#: content/docs/kirigami/introduction-next_steps.md:99
 msgid "The sky is the limit!"
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:97
+#: content/docs/kirigami/introduction-next_steps.md:101
 msgid ""
 "Don't be intimidated by all the material on here! No one starts off being "
 "able to create something like Plasma from scratch. But KDE is no multi-"
@@ -3690,7 +3888,7 @@ msgid ""
 " coding interviews! - and as long as you are nice, you will be welcomed."
 msgstr ""
 
-#: content/docs/kirigami/introduction-next_steps.md:99
+#: content/docs/kirigami/introduction-next_steps.md:103
 msgid "Good luck!"
 msgstr ""
 
@@ -3699,39 +3897,39 @@ msgid "Creating overlay sheets"
 msgstr ""
 
 #: content/docs/kirigami/introduction-overlaysheets.md:0
-msgid "Getting to grips with overlay sheets.\n"
+msgid "Getting to grips with overlay sheets."
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:5
+#: content/docs/kirigami/introduction-overlaysheets.md:9
 msgid "Making our app useful"
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:7
+#: content/docs/kirigami/introduction-overlaysheets.md:11
 msgid ""
 "We have a window, we have cards, and we have actions. Yet, we still need to "
 "find some way of inputting a name, description, and date of our choice."
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:9
+#: content/docs/kirigami/introduction-overlaysheets.md:13
 msgid ""
 "One way we could do this is by creating a new page where we place the "
 "required input elements. However, a whole page dedicated to providing a "
 "name, description, and date seems a bit excessive."
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:11
+#: content/docs/kirigami/introduction-overlaysheets.md:15
 msgid "Instead, we'll be using an overlay sheet."
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:13
+#: content/docs/kirigami/introduction-overlaysheets.md:17
 msgid "![](addSheet.png)"
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:15
+#: content/docs/kirigami/introduction-overlaysheets.md:19
 msgid "Countdown-adding sheet"
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:17
+#: content/docs/kirigami/introduction-overlaysheets.md:21
 msgid ""
 "The new component we add is `Kirigami.OverlaySheet`. Overlay sheets hover "
 "above the contents of the window and can be used for a variety of purposes, "
@@ -3739,14 +3937,20 @@ msgid ""
 "are sort of like fancy pop-up windows, except they can't be moved."
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:66
+#: content/docs/kirigami/introduction-overlaysheets.md:57
+msgid ""
+"The parse() method parses a string and returns the number of milliseconds "
+"since January 1, 1970, 00:00:00 UTC."
+msgstr ""
+
+#: content/docs/kirigami/introduction-overlaysheets.md:70
 msgid ""
 "We can give overlay sheets a header. These are set with the `header` "
 "property. We have provided ours with a `Kirigami.Heading` containing a "
 "relevant title: 'Add Kountdown'."
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:68
+#: content/docs/kirigami/introduction-overlaysheets.md:72
 msgid ""
 "Then we come to a `Kirigami.FormLayout`. This allows us to easily create "
 "responsive input forms, which neatly displays labels for inputs and the "
@@ -3756,25 +3960,25 @@ msgid ""
 " us simple text boxes to write things in."
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:70
+#: content/docs/kirigami/introduction-overlaysheets.md:74
 msgid "We have created `Controls.Textfield` elements that act as:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:72
+#: content/docs/kirigami/introduction-overlaysheets.md:76
 msgid "Input for the name of our countdown"
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:73
+#: content/docs/kirigami/introduction-overlaysheets.md:77
 msgid "Input for the description of our countdown"
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:74
+#: content/docs/kirigami/introduction-overlaysheets.md:78
 msgid ""
 "Input for the date we are counting down towards, which must be provided in a"
 " `YYYY-MM-DD` format."
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:76
+#: content/docs/kirigami/introduction-overlaysheets.md:80
 msgid ""
 "Within each of these `Controls.Textfield` elements, we are setting a "
 "`Kirigami.FormData.label` property that lets us define labels for them. The "
@@ -3787,7 +3991,7 @@ msgid ""
 "of our form."
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:78
+#: content/docs/kirigami/introduction-overlaysheets.md:82
 msgid ""
 "We have also set a property called `inputMask` on the text field for our "
 "date. Setting this to `\"0000-00-00\"` prevents users from entering "
@@ -3796,7 +4000,7 @@ msgid ""
 "parse into a date object."
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:80
+#: content/docs/kirigami/introduction-overlaysheets.md:84
 msgid ""
 "At the end of our form we are including a button that adds our new countdown"
 " to the list model. We have set the `enabled` property to a conditional "
@@ -3809,11 +4013,11 @@ msgid ""
 "closes it."
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:82
+#: content/docs/kirigami/introduction-overlaysheets.md:86
 msgid "Using our sheet"
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:93
+#: content/docs/kirigami/introduction-overlaysheets.md:97
 msgid ""
 "Overlay sheets have two methods, `open()` and `close()` which control the "
 "opening and closing of this component. In this case, we have set the sheet "
@@ -3821,7 +4025,7 @@ msgid ""
 "our program, we'll be able to add our own customised countdowns!"
 msgstr ""
 
-#: content/docs/kirigami/introduction-overlaysheets.md:95
+#: content/docs/kirigami/introduction-overlaysheets.md:99
 msgid "![](addedKountdowns.png)"
 msgstr ""
 
@@ -3833,18 +4037,18 @@ msgstr ""
 msgid "Pages allow you to organize your application content"
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:5
+#: content/docs/kirigami/introduction-pages.md:7
 msgid "Our app"
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:7
+#: content/docs/kirigami/introduction-pages.md:9
 msgid ""
 "In the previous tutorial, we managed to set up, build, and compile our first"
 " Kirigami application. With the basics in place, we can begin our journey "
 "towards creating a fully-featured application."
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:9
+#: content/docs/kirigami/introduction-pages.md:11
 msgid ""
 "These tutorials will focus on creating an application that lets the user see"
 " how many days are left until an event of their choice. That doesn't mean "
@@ -3856,17 +4060,17 @@ msgid ""
 "code."
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:11
+#: content/docs/kirigami/introduction-pages.md:13
 msgid ""
 "In this section we'll be focusing on pages, one of the key structural "
 "elements of any Kirigami application."
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:13
+#: content/docs/kirigami/introduction-pages.md:15
 msgid "Pages"
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:15
+#: content/docs/kirigami/introduction-pages.md:17
 msgid ""
 "Kirigami apps are typically organized in [Pages](docs:kirigami2;Page). Those"
 " are the different ‘Screens’ of an app. You will want to have a page "
@@ -3874,22 +4078,22 @@ msgid ""
 "different QML files each containing the code for separate pages."
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:17
+#: content/docs/kirigami/introduction-pages.md:19
 msgid ""
 "Pages are organized in a pagestack where they can be pushed and popped. On a"
 " phone only the topmost page is shown, whereas on a larger screen (desktop "
 "or tablet) multiple pages can be shown next to each other."
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:19
+#: content/docs/kirigami/introduction-pages.md:21
 msgid "![A single page on the phone](mobile.png)"
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:21
+#: content/docs/kirigami/introduction-pages.md:23
 msgid "![Two pages next to each other on the desktop](desktop.png)"
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:25
+#: content/docs/kirigami/introduction-pages.md:27
 msgid ""
 "KDE has a handy [Human Interface Guidelines (HIG) "
 "page](/hig/introduction/architecture/) that goes into detail about how to "
@@ -3897,7 +4101,7 @@ msgid ""
 "application remain usable, consistent, and aesthetic."
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:28
+#: content/docs/kirigami/introduction-pages.md:29
 msgid ""
 "A Kirigami [Page](docs:kirigami2;Page) also inherits from a [QQC2 "
 "Page](https://doc.qt.io/qt-5/qml-qtquick-controls2-page.html) and as such, "
@@ -3905,19 +4109,19 @@ msgid ""
 "useful resource to use when designing your pages."
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:32
+#: content/docs/kirigami/introduction-pages.md:34
 msgid ""
 "Let's go back to the `main.qml` file we created in our previous tutorial:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:36
+#: content/docs/kirigami/introduction-pages.md:38
 msgid ""
 "We make our application start to our `Kirigami.Page`. All we have included "
 "in it is a label containing 'Hello World', but we're going to spruce things "
 "up a little."
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:38
+#: content/docs/kirigami/introduction-pages.md:40
 msgid ""
 "The idea behind our app is that we're going to be able to display a bunch of"
 " countdowns to the user. The problem with a normal `Kirigami.Page` is that "
@@ -3926,7 +4130,7 @@ msgid ""
 "`Kirigami.Page` now."
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:42
+#: content/docs/kirigami/introduction-pages.md:44
 msgid ""
 "If you've gone ahead of the tutorial, you might have noticed that there is "
 "also such a thing as a `ScrollView` that you can use to contain your "
@@ -3935,7 +4139,7 @@ msgid ""
 "already in a `ScrollView`."
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:53
+#: content/docs/kirigami/introduction-pages.md:55
 msgid ""
 "Kirigami pages also feature neat titles placed within the toolbar, quickly "
 "indicating to the user which page they are on. All we need to do to set a "
@@ -3944,21 +4148,21 @@ msgid ""
 "tutorial to this end."
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:57
+#: content/docs/kirigami/introduction-pages.md:59
 msgid ""
 "You could also choose to define your page within its own QML document. To do"
 " so, you'd create the new QML doc, add it to your `resources.qrc` file, and "
 "set `Kirigami.ApplicationWindow`'s first page to it like so:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:63
+#: content/docs/kirigami/introduction-pages.md:65
 msgid ""
 "`pageStack.initialPage` sets the initial Page of the Page stack, and "
 "`Qt.resolvedUrl` is converting the relative URL of the QML file into an "
 "absolute one."
 msgstr ""
 
-#: content/docs/kirigami/introduction-pages.md:65
+#: content/docs/kirigami/introduction-pages.md:67
 msgid ""
 "There is further information about alternative page structures [within our "
 "Kirigami documentation](/docs/kirigami/manipulate-pages/)."
@@ -3971,42 +4175,42 @@ msgstr ""
 #: content/docs/kirigami/introduction-separatefiles.md:0
 msgid ""
 "Separating unwieldy code into different files, and attach signals to your "
-"components.\n"
+"components."
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:5
+#: content/docs/kirigami/introduction-separatefiles.md:9
 msgid "But why?"
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:7
+#: content/docs/kirigami/introduction-separatefiles.md:11
 msgid ""
 "For the first time, we will be separating some of our components into their "
 "own QML files. If we keep adding things to `main.qml`, it's going to quickly"
 " become hard to tell what does what, and we risk muddying our code."
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:9
+#: content/docs/kirigami/introduction-separatefiles.md:13
 msgid ""
 "First we need to add our new files into our `resources.qrc` which we created"
 " in the first part of this tutorial."
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:21
+#: content/docs/kirigami/introduction-separatefiles.md:25
 msgid "Using our new files"
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:23
+#: content/docs/kirigami/introduction-separatefiles.md:27
 msgid ""
 "We'll need to find some way of using our new files in `main.qml`. "
 "Thankfully, all we need to do is include a declaration of these components "
 "in our `main.qml` like this:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:31
+#: content/docs/kirigami/introduction-separatefiles.md:35
 msgid "Extending our add sheet into an add/edit sheet"
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:33
+#: content/docs/kirigami/introduction-separatefiles.md:37
 msgid ""
 "While in the last tutorial we made our countdown-adding button do something,"
 " the edit button on our countdown cards is still inactive. We also created "
@@ -4015,18 +4219,18 @@ msgid ""
 "to our `main.qml`."
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:37
+#: content/docs/kirigami/introduction-separatefiles.md:41
 msgid ""
 "The key changes we have made involve the addition of our component "
 "definition `AddEditSheet` (and `KountdownDelegate` further down) and a new "
 "function called `openPopulateSheet`."
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:39
+#: content/docs/kirigami/introduction-separatefiles.md:43
 msgid "Lets go through our `AddEditSheet` definition:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:57
+#: content/docs/kirigami/introduction-separatefiles.md:61
 msgid ""
 "`onAdded` and `onEdited` are signal handlers. Just like `onTriggered` is "
 "called when we click an action, we can also use handlers that respond to our"
@@ -4034,7 +4238,7 @@ msgid ""
 "adding sheet -- we can see how these signals work:"
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:61
+#: content/docs/kirigami/introduction-separatefiles.md:65
 msgid ""
 "Signals invoke their handlers when they are called. In this case, we have "
 "created two signals that we can invoke with different outcomes, and to which"
@@ -4046,14 +4250,14 @@ msgid ""
 "property, defined at the top of our AddEditSheet, is set to."
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:63
+#: content/docs/kirigami/introduction-separatefiles.md:67
 msgid ""
 "The `mode` property also controls several other things: mainly what the "
 "title of our sheet is set to, and what text is to be included in our "
 "textfields. However, by default, our `mode` property is just set to add..."
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:65
+#: content/docs/kirigami/introduction-separatefiles.md:69
 msgid ""
 "Which brings us back to `main.qml` and our new `openPopulateSheet` function."
 " You might have noticed that this is what is called now when the countdown-"
@@ -4064,38 +4268,38 @@ msgid ""
 "relevant properties in AddEditSheet."
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:80
+#: content/docs/kirigami/introduction-separatefiles.md:84
 msgid ""
 "`mode` changes the add/edit sheet depending on whether this argument is set "
 "to `\"add\"` or to `\"edit\"`"
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:81
+#: content/docs/kirigami/introduction-separatefiles.md:85
 msgid ""
 "`index` argument is needed so that when we save our edited countdown, the "
 "correct one is modified"
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:82
+#: content/docs/kirigami/introduction-separatefiles.md:86
 msgid ""
 "`listName`, `listDesc`, and `listDate` are the relevant countdown details "
 "that need to be put in the sheet's fields"
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:84
+#: content/docs/kirigami/introduction-separatefiles.md:88
 msgid ""
 "Of course, to actually use our sheet for anything besides adding countdowns "
 "first we need to make the edit button on our cards work. But if you look at "
 "our `Kirigami.CardsListView` in `main.qml`..."
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:94
+#: content/docs/kirigami/introduction-separatefiles.md:98
 msgid ""
 "We've replaced our `Kirigami.AbstractCard` with a delegate component "
 "definition from `KountdownDelegate.qml`."
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:98
+#: content/docs/kirigami/introduction-separatefiles.md:102
 msgid ""
 "The `onClicked` property of the 'Edit' button on our cards now calls the "
 "`openPopulateSheet` function, with the card's fetched list element "
@@ -4103,13 +4307,13 @@ msgid ""
 " be populated with the correct text."
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:100
+#: content/docs/kirigami/introduction-separatefiles.md:104
 msgid ""
 "With that, we have a fully-functional sheet where we can add and edit our "
 "countdowns!"
 msgstr ""
 
-#: content/docs/kirigami/introduction-separatefiles.md:102
+#: content/docs/kirigami/introduction-separatefiles.md:106
 msgid "![](editsheet.png)"
 msgstr ""
 
@@ -4122,31 +4326,31 @@ msgid "Colors "
 msgstr ""
 
 #: content/docs/kirigami/style-colors.md:0
-msgid "Make your app follow your user color scheme\n"
+msgid "Make your app follow your user color scheme"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:7
+#: content/docs/kirigami/style-colors.md:10
 msgid ""
 "Kirigami has a color palette that follow the system colors, to better "
 "integrate on the platform it is running on (i.e. Plasma Desktop, Plasma "
 "Mobile, GNOME, Android, etc.)."
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:12
+#: content/docs/kirigami/style-colors.md:14
 msgid ""
 "All of Kirigami's QML components and all the Qt Quick Controls 2 QML "
 "components will already follow this palette by default, so usually no custom"
 " coloring should be needed at all for those controls."
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:15
+#: content/docs/kirigami/style-colors.md:19
 msgid ""
 "Primitive components such as `Rectangle` should always be colored with the "
 "color palette provided by Kirigami via the [`Theme`](docs:kirigami2;Theme) "
 "attached property."
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:23
+#: content/docs/kirigami/style-colors.md:22
 msgid ""
 "Hardcoded colors in QML, such as `#32b2fa` or `red` should usually be "
 "avoided; if it is really necessary to have elements with custom colors, it "
@@ -4158,40 +4362,42 @@ msgid ""
 "black."
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:25
-#: content/docs/kirigami/style-typography.md:122
+#: content/docs/kirigami/style-colors.md:30
+#: content/docs/kirigami/style-typography.md:125
 msgid "Theme"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:27
+#: content/docs/kirigami/style-colors.md:32
 msgid ""
 "For more information about the Kirigami Theme class, see the [API "
 "docs](docs:kirigami2;Kirigami::PlatformTheme)"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:32
+#: content/docs/kirigami/style-colors.md:34
 msgid ""
 "`Kirigami.Theme` is an attached property, therefore is available to use in "
 "any QML item. It contains as properties all the colors available in the "
 "palette, and what palette to use, as the `colorSet` property."
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:34
-#: content/docs/kirigami/style-colors.md:75
+#: content/docs/kirigami/style-colors.md:39
+#: content/docs/kirigami/style-colors.md:80
 msgid "Example:"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:48
-msgid ""
-"<!-- TODO screenshot of a qml file with an annotated UI showing all the "
-"available color -->"
-msgstr ""
-
 #: content/docs/kirigami/style-colors.md:50
-msgid "Color Set"
+msgid ""
+"<!-- TODO\n"
+"screenshot of a qml file with an annotated UI showing all the \n"
+"available color\n"
+"-->\n"
 msgstr ""
 
 #: content/docs/kirigami/style-colors.md:55
+msgid "Color Set"
+msgstr ""
+
+#: content/docs/kirigami/style-colors.md:57
 msgid ""
 "Depending on where a control is located, it should use a different color "
 "set: for instance, (with the Breeze light color theme) in itemviews, the "
@@ -4199,7 +4405,7 @@ msgid ""
 "or dialogs, the normal background color is gray."
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:61
+#: content/docs/kirigami/style-colors.md:62
 msgid ""
 "If you set a color set for an item, all of its child items (recursively) "
 "will inherit it automatically (unless the property `inherit` has explicitly "
@@ -4208,90 +4414,90 @@ msgid ""
 "hierarchy of items without touching any of the items themselves."
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:63
+#: content/docs/kirigami/style-colors.md:68
 msgid "`Kirigami.Theme` supports 5 different color sets:"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:66
+#: content/docs/kirigami/style-colors.md:70
 msgid ""
 "View: Color set for item views, usually the lightest of all (in light color "
 "themes)"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:67
+#: content/docs/kirigami/style-colors.md:72
 msgid "Window: **Default** Color set for windows and \"chrome\" areas"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:68
+#: content/docs/kirigami/style-colors.md:73
 msgid "Button: Color set used by buttons"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:69
+#: content/docs/kirigami/style-colors.md:74
 msgid "Selection: Color set used by selected areas"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:70
+#: content/docs/kirigami/style-colors.md:75
 msgid "Tooltip: Color set used by tooltips"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:73
+#: content/docs/kirigami/style-colors.md:76
 msgid ""
 "Complementary: Color set meant to be complementary to Window: usually is "
 "dark even in light themes. May be used for \"emphasis\" in small areas of "
 "the application"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:82
+#: content/docs/kirigami/style-colors.md:87
 msgid "The comments assume the system uses the Breeze Light color theme"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:85
+#: content/docs/kirigami/style-colors.md:90
 msgid "A gray color will be used, as the default color set is Window"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:90
+#: content/docs/kirigami/style-colors.md:94
 msgid "The text will be near-black, as is defined in the Window color set"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:96
+#: content/docs/kirigami/style-colors.md:101
 msgid "Use the set for ItemViews"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:99
-#: content/docs/kirigami/style-colors.md:122
+#: content/docs/kirigami/style-colors.md:104
+#: content/docs/kirigami/style-colors.md:127
 msgid "Do not inherit from the parent"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:102
+#: content/docs/kirigami/style-colors.md:107
 msgid "This will be a near-white color"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:108
+#: content/docs/kirigami/style-colors.md:112
 msgid ""
 "This will be a near-white color too, as the colorSet is inherited from the "
 "parent and will be View"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:113
+#: content/docs/kirigami/style-colors.md:117
 msgid "The text will be near-black, as is defined in the View color set"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:119
+#: content/docs/kirigami/style-colors.md:124
 msgid "Use the Complementary set"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:126
+#: content/docs/kirigami/style-colors.md:130
 msgid ""
 "This will be near-black as in the Complementary color set the background "
 "color is dark."
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:131
+#: content/docs/kirigami/style-colors.md:135
 msgid ""
 "The text will be near-white, as is defined in the Complementary color set"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:142
+#: content/docs/kirigami/style-colors.md:144
 msgid ""
 "Some components such as Labels will automatically inherit by default the "
 "color set, some other components have a fixed color set, for instance "
@@ -4300,17 +4506,17 @@ msgid ""
 " set to `true`:"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:155
+#: content/docs/kirigami/style-colors.md:160
 msgid ""
 "![Screenshot of a comparison between a button that inherits and one that "
 "does not](buttonsinherit.png)"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:157
+#: content/docs/kirigami/style-colors.md:162
 msgid "Using Custom Colors"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:162
+#: content/docs/kirigami/style-colors.md:164
 msgid ""
 "Although it's discouraged to use hardcoded colors, Kirigami offers a more "
 "maintainable way to assign a custom hardcoded palette to an item and all its"
@@ -4318,7 +4524,7 @@ msgid ""
 " only:"
 msgstr ""
 
-#: content/docs/kirigami/style-colors.md:166
+#: content/docs/kirigami/style-colors.md:171
 msgid ""
 "![Screenshot showing the code above with qmlscene, we can see two rectangles"
 " with two different colors](customcolors.png)"
@@ -4328,62 +4534,62 @@ msgstr ""
 msgid "Typography"
 msgstr ""
 
-#: content/docs/kirigami/style-typography.md:5
+#: content/docs/kirigami/style-typography.md:8
 msgid "Headings"
 msgstr ""
 
-#: content/docs/kirigami/style-typography.md:8
+#: content/docs/kirigami/style-typography.md:10
 msgid ""
 "Kirigami provides an [heading element](docs:kirigami2;Heading) that can be "
 "used for page or section titles."
 msgstr ""
 
-#: content/docs/kirigami/style-typography.md:35
+#: content/docs/kirigami/style-typography.md:38
 msgid "Heading"
 msgstr ""
 
-#: content/docs/kirigami/style-typography.md:37
+#: content/docs/kirigami/style-typography.md:40
 msgid "Labels"
 msgstr ""
 
-#: content/docs/kirigami/style-typography.md:39
+#: content/docs/kirigami/style-typography.md:42
 msgid "Text elements should use the Label element from QtQuick Controls 2."
 msgstr ""
 
-#: content/docs/kirigami/style-typography.md:48
+#: content/docs/kirigami/style-typography.md:51
 msgid "Text Alignment"
 msgstr ""
 
-#: content/docs/kirigami/style-typography.md:51
+#: content/docs/kirigami/style-typography.md:53
 msgid ""
 "You can align your text elements using the horizontalAlignment property of "
 "the text element."
 msgstr ""
 
-#: content/docs/kirigami/style-typography.md:74
+#: content/docs/kirigami/style-typography.md:77
 msgid "Text centered"
 msgstr ""
 
-#: content/docs/kirigami/style-typography.md:97
+#: content/docs/kirigami/style-typography.md:100
 msgid "Text right aligned"
 msgstr ""
 
-#: content/docs/kirigami/style-typography.md:99
+#: content/docs/kirigami/style-typography.md:102
 msgid "Rich Text"
 msgstr ""
 
-#: content/docs/kirigami/style-typography.md:102
+#: content/docs/kirigami/style-typography.md:104
 msgid ""
 "QML allows you to display (and edit) rich text. The behavior can be "
 "controlled via the [textFormat](https://doc.qt.io/qt-5/qml-qtquick-"
 "text.html#textFormat-prop) property."
 msgstr ""
 
-#: content/docs/kirigami/style-typography.md:120
+#: content/docs/kirigami/style-typography.md:123
 msgid "Displaying rich text"
 msgstr ""
 
-#: content/docs/kirigami/style-typography.md:125
+#: content/docs/kirigami/style-typography.md:127
 msgid ""
 "The font size of the Kirigami [Theme](docs:kirigami2;Theme) is available as "
 "`Kirigami.Theme.defaultFont.pointSize` in your application."
