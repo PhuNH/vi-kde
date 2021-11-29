@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Manual \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 00:22+0000\n"
+"POT-Creation-Date: 2021-11-29 00:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -49,7 +49,7 @@ msgid "Color clips"
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:61
-msgid "Color clips are images composed of a single color that can be added to the Project Tree. They can be useful to provide a background on which to place titles."
+msgid "Color clips are images composed of a single color that can be added to the Project Bin. They can be useful to provide a background on which to place titles."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:64
@@ -61,7 +61,7 @@ msgid "This brings up the **Color Clip** dialog from which you can choose a colo
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:76
-msgid "Clicking :menuselection:`OK` adds the clip to the project tree. The clip can then be dragged to the timeline. The duration of the color clip can be adjusted on the timeline."
+msgid "Clicking :menuselection:`OK` adds the clip to the project bin. The clip can then be dragged to the timeline. The duration of the color clip can be adjusted on the timeline."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:80
@@ -101,7 +101,7 @@ msgid "Select an appropriate frame duration – this defines how long each image
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:114
-msgid "Then hit :menuselection:`OK`.  A video file made up of all the images in the folder from which you selected the first frame file from will be added to the Project Tree."
+msgid "Then hit :menuselection:`OK`.  A video file made up of all the images in the folder from which you selected the first frame file from will be added to the Project Bin."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:117
@@ -157,15 +157,15 @@ msgid "To enable proxy clips by default for new projects, go to :menuselection:`
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:169
-msgid "As soon as proxy clips are enabled, they can be generated for specific project clips in the Project Tree widget via the context menu :menuselection:`Proxy Clip`. After you select :menuselection:`Proxy Clip` for a clip, a job will start to create the clip. You can view the progress of this job by looking at the little gray progress bar that appears at the bottom of the clip in the Project Tree – see picture. Clicking :menuselection:`Proxy Clip` again disables the proxy for this clip."
+msgid "As soon as proxy clips are enabled, they can be generated for specific project clips in the Project Bin widget via the context menu :menuselection:`Proxy Clip`. After you select :menuselection:`Proxy Clip` for a clip, a job will start to create the clip. You can view the progress of this job by looking at the little gray progress bar that appears at the bottom of the clip in the Project Bin – see picture. Clicking :menuselection:`Proxy Clip` again disables the proxy for this clip."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:172
-msgid "You can multi-select clips in the Project Tree and select :menuselection:`Proxy Clip` to start a batch proxy clip generation job which will queue up multiple proxy clip generation jobs."
+msgid "You can multi-select clips in the Project Bin and select :menuselection:`Proxy Clip` to start a batch proxy clip generation job which will queue up multiple proxy clip generation jobs."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:181
-msgid "Once the proxy clip creation has completed, the proxy clip will appear with a **P** icon in the Project Tree."
+msgid "Once the proxy clip creation has completed, the proxy clip will appear with a **P** icon in the Project Bin."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:184
@@ -177,7 +177,7 @@ msgid "Clip Properties"
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:190
-msgid "You can display and edit clip properties by selecting a clip in the :ref:`project_tree` and choosing :menuselection:`Clip Properties` from the :menuselection:`Project` menu or from the right-click menu. Or by turning on the display of clip properties the :menuselection:`View` > :menuselection:`Clip Properties`  check box."
+msgid "You can display and edit clip properties by selecting a clip in the :ref:`project_tree` and choosing :menuselection:`Clip Properties` from the :menuselection:`Project` menu or from the right-click menu. Or by turning on the display of clip properties the :menuselection:`View` and enable :guilabel:`Clip Properties`."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:194
@@ -185,7 +185,7 @@ msgid "File Info"
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:199
-msgid "The :menuselection:`File Info` tab displays information about the file."
+msgid "The :guilabel:`File Info` tab displays information about the file."
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:203
@@ -248,74 +248,110 @@ msgstr ""
 msgid ":ref:`full_luma`"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:243
-msgid "Markers"
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:245
+msgid "Audio properties"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:251
-msgid "You can use the :menuselection:`Markers` tab to add markers for certain points in the source file that are important. However, it is probably easier to add markers to your clips via the  :ref:`monitors` because that allows you to preview the file at the location where you are adding the marker."
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:252
+msgid "For each channel you can adjust:"
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:254
-msgid "Once markers are put in your clip, you can access them in the :ref:`monitors` by right-clicking and selecting :menuselection:`Go To Marker` (see picture.)  Also note how the markers appear as red vertical lines in the **Clip Monitor** (see yellow highlighted regions in the picture.) You can turn on the display of the marker comments in the timeline too (see :ref:`editing`)."
+msgid "Choose which audio channel should be enabled or disabled. Rename with double click."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:263
-msgid "Markers can also be added to clips on the timeline. :ref:`right_click_menu` the clip and choose :menuselection:`Markers --> Add Marker`.  Markers added this way also appear in the clip in the Project Bin."
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:255
+msgid "Normalize the channel"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:269
-msgid "Metadata"
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:256
+msgid "Swap the channels"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:271
-msgid "You expect this to show any meta data that is contained in the clip. Does not appear to work."
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:257
+msgid "Copy a channel on the other one"
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:258
+msgid "Adjust the volume"
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:260
+msgid "for all channels:"
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:262
+msgid "Adjust the synchronization time related to the video of the clip."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:267
+msgid "Markers"
 msgstr ""
 
 #: ../../importing_and_assets_management/projects_and_files/clips.rst:275
+msgid "You can use the :menuselection:`Markers` tab to add markers for certain points in the source file that are important. However, it is probably easier to add markers to your clips via the  :ref:`monitors` because that allows you to preview the file at the location where you are adding the marker."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:278
+msgid "Once markers are put in your clip, you can access them in the :ref:`monitors` by right-clicking and selecting :menuselection:`Go To Marker` (see picture.)  Also note how the markers appear as red vertical lines in the **Clip Monitor** (see yellow highlighted regions in the picture.) You can turn on the display of the marker comments in the timeline too (see :ref:`editing`)."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:287
+msgid "Markers can also be added to clips on the timeline. :ref:`right_click_menu` the clip and choose :menuselection:`Markers --> Add Marker`.  Markers added this way also appear in the clip in the Project Bin."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:293
+msgid "Metadata"
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:295
+msgid "You expect this to show any meta data that is contained in the clip. Does not appear to work."
+msgstr ""
+
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:299
 msgid "Analysis"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:281
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:305
 msgid "You can view and delete motion vector data that is associated with the clip from here. This is data created by :ref:`auto_mask`"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:283
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:307
 msgid "Button 1 Will delete the selected analysis data, Button 2 will allow you to export the data (semi colon delimited text file), Button 3 will allow you to import analysis data."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:288
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:312
 msgid "Generators"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:291
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:315
 msgid "Counter"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:298
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:322
 msgid "This generates a counter timer clip in various formats which you can put onto the timeline."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:300
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:324
 msgid "You can choose to have the clip count up by checking that option, otherwise it will count down by default.   The No Background option will remove the background from the counter leaving only the grey background without the lines."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:303
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:327
 msgid "To change the size and position of the clip, you can add an effect to the clip on the timeline such as the :ref:`pan_and_zoom` or the :ref:`transform`."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:308
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:332
 msgid "White Noise"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:315
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:339
 msgid "This generates a video noise clip – like the \"snow\" on an out-of-tune analogue TV. In ver 17.04 it generates audio white noise as well as video snow."
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:321
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:345
 msgid "Color Bars"
 msgstr ""
 
-#: ../../importing_and_assets_management/projects_and_files/clips.rst:328
+#: ../../importing_and_assets_management/projects_and_files/clips.rst:352
 msgid "This generator came in to **Kdenlive** around ver 17.04. Generates a color test pattern of various types. Including PAL color bars, BBC color bars, EBU color bars, SMPTE color bars, Philips PM5544, FuBK"
 msgstr ""

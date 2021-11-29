@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-22 00:25+0000\n"
+"POT-Creation-Date: 2021-11-24 00:24+0000\n"
 "PO-Revision-Date: 2021-11-22 11:51+0100\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -48,7 +48,7 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr "Không thể tạo io-slave: %1"
 
-#: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1286
+#: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1282
 #, kde-format
 msgctxt ""
 "The first arg is the path to the symlink that couldn't be created, the "
@@ -88,23 +88,23 @@ msgstr ""
 "Chọn \"Thay thế\" để thay thế mỗi kí tự không hợp lệ (trong tên tệp đích) "
 "bằng một dấu gạch dưới \"_\"."
 
-#: core/copyjob.cpp:1396 core/job_error.cpp:576
+#: core/copyjob.cpp:1402 core/job_error.cpp:576
 #, kde-format
 msgid "Folder Already Exists"
 msgstr "Thư mục đã tồn tại"
 
-#: core/copyjob.cpp:1728 core/copyjob.cpp:2423 core/filecopyjob.cpp:373
+#: core/copyjob.cpp:1734 core/copyjob.cpp:2429 core/filecopyjob.cpp:373
 #: core/job_error.cpp:565 widgets/paste.cpp:80
 #, kde-format
 msgid "File Already Exists"
 msgstr "Tệp đã tồn tại"
 
-#: core/copyjob.cpp:1728 core/copyjob.cpp:2423
+#: core/copyjob.cpp:1734 core/copyjob.cpp:2429
 #, kde-format
 msgid "Already Exists as Folder"
 msgstr "Đã tồn tại, là thư mục"
 
-#: core/copyjob.cpp:1889 ioslaves/trash/kio_trash.cpp:288
+#: core/copyjob.cpp:1895 ioslaves/trash/kio_trash.cpp:288
 #, kde-format
 msgid "Trash"
 msgstr "Thùng rác"
@@ -341,7 +341,7 @@ msgid ""
 msgstr ""
 "Cần có đặc quyền gốc để hoàn tất thao tác chuyển. Bạn có muốn tiếp tục không?"
 
-#: core/job.cpp:294 ioslaves/file/file_unix.cpp:127
+#: core/job.cpp:294 ioslaves/file/file_unix.cpp:123
 #, kde-format
 msgid "Rename"
 msgstr "Đổi tên"
@@ -354,7 +354,7 @@ msgstr ""
 "Cần có đặc quyền gốc để hoàn tất việc đổi tên. Bạn có muốn tiếp tục không?"
 
 #: core/job.cpp:300 filewidgets/knewfilemenu.cpp:597
-#: ioslaves/file/file_unix.cpp:131
+#: ioslaves/file/file_unix.cpp:127
 #, kde-format
 msgid "Create Symlink"
 msgstr "Tạo liên kết tượng trưng"
@@ -4009,77 +4009,77 @@ msgstr "Việc bỏ gắn kết không được Windows CE hỗ trợ."
 msgid "Could not find program \"umount\""
 msgstr "Không tìm được chương trình \"unmount\""
 
-#: ioslaves/file/file_unix.cpp:103
+#: ioslaves/file/file_unix.cpp:99
 #, kde-format
 msgid "Change File Permissions"
 msgstr "Thay đổi quyền truy cập tệp"
 
-#: ioslaves/file/file_unix.cpp:104
+#: ioslaves/file/file_unix.cpp:100
 #, kde-format
 msgid "New Permissions: %1"
 msgstr "Quyền truy cập mới: %1"
 
-#: ioslaves/file/file_unix.cpp:107
+#: ioslaves/file/file_unix.cpp:103
 #, kde-format
 msgid "Change File Owner"
 msgstr "Thay đổi chủ sở hữu tệp"
 
-#: ioslaves/file/file_unix.cpp:108
+#: ioslaves/file/file_unix.cpp:104
 #, kde-format
 msgid "New Owner: UID=%1, GID=%2"
 msgstr "Chủ sở hữu mới: UID=%1, GID=%2"
 
-#: ioslaves/file/file_unix.cpp:111
+#: ioslaves/file/file_unix.cpp:107
 #, kde-format
 msgid "Remove File"
 msgstr "Xoá tệp"
 
-#: ioslaves/file/file_unix.cpp:114
+#: ioslaves/file/file_unix.cpp:110
 #, kde-format
 msgid "Remove Directory"
 msgstr "Xoá thư mục"
 
-#: ioslaves/file/file_unix.cpp:117
+#: ioslaves/file/file_unix.cpp:113
 #, kde-format
 msgid "Create Directory"
 msgstr "Tạo thư mục"
 
-#: ioslaves/file/file_unix.cpp:118
+#: ioslaves/file/file_unix.cpp:114
 #, kde-format
 msgid "Directory Permissions: %1"
 msgstr "Quyền truy cập thư mục: %1"
 
-#: ioslaves/file/file_unix.cpp:121
+#: ioslaves/file/file_unix.cpp:117
 #, kde-format
 msgid "Open File"
 msgstr "Mở tệp"
 
-#: ioslaves/file/file_unix.cpp:124
+#: ioslaves/file/file_unix.cpp:120
 #, kde-format
 msgid "Open Directory"
 msgstr "Mở thư mục"
 
-#: ioslaves/file/file_unix.cpp:128
+#: ioslaves/file/file_unix.cpp:124
 #, kde-format
 msgid "New Filename: %1"
 msgstr "Tên tệp mới: %1"
 
-#: ioslaves/file/file_unix.cpp:132
+#: ioslaves/file/file_unix.cpp:128
 #, kde-format
 msgid "Target: %1"
 msgstr "Đích: %1"
 
-#: ioslaves/file/file_unix.cpp:135
+#: ioslaves/file/file_unix.cpp:131
 #, kde-format
 msgid "Change Timestamp"
 msgstr "Đổi mốc thời gian"
 
-#: ioslaves/file/file_unix.cpp:138
+#: ioslaves/file/file_unix.cpp:134
 #, kde-format
 msgid "Unknown Action"
 msgstr "Hành động không rõ"
 
-#: ioslaves/file/file_unix.cpp:143
+#: ioslaves/file/file_unix.cpp:139
 #, kde-format
 msgid ""
 "Action: %1\n"
@@ -4090,22 +4090,22 @@ msgstr ""
 "Nguồn: %2\n"
 "%3"
 
-#: ioslaves/file/file_unix.cpp:835
+#: ioslaves/file/file_unix.cpp:831
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr "Không thể chép tệp từ %1 đến %2. (Lỗi: %3)"
 
-#: ioslaves/file/file_unix.cpp:1060
+#: ioslaves/file/file_unix.cpp:1056
 #, kde-format
 msgid "No media in device for %1"
 msgstr "Không có phương tiện trong thiết bị cho %1"
 
-#: ioslaves/file/file_unix.cpp:1371
+#: ioslaves/file/file_unix.cpp:1367
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr "Không lấy được mã định danh người dùng cho tên người dùng đã cho %1"
 
-#: ioslaves/file/file_unix.cpp:1383
+#: ioslaves/file/file_unix.cpp:1379
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr "Không lấy được mã định danh nhóm cho tên nhóm đã cho %1"
@@ -7177,21 +7177,18 @@ msgstr "SSL"
 
 #: widgets/kacleditwidget.cpp:71
 #, kde-format
-#| msgid "Add..."
 msgctxt "@action:button"
 msgid "Add..."
 msgstr "Thêm..."
 
 #: widgets/kacleditwidget.cpp:75
 #, kde-format
-#| msgid "Edit"
 msgctxt "@action:button"
 msgid "Edit..."
 msgstr "Sửa..."
 
 #: widgets/kacleditwidget.cpp:79
 #, kde-format
-#| msgid "Delete"
 msgctxt "@action:button"
 msgid "Delete"
 msgstr "Xoá"
@@ -7472,7 +7469,6 @@ msgstr "Dừng"
 #. i18n: ectx: property (text), widget (QPushButton, sizeDetailsBtn)
 #: widgets/kfilepropspluginwidget.ui:52
 #, kde-format
-#| msgid "Explore in FileLight"
 msgid "Explore in Filelight"
 msgstr "Thăm dò trong FileLight"
 
@@ -7510,7 +7506,6 @@ msgstr "Địa điểm:"
 #. i18n: ectx: property (text), widget (QPushButton, configureMimeBtn)
 #: widgets/kfilepropspluginwidget.ui:324
 #, kde-format
-#| msgid "Chan&ge..."
 msgid "Change..."
 msgstr "Đổi..."
 
@@ -7565,7 +7560,6 @@ msgstr "Truy cập:"
 #. i18n: ectx: property (text), widget (QLabel, defaultHandlerLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:461
 #, kde-format
-#| msgid "Open With"
 msgid "Open With:"
 msgstr "Mở bằng:"
 
@@ -8129,7 +8123,6 @@ msgstr "Ch&ung"
 
 #: widgets/kpropertiesdialog.cpp:1092
 #, kde-format
-#| msgid "Explore in FileLight"
 msgctxt "@action:button"
 msgid "Explore in %1"
 msgstr "Thăm dò trong %1"
@@ -8194,7 +8187,6 @@ msgstr "Tên tệp mới đang trống."
 
 #: widgets/kpropertiesdialog.cpp:1636
 #, kde-format
-#| msgid "Choose Application"
 msgid "No associated application"
 msgstr "Không có ứng dụng liên kết"
 
