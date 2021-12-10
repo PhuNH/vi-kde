@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-17 00:26+0000\n"
+"POT-Creation-Date: 2021-12-07 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -174,32 +174,12 @@ msgctxt ""
 msgid "Sequential numbering, padded out to N digits"
 msgstr ""
 
-#: src/Gui/ExportMenu.cpp:44
-#, kde-format
-msgid "More Online Services"
-msgstr ""
-
-#: src/Gui/ExportMenu.cpp:45
-#, kde-format
-msgid "Please wait..."
-msgstr ""
-
-#: src/Gui/ExportMenu.cpp:96
+#: src/Gui/ExportMenu.cpp:85
 #, kde-format
 msgid "Other Application..."
 msgstr ""
 
-#: src/Gui/ExportMenu.cpp:149
-#, kde-format
-msgid "KIPI plugin from library %1 failed to load"
-msgstr ""
-
-#: src/Gui/ExportMenu.cpp:174
-#, kde-format
-msgid "No KIPI plugins available"
-msgstr ""
-
-#: src/Gui/ExportMenu.cpp:184
+#: src/Gui/ExportMenu.cpp:104
 #, kde-format
 msgid "Share"
 msgstr ""
@@ -220,6 +200,7 @@ msgid "Change Spectacle's settings."
 msgstr ""
 
 #: src/Gui/KSMainWindow.cpp:146 src/Gui/KSMainWindow.cpp:153
+#: src/SpectacleCore.cpp:497
 #, kde-format
 msgid "Annotate"
 msgstr ""
@@ -282,185 +263,185 @@ msgid_plural "%1 seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Gui/KSMainWindow.cpp:395 src/Gui/KSMainWindow.cpp:604
+#: src/Gui/KSMainWindow.cpp:395 src/Gui/KSMainWindow.cpp:613
 #, kde-format
 msgctxt "@title:window Unsaved Screenshot"
 msgid "Unsaved[*]"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:485
+#: src/Gui/KSMainWindow.cpp:491
 #, kde-format
 msgid "There was a problem sharing the image: %1"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:488
+#: src/Gui/KSMainWindow.cpp:494
 #, kde-format
 msgid "Image shared"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:490
+#: src/Gui/KSMainWindow.cpp:496
 #, kde-format
 msgid ""
 "The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
 "clipboard."
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:524
+#: src/Gui/KSMainWindow.cpp:530
 #, kde-format
 msgid "The screenshot has been copied to the clipboard."
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:530
+#: src/Gui/KSMainWindow.cpp:536
 #, kde-format
 msgid ""
 "The screenshot has been saved as <a href=\"%1\">%2</a> and its location has "
 "been copied to clipboard"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:538
+#: src/Gui/KSMainWindow.cpp:544
 #, kde-format
 msgid ""
 "Could not take a screenshot. Please report this bug here: <a href=\"https://"
 "bugs.kde.org/enter_bug.cgi?product=Spectacle\">create a spectacle bug</a>"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:545
+#: src/Gui/KSMainWindow.cpp:554
 #, kde-format
 msgid "Ready to take a screenshot"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:562
+#: src/Gui/KSMainWindow.cpp:571
 #, kde-format
 msgid "The screenshot was saved as <a href=\"%1\">%2</a>"
 msgstr ""
 
-#: src/Gui/KSMainWindow.cpp:572
+#: src/Gui/KSMainWindow.cpp:581
 #, kde-format
 msgid ""
 "The screenshot was copied to the clipboard and saved as <a href=\"%1\">%2</a>"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:52
+#: src/Gui/KSWidget.cpp:56
 #, kde-format
 msgid "<b>Capture Mode</b>"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:56
+#: src/Gui/KSWidget.cpp:60
 #, kde-format
 msgid "Full Screen"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:56
+#: src/Gui/KSWidget.cpp:60
 #, kde-format
 msgid "Full Screen (All Monitors)"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:61
+#: src/Gui/KSWidget.cpp:65
 #, kde-format
 msgid "Full Screen (All Monitors, scaled)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KTitleWidget, regionTitle)
-#: src/Gui/KSWidget.cpp:65 src/Gui/SettingsDialog/GeneralOptions.ui:160
+#: src/Gui/KSWidget.cpp:69 src/Gui/SettingsDialog/GeneralOptions.ui:160
 #, kde-format
 msgid "Rectangular Region"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:68
+#: src/Gui/KSWidget.cpp:72
 #, kde-format
 msgid "Current Screen"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:71
+#: src/Gui/KSWidget.cpp:75
 #, kde-format
 msgid "Active Window"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:74
+#: src/Gui/KSWidget.cpp:78
 #, kde-format
 msgid "Window Under Cursor"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:89
+#: src/Gui/KSWidget.cpp:93
 #, kde-format
 msgid "No Delay"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:93
+#: src/Gui/KSWidget.cpp:97
 #, kde-format
 msgid "On Click"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:94
+#: src/Gui/KSWidget.cpp:98
 #, kde-format
 msgid "Wait for a mouse click before capturing the screenshot image"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:103
+#: src/Gui/KSWidget.cpp:107
 #, kde-format
 msgid "Area:"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:104
+#: src/Gui/KSWidget.cpp:108
 #, kde-format
 msgid "Delay:"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:109
+#: src/Gui/KSWidget.cpp:113
 #, kde-format
 msgid "<b>Options</b>"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:111
+#: src/Gui/KSWidget.cpp:115
 #, kde-format
 msgid "Include mouse pointer"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:112
+#: src/Gui/KSWidget.cpp:116
 #, kde-format
 msgid "Show the mouse cursor in the screenshot image"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:115
+#: src/Gui/KSWidget.cpp:119
 #, kde-format
 msgid "Include window titlebar and borders"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:116
+#: src/Gui/KSWidget.cpp:120
 #, kde-format
 msgid ""
 "Show the window title bar, the minimize/maximize/close buttons, and the "
 "window border"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:120
+#: src/Gui/KSWidget.cpp:124
 #, kde-format
 msgid "Capture the current pop-up only"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:122
+#: src/Gui/KSWidget.cpp:126
 #, kde-format
 msgid ""
 "Capture only the current pop-up window (like a menu, tooltip etc).\n"
 "If disabled, the pop-up is captured along with the parent window"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:127
+#: src/Gui/KSWidget.cpp:131
 #, kde-format
 msgid "Quit after manual Save or Copy"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:128
+#: src/Gui/KSWidget.cpp:132
 #, kde-format
 msgid "Quit Spectacle after manually saving or copying the image"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:138
+#: src/Gui/KSWidget.cpp:142
 #, kde-format
 msgid "Take a New Screenshot"
 msgstr ""
 
-#: src/Gui/KSWidget.cpp:142
+#: src/Gui/KSWidget.cpp:146
 #, kde-format
 msgid "Cancel"
 msgstr ""
@@ -823,19 +804,6 @@ msgctxt "Decimal number of seconds"
 msgid " seconds"
 msgstr ""
 
-#: src/KipiInterface/KSGKipiImageCollectionSelector.cpp:25
-#, kde-format
-msgctxt "%1 is collection name, %2 is image count in collection"
-msgid "%1 (%2 image)"
-msgid_plural "%1 (%2 images)"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/KipiInterface/KSGKipiInfoShared.cpp:42
-#, kde-format
-msgid "Taken with Spectacle"
-msgstr ""
-
 #: src/Main.cpp:40
 #, kde-format
 msgid "Spectacle"
@@ -993,159 +961,164 @@ msgstr ""
 msgid "Launch Spectacle without capturing"
 msgstr ""
 
-#: src/SpectacleCore.cpp:403
+#: src/SpectacleCore.cpp:429
 #, kde-format
 msgid "Screenshot capture canceled or failed"
 msgstr ""
 
-#: src/SpectacleCore.cpp:423
+#: src/SpectacleCore.cpp:449
 #, kde-format
 msgctxt "The entire screen area was captured, heading"
 msgid "Full Screen Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:426
+#: src/SpectacleCore.cpp:452
 #, kde-format
 msgctxt "The current screen was captured, heading"
 msgid "Current Screen Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:429
+#: src/SpectacleCore.cpp:455
 #, kde-format
 msgctxt "The active window was captured, heading"
 msgid "Active Window Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:433
+#: src/SpectacleCore.cpp:459
 #, kde-format
 msgctxt "The window under the mouse was captured, heading"
 msgid "Window Under Cursor Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:436
+#: src/SpectacleCore.cpp:462
 #, kde-format
 msgctxt "A rectangular region was captured, heading"
 msgid "Rectangular Region Captured"
 msgstr ""
 
-#: src/SpectacleCore.cpp:448 src/SpectacleCore.cpp:456
+#: src/SpectacleCore.cpp:474 src/SpectacleCore.cpp:482
 #, kde-format
 msgid "A screenshot was saved as '%1' to '%2'."
 msgstr ""
 
-#: src/SpectacleCore.cpp:452
+#: src/SpectacleCore.cpp:478
 #, kde-format
 msgid "A screenshot was saved to your clipboard."
 msgstr ""
 
-#: src/SpectacleCore.cpp:454
+#: src/SpectacleCore.cpp:480
 #, kde-format
 msgctxt "Placeholder is filename"
 msgid "A screenshot was saved as '%1' to your Pictures folder."
 msgstr ""
 
-#: src/SpectacleCore.cpp:461
+#: src/SpectacleCore.cpp:487
 #, kde-format
 msgctxt "Open the screenshot we just saved"
 msgid "Open"
 msgstr ""
 
-#: src/SpectacleCore.cpp:494
+#: src/SpectacleCore.cpp:525
 #, kde-format
 msgid "Capture the entire desktop (default)"
 msgstr ""
 
-#: src/SpectacleCore.cpp:495
+#: src/SpectacleCore.cpp:526
 #, kde-format
 msgid "Capture the current monitor"
 msgstr ""
 
-#: src/SpectacleCore.cpp:496
+#: src/SpectacleCore.cpp:527
 #, kde-format
 msgid "Capture the active window"
 msgstr ""
 
-#: src/SpectacleCore.cpp:497
+#: src/SpectacleCore.cpp:528
 #, kde-format
 msgid ""
 "Capture the window currently under the cursor, including parents of pop-up "
 "menus"
 msgstr ""
 
-#: src/SpectacleCore.cpp:498
+#: src/SpectacleCore.cpp:529
 #, kde-format
 msgid ""
 "Capture the window currently under the cursor, excluding parents of pop-up "
 "menus"
 msgstr ""
 
-#: src/SpectacleCore.cpp:499
+#: src/SpectacleCore.cpp:530
 #, kde-format
 msgid "Capture a rectangular region of the screen"
 msgstr ""
 
-#: src/SpectacleCore.cpp:500
+#: src/SpectacleCore.cpp:531
 #, kde-format
 msgid "Launch Spectacle without taking a screenshot"
 msgstr ""
 
-#: src/SpectacleCore.cpp:501
+#: src/SpectacleCore.cpp:532
 #, kde-format
 msgid "Start in GUI mode (default)"
 msgstr ""
 
-#: src/SpectacleCore.cpp:502
+#: src/SpectacleCore.cpp:533
 #, kde-format
 msgid "Take a screenshot and exit without showing the GUI"
 msgstr ""
 
-#: src/SpectacleCore.cpp:503
+#: src/SpectacleCore.cpp:534
 #, kde-format
 msgid "Start in DBus-Activation mode"
 msgstr ""
 
-#: src/SpectacleCore.cpp:504
+#: src/SpectacleCore.cpp:535
 #, kde-format
 msgid ""
 "In background mode, do not pop up a notification when the screenshot is taken"
 msgstr ""
 
-#: src/SpectacleCore.cpp:505
+#: src/SpectacleCore.cpp:536
 #, kde-format
 msgid "In background mode, save image to specified file"
 msgstr ""
 
-#: src/SpectacleCore.cpp:507
+#: src/SpectacleCore.cpp:538
 #, kde-format
 msgid "In background mode, delay before taking the shot (in milliseconds)"
 msgstr ""
 
-#: src/SpectacleCore.cpp:509
+#: src/SpectacleCore.cpp:540
 #, kde-format
 msgid "In background mode, copy screenshot image to clipboard"
 msgstr ""
 
-#: src/SpectacleCore.cpp:510
+#: src/SpectacleCore.cpp:541
 #, kde-format
 msgid "In background mode, copy screenshot file path to clipboard"
 msgstr ""
 
-#: src/SpectacleCore.cpp:511
+#: src/SpectacleCore.cpp:542
 #, kde-format
 msgid "Wait for a click before taking screenshot. Invalidates delay"
 msgstr ""
 
-#: src/SpectacleCore.cpp:512
+#: src/SpectacleCore.cpp:543
 #, kde-format
 msgid "Starts a new GUI instance of spectacle without registering to DBus"
 msgstr ""
 
-#: src/SpectacleCore.cpp:513
+#: src/SpectacleCore.cpp:544
 #, kde-format
 msgid "In background mode, include pointer in the screenshot"
 msgstr ""
 
-#: src/SpectacleCore.cpp:514
+#: src/SpectacleCore.cpp:545
 #, kde-format
 msgid "In background mode, exclude decorations in the screenshot"
+msgstr ""
+
+#: src/SpectacleCore.cpp:546
+#, kde-format
+msgid "Open and edit existing screenshot file"
 msgstr ""

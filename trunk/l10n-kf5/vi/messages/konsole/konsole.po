@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-25 00:31+0000\n"
+"POT-Creation-Date: 2021-12-09 00:46+0000\n"
 "PO-Revision-Date: 2007-06-24 15:01+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -37,7 +37,7 @@ msgstr "Tựa thẻ"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnEdit)
 #. i18n: ectx: Menu (edit)
-#: ../desktop/konsoleui.rc:16 plugins/SSHManager/sshwidget.ui:224
+#: ../desktop/konsoleui.rc:16 plugins/SSHManager/sshwidget.ui:265
 #, fuzzy, kde-format
 #| msgid "Edit..."
 msgid "Edit"
@@ -622,7 +622,9 @@ msgstr "Giản đồ màu và Nền"
 
 #. i18n: ectx: property (text), widget (QToolButton, wallpaperSelectButton)
 #. i18n: ectx: property (text), widget (QToolButton, dirSelectButton)
-#: colorscheme/ColorSchemeEditor.ui:120 widgets/EditProfileGeneralPage.ui:179
+#. i18n: ectx: property (text), widget (QToolButton, btnFindSshKey)
+#: colorscheme/ColorSchemeEditor.ui:120 plugins/SSHManager/sshwidget.ui:130
+#: widgets/EditProfileGeneralPage.ui:179
 #, kde-format
 msgid "..."
 msgstr "..."
@@ -770,7 +772,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, addEntryButton)
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
-#: KeyBindingEditor.ui:65 plugins/SSHManager/sshwidget.ui:231
+#: KeyBindingEditor.ui:65 plugins/SSHManager/sshwidget.ui:275
 #, kde-format
 msgid "Add"
 msgstr "Thêm"
@@ -1203,33 +1205,33 @@ msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "&Liên kết lưu"
 
-#: MainWindow.cpp:356
+#: MainWindow.cpp:357
 #, fuzzy, kde-format
 #| msgid "Manage Profiles"
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "Quản lí hồ sơ"
 
-#: MainWindow.cpp:362
+#: MainWindow.cpp:363
 #, kde-format
 msgctxt "@item"
 msgid "Activate Menu"
 msgstr ""
 
-#: MainWindow.cpp:368
+#: MainWindow.cpp:369
 #, fuzzy, kde-format
 #| msgid "Move Here"
 msgctxt "@action:inmenu"
 msgid "Save tab layout to file"
 msgstr "Chuyển vào đây"
 
-#: MainWindow.cpp:377
+#: MainWindow.cpp:378
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Load tab layout from file"
 msgstr ""
 
-#: MainWindow.cpp:610 MainWindow.cpp:627
+#: MainWindow.cpp:611 MainWindow.cpp:628
 #, kde-format
 msgctxt "@info"
 msgid "There is a process running in this window. Do you still want to quit?"
@@ -1237,59 +1239,59 @@ msgid_plural ""
 "There are %1 processes running in this window. Do you still want to quit?"
 msgstr[0] ""
 
-#: MainWindow.cpp:616 MainWindow.cpp:633 MainWindow.cpp:647
+#: MainWindow.cpp:617 MainWindow.cpp:634 MainWindow.cpp:648
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr ""
 
-#: MainWindow.cpp:617 MainWindow.cpp:634 MainWindow.cpp:648
+#: MainWindow.cpp:618 MainWindow.cpp:635 MainWindow.cpp:649
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "Konsole"
 
-#: MainWindow.cpp:635 MainWindow.cpp:649
+#: MainWindow.cpp:636 MainWindow.cpp:650
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "Đón&g thẻ"
 
-#: MainWindow.cpp:644
+#: MainWindow.cpp:645
 #, kde-format
 msgctxt "@info"
 msgid "There are %1 open terminals in this window. Do you still want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:751 Part.cpp:297
+#: MainWindow.cpp:752 Part.cpp:297
 #, fuzzy, kde-format
 #| msgid "New Profile"
 msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr "Hồ sơ mới"
 
-#: MainWindow.cpp:768
+#: MainWindow.cpp:769
 #, fuzzy, kde-format
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "Chung"
 
-#: MainWindow.cpp:779
+#: MainWindow.cpp:780
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Tab Bar / Splitters"
 msgstr ""
 
-#: MainWindow.cpp:784
+#: MainWindow.cpp:785
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Temporary Files"
 msgstr ""
 
-#: MainWindow.cpp:789
+#: MainWindow.cpp:790
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Thumbnails"
@@ -1301,13 +1303,34 @@ msgctxt "@title Preferences page name"
 msgid "Part Info"
 msgstr ""
 
+#: plugins/SSHManager/sshmanagermodel.cpp:39
+#: plugins/SSHManager/sshmanagermodel.cpp:71
+#: plugins/SSHManager/sshmanagermodel.cpp:203
+#: plugins/SSHManager/sshmanagermodel.cpp:271
+#: plugins/SSHManager/sshmanagermodel.cpp:304
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:99
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:393
+#, kde-format
+msgid "SSH Config"
+msgstr ""
+
 #. i18n: ectx: property (currentText), widget (QComboBox, folder)
-#: plugins/SSHManager/sshmanagermodel.cpp:37
-#: plugins/SSHManager/sshwidget.ui:132
+#: plugins/SSHManager/sshmanagermodel.cpp:42
+#: plugins/SSHManager/sshwidget.ui:189
 #, fuzzy, kde-format
 #| msgid "Set as Default"
 msgid "Default"
 msgstr "Làm mặc định"
+
+#: plugins/SSHManager/sshmanagermodel.cpp:67
+#, kde-format
+msgid "%1 is a folder for SSH entries"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagermodel.cpp:95
+#, kde-format
+msgid "Host: %1"
+msgstr ""
 
 #: plugins/SSHManager/sshmanagerplugin.cpp:51
 #, kde-format
@@ -1320,56 +1343,98 @@ msgstr ""
 msgid "Show SSH Manager"
 msgstr "Hiện thanh trình đơn"
 
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:157
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:76
+#: plugins/SSHManager/sshwidget.ui:108
+#, kde-format
+msgid "SSH Key"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:192
 #, kde-format
 msgid ""
 "You are about to remove the folder %1,\n"
 " with multiple SSH Configurations, are you sure?"
 msgstr ""
 
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:161
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:201
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:202
 #, kde-format
 msgid "Remove SSH Configurations"
 msgstr ""
 
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:294
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:344
 #, kde-format
 msgid "Missing Hostname"
 msgstr ""
 
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:299
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:349
 #, kde-format
 msgid "Missing Name"
 msgstr ""
 
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:304
-#, kde-format
-msgid "Missing Port"
-msgstr ""
-
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:310
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:355
 #, kde-format
 msgid "If Use Ssh Config is set, do not specify sshkey or username."
 msgstr ""
 
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:315
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:360
 #, kde-format
 msgid "At least Username or SSHKey must be set"
 msgstr ""
 
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:321
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:366
 #, kde-format
 msgid "Missing Folder"
 msgstr ""
 
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:326
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:371
 #, kde-format
 msgid "An SSH session must have a profile"
 msgstr ""
 
-#: plugins/SSHManager/sshmanagerpluginwidget.cpp:350
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:395
+#, kde-format
+msgid "Cannot remove this folder"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:398
+#, kde-format
+msgid "Remove folder and all of its contents"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:402
 #, kde-format
 msgid "Double click to change the folder name."
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:409
+#, kde-format
+msgid "You can't remove an automatically added entry."
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:409
+#, fuzzy, kde-format
+#| msgid "Edit the selected profile"
+msgid "Remove selected entry"
+msgstr "Sửa hồ sơ đã chọn"
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:445
+#, kde-format
+msgid ""
+"Could not get the process name, assume that we can't request a connection"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:446
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:465
+#, kde-format
+msgid "Error issuing SSH Command"
+msgstr ""
+
+#: plugins/SSHManager/sshmanagerpluginwidget.cpp:464
+#, kde-format
+msgid ""
+"Can't issue SSH command outside the shell application (eg, bash, zsh, sh)"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SSHTreeWidget)
@@ -1384,8 +1449,14 @@ msgstr ""
 msgid "Filter..."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, btnInvertFilter)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, btnInvertFilter)
 #: plugins/SSHManager/sshwidget.ui:32
+#, kde-format
+msgid "Show entries that don't match the filter"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, btnInvertFilter)
+#: plugins/SSHManager/sshwidget.ui:35
 #, kde-format
 msgid "Invert"
 msgstr ""
@@ -1396,92 +1467,155 @@ msgstr ""
 msgid "Identifier"
 msgstr ""
 
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, name)
+#. i18n: ectx: property (toolTip), widget (QLineEdit, name)
 #: plugins/SSHManager/sshwidget.ui:64
+#, kde-format
+msgid "A name for this ssh entry"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, name)
+#: plugins/SSHManager/sshwidget.ui:67
 #, kde-format
 msgid "The name of this entry on the list"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/SSHManager/sshwidget.ui:71
+#: plugins/SSHManager/sshwidget.ui:74
 #, kde-format
 msgid "SSH Hostname"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QLineEdit, hostname)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, hostname)
-#: plugins/SSHManager/sshwidget.ui:78
+#: plugins/SSHManager/sshwidget.ui:81 plugins/SSHManager/sshwidget.ui:84
 #, kde-format
 msgid "The hostname of the server"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/SSHManager/sshwidget.ui:85
+#: plugins/SSHManager/sshwidget.ui:91
 #, kde-format
 msgid "Port"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QLineEdit, port)
+#: plugins/SSHManager/sshwidget.ui:98
+#, kde-format
+msgid "The port of the server, 22 is the default for ssh connections"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLineEdit, port)
-#: plugins/SSHManager/sshwidget.ui:92
+#: plugins/SSHManager/sshwidget.ui:101
 #, kde-format
 msgid "22"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/SSHManager/sshwidget.ui:99
+#. i18n: ectx: property (toolTip), widget (QLineEdit, sshkey)
+#: plugins/SSHManager/sshwidget.ui:117
 #, kde-format
-msgid "SSH Key"
+msgid "The private key to be used for this connection"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, sshkey)
-#: plugins/SSHManager/sshwidget.ui:109
+#: plugins/SSHManager/sshwidget.ui:123
 #, fuzzy, kde-format
 #| msgid "Terminal Features"
 msgid "The private key"
 msgstr "Tính năng thiết bị cuối"
 
-#. i18n: ectx: property (text), widget (QLabel, folderLabel)
-#: plugins/SSHManager/sshwidget.ui:116
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: plugins/SSHManager/sshwidget.ui:143
+#, fuzzy, kde-format
+#| msgid "User name"
+msgid "Username"
+msgstr "Tên người dùng"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, username)
+#: plugins/SSHManager/sshwidget.ui:150
 #, kde-format
-msgid "Folder"
+msgid "The username for the connection"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/SSHManager/sshwidget.ui:139
-#, fuzzy, kde-format
-#| msgid "New Profile"
-msgid "Profile"
-msgstr "Hồ sơ mới"
-
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, username)
-#: plugins/SSHManager/sshwidget.ui:156
+#: plugins/SSHManager/sshwidget.ui:153
 #, fuzzy, kde-format
 #| msgctxt "NAME OF TRANSLATORS"
 #| msgid "Your names"
 msgid "Your username"
 msgstr "Phan Vĩnh Thịnh"
 
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: plugins/SSHManager/sshwidget.ui:163
-#, fuzzy, kde-format
-#| msgid "User name"
-msgid "Username"
-msgstr "Tên người dùng"
+#. i18n: ectx: property (toolTip), widget (QCheckBox, useSshConfig)
+#: plugins/SSHManager/sshwidget.ui:160
+#, kde-format
+msgid ""
+"If this is set, we don't rely on the SSH key set above, but on the "
+"configuration on ~/.ssh/config"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, useSshConfig)
-#: plugins/SSHManager/sshwidget.ui:170
+#: plugins/SSHManager/sshwidget.ui:163
 #, kde-format
 msgid "Use ~/.ssh/config for key"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, btnImport)
-#: plugins/SSHManager/sshwidget.ui:217
+#. i18n: ectx: property (text), widget (QLabel, folderLabel)
+#: plugins/SSHManager/sshwidget.ui:170
+#, kde-format
+msgid "Folder"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, folder)
+#: plugins/SSHManager/sshwidget.ui:183
+#, kde-format
+msgid "For organizational purposes, this entry will be inside of this folder."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: plugins/SSHManager/sshwidget.ui:196
 #, fuzzy, kde-format
-#| msgid "SGI port"
-msgid "Import"
-msgstr "Chuyển sang SGI"
+#| msgid "New Profile"
+msgid "Profile"
+msgstr "Hồ sơ mới"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, profile)
+#: plugins/SSHManager/sshwidget.ui:209
+#, kde-format
+msgid "The profile to be active when the ssh session starts"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, newSSHConfig)
+#: plugins/SSHManager/sshwidget.ui:234
+#, kde-format
+msgid "Add a new SSH Entry"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btnRemove)
+#: plugins/SSHManager/sshwidget.ui:248
+#, kde-format
+msgid "Remove selected SSH entry"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btnEdit)
+#: plugins/SSHManager/sshwidget.ui:262
+#, fuzzy, kde-format
+#| msgid "Edit the selected profile"
+msgid "Edit selected entry"
+msgstr "Sửa hồ sơ đã chọn"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btnAdd)
+#: plugins/SSHManager/sshwidget.ui:272
+#, kde-format
+msgid "Add new SSH Configuration"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, btnCancel)
+#: plugins/SSHManager/sshwidget.ui:282
+#, kde-format
+msgid "Cancel Add or Edit"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnCancel)
-#: plugins/SSHManager/sshwidget.ui:238
+#: plugins/SSHManager/sshwidget.ui:285
 #, kde-format
 msgid "Cancel"
 msgstr ""
@@ -2765,102 +2899,102 @@ msgstr ""
 msgid "Enable thumbnails generation"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:697
-#: terminalDisplay/TerminalDisplay.cpp:698
+#: terminalDisplay/TerminalDisplay.cpp:699
+#: terminalDisplay/TerminalDisplay.cpp:700
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "Cỡ: XXX x XXX"
 
-#: terminalDisplay/TerminalDisplay.cpp:709
+#: terminalDisplay/TerminalDisplay.cpp:711
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "Cỡ: %1 x %2"
 
-#: terminalDisplay/TerminalDisplay.cpp:2169
+#: terminalDisplay/TerminalDisplay.cpp:2171
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2170
+#: terminalDisplay/TerminalDisplay.cpp:2172
 #, kde-format
 msgid "Confirm Paste"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2203
+#: terminalDisplay/TerminalDisplay.cpp:2205
 #, kde-format
 msgid "End Of Text/Interrupt: may exit the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2204
+#: terminalDisplay/TerminalDisplay.cpp:2206
 #, kde-format
 msgid "End Of Transmission: may exit the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2205
+#: terminalDisplay/TerminalDisplay.cpp:2207
 #, kde-format
 msgid "Bell: will try to emit an audible warning"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2206
+#: terminalDisplay/TerminalDisplay.cpp:2208
 #, kde-format
 msgid "Backspace"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2207
+#: terminalDisplay/TerminalDisplay.cpp:2209
 #, kde-format
 msgid "Device Control Three/XOFF: suspends output"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2208
+#: terminalDisplay/TerminalDisplay.cpp:2210
 #, kde-format
 msgid "Substitute/Suspend: may suspend current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2209
+#: terminalDisplay/TerminalDisplay.cpp:2211
 #, kde-format
 msgid "Escape: used for manipulating terminal state"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2210
+#: terminalDisplay/TerminalDisplay.cpp:2212
 #, kde-format
 msgid "File Separator/Quit: may abort the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2233
+#: terminalDisplay/TerminalDisplay.cpp:2235
 #, kde-format
 msgid ""
 "The text you're trying to paste contains hidden control characters, do you "
 "want to filter them out?"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2236
+#: terminalDisplay/TerminalDisplay.cpp:2238
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Paste"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2237
+#: terminalDisplay/TerminalDisplay.cpp:2239
 #, fuzzy, kde-format
 #| msgid "Set cursor color to match current character"
 msgctxt "@action:button"
 msgid "Paste &without control characters"
 msgstr "Đặt con chạy để khớp với màu của kí tự hiện thời"
 
-#: terminalDisplay/TerminalDisplay.cpp:2238
+#: terminalDisplay/TerminalDisplay.cpp:2240
 #, fuzzy, kde-format
 #| msgid "&Paste"
 msgctxt "@action:button"
 msgid "&Paste everything"
 msgstr "&Dán"
 
-#: terminalDisplay/TerminalDisplay.cpp:2239
+#: terminalDisplay/TerminalDisplay.cpp:2241
 #, kde-format
 msgctxt "@action:button"
 msgid "&Cancel"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2468
+#: terminalDisplay/TerminalDisplay.cpp:2470
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/XON"
@@ -2873,18 +3007,18 @@ msgstr ""
 "<qt>Kết xuất <a href=\"http://en.wikipedia.org/wiki/XON\">bị ngưng</a> bằng "
 "cách bấm tổ hợp phím Ctrl+S.  Hãy bấm <b>Ctrl+Q</b> để tiếp tục lại.</qt>"
 
-#: terminalDisplay/TerminalDisplay.cpp:2511
+#: terminalDisplay/TerminalDisplay.cpp:2513
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2736
+#: terminalDisplay/TerminalDisplay.cpp:2744
 #, fuzzy, kde-format
 #| msgid "Change Directory"
 msgid "Change &Directory To"
 msgstr "Đổi thư mục"
 
-#: terminalDisplay/TerminalDisplay.cpp:2769
+#: terminalDisplay/TerminalDisplay.cpp:2777
 #, fuzzy, kde-format
 #| msgid "&Paste"
 msgid "&Paste Location"
@@ -3094,7 +3228,7 @@ msgstr ""
 msgid "Open File"
 msgstr "Mở liên kết"
 
-#: Vt102Emulation.cpp:1384
+#: Vt102Emulation.cpp:1385
 #, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
@@ -4708,6 +4842,11 @@ msgid "Close Tab"
 msgstr "Đón&g thẻ"
 
 #, fuzzy
+#~| msgid "SGI port"
+#~ msgid "Import"
+#~ msgstr "Chuyển sang SGI"
+
+#, fuzzy
 #~| msgid "Show Menu Bar"
 #~ msgid "Show menubar"
 #~ msgstr "Hiện thanh trình đơn"
@@ -4721,11 +4860,6 @@ msgstr "Đón&g thẻ"
 #~| msgid "Show menu bar in new windows created from this profile"
 #~ msgid "Show menubar by default in each Konsole window"
 #~ msgstr "Hiển thị thanh trình đơn trong cửa sổ mới được tạo từ hồ sơ này"
-
-#, fuzzy
-#~| msgid "Edit the selected profile"
-#~ msgid "Edit the selected profile(s)"
-#~ msgstr "Sửa hồ sơ đã chọn"
 
 #, fuzzy
 #~| msgid "New Color Scheme"

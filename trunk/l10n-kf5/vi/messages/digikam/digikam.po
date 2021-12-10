@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-22 00:25+0000\n"
+"POT-Creation-Date: 2021-12-08 00:43+0000\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -202,7 +202,7 @@ msgstr "&Chuyển vào đây"
 #: core/app/dragdrop/albumdragdrop.cpp:315
 #: core/app/dragdrop/importdragdrop.cpp:64
 #: core/app/dragdrop/importdragdrop.cpp:173
-#: core/app/dragdrop/itemdragdrop.cpp:93 core/app/dragdrop/itemdragdrop.cpp:695
+#: core/app/dragdrop/itemdragdrop.cpp:93 core/app/dragdrop/itemdragdrop.cpp:703
 #: core/app/dragdrop/tagdragdrop.cpp:90 core/app/dragdrop/tagdragdrop.cpp:199
 #: core/app/dragdrop/tagdragdrop.cpp:264
 #, kde-format
@@ -224,13 +224,13 @@ msgid "&Copy Here"
 msgstr "&Chép vào đây"
 
 #: core/app/dragdrop/albumdragdrop.cpp:266
-#: core/app/dragdrop/itemdragdrop.cpp:691
+#: core/app/dragdrop/itemdragdrop.cpp:699
 #, fuzzy, kde-format
 msgid "Download From Camera"
 msgstr "Tải &lên máy ảnh"
 
 #: core/app/dragdrop/albumdragdrop.cpp:267
-#: core/app/dragdrop/itemdragdrop.cpp:693
+#: core/app/dragdrop/itemdragdrop.cpp:701
 #, fuzzy, kde-format
 msgid "Download && Delete From Camera"
 msgstr "Tải về các điều chọn"
@@ -308,7 +308,7 @@ msgstr "Gán thẻ cho mục nà&y"
 msgid "Assign Tags to &All Items"
 msgstr "Gán thẻ cho &mọi mục"
 
-#: core/app/dragdrop/itemdragdrop.cpp:689
+#: core/app/dragdrop/itemdragdrop.cpp:697
 #, fuzzy, kde-format
 msgid "Importing"
 msgstr "Nhập"
@@ -14232,7 +14232,8 @@ msgstr "Hiện ngày tạo ảnh"
 #| msgid ""
 #| "\n"
 #| "%1|Camera RAW files"
-msgid "%1|Calendar Data File"
+msgctxt "@info: open file filters"
+msgid "Calendar Data File (*.ics)"
 msgstr ""
 "\n"
 "%1|Các tệp RAW của máy ảnh"
@@ -26262,7 +26263,7 @@ msgid "Rename automatically"
 msgstr "Ghi đè tệp không?"
 
 #: core/libs/database/utils/ifaces/dio.cpp:361
-#: core/libs/widgets/files/filesaveconflictbox.cpp:76
+#: core/libs/widgets/files/filesaveconflictbox.cpp:78
 #: core/utilities/setup/camera/setupcamera.cpp:384
 #, fuzzy, kde-format
 msgid "Overwrite automatically"
@@ -38110,16 +38111,22 @@ msgstr "Kênh:"
 msgid "Browse..."
 msgstr "Thẻ mới..."
 
-#: core/libs/widgets/files/filesaveconflictbox.cpp:71
+#: core/libs/widgets/files/filesaveconflictbox.cpp:73
 #, fuzzy, kde-format
 msgid "If Target File Exists:"
 msgstr "Tệp ảnh"
 
-#: core/libs/widgets/files/filesaveconflictbox.cpp:75
+#: core/libs/widgets/files/filesaveconflictbox.cpp:77
 #: core/utilities/setup/camera/setupcamera.cpp:383
 #, kde-format
 msgid "Store as a different name"
 msgstr ""
+
+#: core/libs/widgets/files/filesaveconflictbox.cpp:79
+#: core/utilities/setup/camera/setupcamera.cpp:385
+#, fuzzy, kde-format
+msgid "Skip automatically"
+msgstr "Ghi đè tệp không?"
 
 #: core/libs/widgets/files/filesaveoptionsbox.cpp:129
 #, fuzzy, kde-format
@@ -40630,7 +40637,7 @@ msgstr "Ảnh được tìm trong %1"
 msgid "Image Magick Properties"
 msgstr "Thuộc tính"
 
-#: core/libs/widgets/metadata/exiv2/metadatawidget.cpp:342
+#: core/libs/widgets/metadata/exiv2/metadatawidget.cpp:357
 #, fuzzy, kde-format
 #| msgid "File name: %1 (%2)"
 msgctxt "@info: metadata clipboard"
@@ -51656,27 +51663,27 @@ msgid ""
 "writable. Please set another one from Queue Settings panel."
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:935
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:936
 #, fuzzy, kde-format
 msgid "Failed to process item..."
 msgstr "Lỗi bật/tắt tệp khoá « %1 »."
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:948
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:949
 #, fuzzy, kde-format
 msgid "Process Cancelled..."
 msgstr "Thuộc tính"
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:968
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:969
 #, kde-format
 msgid "Item \"%1\" from queue \"%2\": %3"
 msgstr ""
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:997
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:998
 #, fuzzy, kde-format
 msgid "Batch queue finished"
 msgstr "Tiến trình liệt kê các thư mục đã chạy xong."
 
-#: core/utilities/queuemanager/main/queuemgrwindow.cpp:1001
+#: core/utilities/queuemanager/main/queuemgrwindow.cpp:1002
 #, fuzzy, kde-format
 msgid "All batch queues finished"
 msgstr "Tiến trình liệt kê các thư mục đã chạy xong."
@@ -51761,28 +51768,33 @@ msgstr "Không có sẵn tuỳ chọn"
 msgid "Failed to find tool..."
 msgstr "Lỗi nạp ảnh « %1 »"
 
-#: core/utilities/queuemanager/manager/task.cpp:260
-#, fuzzy, kde-format
-msgid "(renamed to %1)"
-msgstr "Thay tên mục (%1)"
-
-#: core/utilities/queuemanager/manager/task.cpp:264
+#: core/utilities/queuemanager/manager/task.cpp:259
 #, fuzzy, kde-format
 msgid "(overwritten)"
 msgstr "Ghi đè"
 
-#: core/utilities/queuemanager/manager/task.cpp:283
+#: core/utilities/queuemanager/manager/task.cpp:264
+#, fuzzy, kde-format
+msgid "(renamed to %1)"
+msgstr "Thay tên mục (%1)"
+
+#: core/utilities/queuemanager/manager/task.cpp:269
+#, kde-format
+msgid "Item exists and was skipped"
+msgstr ""
+
+#: core/utilities/queuemanager/manager/task.cpp:294
 #, fuzzy, kde-format
 msgid "Failed to create sidecar file..."
 msgstr "Lỗi nạp ảnh « %1 »"
 
-#: core/utilities/queuemanager/manager/task.cpp:292
+#: core/utilities/queuemanager/manager/task.cpp:303
 #, fuzzy, kde-format
 msgid "Item processed successfully %1"
 msgstr "Đang tải về tệp %1..."
 
-#: core/utilities/queuemanager/manager/task.cpp:297
-#: core/utilities/queuemanager/manager/task.cpp:302
+#: core/utilities/queuemanager/manager/task.cpp:308
+#: core/utilities/queuemanager/manager/task.cpp:313
 #, fuzzy, kde-format
 msgid "Failed to create file..."
 msgstr "Lỗi nạp ảnh « %1 »"
@@ -53874,11 +53886,6 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "If target file exists when downloaded from camera"
 msgstr "Tệp ảnh"
-
-#: core/utilities/setup/camera/setupcamera.cpp:385
-#, fuzzy, kde-format
-msgid "Skip automatically"
-msgstr "Ghi đè tệp không?"
 
 #: core/utilities/setup/camera/setupcamera.cpp:421
 #, fuzzy, kde-format

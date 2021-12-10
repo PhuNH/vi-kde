@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-23 00:29+0000\n"
+"POT-Creation-Date: 2021-12-09 00:44+0000\n"
 "PO-Revision-Date: 2012-06-13 10:17+0800\n"
 "Last-Translator: HeroP <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -207,7 +207,7 @@ msgstr "Phần mở rộng"
 
 #: discover/qml/AddSourceDialog.qml:67 discover/qml/DiscoverWindow.qml:246
 #: discover/qml/InstallApplicationButton.qml:41
-#: discover/qml/ProgressView.qml:104 discover/qml/SourcesPage.qml:134
+#: discover/qml/ProgressView.qml:104 discover/qml/SourcesPage.qml:128
 #: discover/qml/UpdatesPage.qml:200
 #, kde-format
 msgid "Cancel"
@@ -430,17 +430,12 @@ msgstr ""
 msgid "Unable to load applications"
 msgstr ""
 
-#: discover/qml/BrowsingPage.qml:58
-#, kde-format
-msgid "Please verify Internet connectivity"
-msgstr ""
-
-#: discover/qml/BrowsingPage.qml:79
+#: discover/qml/BrowsingPage.qml:90
 #, kde-format
 msgid "Updates are available"
 msgstr ""
 
-#: discover/qml/BrowsingPage.qml:83
+#: discover/qml/BrowsingPage.qml:94
 #, kde-format
 msgctxt "Short for 'show updates'"
 msgid "Show"
@@ -529,7 +524,7 @@ msgstr ""
 msgid "Report this issue"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:233 discover/qml/SourcesPage.qml:124
+#: discover/qml/DiscoverWindow.qml:233 discover/qml/SourcesPage.qml:118
 #, kde-format
 msgid "Proceed"
 msgstr ""
@@ -796,37 +791,37 @@ msgstr "Thêm nguồn"
 msgid "Make default"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:165
+#: discover/qml/SourcesPage.qml:159
 #, kde-format
 msgid "Increase priority"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:171
+#: discover/qml/SourcesPage.qml:165
 #, kde-format
 msgid "Failed to increase '%1' preference"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:176
+#: discover/qml/SourcesPage.qml:170
 #, kde-format
 msgid "Decrease priority"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:182
+#: discover/qml/SourcesPage.qml:176
 #, kde-format
 msgid "Failed to decrease '%1' preference"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:187
+#: discover/qml/SourcesPage.qml:181
 #, kde-format
 msgid "Remove repository"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:198
+#: discover/qml/SourcesPage.qml:192
 #, kde-format
 msgid "Show contents"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:237
+#: discover/qml/SourcesPage.qml:231
 #, kde-format
 msgid "Missing Backends"
 msgstr ""
@@ -918,46 +913,60 @@ msgstr ""
 msgid "Installing"
 msgstr "Cài đặt"
 
-#: discover/qml/UpdatesPage.qml:380
+#: discover/qml/UpdatesPage.qml:384
+#, fuzzy, kde-format
+#| msgid "Upgrade All!"
+msgid "Update from:"
+msgstr "Nâng cấp tất cả!"
+
+#: discover/qml/UpdatesPage.qml:395
+#, kde-format
+msgctxt ""
+"%1 is the backend that provides this app, %2 is the specific repository or "
+"direction within that backend"
+msgid "%1 (%2)"
+msgstr ""
+
+#: discover/qml/UpdatesPage.qml:401
 #, kde-format
 msgid "More Information…"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:408
+#: discover/qml/UpdatesPage.qml:429
 #, fuzzy, kde-format
 #| msgid "Update"
 msgctxt "@info"
 msgid "Fetching updates…"
 msgstr "Cập nhật"
 
-#: discover/qml/UpdatesPage.qml:421
+#: discover/qml/UpdatesPage.qml:442
 #, fuzzy, kde-format
 #| msgid "Update"
 msgctxt "@info"
 msgid "Updates"
 msgstr "Cập nhật"
 
-#: discover/qml/UpdatesPage.qml:430
+#: discover/qml/UpdatesPage.qml:451
 #, kde-format
 msgctxt "@info"
 msgid "Restart the system to complete the update process"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:436 discover/qml/UpdatesPage.qml:442
-#: discover/qml/UpdatesPage.qml:448
+#: discover/qml/UpdatesPage.qml:457 discover/qml/UpdatesPage.qml:463
+#: discover/qml/UpdatesPage.qml:469
 #, fuzzy, kde-format
 #| msgid "Update"
 msgctxt "@info"
 msgid "Up to date"
 msgstr "Cập nhật"
 
-#: discover/qml/UpdatesPage.qml:454
+#: discover/qml/UpdatesPage.qml:475
 #, kde-format
 msgctxt "@info"
 msgid "Should check for updates"
 msgstr ""
 
-#: discover/qml/UpdatesPage.qml:460
+#: discover/qml/UpdatesPage.qml:481
 #, kde-format
 msgctxt "@info"
 msgid "Time of last update unknown"

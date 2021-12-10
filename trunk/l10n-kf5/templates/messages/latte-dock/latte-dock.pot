@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: latte-dock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-12 00:28+0000\n"
+"POT-Creation-Date: 2021-12-09 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -61,36 +61,36 @@ msgctxt "indicator_name, removed success"
 msgid "<b>%1</b> indicator removed successfully"
 msgstr ""
 
-#: app/lattecorona.cpp:1108
+#: app/lattecorona.cpp:1114 app/lattecorona.cpp:1137
 #, kde-format
 msgid "The layout cannot be imported from file :: "
 msgstr ""
 
-#: app/layouts/importer.cpp:62 app/layouts/importer.cpp:80
+#: app/layouts/importer.cpp:63 app/layouts/importer.cpp:81
 #: app/layouts/manager.cpp:73 app/layouts/manager.cpp:80
 #: app/layouts/manager.cpp:92
 #, kde-format
 msgid "My Layout"
 msgstr ""
 
-#: app/layouts/importer.cpp:63
+#: app/layouts/importer.cpp:64
 #, kde-format
 msgid "Alternative"
 msgstr ""
 
-#: app/layouts/importer.cpp:323
+#: app/layouts/importer.cpp:324
 #, kde-format
 msgctxt "import/export config"
 msgid "The extracted file could not be copied!!!"
 msgstr ""
 
-#: app/layouts/importer.cpp:328
+#: app/layouts/importer.cpp:329
 #, kde-format
 msgctxt "import/export config"
 msgid "The file has a wrong format!!!"
 msgstr ""
 
-#: app/layouts/importer.cpp:334
+#: app/layouts/importer.cpp:335
 #, kde-format
 msgctxt "import/export config"
 msgid "The temp directory could not be created!!!"
@@ -134,92 +134,134 @@ msgstr ""
 msgid "Orphaned Subcontainment"
 msgstr ""
 
-#: app/layouts/synchronizer.cpp:940
+#: app/layouts/synchronizer.cpp:944
 #, kde-format
 msgid "Activating layout: <b>%2</b> ..."
 msgid_plural "Activating layouts: <b>%2</b> ..."
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/main.cpp:94
+#: app/main.cpp:95
 #, kde-format
 msgctxt "command line"
 msgid "Replace the current Latte instance."
 msgstr ""
 
-#: app/main.cpp:95
+#: app/main.cpp:96
 #, kde-format
 msgctxt "command line"
 msgid "Show the debugging messages on stdout."
 msgstr ""
 
-#: app/main.cpp:96
+#: app/main.cpp:97
 #, kde-format
 msgctxt "command line"
 msgid "Clear qml cache. It can be useful after system upgrades."
 msgstr ""
 
-#: app/main.cpp:97
-#, kde-format
-msgctxt "command line"
-msgid "Import and load default layout on startup."
-msgstr ""
-
 #: app/main.cpp:98
 #, kde-format
 msgctxt "command line"
-msgid "Print available layouts"
+msgid "Enable autostart for this application"
 msgstr ""
 
 #: app/main.cpp:99
 #, kde-format
 msgctxt "command line"
-msgid "Load specific layout on startup."
-msgstr ""
-
-#: app/main.cpp:99
-#, kde-format
-msgctxt "command line: load"
-msgid "layout_name"
+msgid "Disable autostart for this application"
 msgstr ""
 
 #: app/main.cpp:100
 #, kde-format
 msgctxt "command line"
-msgid "Import and load a layout."
-msgstr ""
-
-#: app/main.cpp:100 app/main.cpp:101
-#, kde-format
-msgctxt "command line: import"
-msgid "file_name"
+msgid "Import and load default layout on startup."
 msgstr ""
 
 #: app/main.cpp:101
 #, kde-format
 msgctxt "command line"
-msgid "Import full configuration."
+msgid "Print available layouts"
 msgstr ""
 
 #: app/main.cpp:102
 #, kde-format
 msgctxt "command line"
-msgid "Add Dock/Panel"
-msgstr ""
-
-#: app/main.cpp:102
-#, kde-format
-msgctxt "command line: add"
-msgid "template_name"
+msgid "Print available dock templates"
 msgstr ""
 
 #: app/main.cpp:103
 #, kde-format
 msgctxt "command line"
-msgid "Single layout memory mode. Only one layout is active at any case."
+msgid "Print available layout templates"
 msgstr ""
 
 #: app/main.cpp:104
+#, kde-format
+msgctxt "command line"
+msgid "Load specific layout on startup."
+msgstr ""
+
+#: app/main.cpp:104
+#, kde-format
+msgctxt "command line: load"
+msgid "layout_name"
+msgstr ""
+
+#: app/main.cpp:105
+#, kde-format
+msgctxt "command line"
+msgid "Import and load a layout."
+msgstr ""
+
+#: app/main.cpp:105
+#, kde-format
+msgctxt "command line: import"
+msgid "absolute_filepath"
+msgstr ""
+
+#: app/main.cpp:106
+#, kde-format
+msgctxt "command line"
+msgid "Suggested layout name when importing a layout file"
+msgstr ""
+
+#: app/main.cpp:106
+#, kde-format
+msgctxt "command line: import"
+msgid "suggested_name"
+msgstr ""
+
+#: app/main.cpp:107
+#, kde-format
+msgctxt "command line"
+msgid "Import full configuration."
+msgstr ""
+
+#: app/main.cpp:107
+#, kde-format
+msgctxt "command line: import"
+msgid "file_name"
+msgstr ""
+
+#: app/main.cpp:108
+#, kde-format
+msgctxt "command line"
+msgid "Add Dock/Panel"
+msgstr ""
+
+#: app/main.cpp:108
+#, kde-format
+msgctxt "command line: add"
+msgid "template_name"
+msgstr ""
+
+#: app/main.cpp:109
+#, kde-format
+msgctxt "command line"
+msgid "Single layout memory mode. Only one layout is active at any case."
+msgstr ""
+
+#: app/main.cpp:110
 #, kde-format
 msgctxt "command line"
 msgid ""
@@ -227,44 +269,64 @@ msgid ""
 "based on Activities running."
 msgstr ""
 
-#: app/main.cpp:156
+#: app/main.cpp:162
 #, kde-format
 msgctxt "command line: debug-text"
 msgid "filter_debug_text"
 msgstr ""
 
-#: app/main.cpp:177
+#: app/main.cpp:193
 #, kde-format
 msgid "Available layouts that can be used to start Latte:"
 msgstr ""
 
-#: app/main.cpp:183
+#: app/main.cpp:199
 #, kde-format
 msgid "There are no available layouts, during startup Default will be used."
 msgstr ""
 
-#: app/main.cpp:214
+#: app/main.cpp:211
+#, kde-format
+msgid "Available layout templates found in your system:"
+msgstr ""
+
+#: app/main.cpp:217
+#, kde-format
+msgid "There are no available layout templates in your system."
+msgstr ""
+
+#: app/main.cpp:229
+#, kde-format
+msgid "Available dock templates found in your system:"
+msgstr ""
+
+#: app/main.cpp:235
+#, kde-format
+msgid "There are no available dock templates in your system."
+msgstr ""
+
+#: app/main.cpp:267
 #, kde-format
 msgctxt "layout missing"
 msgid "This layout doesn't exist in the system."
 msgstr ""
 
-#: app/main.cpp:254
+#: app/main.cpp:322
 #, kde-format
 msgid "An instance is already running!, use --replace to restart Latte"
 msgstr ""
 
-#: app/main.cpp:274
+#: app/main.cpp:344
 #, kde-format
 msgid "The configuration cannot be imported"
 msgstr ""
 
-#: app/main.cpp:285
+#: app/main.cpp:356 app/main.cpp:384
 #, kde-format
 msgid "The layout cannot be imported"
 msgstr ""
 
-#: app/main.cpp:389
+#: app/main.cpp:485
 #, kde-format
 msgid ""
 "Latte is a dock based on plasma frameworks that provides an elegant and "
@@ -2269,31 +2331,31 @@ msgstr ""
 msgid "New Instance for Entry %1"
 msgstr ""
 
-#: app/templates/templatesmanager.cpp:319
+#: app/templates/templatesmanager.cpp:337
 #, kde-format
 msgctxt "default layout template name"
 msgid "Default"
 msgstr ""
 
-#: app/templates/templatesmanager.cpp:320
+#: app/templates/templatesmanager.cpp:338
 #, kde-format
 msgctxt "empty layout template name"
 msgid "Empty"
 msgstr ""
 
-#: app/templates/templatesmanager.cpp:323
+#: app/templates/templatesmanager.cpp:341
 #, kde-format
 msgctxt "view template name"
 msgid "Default Dock"
 msgstr ""
 
-#: app/templates/templatesmanager.cpp:324
+#: app/templates/templatesmanager.cpp:342
 #, kde-format
 msgctxt "view template name"
 msgid "Default Panel"
 msgstr ""
 
-#: app/templates/templatesmanager.cpp:325
+#: app/templates/templatesmanager.cpp:343
 #, kde-format
 msgctxt "view template name"
 msgid "Empty Panel"

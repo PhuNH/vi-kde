@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tokodon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-14 00:28+0000\n"
+"POT-Creation-Date: 2021-12-06 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -52,6 +52,31 @@ msgstr ""
 msgid "%1 following"
 msgstr ""
 
+#: content/ui/AuthorizationPage.qml:20
+#, kde-format
+msgid "To continue, please open the following link and authorize Tokodon: %1"
+msgstr ""
+
+#: content/ui/AuthorizationPage.qml:35 content/ui/AuthorizationPage.qml:47
+#, kde-format
+msgid "Copy link"
+msgstr ""
+
+#: content/ui/AuthorizationPage.qml:39 content/ui/AuthorizationPage.qml:46
+#, kde-format
+msgid "Open link"
+msgstr ""
+
+#: content/ui/AuthorizationPage.qml:51
+#, kde-format
+msgid "Enter token:"
+msgstr ""
+
+#: content/ui/AuthorizationPage.qml:60 content/ui/LoginPage.qml:28
+#, kde-format
+msgid "Continue"
+msgstr ""
+
 #: content/ui/FullScreenImage.qml:18
 #, kde-format
 msgid "Image View"
@@ -72,84 +97,171 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: content/ui/main.qml:48
+#: content/ui/LoginPage.qml:12
 #, kde-format
-msgid "Add Account"
+msgid "Login"
 msgstr ""
 
-#: content/ui/main.qml:58 content/ui/main.qml:59 content/ui/main.qml:68
-#, kde-format
-msgid "Home"
-msgstr ""
-
-#: content/ui/main.qml:67
-#, kde-format
-msgid "Notifications"
-msgstr ""
-
-#: content/ui/main.qml:69
-#, kde-format
-msgid "Notifications support is not implemented yet"
-msgstr ""
-
-#: content/ui/main.qml:73
-#, kde-format
-msgid "Local"
-msgstr ""
-
-#: content/ui/main.qml:74
-#, kde-format
-msgid "Local Timeline"
-msgstr ""
-
-#: content/ui/main.qml:82
-#, kde-format
-msgid "Global"
-msgstr ""
-
-#: content/ui/main.qml:83
-#, kde-format
-msgid "Global Timeline"
-msgstr ""
-
-#: content/ui/main.qml:112
+#: content/ui/LoginPage.qml:17
 #, kde-format
 msgid "Welcome to Tokodon"
 msgstr ""
 
-#: content/ui/main.qml:116
+#: content/ui/LoginPage.qml:21
 #, kde-format
 msgid "Instance Url:"
 msgstr ""
 
-#: content/ui/main.qml:120
+#: content/ui/LoginPage.qml:25
 #, kde-format
 msgid "Username:"
 msgstr ""
 
-#: content/ui/main.qml:123 content/ui/main.qml:183
+#: content/ui/main.qml:59 main.cpp:74
 #, kde-format
-msgid "Continue"
+msgid "Tokodon"
 msgstr ""
 
-#: content/ui/main.qml:143
+#: content/ui/main.qml:86
 #, kde-format
-msgid "To continue, please open the following link and authorize Tokodon: %1"
+msgid "Add Account"
 msgstr ""
 
-#: content/ui/main.qml:158 content/ui/main.qml:170
+#: content/ui/main.qml:96
 #, kde-format
-msgid "Copy link"
+msgctxt "@action:inmenu"
+msgid "Settings"
 msgstr ""
 
-#: content/ui/main.qml:162 content/ui/main.qml:169
+#: content/ui/main.qml:110 content/ui/main.qml:111 content/ui/main.qml:120
 #, kde-format
-msgid "Open link"
+msgid "Home"
 msgstr ""
 
-#: content/ui/main.qml:174
+#: content/ui/main.qml:119
 #, kde-format
-msgid "Enter token:"
+msgid "Notifications"
+msgstr ""
+
+#: content/ui/main.qml:121
+#, kde-format
+msgid "Notifications support is not implemented yet"
+msgstr ""
+
+#: content/ui/main.qml:125
+#, kde-format
+msgid "Local"
+msgstr ""
+
+#: content/ui/main.qml:126
+#, kde-format
+msgid "Local Timeline"
+msgstr ""
+
+#: content/ui/main.qml:134
+#, kde-format
+msgid "Global"
+msgstr ""
+
+#: content/ui/main.qml:135
+#, kde-format
+msgid "Global Timeline"
+msgstr ""
+
+#: content/ui/Settings/AccountsPage.qml:14
+#: content/ui/Settings/SettingsPage.qml:13
+#, kde-format
+msgid "Accounts"
+msgstr ""
+
+#: content/ui/Settings/AccountsPage.qml:22
+#: content/ui/Settings/AccountsPage.qml:99
+#, kde-format
+msgid "Add an account"
+msgstr ""
+
+#: content/ui/Settings/AccountsPage.qml:81
+#, kde-format
+msgid "Logout"
+msgstr ""
+
+#: content/ui/Settings/SettingsPage.qml:18
+#, kde-format
+msgid "Spell Checking"
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:94
+#, kde-format
+msgid "Selected default language:"
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:105
+#, kde-format
+msgid "Open Personal Dictionary"
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:124
+#, kde-format
+msgid "Options:"
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:126
+#, kde-format
+msgid "Enable automatic spell checking"
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:137
+#, kde-format
+msgid "Ignore uppercase words"
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:148
+#, kde-format
+msgid "Ignore hyphenated words"
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:160
+#, kde-format
+msgid "Detect language automatically"
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:172
+#, kde-format
+msgid "Spell checking languages"
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:180
+#, kde-format
+msgid ""
+"%1 will provide spell checking and suggestions for the languages listed here "
+"when autodetection is enabled."
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:222
+#, kde-format
+msgid "Add a new word to your personal dictionary…"
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:225
+#, kde-format
+msgctxt "@action:button"
+msgid "Add word"
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:244
+#, kde-format
+msgid "Spell checking dictionary"
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:270
+#: content/ui/Settings/SonnetConfigPage.qml:301
+#, kde-format
+msgid "Delete word"
+msgstr ""
+
+#: content/ui/Settings/SonnetConfigPage.qml:318
+#, kde-format
+msgid "Apply"
 msgstr ""
 
 #: content/ui/TimelinePage.qml:21
@@ -157,34 +269,34 @@ msgstr ""
 msgid "Toot"
 msgstr ""
 
-#: content/ui/TimelinePage.qml:64
+#: content/ui/TimelinePage.qml:69
 #, kde-format
 msgid "Pinned entry"
 msgstr ""
 
-#: content/ui/TimelinePage.qml:81
+#: content/ui/TimelinePage.qml:86
 #, kde-format
 msgid "Shared by %1"
 msgstr ""
 
-#: content/ui/TimelinePage.qml:125
+#: content/ui/TimelinePage.qml:130
 #, kde-format
 msgid "Show more"
 msgstr ""
 
-#: content/ui/TimelinePage.qml:190
+#: content/ui/TimelinePage.qml:195
 #, kde-format
 msgctxt "Reply to a post"
 msgid "Reply"
 msgstr ""
 
-#: content/ui/TimelinePage.qml:199
+#: content/ui/TimelinePage.qml:204
 #, kde-format
 msgctxt "Share a post"
 msgid "Boost"
 msgstr ""
 
-#: content/ui/TimelinePage.qml:208
+#: content/ui/TimelinePage.qml:213
 #, kde-format
 msgctxt "Like a post"
 msgid "Like"
@@ -205,73 +317,68 @@ msgstr ""
 msgid "What's new?"
 msgstr ""
 
-#: content/ui/TootComposer.qml:122
+#: content/ui/TootComposer.qml:123
 #, kde-format
 msgid "Make pool auto-exclusive"
 msgstr ""
 
-#: content/ui/TootComposer.qml:130
+#: content/ui/TootComposer.qml:131
 #, kde-format
 msgid "Choice %1"
 msgstr ""
 
-#: content/ui/TootComposer.qml:154
+#: content/ui/TootComposer.qml:155
 #, kde-format
 msgid "Please choose a file"
 msgstr ""
 
-#: content/ui/TootComposer.qml:170
+#: content/ui/TootComposer.qml:171
 #, kde-format
 msgid "Public"
 msgstr ""
 
-#: content/ui/TootComposer.qml:175
+#: content/ui/TootComposer.qml:176
 #, kde-format
 msgid "Unlisted"
 msgstr ""
 
-#: content/ui/TootComposer.qml:179
+#: content/ui/TootComposer.qml:180
 #, kde-format
 msgid "Private"
 msgstr ""
 
-#: content/ui/TootComposer.qml:184
+#: content/ui/TootComposer.qml:185
 #, kde-format
 msgid "Direct Message"
 msgstr ""
 
-#: content/ui/TootComposer.qml:192
+#: content/ui/TootComposer.qml:193
 #, kde-format
 msgctxt "Short for content warning"
 msgid "cw"
 msgstr ""
 
-#: content/ui/TootComposer.qml:201
+#: content/ui/TootComposer.qml:202
 #, kde-format
 msgid "Send"
 msgstr ""
 
-#: main.cpp:66
-#, kde-format
-msgid "Tokodon"
-msgstr ""
-
-#: main.cpp:68
+#: main.cpp:76
 #, kde-format
 msgid "Mastodon client"
 msgstr ""
 
-#: main.cpp:70
+#: main.cpp:78
 #, kde-format
 msgid "© 2021 Carl Schwan, 2021 KDE Community"
 msgstr ""
 
-#: main.cpp:71
+#: main.cpp:79
 #, kde-format
 msgid "Carl Schwan"
 msgstr ""
 
-#: main.cpp:99
+#: main.cpp:107
 #, kde-format
 msgid "Client for the decentralized social network: mastodon"
 msgstr ""

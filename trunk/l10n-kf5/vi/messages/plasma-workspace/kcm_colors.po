@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-14 00:30+0000\n"
+"POT-Creation-Date: 2021-11-30 00:46+0000\n"
 "PO-Revision-Date: 2021-09-30 22:27+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -29,42 +29,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "phu.nguyen@kdemail.net,teppi82@gmail.com"
 
-#: colors.cpp:66 editor/scmeditordialog.cpp:62
-#, kde-format
-msgid "Colors"
-msgstr "Màu"
-
-#: colors.cpp:68
-#, kde-format
-msgid "Kai Uwe Broulik"
-msgstr "Kai Uwe Broulik"
-
-#: colors.cpp:193
+#: colors.cpp:187
 #, kde-format
 msgid "Unable to create a temporary file."
 msgstr "Không thể tạo một tệp tạm."
 
-#: colors.cpp:206
+#: colors.cpp:200
 #, kde-format
 msgid "Unable to download the color scheme: %1"
 msgstr "Không thể tải về quy hoạch màu: %1"
 
-#: colors.cpp:224
+#: colors.cpp:218
 #, kde-format
 msgid "This file is not a color scheme file."
 msgstr "Tệp này không phải là một tệp quy hoạch màu."
 
-#: colors.cpp:243
+#: colors.cpp:237
 #, kde-format
 msgid "Failed to create 'color-scheme' data folder."
 msgstr "Tạo thư mục dữ liệu 'color-scheme' thất bại."
 
-#: colors.cpp:250
+#: colors.cpp:244
 #, kde-format
 msgid "Failed to copy color scheme into 'color-scheme' data folder."
 msgstr "Chép quy hoạch màu vào thư mục dữ liệu 'color-scheme' thất bại."
 
-#: colors.cpp:267
+#: colors.cpp:261
 #, kde-format
 msgid "Color scheme installed successfully."
 msgstr "Cài đặt quy hoạch màu thành công."
@@ -637,6 +627,11 @@ msgstr "Phần phụ trong thanh tiêu đề bất hoạt"
 #, kde-format
 msgid "Options"
 msgstr "Lựa chọn"
+
+#: editor/scmeditordialog.cpp:62
+#, kde-format
+msgid "Colors"
+msgstr "Màu"
 
 #: editor/scmeditordialog.cpp:63
 #, kde-format
@@ -1265,7 +1260,15 @@ msgstr ""
 "Hiện tất cả các quy hoạch màu đang có trong hệ thống (và cái nào là chủ đề "
 "hiện tại)"
 
-#: plasma-apply-colorscheme.cpp:69
+#: plasma-apply-colorscheme.cpp:48
+#, kde-format
+msgid ""
+"The name of the accent color you want to set. SVG color names (https://www."
+"w3.org/TR/SVG11/types.html#ColorKeywords) and hex color codes are supported. "
+"Quote the hex code if there is possibility of shell expansion"
+msgstr ""
+
+#: plasma-apply-colorscheme.cpp:75
 #, kde-format
 msgid ""
 "The requested theme \"%1\" is already set as the theme for the current "
@@ -1274,12 +1277,12 @@ msgstr ""
 "Chủ đề được yêu cầu \"%1\" đã được đặt làm chủ đề cho phiên Plasma hiện tại "
 "rồi."
 
-#: plasma-apply-colorscheme.cpp:92
+#: plasma-apply-colorscheme.cpp:98
 #, kde-format
 msgid "Successfully applied the color scheme %1 to your current Plasma session"
 msgstr "Áp dụng quy hoạch màu %1 cho phiên Plasma hiện tại thành công"
 
-#: plasma-apply-colorscheme.cpp:94
+#: plasma-apply-colorscheme.cpp:100
 #, kde-format
 msgid ""
 "Could not find theme \"%1\". The theme should be one of the following "
@@ -1287,7 +1290,7 @@ msgid ""
 msgstr ""
 "Không tìm được chủ đề \"%1\". Chủ đề nên là một trong các lựa chọn sau: %2"
 
-#: plasma-apply-colorscheme.cpp:101
+#: plasma-apply-colorscheme.cpp:107
 #, kde-format
 msgid ""
 "You have managed to pass an empty color scheme name, which isn't supported "
@@ -1295,7 +1298,7 @@ msgid ""
 msgstr ""
 "Bạn đã truyền vào một tên quy hoạch màu rỗng, hành vi này không được hỗ trợ."
 
-#: plasma-apply-colorscheme.cpp:105
+#: plasma-apply-colorscheme.cpp:111
 #, kde-format
 msgid ""
 "The file you attempted to set as your scheme, %1, could not be identified as "
@@ -1304,15 +1307,29 @@ msgstr ""
 "Không nhận diện được tệp mà bạn đang muốn đặt làm quy hoạch, %1, là một quy "
 "hoạch màu."
 
-#: plasma-apply-colorscheme.cpp:110
+#: plasma-apply-colorscheme.cpp:125
+#, kde-format
+msgid "Successfully applied the accent color %1"
+msgstr ""
+
+#: plasma-apply-colorscheme.cpp:127
+#, fuzzy, kde-format
+#| msgid "Use accent color:"
+msgid "Invalid accent color "
+msgstr "Dùng màu chủ đạo:"
+
+#: plasma-apply-colorscheme.cpp:132
 #, kde-format
 msgid "You have the following color schemes on your system:"
 msgstr "Bạn có các quy hoạch màu sau trong hệ thống:"
 
-#: plasma-apply-colorscheme.cpp:115
+#: plasma-apply-colorscheme.cpp:137
 #, kde-format
 msgid " * %1 (current color scheme)"
 msgstr " * %1 (quy hoạch màu hiện tại)"
+
+#~ msgid "Kai Uwe Broulik"
+#~ msgstr "Kai Uwe Broulik"
 
 #~ msgid "This colour scheme was not saved. Continue?"
 #~ msgstr "Quy hoạch màu này chưa được lưu. Tiếp tục?"

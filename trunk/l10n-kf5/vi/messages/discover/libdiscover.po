@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-27 00:29+0000\n"
+"POT-Creation-Date: 2021-12-09 00:44+0000\n"
 "PO-Revision-Date: 2012-06-13 11:10+0800\n"
 "Last-Translator: HeroP <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -495,16 +495,34 @@ msgctxt "Category"
 msgid "System Settings"
 msgstr "Hệ thống & thiết lập"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:577
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:574
 #, kde-format
 msgid "Local bundle"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1374
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1404
 #: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:582
 #, kde-format
 msgid "Malformed appstream url '%1'"
 msgstr ""
+
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1541
+#, kde-format
+msgid "There are no Flatpak sources."
+msgstr ""
+
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1545
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid ""
+#| "Failed to download %1\n"
+#| "%2\n"
+#| "\n"
+msgid "Failed to load \"%1\" source"
+msgstr ""
+"Tải %1 thất bại\n"
+"%2\n"
+"\n"
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:97
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:228
@@ -1710,7 +1728,7 @@ msgstr ""
 msgid "Future"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:428
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:451
 #, kde-format
 msgid ""
 "This update cannot be completed as it would remove the following software "
@@ -1719,27 +1737,27 @@ msgid ""
 "your distribution."
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:435
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:458
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Packages Could Not be Found"
 msgid "Packages to remove"
 msgstr "Không thể tìm thấy gói"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:436
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:459
 #, kde-format
 msgid ""
 "The following packages will be removed by the update:<ul><li>%1</li></ul><br/"
 ">in order to install:<ul><li>%2</li></ul>"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:531
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:554
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1:<nl/><nl/>%2"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:539
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:562
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:308
 #, kde-format
 msgid ""
@@ -1747,13 +1765,13 @@ msgid ""
 "%2"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:572
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:595
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:287
 #, kde-format
 msgid "Accept EULA"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:573
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:596
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:288
 #, kde-format
 msgid ""
@@ -1761,13 +1779,13 @@ msgid ""
 " %3"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:690
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:713
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:325
 #, kde-format
 msgid "Missing signature for %1 in %2"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:691
+#: libdiscover/backends/PackageKitBackend/PackageKitUpdater.cpp:714
 #: libdiscover/backends/PackageKitBackend/PKTransaction.cpp:326
 #, kde-format
 msgid ""
@@ -1911,6 +1929,11 @@ msgstr "Không thể tìm thấy gói"
 #, kde-format
 msgctxt "Do not translate or alter \\u009C"
 msgid "%1 → %2%1 → %2%2"
+msgstr ""
+
+#: libdiscover/resources/AbstractResourcesBackend.cpp:153
+#, kde-format
+msgid "Please verify Internet connectivity"
 msgstr ""
 
 #: libdiscover/resources/ResourcesModel.cpp:100
