@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-09 00:42+0000\n"
+"POT-Creation-Date: 2021-12-12 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -4492,27 +4492,32 @@ msgid ""
 "%2"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1590
+#: src/bin/projectclip.cpp:878 src/jobs/cliploadtask.cpp:274
+#, kde-format
+msgid "Invalid"
+msgstr ""
+
+#: src/bin/projectclip.cpp:1611
 #, kde-format
 msgid "Clip already contains analysis data %1"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1590
+#: src/bin/projectclip.cpp:1611
 #, kde-format
 msgid "Merge"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1591
+#: src/bin/projectclip.cpp:1612
 #, kde-format
 msgid "Add"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1998
+#: src/bin/projectclip.cpp:2019
 #, kde-format
 msgid "Add stream effect"
 msgstr ""
 
-#: src/bin/projectclip.cpp:2021
+#: src/bin/projectclip.cpp:2042
 #, kde-format
 msgid "Remove stream effect"
 msgstr ""
@@ -6428,14 +6433,14 @@ msgstr ""
 msgid "Enter new location for file"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:1462
+#: src/doc/documentchecker.cpp:1461
 #, kde-format
 msgid "This will remove the selected clip from this project"
 msgid_plural "This will remove the selected clips from this project"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/doc/documentchecker.cpp:1464
+#: src/doc/documentchecker.cpp:1463
 #, kde-format
 msgid "Remove clips"
 msgstr ""
@@ -6996,11 +7001,6 @@ msgstr ""
 #: src/jobs/cliploadtask.cpp:128
 #, kde-format
 msgid "Playlist %1 has a different framerate (%2/%3fps), not supported."
-msgstr ""
-
-#: src/jobs/cliploadtask.cpp:274
-#, kde-format
-msgid "Invalid"
 msgstr ""
 
 #: src/jobs/cliploadtask.cpp:497 src/jobs/filtertask.cpp:81

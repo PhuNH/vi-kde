@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligraplan\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-07 00:44+0000\n"
+"POT-Creation-Date: 2021-12-14 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -143,13 +143,13 @@ msgid "Url"
 msgstr ""
 
 #: DocumentsSaveDialog.cpp:53 DocumentsSaveDialog.cpp:59
-#: PortfolioModel.cpp:73 PortfolioModel.cpp:77
+#: PortfolioModel.cpp:76 PortfolioModel.cpp:87
 #, kde-format
 msgid "Yes"
 msgstr ""
 
 #: DocumentsSaveDialog.cpp:53 DocumentsSaveDialog.cpp:59
-#: PortfolioModel.cpp:73 PortfolioModel.cpp:77
+#: PortfolioModel.cpp:76 PortfolioModel.cpp:87
 #, kde-format
 msgid "No"
 msgstr ""
@@ -171,40 +171,40 @@ msgstr ""
 msgid "Open Project"
 msgstr ""
 
-#: MainDocument.cpp:83
+#: MainDocument.cpp:84
 #, kde-format
 msgid "Invalid document. No mimetype specified."
 msgstr ""
 
-#: MainDocument.cpp:88
+#: MainDocument.cpp:89
 #, kde-format
 msgid "Invalid document. Expected mimetype %1, got %2"
 msgstr ""
 
-#: MainDocument.cpp:94
+#: MainDocument.cpp:95
 #, kde-format
 msgid ""
 "This document was created with a newer version of Plan (syntax version: %1)\n"
 "Opening it in this version of Plan will lose some information."
 msgstr ""
 
-#: MainDocument.cpp:96
+#: MainDocument.cpp:97
 #, kde-format
 msgid "File-Format Mismatch"
 msgstr ""
 
-#: MainDocument.cpp:96
+#: MainDocument.cpp:97
 #, kde-format
 msgid "Continue"
 msgstr ""
 
-#: MainDocument.cpp:159
+#: MainDocument.cpp:161
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The project already exists.<nl/>Project: %1<nl/>Document: %2"
 msgstr ""
 
-#: MainDocument.cpp:160 PortfolioView.cpp:199
+#: MainDocument.cpp:162 PortfolioView.cpp:199
 #, kde-format
 msgctxt "@title:window"
 msgid "Could not add project"
@@ -329,12 +329,23 @@ msgctxt "@title:column"
 msgid "File"
 msgstr ""
 
-#: PortfolioModel.cpp:89 PortfolioModel.cpp:94
+#: PortfolioModel.cpp:74 SchedulingModel.cpp:126
+#, kde-format
+msgid "Error"
+msgstr ""
+
+#: PortfolioModel.cpp:82
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Failed to load the document"
+msgstr ""
+
+#: PortfolioModel.cpp:99 PortfolioModel.cpp:104
 #, kde-format
 msgid "Embedded"
 msgstr ""
 
-#: PortfolioModel.cpp:89 PortfolioModel.cpp:94
+#: PortfolioModel.cpp:99 PortfolioModel.cpp:104
 #, kde-format
 msgid "External"
 msgstr ""
@@ -516,11 +527,6 @@ msgstr ""
 #: SchedulingModel.cpp:25 SchedulingModel.cpp:67
 #, kde-format
 msgid "Exclude"
-msgstr ""
-
-#: SchedulingModel.cpp:126
-#, kde-format
-msgid "Error"
 msgstr ""
 
 #: SchedulingModel.cpp:130

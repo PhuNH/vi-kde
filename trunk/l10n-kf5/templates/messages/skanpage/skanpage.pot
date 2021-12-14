@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skanpage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-15 00:32+0000\n"
+"POT-Creation-Date: 2021-12-14 00:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -145,67 +145,82 @@ msgstr ""
 msgid "Reload devices list"
 msgstr ""
 
-#: qml/DocumentList.qml:136
+#: qml/DocumentList.qml:139
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Processing page..."
 msgstr ""
 
-#: qml/DocumentList.qml:181
+#: qml/DocumentList.qml:184
 #, kde-format
 msgctxt "Page index"
 msgid "Page %1"
 msgstr ""
 
-#: qml/DocumentList.qml:244
+#: qml/DocumentList.qml:199
+#, kde-format
+msgid "Move Up"
+msgstr ""
+
+#: qml/DocumentList.qml:209
+#, kde-format
+msgid "Move Down"
+msgstr ""
+
+#: qml/DocumentList.qml:219 qml/DocumentPage.qml:136
+#, kde-format
+msgid "Rotate Left"
+msgstr ""
+
+#: qml/DocumentList.qml:225 qml/DocumentPage.qml:143
+#, kde-format
+msgid "Rotate Right"
+msgstr ""
+
+#: qml/DocumentList.qml:231 qml/DocumentPage.qml:150
+#, kde-format
+msgid "Save Page"
+msgstr ""
+
+#: qml/DocumentList.qml:237 qml/DocumentPage.qml:157
+#, kde-format
+msgid "Delete Page"
+msgstr ""
+
+#: qml/DocumentList.qml:258
 #, kde-format
 msgid "%1 page"
 msgid_plural "%1 pages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qml/DocumentPage.qml:34
+#: qml/DocumentPage.qml:36
 #, kde-kuit-format
 msgctxt "@info"
 msgid "You do not have any images in this document.<nl/><nl/>Start scanning!"
 msgstr ""
 
-#: qml/DocumentPage.qml:92
+#: qml/DocumentPage.qml:94
 #, kde-format
 msgid "Zoom In"
 msgstr ""
 
-#: qml/DocumentPage.qml:101
+#: qml/DocumentPage.qml:103
 #, kde-format
 msgid "Zoom Out"
 msgstr ""
 
-#: qml/DocumentPage.qml:110
+#: qml/DocumentPage.qml:112
 #, kde-format
 msgid "Zoom Fit"
 msgstr ""
 
-#: qml/DocumentPage.qml:126
+#: qml/DocumentPage.qml:128
 #, kde-format
 msgid "Zoom 100%"
 msgstr ""
 
-#: qml/DocumentPage.qml:134
-#, kde-format
-msgid "Rotate Left"
-msgstr ""
-
-#: qml/DocumentPage.qml:141
-#, kde-format
-msgid "Rotate Right"
-msgstr ""
-
-#: qml/DocumentPage.qml:148
-#, kde-format
-msgid "Delete Page"
-msgstr ""
-
-#: qml/DocumentView.qml:23
+#: qml/DocumentView.qml:18
 #, kde-format
 msgctxt "Prefix for document name indicating an unsaved document"
 msgid "* %1"
@@ -235,6 +250,12 @@ msgctxt "Countdown string with time given in seconds"
 msgid "Next scan starts in<nl/>%1 s"
 msgstr ""
 
+#: qml/InProgressPage.qml:44
+#, kde-format
+msgctxt "@info"
+msgid "Scan in progress."
+msgstr ""
+
 #: qml/MainWindow.qml:24
 #, kde-format
 msgctxt "document title - scanner device - app title"
@@ -249,12 +270,12 @@ msgstr ""
 
 #: qml/MainWindow.qml:81
 #, kde-format
-msgid "Clear"
+msgid "Discard All"
 msgstr ""
 
 #: qml/MainWindow.qml:90
 #, kde-format
-msgid "Save"
+msgid "Save All"
 msgstr ""
 
 #: qml/MainWindow.qml:99
@@ -282,7 +303,7 @@ msgstr ""
 msgid "Print"
 msgstr ""
 
-#: qml/MainWindow.qml:155 qml/MainWindow.qml:326
+#: qml/MainWindow.qml:155 qml/MainWindow.qml:331
 #, kde-format
 msgid "About Skanpage"
 msgstr ""
