@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-11-28 00:25+0000\n"
-"PO-Revision-Date: 2021-10-27 23:39+0200\n"
+"PO-Revision-Date: 2021-12-21 17:52+0100\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -244,14 +244,14 @@ msgid ""
 "If this option is checked, every new view will display line numbers on the "
 "left hand side."
 msgstr ""
-"Nếu lựa chọn này được chọn, mọi khung xem mới sẽ hiển thị số dòng ở bên tay "
-"trái."
+"Nếu lựa chọn này được chọn, mọi khung xem mới sẽ hiển thị số thứ tự dòng ở "
+"bên tay trái."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLineNumbers)
 #: dialogs/bordersappearanceconfigwidget.ui:88
 #, kde-format
 msgid "Show &line numbers"
-msgstr "Hiện &số dòng"
+msgstr "Hiện &số thứ tự dòng"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowLineModification)
 #: dialogs/bordersappearanceconfigwidget.ui:95
@@ -389,7 +389,7 @@ msgstr "Theo ngày tạo"
 #: dialogs/bordersappearanceconfigwidget.ui:262
 #, kde-format
 msgid "The bookmarks will be ordered by the line numbers they are placed at."
-msgstr "Các dấu nhớ sẽ được sắp xếp theo số dòng tại đó chúng được đặt."
+msgstr "Các dấu nhớ sẽ được sắp xếp theo số thứ tự dòng tại đó chúng được đặt."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbSortBookmarksByPosition)
 #: dialogs/bordersappearanceconfigwidget.ui:265
@@ -654,13 +654,13 @@ msgstr "Tên kiểu tệp sẽ là phần chữ của mục trình đơn tương
 #: dialogs/filetypeconfigwidget.ui:89
 #, kde-format
 msgid "&Section:"
-msgstr "Khu &vực:"
+msgstr "Nhó&m:"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtSection)
 #: dialogs/filetypeconfigwidget.ui:99
 #, kde-format
 msgid "The section name is used to organize the file types in menus."
-msgstr "Tên khu vực được dùng để tổ chức các kiểu tệp trong trình đơn."
+msgstr "Tên nhóm được dùng để tổ chức các kiểu tệp trong trình đơn."
 
 #. i18n: ectx: property (text), widget (QLabel, lblVariables)
 #: dialogs/filetypeconfigwidget.ui:106
@@ -819,7 +819,7 @@ msgid ""
 "the indentation is divisible by the tab width."
 msgstr ""
 "Độ rộng thụt lề là số lượng dấu cách được dùng để thụt lề một dòng. Nếu lựa "
-"chọn <b>Chèn dấu cách thay cho kí tự lập bảng</b> trong vùng <b>Sửa</b> bị "
+"chọn <b>Chèn dấu cách thay cho kí tự lập bảng</b> trong nhóm <b>Sửa</b> bị "
 "tắt, một kí tự <b>lập bảng</b> sẽ được chèn vào khi khoảng thụt lề chia hết "
 "cho độ rộng kí tự lập bảng."
 
@@ -875,12 +875,14 @@ msgid ""
 "indentation level if the cursor is located in the leading blank space of a "
 "line."
 msgstr ""
+"Nếu lựa chọn này được chọn, phím <b>Backspace</b> sẽ giảm mức thụt lề khi "
+"con trỏ đang nằm ở khoảng trống ở đầu dòng."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackspaceUnindents)
 #: dialogs/indentationconfigwidget.ui:182
 #, kde-format
 msgid "&Backspace key in leading blank space unindents"
-msgstr ""
+msgstr "Phím &Backspace bỏ thụt lề khi ở khoảng trống ở đầu"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/indentationconfigwidget.ui:192
@@ -913,12 +915,16 @@ msgid ""
 "instead of tabulators</b> in the section <b>Editing</b> is enabled, spaces "
 "are inserted; otherwise, a single tabulator is inserted."
 msgstr ""
+"Nếu lựa chọn này được chọn, phím <b>Tab</b> sẽ luôn chèn khoảng trắng để đạt "
+"đến vị trí lập bảng tiếp theo. Nếu lựa chọn <b>Chèn dấu cách thay cho kí tự "
+"lập bảng</b> trong nhóm <b>Sửa</b> được bật thì sẽ dùng dấu cách, ngược lại, "
+"một kí tự lập bảng sẽ được chèn vào."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbTabAdvances)
 #: dialogs/indentationconfigwidget.ui:228
 #, kde-format
 msgid "Always advance to the &next tab position"
-msgstr ""
+msgstr "Luôn đi đến &vị trí lập bảng tiếp theo"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbTabIndents)
 #: dialogs/indentationconfigwidget.ui:235
@@ -928,12 +934,14 @@ msgid ""
 "line by the number of character positions specified in <b>Indentation width</"
 "b>."
 msgstr ""
+"Nếu lựa chọn này được chọn, phím <b>Tab</b> sẽ luôn thụt lề dòng hiện tại "
+"một khoảng bằng với số kí tự được chỉ định trong <b>Độ rộng thụt lề</b>."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbTabIndents)
 #: dialogs/indentationconfigwidget.ui:238
 #, kde-format
 msgid "Always increase indentation &level"
-msgstr ""
+msgstr "Luôn tăng &mức thụt lề"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbTabSmart)
 #: dialogs/indentationconfigwidget.ui:245
@@ -950,12 +958,21 @@ msgid ""
 "b> is enabled, spaces are inserted; otherwise, a single tabulator is "
 "inserted."
 msgstr ""
+"Nếu lựa chọn này được chọn, phím <b>Tab</b> sẽ hoặc là thụt lề dòng hiện "
+"tại, hoặc là đi đến vị trí lập bảng tiếp theo.<p>Nếu điểm chèn là ở tại hoặc "
+"trước kí tự phi dấu cách đầu tiên trong dòng, hoặc nếu đang có một phần "
+"chọn, thì dòng hiện tại sẽ được thụt lề một khoảng bằng với số kí tự được "
+"chỉ định trong <b>Độ rộng thụt lề</b>.<p>Nếu điểm chèn là ở sau kí tự phi "
+"dấu cách đầu tiên trong dòng và đang không có phần chọn nào, thì khoảng "
+"trắng sẽ được chèn vào để đạt đến vị trí lập bảng tiếp theo: nếu lựa chọn "
+"<b>Chèn dấu cách thay cho kí tự lập bảng</b> trong nhóm <b>Sửa</b> được bật "
+"thì sẽ dùng dấu cách, ngược lại, một kí tự lập bảng sẽ được chèn vào."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbTabSmart)
 #: dialogs/indentationconfigwidget.ui:248
 #, kde-format
 msgid "Increase indentation level if in l&eading blank space"
-msgstr ""
+msgstr "Tăng mức thụt lề khi ở khoảng trống ở đầ&u"
 
 #: dialogs/katedialogs.cpp:179 dialogs/katedialogs.cpp:181
 #, kde-format
@@ -981,7 +998,7 @@ msgstr "Kiểm tra đánh vần"
 #: dialogs/katedialogs.cpp:423
 #, kde-format
 msgid "Text Navigation"
-msgstr "Điều hướng"
+msgstr "Điều hướng văn bản"
 
 #: dialogs/katedialogs.cpp:520
 #, kde-format
@@ -993,29 +1010,29 @@ msgstr[0] " kí tự"
 #: dialogs/katedialogs.cpp:525
 #, kde-format
 msgid "Feature is not active"
-msgstr ""
+msgstr "Tính năng đang không hoạt động"
 
 #: dialogs/katedialogs.cpp:527
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Disabled Breakpoint"
 msgid "Disable Feature"
-msgstr "Điểm ngắt bị tắt"
+msgstr "Tắt tính năng"
 
 #: dialogs/katedialogs.cpp:529
 #, kde-format
 msgid "May be handy with Markdown"
-msgstr ""
+msgstr "Có thể có ích với Markdown"
 
 #: dialogs/katedialogs.cpp:531
 #, kde-format
 msgid "Mirror characters, similar but not exactly like auto brackets"
-msgstr ""
+msgstr "Kí tự đối xứng, tương tự nhưng không hoàn toàn giống ngoặc tự động"
 
 #: dialogs/katedialogs.cpp:533
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Character"
 msgid "Non letter character"
-msgstr "Kí tự"
+msgstr "Kí tự không phải chữ cái"
 
 #: dialogs/katedialogs.cpp:647
 #, kde-format
@@ -1049,38 +1066,43 @@ msgid ""
 "your work in the case of a system crash. Disabling swap files may cause data "
 "loss in case of a system crash."
 msgstr ""
+"Các tệp chưa lưu được %1 tạo bản dự phòng thành các \"tệp hoán đổi\". Các "
+"\"tệp hoán đổi\" cho phép %1 phục hồi việc bạn đang làm khi có sự cố hệ"
+" thống. "
+"Tắt các tệp hoán đổi có thể sẽ gây mất dữ liệu nếu xảy ra sự cố hệ thống."
 
 #: dialogs/katedialogs.cpp:909
 #, kde-format
 msgid "Advanced"
-msgstr ""
+msgstr "Nâng cao"
 
 #: dialogs/katedialogs.cpp:974
 #, kde-format
 msgid ""
 "You did not provide a backup suffix or prefix. Using default suffix: '~'"
 msgstr ""
-"Bạn chưa cung cấp hậu tố hoặc tiền tố sao lưu nên dùng hậu tố mặc định: « ~ »"
+"Bạn chưa cung cấp hậu tố hoặc tiền tố bản dự phòng. Đang dùng hậu tố mặc"
+" định: '~'"
 
 #: dialogs/katedialogs.cpp:974
 #, kde-format
 msgid "No Backup Suffix or Prefix"
-msgstr "Không có hậu tố hoặc tiền tố sao lưu"
+msgstr "Không có hậu tố hoặc tiền tố bản dự phòng"
 
 #: dialogs/katedialogs.cpp:1096
 #, kde-format
 msgid "Open/Save"
-msgstr "Mở / Lưu"
+msgstr "Mở/Lưu"
 
 #: dialogs/katedialogs.cpp:1101
 #, kde-format
 msgid "File Opening & Saving"
-msgstr "Cách mở và lưu tệp"
+msgstr "Mở & lưu tệp"
 
 #: dialogs/katedialogs.cpp:1124
 #, kde-format
 msgid "&Line:"
-msgstr ""
+msgstr "&Dòng:"
 
 #: dialogs/katedialogs.cpp:1125
 #, kde-format
@@ -1090,7 +1112,7 @@ msgstr "Đi đến dòng thứ ... trong bảng nháp"
 #: dialogs/katedialogs.cpp:1136
 #, kde-format
 msgid "Go to"
-msgstr ""
+msgstr "Đi đến"
 
 #: dialogs/katedialogs.cpp:1212
 #, kde-format
@@ -1098,67 +1120,68 @@ msgid "No valid line number found in clipboard"
 msgstr "Không tìm thấy số thứ tự dòng hợp lệ trong bảng nháp"
 
 #: dialogs/katedialogs.cpp:1276
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Execution"
 msgid "Dictionary:"
-msgstr "Thực hiện"
+msgstr "Từ điển:"
 
 #: dialogs/katedialogs.cpp:1328
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Word Completion Plugin"
 msgid "Enable Auto Reload"
-msgstr "Bổ sung hoàn chỉnh từ"
+msgstr "Bật tải lại tự động"
 
 #: dialogs/katedialogs.cpp:1330
 #, kde-format
 msgid "Will never again warn about on disk changes but always reload."
 msgstr ""
+"Sẽ không bao giờ cảnh báo về các thay đổi trên đĩa nữa, mà sẽ luôn tải lại."
 
 #: dialogs/katedialogs.cpp:1335
 #, kde-format
 msgid "View &Difference"
-msgstr ""
+msgstr "&Xem sự khác nhau"
 
 #: dialogs/katedialogs.cpp:1337
 #, kde-format
 msgid "Shows a diff of the changes"
-msgstr ""
+msgstr "Hiện phần chênh của các thay đổi"
 
 #: dialogs/katedialogs.cpp:1342
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Reloa&d"
 msgid "&Reload"
-msgstr "Tả&i lại"
+msgstr "&Tải lại"
 
 #: dialogs/katedialogs.cpp:1344
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Reload the file from disk. If you have unsaved changes, they will be lost."
 msgid "Reload the file from disk. Unsaved changes will be lost."
-msgstr "Tải lại tệp từ đĩa. Thay đổi chưa lưu nào sẽ bị mất."
+msgstr "Tải lại tệp từ đĩa. Các thay đổi chưa lưu sẽ bị mất."
 
 #: dialogs/katedialogs.cpp:1348
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Reload File"
 msgctxt "@action:button closes the opened file"
 msgid "&Close File"
-msgstr "Tải &lại tệp"
+msgstr "Đón&g tệp"
 
 #: dialogs/katedialogs.cpp:1350
 #, kde-format
 msgid "Close the file, discarding its content."
-msgstr ""
+msgstr "Đóng tệp, loại bỏ nội dung."
 
 #: dialogs/katedialogs.cpp:1354
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Save File As..."
 msgid "&Save As..."
-msgstr "&Lưu tệp dạng..."
+msgstr "&Lưu thành..."
 
 #: dialogs/katedialogs.cpp:1356
 #, kde-format
 msgid "Lets you select a location and save the file again."
-msgstr "Cho bạn chọn một địa điểm khác rồi lưu lại tệp."
+msgstr "Cho bạn chọn một địa điểm rồi lưu tệp lại lần nữa."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
 #: dialogs/katedialogs.cpp:1361 spellcheck/spellcheckbar.ui:143
@@ -1167,10 +1190,10 @@ msgid "&Ignore"
 msgstr "&Bỏ qua"
 
 #: dialogs/katedialogs.cpp:1362
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Ignore the changes. You will not be prompted again."
 msgid "Ignores the changes on disk without any action."
-msgstr "Bỏ qua các thay đổi. Bạn sẽ không được nhắc lại."
+msgstr "Bỏ qua các thay đổi trên đĩa, không có hành động nào."
 
 #: dialogs/katedialogs.cpp:1428 swapfile/kateswapdiffcreator.cpp:122
 #, kde-format
@@ -1178,30 +1201,30 @@ msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
 msgstr ""
-"Lệnh khác biệt (diff) bị lỗi. Hãy kiểm tra xem công cụ diff(1) đã được cài "
-"đặt cho đúng, và nó có trong đường dẫn thực hiện (PATH) của bạn."
+"Lệnh diff thất bại. Vui lòng kiểm tra rằng diff(1) được cài đặt và nằm trong "
+"biến PATH."
 
 #: dialogs/katedialogs.cpp:1430 swapfile/kateswapdiffcreator.cpp:90
 #: swapfile/kateswapdiffcreator.cpp:124
 #, kde-format
 msgid "Error Creating Diff"
-msgstr "Gặp lỗi khi tạo khác biệt"
+msgstr "Lỗi tạo phần chênh"
 
 #: dialogs/katedialogs.cpp:1437 swapfile/kateswapdiffcreator.cpp:131
 #, kde-format
 msgid "The files are identical."
-msgstr ""
+msgstr "Các tệp giống nhau."
 
 #: dialogs/katedialogs.cpp:1437 swapfile/kateswapdiffcreator.cpp:131
 #, kde-format
 msgid "Diff Output"
-msgstr "Xuất khác biệt"
+msgstr "Đầu ra diff"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbCursorMovement)
 #: dialogs/navigationconfigwidget.ui:29
 #, kde-format
 msgid "Text Cursor Movement"
-msgstr ""
+msgstr "Di chuyển con trỏ trong văn bản"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkSmartHome)
 #: dialogs/navigationconfigwidget.ui:35
@@ -1211,12 +1234,14 @@ msgid ""
 "whitespace and go to the start of a line's text. The same applies for the "
 "end key."
 msgstr ""
+"Khi được chọn, nhấn phím home sẽ khiến con trỏ bỏ qua khoảng trắng và đi "
+"đến vị trí bắt đầu văn bản của dòng. Phím end cũng giống như vậy."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSmartHome)
 #: dialogs/navigationconfigwidget.ui:38
 #, kde-format
 msgid "Smart ho&me and smart end"
-msgstr ""
+msgstr "Phím ho&me và end thông minh"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkPagingMovesCursor)
 #: dialogs/navigationconfigwidget.ui:45
@@ -1225,30 +1250,33 @@ msgid ""
 "Selects whether the PageUp and PageDown keys should alter the vertical "
 "position of the cursor relative to the top of the view."
 msgstr ""
+"Lựa chọn việc phím PageUp và PageDown có hay không thay đổi vị trí tương đối "
+"theo chiều dọc của con trỏ so với cạnh trên của khung xem."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkPagingMovesCursor)
 #: dialogs/navigationconfigwidget.ui:48
 #, kde-format
 msgid "&PageUp/PageDown moves cursor"
-msgstr ""
+msgstr "&PageUp/PageDown di chuyển con trỏ"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkCamelCursor)
 #: dialogs/navigationconfigwidget.ui:55
 #, kde-format
 msgid "Selects whether cursor jumps full words or breaks at camel case humps."
 msgstr ""
+"Lựa chọn việc con trỏ nhảy qua cả từ hay dừng ở các bướu trong kiểu lạc đà."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCamelCursor)
 #: dialogs/navigationconfigwidget.ui:58
 #, kde-format
 msgid "Enable camel case cursor movement"
-msgstr ""
+msgstr "Bật cách di chuyển con trỏ trong kiểu lạc đà"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAutoCenterCursor)
 #: dialogs/navigationconfigwidget.ui:79
 #, kde-format
 msgid "&Autocenter cursor:"
-msgstr ""
+msgstr "Tự động đặt con trỏ vào &giữa:"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, sbAutoCenterCursor)
 #: dialogs/navigationconfigwidget.ui:89
@@ -1256,7 +1284,7 @@ msgstr ""
 msgid ""
 "Sets the number of lines to maintain visible above and below the cursor when "
 "possible."
-msgstr ""
+msgstr "Đặt số dòng để hiển thị ở phía trên và dưới con trỏ khi có thể."
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSwapFileMode)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, spbSwapFileSync)
@@ -1265,49 +1293,49 @@ msgstr ""
 #: dialogs/opensaveconfigadvwidget.ui:160
 #, kde-format
 msgid "Disabled"
-msgstr "Đã tắt"
+msgstr "Tắt"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbAutoCenterCursor)
 #: dialogs/navigationconfigwidget.ui:95
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Inline"
 msgid " lines"
-msgstr "Trực tiếp"
+msgstr " dòng"
 
 #. i18n: ectx: property (title), widget (QGroupBox, cbNavigationMisc)
 #: dialogs/navigationconfigwidget.ui:120
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Language"
 #| msgid "Cisco"
 msgid "Misc"
-msgstr "Cisco"
+msgstr "Hỗn hợp"
 
 #. i18n: ectx: property (text), widget (QLabel, lblTextSelectionMode)
 #: dialogs/navigationconfigwidget.ui:128
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Bl&ock Selection Mode"
 msgid "Text selection mode:"
-msgstr "Chế độ chọn &khối"
+msgstr "Chế độ chọn văn bản:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbTextSelectionMode)
 #: dialogs/navigationconfigwidget.ui:139 inputmode/katenormalinputmode.cpp:64
 #: mode/katemodemanager.cpp:162
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Normal"
 msgid "Normal"
-msgstr "Chuẩn"
+msgstr "Thường"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbTextSelectionMode)
 #: dialogs/navigationconfigwidget.ui:144
 #, kde-format
 msgid "Persistent"
-msgstr ""
+msgstr "Bền vững"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScrollPastEnd)
 #: dialogs/navigationconfigwidget.ui:167
 #, kde-format
 msgid "Allow scrolling past the end of the document"
-msgstr ""
+msgstr "Cho phép cuộn quá phần kết thúc tài liệu"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkBackspaceRemoveComposed)
 #: dialogs/navigationconfigwidget.ui:174
@@ -1316,12 +1344,14 @@ msgid ""
 "When selected, composed characters are removed with their diacritics instead "
 "of only removing the base character. This is useful for Indic locales."
 msgstr ""
+"Khi được chọn, các kí tự hợp thành sẽ bị xoá cùng với dấu phụ của chúng, "
+"thay vì chỉ xoá kí tự cơ sở. Việc này có ích với các ngôn ngữ Ấn Độ."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBackspaceRemoveComposed)
 #: dialogs/navigationconfigwidget.ui:177
 #, kde-format
 msgid "Backspace key removes character’s base with its diacritics"
-msgstr ""
+msgstr "Phím Backspace xoá kí tự cơ sở cùng với dấu phụ"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkBackupLocalFiles)
 #: dialogs/opensaveconfigadvwidget.ui:34
@@ -2346,10 +2376,10 @@ msgid "Te&xt Settings"
 msgstr "Thiết lập &văn bản"
 
 #: printing/printconfigwidgets.cpp:40
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Print &line numbers"
 msgid "Print line &numbers"
-msgstr "In số &dòng"
+msgstr "In số thứ tự &dòng"
 
 #: printing/printconfigwidgets.cpp:43
 #, fuzzy, kde-format
@@ -4389,10 +4419,10 @@ msgid "<p>Sets the background color of replaced text.</p>"
 msgstr ""
 
 #: syntax/katethemeconfig.cpp:203
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show &Icon Border"
 msgid "Icon Border"
-msgstr "Hiện viền &biểu tượng"
+msgstr "Viền biểu tượng"
 
 #: syntax/katethemeconfig.cpp:206
 #, fuzzy, kde-format
@@ -4403,18 +4433,18 @@ msgstr "Nền"
 #: syntax/katethemeconfig.cpp:208
 #, kde-format
 msgid "<p>Sets the background color of the icon border.</p>"
-msgstr ""
+msgstr "<p>Đặt màu nền của viền biểu tượng.</p>"
 
 #: syntax/katethemeconfig.cpp:213
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show &Line Numbers"
 msgid "Line Numbers"
-msgstr "Hiện &số hiệu dòng"
+msgstr "Số thứ tự dòng"
 
 #: syntax/katethemeconfig.cpp:215
 #, kde-format
 msgid "<p>This color will be used to draw the line numbers (if enabled).</p>"
-msgstr ""
+msgstr "<p>Màu này sẽ được dùng cho số thứ tự dòng (nếu bật).</p>"
 
 #: syntax/katethemeconfig.cpp:220
 #, fuzzy, kde-format
@@ -4440,6 +4470,8 @@ msgid ""
 "<p>This color will be used to draw the line between line numbers and the "
 "icon borders, if both are enabled.</p>"
 msgstr ""
+"<p>Màu này sẽ được dùng cho đường thẳng ở giữa số thứ tự dòng và viền biểu "
+"tượng, nếu cả hai được bật.</p>"
 
 #: syntax/katethemeconfig.cpp:234
 #, fuzzy, kde-format
@@ -5956,7 +5988,7 @@ msgstr ""
 #, kde-format
 msgctxt "short translation please"
 msgid "Enable the icon border in the editor view."
-msgstr ""
+msgstr "Bật viền biểu tượng trong khung xem trình biên tập."
 
 #: variableeditor/variablelineedit.cpp:223
 #, fuzzy, kde-format
@@ -5984,11 +6016,11 @@ msgid "Allow odd indentation level (no multiple of indent width)."
 msgstr ""
 
 #: variableeditor/variablelineedit.cpp:244
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Show &Line Numbers"
 msgctxt "short translation please"
 msgid "Show line numbers."
-msgstr "Hiện &số hiệu dòng"
+msgstr "Hiện &số thứ tự dòng."
 
 #: variableeditor/variablelineedit.cpp:249
 #, kde-format
@@ -6749,7 +6781,7 @@ msgstr "&Tắt"
 #: view/kateview.cpp:721
 #, kde-format
 msgid "Follow &Line Numbers"
-msgstr "Sau &số thứ tự dòng"
+msgstr "Theo &số thứ tự dòng"
 
 #: view/kateview.cpp:721
 #, kde-format
@@ -6810,8 +6842,8 @@ msgid ""
 "Show/hide the icon border.<br /><br />The icon border shows bookmark "
 "symbols, for instance."
 msgstr ""
-"Bật/tắt hiển thị viền biểu tượng.<br/><br/>Tức là viền biểu tượng hiển thị "
-"kí hiệu Đánh dấu,"
+"Ẩn/hiện viền biểu tượng.<br /><br />Viền biểu tượng hiển thị các kí hiệu dấu "
+"nhớ chẳng hạn."
 
 #: view/kateview.cpp:751
 #, kde-format
@@ -7620,10 +7652,10 @@ msgstr "Bật/tắt hiển thị số thứ tự dòng bên trái khung xem."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkViRelLineNumbers)
 #: vimode/config/configwidget.ui:48
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Print &line numbers"
 msgid "Display relative line numbers"
-msgstr "In số &dòng"
+msgstr "Hiển thị số thứ tự dòng tương đối"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
 #: vimode/config/configwidget.ui:63
