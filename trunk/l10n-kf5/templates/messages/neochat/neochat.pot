@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-14 00:44+0000\n"
+"POT-Creation-Date: 2021-12-16 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -225,14 +225,14 @@ msgstr ""
 msgid "Complete the authentication steps in your browser"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/EncryptedDelegate.qml:11
+#: imports/NeoChat/Component/Timeline/EncryptedDelegate.qml:16
 #, kde-format
 msgid ""
 "This message is encrypted and the sender has not shared the key with this "
 "device."
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/FileDelegate.qml:36
+#: imports/NeoChat/Component/Timeline/FileDelegate.qml:44
 #, kde-format
 msgctxt ""
 "tooltip for a button on a message; offers ability to open its downloaded "
@@ -240,20 +240,20 @@ msgctxt ""
 msgid "Open File"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/FileDelegate.qml:47
+#: imports/NeoChat/Component/Timeline/FileDelegate.qml:55
 #, kde-format
 msgctxt "file download progress"
 msgid "%1 / %2"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/FileDelegate.qml:53
+#: imports/NeoChat/Component/Timeline/FileDelegate.qml:61
 #, kde-format
 msgctxt ""
 "tooltip for a button on a message; stops downloading the message's file"
 msgid "Stop Download"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/FileDelegate.qml:100
+#: imports/NeoChat/Component/Timeline/FileDelegate.qml:108
 #, kde-format
 msgctxt ""
 "tooltip for a button on a message; offers ability to download its file"
@@ -282,12 +282,18 @@ msgid_plural "%2 reacted with %3"
 msgstr[0] ""
 msgstr[1] ""
 
-#: imports/NeoChat/Component/Timeline/TextDelegate.qml:56
+#: imports/NeoChat/Component/Timeline/ReadMarkerDelegate.qml:20
+#, kde-format
+msgctxt "Relative time since the room was last read"
+msgid "Last read: %1"
+msgstr ""
+
+#: imports/NeoChat/Component/Timeline/RichLabel.qml:52
 #, kde-format
 msgid " (edited)"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/VideoDelegate.qml:88
+#: imports/NeoChat/Component/Timeline/VideoDelegate.qml:94
 #, kde-format
 msgid "Video"
 msgstr ""
@@ -572,7 +578,7 @@ msgstr ""
 
 #: imports/NeoChat/Menu/Timeline/FileDelegateContextMenu.qml:49
 #: imports/NeoChat/Menu/Timeline/MessageDelegateContextMenu.qml:32
-#: imports/NeoChat/Page/RoomPage.qml:221 src/notificationsmanager.cpp:63
+#: imports/NeoChat/Page/RoomPage.qml:221 src/notificationsmanager.cpp:66
 #, kde-format
 msgid "Reply"
 msgstr ""
@@ -606,7 +612,7 @@ msgstr ""
 msgid "Search for '%1'"
 msgstr ""
 
-#: imports/NeoChat/Menu/Timeline/MessageDelegateContextMenu.qml:95
+#: imports/NeoChat/Menu/Timeline/MessageDelegateContextMenu.qml:97
 #, kde-format
 msgid "Configure Web Shortcuts..."
 msgstr ""
@@ -797,28 +803,22 @@ msgstr ""
 msgid "Clipboard image"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:567
-#, kde-format
-msgctxt "Relative time since the room was last read"
-msgid "Last read: %1"
-msgstr ""
-
-#: imports/NeoChat/Page/RoomPage.qml:653
+#: imports/NeoChat/Page/RoomPage.qml:365
 #, kde-format
 msgid "Jump to first unread message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:676
+#: imports/NeoChat/Page/RoomPage.qml:388
 #, kde-format
 msgid "Jump to latest message"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:706
+#: imports/NeoChat/Page/RoomPage.qml:418
 #, kde-format
 msgid "Drag items here to share them"
 msgstr ""
 
-#: imports/NeoChat/Page/RoomPage.qml:738
+#: imports/NeoChat/Page/RoomPage.qml:450
 #, kde-format
 msgctxt "Message displayed when some users are typing"
 msgid "%2 is typing"
@@ -873,49 +873,49 @@ msgstr ""
 msgid "No name"
 msgstr ""
 
-#: imports/NeoChat/Panel/RoomDrawer.qml:156
+#: imports/NeoChat/Panel/RoomDrawer.qml:157
 #, kde-format
 msgid "No Canonical Alias"
 msgstr ""
 
-#: imports/NeoChat/Panel/RoomDrawer.qml:163
+#: imports/NeoChat/Panel/RoomDrawer.qml:164
 #, kde-format
 msgid "No Topic"
 msgstr ""
 
-#: imports/NeoChat/Panel/RoomDrawer.qml:180
+#: imports/NeoChat/Panel/RoomDrawer.qml:181
 #, kde-format
 msgid "Members"
 msgstr ""
 
-#: imports/NeoChat/Panel/RoomDrawer.qml:184
+#: imports/NeoChat/Panel/RoomDrawer.qml:185
 #, kde-format
 msgid "%1 Member"
 msgid_plural "%1 Members"
 msgstr[0] ""
 msgstr[1] ""
 
-#: imports/NeoChat/Panel/RoomDrawer.qml:184
+#: imports/NeoChat/Panel/RoomDrawer.qml:185
 #, kde-format
 msgid "No Member Count"
 msgstr ""
 
-#: imports/NeoChat/Panel/RoomDrawer.qml:256
+#: imports/NeoChat/Panel/RoomDrawer.qml:257
 #, kde-format
 msgid "Owner"
 msgstr ""
 
-#: imports/NeoChat/Panel/RoomDrawer.qml:259
+#: imports/NeoChat/Panel/RoomDrawer.qml:260
 #, kde-format
 msgid "Admin"
 msgstr ""
 
-#: imports/NeoChat/Panel/RoomDrawer.qml:262
+#: imports/NeoChat/Panel/RoomDrawer.qml:263
 #, kde-format
 msgid "Mod"
 msgstr ""
 
-#: imports/NeoChat/Panel/RoomDrawer.qml:265
+#: imports/NeoChat/Panel/RoomDrawer.qml:266
 #, kde-format
 msgid "Muted"
 msgstr ""
@@ -1358,29 +1358,29 @@ msgstr ""
 msgid "%1: %2"
 msgstr ""
 
-#: qml/main.qml:393
+#: qml/main.qml:398
 #, kde-format
 msgid "User consent"
 msgstr ""
 
-#: qml/main.qml:398
+#: qml/main.qml:403
 #, kde-format
 msgid ""
 "Your homeserver requires you to agree to its terms and conditions before "
 "being able to use it. Please click the button below to read them."
 msgstr ""
 
-#: qml/main.qml:403
+#: qml/main.qml:408
 #, kde-format
 msgid "Open"
 msgstr ""
 
-#: qml/main.qml:432
+#: qml/main.qml:437
 #, kde-format
 msgid "Start a chat"
 msgstr ""
 
-#: qml/main.qml:434
+#: qml/main.qml:439
 #, kde-format
 msgid "Do you want to start a chat with %1?"
 msgstr ""
@@ -1482,47 +1482,47 @@ msgstr ""
 msgid "Login Failed: %1"
 msgstr ""
 
-#: src/controller.cpp:358
+#: src/controller.cpp:361
 #, kde-format
 msgid "Access token wasn't found"
 msgstr ""
 
-#: src/controller.cpp:358
+#: src/controller.cpp:361
 #, kde-format
 msgid "Maybe it was deleted?"
 msgstr ""
 
-#: src/controller.cpp:362
+#: src/controller.cpp:365
 #, kde-format
 msgid "Access to keychain was denied."
 msgstr ""
 
-#: src/controller.cpp:362
+#: src/controller.cpp:365
 #, kde-format
 msgid "Please allow NeoChat to read the access token"
 msgstr ""
 
-#: src/controller.cpp:365
+#: src/controller.cpp:368
 #, kde-format
 msgid "No keychain available."
 msgstr ""
 
-#: src/controller.cpp:365
+#: src/controller.cpp:368
 #, kde-format
 msgid "Please install a keychain, e.g. KWallet or GNOME keyring on Linux"
 msgstr ""
 
-#: src/controller.cpp:368
+#: src/controller.cpp:371
 #, kde-format
 msgid "Unable to read access token"
 msgstr ""
 
-#: src/controller.cpp:616
+#: src/controller.cpp:609
 #, kde-format
 msgid "Room creation failed: \"%1\""
 msgstr ""
 
-#: src/controller.cpp:629
+#: src/controller.cpp:622
 #, kde-format
 msgid "The room id you are trying to join is not valid"
 msgstr ""
@@ -1567,12 +1567,12 @@ msgstr ""
 msgid "A Qt5 library to write cross-platform clients for Matrix"
 msgstr ""
 
-#: src/main.cpp:220
+#: src/main.cpp:226
 #, kde-format
 msgid "Client for the matrix communication protocol"
 msgstr ""
 
-#: src/main.cpp:221
+#: src/main.cpp:227
 #, kde-format
 msgid "Supports appstream: url scheme"
 msgstr ""
@@ -1587,37 +1587,37 @@ msgstr ""
 msgid "Image request has been cancelled"
 msgstr ""
 
-#: src/messageeventmodel.cpp:330
+#: src/messageeventmodel.cpp:331
 #, kde-format
 msgid "Today"
 msgstr ""
 
-#: src/messageeventmodel.cpp:333
+#: src/messageeventmodel.cpp:334
 #, kde-format
 msgid "Yesterday"
 msgstr ""
 
-#: src/messageeventmodel.cpp:336
+#: src/messageeventmodel.cpp:337
 #, kde-format
 msgid "The day before yesterday"
 msgstr ""
 
-#: src/messageeventmodel.cpp:440
+#: src/messageeventmodel.cpp:439
 #, kde-format
 msgid "<i>[This message was deleted]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:441
+#: src/messageeventmodel.cpp:440
 #, kde-format
 msgid "<i>[This message was deleted: %1]</i>"
 msgstr ""
 
-#: src/messageeventmodel.cpp:520
+#: src/messageeventmodel.cpp:519
 #, kde-format
 msgid "[REDACTED]"
 msgstr ""
 
-#: src/messageeventmodel.cpp:520
+#: src/messageeventmodel.cpp:519
 #, kde-format
 msgid "[REDACTED: %1]"
 msgstr ""
@@ -1818,37 +1818,37 @@ msgstr ""
 msgid "Unknown event"
 msgstr ""
 
-#: src/notificationsmanager.cpp:51
+#: src/notificationsmanager.cpp:54
 #, kde-format
 msgid "%1 (%2)"
 msgstr ""
 
-#: src/notificationsmanager.cpp:57
+#: src/notificationsmanager.cpp:60
 #, kde-format
 msgid "Open NeoChat in this room"
 msgstr ""
 
-#: src/notificationsmanager.cpp:64
+#: src/notificationsmanager.cpp:67
 #, kde-format
 msgid "Reply..."
 msgstr ""
 
-#: src/notificationsmanager.cpp:83
+#: src/notificationsmanager.cpp:86
 #, kde-format
 msgid "%1 invited you to a room"
 msgstr ""
 
-#: src/notificationsmanager.cpp:86
+#: src/notificationsmanager.cpp:89
 #, kde-format
 msgid "Open this invitation in NeoChat"
 msgstr ""
 
-#: src/notificationsmanager.cpp:91
+#: src/notificationsmanager.cpp:97
 #, kde-format
 msgid "Accept Invitation"
 msgstr ""
 
-#: src/notificationsmanager.cpp:91
+#: src/notificationsmanager.cpp:97
 #, kde-format
 msgid "Reject Invitation"
 msgstr ""

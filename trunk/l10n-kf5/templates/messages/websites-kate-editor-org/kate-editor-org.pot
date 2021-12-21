@@ -271,125 +271,88 @@ msgstr ""
 msgid "Get Kate"
 msgstr ""
 
-#: content/get-it.en.md:0
-msgid "Install Kate"
-msgstr ""
-
-#: content/get-it.en.md:0
-msgid "via Discover"
-msgstr ""
-
-#: content/get-it.en.md:0
-msgid "Install Kate via Discover or other AppStream application stores"
-msgstr ""
-
-#: content/get-it.en.md:0
-msgid "Install KWrite"
-msgstr ""
-
-#: content/get-it.en.md:0
-msgid "Install KWrite via Discover or other AppStream application stores"
-msgstr ""
-
-#: content/get-it.en.md:24
+#: content/get-it.en.md:15
 msgid "Linux & Unices"
 msgstr ""
 
-#: content/get-it.en.md:26
+#: content/get-it.en.md:17
 msgid ""
 "Install [Kate](https://apps.kde.org/en/kate) or "
 "[KWrite](https://apps.kde.org/en/kwrite) from [your "
 "distribution](https://kde.org/distributions/)"
 msgstr ""
 
-#: content/get-it.en.md:30
-msgid ""
-"These buttons only works with [Discover](https://apps.kde.org/en/discover) "
-"and other AppStream application stores, such as [GNOME "
-"Software](https://wiki.gnome.org/Apps/Software). You can also use your "
-"distribution's package manager, such as [Muon](https://apps.kde.org/en/muon)"
-" or [Synaptic](https://wiki.debian.org/Synaptic)."
-msgstr ""
-
-#: content/get-it.en.md:34
+#: content/get-it.en.md:21
 msgid "[Kate's Snap package in Snapcraft](https://snapcraft.io/kate)"
 msgstr ""
 
-#: content/get-it.en.md:36
-msgid "Get Kate on the Snap store"
-msgstr ""
-
-#: content/get-it.en.md:38
+#: content/get-it.en.md:25
 msgid ""
 "[Kate's release (64bit) AppImage package](https://binary-"
 "factory.kde.org/job/Kate_Release_appimage/) *"
 msgstr ""
 
-#: content/get-it.en.md:39
+#: content/get-it.en.md:26
 msgid ""
 "[Kate's nightly (64bit) AppImage package](https://binary-"
 "factory.kde.org/job/Kate_Nightly_appimage/) **"
 msgstr ""
 
-#: content/get-it.en.md:40
+#: content/get-it.en.md:27
 msgid "[Build it](/build-it/#linux) from source."
 msgstr ""
 
-#: content/get-it.en.md:46
+#: content/get-it.en.md:33
 msgid "Windows"
 msgstr ""
 
-#: content/get-it.en.md:48
+#: content/get-it.en.md:35
 msgid ""
 "[Kate in the Microsoft "
 "Store](https://www.microsoft.com/store/apps/9NWMW7BB59HW)"
 msgstr ""
 
-#: content/get-it.en.md:50
-msgid "Get Kate from the Microsoft store"
-msgstr ""
-
-#: content/get-it.en.md:52
+#: content/get-it.en.md:39
 msgid "[Kate via Chocolatey](https://chocolatey.org/packages/kate)"
 msgstr ""
 
-#: content/get-it.en.md:53
+#: content/get-it.en.md:40
 msgid ""
 "[Kate release (64bit) installer](https://binary-"
 "factory.kde.org/view/Windows%2064-bit/job/Kate_Release_win64/) *"
 msgstr ""
 
-#: content/get-it.en.md:54
+#: content/get-it.en.md:41
 msgid ""
 "[Kate nightly (64bit) installer](https://binary-"
 "factory.kde.org/view/Windows%2064-bit/job/Kate_Nightly_win64/) **"
 msgstr ""
 
-#: content/get-it.en.md:55
+#: content/get-it.en.md:42
 msgid "[Build it](/build-it/#windows) from source."
 msgstr ""
 
-#: content/get-it.en.md:61
+#: content/get-it.en.md:48
 msgid "macOS"
 msgstr ""
 
-#: content/get-it.en.md:63
+#: content/get-it.en.md:50
 msgid ""
 "[Kate release installer](https://binary-"
 "factory.kde.org/view/MacOS/job/Kate_Release_macos/) *"
 msgstr ""
 
-#: content/get-it.en.md:64
+#: content/get-it.en.md:51
 msgid ""
 "[Kate nightly installer](https://binary-"
 "factory.kde.org/view/MacOS/job/Kate_Nightly_macos/) **"
 msgstr ""
 
-#: content/get-it.en.md:65
+#: content/get-it.en.md:52
 msgid "[Build it](/build-it/#mac) from source."
 msgstr ""
 
-#: content/get-it.en.md:72
+#: content/get-it.en.md:59
 msgid ""
 "**About the releases:** <br> [Kate](https://apps.kde.org/en/kate) and "
 "[KWrite](https://apps.kde.org/en/kwrite) are part of [KDE "
@@ -403,13 +366,13 @@ msgid ""
 "announced [here](https://kde.org/announcements/)."
 msgstr ""
 
-#: content/get-it.en.md:75
+#: content/get-it.en.md:62
 msgid ""
 "\\* The **release** packages contain the latest version of Kate and KDE "
 "Frameworks."
 msgstr ""
 
-#: content/get-it.en.md:77
+#: content/get-it.en.md:64
 msgid ""
 "\\*\\* The **nightly** packages are automatically compiled daily from source"
 " code, therefore they may be unstable and contain bugs or incomplete "
@@ -703,4 +666,25 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Available for Linux, Windows and macOS"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"These buttons only work with [Discover]({{ .Get \"discoverLink\" }}) and "
+"other AppStream application stores, such as [GNOME "
+"Software](https://wiki.gnome.org/Apps/Software). You can also use your "
+"distribution's package manager, such as [Muon]({{ .Get \"muonLink\" }}) or "
+"[Synaptic](https://wiki.debian.org/Synaptic)."
+msgstr ""
+
+#. Used in the download badge on https://kate-editor.org/get-it/. Please make
+#. it as short as possible.
+#: i18n/en.yaml:0
+msgid "Install Kate on"
+msgstr ""
+
+#. Used in the download badge on https://kate-editor.org/get-it/. Please make
+#. it as short as possible.
+#: i18n/en.yaml:0
+msgid "Install KWrite on"
 msgstr ""

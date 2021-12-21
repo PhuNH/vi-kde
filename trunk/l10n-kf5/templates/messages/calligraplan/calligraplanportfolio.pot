@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligraplan\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-14 00:44+0000\n"
+"POT-Creation-Date: 2021-12-21 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -76,11 +76,6 @@ msgctxt "@title:tab Document settings page"
 msgid "Document"
 msgstr ""
 
-#: config/ConfigDialog.cpp:30
-#, kde-format
-msgid "Documentation"
-msgstr ""
-
 #. i18n: ectx: label, entry (DocumentationPath), group (Documentation)
 #: config/portfoliosettings.kcfg:10
 #, kde-format
@@ -112,33 +107,33 @@ msgstr ""
 msgid "Create a backup file"
 msgstr ""
 
-#: DocumentsSaveDialog.cpp:23
-#, kde-format
-msgctxt "@info:title"
+#: DocumentsSaveDialog.cpp:23 PortfolioModel.cpp:21
+#, kde-format, kde-kuit-format
+msgctxt "@title:column"
 msgid "Portfolio"
 msgstr ""
 
 #: DocumentsSaveDialog.cpp:24
 #, kde-format
-msgctxt "@info:title"
+msgctxt "@title:column"
 msgid "Modified"
 msgstr ""
 
 #: DocumentsSaveDialog.cpp:25
 #, kde-format
-msgctxt "@info:title"
+msgctxt "@title:column"
 msgid "Save"
 msgstr ""
 
 #: DocumentsSaveDialog.cpp:26
 #, kde-format
-msgctxt "@info:title"
+msgctxt "@title:column"
 msgid "Internal"
 msgstr ""
 
 #: DocumentsSaveDialog.cpp:27
 #, kde-format
-msgctxt "@info:title"
+msgctxt "@title:column"
 msgid "Url"
 msgstr ""
 
@@ -204,15 +199,21 @@ msgctxt "@info"
 msgid "The project already exists.<nl/>Project: %1<nl/>Document: %2"
 msgstr ""
 
-#: MainDocument.cpp:162 PortfolioView.cpp:199
+#: MainDocument.cpp:162 PortfolioView.cpp:212
 #, kde-format
 msgctxt "@title:window"
 msgid "Could not add project"
 msgstr ""
 
-#: Part.cpp:61 Part.cpp:64
+#: Part.cpp:66
 #, kde-kuit-format
-msgctxt "@info:title"
+msgctxt "title:window"
+msgid "Portfolio Settings"
+msgstr ""
+
+#: Part.cpp:69
+#, kde-kuit-format
+msgctxt "@title:window"
 msgid "Portfolio Settings"
 msgstr ""
 
@@ -311,12 +312,6 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
-#: PortfolioModel.cpp:21
-#, kde-kuit-format
-msgctxt "@title:column"
-msgid "Portfolio"
-msgstr ""
-
 #: PortfolioModel.cpp:22
 #, kde-kuit-format
 msgctxt "@title:column"
@@ -350,25 +345,48 @@ msgstr ""
 msgid "External"
 msgstr ""
 
-#: PortfolioView.cpp:63
+#: PortfolioView.cpp:57
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>The Portfolio Content Editor</title><para>This editor enables you to "
+"configure the content of your portfolio. </para><para>Select <interface>Edit|"
+"Add</interface> or press <interface>Add...</interface> to add projects to "
+"your portfolio.<nl/>Select <interface>Edit|Remove</interface> or press "
+"<interface>Remove</interface> to remove selected projects. </para><para><nl/"
+"><link url='%1'>More...</link></para>"
+msgstr ""
+
+#: PortfolioView.cpp:76
 #, kde-format
 msgid "Add"
 msgstr ""
 
-#: PortfolioView.cpp:68
+#: PortfolioView.cpp:81
 #, kde-format
 msgid "Remove"
 msgstr ""
 
-#: PortfolioView.cpp:89
+#: PortfolioView.cpp:102
 #, kde-format
 msgid "Add Project"
 msgstr ""
 
-#: PortfolioView.cpp:198
+#: PortfolioView.cpp:211
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The project already exists.<nl/>Project: %1<nl/> Document: %2"
+msgstr ""
+
+#: ProjectsDashboard.cpp:79
+#, kde-format
+msgid "Projects"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Form)
+#: ProjectsDashboard.ui:14
+#, kde-format
+msgid "Form"
 msgstr ""
 
 #: ProjectsModel.cpp:129
@@ -649,42 +667,42 @@ msgstr ""
 msgid "Scheduler:"
 msgstr ""
 
-#: View.cpp:59
+#: View.cpp:58
 #, kde-format
 msgid "Portfolio Content"
 msgstr ""
 
-#: View.cpp:64
+#: View.cpp:63
 #, kde-format
 msgid "Scheduling"
 msgstr ""
 
-#: View.cpp:68
+#: View.cpp:67
 #, kde-format
 msgid "Summary"
 msgstr ""
 
-#: View.cpp:75
+#: View.cpp:74
 #, kde-format
 msgid "Performance"
 msgstr ""
 
-#: View.cpp:79
+#: View.cpp:78
 #, kde-format
 msgid "Progress"
 msgstr ""
 
-#: View.cpp:83
+#: View.cpp:82
 #, kde-format
 msgid "Resource Usage"
 msgstr ""
 
-#: View.cpp:88
+#: View.cpp:87
 #, kde-format
 msgid "Gantt Summary"
 msgstr ""
 
-#: View.cpp:112
+#: View.cpp:111
 #, kde-format
 msgid "Configure Portfolio..."
 msgstr ""
