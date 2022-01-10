@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:44+0000\n"
+"POT-Creation-Date: 2022-01-08 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 
 #: apps/widget/main.cpp:57
 #, kde-format
-msgid "Copyright © 2020-2021 Ruqola authors"
+msgid "Copyright © 2020-2022 Ruqola authors"
 msgstr ""
 
 #: apps/widget/main.cpp:59
@@ -134,22 +134,32 @@ msgstr ""
 msgid "Packaging"
 msgstr ""
 
-#: apps/widget/main.cpp:77
+#: apps/widget/main.cpp:73
 #, kde-format
-msgid "Return lists of accounts"
+msgid "Waqar Ahmed"
+msgstr ""
+
+#: apps/widget/main.cpp:73
+#, kde-format
+msgid "Bug fixing (compile, network crash...)"
 msgstr ""
 
 #: apps/widget/main.cpp:78
 #, kde-format
+msgid "Return lists of accounts"
+msgstr ""
+
+#: apps/widget/main.cpp:79
+#, kde-format
 msgid "Start with specific account"
 msgstr ""
 
-#: apps/widget/main.cpp:81
+#: apps/widget/main.cpp:82
 #, kde-format
 msgid "Lists the available options for user feedback"
 msgstr ""
 
-#: apps/widget/main.cpp:102
+#: apps/widget/main.cpp:103
 #, kde-format
 msgid "The following accounts are available:"
 msgstr ""
@@ -524,20 +534,24 @@ msgstr ""
 #: core/model/adminpermissionsmodel.cpp:30
 #: core/model/adminrolesmodel.cpp:32 core/model/adminroomsmodel.cpp:30
 #: core/model/adminusersmodel.cpp:71 core/model/directoryroomsmodel.cpp:115
-#: core/model/directoryteamsmodel.cpp:89 core/model/directoryusersmodel.cpp:94
+#: core/model/directoryteamsmodel.cpp:89 core/model/directoryusersmodel.cpp:96
 #: core/model/usersinrolemodel.cpp:87 widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:40
 #, kde-format
 msgid "Name"
 msgstr ""
 
 #: core/model/admincustomemojimodel.cpp:32
-#: core/model/admincustomemojimodel.cpp:34
 #: core/model/admincustomsoundmodel.cpp:32
 #: core/model/adminrolesmodel.cpp:30 core/model/adminroomsmodel.cpp:38
 #: core/model/directoryroomsmodel.cpp:121
 #: core/model/directoryteamsmodel.cpp:93
 #, kde-format
 msgid "Identifier"
+msgstr ""
+
+#: core/model/admincustomemojimodel.cpp:34
+#, kde-format
+msgid "Aliases"
 msgstr ""
 
 #: core/model/admininvitemodel.cpp:34
@@ -686,12 +700,12 @@ msgstr ""
 msgid "Rooms"
 msgstr ""
 
-#: core/model/directoryusersmodel.cpp:96 core/model/usersinrolemodel.cpp:89
+#: core/model/directoryusersmodel.cpp:98 core/model/usersinrolemodel.cpp:89
 #, kde-format
 msgid "Emails"
 msgstr ""
 
-#: core/model/directoryusersmodel.cpp:98
+#: core/model/directoryusersmodel.cpp:100
 #, kde-format
 msgid "Join At"
 msgstr ""
@@ -1058,12 +1072,12 @@ msgstr ""
 msgid "<strong>%1</strong> are typing..."
 msgstr ""
 
-#: core/rocketchataccount.cpp:2619
+#: core/rocketchataccount.cpp:2634
 #, kde-format
 msgid "Export Messages"
 msgstr ""
 
-#: core/rocketchataccount.cpp:2620
+#: core/rocketchataccount.cpp:2635
 #, kde-format
 msgid "Your email has been queued for sending."
 msgstr ""
@@ -1221,13 +1235,14 @@ msgid "Invalid emoji provided."
 msgstr ""
 
 #: rocketchatrestapi-qt5/emoji/emojicustomcreatejob.cpp:37
+#: rocketchatrestapi-qt5/emoji/emojicustomupdatejob.cpp:38
 #: rocketchatrestapi-qt5/uploadfilejob.cpp:54
 #: rocketchatrestapi-qt5/users/setavatarjob.cpp:41
 #, kde-format
 msgid "File not found '%1'"
 msgstr ""
 
-#: rocketchatrestapi-qt5/emoji/emojicustomcreatejob.cpp:138
+#: rocketchatrestapi-qt5/emoji/emojicustomcreatejob.cpp:139
 #, kde-format
 msgid "The custom emoji or one of its aliases is already in use."
 msgstr ""
@@ -1935,22 +1950,22 @@ msgid_plural "%1 custom emojis (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:147
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:148
 #, kde-format
 msgid "Do you want to remove this emoji?"
 msgstr ""
 
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:148
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:149
 #, kde-format
 msgctxt "@title"
 msgid "Remove Emoji"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, addServer)
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:174
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:175
 #: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:142
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:128
-#: widgets/administratordialog/roles/administratorroleswidget.cpp:95
+#: widgets/administratordialog/roles/administratorroleswidget.cpp:98
 #: widgets/administratordialog/roles/usersinrolewidget.cpp:104
 #: widgets/administratordialog/users/administratoruserswidget.cpp:178
 #: widgets/configuredialog/configureaccountserverwidget.ui:30
@@ -1959,11 +1974,11 @@ msgid "Add..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, modifyServer)
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:177
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:178
 #: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:144
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:131
 #: widgets/administratordialog/permissions/permissionswidget.cpp:91
-#: widgets/administratordialog/roles/administratorroleswidget.cpp:97
+#: widgets/administratordialog/roles/administratorroleswidget.cpp:100
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:63
 #: widgets/administratordialog/users/administratoruserswidget.cpp:184
 #: widgets/configuredialog/configureaccountserverwidget.ui:37
@@ -1972,11 +1987,11 @@ msgid "Modify..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeServer)
-#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:182
+#: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:183
 #: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:148
 #: widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:133
 #: widgets/administratordialog/invites/invitetreeview.cpp:38
-#: widgets/administratordialog/roles/administratorroleswidget.cpp:111
+#: widgets/administratordialog/roles/administratorroleswidget.cpp:114
 #: widgets/administratordialog/roles/usersinrolewidget.cpp:108
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:67
 #: widgets/administratordialog/users/administratoruserswidget.cpp:196
@@ -2084,17 +2099,17 @@ msgstr ""
 msgid "Search Roles..."
 msgstr ""
 
-#: widgets/administratordialog/roles/administratorroleswidget.cpp:103
+#: widgets/administratordialog/roles/administratorroleswidget.cpp:106
 #, kde-format
 msgid "Add User In Role..."
 msgstr ""
 
-#: widgets/administratordialog/roles/administratorroleswidget.cpp:215
+#: widgets/administratordialog/roles/administratorroleswidget.cpp:218
 #, kde-format
 msgid "Do you want to remove this role '%1'?"
 msgstr ""
 
-#: widgets/administratordialog/roles/administratorroleswidget.cpp:216
+#: widgets/administratordialog/roles/administratorroleswidget.cpp:219
 #, kde-format
 msgid "Remove Role"
 msgstr ""
@@ -2142,7 +2157,6 @@ msgid "Add User in Role"
 msgstr ""
 
 #: widgets/administratordialog/roles/usersinrolewidget.cpp:34
-#: widgets/administratordialog/rooms/administratorroomswidget.cpp:42
 #: widgets/administratordialog/users/administratoruserswidget.cpp:37
 #: widgets/directory/directorywidget.cpp:38
 #, kde-format
@@ -2174,7 +2188,7 @@ msgstr ""
 
 #: widgets/administratordialog/roles/usersinrolewidget.cpp:122
 #: widgets/administratordialog/users/administratoruserswidget.cpp:211
-#: widgets/directory/directorywidget.cpp:184
+#: widgets/directory/directorywidget.cpp:182
 #, kde-format
 msgid "%1 user (Total: %2)"
 msgid_plural "%1 users (Total: %2)"
@@ -2240,13 +2254,18 @@ msgstr ""
 msgid "Public"
 msgstr ""
 
+#: widgets/administratordialog/rooms/administratorroomswidget.cpp:42
+#, kde-format
+msgid "Search Rooms"
+msgstr ""
+
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:76
 #, kde-format
 msgid "No room found"
 msgstr ""
 
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:81
-#: widgets/directory/directorywidget.cpp:181
+#: widgets/directory/directorywidget.cpp:179
 #, kde-format
 msgid "%1 room (Total: %2)"
 msgid_plural "%1 rooms (Total: %2)"
@@ -2564,7 +2583,7 @@ msgid "Mark As Unread"
 msgstr ""
 
 #: widgets/channellist/channellistview.cpp:97
-#: widgets/room/messagelistview.cpp:217
+#: widgets/room/messagelistview.cpp:232
 #, kde-format
 msgid "Set as Favorite"
 msgstr ""
@@ -2720,7 +2739,7 @@ msgid "Add Users in Room"
 msgstr ""
 
 #: widgets/dialogs/addusersinroomwidget.cpp:23
-#: widgets/directory/directorywidget.cpp:205
+#: widgets/directory/directorywidget.cpp:203
 #: widgets/room/usersinroomwidget.cpp:41
 #, kde-format
 msgid "Search Users..."
@@ -2778,7 +2797,7 @@ msgid "Channel Info about '%1'"
 msgstr ""
 
 #: widgets/dialogs/channelinfoeditablewidget.cpp:41
-#: widgets/room/messagelistview.cpp:224
+#: widgets/room/messagelistview.cpp:239
 #, kde-format
 msgid "Delete"
 msgstr ""
@@ -3305,18 +3324,18 @@ msgctxt "@title:window"
 msgid "Search Messages"
 msgstr ""
 
-#: widgets/dialogs/searchmessagedialog.cpp:78
+#: widgets/dialogs/searchmessagedialog.cpp:73
 #, kde-format
 msgctxt "@title:window"
 msgid "Search Messages in '%1'"
 msgstr ""
 
-#: widgets/dialogs/searchmessagewidget.cpp:30
+#: widgets/dialogs/searchmessagewidget.cpp:31
 #, kde-format
 msgid "Search Messages"
 msgstr ""
 
-#: widgets/dialogs/searchmessagewidget.cpp:77
+#: widgets/dialogs/searchmessagewidget.cpp:82
 #: widgets/dialogs/showdiscussionswidget.cpp:67
 #: widgets/dialogs/showlistmessagebasewidget.cpp:79
 #: widgets/room/usersinroomwidget.cpp:136
@@ -3324,14 +3343,14 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
-#: widgets/dialogs/searchmessagewidget.cpp:81
+#: widgets/dialogs/searchmessagewidget.cpp:86
 #: widgets/dialogs/showlistmessagebasewidget.cpp:81
 #: widgets/room/usersinroomwidget.cpp:138
 #, kde-format
 msgid "No Message found"
 msgstr ""
 
-#: widgets/dialogs/searchmessagewidget.cpp:87
+#: widgets/dialogs/searchmessagewidget.cpp:92
 #, kde-format
 msgid "%1 Message in room"
 msgid_plural "%1 Messages in room"
@@ -3530,7 +3549,7 @@ msgctxt "@title:window"
 msgid "Video: %1"
 msgstr ""
 
-#: widgets/dialogs/showvideowidget.cpp:137
+#: widgets/dialogs/showvideowidget.cpp:152
 #, kde-format
 msgid "Error: "
 msgstr ""
@@ -3557,34 +3576,34 @@ msgstr ""
 msgid "Open..."
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:165
+#: widgets/directory/directorywidget.cpp:163
 #, kde-format
 msgid "No Room found"
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:167
+#: widgets/directory/directorywidget.cpp:165
 #, kde-format
 msgid "No User found"
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:169
+#: widgets/directory/directorywidget.cpp:167
 #, kde-format
 msgid "No Team found"
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:187
+#: widgets/directory/directorywidget.cpp:185
 #, kde-format
 msgid "%1 team (Total: %2)"
 msgid_plural "%1 teams (Total: %2)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/directory/directorywidget.cpp:202
+#: widgets/directory/directorywidget.cpp:200
 #, kde-format
 msgid "Search Rooms..."
 msgstr ""
 
-#: widgets/directory/directorywidget.cpp:208
+#: widgets/directory/directorywidget.cpp:206
 #, kde-format
 msgid "Search Teams..."
 msgstr ""
@@ -3728,7 +3747,7 @@ msgstr ""
 msgid "Search Word..."
 msgstr ""
 
-#: widgets/misc/servermenu.cpp:19
+#: widgets/misc/servermenu.cpp:20
 #, kde-format
 msgid "Server"
 msgstr ""
@@ -4159,23 +4178,38 @@ msgstr ""
 msgid "Save Sound"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:484
+#: widgets/room/delegate/messagelistdelegate.cpp:497
 #, kde-format
 msgid "1 reply"
 msgid_plural "%1 replies"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:491
+#: widgets/room/delegate/messagelistdelegate.cpp:504
 #, kde-format
 msgid "1 message"
 msgid_plural "%1 messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:491
+#: widgets/room/delegate/messagelistdelegate.cpp:504
 #, kde-format
 msgid "No message yet"
+msgstr ""
+
+#: widgets/room/delegate/messagelistdelegate.cpp:699
+#, kde-format
+msgid "Following"
+msgstr ""
+
+#: widgets/room/delegate/messagelistdelegate.cpp:703
+#, kde-format
+msgid "Message has been pinned"
+msgstr ""
+
+#: widgets/room/delegate/messagelistdelegate.cpp:707
+#, kde-format
+msgid "Message has been starred"
 msgstr ""
 
 #: widgets/room/messagelinewidget.cpp:227
@@ -4188,102 +4222,112 @@ msgstr ""
 msgid "File upload"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:200
+#: widgets/room/messagelistview.cpp:215
 #, kde-format
 msgid "Copy Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:208
+#: widgets/room/messagelistview.cpp:223
 #, kde-format
 msgid "Unpin Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:208
+#: widgets/room/messagelistview.cpp:223
 #, kde-format
 msgid "Pin Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:217
+#: widgets/room/messagelistview.cpp:232
 #, kde-format
 msgid "Remove as Favorite"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:230
+#: widgets/room/messagelistview.cpp:245
 #, kde-format
 msgid "Select All"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:235
+#: widgets/room/messagelistview.cpp:250
 #, kde-format
 msgid "Mark Message As Unread"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:240
+#: widgets/room/messagelistview.cpp:255
 #, kde-format
 msgid "Show Full Thread"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:245
+#: widgets/room/messagelistview.cpp:260
 #, kde-format
 msgid "Edit"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:250
+#: widgets/room/messagelistview.cpp:265
 #, kde-format
 msgid "Quote"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:255
+#: widgets/room/messagelistview.cpp:270
 #, kde-format
 msgid "Copy Link To Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:267
+#: widgets/room/messagelistview.cpp:280
+#, kde-format
+msgid "Unfollow Message"
+msgstr ""
+
+#: widgets/room/messagelistview.cpp:280
+#, kde-format
+msgid "Follow Message"
+msgstr ""
+
+#: widgets/room/messagelistview.cpp:293
 #, kde-format
 msgid "Copy URL"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:277
+#: widgets/room/messagelistview.cpp:303
 #, kde-format
 msgid "Start a Private Conversation"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:283
+#: widgets/room/messagelistview.cpp:309
 #, kde-format
 msgid "Start a Discussion"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:290
+#: widgets/room/messagelistview.cpp:316
 #, kde-format
 msgid "Reply in Thread"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:337
+#: widgets/room/messagelistview.cpp:366
 #, kde-format
 msgid "Show Original Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:337
+#: widgets/room/messagelistview.cpp:366
 #, kde-format
 msgid "Translate Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:392
+#: widgets/room/messagelistview.cpp:421
 #, kde-format
 msgid "Go to Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:410
+#: widgets/room/messagelistview.cpp:439
 #, kde-format
 msgid "Report Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:570
+#: widgets/room/messagelistview.cpp:621
 #, kde-format
 msgid "Do you want to delete this message?"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:571
+#: widgets/room/messagelistview.cpp:622
 #, kde-format
 msgctxt "@title"
 msgid "Delete Message"
@@ -4788,7 +4832,7 @@ msgstr ""
 #: widgets/threadwidget/threadmessagedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
-msgid "Threads"
+msgid "Thread"
 msgstr ""
 
 #: widgets/userfeedback/accountinfosource.cpp:22

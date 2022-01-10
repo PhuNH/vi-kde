@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligraplan\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-21 00:43+0000\n"
+"POT-Creation-Date: 2022-01-05 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -59,18 +59,18 @@ msgid "&File"
 msgstr ""
 
 #. i18n: ectx: Menu (settings)
-#: calligraplanportfolio_shell.rc:11 Portfolio_ViewUi.rc:40
+#: calligraplanportfolio_shell.rc:11
 #, kde-format
 msgid "&Settings"
 msgstr ""
 
 #. i18n: ectx: Menu (help)
-#: calligraplanportfolio_shell.rc:23 Portfolio_ViewUi.rc:44
+#: calligraplanportfolio_shell.rc:24 Portfolio_ViewUi.rc:40
 #, kde-format
 msgid "&Help"
 msgstr ""
 
-#: config/ConfigDialog.cpp:27
+#: config/ConfigDialog.cpp:28
 #, kde-format
 msgctxt "@title:tab Document settings page"
 msgid "Document"
@@ -138,13 +138,13 @@ msgid "Url"
 msgstr ""
 
 #: DocumentsSaveDialog.cpp:53 DocumentsSaveDialog.cpp:59
-#: PortfolioModel.cpp:76 PortfolioModel.cpp:87
+#: PortfolioModel.cpp:93 PortfolioModel.cpp:104
 #, kde-format
 msgid "Yes"
 msgstr ""
 
 #: DocumentsSaveDialog.cpp:53 DocumentsSaveDialog.cpp:59
-#: PortfolioModel.cpp:76 PortfolioModel.cpp:87
+#: PortfolioModel.cpp:93 PortfolioModel.cpp:104
 #, kde-format
 msgid "No"
 msgstr ""
@@ -199,19 +199,32 @@ msgctxt "@info"
 msgid "The project already exists.<nl/>Project: %1<nl/>Document: %2"
 msgstr ""
 
-#: MainDocument.cpp:162 PortfolioView.cpp:212
+#: MainDocument.cpp:162 PortfolioView.cpp:215
 #, kde-format
 msgctxt "@title:window"
 msgid "Could not add project"
 msgstr ""
 
-#: Part.cpp:66
+#: MainWindow.cpp:140
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<p>The external project file <filename>%1</filename> has been modified.</"
+"p><p>Do you want to save it?</p>"
+msgstr ""
+
+#: Part.cpp:59
+#, kde-format
+msgid "Configure Portfolio..."
+msgstr ""
+
+#: Part.cpp:72
 #, kde-kuit-format
 msgctxt "title:window"
 msgid "Portfolio Settings"
 msgstr ""
 
-#: Part.cpp:69
+#: Part.cpp:75
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Portfolio Settings"
@@ -301,13 +314,13 @@ msgid "&Edit"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: Portfolio_ViewUi.rc:48
+#: Portfolio_ViewUi.rc:44
 #, kde-format
 msgid "File"
 msgstr ""
 
 #. i18n: ectx: ToolBar (edit_toolbar)
-#: Portfolio_ViewUi.rc:53
+#: Portfolio_ViewUi.rc:49
 #, kde-format
 msgid "Edit"
 msgstr ""
@@ -324,23 +337,43 @@ msgctxt "@title:column"
 msgid "File"
 msgstr ""
 
-#: PortfolioModel.cpp:74 SchedulingModel.cpp:126
+#: PortfolioModel.cpp:67
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Defines if the project is part of the portfolio"
+msgstr ""
+
+#: PortfolioModel.cpp:69
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Defines if the project is stored embedded in the portfolio file or in the "
+"external file"
+msgstr ""
+
+#: PortfolioModel.cpp:71
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The external url of the project file"
+msgstr ""
+
+#: PortfolioModel.cpp:91 SchedulingModel.cpp:126
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: PortfolioModel.cpp:82
+#: PortfolioModel.cpp:99
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Failed to load the document"
 msgstr ""
 
-#: PortfolioModel.cpp:99 PortfolioModel.cpp:104
+#: PortfolioModel.cpp:116 PortfolioModel.cpp:121
 #, kde-format
 msgid "Embedded"
 msgstr ""
 
-#: PortfolioModel.cpp:99 PortfolioModel.cpp:104
+#: PortfolioModel.cpp:116 PortfolioModel.cpp:121
 #, kde-format
 msgid "External"
 msgstr ""
@@ -350,29 +383,32 @@ msgstr ""
 msgctxt "@info:whatsthis"
 msgid ""
 "<title>The Portfolio Content Editor</title><para>This editor enables you to "
-"configure the content of your portfolio. </para><para>Select <interface>Edit|"
+"configure the content of your portfolio.</para><para>Select <interface>Edit|"
 "Add</interface> or press <interface>Add...</interface> to add projects to "
 "your portfolio.<nl/>Select <interface>Edit|Remove</interface> or press "
-"<interface>Remove</interface> to remove selected projects. </para><para><nl/"
-"><link url='%1'>More...</link></para>"
+"<interface>Remove</interface> to remove selected projects.</para><para>Add "
+"the projects you are managing and set Portfolio = Yes. If you have resources "
+"that is shared between multiple projects and you want to re-schedule, you "
+"need to add all relevant projects and then set Portfolio = No for these "
+"projects.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: PortfolioView.cpp:76
+#: PortfolioView.cpp:79
 #, kde-format
 msgid "Add"
 msgstr ""
 
-#: PortfolioView.cpp:81
+#: PortfolioView.cpp:84
 #, kde-format
 msgid "Remove"
 msgstr ""
 
-#: PortfolioView.cpp:102
+#: PortfolioView.cpp:105
 #, kde-format
 msgid "Add Project"
 msgstr ""
 
-#: PortfolioView.cpp:211
+#: PortfolioView.cpp:214
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The project already exists.<nl/>Project: %1<nl/> Document: %2"
@@ -381,12 +417,6 @@ msgstr ""
 #: ProjectsDashboard.cpp:79
 #, kde-format
 msgid "Projects"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, Form)
-#: ProjectsDashboard.ui:14
-#, kde-format
-msgid "Form"
 msgstr ""
 
 #: ProjectsModel.cpp:129
@@ -667,42 +697,37 @@ msgstr ""
 msgid "Scheduler:"
 msgstr ""
 
-#: View.cpp:58
+#: View.cpp:56
 #, kde-format
 msgid "Portfolio Content"
 msgstr ""
 
-#: View.cpp:63
+#: View.cpp:61
 #, kde-format
 msgid "Scheduling"
 msgstr ""
 
-#: View.cpp:67
+#: View.cpp:65
 #, kde-format
 msgid "Summary"
 msgstr ""
 
-#: View.cpp:74
+#: View.cpp:72
 #, kde-format
 msgid "Performance"
 msgstr ""
 
-#: View.cpp:78
+#: View.cpp:76
 #, kde-format
 msgid "Progress"
 msgstr ""
 
-#: View.cpp:82
+#: View.cpp:80
 #, kde-format
 msgid "Resource Usage"
 msgstr ""
 
-#: View.cpp:87
+#: View.cpp:85
 #, kde-format
 msgid "Gantt Summary"
-msgstr ""
-
-#: View.cpp:111
-#, kde-format
-msgid "Configure Portfolio..."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-22 02:06+0000\n"
+"POT-Creation-Date: 2022-01-10 02:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -13844,8 +13844,8 @@ msgid ""
 "Wayland. Krita will close now."
 msgstr ""
 
-#: krita/main.cc:610 libs/ui/KisApplication.cpp:412
-#: libs/ui/KisApplication.cpp:680
+#: krita/main.cc:610 libs/ui/KisApplication.cpp:413
+#: libs/ui/KisApplication.cpp:681
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
@@ -14452,8 +14452,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KoColorPopupButton, btnChoosePredefinedGradient)
 #. i18n: ectx: property (text), widget (QToolButton, btnSaveGradient)
 #. i18n: ectx: property (text), widget (QToolButton, bnFont)
-#. i18n: ectx: property (text), widget (QToolButton, previousButton)
-#. i18n: ectx: property (text), widget (QToolButton, nextButton)
 #. i18n: ectx: property (text), widget (KisIconWidget, paletteIconWidget)
 #. i18n: ectx: property (text), widget (QToolButton, vectorPresetsConfigureButton)
 #. i18n: ectx: property (text), widget (KisLayerFilterWidgetToolButton, bnLayerFilters)
@@ -14549,8 +14547,6 @@ msgstr ""
 #: plugins/filters/palettize/palettize.ui:49
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:91
 #: plugins/python/exportlayers/uiexportlayers.py:29
-#: plugins/python/photobash_images/photobash_images_docker.ui:439
-#: plugins/python/photobash_images/photobash_images_docker.ui:461
 #: plugins/python/scriptdocker/scriptdocker.py:33
 #: plugins/python/tenscripts/uitenscripts.py:59
 #, kde-format
@@ -14692,7 +14688,7 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1352
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1355
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1421
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1063
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1073
 #: libs/ui/forms/wdgdisplaysettings.ui:318
 #: libs/ui/forms/wdgrectangleconstraints.ui:86
 #: libs/ui/forms/wdgrectangleconstraints.ui:134
@@ -14879,7 +14875,7 @@ msgid "Node Rename"
 msgstr ""
 
 #: libs/image/commands_new/kis_image_resize_command.cpp:16
-#: libs/image/kis_image.cc:803
+#: libs/image/kis_image.cc:820
 msgctxt "(qtundo-format)"
 msgid "Resize Image"
 msgstr ""
@@ -14960,7 +14956,7 @@ msgctxt "The category of filters that do not fit in a category. Noun."
 msgid "Other"
 msgstr ""
 
-#: libs/image/generator/kis_generator_layer.cpp:192
+#: libs/image/generator/kis_generator_layer.cpp:193
 #, kde-format
 msgid "Generator"
 msgstr ""
@@ -15089,110 +15085,110 @@ msgstr ""
 msgid "Imported Image"
 msgstr ""
 
-#: libs/image/kis_image.cc:639 libs/image/kis_layer_utils.cpp:1869
+#: libs/image/kis_image.cc:656 libs/image/kis_layer_utils.cpp:1870
 #: libs/impex/KisExportCheckRegistry.cpp:113
 #, kde-format
 msgid "Selection Mask"
 msgstr ""
 
-#: libs/image/kis_image.cc:699 libs/ui/KisDocument.cpp:2419
+#: libs/image/kis_image.cc:716 libs/ui/KisDocument.cpp:2425
 #: plugins/impex/psd/psd_loader.cpp:162 plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:69
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
 #, kde-format
 msgid "Background"
 msgstr ""
 
-#: libs/image/kis_image.cc:703 libs/ui/kis_layer_manager.cc:547
+#: libs/image/kis_image.cc:720 libs/ui/kis_layer_manager.cc:547
 #, kde-format
 msgid "Paint Layer"
 msgstr ""
 
-#: libs/image/kis_image.cc:802
+#: libs/image/kis_image.cc:819
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr ""
 
-#: libs/image/kis_image.cc:897
+#: libs/image/kis_image.cc:914
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr ""
 
-#: libs/image/kis_image.cc:898
+#: libs/image/kis_image.cc:915
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr ""
 
-#: libs/image/kis_image.cc:935
+#: libs/image/kis_image.cc:952
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr ""
 
-#: libs/image/kis_image.cc:936
+#: libs/image/kis_image.cc:953
 msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr ""
 
-#: libs/image/kis_image.cc:983
+#: libs/image/kis_image.cc:1000
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
 msgstr ""
 
-#: libs/image/kis_image.cc:1108
+#: libs/image/kis_image.cc:1125
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr ""
 
-#: libs/image/kis_image.cc:1114
+#: libs/image/kis_image.cc:1131
 msgctxt "(qtundo-format)"
 msgid "Rotate Mask"
 msgstr ""
 
-#: libs/image/kis_image.cc:1116
+#: libs/image/kis_image.cc:1133
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
 msgstr ""
 
-#: libs/image/kis_image.cc:1197
+#: libs/image/kis_image.cc:1214
 msgctxt "(qtundo-format)"
 msgid "Shear Mask"
 msgstr ""
 
-#: libs/image/kis_image.cc:1200
+#: libs/image/kis_image.cc:1217
 msgctxt "(qtundo-format)"
 msgid "Shear Layer"
 msgstr ""
 
-#: libs/image/kis_image.cc:1207
+#: libs/image/kis_image.cc:1224
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr ""
 
-#: libs/image/kis_image.cc:1225
+#: libs/image/kis_image.cc:1242
 msgctxt "(qtundo-format)"
 msgid "Convert Layer Color Space"
 msgstr ""
 
-#: libs/image/kis_image.cc:1276
+#: libs/image/kis_image.cc:1293
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr ""
 
-#: libs/image/kis_image.cc:1277
+#: libs/image/kis_image.cc:1294
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: libs/image/kis_image.cc:1335
+#: libs/image/kis_image.cc:1352
 msgctxt "(qtundo-format)"
 msgid "Assign Profile to Layer"
 msgstr ""
 
-#: libs/image/kis_image.cc:1376
+#: libs/image/kis_image.cc:1393
 msgctxt "(qtundo-format)"
 msgid "Assign Profile"
 msgstr ""
 
-#: libs/image/kis_image.cc:2423
+#: libs/image/kis_image.cc:2453
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
 msgstr ""
@@ -15311,7 +15307,7 @@ msgid "Onion Skins"
 msgstr ""
 
 #: libs/image/kis_layer_properties_icons.cpp:27
-#: libs/resources/KisResourceModel.cpp:142
+#: libs/resources/KisResourceModel.cpp:143
 #: libs/resources/KisStorageModel.cpp:429
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:72
 #, kde-format
@@ -15345,63 +15341,63 @@ msgstr ""
 msgid "Open File"
 msgstr ""
 
-#: libs/image/kis_layer_utils.cpp:597
+#: libs/image/kis_layer_utils.cpp:598
 #, kde-format
 msgid "Merged"
 msgstr ""
 
-#: libs/image/kis_layer_utils.cpp:1375
+#: libs/image/kis_layer_utils.cpp:1376
 msgctxt "(qtundo-format)"
 msgid "Merge Down"
 msgstr ""
 
-#: libs/image/kis_layer_utils.cpp:1599
+#: libs/image/kis_layer_utils.cpp:1600
 #, kde-format
 msgid "Copy of"
 msgstr ""
 
-#: libs/image/kis_layer_utils.cpp:1672
+#: libs/image/kis_layer_utils.cpp:1673
 msgctxt "(qtundo-format)"
 msgid "Change projection color"
 msgstr ""
 
-#: libs/image/kis_layer_utils.cpp:1832
+#: libs/image/kis_layer_utils.cpp:1833
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr ""
 
-#: libs/image/kis_layer_utils.cpp:1840
+#: libs/image/kis_layer_utils.cpp:1841
 msgctxt "(qtundo-format)"
 msgid "New From Visible"
 msgstr ""
 
-#: libs/image/kis_layer_utils.cpp:1840
+#: libs/image/kis_layer_utils.cpp:1841
 #, kde-format
 msgctxt "New layer created from all the visible layers"
 msgid "Visible"
 msgstr ""
 
-#: libs/image/kis_layer_utils.cpp:1918
+#: libs/image/kis_layer_utils.cpp:1919
 msgctxt "(qtundo-format)"
 msgid "Merge Selection Masks"
 msgstr ""
 
-#: libs/image/kis_layer_utils.cpp:1941
+#: libs/image/kis_layer_utils.cpp:1942
 msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr ""
 
-#: libs/image/kis_layer_utils.cpp:1954
+#: libs/image/kis_layer_utils.cpp:1955
 msgctxt "(qtundo-format)"
 msgid "Flatten Image"
 msgstr ""
 
-#: libs/image/kis_layer_utils.cpp:2146
+#: libs/image/kis_layer_utils.cpp:2147
 msgctxt "(qtundo-format)"
 msgid "Split Alpha into a Mask"
 msgstr ""
 
-#: libs/image/kis_layer_utils.cpp:2172
+#: libs/image/kis_layer_utils.cpp:2173
 msgctxt "(qtundo-format)"
 msgid "Convert to a Paint Layer"
 msgstr ""
@@ -15412,9 +15408,9 @@ msgid "Processing"
 msgstr ""
 
 #: libs/image/kis_psd_layer_style.cpp:104
-#: libs/ui/KisApplicationArguments.cpp:374
-#: libs/ui/KisMainWindow.cpp:1411 libs/ui/KisMainWindow.cpp:1682
-#: libs/ui/KisMainWindow.cpp:1701 plugins/impex/libkra/kis_kra_saver.cpp:90
+#: libs/ui/KisApplicationArguments.cpp:376
+#: libs/ui/KisMainWindow.cpp:1408 libs/ui/KisMainWindow.cpp:1679
+#: libs/ui/KisMainWindow.cpp:1698 plugins/impex/libkra/kis_kra_saver.cpp:90
 #, kde-format
 msgid "Unnamed"
 msgstr ""
@@ -16072,8 +16068,8 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr ""
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2050
-#: libs/ui/KisMainWindow.cpp:2132
+#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:2047
+#: libs/ui/KisMainWindow.cpp:2129
 #, kde-format
 msgid "Import frames"
 msgstr ""
@@ -17343,25 +17339,25 @@ msgstr ""
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:727
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:752
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:354
-#: libs/ui/dialogs/kis_dlg_preferences.cc:552
+#: libs/ui/dialogs/kis_dlg_preferences.cc:562
 #: libs/ui/input/kis_tablet_debugger.cpp:96
 #: libs/ui/kis_custom_pattern.cc:131 libs/ui/kis_filter_manager.cc:233
 #: libs/ui/kis_filter_manager.cc:242 libs/ui/kis_layer_manager.cc:304
 #: libs/ui/kis_layer_manager.cc:893 libs/ui/kis_node_manager.cpp:1218
-#: libs/ui/kis_node_manager.cpp:1281 libs/ui/KisApplication.cpp:976
-#: libs/ui/KisApplication.cpp:979 libs/ui/KisApplication.cpp:995
-#: libs/ui/KisApplication.cpp:1027 libs/ui/KisApplication.cpp:1041
-#: libs/ui/KisApplication.cpp:1069 libs/ui/KisDocument.cpp:911
-#: libs/ui/KisDocument.cpp:919 libs/ui/KisDocument.cpp:1775
-#: libs/ui/KisDocument.cpp:1818 libs/ui/KisDocument.cpp:1826
-#: libs/ui/KisMainWindow.cpp:1084 libs/ui/KisMainWindow.cpp:1211
-#: libs/ui/KisMainWindow.cpp:1309 libs/ui/KisMainWindow.cpp:1910
-#: libs/ui/KisMainWindow.cpp:1919 libs/ui/KisMainWindow.cpp:2058
-#: libs/ui/KisMainWindow.cpp:2117 libs/ui/KisMainWindow.cpp:2141
+#: libs/ui/kis_node_manager.cpp:1281 libs/ui/KisApplication.cpp:984
+#: libs/ui/KisApplication.cpp:987 libs/ui/KisApplication.cpp:1003
+#: libs/ui/KisApplication.cpp:1035 libs/ui/KisApplication.cpp:1049
+#: libs/ui/KisApplication.cpp:1077 libs/ui/KisDocument.cpp:917
+#: libs/ui/KisDocument.cpp:925 libs/ui/KisDocument.cpp:1781
+#: libs/ui/KisDocument.cpp:1824 libs/ui/KisDocument.cpp:1832
+#: libs/ui/KisMainWindow.cpp:1081 libs/ui/KisMainWindow.cpp:1208
+#: libs/ui/KisMainWindow.cpp:1306 libs/ui/KisMainWindow.cpp:1907
+#: libs/ui/KisMainWindow.cpp:1916 libs/ui/KisMainWindow.cpp:2055
+#: libs/ui/KisMainWindow.cpp:2114 libs/ui/KisMainWindow.cpp:2138
 #: libs/ui/KisPart.cpp:558 libs/ui/KisPart.cpp:561 libs/ui/KisReferenceImage.cpp:178
 #: libs/ui/KisRemoteFileFetcher.cpp:42 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:732
-#: libs/ui/KisWelcomePageWidget.cpp:706 libs/ui/opengl/kis_opengl_canvas2.cpp:388
+#: libs/ui/KisWelcomePageWidget.cpp:707 libs/ui/opengl/kis_opengl_canvas2.cpp:388
 #: libs/ui/utils/KisClipboardUtil.cpp:131
 #: libs/ui/utils/KisClipboardUtil.cpp:237
 #: libs/ui/widgets/kis_custom_image_widget.cc:299
@@ -17422,68 +17418,68 @@ msgstr ""
 msgid "2. The resource location at %1 is not writable."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:793
+#: libs/resources/KisResourceLocator.cpp:812
 #, kde-format
 msgid "Could not add %1 to the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:820
-#: libs/resources/KisResourceLocator.cpp:1127
+#: libs/resources/KisResourceLocator.cpp:856
+#: libs/resources/KisResourceLocator.cpp:1172
 #, kde-format
 msgid "Could not remove storage %1 from the database"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:896
+#: libs/resources/KisResourceLocator.cpp:937
 #, kde-format
 msgid ""
 "Krita is running for the first time. Initialization will take some time."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:903
+#: libs/resources/KisResourceLocator.cpp:944
 #, kde-format
 msgid "3. Could not create the resource location at %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:916
-#: libs/resources/KisResourceLocator.cpp:932
+#: libs/resources/KisResourceLocator.cpp:957
+#: libs/resources/KisResourceLocator.cpp:973
 #, kde-format
 msgid "Could not copy resource %1 to %2"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:928
+#: libs/resources/KisResourceLocator.cpp:969
 #, kde-format
 msgid "Installing the resources from bundle %1."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:950
+#: libs/resources/KisResourceLocator.cpp:991
 #, kde-format
 msgid "Initializing the resources."
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:984
+#: libs/resources/KisResourceLocator.cpp:1025
 #, kde-format
 msgid "Temporary Resources"
 msgstr ""
 
-#: libs/resources/KisResourceLocator.cpp:1103
-#: libs/resources/KisResourceLocator.cpp:1109
+#: libs/resources/KisResourceLocator.cpp:1148
+#: libs/resources/KisResourceLocator.cpp:1154
 #, kde-format
 msgid "Could not synchronize %1 with the database"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:124
+#: libs/resources/KisResourceModel.cpp:125
 #: libs/resources/KisStorageModel.cpp:419
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:66
 #, kde-format
 msgid "Id"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:126
+#: libs/resources/KisResourceModel.cpp:127
 #, kde-format
 msgid "Storage ID"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:128
+#: libs/resources/KisResourceModel.cpp:129
 #: libs/resources/KisStorageModel.cpp:433
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:70
 #: plugins/python/filtermanager/components/filtermanagertreemodel.py:18
@@ -17492,19 +17488,19 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:130
+#: libs/resources/KisResourceModel.cpp:131
 #, kde-format
 msgid "File Name"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:132
+#: libs/resources/KisResourceModel.cpp:133
 #, kde-format
 msgid "Tooltip"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/resources/KisResourceModel.cpp:134
+#: libs/resources/KisResourceModel.cpp:135
 #: libs/ui/imagesize/imagesize.xmlgui:4 plugins/extensions/imagesplit/imagesplit.xmlgui:4
 #: plugins/extensions/separate_channels/imageseparate.xmlgui:4
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:363
@@ -17514,30 +17510,30 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:136
+#: libs/resources/KisResourceModel.cpp:137
 #, kde-format
 msgid "Status"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:138
+#: libs/resources/KisResourceModel.cpp:139
 #: libs/resources/KisStorageModel.cpp:423
 #, kde-format
 msgid "Location"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/resources/KisResourceModel.cpp:140
+#: libs/resources/KisResourceModel.cpp:141
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:49
 #, kde-format
 msgid "Resource Type"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:144
+#: libs/resources/KisResourceModel.cpp:145
 #, kde-format
 msgid "Storage Active"
 msgstr ""
 
-#: libs/resources/KisResourceModel.cpp:146
+#: libs/resources/KisResourceModel.cpp:147
 #, kde-format
 msgid "md5sum"
 msgstr ""
@@ -17545,8 +17541,8 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab_hsx)
 #. i18n: ectx: property (text), widget (QLabel, lblCurrentRenderer)
 #: libs/resources/KisResourceStorage.h:116
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1416
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1420
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1426
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1430
 #: libs/ui/forms/wdgdisplaysettings.ui:172
 #: libs/ui/KoDocumentInfo.cpp:39 libs/widgets/KisDlgInternalColorSelector.cpp:322
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
@@ -17862,7 +17858,7 @@ msgid "Storage Resources"
 msgstr ""
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:229
-#: libs/ui/KisMainWindow.cpp:2554 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:571
+#: libs/ui/KisMainWindow.cpp:2551 plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:571
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -18300,7 +18296,7 @@ msgid "Failed to render animation frames! Output files are incomplete."
 msgstr ""
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:52
-#: libs/ui/KisMainWindow.cpp:2161
+#: libs/ui/KisMainWindow.cpp:2158
 #, kde-format
 msgid "Render Animation"
 msgstr ""
@@ -19259,8 +19255,8 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:38
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1701
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1703
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1711
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1713
 #: libs/ui/forms/wdgcolorsettings.ui:154 libs/ui/forms/wdgdisplaysettings.ui:24
 #, kde-format
 msgid "Display"
@@ -19354,8 +19350,8 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: attribute (title), widget (QWidget, general)
 #: libs/ui/animation/VideoImportDialog.ui:34
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1671
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1673
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1681
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1683
 #: libs/ui/forms/wdgcolorsettings.ui:28 libs/ui/forms/wdgperformancesettings.ui:38
 #: libs/ui/KoDocumentInfoDlg.cpp:92 libs/ui/KoDocumentInfoDlg.cpp:93
 #: plugins/dockers/logdocker/LogDockerDock.cpp:118
@@ -19395,7 +19391,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, thumbnailImageHolder)
 #: libs/ui/animation/VideoImportDialog.ui:130
-#: libs/widgetutils/KisPreviewFileDialog.cpp:92
+#: libs/widgetutils/KisPreviewFileDialog.cpp:96
 #, kde-format
 msgid "No Preview"
 msgstr ""
@@ -19997,73 +19993,73 @@ msgstr ""
 msgid "About Krita"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:42
+#: libs/ui/dialogs/kis_about_application.cpp:43
 #, kde-format
 msgid "About"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:47
+#: libs/ui/dialogs/kis_about_application.cpp:48
 #, kde-format
 msgid "<html><head/><body><h1 align=\"center\">Created By</h1></p><p>"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:64
+#: libs/ui/dialogs/kis_about_application.cpp:65
 #, kde-format
 msgctxt "Heading for the list of Krita authors/developers"
 msgid "Authors"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:70
+#: libs/ui/dialogs/kis_about_application.cpp:71
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:71
+#: libs/ui/dialogs/kis_about_application.cpp:72
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:77
+#: libs/ui/dialogs/kis_about_application.cpp:78
 #, kde-format
 msgctxt "@title:tab"
 msgid "Translators"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:84
+#: libs/ui/dialogs/kis_about_application.cpp:85
 #, kde-format
 msgid "<html><head/><body><h1 align=\"center\">Backed By</h1><p>"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:97
+#: libs/ui/dialogs/kis_about_application.cpp:98
 #, kde-format
 msgid ".</p><p><i>Thanks! You were all <b>awesome</b>!</i></p></body></html>"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:99
+#: libs/ui/dialogs/kis_about_application.cpp:100
 #, kde-format
 msgid "Backers"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:105
+#: libs/ui/dialogs/kis_about_application.cpp:106
 #, kde-format
 msgid "<html><head/><body><h1 align=\"center\">Thanks To</h1><p>"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:124
+#: libs/ui/dialogs/kis_about_application.cpp:125
 #, kde-format
 msgid ""
 ".</p><p><i>For supporting Krita development with advice, icons, brush sets "
 "and more.</i></p></body></html>"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:127
+#: libs/ui/dialogs/kis_about_application.cpp:128
 #, kde-format
 msgid "Also Thanks To"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:131
+#: libs/ui/dialogs/kis_about_application.cpp:132
 #, kde-format
 msgid ""
 "<html><head/><body><h1 align=\"center\"><b>Your Rights</b></h1><p>Krita is "
@@ -20082,12 +20078,12 @@ msgid ""
 "that will forbid your work in commercial situations.</p><br/><hr/><pre>"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:159
+#: libs/ui/dialogs/kis_about_application.cpp:160
 #, kde-format
 msgid "License"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:167
+#: libs/ui/dialogs/kis_about_application.cpp:168
 #, kde-format
 msgid ""
 "<html><head/><body><h1 align=\"center\"><b>Third-party Libraries used by "
@@ -20095,26 +20091,26 @@ msgid ""
 "p><p><ul>"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:185
+#: libs/ui/dialogs/kis_about_application.cpp:186
 #, kde-format
 msgid "Third-party libraries"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnClose)
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonClose)
-#: libs/ui/dialogs/kis_about_application.cpp:188
+#: libs/ui/dialogs/kis_about_application.cpp:189
 #: libs/ui/forms/wdgbookmarkedconfigurationseditor.ui:75
 #: libs/ui/forms/wdgsessionmanager.ui:94 plugins/python/scripter/ui_scripter/actions/closeaction/closeaction.py:20
 #, kde-format
 msgid "Close"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:212
+#: libs/ui/dialogs/kis_about_application.cpp:213
 #, kde-format
 msgid "<html><head/><body><h1 align=\"center\"><b>Translators</b></h1><p><ul>"
 msgstr ""
 
-#: libs/ui/dialogs/kis_about_application.cpp:224
+#: libs/ui/dialogs/kis_about_application.cpp:225
 #, kde-format
 msgid ""
 "<p>KDE is translated into many languages thanks to the work of the "
@@ -20217,7 +20213,7 @@ msgid "Numerical"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:137
-#: libs/ui/KisMainWindow.cpp:1179
+#: libs/ui/KisMainWindow.cpp:1176
 #, kde-format
 msgid "Import Images"
 msgstr ""
@@ -20344,7 +20340,7 @@ msgid "Enter new style name"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:275
-#: libs/ui/KisMainWindow.cpp:2565
+#: libs/ui/KisMainWindow.cpp:2562
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -20408,10 +20404,10 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1425
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1428
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1431
-#: libs/ui/dialogs/kis_dlg_preferences.cc:981
-#: libs/ui/dialogs/kis_dlg_preferences.cc:985
-#: libs/ui/dialogs/kis_dlg_preferences.cc:989
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1068
+#: libs/ui/dialogs/kis_dlg_preferences.cc:991
+#: libs/ui/dialogs/kis_dlg_preferences.cc:995
+#: libs/ui/dialogs/kis_dlg_preferences.cc:999
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1078
 #: plugins/impex/webp/dlg_webp_import.ui:356
 #: plugins/impex/webp/dlg_webp_import.ui:369
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:44
@@ -20549,27 +20545,27 @@ msgstr ""
 msgid "Show session manager"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:540
+#: libs/ui/dialogs/kis_dlg_preferences.cc:550
 #, kde-format
 msgid "Select a Background Image"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:552
+#: libs/ui/dialogs/kis_dlg_preferences.cc:562
 #: libs/ui/KisTemplateCreateDia.cpp:390
 #, kde-format
 msgid "%1 is not a valid image file!"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:649
+#: libs/ui/dialogs/kis_dlg_preferences.cc:659
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:55
 #: libs/ui/widgets/kis_color_space_selector.cc:52
 #, kde-format
 msgid "Open Color Profile"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:655
-#: libs/ui/dialogs/kis_dlg_preferences.cc:764
-#: libs/ui/dialogs/kis_dlg_preferences.cc:846
+#: libs/ui/dialogs/kis_dlg_preferences.cc:665
+#: libs/ui/dialogs/kis_dlg_preferences.cc:774
+#: libs/ui/dialogs/kis_dlg_preferences.cc:856
 #, kde-format
 msgctxt ""
 "The number of the screen (ordinal) and shortened 'name' of the screen (model "
@@ -20577,223 +20573,223 @@ msgctxt ""
 msgid "Screen %1 (%2):"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:723
+#: libs/ui/dialogs/kis_dlg_preferences.cc:733
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:772
 #: libs/ui/widgets/kis_color_space_selector.cc:188
 #, kde-format
 msgid "Install Color Profiles"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:935
+#: libs/ui/dialogs/kis_dlg_preferences.cc:945
 #, kde-format
 msgid ""
 "Use tablet driver timestamps for brush speed (may cause severe artifacts "
 "when using WinTab tablet API)"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:937
+#: libs/ui/dialogs/kis_dlg_preferences.cc:947
 #, kde-format
 msgid "Use tablet driver timestamps for brush speed"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intSwapSize)
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1033
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1043
 #: libs/ui/forms/wdgperformancesettings.ui:206
 #, kde-format
 msgid " GiB"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1053
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1063
 #, kde-format
 msgctxt "suffix for \"seconds\""
 msgid " sec"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1057
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1067
 #, kde-format
 msgid " fps"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1216
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1226
 #, kde-format
 msgctxt "@title:window"
 msgid "Select a swap directory"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1278
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1288
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1279
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1289
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Software Renderer (very slow)"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1281
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1291
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Direct3D 11 via ANGLE"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1283
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1293
 #, kde-format
 msgctxt "canvas renderer"
 msgid "OpenGL ES"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1290
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1300
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Unknown"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1310
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1320
 #, kde-format
 msgctxt "canvas renderer"
 msgid "Auto (%1)"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1402
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1412
 #, kde-format
 msgid "Display Id: %1"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1403
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1413
 #, kde-format
 msgid "Display Name: %1 %2"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1404
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1414
 #, kde-format
 msgid "Min Luminance: %1"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1405
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1415
 #, kde-format
 msgid "Max Luminance: %1"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1406
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1416
 #, kde-format
 msgid "Max Full Frame Luminance: %1"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1407
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1417
 #, kde-format
 msgid "Red Primary: %1, %2"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1408
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1418
 #, kde-format
 msgid "Green Primary: %1, %2"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1409
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1419
 #, kde-format
 msgid "Blue Primary: %1, %2"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1410
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1420
 #, kde-format
 msgid "White Point: %1, %2"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1446
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1456
 #, kde-format
 msgid "Warning(s):"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1579
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1589
 #, kde-format
 msgid "WARNING: current display doesn't support HDR rendering"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1664
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1674
 #, kde-format
 msgid "Configure Krita"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1681
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1691
 #, kde-format
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1683
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1693
 #: libs/widgetutils/xmlgui/KisShortcutsEditor_p.cpp:282
 #, kde-format
 msgid "Shortcuts"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1693
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1703
 #, kde-format
 msgid "Canvas Input Settings"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1694
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1704
 #, kde-format
 msgid "Canvas Input"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1711
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1721
 #: plugins/dockers/logdocker/LogDockerDock.cpp:190
 #, kde-format
 msgid "Color Management"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1713
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1723
 #, kde-format
 msgctxt "Label of color as in Color Management"
 msgid "Color"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1721
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1723
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1731
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1733
 #, kde-format
 msgid "Performance"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1731
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1741
 #, kde-format
 msgid "Tablet settings"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1733
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1743
 #, kde-format
 msgid "Tablet"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1741
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1751
 #, kde-format
 msgid "Canvas-only settings"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1743
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1753
 #, kde-format
 msgid "Canvas-only"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1751
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1753
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1761
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1763
 #, kde-format
 msgid "Pop-up Palette"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1761
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1771
 #, kde-format
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1763
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1773
 #: libs/ui/KoDocumentInfoDlg.cpp:115 plugins/python/comics_project_management_tools/exporters/CPMT_EPUB_exporter.py:227
 #, kde-format
 msgid "Author"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_preferences.cc:1770
+#: libs/ui/dialogs/kis_dlg_preferences.cc:1780
 #, kde-format
 msgctxt "@action:button"
 msgid "Restore Defaults"
@@ -21171,7 +21167,7 @@ msgid "Show details"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelNoFeed)
-#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:393
+#: libs/ui/forms/KisWelcomePage.ui:455 libs/ui/KisWelcomePageWidget.cpp:394
 #, kde-format
 msgid ""
 "You can <a href=\"ignored\" style=\"color: COLOR_PLACEHOLDER; text-"
@@ -21186,43 +21182,43 @@ msgid "Community"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, manualLink)
-#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:379
+#: libs/ui/forms/KisWelcomePage.ui:647 libs/ui/KisWelcomePageWidget.cpp:380
 #, kde-format
 msgid "User Manual"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, gettingStartedLink)
-#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:376
+#: libs/ui/forms/KisWelcomePage.ui:737 libs/ui/KisWelcomePageWidget.cpp:377
 #, kde-format
 msgid "Getting Started"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, userCommunityLink)
-#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:373
+#: libs/ui/forms/KisWelcomePage.ui:824 libs/ui/KisWelcomePageWidget.cpp:374
 #, kde-format
 msgid "User Community"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, kritaWebsiteLink)
-#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:385
+#: libs/ui/forms/KisWelcomePage.ui:911 libs/ui/KisWelcomePageWidget.cpp:386
 #, kde-format
 msgid "Krita Website"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, sourceCodeLink)
-#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:388
+#: libs/ui/forms/KisWelcomePage.ui:1001 libs/ui/KisWelcomePageWidget.cpp:389
 #, kde-format
 msgid "Source Code"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, supportKritaLink)
-#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:382
+#: libs/ui/forms/KisWelcomePage.ui:1088 libs/ui/KisWelcomePageWidget.cpp:383
 #, kde-format
 msgid "Support Krita"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, poweredByKDELink)
-#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:391
+#: libs/ui/forms/KisWelcomePage.ui:1178 libs/ui/KisWelcomePageWidget.cpp:392
 #, kde-format
 msgid "Powered by KDE"
 msgstr ""
@@ -21240,7 +21236,7 @@ msgid "Start"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, devBuildLabel)
-#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:620
+#: libs/ui/forms/KisWelcomePage.ui:1428 libs/ui/KisWelcomePageWidget.cpp:621
 #, kde-format
 msgid "DEV BUILD"
 msgstr ""
@@ -23480,7 +23476,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveMask)
 #: libs/ui/forms/wdgpaintopsettings.ui:188
-#: libs/ui/KisMainWindow.cpp:1063 libs/ui/widgets/kis_workspace_chooser.cpp:111
+#: libs/ui/KisMainWindow.cpp:1060 libs/ui/widgets/kis_workspace_chooser.cpp:111
 #: libs/ui/widgets/kis_workspace_chooser.cpp:189
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/generators/seexpr/wdgseexpr.ui:172
@@ -23982,9 +23978,7 @@ msgid "Force Instant Preview in Filters"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPopupPaletteSettings)
-#. i18n: ectx: property (windowTitle), widget (QWidget, photobashWidget)
 #: libs/ui/forms/WdgPopupPaletteSettings.ui:14
-#: plugins/python/photobash_images/photobash_images_docker.ui:14
 #, kde-format
 msgid "Form"
 msgstr ""
@@ -24350,7 +24344,7 @@ msgid "Anti-aliasing"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgSessionManager)
-#: libs/ui/forms/wdgsessionmanager.ui:18 libs/ui/KisApplication.cpp:349
+#: libs/ui/forms/wdgsessionmanager.ui:18 libs/ui/KisApplication.cpp:350
 #, kde-format
 msgid "Sessions"
 msgstr ""
@@ -25654,7 +25648,7 @@ msgstr ""
 msgid "&Painter's Tools"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:176 libs/ui/KisApplication.cpp:345
+#: libs/ui/kis_control_frame.cpp:176 libs/ui/KisApplication.cpp:346
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:20
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:65
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:242
@@ -25667,8 +25661,8 @@ msgstr ""
 msgid "Custom Pattern"
 msgstr ""
 
-#: libs/ui/kis_control_frame.cpp:226 libs/ui/KisApplication.cpp:330
-#: libs/ui/KisApplication.cpp:331 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
+#: libs/ui/kis_control_frame.cpp:226 libs/ui/KisApplication.cpp:331
+#: libs/ui/KisApplication.cpp:332 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:63
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:245
 #, kde-format
 msgid "Gradients"
@@ -26368,58 +26362,58 @@ msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:322 plugins/extensions/resourcemanager/wdgtagselection.cpp:239
+#: libs/ui/KisApplication.cpp:323 plugins/extensions/resourcemanager/wdgtagselection.cpp:239
 #, kde-format
 msgid "Brush presets"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:325 libs/ui/KisApplication.cpp:326
-#: libs/ui/KisApplication.cpp:327 libs/ui/KisApplication.cpp:328
+#: libs/ui/KisApplication.cpp:326 libs/ui/KisApplication.cpp:327
+#: libs/ui/KisApplication.cpp:328 libs/ui/KisApplication.cpp:329
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:240
 #, kde-format
 msgid "Brush tips"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:333 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:66
+#: libs/ui/KisApplication.cpp:334 plugins/extensions/resourcemanager/dlg_embed_tags.cpp:66
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:243
 #, kde-format
 msgid "Palettes"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:346 libs/ui/widgets/kis_workspace_chooser.cpp:79
+#: libs/ui/KisApplication.cpp:347 libs/ui/widgets/kis_workspace_chooser.cpp:79
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:67
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:241
 #, kde-format
 msgid "Workspaces"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:347
+#: libs/ui/KisApplication.cpp:348
 #, kde-format
 msgid "SVG symbol libraries"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:348 libs/ui/widgets/kis_workspace_chooser.cpp:80
+#: libs/ui/KisApplication.cpp:349 libs/ui/widgets/kis_workspace_chooser.cpp:80
 #, kde-format
 msgid "Window layouts"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:350 plugins/extensions/resourcemanager/wdgtagselection.cpp:246
+#: libs/ui/KisApplication.cpp:351 plugins/extensions/resourcemanager/wdgtagselection.cpp:246
 #, kde-format
 msgid "Gamut masks"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:352
+#: libs/ui/KisApplication.cpp:353
 #, kde-format
 msgid "SeExpr Scripts"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:357
+#: libs/ui/KisApplication.cpp:358
 #, kde-format
 msgctxt "Resource type name"
 msgid "Layer styles"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:367
+#: libs/ui/KisApplication.cpp:368
 #, kde-format
 msgid ""
 "%1\n"
@@ -26427,13 +26421,13 @@ msgid ""
 "Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:367 libs/ui/KisApplication.cpp:373
+#: libs/ui/KisApplication.cpp:368 libs/ui/KisApplication.cpp:374
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Fatal error"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:373
+#: libs/ui/KisApplication.cpp:374
 #, kde-format
 msgid ""
 "\n"
@@ -26441,12 +26435,12 @@ msgid ""
 "Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:397
+#: libs/ui/KisApplication.cpp:398
 #, kde-format
 msgid "Loading Plugins Exiv/IO..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:413
+#: libs/ui/KisApplication.cpp:414
 #, kde-format
 msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
@@ -26454,50 +26448,50 @@ msgid ""
 "Please download and install the x64 build instead."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:430
+#: libs/ui/KisApplication.cpp:431
 #, kde-format
 msgid "Initializing Globals..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:461
+#: libs/ui/KisApplication.cpp:462
 #, kde-format
 msgid "Adding resource types..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:479
+#: libs/ui/KisApplication.cpp:480
 #, kde-format
 msgid "Loading Main Window..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:578
+#: libs/ui/KisApplication.cpp:579
 #, kde-format
 msgid "Mimetype not found, try using the -mimetype option"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:634
+#: libs/ui/KisApplication.cpp:635
 #, kde-format
 msgid "Failed to render animation frames!"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:661 libs/ui/KisApplication.cpp:844
+#: libs/ui/KisApplication.cpp:662 libs/ui/KisApplication.cpp:852
 #, kde-format
 msgid "File layer"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:669 libs/ui/KisApplication.cpp:674
-#: libs/ui/KisApplication.cpp:838 libs/ui/KisApplication.cpp:852
-#: libs/ui/KisApplication.cpp:857
+#: libs/ui/KisApplication.cpp:670 libs/ui/KisApplication.cpp:675
+#: libs/ui/KisApplication.cpp:846 libs/ui/KisApplication.cpp:860
+#: libs/ui/KisApplication.cpp:865
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita:Warning"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:670 libs/ui/KisApplication.cpp:853
+#: libs/ui/KisApplication.cpp:671 libs/ui/KisApplication.cpp:861
 #, kde-format
 msgid "Cannot add %1 as a file layer: the file does not exist."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:675
+#: libs/ui/KisApplication.cpp:676
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -26510,7 +26504,7 @@ msgid ""
 "checkbox in the settings (Settings -> General -> Window)."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:681
+#: libs/ui/KisApplication.cpp:682
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -26518,32 +26512,32 @@ msgid ""
 "open an existing file."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:839
+#: libs/ui/KisApplication.cpp:847
 #, kde-format
 msgid "Couldn't open file %1"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:858
+#: libs/ui/KisApplication.cpp:866
 #, kde-format
 msgid "Cannot add the file layer: no document is open."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:977
+#: libs/ui/KisApplication.cpp:985
 #, kde-format
 msgid "No template found for: %1"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:980
+#: libs/ui/KisApplication.cpp:988
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:996
+#: libs/ui/KisApplication.cpp:1004
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:1028
+#: libs/ui/KisApplication.cpp:1036
 #, kde-format
 msgid ""
 "Krita configurations reset!\n"
@@ -26553,7 +26547,7 @@ msgid ""
 "Restart Krita for changes to take effect."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:1042
+#: libs/ui/KisApplication.cpp:1050
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -26561,7 +26555,7 @@ msgid ""
 "Please make sure no other program is using the file and try again."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:1070
+#: libs/ui/KisApplication.cpp:1078
 #, kde-format
 msgid "Do you want to clear the settings file?"
 msgstr ""
@@ -26683,35 +26677,35 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:707
+#: libs/ui/KisDocument.cpp:713
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:770
+#: libs/ui/KisDocument.cpp:776
 #, kde-format
 msgid "Exporting Document..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:771
+#: libs/ui/KisDocument.cpp:777
 #, kde-format
 msgid "Saving Document..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:906
+#: libs/ui/KisDocument.cpp:912
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:912
+#: libs/ui/KisDocument.cpp:918
 #, kde-format
 msgid ""
 "Could not save %1.\n"
 "Reason: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:921
+#: libs/ui/KisDocument.cpp:927
 #, kde-format
 msgctxt ""
 "dialog box shown to the user if there were warnings while saving the "
@@ -26721,78 +26715,78 @@ msgid ""
 "The following problems were encountered when saving:"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:957
+#: libs/ui/KisDocument.cpp:963
 #, kde-format
 msgid "Finished saving %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1335
+#: libs/ui/KisDocument.cpp:1341
 #, kde-format
 msgid "Autosaving... %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1343
+#: libs/ui/KisDocument.cpp:1349
 #, kde-format
 msgid "Autosaving..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1349
+#: libs/ui/KisDocument.cpp:1355
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1454
+#: libs/ui/KisDocument.cpp:1460
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1468
+#: libs/ui/KisDocument.cpp:1474
 #, kde-format
 msgid "Finished autosaving %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1709
+#: libs/ui/KisDocument.cpp:1715
 #, kde-format
 msgid ""
 "Malformed Path\n"
 "%1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1775
+#: libs/ui/KisDocument.cpp:1781
 #, kde-format
 msgid "File %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1804
+#: libs/ui/KisDocument.cpp:1810
 #, kde-format
 msgid "Opening document"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1819
+#: libs/ui/KisDocument.cpp:1825
 #, kde-format
 msgid ""
 "Could not open %2.\n"
 "Reason: %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1827
+#: libs/ui/KisDocument.cpp:1833
 #, kde-format
 msgid "There were problems opening %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1956
+#: libs/ui/KisDocument.cpp:1962
 #, kde-format
 msgid "Not Saved"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2426
+#: libs/ui/KisDocument.cpp:2432
 #, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:2480
+#: libs/ui/KisDocument.cpp:2486
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -27047,29 +27041,29 @@ msgid ""
 "different location."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:271
+#: libs/ui/KisImportExportManager.cpp:275
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Audio"
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:370
+#: libs/ui/KisImportExportManager.cpp:374
 #, kde-format
 msgid "Opening document..."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:435
+#: libs/ui/KisImportExportManager.cpp:439
 #, kde-format
 msgid "Saving document..."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:524
+#: libs/ui/KisImportExportManager.cpp:528
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>assistants</b>. The assistants will not be saved."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:527
+#: libs/ui/KisImportExportManager.cpp:531
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -27077,13 +27071,13 @@ msgid ""
 "saved."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:530
+#: libs/ui/KisImportExportManager.cpp:534
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>guides</b>. The guides will not be saved."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:533
+#: libs/ui/KisImportExportManager.cpp:537
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -27091,54 +27085,54 @@ msgid ""
 "will not be saved."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:538
+#: libs/ui/KisImportExportManager.cpp:542
 #, kde-format
 msgid "Error: cannot save this image as a %1."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:539
-#: libs/ui/KisImportExportManager.cpp:588
+#: libs/ui/KisImportExportManager.cpp:543
+#: libs/ui/KisImportExportManager.cpp:592
 #, kde-format
 msgid "Reasons:"
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:547
+#: libs/ui/KisImportExportManager.cpp:551
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita: Export Error"
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:570
+#: libs/ui/KisImportExportManager.cpp:574
 #, kde-format
 msgctxt "Keep the extra space at the end of the sentence, please"
 msgid "Warning: saving as a %1 will lose information from your image.    "
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:582
+#: libs/ui/KisImportExportManager.cpp:586
 #, kde-format
 msgid "You will lose information when saving this image as a %1."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:585
+#: libs/ui/KisImportExportManager.cpp:589
 #, kde-format
 msgid "Reason:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, textureOptionsTab)
-#: libs/ui/KisImportExportManager.cpp:603
+#: libs/ui/KisImportExportManager.cpp:607
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:57
 #, kde-format
 msgid "Options"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, scale)
-#: libs/ui/KisImportExportManager.cpp:611
+#: libs/ui/KisImportExportManager.cpp:615
 #: plugins/impex/webp/dlg_webp_import.ui:173
 #, kde-format
 msgid "Resize"
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:617
+#: libs/ui/KisImportExportManager.cpp:621
 #, kde-format
 msgid "Also save your image as a Krita file."
 msgstr ""
@@ -27173,42 +27167,42 @@ msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:579 plugins/tools/svgtexttool/SvgTextEditor.cpp:314
+#: libs/ui/KisMainWindow.cpp:576 plugins/tools/svgtexttool/SvgTextEditor.cpp:314
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:581 plugins/tools/svgtexttool/SvgTextEditor.cpp:316
+#: libs/ui/KisMainWindow.cpp:578 plugins/tools/svgtexttool/SvgTextEditor.cpp:316
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1026
+#: libs/ui/KisMainWindow.cpp:1023
 #, kde-format
 msgid "Write Protected"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1030
+#: libs/ui/KisMainWindow.cpp:1027
 #, kde-format
 msgid "Recovered"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1060
+#: libs/ui/KisMainWindow.cpp:1057
 #, kde-format
 msgid "Save as %1"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1084
+#: libs/ui/KisMainWindow.cpp:1081
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1179
+#: libs/ui/KisMainWindow.cpp:1176
 #, kde-format
 msgid "Open Images"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1310
+#: libs/ui/KisMainWindow.cpp:1307
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -27217,43 +27211,43 @@ msgid ""
 "Please select a location where the original file will not be overridden!"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1366
+#: libs/ui/KisMainWindow.cpp:1363
 #, kde-format
 msgid "Exporting"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1366
+#: libs/ui/KisMainWindow.cpp:1363
 #, kde-format
 msgid "Saving As"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1661 libs/widgetutils/config/kstandardaction_p.h:29
+#: libs/ui/KisMainWindow.cpp:1658 libs/widgetutils/config/kstandardaction_p.h:29
 #, kde-format
 msgid "Create new document"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1685
+#: libs/ui/KisMainWindow.cpp:1682
 #, kde-format
 msgid "Custom Document"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1703
+#: libs/ui/KisMainWindow.cpp:1700
 #, kde-format
 msgid "Create from Clipboard"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1879
+#: libs/ui/KisMainWindow.cpp:1876
 #, kde-format
 msgid "Layers/Masks"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1905 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:181
+#: libs/ui/KisMainWindow.cpp:1902 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:181
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:279
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1909
+#: libs/ui/KisMainWindow.cpp:1906
 #, kde-format
 msgid ""
 "\n"
@@ -27261,7 +27255,7 @@ msgid ""
 "presets before continuing.\n"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:1919 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:191
+#: libs/ui/KisMainWindow.cpp:1916 plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:191
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:291
 #, kde-format
 msgid ""
@@ -27269,66 +27263,66 @@ msgid ""
 "Only your local resources are available."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2058 libs/ui/KisMainWindow.cpp:2141
+#: libs/ui/KisMainWindow.cpp:2055 libs/ui/KisMainWindow.cpp:2138
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
 "%1"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2117
+#: libs/ui/KisMainWindow.cpp:2114
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2545
+#: libs/ui/KisMainWindow.cpp:2542
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2560
+#: libs/ui/KisMainWindow.cpp:2557
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2564
+#: libs/ui/KisMainWindow.cpp:2561
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2611
+#: libs/ui/KisMainWindow.cpp:2608
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2614
+#: libs/ui/KisMainWindow.cpp:2611
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2775
+#: libs/ui/KisMainWindow.cpp:2772
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2791
+#: libs/ui/KisMainWindow.cpp:2788
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2903
+#: libs/ui/KisMainWindow.cpp:2900
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2957
+#: libs/ui/KisMainWindow.cpp:2954
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -27695,44 +27689,44 @@ msgctxt "choice for author profile"
 msgid "Anonymous"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:140
+#: libs/ui/KisWelcomePageWidget.cpp:141
 #, kde-format
 msgid "Enable news and check for new releases"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:142
+#: libs/ui/KisWelcomePageWidget.cpp:143
 #, kde-format
 msgid ""
 "Show news about Krita: this needs internet to retrieve information from the "
 "krita.org website"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:145 plugins/python/comics_project_management_tools/comics_metadata_dialog.py:343
+#: libs/ui/KisWelcomePageWidget.cpp:146 plugins/python/comics_project_management_tools/comics_metadata_dialog.py:343
 #, kde-format
 msgid "Language"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:146
+#: libs/ui/KisWelcomePageWidget.cpp:147
 #, kde-format
 msgid "English news is always up to date."
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:415
+#: libs/ui/KisWelcomePageWidget.cpp:416
 #, kde-format
 msgid "Get your Krita Supporter Badge here!"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:725
+#: libs/ui/KisWelcomePageWidget.cpp:726
 #, kde-format
 msgid "New version of Krita is available."
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:754
+#: libs/ui/KisWelcomePageWidget.cpp:755
 #, kde-format
 msgid "An error occurred during the update"
 msgstr ""
 
-#: libs/ui/KisWelcomePageWidget.cpp:760
+#: libs/ui/KisWelcomePageWidget.cpp:761
 #, kde-format
 msgid "Restart is required."
 msgstr ""
@@ -28751,7 +28745,7 @@ msgid ""
 " Krita will disable OpenGL and close now."
 msgstr ""
 
-#: libs/ui/opengl/kis_opengl_image_textures.cpp:818
+#: libs/ui/opengl/kis_opengl_image_textures.cpp:834
 #, kde-format
 msgid "OpenColorIO is disabled: image color space is not supported"
 msgstr ""
@@ -28813,12 +28807,12 @@ msgstr ""
 msgid "The MyPaint Brush Engine is not available for this colorspace"
 msgstr ""
 
-#: libs/ui/tool/kis_tool_paint.cc:384
+#: libs/ui/tool/kis_tool_paint.cc:387
 #, kde-format
 msgid "Color sampler does not work on this layer."
 msgstr ""
 
-#: libs/ui/tool/kis_tool_paint.cc:672
+#: libs/ui/tool/kis_tool_paint.cc:675
 #, kde-format
 msgid "%1 %2 px"
 msgstr ""
@@ -29840,19 +29834,19 @@ msgid ""
 "or for use with imaging software that cannot read V4 profiles.</p>"
 msgstr ""
 
+#: libs/ui/widgets/kis_categorized_list_view.cpp:160
+#, kde-format
+msgid "Unlock (restore settings from preset)"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QToolButton, btnLock)
-#: libs/ui/widgets/kis_categorized_list_view.cpp:154
+#: libs/ui/widgets/kis_categorized_list_view.cpp:161
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:57
 #, kde-format
 msgid "Lock"
 msgstr ""
 
-#: libs/ui/widgets/kis_categorized_list_view.cpp:154
-#, kde-format
-msgid "Unlock (restore settings from preset)"
-msgstr ""
-
-#: libs/ui/widgets/kis_categorized_list_view.cpp:159
+#: libs/ui/widgets/kis_categorized_list_view.cpp:166
 #, kde-format
 msgid "Unlock (keep current settings)"
 msgstr ""
@@ -30952,19 +30946,19 @@ msgstr ""
 msgid "Get help..."
 msgstr ""
 
-#: libs/widgets/KoDockWidgetTitleBar.cpp:39
+#: libs/widgets/KoDockWidgetTitleBar.cpp:44
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Float Docker"
 msgstr ""
 
-#: libs/widgets/KoDockWidgetTitleBar.cpp:47
+#: libs/widgets/KoDockWidgetTitleBar.cpp:52
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close Docker"
 msgstr ""
 
-#: libs/widgets/KoDockWidgetTitleBar.cpp:57
+#: libs/widgets/KoDockWidgetTitleBar.cpp:61
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Lock Docker"
@@ -31065,7 +31059,7 @@ msgstr ""
 msgid "Toolbox"
 msgstr ""
 
-#: libs/widgets/KoToolDocker.cpp:137
+#: libs/widgets/KoToolDocker.cpp:143
 #, kde-format
 msgid "Tool Options"
 msgstr ""
@@ -31716,12 +31710,12 @@ msgstr ""
 msgid "Toggle Preview"
 msgstr ""
 
-#: libs/widgetutils/KoFileDialog.cpp:244
+#: libs/widgetutils/KoFileDialog.cpp:254
 #, kde-format
 msgid "Save As:"
 msgstr ""
 
-#: libs/widgetutils/KoFileDialog.cpp:438
+#: libs/widgetutils/KoFileDialog.cpp:448
 #, kde-format
 msgid "All supported formats"
 msgstr ""
@@ -33001,6 +32995,11 @@ msgstr ""
 #: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:311
 #, kde-format
 msgid "YCbCr/F32 Histogram"
+msgstr ""
+
+#: plugins/dockers/advancedcolorselector/kis_color_history.cpp:26
+#, kde-format
+msgid "Clear all color history"
 msgstr ""
 
 #: plugins/dockers/advancedcolorselector/kis_color_selector_ng_dock.cpp:24
@@ -34945,12 +34944,12 @@ msgstr ""
 msgid "Configure black and white points of the view"
 msgstr ""
 
-#: plugins/dockers/overview/overviewdocker_dock.cpp:37
+#: plugins/dockers/overview/overviewdocker_dock.cpp:38
 #, kde-format
 msgid "Overview"
 msgstr ""
 
-#: plugins/dockers/overview/overviewdocker_dock.cpp:160
+#: plugins/dockers/overview/overviewdocker_dock.cpp:164
 #, kde-format
 msgctxt "Make the controls in the overview docker auto-hide or always visible"
 msgid "Pin navigation controls"
@@ -49237,36 +49236,6 @@ msgstr ""
 #: plugins/python/palette_docker/palette_exporter_inkscapeSVG.py:33
 #, python-brace-format
 msgid "{input} has been exported to {output}."
-msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, filterTextEdit)
-#: plugins/python/photobash_images/photobash_images_docker.ui:71
-#, kde-format
-msgid "Filter images by words..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, changePathButton)
-#: plugins/python/photobash_images/photobash_images_docker.ui:96
-#, kde-format
-msgid "Set References Folder"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, scaleSliderLabel)
-#: plugins/python/photobash_images/photobash_images_docker.ui:328
-#, kde-format
-msgid "Image Scale :"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, fitCanvasCheckBox)
-#: plugins/python/photobash_images/photobash_images_docker.ui:388
-#, kde-format
-msgid "Scale To Canvas"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, paginationLabel)
-#: plugins/python/photobash_images/photobash_images_docker.ui:413
-#, kde-format
-msgid "0/0"
 msgstr ""
 
 #: plugins/python/plugin_importer/plugin_downloader.py:70

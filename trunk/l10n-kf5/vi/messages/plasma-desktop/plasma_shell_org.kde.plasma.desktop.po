@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-15 00:47+0000\n"
+"POT-Creation-Date: 2022-01-07 00:45+0000\n"
 "PO-Revision-Date: 2021-12-21 10:41+0100\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -70,13 +70,19 @@ msgstr "Cấu hình Hoạt động"
 msgid "Delete"
 msgstr "Xoá"
 
-#: contents/applet/AppletError.qml:52
+#: contents/applet/AppletError.qml:53
 msgid "Sorry! There was an error loading %1."
 msgstr "Rất tiếc! Có lỗi khi tải %1."
 
-#: contents/applet/AppletError.qml:60
-msgid "Copy Error Details to Clipboard"
+#: contents/applet/AppletError.qml:76
+#, fuzzy
+#| msgid "Copy Error Details to Clipboard"
+msgid "Copy to Clipboard"
 msgstr "Chép chi tiết về lỗi vào bảng nháp"
+
+#: contents/applet/AppletError.qml:91
+msgid "View Error Details…"
+msgstr ""
 
 #: contents/configuration/AboutPlugin.qml:19
 #: contents/configuration/AppletConfiguration.qml:228
@@ -243,14 +249,6 @@ msgstr "Hành động chuột"
 msgid "Input Here"
 msgstr "Nhập vào đây"
 
-#: contents/configuration/panelconfiguration/EdgeHandle.qml:16
-msgid "Screen Edge"
-msgstr "Cạnh màn hình"
-
-#: contents/configuration/panelconfiguration/EdgeHandle.qml:28
-msgid "Click and drag the button to a screen edge to move the panel there."
-msgstr "Bấm và kéo cái nút sang một cạnh màn hình để di chuyển bảng đến đó."
-
 #: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:34
 #: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:168
 msgid "Remove Panel"
@@ -320,27 +318,32 @@ msgstr "Trong mờ"
 msgid "Maximize Panel"
 msgstr "Phóng to bảng"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:22
+#: contents/configuration/panelconfiguration/ToolBar.qml:23
 msgid "Add Widgets…"
 msgstr "Thêm phụ kiện…"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:23
+#: contents/configuration/panelconfiguration/ToolBar.qml:24
 msgid "Add Spacer"
 msgstr "Thêm khoảng trống"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:24
+#: contents/configuration/panelconfiguration/ToolBar.qml:25
 msgid "More Options…"
 msgstr "Lựa chọn thêm…"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:103
+#: contents/configuration/panelconfiguration/ToolBar.qml:171
+msgctxt "Minimize the length of this string as much as possible"
+msgid "Drag to move"
+msgstr ""
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:182
 msgid "Panel width:"
 msgstr "Độ rộng bảng:"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:103
+#: contents/configuration/panelconfiguration/ToolBar.qml:182
 msgid "Panel height:"
 msgstr "Độ cao bảng:"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:217
+#: contents/configuration/panelconfiguration/ToolBar.qml:296
 msgid "Close"
 msgstr "Đóng"
 
@@ -396,6 +399,12 @@ msgstr "Không có phụ kiện nào khớp với các từ khoá tìm kiếm"
 #: contents/explorer/WidgetExplorer.qml:326
 msgid "No widgets available"
 msgstr "Không có phụ kiện nào"
+
+#~ msgid "Screen Edge"
+#~ msgstr "Cạnh màn hình"
+
+#~ msgid "Click and drag the button to a screen edge to move the panel there."
+#~ msgstr "Bấm và kéo cái nút sang một cạnh màn hình để di chuyển bảng đến đó."
 
 #, fuzzy
 #~| msgid "Apply Settings"

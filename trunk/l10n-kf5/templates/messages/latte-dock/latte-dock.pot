@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: latte-dock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-14 00:46+0000\n"
+"POT-Creation-Date: 2022-01-10 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -61,7 +61,7 @@ msgctxt "indicator_name, removed success"
 msgid "<b>%1</b> indicator removed successfully"
 msgstr ""
 
-#: app/lattecorona.cpp:1114 app/lattecorona.cpp:1137
+#: app/lattecorona.cpp:1118 app/lattecorona.cpp:1141
 #, kde-format
 msgid "The layout cannot be imported from file :: "
 msgstr ""
@@ -326,7 +326,7 @@ msgstr ""
 msgid "The layout cannot be imported"
 msgstr ""
 
-#: app/main.cpp:485
+#: app/main.cpp:484
 #, kde-format
 msgid ""
 "Latte is a dock based on plasma frameworks that provides an elegant and "
@@ -602,7 +602,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, behaviorLbl)
 #: app/settings/detailsdialog/detailsdialog.ui:57
-#: app/settings/settingsdialog/settingsdialog.ui:809
+#: app/settings/settingsdialog/settingsdialog.ui:869
 #, kde-format
 msgid "Behavior:"
 msgstr ""
@@ -840,8 +840,8 @@ msgstr ""
 
 #: app/settings/exporttemplatedialog/exporttemplatehandler.cpp:222
 #: app/settings/settingsdialog/settingsdialog.cpp:348
-#: app/settings/settingsdialog/tablayoutshandler.cpp:667
-#: app/settings/settingsdialog/tablayoutshandler.cpp:692
+#: app/settings/settingsdialog/tablayoutshandler.cpp:665
+#: app/settings/settingsdialog/tablayoutshandler.cpp:690
 #: app/settings/viewsdialog/viewshandler.cpp:376
 #, kde-format
 msgid "Open Location..."
@@ -1182,13 +1182,13 @@ msgid "Latte Dock Full Configuration file v0.2"
 msgstr ""
 
 #: app/settings/settingsdialog/settingsdialog.cpp:342
-#: app/settings/settingsdialog/tablayoutshandler.cpp:686
+#: app/settings/settingsdialog/tablayoutshandler.cpp:684
 #, kde-format
 msgid "Full configuration export <b>failed</b>..."
 msgstr ""
 
 #: app/settings/settingsdialog/settingsdialog.cpp:362
-#: app/settings/settingsdialog/tablayoutshandler.cpp:706
+#: app/settings/settingsdialog/tablayoutshandler.cpp:704
 #, kde-format
 msgid "Full configuration export succeeded..."
 msgstr ""
@@ -1317,155 +1317,57 @@ msgstr ""
 msgid "Preferences"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QSpinBox, screenTrackerSpinBox)
-#. i18n: ectx: property (toolTip), widget (QLabel, trackScreensDelayLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:561
-#: app/settings/settingsdialog/settingsdialog.ui:596
+#. i18n: ectx: property (text), widget (QCheckBox, broadcastGeomChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:540
 #, kde-format
-msgid ""
-"Different hardware can have different delays during screen changes.\n"
-"This tracker is used in order to not lose any screen related update."
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, screenTrackerSpinBox)
-#: app/settings/settingsdialog/settingsdialog.ui:570
-#, kde-format
-msgid " ms."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, trackScreensDelayLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:599
-#, kde-format
-msgid "reaction delay for changes"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, infoWindowChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:624
-#, kde-format
-msgid "Provide visual feedback when layouts are activated automatically"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, infoWindowChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:627
-#, kde-format
-msgid "Show informative window for layouts automatic activation"
+msgid "Inform Plasma desktop for available desktop space"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, noBordersForMaximizedChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:666
+#: app/settings/settingsdialog/settingsdialog.ui:547
 #, kde-format
 msgid ""
 "Activate support for borderless maximized windows between different layouts"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, noBordersForMaximizedChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:669
+#: app/settings/settingsdialog/settingsdialog.ui:550
 #, kde-format
 msgid "Support borderless maximized windows in different layouts"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, actionsLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:691
+#. i18n: ectx: property (toolTip), widget (QCheckBox, infoWindowChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:592
 #, kde-format
-msgid "Actions:"
+msgid "Provide visual feedback when layouts are activated automatically"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, badges3DStyleChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:703
+#. i18n: ectx: property (text), widget (QCheckBox, infoWindowChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:595
 #, kde-format
-msgid "Use 3D style for notification and shortcut badges"
+msgid "Show informative window for layouts automatic activation"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, metaPressHoldChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:729
+#: app/settings/settingsdialog/settingsdialog.ui:621
 #, kde-format
 msgid "Press and hold ⌘ to show shortcuts badges for applets and tasks"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, metaPressHoldChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:732
+#: app/settings/settingsdialog/settingsdialog.ui:624
 #, kde-format
 msgid "Press and Hold ⌘ to show shortcuts badges"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, parabolicEffectLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:776
-#, kde-format
-msgid "Parabolic Effect:"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, screensLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:842
+#: app/settings/settingsdialog/settingsdialog.ui:652
 #, kde-format
 msgid "Screens:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, autostartChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:873
-#, kde-format
-msgid "Start the application automatically after each relogin"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, autostartChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:876
-#, kde-format
-msgid "Enable autostart during startup"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, lowSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:903
-#, kde-format
-msgid "Low sensitivity for parabolic effect (low cpu usage and performance)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QToolButton, lowSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:906
-#, kde-format
-msgctxt "low sensitivity"
-msgid "Low"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, mediumSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:934
-#, kde-format
-msgid ""
-"Medium sensitivity for parabolic effect (normal cpu usage and performance)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QToolButton, mediumSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:937
-#, kde-format
-msgctxt "medium sensitivity"
-msgid "Medium"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, highSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:965
-#, kde-format
-msgid "High sensitivity for parabolic effect (high cpu usage and performance)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QToolButton, highSensitivityBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:968
-#, kde-format
-msgctxt "high sensitivity"
-msgid "High"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, mouseSensitivityLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:978
-#, kde-format
-msgid "mouse sensitivity"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, appearanceLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:1034
-#, kde-format
-msgid "Appearance:"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QCheckBox, metaPressChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:1046
+#: app/settings/settingsdialog/settingsdialog.ui:664
 #, kde-format
 msgid ""
 "Forward ⌘ press from KWin to Latte in order to activate Application "
@@ -1473,27 +1375,152 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, metaPressChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:1049
+#: app/settings/settingsdialog/settingsdialog.ui:667
 #, kde-format
 msgid "Press ⌘ to activate Application Launcher"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, contextMenuLbl)
-#: app/settings/settingsdialog/settingsdialog.ui:1071
-#, kde-format
-msgid "Context Menu:"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QPushButton, contextMenuActionsBtn)
-#: app/settings/settingsdialog/settingsdialog.ui:1100
+#: app/settings/settingsdialog/settingsdialog.ui:694
 #, kde-format
 msgid "Actions..."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, broadcastGeomChkBox)
-#: app/settings/settingsdialog/settingsdialog.ui:1122
+#. i18n: ectx: property (text), widget (QToolButton, smallParabolicBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:736
 #, kde-format
-msgid "Inform Plasma desktop for available desktop space"
+msgctxt "small spread"
+msgid "Small"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, mediumParabolicBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:764
+#, kde-format
+msgctxt "medium spread"
+msgid "Medium"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, largeParabolicBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:792
+#, kde-format
+msgctxt "large spread"
+msgid "Large"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, parabolicSpreadLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:802
+#, kde-format
+msgid "spread"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, contextMenuLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:839
+#, kde-format
+msgid "Context Menu:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, lowSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:901
+#, kde-format
+msgid "Low sensitivity for parabolic effect (low cpu usage and performance)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, lowSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:904
+#, kde-format
+msgctxt "low sensitivity"
+msgid "Low"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, mediumSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:932
+#, kde-format
+msgid ""
+"Medium sensitivity for parabolic effect (normal cpu usage and performance)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, mediumSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:935
+#, kde-format
+msgctxt "medium sensitivity"
+msgid "Medium"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, highSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:963
+#, kde-format
+msgid "High sensitivity for parabolic effect (high cpu usage and performance)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, highSensitivityBtn)
+#: app/settings/settingsdialog/settingsdialog.ui:966
+#, kde-format
+msgctxt "high sensitivity"
+msgid "High"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, mouseSensitivityLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:976
+#, kde-format
+msgid "mouse sensitivity"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, actionsLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:1016
+#, kde-format
+msgid "Actions:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, screenTrackerSpinBox)
+#. i18n: ectx: property (toolTip), widget (QLabel, trackScreensDelayLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:1049
+#: app/settings/settingsdialog/settingsdialog.ui:1084
+#, kde-format
+msgid ""
+"Different hardware can have different delays during screen changes.\n"
+"This tracker is used in order to not lose any screen related update."
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, screenTrackerSpinBox)
+#: app/settings/settingsdialog/settingsdialog.ui:1058
+#, kde-format
+msgid " ms."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, trackScreensDelayLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:1087
+#, kde-format
+msgid "reaction delay for changes"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, parabolicEffectLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:1133
+#, kde-format
+msgid "Parabolic Effect:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, badges3DStyleChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:1161
+#, kde-format
+msgid "Use 3D style for notification and shortcut badges"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, autostartChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:1184
+#, kde-format
+msgid "Start the application automatically after each relogin"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, autostartChkBox)
+#: app/settings/settingsdialog/settingsdialog.ui:1187
+#, kde-format
+msgid "Enable autostart during startup"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, appearanceLbl)
+#: app/settings/settingsdialog/settingsdialog.ui:1209
+#, kde-format
+msgid "Appearance:"
 msgstr ""
 
 #: app/settings/settingsdialog/tablayoutshandler.cpp:111
@@ -1691,73 +1718,73 @@ msgctxt "settings: locked layout remove"
 msgid "Locked layouts can not be removed..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:542
+#: app/settings/settingsdialog/tablayoutshandler.cpp:540
 #, kde-format
 msgctxt "import layout"
 msgid "Import Layout"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:545
+#: app/settings/settingsdialog/tablayoutshandler.cpp:543
 #, kde-format
 msgctxt "import layout"
 msgid "Import"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:551
+#: app/settings/settingsdialog/tablayoutshandler.cpp:549
 #, kde-format
 msgctxt "import latte layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:552
+#: app/settings/settingsdialog/tablayoutshandler.cpp:550
 #, kde-format
 msgctxt "import older latte layout"
 msgid "Latte Dock Layout file v0.1"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:563
-#: app/settings/settingsdialog/tablayoutshandler.cpp:782
+#: app/settings/settingsdialog/tablayoutshandler.cpp:561
+#: app/settings/settingsdialog/tablayoutshandler.cpp:780
 #, kde-format
 msgctxt "settings:layout imported successfully"
 msgid "Layout <b>%1</b> imported successfully..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:567
+#: app/settings/settingsdialog/tablayoutshandler.cpp:565
 #, kde-format
 msgctxt "settings:deprecated layouts import failed"
 msgid "Import layouts from deprecated version <b>failed</b>..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:623
+#: app/settings/settingsdialog/tablayoutshandler.cpp:621
 #, kde-format
 msgid "Export Layout For Backup"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:625
+#: app/settings/settingsdialog/tablayoutshandler.cpp:623
 #, kde-format
 msgctxt "export layout"
 msgid "Export"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:631
+#: app/settings/settingsdialog/tablayoutshandler.cpp:629
 #, kde-format
 msgctxt "export layout"
 msgid "Latte Dock Layout file v0.2"
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:641
+#: app/settings/settingsdialog/tablayoutshandler.cpp:639
 #, kde-format
 msgctxt "settings:layout export fail"
 msgid "Layout <b>%1</b> export <b>failed</b>..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:680
+#: app/settings/settingsdialog/tablayoutshandler.cpp:678
 #, kde-format
 msgctxt "settings:layout export success"
 msgid "Layout <b>%1</b> export succeeded..."
 msgstr ""
 
-#: app/settings/settingsdialog/tablayoutshandler.cpp:771
+#: app/settings/settingsdialog/tablayoutshandler.cpp:769
 #, kde-format
 msgctxt "settings:layout imported successfully"
 msgid "Layout <b>%2</b> imported successfully..."
@@ -1770,64 +1797,64 @@ msgstr[1] ""
 msgid "optional"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:107
+#: app/settings/viewsdialog/viewscontroller.cpp:103
 #, kde-format
 msgid "Cut"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:111
+#: app/settings/viewsdialog/viewscontroller.cpp:107
 #, kde-format
 msgid "Copy"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:115
+#: app/settings/viewsdialog/viewscontroller.cpp:111
 #, kde-format
 msgid "Paste"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:119
+#: app/settings/viewsdialog/viewscontroller.cpp:115
 #, kde-format
 msgid "Duplicate Here"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:323
+#: app/settings/viewsdialog/viewscontroller.cpp:319
 #, kde-format
 msgid ""
 "Docks and panels from <b>Paste</b> action are already present in current "
 "layout"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:578
+#: app/settings/viewsdialog/viewscontroller.cpp:574
 #, kde-format
 msgid ""
 "Really nice! You are good to go, your layout does not report any errors or "
 "warnings."
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:597
+#: app/settings/viewsdialog/viewscontroller.cpp:593
 #, kde-format
 msgid "Edit Layout"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:630
+#: app/settings/viewsdialog/viewscontroller.cpp:622
 #, kde-format
 msgid "Validate"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:649
+#: app/settings/viewsdialog/viewscontroller.cpp:641
 #, kde-format
 msgid ""
 "After you have made your layout file changes, please click <b>Validate</b> "
 "to confirm them."
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:665
+#: app/settings/viewsdialog/viewscontroller.cpp:657
 #, kde-format
 msgctxt "error id and title"
 msgid "<b>Error #%1: %2</b> <br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:667
+#: app/settings/viewsdialog/viewscontroller.cpp:659
 #, kde-format
 msgid ""
 "In your layout there are two or more applets with same id. Such situation "
@@ -1835,13 +1862,13 @@ msgid ""
 "use this layout.<br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:670
-#: app/settings/viewsdialog/viewscontroller.cpp:761
+#: app/settings/viewsdialog/viewscontroller.cpp:662
+#: app/settings/viewsdialog/viewscontroller.cpp:753
 #, kde-format
 msgid "<b>Applets:</b><br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:678
+#: app/settings/viewsdialog/viewscontroller.cpp:670
 #, kde-format
 msgctxt ""
 "applets with same id error, applet name, applet id, containment name, "
@@ -1849,43 +1876,43 @@ msgctxt ""
 msgid "&nbsp;&nbsp;• <b>%1</b> [#%2] inside  <b>%3</b> [#%4]<br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:686
-#: app/settings/viewsdialog/viewscontroller.cpp:742
-#: app/settings/viewsdialog/viewscontroller.cpp:797
-#: app/settings/viewsdialog/viewscontroller.cpp:836
+#: app/settings/viewsdialog/viewscontroller.cpp:678
+#: app/settings/viewsdialog/viewscontroller.cpp:734
+#: app/settings/viewsdialog/viewscontroller.cpp:789
+#: app/settings/viewsdialog/viewscontroller.cpp:828
 #, kde-format
 msgid "<b>Possible Solutions:</b><br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:687
+#: app/settings/viewsdialog/viewscontroller.cpp:679
 #, kde-format
 msgid "&nbsp;&nbsp;1. Activate this layout and restart Latte<br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:688
+#: app/settings/viewsdialog/viewscontroller.cpp:680
 #, kde-format
 msgid "&nbsp;&nbsp;2. Remove the mentioned applets from your layout<br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:689
+#: app/settings/viewsdialog/viewscontroller.cpp:681
 #, kde-format
 msgid ""
 "&nbsp;&nbsp;3. Update manually the applets id when the layout is <b>not "
 "active</b><br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:690
+#: app/settings/viewsdialog/viewscontroller.cpp:682
 #, kde-format
 msgid "&nbsp;&nbsp;4. Remove this layout totally<br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:702
+#: app/settings/viewsdialog/viewscontroller.cpp:694
 #, kde-format
 msgctxt "error id and title"
 msgid "<b>Error #%1: %2</b> <br/><br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:703
+#: app/settings/viewsdialog/viewscontroller.cpp:695
 #, kde-format
 msgid ""
 "In your layout there are orphaned pseudo applets that link to unexistent "
@@ -1894,12 +1921,12 @@ msgid ""
 "abnormal behavior and data loss when you activate and use this layout.<br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:706
+#: app/settings/viewsdialog/viewscontroller.cpp:698
 #, kde-format
 msgid "<b>Pseudo Applets:</b><br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:718
+#: app/settings/viewsdialog/viewscontroller.cpp:710
 #, kde-format
 msgctxt ""
 "orphaned pseudo applets, applet name, applet id, containment name, "
@@ -1907,77 +1934,77 @@ msgctxt ""
 msgid "&nbsp;&nbsp;• <b>%1</b> [#%2] inside  <b>%3</b> [#%4]<br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:726
-#: app/settings/viewsdialog/viewscontroller.cpp:818
+#: app/settings/viewsdialog/viewscontroller.cpp:718
+#: app/settings/viewsdialog/viewscontroller.cpp:810
 #, kde-format
 msgid "<b>Orphaned Subcontainments:</b><br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:736
-#: app/settings/viewsdialog/viewscontroller.cpp:828
+#: app/settings/viewsdialog/viewscontroller.cpp:728
+#: app/settings/viewsdialog/viewscontroller.cpp:820
 #, kde-format
 msgctxt "orphaned subcontainments, containment name, containment id"
 msgid "&nbsp;&nbsp;• <b>%1</b> [#%2] <br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:743
+#: app/settings/viewsdialog/viewscontroller.cpp:735
 #, kde-format
 msgid ""
 "&nbsp;&nbsp;1. Update manually the subcontainment id inside pseudo applet "
 "settings when the layout is <b>not active</b><br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:744
+#: app/settings/viewsdialog/viewscontroller.cpp:736
 #, kde-format
 msgid "&nbsp;&nbsp;2. Remove this layout totally<br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:757
-#: app/settings/viewsdialog/viewscontroller.cpp:814
+#: app/settings/viewsdialog/viewscontroller.cpp:749
+#: app/settings/viewsdialog/viewscontroller.cpp:806
 #, kde-format
 msgctxt "warning id and title"
 msgid "<b>Warning #%1: %2</b> <br/><br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:758
+#: app/settings/viewsdialog/viewscontroller.cpp:750
 #, kde-format
 msgid ""
 "In your layout there are applets and containments with the same id. Such "
 "situation is not dangerous but it should not occur.<br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:773
+#: app/settings/viewsdialog/viewscontroller.cpp:765
 #, kde-format
 msgctxt "applets, applet name, applet id, containment name, containment id"
 msgid "&nbsp;&nbsp;• <b>%1</b> [#%2] inside  <b>%3</b> [#%4]<br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:781
+#: app/settings/viewsdialog/viewscontroller.cpp:773
 #, kde-format
 msgid "<b>Containments:</b><br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:791
+#: app/settings/viewsdialog/viewscontroller.cpp:783
 #, kde-format
 msgctxt "containments, containment name, containment id"
 msgid "&nbsp;&nbsp;• <b>%1</b> [#%2] <br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:798
+#: app/settings/viewsdialog/viewscontroller.cpp:790
 #, kde-format
 msgid ""
 "&nbsp;&nbsp;1. Update manually the containments or applets id when the "
 "layout is <b>not active</b><br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:799
+#: app/settings/viewsdialog/viewscontroller.cpp:791
 #, kde-format
 msgid ""
 "&nbsp;&nbsp;2. Remove any of the containments or applets that conflict with "
 "each other<br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:815
+#: app/settings/viewsdialog/viewscontroller.cpp:807
 #, kde-format
 msgid ""
 "In your layout there are orphaned subcontainments that are not used by any "
@@ -1985,21 +2012,21 @@ msgid ""
 "them in order to reduce memory usage.<br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:837
+#: app/settings/viewsdialog/viewscontroller.cpp:829
 #, kde-format
 msgid ""
 "&nbsp;&nbsp;1. Click <b>Repair</b> button in order to remove orphaned "
 "subcontainments<br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:838
+#: app/settings/viewsdialog/viewscontroller.cpp:830
 #, kde-format
 msgid ""
 "&nbsp;&nbsp;2. Remove manually orphaned subcontainments when the layout is "
 "<b>not active</b><br/>"
 msgstr ""
 
-#: app/settings/viewsdialog/viewscontroller.cpp:841
+#: app/settings/viewsdialog/viewscontroller.cpp:833
 #, kde-format
 msgid "Repair"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skrooge\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-12 00:44+0000\n"
+"POT-Creation-Date: 2022-01-05 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1134,7 +1134,7 @@ msgid "Reopen"
 msgstr ""
 
 #: plugins/generic/skg_file/skgfileplugin.cpp:450
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:579
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:583
 #, kde-format
 msgctxt "Question"
 msgid ""
@@ -1143,7 +1143,7 @@ msgid ""
 msgstr ""
 
 #: plugins/generic/skg_file/skgfileplugin.cpp:468
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:594
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:598
 #, kde-format
 msgctxt "The user did not provide the correct password"
 msgid "<b>Wrong password.</b>\n"
@@ -1506,7 +1506,7 @@ msgstr ""
 #: plugins/import/skrooge_import_backend/skgimportpluginbackend.cpp:251
 #: plugins/import/skrooge_import_pdf/skgimportpluginpdf.cpp:126
 #: skgbankmodeler/skgunitobject.cpp:2407 skgbasegui/skgmainpanel.cpp:2704
-#: skgbasegui/skgmainpanel.cpp:2711 skgbasemodeler/skgdocument.cpp:1383
+#: skgbasegui/skgmainpanel.cpp:2711 skgbasemodeler/skgdocument.cpp:1402
 #, kde-format
 msgctxt "Error message"
 msgid ""
@@ -5706,70 +5706,78 @@ msgctxt "Error message"
 msgid "Syntax error in backend \"%1\""
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:468
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:404
+#, kde-format
+msgctxt "Question"
+msgid ""
+"The backend '%1' needs a password.\n"
+"Please enter the password."
+msgstr ""
+
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:472
 #, kde-format
 msgctxt "A file format"
 msgid "CSV Files"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:485
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:489
 #: skgbankmodeler/skgimportexportmanager.cpp:642
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Import with codec %1"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:573
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:608
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:577
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:612
 #, kde-format
 msgctxt "Error message"
 msgid "Import of file named '%1' failed"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:601
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:605
 #, kde-format
 msgctxt "Error message"
 msgid "Import canceled by user"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:617
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:621
 #, kde-format
 msgid "%1 file successfully imported."
 msgid_plural "%1 files successfully imported."
 msgstr[0] ""
 msgstr[1] ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:625
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:629
 #, kde-format
 msgctxt "Noun"
 msgid "Install %1"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:643
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:647
 #, kde-format
 msgctxt "Information message"
 msgid "The installation will be done during the next import"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:671
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:675
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Export"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:683
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:687
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "File '%1' successfully exported."
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:685
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:689
 #, kde-format
 msgctxt "Error message"
 msgid "Export of '%1' failed"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:700
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:704
 #, kde-format
 msgctxt "Question"
 msgid ""
@@ -5779,76 +5787,76 @@ msgid ""
 "file, simply try to anonymize it with the same key."
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:711
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:715
 #, kde-format
 msgctxt ""
 "An anonymized document is a document where all private data has been removed"
 msgid "Document anonymized."
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:725
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:729
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Find and group transfers"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:735
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:739
 #, kde-format
 msgid "Document successfully processed. %1 transfer created."
 msgid_plural "Document successfully processed. %1 transfers created."
 msgstr[0] ""
 msgstr[1] ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:738
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:742
 #, kde-format
 msgctxt "Information message"
 msgid "No transfers found"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:741
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:745
 #, kde-format
 msgctxt "Error message"
 msgid "Processing failed."
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:758
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:762
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Clean bank's imports"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:766
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:770
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Document successfully cleaned."
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:768
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:772
 #, kde-format
 msgctxt "Error message"
 msgid "Clean failed."
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:787
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:791
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Switch validation of imported operations"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:803
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:807
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Imported operations validated."
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:805
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:884
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:809
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:888
 #, kde-format
 msgctxt "Error message"
 msgid "Validation failed"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:820
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:824
 #, kde-format
 msgctxt "Error message"
 msgid ""
@@ -5856,50 +5864,50 @@ msgid ""
 "operation with same amounts"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:842
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:846
 #, kde-format
 msgctxt "Question"
 msgid "Amounts are not equals. Do you want to force the merge ?"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:845
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:849
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Merge imported operations"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:847
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:851
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1676
 #, kde-format
 msgctxt "Error message"
 msgid "Merge failed"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:854
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:858
 #, kde-format
 msgctxt "Successful message after an user action"
 msgid "Imported operations merged."
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:877
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:881
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Validate all operations"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:882
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:886
 #, kde-format
 msgctxt "Message for successful user action"
 msgid "Operations validated."
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:904
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:908
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Many operations imported and not yet validated"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:905
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:909
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
@@ -5908,62 +5916,62 @@ msgid ""
 "as validated, so that you know the operation has been fully processed."
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:946
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:950
 #, kde-format
 msgctxt "Advice on making the best (short)"
 msgid "Krunner's operation ongoing [%1 %2 %3]"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:947
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:951
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid "Operations created through krunner have to be fully created in skrooge."
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:951
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:955
 #, kde-format
 msgctxt "Advice on making the best (action)"
 msgid "Import operation in %1"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:958
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:962
 #, kde-format
 msgctxt "Advice on making the best (action)"
 msgid "Remove operation"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:989
-#: skgbasemodeler/skgservices.cpp:1718
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:993
+#: skgbasemodeler/skgservices.cpp:1723
 #, kde-format
 msgctxt "An erro message"
 msgid "Open file '%1' failed"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:997
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1001
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid "Import krunner's operation"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1050
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1054
 #, kde-format
 msgctxt "An information to the user"
 msgid "The operation '%1' has been added"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1058
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1062
 #, kde-format
 msgctxt "Message for successful user action"
 msgid "Operations imported."
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1061
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1065
 #, kde-format
 msgctxt "Error message"
 msgid "Import failed"
 msgstr ""
 
-#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1064
+#: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1068
 #, kde-format
 msgctxt "Message for successful user action"
 msgid "Operations removed."
@@ -11567,7 +11575,7 @@ msgid "Switch in advanced mode"
 msgstr ""
 
 #: skgbankgui/skgquerycreator.cpp:61 skgbasegui/skgfilteredtableview.cpp:209
-#: skgbasegui/skghtmlboardwidget.cpp:199
+#: skgbasegui/skghtmlboardwidget.cpp:203
 #, kde-format
 msgctxt "Tooltip"
 msgid ""
@@ -11920,21 +11928,21 @@ msgid "Year"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:1941
-#: skgbasemodeler/skgdocument.cpp:1923
+#: skgbasemodeler/skgdocument.cpp:1942
 #, kde-format
 msgctxt "Progression step"
 msgid "Migrate document"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:2193
-#: skgbasemodeler/skgdocument.cpp:1958
+#: skgbasemodeler/skgdocument.cpp:1977
 #, kde-format
 msgctxt "Error message"
 msgid "Impossible to load a document generated by a more recent version"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:2236
-#: skgbasemodeler/skgdocument.cpp:2199
+#: skgbasemodeler/skgdocument.cpp:2218
 #, kde-format
 msgctxt "Progression step"
 msgid "Refresh views"
@@ -11953,7 +11961,7 @@ msgid "Computation of budgets"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:2252
-#: skgbasemodeler/skgdocument.cpp:2218
+#: skgbasemodeler/skgdocument.cpp:2237
 #, kde-format
 msgctxt "Error message: Could not perform database migration"
 msgid "Database migration from version %1 to version %2 failed"
@@ -11979,8 +11987,8 @@ msgstr ""
 #: skgbankmodeler/skgdocumentbank.cpp:2749
 #: skgbankmodeler/skgdocumentbank.cpp:2763
 #: skgbankmodeler/skgdocumentbank.cpp:2777
-#: skgbasemodeler/skgdocument.cpp:2781 skgbasemodeler/skgdocument.cpp:2795
-#: skgbasemodeler/skgdocument.cpp:2802 skgbasemodeler/skgdocument.cpp:2809
+#: skgbasemodeler/skgdocument.cpp:2805 skgbasemodeler/skgdocument.cpp:2819
+#: skgbasemodeler/skgdocument.cpp:2826 skgbasemodeler/skgdocument.cpp:2833
 #, kde-format
 msgctxt "Noun, the default value of an item"
 msgid "Default"
@@ -11996,7 +12004,7 @@ msgstr ""
 #: skgbankmodeler/skgdocumentbank.cpp:2742
 #: skgbankmodeler/skgdocumentbank.cpp:2756
 #: skgbankmodeler/skgdocumentbank.cpp:2770
-#: skgbasemodeler/skgdocument.cpp:2788
+#: skgbasemodeler/skgdocument.cpp:2812
 #, kde-format
 msgctxt "Noun, the minimum value of an item"
 msgid "Minimum"
@@ -12058,7 +12066,7 @@ msgid "Operation"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:2979
-#: skgbasemodeler/skgdocument.cpp:2831
+#: skgbasemodeler/skgdocument.cpp:2855
 #, kde-format
 msgctxt "Noun, the name of an item"
 msgid "Name"
@@ -12182,7 +12190,7 @@ msgid "Next occurrence"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:3058
-#: skgbasemodeler/skgdocument.cpp:2833
+#: skgbasemodeler/skgdocument.cpp:2857
 #, kde-format
 msgctxt "Noun, the date of an item"
 msgid "Date"
@@ -12703,43 +12711,43 @@ msgctxt "An information message"
 msgid "Loading plugin %1 failed because the factory could not be found in %2"
 msgstr ""
 
-#: skgbankmodeler/skgimportexportmanager.cpp:662
+#: skgbankmodeler/skgimportexportmanager.cpp:661
 #, kde-format
 msgctxt "Error message"
 msgid "The import mode %1 is not yet implemented"
 msgstr ""
 
-#: skgbankmodeler/skgimportexportmanager.cpp:694
+#: skgbankmodeler/skgimportexportmanager.cpp:692
 #, kde-format
 msgctxt "Error message"
 msgid "This export mode is not yet implemented"
 msgstr ""
 
-#: skgbankmodeler/skgimportexportmanager.cpp:709
+#: skgbankmodeler/skgimportexportmanager.cpp:707
 #, kde-format
 msgctxt "Progression step"
 msgid "Clean import"
 msgstr ""
 
-#: skgbankmodeler/skgimportexportmanager.cpp:801
+#: skgbankmodeler/skgimportexportmanager.cpp:799
 #, kde-format
 msgctxt "An information message"
 msgid "The document must be saved to be anonymized."
 msgstr ""
 
-#: skgbankmodeler/skgimportexportmanager.cpp:833
+#: skgbankmodeler/skgimportexportmanager.cpp:831
 #, kde-format
 msgctxt "Progression step"
 msgid "Anonymize"
 msgstr ""
 
-#: skgbankmodeler/skgimportexportmanager.cpp:840
+#: skgbankmodeler/skgimportexportmanager.cpp:838
 #, kde-format
 msgctxt "An information message"
 msgid "The document has been made anonymous with an irreversible mode."
 msgstr ""
 
-#: skgbankmodeler/skgimportexportmanager.cpp:842
+#: skgbankmodeler/skgimportexportmanager.cpp:840
 #, kde-format
 msgctxt "An information message"
 msgid ""
@@ -12747,8 +12755,8 @@ msgid ""
 "the key if you want to reverse it."
 msgstr ""
 
-#: skgbankmodeler/skgimportexportmanager.cpp:869
-#: skgbankmodeler/skgimportexportmanager.cpp:913
+#: skgbankmodeler/skgimportexportmanager.cpp:867
+#: skgbankmodeler/skgimportexportmanager.cpp:911
 #, kde-format
 msgctxt "Progression step"
 msgid "Find and group transfers"
@@ -14664,31 +14672,31 @@ msgctxt "Error message"
 msgid "Impossible to open unit %1 with Internet code %2."
 msgstr ""
 
-#: skgbasegui/kdateedit.cpp:342
+#: skgbasegui/kdateedit.cpp:339
 #, kde-format
 msgctxt "the day after today"
 msgid "tomorrow"
 msgstr ""
 
-#: skgbasegui/kdateedit.cpp:343
+#: skgbasegui/kdateedit.cpp:340
 #, kde-format
 msgctxt "this day"
 msgid "today"
 msgstr ""
 
-#: skgbasegui/kdateedit.cpp:344
+#: skgbasegui/kdateedit.cpp:341
 #, kde-format
 msgctxt "the day before today"
 msgid "yesterday"
 msgstr ""
 
-#: skgbasegui/kdateedit.cpp:345
+#: skgbasegui/kdateedit.cpp:342
 #, kde-format
 msgctxt "the week after this week"
 msgid "next week"
 msgstr ""
 
-#: skgbasegui/kdateedit.cpp:346
+#: skgbasegui/kdateedit.cpp:343
 #, kde-format
 msgctxt "the month after this month"
 msgid "next month"
@@ -14877,13 +14885,13 @@ msgctxt "A place holder for a filter field"
 msgid "Filter"
 msgstr ""
 
-#: skgbasegui/skghtmlboardwidget.cpp:173 skgbasegui/skgsimpleperiodedit.cpp:112
+#: skgbasegui/skghtmlboardwidget.cpp:177 skgbasegui/skgsimpleperiodedit.cpp:112
 #, kde-format
 msgctxt "The current month"
 msgid "Current month"
 msgstr ""
 
-#: skgbasegui/skghtmlboardwidget.cpp:173 skgbasegui/skgsimpleperiodedit.cpp:129
+#: skgbasegui/skghtmlboardwidget.cpp:177 skgbasegui/skgsimpleperiodedit.cpp:129
 #, kde-format
 msgctxt "The month before the current month"
 msgid "Last month"
@@ -15665,85 +15673,85 @@ msgctxt "An information to the user"
 msgid "The bookmark '%1' has been moved to '%2'"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:24
+#: skgbasegui/skgperiodedit.cpp:25
 #, kde-format
 msgctxt "Period mode"
 msgid "All Dates"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:25
+#: skgbasegui/skgperiodedit.cpp:26
 #, kde-format
 msgctxt "Period mode"
 msgid "Current..."
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:26
+#: skgbasegui/skgperiodedit.cpp:27
 #, kde-format
 msgctxt "Period mode"
 msgid "Previous..."
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:27
+#: skgbasegui/skgperiodedit.cpp:28
 #, kde-format
 msgctxt "Period mode"
 msgid "Last..."
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:28
+#: skgbasegui/skgperiodedit.cpp:29
 #, kde-format
 msgctxt "Period mode"
 msgid "Custom..."
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:29
+#: skgbasegui/skgperiodedit.cpp:30
 #, kde-format
 msgctxt "Period mode"
 msgid "Timeline..."
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:31
+#: skgbasegui/skgperiodedit.cpp:32
 #, kde-format
 msgctxt "Period interval"
 msgid "day(s)"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:32
+#: skgbasegui/skgperiodedit.cpp:33
 #, kde-format
 msgctxt "Period interval"
 msgid "week(s)"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:33
+#: skgbasegui/skgperiodedit.cpp:34
 #, kde-format
 msgctxt "Period interval"
 msgid "month(s)"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:34
+#: skgbasegui/skgperiodedit.cpp:35
 #, kde-format
 msgctxt "Period interval"
 msgid "quarter(s)"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:35
+#: skgbasegui/skgperiodedit.cpp:36
 #, kde-format
 msgctxt "Period interval"
 msgid "semester(s)"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:36
+#: skgbasegui/skgperiodedit.cpp:37
 #, kde-format
 msgctxt "Period interval"
 msgid "year(s)"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:123
+#: skgbasegui/skgperiodedit.cpp:124
 #, kde-format
 msgctxt "A period"
 msgid "From %1 to %2"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:128
+#: skgbasegui/skgperiodedit.cpp:129
 #, kde-format
 msgctxt "A period"
 msgid "Previous day"
@@ -15751,7 +15759,7 @@ msgid_plural "%1 previous days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: skgbasegui/skgperiodedit.cpp:131
+#: skgbasegui/skgperiodedit.cpp:132
 #, kde-format
 msgctxt "A period"
 msgid "Previous week"
@@ -15759,7 +15767,7 @@ msgid_plural "%1 previous weeks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: skgbasegui/skgperiodedit.cpp:134
+#: skgbasegui/skgperiodedit.cpp:135
 #, kde-format
 msgctxt "A period"
 msgid "Previous month"
@@ -15767,7 +15775,7 @@ msgid_plural "%1 previous months"
 msgstr[0] ""
 msgstr[1] ""
 
-#: skgbasegui/skgperiodedit.cpp:137
+#: skgbasegui/skgperiodedit.cpp:138
 #, kde-format
 msgctxt "A period"
 msgid "Previous year"
@@ -15775,7 +15783,7 @@ msgid_plural "%1 previous years"
 msgstr[0] ""
 msgstr[1] ""
 
-#: skgbasegui/skgperiodedit.cpp:140
+#: skgbasegui/skgperiodedit.cpp:141
 #, kde-format
 msgctxt "A period"
 msgid "Previous quarter"
@@ -15783,7 +15791,7 @@ msgid_plural "%1 previous quarters"
 msgstr[0] ""
 msgstr[1] ""
 
-#: skgbasegui/skgperiodedit.cpp:144
+#: skgbasegui/skgperiodedit.cpp:145
 #, kde-format
 msgctxt "A period"
 msgid "Previous semester"
@@ -15791,7 +15799,7 @@ msgid_plural "%1 previous semesters"
 msgstr[0] ""
 msgstr[1] ""
 
-#: skgbasegui/skgperiodedit.cpp:150
+#: skgbasegui/skgperiodedit.cpp:151
 #, kde-format
 msgctxt "A period"
 msgid "Last day"
@@ -15799,7 +15807,7 @@ msgid_plural "%1 last days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: skgbasegui/skgperiodedit.cpp:153
+#: skgbasegui/skgperiodedit.cpp:154
 #, kde-format
 msgctxt "A period"
 msgid "Last week"
@@ -15807,7 +15815,7 @@ msgid_plural "%1 last weeks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: skgbasegui/skgperiodedit.cpp:156
+#: skgbasegui/skgperiodedit.cpp:157
 #, kde-format
 msgctxt "A period"
 msgid "Last month"
@@ -15815,7 +15823,7 @@ msgid_plural "%1 last months"
 msgstr[0] ""
 msgstr[1] ""
 
-#: skgbasegui/skgperiodedit.cpp:159
+#: skgbasegui/skgperiodedit.cpp:160
 #, kde-format
 msgctxt "A period"
 msgid "Last year"
@@ -15823,7 +15831,7 @@ msgid_plural "%1 last years"
 msgstr[0] ""
 msgstr[1] ""
 
-#: skgbasegui/skgperiodedit.cpp:162
+#: skgbasegui/skgperiodedit.cpp:163
 #, kde-format
 msgctxt "A period"
 msgid "Last quarter"
@@ -15831,7 +15839,7 @@ msgid_plural "%1 last quarters"
 msgstr[0] ""
 msgstr[1] ""
 
-#: skgbasegui/skgperiodedit.cpp:166
+#: skgbasegui/skgperiodedit.cpp:167
 #, kde-format
 msgctxt "A period"
 msgid "Last semester"
@@ -15839,37 +15847,37 @@ msgid_plural "%1 last semesters"
 msgstr[0] ""
 msgstr[1] ""
 
-#: skgbasegui/skgperiodedit.cpp:172
+#: skgbasegui/skgperiodedit.cpp:173
 #, kde-format
 msgctxt "A period"
 msgid "Current day"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:175
+#: skgbasegui/skgperiodedit.cpp:176
 #, kde-format
 msgctxt "A period"
 msgid "Current week"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:178
+#: skgbasegui/skgperiodedit.cpp:179
 #, kde-format
 msgctxt "A period"
 msgid "Current month"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:181
+#: skgbasegui/skgperiodedit.cpp:182
 #, kde-format
 msgctxt "A period"
 msgid "Current year"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:184
+#: skgbasegui/skgperiodedit.cpp:185
 #, kde-format
 msgctxt "A period"
 msgid "Current quarter"
 msgstr ""
 
-#: skgbasegui/skgperiodedit.cpp:188
+#: skgbasegui/skgperiodedit.cpp:189
 #, kde-format
 msgctxt "A period"
 msgid "Current semester"
@@ -15913,12 +15921,12 @@ msgstr ""
 msgid "to"
 msgstr ""
 
-#: skgbasegui/skgshow.cpp:483
+#: skgbasegui/skgshow.cpp:482
 #, kde-format
 msgid "Show: %1"
 msgstr ""
 
-#: skgbasegui/skgshow.cpp:485
+#: skgbasegui/skgshow.cpp:484
 #, kde-format
 msgid "Show"
 msgstr ""
@@ -16097,7 +16105,7 @@ msgid "%1 (raw)"
 msgstr ""
 
 #: skgbasegui/skgtablewithgraph.cpp:967 skgbasegui/skgtablewithgraph.cpp:1133
-#: skgbasemodeler/skgdocument.cpp:2555 skgbasemodeler/skgdocument.cpp:2560
+#: skgbasemodeler/skgdocument.cpp:2574 skgbasemodeler/skgdocument.cpp:2579
 #, kde-format
 msgctxt "Noun, the numerical sum of a list of values"
 msgid "Sum"
@@ -16321,98 +16329,98 @@ msgid ""
 "Constraint name: %3"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:538
+#: skgbasemodeler/skgdocument.cpp:557
 #, kde-format
 msgctxt "User interrupted something that Skrooge was performing"
 msgid "The current operation has been interrupted"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:578
+#: skgbasemodeler/skgdocument.cpp:597
 #, kde-format
 msgctxt "Something went wrong with SQL transactions"
 msgid "A transaction cannot be started during execution of another one"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:609
+#: skgbasemodeler/skgdocument.cpp:628
 #, kde-format
 msgctxt "Something went wrong with SQL transactions"
 msgid "A transaction must be opened to do this action"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:620
+#: skgbasemodeler/skgdocument.cpp:639
 #, kde-format
 msgctxt "Something went wrong with SQL transactions"
 msgid "Closing transaction failed because too many transactions ended"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:803
+#: skgbasemodeler/skgdocument.cpp:822
 #, kde-format
 msgctxt "Something went wrong with SQL transactions"
 msgid "Remove of transactions is forbidden inside a transaction"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1046
+#: skgbasemodeler/skgdocument.cpp:1065
 #, kde-format
 msgctxt "Something went wrong with SQL transactions"
 msgid "Creation of a group of transactions is forbidden inside a transaction"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1117
+#: skgbasemodeler/skgdocument.cpp:1136
 #, kde-format
 msgctxt "Something went wrong with SQL transactions"
 msgid "Undo / Redo is forbidden inside a transaction"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1305
+#: skgbasemodeler/skgdocument.cpp:1324
 #, kde-format
 msgctxt "Something went wrong with SQL transactions"
 msgid "Change password is forbidden inside a transaction"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1311
+#: skgbasemodeler/skgdocument.cpp:1330
 #, kde-format
 msgctxt "Inform the user that the password protection was removed"
 msgid "The document password has been removed."
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1312
+#: skgbasemodeler/skgdocument.cpp:1331
 #, kde-format
 msgctxt "Inform the user that the password was successfully changed"
 msgid "The document password has been modified."
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1389
+#: skgbasemodeler/skgdocument.cpp:1408
 #, kde-format
 msgctxt "Noun"
 msgid "Recovery"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1404
+#: skgbasemodeler/skgdocument.cpp:1423
 #, kde-format
 msgctxt "Error message"
 msgid "Impossible to recover this file"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1460 skgbasemodeler/skgdocument.cpp:1519
+#: skgbasemodeler/skgdocument.cpp:1479 skgbasemodeler/skgdocument.cpp:1538
 #, kde-format
 msgctxt "Error message"
 msgid "Wrong installation"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1470 skgbasemodeler/skgdocument.cpp:1529
-#: skgbasemodeler/skgservices.cpp:1227 skgbasemodeler/skgservices.cpp:1299
+#: skgbasemodeler/skgdocument.cpp:1489 skgbasemodeler/skgdocument.cpp:1548
+#: skgbasemodeler/skgservices.cpp:1232 skgbasemodeler/skgservices.cpp:1304
 #, kde-format
 msgctxt "Error message"
 msgid "Wrong password"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1537
+#: skgbasemodeler/skgdocument.cpp:1556
 #, kde-format
 msgctxt "Error message"
 msgid "Oups, this file seems to be corrupted"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1624
+#: skgbasemodeler/skgdocument.cpp:1643
 #, kde-format
 msgctxt "Information message"
 msgid ""
@@ -16422,7 +16430,7 @@ msgid ""
 "temporary file is encrypted?"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1627
+#: skgbasemodeler/skgdocument.cpp:1646
 #, kde-format
 msgctxt "Information message"
 msgid ""
@@ -16430,7 +16438,7 @@ msgid ""
 "application. We strongly encourage you to change your password."
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1633
+#: skgbasemodeler/skgdocument.cpp:1652
 #, kde-format
 msgctxt "Popup message"
 msgid ""
@@ -16438,13 +16446,13 @@ msgid ""
 "debug mode is activated"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1637
+#: skgbasemodeler/skgdocument.cpp:1656
 #, kde-format
 msgctxt "The document has been upgraded to the latest Skrooge version format"
 msgid "The document has been migrated"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1663
+#: skgbasemodeler/skgdocument.cpp:1682
 #, kde-format
 msgctxt "Error message"
 msgid ""
@@ -16453,13 +16461,13 @@ msgid ""
 "rebuild Qt with the option -system-sqlite."
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1711
+#: skgbasemodeler/skgdocument.cpp:1730
 #, kde-format
 msgctxt "Error message: Can not save a file if it has no name yet"
 msgid "Save not authorized because the file name is not yet defined"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1729
+#: skgbasemodeler/skgdocument.cpp:1748
 #, kde-format
 msgctxt ""
 "Cannot save the file while the application is still performing an SQL "
@@ -16467,79 +16475,79 @@ msgctxt ""
 msgid "Save is forbidden if a transaction is still opened"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1749
+#: skgbasemodeler/skgdocument.cpp:1768
 #, kde-format
 msgctxt "There is already a file with the same name"
 msgid "File '%1' already exist"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1763
+#: skgbasemodeler/skgdocument.cpp:1782
 #, kde-format
 msgctxt "Error message: Could not create a backup file"
 msgid "Creation of backup file %1 failed"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1796 skgbasemodeler/skgservices.cpp:1330
-#: skgbasemodeler/skgservices.cpp:1338
+#: skgbasemodeler/skgdocument.cpp:1815 skgbasemodeler/skgservices.cpp:1335
+#: skgbasemodeler/skgservices.cpp:1343
 #, kde-format
 msgctxt "Error message: writing a file failed"
 msgid "Write file '%1' failed"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1998
+#: skgbasemodeler/skgdocument.cpp:2017
 #, kde-format
 msgctxt "Verb, automatically load when the application is started"
 msgid "autostart"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:2210
+#: skgbasemodeler/skgdocument.cpp:2229
 #, kde-format
 msgctxt "Progression step"
 msgid "Update materialized views"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:2382 skgbasemodeler/skgdocument.cpp:2386
+#: skgbasemodeler/skgdocument.cpp:2401 skgbasemodeler/skgdocument.cpp:2405
 #, kde-format
 msgctxt "Error message: Could not open a file"
 msgid "Open file '%1' failed"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:2409 skgbasemodeler/skgdocument.cpp:3188
-#: skgbasemodeler/skgdocument.cpp:3205 skgbasemodeler/skgdocument.cpp:3217
+#: skgbasemodeler/skgdocument.cpp:2428 skgbasemodeler/skgdocument.cpp:3212
 #: skgbasemodeler/skgdocument.cpp:3229 skgbasemodeler/skgdocument.cpp:3241
-#: skgbasemodeler/skgdocument.cpp:3253 skgbasemodeler/skgdocument.cpp:3275
-#: skgbasemodeler/skgdocument.cpp:3304 skgbasemodeler/skgdocument.cpp:3455
+#: skgbasemodeler/skgdocument.cpp:3253 skgbasemodeler/skgdocument.cpp:3265
+#: skgbasemodeler/skgdocument.cpp:3277 skgbasemodeler/skgdocument.cpp:3299
+#: skgbasemodeler/skgdocument.cpp:3328 skgbasemodeler/skgdocument.cpp:3479
 #, kde-format
 msgctxt "Error message"
 msgid "No database defined"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:2835
+#: skgbasemodeler/skgdocument.cpp:2859
 #, kde-format
 msgctxt "Verb, save a document"
 msgid "Save"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:2837
+#: skgbasemodeler/skgdocument.cpp:2861
 #, kde-format
 msgctxt "Noun, the value of an item"
 msgid "Value"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:2839
+#: skgbasemodeler/skgdocument.cpp:2863
 #, kde-format
 msgctxt "Noun, date of last modification"
 msgid "Last modification"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:3123
+#: skgbasemodeler/skgdocument.cpp:3147
 #, kde-format
 msgctxt ""
 "Error message: We expected only one object in the result, but got more"
 msgid "More than one object returned in '%1' for '%2'"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:3126
+#: skgbasemodeler/skgdocument.cpp:3150
 #, kde-format
 msgctxt ""
 "Error message: We expected at least one object in the result, but got none"
@@ -16638,43 +16646,43 @@ msgctxt "Logical condition"
 msgid "(%1) and not (%2)"
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1146
+#: skgbasemodeler/skgservices.cpp:1151
 #, kde-format
 msgctxt "An information message"
 msgid "Open file '%1' failed"
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1181 skgbasemodeler/skgservices.cpp:1187
+#: skgbasemodeler/skgservices.cpp:1186 skgbasemodeler/skgservices.cpp:1192
 #, kde-format
 msgctxt "Error message"
 msgid "Impossible to copy '%1' to '%2'"
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1247
+#: skgbasemodeler/skgservices.cpp:1252
 #, kde-format
 msgctxt "An error message about encryption"
 msgid "AES128 encryption is not supported (%1). Please install qca-ossl."
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1264 skgbasemodeler/skgservices.cpp:1283
+#: skgbasemodeler/skgservices.cpp:1269 skgbasemodeler/skgservices.cpp:1288
 #, kde-format
 msgctxt "Error message about encrypting a file"
 msgid "Encryption failed"
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1500
+#: skgbasemodeler/skgservices.cpp:1505
 #, kde-format
 msgctxt "An error message: creating a file failed"
 msgid "Creation file '%1' failed"
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1503
+#: skgbasemodeler/skgservices.cpp:1508
 #, kde-format
 msgctxt "Error message: something failed"
 msgid "%1 failed"
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1554
+#: skgbasemodeler/skgservices.cpp:1559
 #, kde-format
 msgctxt "Error message"
 msgid "Creation failed. The object already exists."
@@ -16768,31 +16776,31 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: skrooge/main.cpp:124
+#: skrooge/main.cpp:125
 #, kde-format
 msgctxt "Reason of the about/credit"
 msgid "Users helping us to improve this application"
 msgstr ""
 
-#: skrooge/main.cpp:133
+#: skrooge/main.cpp:134
 #, kde-format
 msgctxt "Application argument"
 msgid "Document to open"
 msgstr ""
 
-#: skrooge/main.cpp:134
+#: skrooge/main.cpp:135
 #, kde-format
 msgctxt "Application argument"
 msgid "Display environment variables used by this application."
 msgstr ""
 
-#: skrooge/main.cpp:143
+#: skrooge/main.cpp:144
 #, kde-format
 msgctxt "Help"
 msgid "Environment variables:"
 msgstr ""
 
-#: skrooge/main.cpp:144
+#: skrooge/main.cpp:145
 #, kde-format
 msgctxt "Help, do not translate x"
 msgid ""
@@ -16800,25 +16808,25 @@ msgid ""
 "debug mode too."
 msgstr ""
 
-#: skrooge/main.cpp:145
+#: skrooge/main.cpp:146
 #, kde-format
 msgctxt "Help"
 msgid "  %1: To enable the profiling. This enables the debug mode too."
 msgstr ""
 
-#: skrooge/main.cpp:146
+#: skrooge/main.cpp:147
 #, kde-format
 msgctxt "Help do not translate x"
 msgid "  %1: To dump sql order taking more than x ms."
 msgstr ""
 
-#: skrooge/main.cpp:147
+#: skrooge/main.cpp:148
 #, kde-format
 msgctxt "Help"
 msgid "  %1: To enable the high DPI mode."
 msgstr ""
 
-#: skrooge/main.cpp:182
+#: skrooge/main.cpp:183
 #, kde-format
 msgctxt "Splash screen message"
 msgid "Loading ..."
