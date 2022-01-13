@@ -16723,10 +16723,11 @@ msgstr "CMY&K + kênh alpha "
 msgid "Grayscale/Alpha"
 msgstr "Độ &xám "
 
+# Sử dụng "đen trắng" chưa chuẩn xác vì nếu nói "đen trắng" thì trong khoảng màu của nó chỉ chứa đen và trắng mà không có các mức xám
 #: libs/pigment/KoColorModelStandardIds.cpp:18
-#, kde-format
+#, fuzzy, kde-format
 msgid "Grayscale (without transparency)"
-msgstr "Đen Trắng (không có độ trong suốt)"
+msgstr "Thang độ xám (không có độ trong suốt)"
 
 #: libs/pigment/KoColorModelStandardIds.cpp:19
 #, fuzzy, kde-format
@@ -17900,9 +17901,9 @@ msgstr "Xoay"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/resources/KisResourceModel.cpp:141
 #: libs/resourcewidgets/dbexplorer/WdgDbExplorer.ui:49
-#, fuzzy, kde-format
+#, kde-format
 msgid "Resource Type"
-msgstr "&Tài nguyên"
+msgstr "Kiểu tài nguyên"
 
 #: libs/resources/KisResourceModel.cpp:145
 #, fuzzy, kde-format
@@ -18007,7 +18008,7 @@ msgstr "Trộn Layer"
 #, fuzzy, kde-format
 msgctxt "resource type"
 msgid "Window Layouts"
-msgstr "nền"
+msgstr "Bố cục cửa sổ"
 
 #: libs/resources/KisResourceTypes.cpp:51
 #, fuzzy, kde-format
@@ -18051,9 +18052,9 @@ msgstr "Cỡ Lớp"
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:97
 #: plugins/python/filtermanager/components/filtermanagertreemodel.py:18
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/debuggertable.py:16
-#, fuzzy, kde-format
+#, kde-format
 msgid "Type"
-msgstr "&Loại"
+msgstr "Kiểu"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: libs/resources/KisStorageModel.cpp:425
@@ -18510,7 +18511,7 @@ msgstr ""
 #: plugins/python/krita_script_starter/bbdkss.ui:203
 #, kde-format
 msgid "Cancel"
-msgstr "Thôi"
+msgstr "Huỷ"
 
 #: libs/resourcewidgets/KisTagChooserWidget.cpp:227
 #, fuzzy, kde-format
@@ -18789,7 +18790,7 @@ msgstr ""
 #, kde-format
 msgctxt "FPS as a unit following a value, like 60 FPS"
 msgid " FPS"
-msgstr ""
+msgstr " FPS"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:87
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:93
@@ -18804,13 +18805,13 @@ msgstr ""
 #| msgid "Document"
 msgctxt "Import video to New Document"
 msgid "New Document"
-msgstr "Tài liệu"
+msgstr "Tài liệu mới"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:102
 #, fuzzy, kde-format
 msgctxt "Import video to Current Document"
 msgid "Current Document"
-msgstr "Đổ dốc màu tự chọn"
+msgstr "Tài liệu hiện tại"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:105
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:626
@@ -18871,14 +18872,14 @@ msgstr "Quay &90"
 #, fuzzy, kde-format
 msgctxt "video importer: video file statistics"
 msgid "Width: %1 px"
-msgstr "Chiều rộng:"
+msgstr "Chiều rộng: %1 px"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:391
 #, fuzzy, kde-format
 #| msgid "Length:"
 msgctxt "video importer: video file statistics"
 msgid "Height: %1 px"
-msgstr "Chiều dài:"
+msgstr "Chiều cao: %1 px"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:395
 #, fuzzy, kde-format
@@ -18908,7 +18909,7 @@ msgstr "&Màu"
 #, kde-format
 msgctxt "video importer: video file statistics"
 msgid "FPS: %1"
-msgstr ""
+msgstr "FPS: %1"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:407
 #, kde-format
@@ -18960,29 +18961,29 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "Smeary Brush"
 msgid "Open FFProbe"
-msgstr "Chổi nhoè"
+msgstr "Mở FFProbe"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:579
 #, kde-format
 msgid "FFProbe is invalid!"
-msgstr ""
+msgstr "FFProbe không hợp lệ!"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:586
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:588
 #, fuzzy, kde-format
 #| msgid "Open palette"
 msgid "Open FFMpeg"
-msgstr "Mở bảng màu"
+msgstr "Mở FFMpeg"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:600
 #, kde-format
 msgid "FFMpeg is invalid!"
-msgstr ""
+msgstr "FFMpeg không hợp lệ!"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:607
 #, kde-format
 msgid "No FFMpeg found!"
-msgstr ""
+msgstr "Không tìm thấy FFMpeg!"
 
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:708
 #, kde-format
@@ -19011,9 +19012,9 @@ msgid "Loading video data... %1 frames examined."
 msgstr ""
 
 #: libs/ui/animation/KisVideoSaver.cpp:52
-#, fuzzy, kde-format
+#, kde-format
 msgid "ffmpeg could not be found at %1"
-msgstr "Tạo layer mới"
+msgstr "Không tìm được ffmpeg ở %1"
 
 #: libs/ui/animation/KisVideoSaver.cpp:137
 #, kde-format
@@ -19075,7 +19076,7 @@ msgstr "Phần trăm:"
 #: libs/ui/animation/video_export_options_dialog.ui:129
 #, fuzzy, kde-format
 msgid "HDR Mode"
-msgstr "Phương thức"
+msgstr "Chế độ HDR"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnHdrMetadata)
 #: libs/ui/animation/video_export_options_dialog.ui:136
@@ -19192,7 +19193,7 @@ msgstr "Tính chất:"
 #: libs/ui/animation/video_export_options_dialog.ui:313
 #, fuzzy, kde-format
 msgid "Image Quality:"
-msgstr "Độ đậm đặc:"
+msgstr "Chất lượng ảnh:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCustomLine)
 #: libs/ui/animation/video_export_options_dialog.ui:353
@@ -19220,52 +19221,52 @@ msgstr ""
 #: plugins/filters/colorsfilters/wdg_perchannel.ui:346
 #: plugins/tools/basictools/wdgmultihandtool.ui:192
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:137
-#, fuzzy, kde-format
+#, kde-format
 msgid "Reset"
-msgstr "Chọn"
+msgstr "Đặt lại"
 
 #: libs/ui/animation/VideoExportOptionsDialog.cpp:25
 #, kde-format
 msgctxt ""
 "theora codec name, check simplescreenrecorder for standard translations"
 msgid "Theora"
-msgstr ""
+msgstr "Theora"
 
 #: libs/ui/animation/VideoExportOptionsDialog.cpp:28
 #, kde-format
 msgctxt "VP9 codec name"
 msgid "VP9"
-msgstr ""
+msgstr "VP9"
 
 #: libs/ui/animation/VideoExportOptionsDialog.cpp:31
 #, kde-format
 msgctxt "GIF codec name"
 msgid "GIF"
-msgstr ""
+msgstr "GIF"
 
 #: libs/ui/animation/VideoExportOptionsDialog.cpp:34
 #, kde-format
 msgctxt "APNG codec name"
 msgid "APNG"
-msgstr ""
+msgstr "APNG"
 
 #: libs/ui/animation/VideoExportOptionsDialog.cpp:37
 #, kde-format
 msgctxt "WEBP codec name"
 msgid "WEBP"
-msgstr ""
+msgstr "WEBP"
 
 #: libs/ui/animation/VideoExportOptionsDialog.cpp:40
 #, kde-format
 msgctxt "h264 codec name, check simplescreenrecorder for standard translations"
 msgid "H.264, MPEG-4 Part 10"
-msgstr ""
+msgstr "H.264, MPEG-4 Part 10"
 
 #: libs/ui/animation/VideoExportOptionsDialog.cpp:41
 #, kde-format
 msgctxt "h265 codec name, check simplescreenrecorder for standard translations"
 msgid "H.265, MPEG-H Part 2 (HEVC)"
-msgstr ""
+msgstr "H.265, MPEG-H Part 2 (HEVC)"
 
 #: libs/ui/animation/VideoExportOptionsDialog.cpp:45
 #, fuzzy, kde-format
@@ -20046,7 +20047,7 @@ msgstr "Bộ lọc:"
 #: libs/ui/animation/VideoImportDialog.ui:636
 #, kde-format
 msgid "FFMpeg"
-msgstr ""
+msgstr "FFMpeg"
 
 #. i18n: ectx: property (text), widget (QLabel, ffmpegLocationLabel)
 #: libs/ui/animation/VideoImportDialog.ui:654
