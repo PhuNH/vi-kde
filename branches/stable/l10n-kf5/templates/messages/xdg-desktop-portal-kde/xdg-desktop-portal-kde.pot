@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xdg-desktop-portal-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-14 02:17+0000\n"
+"POT-Creation-Date: 2022-01-12 00:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,38 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/accessdialog.cpp:29
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: src/accessdialog.cpp:24
 #, kde-format
 msgid "Request device access"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, AppChooserDialog)
-#. i18n: ectx: property (windowTitle), widget (QDialog, RemoteDesktopDialog)
-#. i18n: ectx: property (windowTitle), widget (QDialog, ScreenshotDialog)
-#. i18n: ectx: property (windowTitle), widget (QDialog, AccessDialog)
-#. i18n: ectx: property (windowTitle), widget (QDialog, ScreenChooserDialog)
-#: src/accessdialog.ui:20 src/appchooserdialog.ui:20 src/remotedesktopdialog.ui:14
-#: src/screenchooserdialog.ui:14 src/screenshotdialog.ui:20
-#: src/userinfodialog.ui:20
-#, kde-format
-msgid "Dialog"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, iconLabel)
-#: src/accessdialog.ui:26
-#, kde-format
-msgid "Icon"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#. i18n: ectx: property (text), widget (QLabel, subtitleLabel)
-#. i18n: ectx: property (text), widget (QLabel, bodyLabel)
-#: src/accessdialog.ui:38 src/accessdialog.ui:51 src/accessdialog.ui:69
-#, kde-format
-msgid "TextLabel"
-msgstr ""
-
-#: src/appchooserdialog.cpp:67
+#: src/appchooserdialog.cpp:38
 #, kde-format
 msgid "Open with..."
 msgstr ""
@@ -92,7 +76,7 @@ msgstr ""
 msgid "Allow"
 msgstr ""
 
-#: src/filechooser.cpp:276
+#: src/filechooser.cpp:275
 #, kde-format
 msgid "Open"
 msgstr ""
@@ -112,19 +96,35 @@ msgstr ""
 msgid "Save File"
 msgstr ""
 
-#: src/remotedesktopdialog.cpp:48 src/screenchooserdialog.cpp:77
+#: src/outputsmodel.cpp:54 src/screencastwidget.cpp:24
 #, kde-format
-msgid "Share"
+msgid ""
+"Laptop screen\n"
+"Model: %1"
 msgstr ""
 
-#: src/remotedesktopdialog.cpp:68
+#: src/outputsmodel.cpp:56 src/screencastwidget.cpp:27
+#: src/screencastwidget.cpp:30
+#, kde-format
+msgid ""
+"Manufacturer: %1\n"
+"Model: %2"
+msgstr ""
+
+#: src/remotedesktopdialog.cpp:42
 #, kde-format
 msgid "Select what to share with the requesting application"
 msgstr ""
 
-#: src/remotedesktopdialog.cpp:70
+#: src/remotedesktopdialog.cpp:44 src/screenchooserdialog.cpp:140
 #, kde-format
 msgid "Select what to share with %1"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, RemoteDesktopDialog)
+#: src/remotedesktopdialog.ui:14
+#, kde-format
+msgid "Dialog"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -151,122 +151,45 @@ msgstr ""
 msgid "Touch screen"
 msgstr ""
 
-#: src/screencast.cpp:173
+#: src/screencast.cpp:172
 #, kde-format
 msgctxt "Do not disturb mode is enabled because..."
 msgid "Screen sharing in progress"
 msgstr ""
 
-#: src/screencastwidget.cpp:24
+#: src/screenchooserdialog.cpp:138
 #, kde-format
-msgid ""
-"Laptop screen\n"
-"Model: %1"
+msgid "Screen Sharing"
 msgstr ""
 
-#: src/screencastwidget.cpp:27 src/screencastwidget.cpp:30
-#, kde-format
-msgid ""
-"Manufacturer: %1\n"
-"Model: %2"
-msgstr ""
-
-#: src/screenchooserdialog.cpp:98
+#: src/screenchooserdialog.cpp:140
 #, kde-format
 msgid "Select screen to share with the requesting application"
 msgstr ""
 
-#: src/screenchooserdialog.cpp:100
+#: src/screenshotdialog.cpp:71
 #, kde-format
-msgid "Select screen to share with %1"
+msgid "Full Screen"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, screensTab)
-#: src/screenchooserdialog.ui:24
-#, kde-format
-msgid "Screens"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, windowsTab)
-#: src/screenchooserdialog.ui:41
-#, kde-format
-msgid "Windows"
-msgstr ""
-
-#: src/screenshotdialog.cpp:83
-#, kde-format
-msgid "Request screenshot"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/screenshotdialog.ui:26
-#, kde-format
-msgid "<b>Capture Mode</b>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/screenshotdialog.ui:41
-#, kde-format
-msgid "Area:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, areaComboBox)
-#: src/screenshotdialog.ui:58
-#, kde-format
-msgid "Full Screen (All Monitors)"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, areaComboBox)
-#: src/screenshotdialog.ui:63
+#: src/screenshotdialog.cpp:72
 #, kde-format
 msgid "Current Screen"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, areaComboBox)
-#: src/screenshotdialog.ui:68
+#: src/screenshotdialog.cpp:73
 #, kde-format
 msgid "Active Window"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/screenshotdialog.ui:82
-#, kde-format
-msgid "Delay:"
-msgstr ""
-
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, delaySpinBox)
-#: src/screenshotdialog.ui:98
-#, kde-format
-msgid "No Delay"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/screenshotdialog.ui:110
-#, kde-format
-msgid "<b>Content Options</b>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, includeCursorCheckbox)
-#: src/screenshotdialog.ui:117
-#, kde-format
-msgid "Include mouse pointer"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, includeBordersCheckbox)
-#: src/screenshotdialog.ui:127
-#, kde-format
-msgid "Include window borders"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, takeScreenshotButton)
-#: src/screenshotdialog.ui:164
-#, kde-format
-msgid "Take screenshot"
-msgstr ""
-
-#: src/userinfodialog.cpp:60
+#: src/userinfodialog.cpp:32
 #, kde-format
 msgid "Share Information"
+msgstr ""
+
+#: src/userinfodialog.cpp:33
+#, kde-format
+msgid "Share your personal information with the requesting application?"
 msgstr ""
 
 #: src/waylandintegration.cpp:254
@@ -297,4 +220,9 @@ msgstr ""
 #: src/waylandintegration.cpp:399
 #, kde-format
 msgid "Remote desktop"
+msgstr ""
+
+#: src/xdg-desktop-portal-kde.cpp:28
+#, kde-format
+msgid "Portal"
 msgstr ""

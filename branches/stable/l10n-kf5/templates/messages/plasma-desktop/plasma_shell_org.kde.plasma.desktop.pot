@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-20 01:43+0000\n"
+"POT-Creation-Date: 2022-01-07 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -54,7 +54,7 @@ msgid "Activities"
 msgstr ""
 
 #: contents/activitymanager/Heading.qml:78
-#: contents/explorer/WidgetExplorer.qml:230
+#: contents/explorer/WidgetExplorer.qml:223
 msgid "Search…"
 msgstr ""
 
@@ -66,16 +66,20 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: contents/applet/AppletError.qml:52
+#: contents/applet/AppletError.qml:53
 msgid "Sorry! There was an error loading %1."
 msgstr ""
 
-#: contents/applet/AppletError.qml:60
-msgid "Copy Error Details to Clipboard"
+#: contents/applet/AppletError.qml:76
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: contents/applet/AppletError.qml:91
+msgid "View Error Details…"
 msgstr ""
 
 #: contents/configuration/AboutPlugin.qml:19
-#: contents/configuration/AppletConfiguration.qml:227
+#: contents/configuration/AppletConfiguration.qml:228
 msgid "About"
 msgstr ""
 
@@ -108,25 +112,25 @@ msgstr ""
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: contents/configuration/AppletConfiguration.qml:275
+#: contents/configuration/AppletConfiguration.qml:276
 msgid "Apply Settings"
 msgstr ""
 
-#: contents/configuration/AppletConfiguration.qml:276
+#: contents/configuration/AppletConfiguration.qml:277
 msgid ""
 "The settings of the current module have changed. Do you want to apply the "
 "changes or discard them?"
 msgstr ""
 
-#: contents/configuration/AppletConfiguration.qml:301
+#: contents/configuration/AppletConfiguration.qml:302
 msgid "OK"
 msgstr ""
 
-#: contents/configuration/AppletConfiguration.qml:309
+#: contents/configuration/AppletConfiguration.qml:310
 msgid "Apply"
 msgstr ""
 
-#: contents/configuration/AppletConfiguration.qml:315
+#: contents/configuration/AppletConfiguration.qml:316
 #: contents/explorer/AppletAlternatives.qml:175
 msgid "Cancel"
 msgstr ""
@@ -202,7 +206,7 @@ msgid "Layout:"
 msgstr ""
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:98
-msgid "Wallpaper Type:"
+msgid "Wallpaper type:"
 msgstr ""
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:115
@@ -235,14 +239,6 @@ msgstr ""
 
 #: contents/configuration/MouseEventInputButton.qml:22
 msgid "Input Here"
-msgstr ""
-
-#: contents/configuration/panelconfiguration/EdgeHandle.qml:16
-msgid "Screen Edge"
-msgstr ""
-
-#: contents/configuration/panelconfiguration/EdgeHandle.qml:28
-msgid "Click and drag the button to a screen edge to move the panel there."
 msgstr ""
 
 #: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:34
@@ -314,27 +310,32 @@ msgstr ""
 msgid "Maximize Panel"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:22
+#: contents/configuration/panelconfiguration/ToolBar.qml:23
 msgid "Add Widgets…"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:23
+#: contents/configuration/panelconfiguration/ToolBar.qml:24
 msgid "Add Spacer"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:24
+#: contents/configuration/panelconfiguration/ToolBar.qml:25
 msgid "More Options…"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:100
+#: contents/configuration/panelconfiguration/ToolBar.qml:171
+msgctxt "Minimize the length of this string as much as possible"
+msgid "Drag to move"
+msgstr ""
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:182
 msgid "Panel width:"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:100
+#: contents/configuration/panelconfiguration/ToolBar.qml:182
 msgid "Panel height:"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:213
+#: contents/configuration/panelconfiguration/ToolBar.qml:296
 msgid "Close"
 msgstr ""
 
@@ -346,11 +347,11 @@ msgstr ""
 msgid "Switch"
 msgstr ""
 
-#: contents/explorer/AppletDelegate.qml:166
+#: contents/explorer/AppletDelegate.qml:168
 msgid "Undo uninstall"
 msgstr ""
 
-#: contents/explorer/AppletDelegate.qml:167
+#: contents/explorer/AppletDelegate.qml:169
 msgid "Uninstall widget"
 msgstr ""
 
@@ -366,27 +367,27 @@ msgstr ""
 msgid "Uninstall"
 msgstr ""
 
-#: contents/explorer/WidgetExplorer.qml:129
-#: contents/explorer/WidgetExplorer.qml:245
+#: contents/explorer/WidgetExplorer.qml:132
+#: contents/explorer/WidgetExplorer.qml:237
 msgid "All Widgets"
 msgstr ""
 
-#: contents/explorer/WidgetExplorer.qml:204
+#: contents/explorer/WidgetExplorer.qml:197
 msgid "Widgets"
 msgstr ""
 
-#: contents/explorer/WidgetExplorer.qml:212
+#: contents/explorer/WidgetExplorer.qml:205
 msgid "Get New Widgets…"
 msgstr ""
 
-#: contents/explorer/WidgetExplorer.qml:244
+#: contents/explorer/WidgetExplorer.qml:245
 msgid "Categories"
 msgstr ""
 
-#: contents/explorer/WidgetExplorer.qml:339
+#: contents/explorer/WidgetExplorer.qml:326
 msgid "No widgets matched the search terms"
 msgstr ""
 
-#: contents/explorer/WidgetExplorer.qml:339
+#: contents/explorer/WidgetExplorer.qml:326
 msgid "No widgets available"
 msgstr ""

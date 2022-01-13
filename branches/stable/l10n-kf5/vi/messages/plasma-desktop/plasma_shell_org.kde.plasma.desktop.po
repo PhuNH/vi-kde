@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-desktop package.
 #
-# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2021.
+# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-20 01:43+0000\n"
-"PO-Revision-Date: 2021-05-26 21:18+0200\n"
+"POT-Creation-Date: 2022-01-07 00:45+0000\n"
+"PO-Revision-Date: 2022-01-10 22:08+0100\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 20.08.1\n"
+"X-Generator: Lokalize 20.12.2\n"
 
 #: contents/activitymanager/ActivityItem.qml:212
 msgid "Currently being used"
@@ -58,7 +58,7 @@ msgid "Activities"
 msgstr "Hoạt động"
 
 #: contents/activitymanager/Heading.qml:78
-#: contents/explorer/WidgetExplorer.qml:230
+#: contents/explorer/WidgetExplorer.qml:223
 msgid "Search…"
 msgstr "Tìm kiếm…"
 
@@ -70,16 +70,20 @@ msgstr "Cấu hình Hoạt động"
 msgid "Delete"
 msgstr "Xoá"
 
-#: contents/applet/AppletError.qml:52
+#: contents/applet/AppletError.qml:53
 msgid "Sorry! There was an error loading %1."
 msgstr "Rất tiếc! Có lỗi khi tải %1."
 
-#: contents/applet/AppletError.qml:60
-msgid "Copy Error Details to Clipboard"
-msgstr "Chép chi tiết về lỗi vào bảng nháp"
+#: contents/applet/AppletError.qml:76
+msgid "Copy to Clipboard"
+msgstr "Chép vào bảng nháp"
+
+#: contents/applet/AppletError.qml:91
+msgid "View Error Details…"
+msgstr "Xem chi tiết về lỗi…"
 
 #: contents/configuration/AboutPlugin.qml:19
-#: contents/configuration/AppletConfiguration.qml:227
+#: contents/configuration/AppletConfiguration.qml:228
 msgid "About"
 msgstr "Thông tin"
 
@@ -111,11 +115,11 @@ msgstr "Người dịch"
 msgid "Keyboard Shortcuts"
 msgstr "Phím tắt"
 
-#: contents/configuration/AppletConfiguration.qml:275
+#: contents/configuration/AppletConfiguration.qml:276
 msgid "Apply Settings"
 msgstr "Áp dụng thiết lập"
 
-#: contents/configuration/AppletConfiguration.qml:276
+#: contents/configuration/AppletConfiguration.qml:277
 msgid ""
 "The settings of the current module have changed. Do you want to apply the "
 "changes or discard them?"
@@ -123,15 +127,15 @@ msgstr ""
 "Thiết lập cho khối hiện tại đã thay đổi. Bạn muốn áp dụng hay loại bỏ các "
 "thay đổi?"
 
-#: contents/configuration/AppletConfiguration.qml:301
+#: contents/configuration/AppletConfiguration.qml:302
 msgid "OK"
 msgstr "OK"
 
-#: contents/configuration/AppletConfiguration.qml:309
+#: contents/configuration/AppletConfiguration.qml:310
 msgid "Apply"
 msgstr "Áp dụng"
 
-#: contents/configuration/AppletConfiguration.qml:315
+#: contents/configuration/AppletConfiguration.qml:316
 #: contents/explorer/AppletAlternatives.qml:175
 msgid "Cancel"
 msgstr "Huỷ"
@@ -207,7 +211,7 @@ msgid "Layout:"
 msgstr "Bố cục:"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:98
-msgid "Wallpaper Type:"
+msgid "Wallpaper type:"
 msgstr "Kiểu phông nền:"
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:115
@@ -242,14 +246,6 @@ msgstr "Hành động chuột"
 #: contents/configuration/MouseEventInputButton.qml:22
 msgid "Input Here"
 msgstr "Nhập vào đây"
-
-#: contents/configuration/panelconfiguration/EdgeHandle.qml:16
-msgid "Screen Edge"
-msgstr "Cạnh màn hình"
-
-#: contents/configuration/panelconfiguration/EdgeHandle.qml:28
-msgid "Click and drag the button to a screen edge to move the panel there."
-msgstr "Bấm và kéo cái nút sang một cạnh màn hình để di chuyển bảng đến đó."
 
 #: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:34
 #: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:168
@@ -320,27 +316,32 @@ msgstr "Trong mờ"
 msgid "Maximize Panel"
 msgstr "Phóng to bảng"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:22
+#: contents/configuration/panelconfiguration/ToolBar.qml:23
 msgid "Add Widgets…"
 msgstr "Thêm phụ kiện…"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:23
+#: contents/configuration/panelconfiguration/ToolBar.qml:24
 msgid "Add Spacer"
 msgstr "Thêm khoảng trống"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:24
+#: contents/configuration/panelconfiguration/ToolBar.qml:25
 msgid "More Options…"
 msgstr "Lựa chọn thêm…"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:100
+#: contents/configuration/panelconfiguration/ToolBar.qml:171
+msgctxt "Minimize the length of this string as much as possible"
+msgid "Drag to move"
+msgstr "Kéo để di chuyển"
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:182
 msgid "Panel width:"
 msgstr "Độ rộng bảng:"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:100
+#: contents/configuration/panelconfiguration/ToolBar.qml:182
 msgid "Panel height:"
 msgstr "Độ cao bảng:"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:213
+#: contents/configuration/panelconfiguration/ToolBar.qml:296
 msgid "Close"
 msgstr "Đóng"
 
@@ -352,11 +353,11 @@ msgstr "Phụ kiện thay thế"
 msgid "Switch"
 msgstr "Chuyển"
 
-#: contents/explorer/AppletDelegate.qml:166
+#: contents/explorer/AppletDelegate.qml:168
 msgid "Undo uninstall"
 msgstr "Đảo ngược gỡ cài đặt"
 
-#: contents/explorer/AppletDelegate.qml:167
+#: contents/explorer/AppletDelegate.qml:169
 msgid "Uninstall widget"
 msgstr "Gỡ cài đặt phụ kiện"
 
@@ -372,30 +373,36 @@ msgstr "Thư điện tử:"
 msgid "Uninstall"
 msgstr "Gỡ cài đặt"
 
-#: contents/explorer/WidgetExplorer.qml:129
-#: contents/explorer/WidgetExplorer.qml:245
+#: contents/explorer/WidgetExplorer.qml:132
+#: contents/explorer/WidgetExplorer.qml:237
 msgid "All Widgets"
 msgstr "Tất cả phụ kiện"
 
-#: contents/explorer/WidgetExplorer.qml:204
+#: contents/explorer/WidgetExplorer.qml:197
 msgid "Widgets"
 msgstr "Phụ kiện"
 
-#: contents/explorer/WidgetExplorer.qml:212
+#: contents/explorer/WidgetExplorer.qml:205
 msgid "Get New Widgets…"
 msgstr "Lấy phụ kiện mới…"
 
-#: contents/explorer/WidgetExplorer.qml:244
+#: contents/explorer/WidgetExplorer.qml:245
 msgid "Categories"
 msgstr "Các loại"
 
-#: contents/explorer/WidgetExplorer.qml:339
+#: contents/explorer/WidgetExplorer.qml:326
 msgid "No widgets matched the search terms"
 msgstr "Không có phụ kiện nào khớp với các từ khoá tìm kiếm"
 
-#: contents/explorer/WidgetExplorer.qml:339
+#: contents/explorer/WidgetExplorer.qml:326
 msgid "No widgets available"
 msgstr "Không có phụ kiện nào"
+
+#~ msgid "Screen Edge"
+#~ msgstr "Cạnh màn hình"
+
+#~ msgid "Click and drag the button to a screen edge to move the panel there."
+#~ msgstr "Bấm và kéo cái nút sang một cạnh màn hình để di chuyển bảng đến đó."
 
 #, fuzzy
 #~| msgid "Apply Settings"
