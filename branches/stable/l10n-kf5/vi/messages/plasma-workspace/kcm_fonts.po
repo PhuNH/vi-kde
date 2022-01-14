@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-15 00:20+0000\n"
+"POT-Creation-Date: 2022-01-14 02:22+0000\n"
 "PO-Revision-Date: 2021-05-26 21:06+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -18,26 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 20.08.1\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Nguyễn Hùng Phú,Phan Vĩnh Thịnh,Nguyễn Hưng Vũ"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "phu.nguyen@kdemail.net,teppi82@gmail.com,Vu.Hung@techviet.com"
-
-#: fonts.cpp:56
-#, kde-format
-msgid "Fonts"
-msgstr "Phông chữ"
-
-#: fonts.cpp:57
-#, kde-format
-msgid "Antonis Tsiapaliokas"
-msgstr "Antonis Tsiapaliokas"
 
 #. i18n: ectx: label, entry (forceFontDPIWayland), group (General)
 #: fontsaasettingsbase.kcfg:9
@@ -350,32 +330,56 @@ msgstr "Ép DPI của phông chữ thành:"
 #, kde-kuit-format
 msgctxt "@info:tooltip Force fonts DPI"
 msgid ""
-"<para>This option forces a specific DPI value for fonts. It may be useful "
-"when the real DPI of the hardware is not detected properly and it is also "
-"often misused when poor quality fonts are used that do not look well with "
-"DPI values other than 96 or 120 DPI.</para><para>The use of this option is "
-"generally discouraged.</para><para>If you are using the <emphasis>X Window "
-"System</emphasis>, for selecting the proper DPI value a better option is "
-"explicitly configuring it for the whole X server if possible (e.g. "
-"DisplaySize in xorg.conf). When fonts do not render properly with the real "
-"DPI value better fonts should be used or configuration of font hinting "
-"should be checked.</para>"
+"<para>Enter your screen's DPI here to make on-screen fonts match their "
+"physical sizes when printed. Changing this option from its default value "
+"will conflict with many apps; some icons and images may not scale as "
+"expected.</para><para>To increase text size, change the size of the fonts "
+"above. To scale everything, use the scaling slider on the <interface>Display "
+"& Monitor</interface> page.</para>"
 msgstr ""
-"<para>Lựa chọn này ép buộc một giá trị DPI riêng cho các phông chữ. Nó có "
-"thể hữu ích khi không phát hiện được đúng DPI thật của phần cứng, và nó cũng "
-"hay bị lạm dụng khi các phông chữ chất lượng thấp được sử dụng mà trông "
-"không đẹp với các giá trị DPI không phải 96 hay 120 DPI.</para><para>Nói "
-"chung việc dùng lựa chọn này là không nên.</para><para>Nếu bạn đang dùng "
-"<emphasis>Hệ thống Cửa sổ X</emphasis>, một lựa chọn tốt hơn để chọn giá trị "
-"DPI đúng là cấu hình nó một cách rõ ràng cho toàn máy chủ X nếu có thể (vd. "
-"DisplaySize trong xorg.conf). Khi phông chữ không kết xuất đúng ở giá trị "
-"DPI thật, bạn nên sử dụng phông chữ tốt hơn, hoặc kiểm tra lại cấu hình dẫn "
-"phông.</para>"
 
 #: package/contents/ui/main.qml:405
 #, kde-format
 msgid "Select Font"
 msgstr "Chọn phông chữ"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Nguyễn Hùng Phú,Phan Vĩnh Thịnh,Nguyễn Hưng Vũ"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "phu.nguyen@kdemail.net,teppi82@gmail.com,Vu.Hung@techviet.com"
+
+#~ msgid "Fonts"
+#~ msgstr "Phông chữ"
+
+#~ msgid "Antonis Tsiapaliokas"
+#~ msgstr "Antonis Tsiapaliokas"
+
+#~ msgctxt "@info:tooltip Force fonts DPI"
+#~ msgid ""
+#~ "<para>This option forces a specific DPI value for fonts. It may be useful "
+#~ "when the real DPI of the hardware is not detected properly and it is also "
+#~ "often misused when poor quality fonts are used that do not look well with "
+#~ "DPI values other than 96 or 120 DPI.</para><para>The use of this option "
+#~ "is generally discouraged.</para><para>If you are using the <emphasis>X "
+#~ "Window System</emphasis>, for selecting the proper DPI value a better "
+#~ "option is explicitly configuring it for the whole X server if possible (e."
+#~ "g. DisplaySize in xorg.conf). When fonts do not render properly with the "
+#~ "real DPI value better fonts should be used or configuration of font "
+#~ "hinting should be checked.</para>"
+#~ msgstr ""
+#~ "<para>Lựa chọn này ép buộc một giá trị DPI riêng cho các phông chữ. Nó có "
+#~ "thể hữu ích khi không phát hiện được đúng DPI thật của phần cứng, và nó "
+#~ "cũng hay bị lạm dụng khi các phông chữ chất lượng thấp được sử dụng mà "
+#~ "trông không đẹp với các giá trị DPI không phải 96 hay 120 DPI.</"
+#~ "para><para>Nói chung việc dùng lựa chọn này là không nên.</para><para>Nếu "
+#~ "bạn đang dùng <emphasis>Hệ thống Cửa sổ X</emphasis>, một lựa chọn tốt "
+#~ "hơn để chọn giá trị DPI đúng là cấu hình nó một cách rõ ràng cho toàn máy "
+#~ "chủ X nếu có thể (vd. DisplaySize trong xorg.conf). Khi phông chữ không "
+#~ "kết xuất đúng ở giá trị DPI thật, bạn nên sử dụng phông chữ tốt hơn, hoặc "
+#~ "kiểm tra lại cấu hình dẫn phông.</para>"
 
 #~ msgctxt "@action:button"
 #~ msgid "Show Contextual Help"
