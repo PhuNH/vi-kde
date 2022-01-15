@@ -7,6 +7,7 @@
 # Hoàng Đức Hiếu <hieu.d.hoang@gmail.com>, 2008.
 # Hieu Duc Hoang <hieu.d.hoang@gmail.com>, 2008.
 # thanh9356 <thanh9356@hotmail.com>, 2022.
+# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
@@ -18372,7 +18373,7 @@ msgstr "Không thể mở được file %1"
 #, fuzzy, kde-format
 msgctxt "Warning message"
 msgid "Failed to add the resource."
-msgstr "Không thể mở được file %1"
+msgstr "Không thể thêm tài nguyên."
 
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:187
 #: libs/resourcewidgets/KisResourceUserOperations.cpp:220
@@ -19617,7 +19618,7 @@ msgstr "Hình chữ nhật"
 #, kde-format
 msgctxt "kilo-bits-per-second, video bitrate suffix"
 msgid "kbps"
-msgstr ""
+msgstr "kbps"
 
 #: libs/ui/animation/VideoExportOptionsDialog.cpp:533
 #, kde-format
@@ -19634,12 +19635,12 @@ msgstr ""
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.cpp:26
 #, kde-format
 msgid "Rec. 2100 PQ"
-msgstr ""
+msgstr "Rec. 2100 PQ"
 
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.cpp:27
 #, kde-format
 msgid "DCI-P3 D65"
-msgstr ""
+msgstr "DCI-P3 D65"
 
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.cpp:28
 #: plugins/paintops/mypaint/MyPaintBrushOption.h:38
@@ -19868,7 +19869,7 @@ msgstr "Áp lực"
 #: libs/ui/animation/VideoImportDialog.ui:391
 #, fuzzy, kde-format
 msgid "Start at: "
-msgstr "Ngôi sao"
+msgstr "Bắt đầu từ:"
 
 #. i18n: ectx: property (text), widget (QLabel, exportDurationLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -19876,14 +19877,14 @@ msgstr "Ngôi sao"
 #: plugins/paintops/libpaintop/sensors/SensorTimeConfiguration.ui:54
 #, fuzzy, kde-format
 msgid "Duration:"
-msgstr "Bão hoà:"
+msgstr "Độ dài:"
 
 #. i18n: ectx: property (text), widget (QLabel, fpsLabel)
 #: libs/ui/animation/VideoImportDialog.ui:411
 #: libs/ui/animation/wdg_animationrenderer.ui:108
 #, kde-format
 msgid "FPS:"
-msgstr ""
+msgstr "FPS:"
 
 #. i18n: ectx: property (text), widget (QLabel, importDocumentLabel)
 #: libs/ui/animation/VideoImportDialog.ui:447
@@ -19927,10 +19928,10 @@ msgstr ""
 #: libs/ui/forms/wdgperformancesettings.ui:269
 #: plugins/impex/webp/dlg_webp_export.ui:148
 #: plugins/impex/webp/dlg_webp_import.ui:304
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Portrait mode"
 msgid "Advanced"
-msgstr "Chế độ chân dung"
+msgstr "Nâng cao"
 
 #. i18n: ectx: property (title), widget (QGroupBox, optionsDocumentGroup)
 #: libs/ui/animation/VideoImportDialog.ui:540
@@ -20098,13 +20099,13 @@ msgstr ""
 #: libs/ui/animation/wdg_animationrenderer.ui:95
 #, fuzzy, kde-format
 msgid "First frame:"
-msgstr "&Trắng"
+msgstr "Khung đầu tiên:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/ui/animation/wdg_animationrenderer.ui:141
 #, fuzzy, kde-format
 msgid "Last frame:"
-msgstr "Được dùng cuối cùng"
+msgstr "Khung cuối cùng:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, videoOptionsGroup)
 #: libs/ui/animation/wdg_animationrenderer.ui:232
@@ -20143,13 +20144,13 @@ msgstr "Xoay"
 #: libs/ui/animation/wdg_animationrenderer.ui:309
 #, fuzzy, kde-format
 msgid "Include Audio"
-msgstr "Mở và chạy..."
+msgstr "Gồm âm thanh"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFFMpegVersion)
 #: libs/ui/animation/wdg_animationrenderer.ui:318
 #, fuzzy, kde-format
 msgid "FFMpeg Version: None"
-msgstr "Phiên bản"
+msgstr "Phiên bản FFMpeg: Không có"
 
 #. i18n: ectx: property (text), widget (QLabel, lblGifWarningFPS)
 #: libs/ui/animation/wdg_animationrenderer.ui:325
@@ -20199,7 +20200,7 @@ msgstr "&Thêm vào lựa chọn"
 #: libs/ui/animation/wdg_animationrenderer.ui:409
 #, fuzzy, kde-format
 msgid "Start numbering at:"
-msgstr "Bắt đầu ghi macro"
+msgstr "Bắt đầu đánh số từ:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/animation/wdg_animationrenderer.ui:435
@@ -20212,7 +20213,7 @@ msgstr "Tên lớp:"
 #: libs/ui/animation/wdg_animationrenderer.ui:445
 #, fuzzy, kde-format
 msgid "frame"
-msgstr "&Màu"
+msgstr "khung"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: libs/ui/animation/wdg_animationrenderer.ui:452
@@ -20290,6 +20291,8 @@ msgid ""
 "Cannot open audio: \"%1\"\n"
 "Error: %2"
 msgstr ""
+"Không thể mở âm thanh: \"%1\"\n"
+"Lỗi: %2"
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:171
 #, fuzzy, kde-format
@@ -21112,11 +21115,11 @@ msgid "Direct3D 11 via ANGLE"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1323
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "OpenGL"
 msgctxt "canvas renderer"
 msgid "OpenGL ES"
-msgstr "OpenGL"
+msgstr "OpenGL ES"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1330
 #, fuzzy, kde-format
@@ -21181,7 +21184,7 @@ msgstr "tuỳ chọn"
 #, fuzzy, kde-format
 #| msgid "Warning"
 msgid "Warning(s):"
-msgstr "Cảnh báo"
+msgstr "Cảnh báo:"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1619
 #, kde-format
@@ -21294,12 +21297,12 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "Export Layer"
 msgid "Saving frames..."
-msgstr "Xuất Lớp"
+msgstr "Đang lưu các khung..."
 
 #: libs/ui/dialogs/KisAsyncAnimationFramesSaveDialog.cpp:119
 #, fuzzy, kde-format
 msgid "Delete old frames?"
-msgstr "Tên lớp:"
+msgstr "Xóa các khung cũ?"
 
 #: libs/ui/dialogs/KisAsyncAnimationFramesSaveDialog.cpp:120
 #, kde-format
@@ -21314,7 +21317,7 @@ msgstr ""
 #: libs/ui/dialogs/KisAsyncAnimationFramesSaveDialog.cpp:134
 #, fuzzy, kde-format
 msgid "Failed to delete"
-msgstr "Không thể mở được file %1"
+msgstr "Không thể xóa"
 
 #: libs/ui/dialogs/KisAsyncAnimationFramesSaveDialog.cpp:135
 #, kde-format
@@ -21523,9 +21526,9 @@ msgstr "Định sẵn:"
 #: libs/ui/dialogs/KisDlgSavePreset.cpp:79
 #: plugins/generators/seexpr/kis_wdg_seexpr_presets_save.cpp:74
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImages.cpp:316
-#, fuzzy, kde-format
+#, kde-format
 msgid "Copy"
-msgstr "Công ti:"
+msgstr "Sao chép"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgSaveBrushPreset)
 #: libs/ui/dialogs/KisDlgSavePreset.cpp:85
@@ -22180,7 +22183,7 @@ msgstr "Hỏi mỗi lần"
 #, kde-format
 msgid "Note: When copying/pasting inside Krita color info is always preserved."
 msgstr ""
-"Lưu ý: khi chép/dán bên trong Krita, thông tin về màu luôn được bảo quản."
+"Lưu ý: khi chép/dán bên trong Krita, thông tin về màu luôn được bảo toàn."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBlackpoint)
 #: libs/ui/forms/wdgcolorsettings.ui:113
@@ -23290,7 +23293,7 @@ msgstr "Krita"
 #: libs/ui/forms/wdggeneralsettings.ui:912
 #, fuzzy, kde-format
 msgid "Animation:"
-msgstr "Hoạt cảnh"
+msgstr "Hoạt ảnh"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkAutoPin)
 #: libs/ui/forms/wdggeneralsettings.ui:922
@@ -24025,13 +24028,13 @@ msgstr "Vừa Trang"
 #: libs/ui/forms/wdgnodequerypatheditor.ui:21
 #, fuzzy, kde-format
 msgid "current layer"
-msgstr "Lớp hiện tại"
+msgstr "lớp hiện tại"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButtonCustomPath)
 #: libs/ui/forms/wdgnodequerypatheditor.ui:31
 #, fuzzy, kde-format
 msgid "path"
-msgstr "Đường"
+msgstr "đường"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPaintOpSettings)
 #: libs/ui/forms/wdgpaintopsettings.ui:18 libs/ui/kis_paintop_box.cc:437
@@ -24166,7 +24169,7 @@ msgstr ""
 #: libs/ui/forms/wdgperformancesettings.ui:44
 #, kde-format
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: libs/ui/forms/wdgperformancesettings.ui:50
@@ -24186,7 +24189,7 @@ msgstr ""
 #: libs/ui/forms/wdgperformancesettings.ui:91
 #, kde-format
 msgid "Krita will not use more memory than this limit."
-msgstr ""
+msgstr "Krita sẽ không sử dụng nhiều bộ nhớ hơn mức giới hạn này."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/forms/wdgperformancesettings.ui:76
@@ -24405,7 +24408,7 @@ msgstr ""
 #: libs/ui/forms/wdgperformancesettings.ui:452
 #, kde-format
 msgid "In-memory"
-msgstr ""
+msgstr "Trong bộ nhớ"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, optOnDisk)
 #: libs/ui/forms/wdgperformancesettings.ui:459
@@ -24422,7 +24425,7 @@ msgstr ""
 #: libs/ui/forms/wdgperformancesettings.ui:462
 #, kde-format
 msgid "On-disk"
-msgstr ""
+msgstr "Trên đĩa"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #: libs/ui/forms/wdgperformancesettings.ui:472
@@ -24869,7 +24872,7 @@ msgstr "Cắt"
 #: libs/ui/forms/wdgselectionoptions.ui:42
 #, kde-format
 msgid "Vector Selection"
-msgstr "Chọn véctơ"
+msgstr "Chọn véc-tơ"
 
 #. i18n: ectx: property (toolTip), widget (KoGroupButton, replace)
 #: libs/ui/forms/wdgselectionoptions.ui:58
@@ -25033,13 +25036,13 @@ msgstr "Màu"
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:171
 #, kde-format
 msgid "mm"
-msgstr ""
+msgstr "mm"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, sizeBox)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:176
 #, kde-format
 msgid "inch"
-msgstr ""
+msgstr "inch"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, fillBox)
 #. i18n: ectx: property (text), widget (QToolButton, btnNoFill)
@@ -25130,7 +25133,7 @@ msgstr ""
 #: libs/ui/forms/wdgtabletsettings.ui:170
 #, kde-format
 msgid "WinTab"
-msgstr ""
+msgstr "WinTab"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnResolutionSettings)
 #: libs/ui/forms/wdgtabletsettings.ui:190
@@ -25144,7 +25147,7 @@ msgstr "Chế độ chân dung"
 #: libs/ui/forms/wdgtabletsettings.ui:199
 #, kde-format
 msgid "Windows 8+ Pointer Input (Windows Ink)"
-msgstr ""
+msgstr "Windows 8+ Pointer Input (Windows Ink)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkUseRightMiddleClickWorkaround)
 #: libs/ui/forms/wdgtabletsettings.ui:209
@@ -25356,7 +25359,7 @@ msgstr ""
 #: libs/ui/imagesize/wdg_imagesize.ui:352
 #, kde-format
 msgid "Adjust print size separately"
-msgstr ""
+msgstr "Điều chỉnh kích cỡ in một cách riêng biệt"
 
 #: libs/ui/input/config/kis_action_shortcuts_model.cpp:55
 #, fuzzy, kde-format
@@ -25426,7 +25429,7 @@ msgstr "xanh nước biển"
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Reset All Profiles"
-msgstr "Khoảng màu"
+msgstr "Đặt lại tất cả các hồ sơ"
 
 #: libs/ui/input/config/kis_edit_profiles_dialog.cpp:85
 #, fuzzy, kde-format
@@ -25443,19 +25446,19 @@ msgstr ""
 #: libs/ui/input/config/kis_edit_profiles_dialog.ui:24
 #, kde-format
 msgid "Duplicate"
-msgstr "Lặp lại"
+msgstr "Nhân đôi"
 
 #. i18n: ectx: property (text), widget (QPushButton, resetButton)
 #: libs/ui/input/config/kis_edit_profiles_dialog.ui:34
 #, fuzzy, kde-format
 msgid "Reset All"
-msgstr "Chọn Tất cả"
+msgstr "Đặt lại tất cả"
 
 #. i18n: ectx: property (text), widget (QPushButton, renameButton)
 #: libs/ui/input/config/kis_edit_profiles_dialog.ui:51
 #, fuzzy, kde-format
 msgid "Rename"
-msgstr "Tên tệp"
+msgstr "Đổi tên"
 
 #: libs/ui/input/config/kis_input_button.cpp:41
 #, fuzzy, kde-format
