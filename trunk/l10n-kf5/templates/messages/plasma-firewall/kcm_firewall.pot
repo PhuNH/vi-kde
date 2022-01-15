@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-firewall\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-11 00:44+0000\n"
+"POT-Creation-Date: 2022-01-15 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -53,22 +53,22 @@ msgstr ""
 msgid "Invalid Call"
 msgstr ""
 
-#: backends/netstat/conectionsmodel.cpp:89
+#: backends/netstat/conectionsmodel.cpp:96
 #, kde-format
 msgid "Failed to get connections: %1"
 msgstr ""
 
-#: backends/netstat/conectionsmodel.cpp:107
+#: backends/netstat/conectionsmodel.cpp:114
 #, kde-format
 msgid "Not Connected"
 msgstr ""
 
-#: backends/netstat/conectionsmodel.cpp:109
+#: backends/netstat/conectionsmodel.cpp:116
 #, kde-format
 msgid "Established"
 msgstr ""
 
-#: backends/netstat/conectionsmodel.cpp:111
+#: backends/netstat/conectionsmodel.cpp:118
 #, kde-format
 msgid "Listening"
 msgstr ""
@@ -444,12 +444,12 @@ msgstr ""
 msgid "Firewall Logs"
 msgstr ""
 
-#: package/contents/ui/LogsView.qml:20 package/contents/ui/main.qml:324
+#: package/contents/ui/LogsView.qml:20 package/contents/ui/main.qml:322
 #, kde-format
 msgid "From"
 msgstr ""
 
-#: package/contents/ui/LogsView.qml:22 package/contents/ui/main.qml:329
+#: package/contents/ui/LogsView.qml:22 package/contents/ui/main.qml:327
 #, kde-format
 msgid "To"
 msgstr ""
@@ -501,8 +501,8 @@ msgstr ""
 msgid "Edit Firewall Rule"
 msgstr ""
 
-#: package/contents/ui/main.qml:78 package/contents/ui/main.qml:239
-#: package/contents/ui/main.qml:374
+#: package/contents/ui/main.qml:78 package/contents/ui/main.qml:237
+#: package/contents/ui/main.qml:372
 #, kde-format
 msgid "Please restart plasma firewall, the backend disconnected."
 msgstr ""
@@ -522,75 +522,85 @@ msgstr ""
 msgid "Firewall Status:"
 msgstr ""
 
-#: package/contents/ui/main.qml:126 package/contents/ui/main.qml:142
-#, kde-format
-msgid "Enabled"
-msgstr ""
-
-#: package/contents/ui/main.qml:151
+#: package/contents/ui/main.qml:128
 #, kde-format
 msgid "Disabling..."
 msgstr ""
 
-#: package/contents/ui/main.qml:158
+#: package/contents/ui/main.qml:128
+#, kde-format
+msgid "Enabled"
+msgstr ""
+
+#: package/contents/ui/main.qml:130
+#, kde-format
+msgid "Enabling..."
+msgstr ""
+
+#: package/contents/ui/main.qml:130
+#, kde-format
+msgid "Disabled"
+msgstr ""
+
+#: package/contents/ui/main.qml:156
 #, kde-format
 msgid "The firewall application, please install %1"
 msgstr ""
 
-#: package/contents/ui/main.qml:172
+#: package/contents/ui/main.qml:170
 #, kde-format
 msgid "Permission denied"
 msgstr ""
 
-#: package/contents/ui/main.qml:176
+#: package/contents/ui/main.qml:174
 #, kde-format
 msgid ""
 "You recently updated your kernel. Iptables is failing to initialize, please "
 "reboot."
 msgstr ""
 
-#: package/contents/ui/main.qml:179
+#: package/contents/ui/main.qml:177
 #, kde-format
 msgid "Error enabling firewall: %1"
 msgstr ""
 
-#: package/contents/ui/main.qml:180
+#: package/contents/ui/main.qml:178
 #, kde-format
 msgid "Error disabling firewall: %1"
 msgstr ""
 
-#: package/contents/ui/main.qml:200
+#: package/contents/ui/main.qml:198
 #, kde-format
 msgid "Default Incoming Policy:"
 msgstr ""
 
-#: package/contents/ui/main.qml:201
+#: package/contents/ui/main.qml:199
 #, kde-format
 msgid "Default Outgoing Policy:"
 msgstr ""
 
-#: package/contents/ui/main.qml:249
+#: package/contents/ui/main.qml:247
 #, kde-format
 msgid "Error changing policy: %1"
 msgstr ""
 
-#: package/contents/ui/main.qml:312
+#: package/contents/ui/main.qml:310
 #, kde-format
 msgid "Firewall is disabled"
 msgstr ""
 
-#: package/contents/ui/main.qml:312
+#: package/contents/ui/main.qml:310
 #, kde-format
 msgid "No firewall rules have been added"
 msgstr ""
 
-#: package/contents/ui/main.qml:314
+#: package/contents/ui/main.qml:312
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Click the <interface>Add Rule...</interface> button below to add one"
 msgstr ""
 
-#: package/contents/ui/main.qml:315
+#: package/contents/ui/main.qml:313
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -599,61 +609,61 @@ msgid ""
 "add one"
 msgstr ""
 
-#: package/contents/ui/main.qml:319
+#: package/contents/ui/main.qml:317
 #, kde-format
 msgid "Action"
 msgstr ""
 
-#: package/contents/ui/main.qml:334
+#: package/contents/ui/main.qml:332
 #, kde-format
 msgid "IP"
 msgstr ""
 
-#: package/contents/ui/main.qml:339
+#: package/contents/ui/main.qml:337
 #, kde-format
 msgid "Logging"
 msgstr ""
 
-#: package/contents/ui/main.qml:365
+#: package/contents/ui/main.qml:363
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Edit Rule"
 msgstr ""
 
-#: package/contents/ui/main.qml:385
+#: package/contents/ui/main.qml:383
 #, kde-format
 msgid "Error removing rule: %1"
 msgstr ""
 
-#: package/contents/ui/main.qml:392
+#: package/contents/ui/main.qml:390
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove Rule"
 msgstr ""
 
-#: package/contents/ui/main.qml:402
+#: package/contents/ui/main.qml:400
 #, kde-format
 msgctxt "'view' is being used as a verb here"
 msgid "View Connections"
 msgstr ""
 
-#: package/contents/ui/main.qml:407
+#: package/contents/ui/main.qml:405
 #, kde-format
 msgctxt "'view' is being used as a verb here"
 msgid "View Logs"
 msgstr ""
 
-#: package/contents/ui/main.qml:418
+#: package/contents/ui/main.qml:416
 #, kde-format
 msgid "Add Rule..."
 msgstr ""
 
-#: package/contents/ui/main.qml:427
+#: package/contents/ui/main.qml:425
 #, kde-format
 msgid "About"
 msgstr ""
 
-#: package/contents/ui/main.qml:435
+#: package/contents/ui/main.qml:433
 #, kde-format
 msgid "Please install a firewall, such as ufw or firewalld"
 msgstr ""
