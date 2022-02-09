@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knewstuff\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-04 00:41+0000\n"
+"POT-Creation-Date: 2022-02-09 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -51,7 +51,7 @@ msgstr ""
 msgid "You are now a fan."
 msgstr ""
 
-#: attica/atticaprovider.cpp:579 core/engine.cpp:388 opds/opdsprovider.cpp:288
+#: attica/atticaprovider.cpp:579 core/engine.cpp:392 opds/opdsprovider.cpp:288
 #, kde-format
 msgid ""
 "The service is currently undergoing maintenance and is expected to be back "
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Unknown Open Collaboration Service API error. (%1)"
 msgstr ""
 
-#: button.cpp:41 widgets/action.cpp:34
+#: button.cpp:43 widgets/action.cpp:35 widgets/button.cpp:58
 #, kde-format
 msgid "Download New Stuff..."
 msgstr ""
@@ -119,56 +119,56 @@ msgstr ""
 msgid "Use"
 msgstr ""
 
-#: core/engine.cpp:278
+#: core/engine.cpp:282
 #, kde-format
 msgid ""
 "Could not initialise the installation handler for %1\n"
 "This is a critical error and should be reported to the application author"
 msgstr ""
 
-#: core/engine.cpp:353
+#: core/engine.cpp:357
 #, kde-format
 msgid "Loading provider information"
 msgstr ""
 
-#: core/engine.cpp:414
+#: core/engine.cpp:418
 #, kde-format
 msgid "Could not load get hot new stuff providers from file: %1"
 msgstr ""
 
-#: core/engine.cpp:444
+#: core/engine.cpp:448
 #, kde-format
 msgid "Error initializing provider."
 msgstr ""
 
-#: core/engine.cpp:448 core/engine.cpp:1016
+#: core/engine.cpp:452 core/engine.cpp:1020
 #, kde-format
 msgid "Loading data"
 msgstr ""
 
-#: core/engine.cpp:490
+#: core/engine.cpp:494
 #, kde-format
 msgid "Loading data from provider"
 msgstr ""
 
-#: core/engine.cpp:495
+#: core/engine.cpp:499
 #, kde-format
 msgid "Loading of providers from file: %1 failed"
 msgstr ""
 
-#: core/engine.cpp:743
+#: core/engine.cpp:747
 #, kde-format
 msgid ""
 "Could not perform an installation of the entry %1 as it does not have any "
 "downloadable items defined. Please contact the author so they can fix this."
 msgstr ""
 
-#: core/engine.cpp:866
+#: core/engine.cpp:870
 #, kde-format
 msgid "Pick Update Item"
 msgstr ""
 
-#: core/engine.cpp:868
+#: core/engine.cpp:872
 #, kde-format
 msgid ""
 "Please pick the item from the list below which should be used to apply this "
@@ -176,32 +176,32 @@ msgid ""
 "original item, which was named %1"
 msgstr ""
 
-#: core/engine.cpp:887
+#: core/engine.cpp:891
 #, kde-format
 msgid ""
 "We failed to identify a good link for updating %1, and are unable to perform "
 "the update"
 msgstr ""
 
-#: core/engine.cpp:966
+#: core/engine.cpp:970
 #, kde-format
 msgid "Re: %1"
 msgstr ""
 
-#: core/engine.cpp:1008 ui/itemsgridviewdelegate.cpp:329
+#: core/engine.cpp:1012 ui/itemsgridviewdelegate.cpp:329
 #: ui/itemsviewdelegate.cpp:117
 #, kde-format
 msgid "Installing"
 msgstr ""
 
-#: core/engine.cpp:1012
+#: core/engine.cpp:1016
 #, kde-format
 msgid "Loading one preview"
 msgid_plural "Loading %1 previews"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/engine.cpp:1214
+#: core/engine.cpp:1218
 #, kde-format
 msgid ""
 "Failed to adopt '%1'\n"
@@ -246,17 +246,17 @@ msgstr ""
 msgid "Could not install \"%1\": file not found."
 msgstr ""
 
-#: core/installation.cpp:486
+#: core/installation.cpp:492
 #, kde-format
 msgid "The installation of %1 failed to create the expected new directory %2"
 msgstr ""
 
-#: core/installation.cpp:509 core/installation.cpp:824
+#: core/installation.cpp:515 core/installation.cpp:835
 #, kde-format
 msgid "Installation of %1 failed: %2"
 msgstr ""
 
-#: core/installation.cpp:518
+#: core/installation.cpp:524
 #, kde-format
 msgid ""
 "The installation of %1 failed, as the service type %2 was not accepted by "
@@ -264,38 +264,38 @@ msgid ""
 "type of package?)"
 msgstr ""
 
-#: core/installation.cpp:528
+#: core/installation.cpp:534
 #, kde-format
 msgid ""
 "The installation of %1 failed, as the downloaded package does not contain a "
 "correct KPackage structure."
 msgstr ""
 
-#: core/installation.cpp:534
+#: core/installation.cpp:540
 #, kde-format
 msgid ""
 "The installation of %1 failed, as the downloaded package does not list a "
 "service type."
 msgstr ""
 
-#: core/installation.cpp:541
+#: core/installation.cpp:547
 #, kde-format
 msgid ""
 "The installation of %1 failed, as the downloaded package does not contain "
 "any useful meta information, which means it is not a valid KPackage."
 msgstr ""
 
-#: core/installation.cpp:574
+#: core/installation.cpp:580
 #, kde-format
 msgid "Could not determine the type of archive of the downloaded file %1"
 msgstr ""
 
-#: core/installation.cpp:586
+#: core/installation.cpp:592
 #, kde-format
 msgid "Failed to open the archive file %1. The reported error was: %2"
 msgstr ""
 
-#: core/installation.cpp:669
+#: core/installation.cpp:675
 #, kde-format
 msgid ""
 "This file already exists on disk (possibly due to an earlier failed download "
@@ -303,17 +303,17 @@ msgid ""
 "existing file?"
 msgstr ""
 
-#: core/installation.cpp:672
+#: core/installation.cpp:678
 #, kde-format
 msgid "Overwrite File"
 msgstr ""
 
-#: core/installation.cpp:688
+#: core/installation.cpp:694
 #, kde-format
 msgid "Unable to move the file %1 to the intended destination %2"
 msgstr ""
 
-#: core/installation.cpp:711
+#: core/installation.cpp:717
 #, kde-format
 msgid ""
 "The installation failed while attempting to run the command:\n"
@@ -323,7 +323,7 @@ msgid ""
 "%2"
 msgstr ""
 
-#: core/installation.cpp:721
+#: core/installation.cpp:727
 #, kde-format
 msgid ""
 "The installation failed with code %1 while attempting to run the command:\n"
@@ -333,7 +333,7 @@ msgid ""
 "%3"
 msgstr ""
 
-#: core/installation.cpp:763
+#: core/installation.cpp:769
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed file %2 could not be "
@@ -341,14 +341,14 @@ msgid ""
 "believe this is an error."
 msgstr ""
 
-#: core/installation.cpp:831
+#: core/installation.cpp:842
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package does not contain a "
 "correct KPackage structure."
 msgstr ""
 
-#: core/installation.cpp:836
+#: core/installation.cpp:847
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package is not a supported type "
@@ -356,21 +356,21 @@ msgid ""
 "package?)"
 msgstr ""
 
-#: core/installation.cpp:843
+#: core/installation.cpp:854
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the installed package does not contain any "
 "useful meta information, which means it is not a valid KPackage."
 msgstr ""
 
-#: core/installation.cpp:883
+#: core/installation.cpp:894
 #, kde-format
 msgid ""
 "The removal of %1 failed, as the downloaded file %2 could not be "
 "automatically removed."
 msgstr ""
 
-#: core/installation.cpp:888
+#: core/installation.cpp:899
 #, kde-format
 msgid ""
 "The removal of %1 failed, due to the installed file not being a KPackage. "
@@ -378,14 +378,14 @@ msgid ""
 "you are certain that it is not needed."
 msgstr ""
 
-#: core/installation.cpp:896
+#: core/installation.cpp:907
 #, kde-format
 msgid ""
 "The removal of %1 failed, as there seems to somehow be more than one thing "
 "installed, which is not supposed to be possible for KPackage based entries."
 msgstr ""
 
-#: core/installation.cpp:929
+#: core/installation.cpp:940
 #, kde-format
 msgid ""
 "The uninstallation process failed to successfully run the command %1\n"
@@ -537,7 +537,7 @@ msgid "Provider:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
-#: downloadwidget.ui:71 qtquick/qml/Page.qml:424
+#: downloadwidget.ui:71 qtquick/qml/Page.qml:427
 #, kde-format
 msgid "Category:"
 msgstr ""
@@ -1122,14 +1122,14 @@ msgstr ""
 msgid "Go to..."
 msgstr ""
 
-#: qtquick/qml/Page.qml:510
+#: qtquick/qml/Page.qml:513
 #, kde-format
 msgctxt ""
 "A text shown beside a busy indicator suggesting that data is being fetched"
 msgid "Loading more..."
 msgstr ""
 
-#: qtquick/qml/Page.qml:521
+#: qtquick/qml/Page.qml:524
 #, kde-format
 msgctxt ""
 "A message shown when there are no entries in the list, and when it is not "

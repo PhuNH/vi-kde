@@ -3,13 +3,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-aether-sass 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-11 00:47+0000\n"
+"POT-Creation-Date: 2022-02-08 00:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: content/search.en.md:0
+msgid "Search results"
+msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Releases"
@@ -219,6 +223,10 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid "KDE Timeline"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "KDE Manifesto"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -604,7 +612,11 @@ msgid "Funding"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "The BE4FOSS Project is financially supported by: BMU<sup>1</sup>"
+msgid ""
+"The BE4FOSS Project was funded by the Federal Environment Agency and the "
+"Federal Ministry for the Environment, Nature Conservation, Nuclear Safety "
+"and Consumer Protection (BMUV<sup>1</sup>). The funds are made available by "
+"resolution of the German Bundestag."
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -613,12 +625,12 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"<sup>1</sup> Official BMU and UBA-Logos are sent only by request. Please "
-"contact [verbaendefoerderung@uba.de](mailto:verbaendefoerderung@uba.de)"
+"<sup>1</sup> Official BMUV and UBA-Logos are sent only by request at: "
+"[verbaendefoerderung@uba.de](mailto:verbaendefoerderung@uba.de)"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Image of BMU/UBA"
+msgid "Image of BMUV/UBA"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -1132,8 +1144,12 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"The [community wiki](https://community.kde.org/Get_Involved/development) provides resource\n"
-"about setting up your development environment.\n"
+"The [community wiki](https://community.kde.org/Get_Involved/development) "
+"provides resource about setting up your development environment."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Get in Touch!"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -1142,42 +1158,45 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"Not a problem! There are plenty of other tasks that you can help us with to\n"
-"make {{ .Params.name }} better even if you don't know any programming languages!\n"
+"Not a problem! There are plenty of other tasks that you can help us with to "
+"make {{ .Params.name }} better even if you don't know any programming "
+"languages!"
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"[Bug triaging](https://community.kde.org/Guidelines_and_HOWTOs/Bug_triaging) - help us find\n"
-"mis-filed, duplicated or invalid bug reports in Bugzilla\n"
+"[Bug triaging](https://community.kde.org/Guidelines_and_HOWTOs/Bug_triaging)"
+" - help us find mis-filed, duplicated or invalid bug reports in Bugzilla\n"
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"[Localization](https://community.kde.org/Get_Involved/translation) - help to translate\n"
-"{{ .Params.name }} into your language\n"
+"[Localization](https://community.kde.org/Get_Involved/translation) - help to"
+" translate {{ .Params.name }} into your language\n"
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"[Documentation](https://community.kde.org/Get_Involved/documentation) - help us improve user\n"
-"documentation to make {{ .Params.name }} more friendly for newcomers\n"
+"[Documentation](https://community.kde.org/Get_Involved/documentation) - help"
+" us improve user documentation to make {{ .Params.name }} more friendly for "
+"newcomers\n"
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"[Promotion](https://community.kde.org/Get_Involved/promotion) - help us promote {{ .Params.name }}\n"
-"both online and offline\n"
+"[Promotion](https://community.kde.org/Get_Involved/promotion) - help us "
+"promote {{ .Params.name }} both online and offline\n"
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"[Updating wiki](https://userbase.kde.org/{{ .Params.name }}) - help updating the information present in\n"
-"the wiki, add new tutorials, ... - help us improve it to make it easier for others to join!\n"
+"[Updating wiki](https://userbase.kde.org/{{ .Params.userbase }}) - help us "
+"update the information present in the wiki, add new tutorials, ... to make "
+"it easier for others to join!\n"
 msgstr ""
 
 #: i18n/en.yaml:0
-msgid "Do you have any other idea? Get in touch!\n"
+msgid "Do you have any other idea? Get in touch!"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -1196,7 +1215,7 @@ msgstr ""
 msgid ""
 "{{ .Params.name }} is released regularly as part of KDE Gear. You can\n"
 "find {{ .Params.name }} latest stable release among the \n"
-"[tarballs from the latest KDE Gear release](https://download.kde.org/stable/release-service)\n"
+"[tarballs from the latest KDE Gear release](https://download.kde.org/stable/release-service).\n"
 "\n"
 "If you want to build {{ .Params.name }} from sources, we recommend checking our\n"
 "[Getting Involved](/get-involved) page which contains links to full guide how to\n"
@@ -1209,17 +1228,74 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"**Add flathub repository using:**\n"
-"\n"
-"```bash\n"
-"flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo\n"
-"```\n"
-"\n"
-"**Install {{ .Params.name }}**\n"
-"\n"
-"```bash\n"
-"flatpak install flathub {{ .Params.appstream }}\n"
-"```\n"
+"You can install the latest [{{ .name }} "
+"flatpak](https://flathub.org/apps/details/{{ .id }}) from Flathub. "
+"Experimental flatpaks with nightly builds of {{ .name }} can be [installed "
+"from the KDE Flatpak repository]({{ .link }})."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Installation"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"To install {{ .Params.name }}, follow the instructions of the platform you "
+"are using for how to install software. Most platforms have a graphical "
+"installer which can be used to install software packages. In many cases it "
+"will automatically be opened when clicking the download or install link for "
+"your platform. There is a [generic tutorial for installing KDE "
+"applications](https://userbase.kde.org/Tutorials/Install_KDE_software) which"
+" also can be applied to {{ .Params.name }}."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"To install {{ .Params.name }} or one of its components as a stand-alone "
+"application, follow the instructions of the platform you are using for how "
+"to install software. Most platforms have a graphical installer which can be "
+"used to install software packages. In many cases it will automatically be "
+"opened when clicking the download or install link for your platform. There "
+"is a [generic tutorial for installing KDE "
+"applications](https://userbase.kde.org/Tutorials/Install_KDE_software) which"
+" also can be applied to {{ .Params.name }}."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"If you are using Linux, {{ .Params.name }} might already be pre-installed on"
+" your system as part of a default selection. If not, you can install it with"
+" the package management tool of your Linux distribution. See its "
+"documentation for details."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"In many cases you will have the opportunity to install {{ .Params.name }} in"
+" a modular way, so you can decide to only install the set of components you "
+"actually want to use. Translations of the user interface often also will be "
+"available as separate module you can install according to your needs and "
+"preferences."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Uninstallation"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"To uninstall {{ .Params.name }}, follow the instructions of the package "
+"management tool you have used to install {{ .Params.name }}. This will "
+"remove the {{ .Params.name }} application. It will not touch data you have "
+"viewed, created, or modified with {{ .Params.name }}."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid ""
+"To uninstall {{ .Params.name }}, follow the instructions of the package "
+"management tool you have used to install {{ .Params.name }} and its "
+"components. This will remove the components of your choice. It will not "
+"touch data you have viewed, created, or modified with {{ .Params.name }}."
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -1228,9 +1304,9 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"Lost in {{ .Params.name }} settings or just looking to discover more features in {{ .Params.name }}?\n"
-"You can read the [{{ .Params.name }} Handbook]({{ .Params.handbook }})\n"
-"to find answers to your questions.\n"
+"Lost in {{ .Params.name }} settings or just looking to discover more "
+"features in {{ .Params.name }}? You can read the [{{ .Params.name }} "
+"Handbook]({{ .Params.handbook }}) to find answers to your questions."
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -1239,9 +1315,8 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"Check {{ .Params.name }} on [KDE Forums]({{ .Params.forum }}),\n"
-"maybe someone has already solved a similar problem. And if not, feel free to ask\n"
-"there!\n"
+"Check {{ .Params.name }} on [KDE Forum]({{ .Params.forum }}), maybe someone "
+"has already solved a similar problem. And if not, feel free to ask there!"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -1250,11 +1325,12 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
-"Bugs in software happen. If you found some in {{ .Params.name }}, please report them into\n"
-"[our Bugzilla](https://bugs.kde.org). Please do not report bugs on forums or\n"
-"mailinglists - such reports will most likely be overlooked or forgotten by the\n"
-"developers quite soon. To make sure the bug gets noticed by developers and\n"
-"fixed as soon as possible, report it into Bugzilla.\n"
+"Bugs in software happen. If you found some in {{ .Params.name }}, please "
+"report them into [our Bugzilla](https://bugs.kde.org). Please do not report "
+"bugs on forums or mailing lists - such reports will most likely be "
+"overlooked or forgotten by the developers quite soon. To make sure the bug "
+"gets noticed by developers and fixed as soon as possible, report it into "
+"Bugzilla."
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -1277,4 +1353,28 @@ msgstr ""
 
 #: i18n/en.yaml:0
 msgid ", and "
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Search"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "No results found"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Please provide a query with at least 3 characters"
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Searching..."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Something went wrong while searching. Please try again."
+msgstr ""
+
+#: i18n/en.yaml:0
+msgid "Network error. Please try again."
 msgstr ""

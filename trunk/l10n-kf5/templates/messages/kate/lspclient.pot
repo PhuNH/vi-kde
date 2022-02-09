@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-14 00:47+0000\n"
+"POT-Creation-Date: 2022-02-04 00:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #. i18n: ectx: Menu (LSPClient Menubar)
 #: lspclientconfigpage.cpp:105 lspclientconfigpage.cpp:110
 #: lspclientpluginview.cpp:689 lspclientpluginview.cpp:740
-#: lspclientpluginview.cpp:2940 ui.rc:6
+#: lspclientpluginview.cpp:2953 ui.rc:6
 #, kde-format
 msgid "LSP Client"
 msgstr ""
@@ -213,13 +213,13 @@ msgstr ""
 msgid "More options"
 msgstr ""
 
-#: lspclientpluginview.cpp:934 lspclientpluginview.cpp:2315
+#: lspclientpluginview.cpp:934 lspclientpluginview.cpp:2328
 #: lspclientsymbolview.cpp:267
 #, kde-format
 msgid "Expand All"
 msgstr ""
 
-#: lspclientpluginview.cpp:935 lspclientpluginview.cpp:2316
+#: lspclientpluginview.cpp:935 lspclientpluginview.cpp:2329
 #: lspclientsymbolview.cpp:268
 #, kde-format
 msgid "Collapse All"
@@ -316,76 +316,76 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
-#: lspclientpluginview.cpp:2063
+#: lspclientpluginview.cpp:2074
 #, kde-format
 msgid "No edits"
 msgstr ""
 
-#: lspclientpluginview.cpp:2129
+#: lspclientpluginview.cpp:2140
 #, kde-format
 msgctxt "@title:window"
 msgid "Rename"
 msgstr ""
 
-#: lspclientpluginview.cpp:2130
+#: lspclientpluginview.cpp:2141
 #, kde-format
 msgctxt "@label:textbox"
 msgid "New name (caution: not all references may be replaced)"
 msgstr ""
 
-#: lspclientpluginview.cpp:2160
+#: lspclientpluginview.cpp:2173
 #, kde-format
 msgid "Corresponding Header/Source not found"
 msgstr ""
 
-#: lspclientpluginview.cpp:2325
+#: lspclientpluginview.cpp:2338
 #, kde-format
 msgid "Copy to Clipboard"
 msgstr ""
 
-#: lspclientpluginview.cpp:2348
+#: lspclientpluginview.cpp:2361
 #, kde-format
 msgid "Remove Global Suppression"
 msgstr ""
 
-#: lspclientpluginview.cpp:2350
+#: lspclientpluginview.cpp:2363
 #, kde-format
 msgid "Add Global Suppression"
 msgstr ""
 
-#: lspclientpluginview.cpp:2354
+#: lspclientpluginview.cpp:2367
 #, kde-format
 msgid "Remove Local Suppression"
 msgstr ""
 
-#: lspclientpluginview.cpp:2356
+#: lspclientpluginview.cpp:2369
 #, kde-format
 msgid "Add Local Suppression"
 msgstr ""
 
-#: lspclientpluginview.cpp:2368
+#: lspclientpluginview.cpp:2381
 #, kde-format
 msgid "Disable Suppression"
 msgstr ""
 
-#: lspclientpluginview.cpp:2370
+#: lspclientpluginview.cpp:2383
 #, kde-format
 msgid "Enable Suppression"
 msgstr ""
 
-#: lspclientpluginview.cpp:2502
+#: lspclientpluginview.cpp:2515
 #, kde-format
 msgctxt "@info"
 msgid "%1 [suppressed: %2]"
 msgstr ""
 
-#: lspclientpluginview.cpp:2617 lspclientpluginview.cpp:2654
+#: lspclientpluginview.cpp:2630 lspclientpluginview.cpp:2667
 #, kde-format
 msgctxt "@info"
 msgid "LSP Server"
 msgstr ""
 
-#: lspclientpluginview.cpp:2677
+#: lspclientpluginview.cpp:2690
 #, kde-format
 msgctxt "@info"
 msgid "LSP Client"
@@ -406,37 +406,42 @@ msgstr ""
 msgid "Server terminated unexpectedly ... %1 [%2] [homepage: %3] "
 msgstr ""
 
-#: lspclientservermanager.cpp:740
+#: lspclientservermanager.cpp:744
 #, kde-format
 msgid "Failed to start server: %1"
 msgstr ""
 
-#: lspclientservermanager.cpp:743
+#: lspclientservermanager.cpp:747 lspclientservermanager.cpp:765
 #, kde-format
 msgid "Please check your PATH for the binary"
 msgstr ""
 
-#: lspclientservermanager.cpp:744
+#: lspclientservermanager.cpp:748 lspclientservermanager.cpp:766
 #, kde-format
 msgid "See also %1 for installation or details"
 msgstr ""
 
-#: lspclientservermanager.cpp:748
+#: lspclientservermanager.cpp:752
 #, kde-format
 msgid "Started server %2: %1"
 msgstr ""
 
-#: lspclientservermanager.cpp:788
+#: lspclientservermanager.cpp:762
+#, kde-format
+msgid "Failed to find server binary: %1"
+msgstr ""
+
+#: lspclientservermanager.cpp:803
 #, kde-format
 msgid "Failed to parse server configuration '%1': no JSON object"
 msgstr ""
 
-#: lspclientservermanager.cpp:791
+#: lspclientservermanager.cpp:806
 #, kde-format
 msgid "Failed to parse server configuration '%1': %2"
 msgstr ""
 
-#: lspclientservermanager.cpp:795
+#: lspclientservermanager.cpp:810
 #, kde-format
 msgid "Failed to read server configuration: %1"
 msgstr ""

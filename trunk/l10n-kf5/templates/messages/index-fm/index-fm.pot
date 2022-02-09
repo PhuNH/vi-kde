@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: index-fm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-15 00:42+0000\n"
+"POT-Creation-Date: 2022-02-08 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -49,7 +49,7 @@ msgid "Gabriel Dominguez"
 msgstr ""
 
 #: src/main.qml:170 src/widgets/previewer/CompressedPreview.qml:15
-#: src/widgets/views/FileMenu.qml:205
+#: src/widgets/views/FileMenu.qml:210
 #, kde-format
 msgid "Extract"
 msgstr ""
@@ -166,22 +166,22 @@ msgstr ""
 
 #: src/main.qml:505
 #, kde-format
-msgid "Toogle SideBar"
+msgid "Toggle sidebar"
 msgstr ""
 
-#: src/main.qml:558 src/widgets/views/FileMenu.qml:173
+#: src/main.qml:558 src/widgets/views/FileMenu.qml:178
 #, kde-format
 msgid "Bookmark"
 msgstr ""
 
-#: src/main.qml:565 src/widgets/views/FileMenu.qml:187
-#: src/widgets/views/PlacesSideBar.qml:263
+#: src/main.qml:565 src/widgets/views/FileMenu.qml:192
+#: src/widgets/views/PlacesSideBar.qml:266
 #, kde-format
 msgid "Open in new tab"
 msgstr ""
 
-#: src/main.qml:573 src/widgets/views/FileMenu.qml:195
-#: src/widgets/views/PlacesSideBar.qml:271
+#: src/main.qml:573 src/widgets/views/FileMenu.qml:200
+#: src/widgets/views/PlacesSideBar.qml:274
 #, kde-format
 msgid "Open in split view"
 msgstr ""
@@ -262,19 +262,6 @@ msgstr ""
 msgid "Open"
 msgstr ""
 
-#: src/widgets/previewer/FilePreviewer.qml:249
-#: src/widgets/views/FileMenu.qml:133
-#, kde-format
-msgid "Fav"
-msgstr ""
-
-#: src/widgets/previewer/FilePreviewer.qml:266
-#: src/widgets/views/BrowserView.qml:111 src/widgets/views/FileMenu.qml:162
-#: src/widgets/views/HomeView.qml:47
-#, kde-format
-msgid "Share"
-msgstr ""
-
 #: src/widgets/previewer/FileProperties.qml:46
 #, kde-format
 msgid "Permissions"
@@ -338,59 +325,65 @@ msgstr ""
 msgid "Install"
 msgstr ""
 
-#: src/widgets/views/Browser.qml:102
+#: src/widgets/views/Browser.qml:55
 #, kde-format
-msgid "Create new"
+msgid "Edit"
 msgstr ""
 
-#: src/widgets/views/Browser.qml:120
+#: src/widgets/views/Browser.qml:63 src/widgets/views/BrowserView.qml:155
+#: src/widgets/views/FileMenu.qml:83 src/widgets/views/PlacesSideBar.qml:284
+#, kde-format
+msgid "Remove"
+msgstr ""
+
+#: src/widgets/views/Browser.qml:81
 #, kde-format
 msgid "Remove '%1'"
 msgstr ""
 
-#: src/widgets/views/Browser.qml:121
+#: src/widgets/views/Browser.qml:82
 #, kde-format
 msgid "Accept"
 msgstr ""
 
-#: src/widgets/views/Browser.qml:122
+#: src/widgets/views/Browser.qml:83
 #, kde-format
 msgid "Cancel"
 msgstr ""
 
-#: src/widgets/views/Browser.qml:124
+#: src/widgets/views/Browser.qml:85
 #, kde-format
 msgid ""
 "Are you sure you want to remove this tag? This operation can not be undone."
 msgstr ""
 
-#: src/widgets/views/Browser.qml:142
+#: src/widgets/views/Browser.qml:157
 #, kde-format
-msgid "Edit"
+msgid "Create new"
 msgstr ""
 
-#: src/widgets/views/Browser.qml:150 src/widgets/views/BrowserView.qml:155
-#: src/widgets/views/FileMenu.qml:78 src/widgets/views/PlacesSideBar.qml:281
-#, kde-format
-msgid "Remove"
-msgstr ""
-
-#: src/widgets/views/BrowserView.qml:89 src/widgets/views/FileMenu.qml:46
+#: src/widgets/views/BrowserView.qml:89 src/widgets/views/FileMenu.qml:51
 #, kde-format
 msgid "Copy"
 msgstr ""
 
-#: src/widgets/views/BrowserView.qml:100 src/widgets/views/FileMenu.qml:57
+#: src/widgets/views/BrowserView.qml:100 src/widgets/views/FileMenu.qml:62
 #, kde-format
 msgid "Cut"
 msgstr ""
 
-#: src/widgets/views/BrowserView.qml:133 src/widgets/views/FileMenu.qml:217
+#: src/widgets/views/BrowserView.qml:111 src/widgets/views/FileMenu.qml:167
+#: src/widgets/views/HomeView.qml:47
+#, kde-format
+msgid "Share"
+msgstr ""
+
+#: src/widgets/views/BrowserView.qml:133 src/widgets/views/FileMenu.qml:222
 #, kde-format
 msgid "Compress"
 msgstr ""
 
-#: src/widgets/views/BrowserView.qml:145 src/widgets/views/FileMenu.qml:149
+#: src/widgets/views/BrowserView.qml:145 src/widgets/views/FileMenu.qml:154
 #: src/widgets/views/TagsSection.qml:22
 #, kde-format
 msgid "Tags"
@@ -416,29 +409,34 @@ msgstr ""
 msgid "Your files marked as favorites"
 msgstr ""
 
-#: src/widgets/views/FileMenu.qml:68
+#: src/widgets/views/FileMenu.qml:73
 #, kde-format
 msgid "Rename"
 msgstr ""
 
-#: src/widgets/views/FileMenu.qml:94 src/widgets/views/ShortcutsDialog.qml:189
+#: src/widgets/views/FileMenu.qml:99 src/widgets/views/ShortcutsDialog.qml:189
 #, kde-format
 msgid "Select"
 msgstr ""
 
-#: src/widgets/views/FileMenu.qml:108 src/widgets/views/HomeView.qml:41
+#: src/widgets/views/FileMenu.qml:113 src/widgets/views/HomeView.qml:41
 #, kde-format
 msgid "Open with"
 msgstr ""
 
-#: src/widgets/views/FileMenu.qml:119
+#: src/widgets/views/FileMenu.qml:124
 #, kde-format
 msgid "Preview and info"
 msgstr ""
 
-#: src/widgets/views/FileMenu.qml:133
+#: src/widgets/views/FileMenu.qml:138
 #, kde-format
 msgid "UnFav"
+msgstr ""
+
+#: src/widgets/views/FileMenu.qml:138
+#, kde-format
+msgid "Fav"
 msgstr ""
 
 #: src/widgets/views/home/QuickCommonSection.qml:25
@@ -488,7 +486,7 @@ msgstr ""
 msgid "Overview"
 msgstr ""
 
-#: src/widgets/views/PlacesSideBar.qml:200
+#: src/widgets/views/PlacesSideBar.qml:203
 #, kde-format
 msgid ""
 "This device needs to be mounted before accessing it. Do you want to set up "
@@ -505,27 +503,27 @@ msgstr ""
 msgid "Your most recent downloaded files, audio and images"
 msgstr ""
 
-#: src/widgets/views/RecentSection.qml:64
+#: src/widgets/views/RecentSection.qml:66
 #, kde-format
 msgid "Downloads"
 msgstr ""
 
-#: src/widgets/views/RecentSection.qml:129
+#: src/widgets/views/RecentSection.qml:127
 #, kde-format
 msgid "Music"
 msgstr ""
 
-#: src/widgets/views/RecentSection.qml:192
+#: src/widgets/views/RecentSection.qml:185
 #, kde-format
 msgid "Pictures"
 msgstr ""
 
-#: src/widgets/views/RecentSection.qml:253
+#: src/widgets/views/RecentSection.qml:242
 #, kde-format
 msgid "Camera"
 msgstr ""
 
-#: src/widgets/views/RecentSection.qml:315
+#: src/widgets/views/RecentSection.qml:298
 #, kde-format
 msgid "Screenshots"
 msgstr ""

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-15 00:41+0000\n"
+"POT-Creation-Date: 2022-02-09 00:45+0000\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -288,7 +288,7 @@ msgstr "Đổi chữ sang:"
 
 #: core/app/dragdrop/itemdragdrop.cpp:611
 #: core/app/dragdrop/itemdragdrop.cpp:656
-#: core/app/views/preview/itempreviewview.cpp:613
+#: core/app/views/preview/itempreviewview.cpp:676
 #, kde-format
 msgid "&Cancel"
 msgstr "T&hôi"
@@ -299,7 +299,7 @@ msgid "Assign Tags to &Selected Items"
 msgstr "&Gán thẻ cho các mục đã chọn"
 
 #: core/app/dragdrop/itemdragdrop.cpp:649
-#: core/app/views/preview/itempreviewview.cpp:611
+#: core/app/views/preview/itempreviewview.cpp:674
 #, kde-format
 msgid "Assign Tags to &This Item"
 msgstr "Gán thẻ cho mục nà&y"
@@ -504,7 +504,7 @@ msgid "Show Fullscreen"
 msgstr "Thoát khỏi chế độ toàn màn hình"
 
 #: core/app/items/overlays/itemrotationoverlay.cpp:68
-#: core/app/views/preview/itempreviewview.cpp:172
+#: core/app/views/preview/itempreviewview.cpp:178
 #: core/utilities/import/items/importoverlays.cpp:444
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
@@ -512,7 +512,7 @@ msgid "Rotate Left"
 msgstr "Xoay trái"
 
 #: core/app/items/overlays/itemrotationoverlay.cpp:72
-#: core/app/views/preview/itempreviewview.cpp:173
+#: core/app/views/preview/itempreviewview.cpp:180
 #: core/utilities/import/items/importoverlays.cpp:448
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
@@ -1034,7 +1034,7 @@ msgid "Unknown"
 msgstr "Không rõ"
 
 #: core/app/items/utils/tooltipfiller.cpp:118
-#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:1061
+#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:1101
 #: core/showfoto/thumbbar/showfototooltipfiller.cpp:105
 #: core/utilities/import/items/importtooltipfiller.cpp:103
 #, fuzzy, kde-format
@@ -1335,82 +1335,82 @@ msgstr ""
 "hợp này, tính năng « Quản lí màu » bị tắt đến khi bạn giải quyết vấn đề này."
 "</p></qt>"
 
-#: core/app/main/digikamapp.cpp:598 core/app/views/stack/trashview.cpp:435
+#: core/app/main/digikamapp.cpp:607 core/app/views/stack/trashview.cpp:435
 #, fuzzy, kde-format
 msgid "No item selected (%1 item)"
 msgid_plural "No item selected (%1 items)"
 msgstr[0] "Chưa chọn mục"
 
-#: core/app/main/digikamapp.cpp:604
+#: core/app/main/digikamapp.cpp:613
 #, fuzzy, kde-format
 msgid "No item selected (%1 [%2] item)"
 msgid_plural "No item selected (%1 [%2] items)"
 msgstr[0] "Chưa chọn mục"
 
-#: core/app/main/digikamapp.cpp:609
+#: core/app/main/digikamapp.cpp:618
 #, fuzzy, kde-format
 msgid "No item selected (%1 item. With grouped items: %2)"
 msgid_plural "No item selected (%1 items. With grouped items: %2)"
 msgstr[0] "Chưa chọn mục"
 
-#: core/app/main/digikamapp.cpp:620
+#: core/app/main/digikamapp.cpp:629
 #, fuzzy, kde-format
 msgid "1/%2 item selected (%3/%4)"
 msgid_plural "%1/%2 items selected (%3/%4)"
 msgstr[0] "%1 mục đã chọn"
 
-#: core/app/main/digikamapp.cpp:633
+#: core/app/main/digikamapp.cpp:642
 #, fuzzy, kde-format
 msgid "1/%2 [%3] item selected (%4/%5)"
 msgid_plural "%1/%2 [%3] items selected (%4/%5)"
 msgstr[0] "%1 mục đã chọn"
 
-#: core/app/main/digikamapp.cpp:641
+#: core/app/main/digikamapp.cpp:650
 #, fuzzy, kde-format
 msgid "1/%2 item selected. Total with grouped items: %3"
 msgid_plural "%1/%2 items selected. Total with grouped items: %3"
 msgstr[0] "Chưa chọn mục"
 
-#: core/app/main/digikamapp.cpp:649
+#: core/app/main/digikamapp.cpp:658
 #, fuzzy, kde-format
 msgid "1/%2 [%3/%4] item selected (%5/%6)"
 msgid_plural "%1/%2 [%3/%4] items selected (%5/%6)"
 msgstr[0] "%1 mục đã chọn"
 
-#: core/app/main/digikamapp.cpp:658
+#: core/app/main/digikamapp.cpp:667
 #, fuzzy, kde-format
 msgid "1/%2 item selected. With grouped items: %3/%4"
 msgid_plural "%1/%2 items selected. With grouped items: %3/%4"
 msgstr[0] "Chưa chọn mục"
 
-#: core/app/main/digikamapp.cpp:689
+#: core/app/main/digikamapp.cpp:698
 #, fuzzy, kde-format
 msgid " (%1 of %2)"
 msgstr " (%1 of %2)"
 
-#: core/app/main/digikamapp.cpp:703
+#: core/app/main/digikamapp.cpp:712
 #, fuzzy, kde-format
 msgid " (%1 of %2 [%3] )"
 msgstr " (%1 of %2)"
 
-#: core/app/main/digikamapp.cpp:707
+#: core/app/main/digikamapp.cpp:716
 #, kde-format
 msgid " (%1 of %2. Total with grouped items: %3)"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:718
+#: core/app/main/digikamapp.cpp:727
 #, fuzzy, kde-format
 msgid "%1 item hidden"
 msgid_plural "%1 items hidden"
 msgstr[0] "16 bit"
 
-#: core/app/main/digikamapp.cpp:768
+#: core/app/main/digikamapp.cpp:777
 #, fuzzy, kde-format
 msgid "Write Metadata to File"
 msgid_plural "Write Metadata to Selected Files"
 msgstr[0] "Ghi siêu dữ liệu vào mỗi tệp"
 
-#: core/app/main/digikamapp.cpp:770
+#: core/app/main/digikamapp.cpp:779
 #, fuzzy, kde-format
 msgid "Reread Metadata From File"
 msgid_plural "Reread Metadata From Selected Files"
@@ -1689,7 +1689,7 @@ msgid "Thumbnails"
 msgstr "Hiện các ảnh mẫu"
 
 #: core/app/main/digikamapp_setup.cpp:307
-#: core/app/views/stack/itemiconview_views.cpp:269
+#: core/app/views/stack/itemiconview_views.cpp:286
 #, fuzzy, kde-format
 #| msgid "Preview"
 msgctxt "@action: View the selected image"
@@ -2607,7 +2607,7 @@ msgstr "Thanh công cụ chính"
 #: core/libs/album/manager/albummanager_album.cpp:137
 #: core/libs/album/manager/albummanager_dalbum.cpp:103
 #: core/libs/album/manager/albummanager_falbum.cpp:75
-#: core/libs/album/manager/albummanager_talbum.cpp:942
+#: core/libs/album/manager/albummanager_talbum.cpp:980
 #, kde-format
 msgid "digiKam"
 msgstr "digiKam"
@@ -2747,46 +2747,46 @@ msgid ""
 "Rev.: %5"
 msgstr ""
 
-#: core/app/views/preview/itempreviewview.cpp:170
+#: core/app/views/preview/itempreviewview.cpp:174
 #: core/libs/video/player/mediaplayerview.cpp:220
 #, fuzzy, kde-format
 msgctxt "go to previous image"
 msgid "Back"
 msgstr "Lùi"
 
-#: core/app/views/preview/itempreviewview.cpp:171
+#: core/app/views/preview/itempreviewview.cpp:176
 #: core/libs/video/player/mediaplayerview.cpp:222
 #, fuzzy, kde-format
 msgctxt "go to next image"
 msgid "Forward"
 msgstr "Tới"
 
-#: core/app/views/preview/itempreviewview.cpp:175
+#: core/app/views/preview/itempreviewview.cpp:187
 #, fuzzy, kde-format
 msgid "Add a Face Tag"
 msgstr "Thêm thẻ mới..."
 
-#: core/app/views/preview/itempreviewview.cpp:177
+#: core/app/views/preview/itempreviewview.cpp:192
 #, fuzzy, kde-format
 msgid "Clear all faces on this image"
 msgstr "Áp dụng mọi thay đổi cho các ảnh"
 
-#: core/app/views/preview/itempreviewview.cpp:178
+#: core/app/views/preview/itempreviewview.cpp:199
 #, fuzzy, kde-format
 msgid "Show Face Tags"
 msgstr "Hiện kiểu ảnh"
 
-#: core/app/views/preview/itempreviewview.cpp:180
+#: core/app/views/preview/itempreviewview.cpp:204
 #, kde-format
 msgid "Add a focus point"
 msgstr ""
 
-#: core/app/views/preview/itempreviewview.cpp:181
+#: core/app/views/preview/itempreviewview.cpp:206
 #, fuzzy, kde-format
 msgid "Show focus points"
 msgstr "Hiện trên bảng trái"
 
-#: core/app/views/preview/itempreviewview.cpp:186
+#: core/app/views/preview/itempreviewview.cpp:212
 #, fuzzy, kde-format
 msgid "Show Fullscreen"
 msgstr "Thoát khỏi chế độ toàn màn hình"
@@ -2995,7 +2995,7 @@ msgstr ""
 "hiện thời sẽ bị đặt lại thành giá trị mặc định."
 
 #: core/app/views/sidebar/timelinesidebarwidget.cpp:397
-#: core/app/views/stack/itemiconview_p.h:194
+#: core/app/views/stack/itemiconview_p.h:195
 #, fuzzy, kde-format
 msgid "Timeline"
 msgstr "Lát"
@@ -3013,33 +3013,40 @@ msgid "1 item"
 msgid_plural "%1 items"
 msgstr[0] "16 bit"
 
-#: core/app/views/stack/itemiconview.cpp:208
+#: core/app/views/stack/itemiconview.cpp:209
 #, fuzzy, kde-format
 msgctxt "Filters as in Search type Filters"
 msgid "Filters"
 msgstr "Bộ &lọc"
 
-#: core/app/views/stack/itemiconview_albums.cpp:332
+#: core/app/views/stack/itemiconview_albums.cpp:326
 #, kde-format
 msgid "Cannot open the root album. It is not a physical location."
 msgstr ""
 
-#: core/app/views/stack/itemiconview_p.h:177
+#: core/app/views/stack/itemiconview_items.cpp:611
+#, kde-format
+msgid ""
+"The current query from the database returned no results. Change search "
+"settings or select an album with content."
+msgstr ""
+
+#: core/app/views/stack/itemiconview_p.h:178
 #, fuzzy, kde-format
 msgid "Fuzzy Sketch Search"
 msgstr "Xoá tìm kiếm"
 
-#: core/app/views/stack/itemiconview_p.h:181
+#: core/app/views/stack/itemiconview_p.h:182
 #, fuzzy, kde-format
 msgid "Fuzzy Image Search"
 msgstr "Xoá tìm kiếm"
 
-#: core/app/views/stack/itemiconview_p.h:185
+#: core/app/views/stack/itemiconview_p.h:186
 #, fuzzy, kde-format
 msgid "Map Search"
 msgstr "Tìm kiếm của tôì"
 
-#: core/app/views/stack/itemiconview_p.h:190
+#: core/app/views/stack/itemiconview_p.h:191
 #: core/libs/database/coredb/coredbschemaupdater.cpp:1152
 #, kde-format
 msgid "Last Search"
@@ -3053,7 +3060,7 @@ msgid ""
 "is currently not available"
 msgstr ""
 
-#: core/app/views/stack/itemiconview_views.cpp:214
+#: core/app/views/stack/itemiconview_views.cpp:231
 #, fuzzy, kde-format
 msgctxt "@title: item icon view"
 msgid "Tools"
@@ -3247,7 +3254,7 @@ msgstr ""
 
 #: core/app/views/stack/welcomepageview.cpp:173
 #, fuzzy, kde-format
-msgid "New tool to export items to iNaturatist web service."
+msgid "New tool to export items to iNaturalist web service."
 msgstr "Lần lặp lại:"
 
 #: core/app/views/stack/welcomepageview.cpp:174
@@ -4011,139 +4018,140 @@ msgstr "Bỏ thẻ"
 msgid "Configure this column"
 msgstr "Cấu hình máy ảnh"
 
-#: core/app/views/utils/componentsinfodlg.cpp:79
+#: core/app/views/utils/componentsinfodlg.cpp:85
 #, fuzzy, kde-format
 msgctxt "@item: component info"
 msgid "LibGphoto2"
 msgstr "ảnh"
 
-#: core/app/views/utils/componentsinfodlg.cpp:83
+#: core/app/views/utils/componentsinfodlg.cpp:90
 #, fuzzy, kde-format
 msgctxt "@item: component info"
 msgid "LibGphoto2 support"
 msgstr "ảnh"
 
-#: core/app/views/utils/componentsinfodlg.cpp:83
-#: core/app/views/utils/componentsinfodlg.cpp:93
-#: core/app/views/utils/componentsinfodlg.cpp:103
-#: core/app/views/utils/componentsinfodlg.cpp:117
-#: core/app/views/utils/componentsinfodlg.cpp:127
-#: core/app/views/utils/componentsinfodlg.cpp:137
-#: core/app/views/utils/componentsinfodlg.cpp:147
-#: core/app/views/utils/componentsinfodlg.cpp:157
-#: core/app/views/utils/componentsinfodlg.cpp:171
+#: core/app/views/utils/componentsinfodlg.cpp:90
+#: core/app/views/utils/componentsinfodlg.cpp:102
+#: core/app/views/utils/componentsinfodlg.cpp:114
+#: core/app/views/utils/componentsinfodlg.cpp:138
+#: core/app/views/utils/componentsinfodlg.cpp:150
+#: core/app/views/utils/componentsinfodlg.cpp:162
+#: core/app/views/utils/componentsinfodlg.cpp:174
+#: core/app/views/utils/componentsinfodlg.cpp:186
+#: core/app/views/utils/componentsinfodlg.cpp:202
 #, fuzzy, kde-format
 #| msgid "No"
 msgctxt "@item: component info"
 msgid "No"
 msgstr "Không"
 
-#: core/app/views/utils/componentsinfodlg.cpp:89
-#: core/app/views/utils/componentsinfodlg.cpp:93
+#: core/app/views/utils/componentsinfodlg.cpp:97
+#: core/app/views/utils/componentsinfodlg.cpp:102
 #, fuzzy, kde-format
 #| msgid "Linear"
 msgctxt "@item: component info"
 msgid "Baloo support"
 msgstr "Tuyến"
 
-#: core/app/views/utils/componentsinfodlg.cpp:89
-#: core/app/views/utils/componentsinfodlg.cpp:99
+#: core/app/views/utils/componentsinfodlg.cpp:97
 #: core/app/views/utils/componentsinfodlg.cpp:109
-#: core/app/views/utils/componentsinfodlg.cpp:123
-#: core/app/views/utils/componentsinfodlg.cpp:133
-#: core/app/views/utils/componentsinfodlg.cpp:143
-#: core/app/views/utils/componentsinfodlg.cpp:153
-#: core/app/views/utils/componentsinfodlg.cpp:170
+#: core/app/views/utils/componentsinfodlg.cpp:121
+#: core/app/views/utils/componentsinfodlg.cpp:145
+#: core/app/views/utils/componentsinfodlg.cpp:157
+#: core/app/views/utils/componentsinfodlg.cpp:169
+#: core/app/views/utils/componentsinfodlg.cpp:181
+#: core/app/views/utils/componentsinfodlg.cpp:201
 #, fuzzy, kde-format
 #| msgid "Yes"
 msgctxt "@item: component info"
 msgid "Yes"
 msgstr "Có"
 
-#: core/app/views/utils/componentsinfodlg.cpp:99
-#: core/app/views/utils/componentsinfodlg.cpp:103
-#, kde-format
-msgctxt "@item: component info"
-msgid "AkonadiContact support"
-msgstr ""
-
 #: core/app/views/utils/componentsinfodlg.cpp:109
-#: core/app/views/utils/componentsinfodlg.cpp:117
+#: core/app/views/utils/componentsinfodlg.cpp:114
+#, fuzzy, kde-format
+#| msgid "Linear"
+msgctxt "@item: component info"
+msgid "AddressBook support"
+msgstr "Tuyến"
+
+#: core/app/views/utils/componentsinfodlg.cpp:121
+#: core/app/views/utils/componentsinfodlg.cpp:138
 #, fuzzy, kde-format
 #| msgid "Linear"
 msgctxt "@item: component info"
 msgid "Media player support"
 msgstr "Tuyến"
 
-#: core/app/views/utils/componentsinfodlg.cpp:110
+#: core/app/views/utils/componentsinfodlg.cpp:124
 #, kde-format
 msgctxt "@item: component info"
 msgid "LibQtAV"
 msgstr ""
 
-#: core/app/views/utils/componentsinfodlg.cpp:111
+#: core/app/views/utils/componentsinfodlg.cpp:127
 #, fuzzy, kde-format
 msgctxt "@item: component info"
 msgid "LibAVFormat"
 msgstr "Ngày ảnh"
 
-#: core/app/views/utils/componentsinfodlg.cpp:112
+#: core/app/views/utils/componentsinfodlg.cpp:130
 #, fuzzy, kde-format
 msgctxt "@item: component info"
 msgid "LibAVCodec"
 msgstr "Tệp âm thanh"
 
-#: core/app/views/utils/componentsinfodlg.cpp:113
+#: core/app/views/utils/componentsinfodlg.cpp:133
 #, fuzzy, kde-format
 msgctxt "@item: component info"
 msgid "LibAVUtil"
 msgstr "Ngày ảnh"
 
-#: core/app/views/utils/componentsinfodlg.cpp:123
-#: core/app/views/utils/componentsinfodlg.cpp:127
+#: core/app/views/utils/componentsinfodlg.cpp:145
+#: core/app/views/utils/componentsinfodlg.cpp:150
 #, fuzzy, kde-format
 #| msgid "Linear"
 msgctxt "@item: component info"
 msgid "DBus support"
 msgstr "Tuyến"
 
-#: core/app/views/utils/componentsinfodlg.cpp:133
-#: core/app/views/utils/componentsinfodlg.cpp:137
+#: core/app/views/utils/componentsinfodlg.cpp:157
+#: core/app/views/utils/componentsinfodlg.cpp:162
 #, fuzzy, kde-format
 #| msgid "RAW Metadata support"
 msgctxt "@item: component info"
 msgid "Panorama support"
 msgstr "Hỗ trợ siêu dữ liệu RAW"
 
-#: core/app/views/utils/componentsinfodlg.cpp:143
-#: core/app/views/utils/componentsinfodlg.cpp:147
+#: core/app/views/utils/componentsinfodlg.cpp:169
+#: core/app/views/utils/componentsinfodlg.cpp:174
 #, fuzzy, kde-format
 #| msgid "Linear"
 msgctxt "@item: component info"
 msgid "HTML Gallery support"
 msgstr "Tuyến"
 
-#: core/app/views/utils/componentsinfodlg.cpp:153
-#: core/app/views/utils/componentsinfodlg.cpp:157
+#: core/app/views/utils/componentsinfodlg.cpp:181
+#: core/app/views/utils/componentsinfodlg.cpp:186
 #, fuzzy, kde-format
 #| msgid "Linear"
 msgctxt "@item: component info"
 msgid "Calendar support"
 msgstr "Tuyến"
 
-#: core/app/views/utils/componentsinfodlg.cpp:161
+#: core/app/views/utils/componentsinfodlg.cpp:191
 #, fuzzy, kde-format
 msgctxt "@item: component info"
 msgid "LibOpenCV"
 msgstr "Mở bằng"
 
-#: core/app/views/utils/componentsinfodlg.cpp:166
+#: core/app/views/utils/componentsinfodlg.cpp:197
 #, fuzzy, kde-format
 msgctxt "@item: component info"
 msgid "Database backend"
 msgstr "Tạo thư mục ?"
 
-#: core/app/views/utils/componentsinfodlg.cpp:172
+#: core/app/views/utils/componentsinfodlg.cpp:204
 #, fuzzy, kde-format
 msgctxt "@item: component info"
 msgid "Database internal server"
@@ -8961,8 +8969,8 @@ msgid "Perspective Adjustment"
 msgstr "Điều chỉnh phối cảnh"
 
 #: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:216
-#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:1098
-#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:1104
+#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:1138
+#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:1144
 #, kde-format
 msgid "Aspect Ratio Crop"
 msgstr "Xén tỉ lệ hình thể"
@@ -9015,25 +9023,25 @@ msgid "Custom"
 msgstr "Tự chọn"
 
 #: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:299
-#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:830
+#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:870
 #, fuzzy, kde-format
 msgid "Format DIN A"
 msgstr "Ngày ảnh"
 
 #: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:300
-#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:831
+#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:871
 #, kde-format
 msgid "Golden Ratio"
 msgstr "Tỉ lệ vàng"
 
 #: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:301
-#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:832
+#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:872
 #, fuzzy, kde-format
 msgid "Current Aspect Ratio"
 msgstr "Duy trì tỉ lệ hình thể"
 
 #: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:302
-#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:833
+#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:873
 #, fuzzy, kde-format
 msgctxt "no aspect ratio"
 msgid "None"
@@ -9261,7 +9269,7 @@ msgstr "<p>Ở đây hãy đặt độ rộng (theo điểm ảnh) dùng để v
 msgid "Composition Guides"
 msgstr "Nét dẫn cấu tạo :"
 
-#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:800
+#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:840
 #, fuzzy, kde-format
 msgctxt "custom ratio crop settings"
 msgid "Custom"
@@ -19308,7 +19316,7 @@ msgstr ""
 
 #: core/dplugins/generic/view/slideshow/common/slideshowloader.cpp:129
 #: core/dplugins/generic/view/slideshow/slideshowplugin.cpp:168
-#: core/libs/settings/applicationsettings_miscs.cpp:429
+#: core/libs/settings/applicationsettings_miscs.cpp:439
 #, fuzzy, kde-format
 msgid "Slideshow"
 msgstr "Trình chiếu"
@@ -21569,35 +21577,35 @@ msgstr ""
 msgid "invalid name"
 msgstr "Hồ sơ không hợp lệ"
 
-#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:576
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:581
 #, fuzzy, kde-format
 msgid "iNaturalist"
 msgstr "Tự nhiên"
 
-#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:578
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:583
 #, fuzzy, kde-format
 #| msgid "Profile Error"
 msgid "Login"
 msgstr "Lỗi hồ sơ"
 
-#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1341
-#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1493
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1355
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1517
 #, kde-format
 msgid "ERROR while creating observation"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1570
-#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1687
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1595
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1713
 #, fuzzy, kde-format
 msgid "ERROR while uploading photo"
 msgstr "Lỗi nạp ảnh « %1 »"
 
-#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1797
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1825
 #, kde-format
 msgid "ERROR while deleting observation"
 msgstr ""
 
-#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1902
+#: core/dplugins/generic/webservices/inaturalist/inattalker.cpp:1931
 #, kde-format
 msgid "Timeout after exceeding %1 seconds"
 msgstr ""
@@ -24311,7 +24319,7 @@ msgstr ""
 "Thẻ « %1 » có một thẻ phụ. Xoá thẻ này thì cũng xoá thẻ phụ đó. Bạn có chắc "
 "muốn tiếp tục không?"
 
-#: core/dplugins/rawimport/darktable/rawimportdarktableplugin.cpp:275
+#: core/dplugins/rawimport/darktable/rawimportdarktableplugin.cpp:281
 #, kde-format
 msgid ""
 "Error to import RAW image with DarkTable\n"
@@ -24880,9 +24888,9 @@ msgstr "Lỗi thêm tập ảnh vào cơ sở dữ liệu"
 #: core/libs/album/manager/albummanager_palbum.cpp:464
 #: core/libs/album/manager/albummanager_palbum.cpp:548
 #: core/libs/album/manager/albummanager_talbum.cpp:374
-#: core/libs/album/manager/albummanager_talbum.cpp:429
-#: core/libs/album/manager/albummanager_talbum.cpp:468
-#: core/libs/album/manager/albummanager_talbum.cpp:563
+#: core/libs/album/manager/albummanager_talbum.cpp:467
+#: core/libs/album/manager/albummanager_talbum.cpp:506
+#: core/libs/album/manager/albummanager_talbum.cpp:601
 #, kde-format
 msgid "No such album"
 msgstr "Không có tập ảnh như vậy"
@@ -24932,7 +24940,7 @@ msgid "Tag name cannot be empty"
 msgstr "Không cho phép tên thẻ rỗng."
 
 #: core/libs/album/manager/albummanager_talbum.cpp:312
-#: core/libs/album/manager/albummanager_talbum.cpp:441
+#: core/libs/album/manager/albummanager_talbum.cpp:479
 #, kde-format
 msgid "Tag name cannot contain '/'"
 msgstr "Không cho phép tên thẻ chứa « / »"
@@ -24960,13 +24968,13 @@ msgstr "Không thể xoá thẻ gốc"
 msgid "Cannot delete required face tag"
 msgstr "Không thể xoá thẻ gốc"
 
-#: core/libs/album/manager/albummanager_talbum.cpp:435
-#: core/libs/album/manager/albummanager_talbum.cpp:686
+#: core/libs/album/manager/albummanager_talbum.cpp:473
+#: core/libs/album/manager/albummanager_talbum.cpp:724
 #, kde-format
 msgid "Cannot edit root tag"
 msgstr "Không thể sửa đổi thẻ gốc"
 
-#: core/libs/album/manager/albummanager_talbum.cpp:449
+#: core/libs/album/manager/albummanager_talbum.cpp:487
 #, fuzzy, kde-format
 msgid ""
 "Another tag with the same name already exists.\n"
@@ -24975,25 +24983,25 @@ msgstr ""
 "Một tập ảnh cùng tên đã có.\n"
 "Hãy chọn tên khác."
 
-#: core/libs/album/manager/albummanager_talbum.cpp:474
+#: core/libs/album/manager/albummanager_talbum.cpp:512
 #, kde-format
 msgid "Attempt to move TAlbum to nowhere"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_talbum.cpp:480
+#: core/libs/album/manager/albummanager_talbum.cpp:518
 #, kde-format
 msgid "Cannot move root tag"
 msgstr "Không thẻ di chuyển thẻ gốc"
 
-#: core/libs/album/manager/albummanager_talbum.cpp:486
-#: core/libs/album/manager/albummanager_talbum.cpp:587
+#: core/libs/album/manager/albummanager_talbum.cpp:524
+#: core/libs/album/manager/albummanager_talbum.cpp:625
 #, kde-format
 msgid ""
 "Other process are not finished yet.\n"
 "Please try again later."
 msgstr ""
 
-#: core/libs/album/manager/albummanager_talbum.cpp:495
+#: core/libs/album/manager/albummanager_talbum.cpp:533
 #, fuzzy, kde-format
 msgid ""
 "Another tag with the same name already exists.\n"
@@ -25002,40 +25010,40 @@ msgstr ""
 "Một tập ảnh cùng tên đã có.\n"
 "Hãy chọn tên khác."
 
-#: core/libs/album/manager/albummanager_talbum.cpp:569
+#: core/libs/album/manager/albummanager_talbum.cpp:607
 #, fuzzy, kde-format
 #| msgid "Cannot move root tag"
 msgid "Cannot merge root tag"
 msgstr "Không thẻ di chuyển thẻ gốc"
 
-#: core/libs/album/manager/albummanager_talbum.cpp:575
+#: core/libs/album/manager/albummanager_talbum.cpp:613
 #, fuzzy, kde-format
 #| msgid "Cannot move root tag"
 msgid "Cannot merge required face tag"
 msgstr "Không thẻ di chuyển thẻ gốc"
 
-#: core/libs/album/manager/albummanager_talbum.cpp:581
+#: core/libs/album/manager/albummanager_talbum.cpp:619
 #, kde-format
 msgid "Only a tag without children can be merged!"
 msgstr ""
 
-#: core/libs/album/manager/albummanager_talbum.cpp:600
+#: core/libs/album/manager/albummanager_talbum.cpp:638
 #, fuzzy, kde-format
 msgid "Do you want to merge tag '%1' into tag '%2'?"
 msgstr "Siêu dữ liệu"
 
-#: core/libs/album/manager/albummanager_talbum.cpp:604
-#: core/libs/album/manager/albummanager_talbum.cpp:1083
+#: core/libs/album/manager/albummanager_talbum.cpp:642
+#: core/libs/album/manager/albummanager_talbum.cpp:1121
 #, fuzzy, kde-format
 msgid "Don't ask again at this session"
 msgstr "Đừng &hỏi lại"
 
-#: core/libs/album/manager/albummanager_talbum.cpp:680
+#: core/libs/album/manager/albummanager_talbum.cpp:718
 #, kde-format
 msgid "No such tag"
 msgstr "Không có thẻ như vậy"
 
-#: core/libs/album/manager/albummanager_talbum.cpp:1078
+#: core/libs/album/manager/albummanager_talbum.cpp:1116
 #, fuzzy, kde-format
 msgid ""
 "This operation can take a long time in the background.\n"
@@ -25188,7 +25196,7 @@ msgstr "Tập ảnh mới"
 
 #: core/libs/album/treeview/albumselectiontreeview.cpp:245
 #: core/libs/tags/manager/tagmngrtreeview.cpp:165
-#: core/libs/tags/manager/tagsmanager.cpp:729
+#: core/libs/tags/manager/tagsmanager.cpp:727
 #: core/libs/tags/widgets/tagfolderview.cpp:141
 #, fuzzy, kde-format
 msgid "Expand Selected Nodes"
@@ -26152,19 +26160,25 @@ msgid ""
 "(Source Image)"
 msgstr "&Sắp xếp ảnh"
 
-#: core/libs/database/item/scanner/itemscanner.cpp:196
+#: core/libs/database/item/scanner/itemscanner.cpp:202
 #, fuzzy, kde-format
 msgctxt "RAW image file (), the parentheses contain the file suffix, like MRW"
 msgid "RAW image file (%1)"
 msgstr "Hiện tên tệp ảnh"
 
-#: core/libs/database/models/itemfiltermodel.cpp:391
+#: core/libs/database/models/itemfiltermodel.cpp:395
+#, fuzzy, kde-format
+msgid "%1 Face"
+msgid_plural "%1 Faces"
+msgstr[0] "Chọn Không gì"
+
+#: core/libs/database/models/itemfiltermodel.cpp:398
 #, fuzzy, kde-format
 msgctxt "@item: filter model"
 msgid "No face"
 msgstr "Nháp ảnh chụp"
 
-#: core/libs/database/models/itemfiltermodel.cpp:402
+#: core/libs/database/models/itemfiltermodel.cpp:409
 #, fuzzy, kde-format
 msgctxt "@item: filter model"
 msgid "Confirmed"
@@ -26437,7 +26451,7 @@ msgstr ""
 "đĩa được đăng kí vào cơ sở dữ liệu. Tiến trình này cần thiết để sắp xếp theo "
 "ngày EXIF, cũng tăng tốc độ của toàn bộ hiệu suất của trình digiKam."
 
-#: core/libs/database/utils/scan/scancontroller.cpp:270
+#: core/libs/database/utils/scan/scancontroller.cpp:272
 #, fuzzy, kde-format
 msgctxt "@info:status"
 msgid "Scanning collection"
@@ -27360,53 +27374,57 @@ msgstr ""
 msgid "Items List"
 msgstr "Bộ sửa ảnh"
 
-#: core/libs/dialogs/libsinfodlg.cpp:113
+#: core/libs/dialogs/libsinfodlg.cpp:126
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Shared Libraries and Components Information"
 msgstr "Hiệu chỉnh thuộc tính tập ảnh và thông tin tập hợp."
 
-#: core/libs/dialogs/libsinfodlg.cpp:119
+#: core/libs/dialogs/libsinfodlg.cpp:129
 #, fuzzy, kde-format
 #| msgid "Yes"
 msgctxt "@item: component is supported/available"
 msgid "Yes"
 msgstr "Có"
 
-#: core/libs/dialogs/libsinfodlg.cpp:120
+#: core/libs/dialogs/libsinfodlg.cpp:130
 #, fuzzy, kde-format
 #| msgid "No"
 msgctxt "@item: component is not available/supported"
 msgid "No"
 msgstr "Không"
 
-#: core/libs/dialogs/libsinfodlg.cpp:230
+#: core/libs/dialogs/libsinfodlg.cpp:144
 #, fuzzy, kde-format
-msgctxt "@title: Name of the component"
-msgid "Component"
-msgstr "Ghi chú :"
+msgid "Features"
+msgstr "Tự nhiên"
 
-#: core/libs/dialogs/libsinfodlg.cpp:231
+#: core/libs/dialogs/libsinfodlg.cpp:166
 #, fuzzy, kde-format
-msgctxt "@title: Is supported / version of the component"
-msgid "Info"
-msgstr "Thông tin..."
+msgid "Libraries"
+msgstr "Đường dẫn thư viện tập ảnh"
 
-#: core/libs/dialogs/libsinfodlg.cpp:245
+#: core/libs/dialogs/libsinfodlg.cpp:316
+#, fuzzy, kde-format
+msgctxt "@item: information about memory"
+msgid "Unknown"
+msgstr "Không rõ"
+
+#: core/libs/dialogs/libsinfodlg.cpp:375
 #, fuzzy, kde-format
 #| msgid "Yes"
 msgctxt "@info: tri state"
 msgid "Yes"
 msgstr "Có"
 
-#: core/libs/dialogs/libsinfodlg.cpp:250
+#: core/libs/dialogs/libsinfodlg.cpp:380
 #, fuzzy, kde-format
 #| msgid "No"
 msgctxt "@info: tri state"
 msgid "No"
 msgstr "Không"
 
-#: core/libs/dialogs/libsinfodlg.cpp:255
+#: core/libs/dialogs/libsinfodlg.cpp:385
 #, fuzzy, kde-format
 #| msgid "Unknown"
 msgctxt "@info: tri state"
@@ -33872,12 +33890,12 @@ msgid " (%1 new)"
 msgid_plural " (%1 new)"
 msgstr[0] "%1 (%2)"
 
-#: core/libs/notificationmanager/dnotificationwidget_p.cpp:98
+#: core/libs/notificationmanager/dnotificationwidget_p.cpp:101
 #, fuzzy, kde-format
 msgid "&Close"
 msgstr "Đón&g"
 
-#: core/libs/notificationmanager/dnotificationwidget_p.cpp:99
+#: core/libs/notificationmanager/dnotificationwidget_p.cpp:102
 #, fuzzy, kde-format
 msgid "Close message"
 msgstr "Bộ sửa ảnh"
@@ -34444,23 +34462,29 @@ msgstr "Đang nạp lại siêu dữ liệu từ tệp. Hãy đời...."
 msgid "Writing metadata to files. Please wait..."
 msgstr "Đang ghi siêu dữ liệu vào tệp. Hãy đời..."
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1278
+#: core/libs/properties/captions/itemdescedittab.cpp:1286
 #, kde-format
 msgid "Read metadata from file to database"
 msgstr "Đọc siêu dữ liệu từ tệp vào cơ sở dữ liệu"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1279
-#: core/libs/properties/captions/itemdescedittab.cpp:1296
+#: core/libs/properties/captions/itemdescedittab.cpp:1287
+#: core/libs/properties/captions/itemdescedittab.cpp:1304
 #, kde-format
 msgid "Write metadata to each file"
 msgstr "Ghi siêu dữ liệu vào mỗi tệp"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1295
+#: core/libs/properties/captions/itemdescedittab.cpp:1303
 #, kde-format
 msgid "Read metadata from each file to database"
 msgstr "Đọc siêu dữ liệu từ mỗi tệp vào cơ sở dữ liệu"
 
-#: core/libs/properties/captions/itemdescedittab.cpp:1414
+#: core/libs/properties/captions/itemdescedittab.cpp:1306
+#, fuzzy, kde-format
+#| msgid "Assign Tags to &Selected Items"
+msgid "Unify tags of selected items"
+msgstr "&Gán thẻ cho các mục đã chọn"
+
+#: core/libs/properties/captions/itemdescedittab.cpp:1424
 #: core/libs/tags/widgets/tagspopupmenu.cpp:569
 #, kde-format
 msgid "No Recently Assigned Tags"
@@ -34566,7 +34590,7 @@ msgid "Show item permanently"
 msgstr "Hiện mục trên bảng trái"
 
 #: core/libs/properties/import/importitempropertiessidebar.cpp:102
-#: core/libs/settings/applicationsettings_miscs.cpp:420
+#: core/libs/settings/applicationsettings_miscs.cpp:430
 #: core/showfoto/setup/showfotosetup.cpp:120 core/utilities/setup/setup.cpp:170
 #, kde-format
 msgid "Metadata"
@@ -36088,17 +36112,17 @@ msgstr ""
 msgid "Phase One Digital Camera Raw Image Format"
 msgstr "Hiện đánh giá ảnh"
 
-#: core/libs/settings/applicationsettings_miscs.cpp:390
+#: core/libs/settings/applicationsettings_miscs.cpp:400
 #, kde-format
 msgid "Do you want to do this operation on all group items?"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:392
+#: core/libs/settings/applicationsettings_miscs.cpp:402
 #, fuzzy, kde-format
 msgid "Remember choice for this operation"
 msgstr "Thông tin máy ảnh"
 
-#: core/libs/settings/applicationsettings_miscs.cpp:423
+#: core/libs/settings/applicationsettings_miscs.cpp:433
 #: core/utilities/lighttable/lighttablewindow.cpp:57
 #: core/utilities/lighttable/lighttablewindow_tools.cpp:42
 #: core/utilities/setup/setup.cpp:194
@@ -36106,117 +36130,117 @@ msgstr "Thông tin máy ảnh"
 msgid "Light Table"
 msgstr "Bảng ánh sáng"
 
-#: core/libs/settings/applicationsettings_miscs.cpp:426
+#: core/libs/settings/applicationsettings_miscs.cpp:436
 #: core/utilities/queuemanager/main/queuemgrwindow.cpp:62
 #: core/utilities/queuemanager/main/queuemgrwindow.cpp:198
 #, kde-format
 msgid "Batch Queue Manager"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:432
+#: core/libs/settings/applicationsettings_miscs.cpp:442
 #, fuzzy, kde-format
 msgid "Renaming"
 msgstr "Tuỳ chọn thay tên tệp"
 
-#: core/libs/settings/applicationsettings_miscs.cpp:435
+#: core/libs/settings/applicationsettings_miscs.cpp:445
 #, fuzzy, kde-format
 msgid "Import/Export tools"
 msgstr "Gỗ thông để trang trí"
 
-#: core/libs/settings/applicationsettings_miscs.cpp:438
+#: core/libs/settings/applicationsettings_miscs.cpp:448
 #, kde-format
 msgid "Tools (editor, panorama, stack blending, calendar, external program)"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:450
+#: core/libs/settings/applicationsettings_miscs.cpp:460
 #, kde-format
 msgid ""
 "Operations related to metadata, labels, ratings, tags, geolocation and "
 "rotation"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:453
+#: core/libs/settings/applicationsettings_miscs.cpp:463
 #, fuzzy, kde-format
 #| msgid "Add to Light Table"
 msgid "Adding items to the Light Table"
 msgstr "Thêm vào Bảng ánh sáng"
 
-#: core/libs/settings/applicationsettings_miscs.cpp:456
+#: core/libs/settings/applicationsettings_miscs.cpp:466
 #, kde-format
 msgid "Adding items to the Batch Queue Manager"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:459
+#: core/libs/settings/applicationsettings_miscs.cpp:469
 #, kde-format
 msgid "Opening items in the Slideshow"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:462
+#: core/libs/settings/applicationsettings_miscs.cpp:472
 #, fuzzy, kde-format
 msgid "Renaming items"
 msgstr "Tuỳ chọn thay tên tệp"
 
-#: core/libs/settings/applicationsettings_miscs.cpp:465
+#: core/libs/settings/applicationsettings_miscs.cpp:475
 #, kde-format
 msgid "Passing items to import/export tools"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_miscs.cpp:468
+#: core/libs/settings/applicationsettings_miscs.cpp:478
 #, kde-format
 msgid ""
 "Several tools including the editor, panorama, stack blending, calendar, html "
 "gallery and opening with external programs"
 msgstr ""
 
-#: core/libs/settings/applicationsettings_p.cpp:269
+#: core/libs/settings/applicationsettings_p.cpp:271
 #, fuzzy, kde-format
 msgctxt "@item: album categories"
 msgid "Category"
 msgstr "Theo ngày"
 
-#: core/libs/settings/applicationsettings_p.cpp:270
+#: core/libs/settings/applicationsettings_p.cpp:272
 #, fuzzy, kde-format
 #| msgid "Travel"
 msgctxt "@item: album categories"
 msgid "Travel"
 msgstr "Du lịch"
 
-#: core/libs/settings/applicationsettings_p.cpp:271
+#: core/libs/settings/applicationsettings_p.cpp:273
 #, fuzzy, kde-format
 #| msgid "Holidays"
 msgctxt "@item: album categories"
 msgid "Holidays"
 msgstr "Ngày nghỉ"
 
-#: core/libs/settings/applicationsettings_p.cpp:272
+#: core/libs/settings/applicationsettings_p.cpp:274
 #, fuzzy, kde-format
 #| msgid "Friends"
 msgctxt "@item: album categories"
 msgid "Friends"
 msgstr "Bạn bè"
 
-#: core/libs/settings/applicationsettings_p.cpp:273
+#: core/libs/settings/applicationsettings_p.cpp:275
 #, fuzzy, kde-format
 #| msgid "Nature"
 msgctxt "@item: album categories"
 msgid "Nature"
 msgstr "Tự nhiên"
 
-#: core/libs/settings/applicationsettings_p.cpp:274
+#: core/libs/settings/applicationsettings_p.cpp:276
 #, fuzzy, kde-format
 #| msgid "Party"
 msgctxt "@item: album categories"
 msgid "Party"
 msgstr "Tiệc"
 
-#: core/libs/settings/applicationsettings_p.cpp:275
+#: core/libs/settings/applicationsettings_p.cpp:277
 #, fuzzy, kde-format
 #| msgid "Todo"
 msgctxt "@item: album categories"
 msgid "Todo"
 msgstr "Cần làm"
 
-#: core/libs/settings/applicationsettings_p.cpp:276
+#: core/libs/settings/applicationsettings_p.cpp:278
 #, fuzzy, kde-format
 #| msgid "Miscellaneous"
 msgctxt "@item: album categories"
@@ -36385,39 +36409,39 @@ msgid "Delete Tags"
 msgstr "Xoá thẻ"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:155
-#: core/libs/tags/manager/tagsmanager.cpp:713
+#: core/libs/tags/manager/tagsmanager.cpp:711
 #, fuzzy, kde-format
 msgid "Edit Tag Title"
 msgstr "Tệp ảnh"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:159
-#: core/libs/tags/manager/tagsmanager.cpp:717
+#: core/libs/tags/manager/tagsmanager.cpp:715
 #: core/libs/tags/widgets/tagfolderview.cpp:79
 #, kde-format
 msgid "Reset Tag Icon"
 msgstr "Đặt lại biểu tượng thẻ"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:162
-#: core/libs/tags/manager/tagsmanager.cpp:726
+#: core/libs/tags/manager/tagsmanager.cpp:724
 #, kde-format
 msgid "Invert Selection"
 msgstr "Đảo vùng chọn"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:168
-#: core/libs/tags/manager/tagsmanager.cpp:732
+#: core/libs/tags/manager/tagsmanager.cpp:730
 #, kde-format
 msgid "Expand Tag Tree"
 msgstr ""
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:171
-#: core/libs/tags/manager/tagsmanager.cpp:735
+#: core/libs/tags/manager/tagsmanager.cpp:733
 #, fuzzy, kde-format
 #| msgid "My Albums"
 msgid "Collapse Tag Tree"
 msgstr "Tập ảnh tôi"
 
 #: core/libs/tags/manager/tagmngrtreeview.cpp:174
-#: core/libs/tags/manager/tagsmanager.cpp:738
+#: core/libs/tags/manager/tagsmanager.cpp:736
 #, fuzzy, kde-format
 msgid "Remove Tag from Images"
 msgstr "Đọc siêu dữ liệu từ tệp vào cơ sở dữ liệu"
@@ -36498,7 +36522,7 @@ msgstr ""
 msgid "Tags Manager"
 msgstr "Quản lí màu"
 
-#: core/libs/tags/manager/tagsmanager.cpp:343
+#: core/libs/tags/manager/tagsmanager.cpp:341
 #, fuzzy, kde-format
 msgctxt "%2 is a comma separated list of tags to be deleted."
 msgid ""
@@ -36511,7 +36535,7 @@ msgstr[0] ""
 "Thẻ « %1 » có một thẻ phụ. Xoá thẻ này thì cũng xoá thẻ phụ đó. Bạn có chắc "
 "muốn tiếp tục không?"
 
-#: core/libs/tags/manager/tagsmanager.cpp:366
+#: core/libs/tags/manager/tagsmanager.cpp:364
 #, fuzzy, kde-format
 msgctxt "%2 is a comma separated list of tags to be deleted."
 msgid "Tag %2 is assigned to one or more items. Do you want to delete it?"
@@ -36521,20 +36545,20 @@ msgstr[0] ""
 "Thẻ « %1 » có một thẻ phụ. Xoá thẻ này thì cũng xoá thẻ phụ đó. Bạn có chắc "
 "muốn tiếp tục không?"
 
-#: core/libs/tags/manager/tagsmanager.cpp:376
+#: core/libs/tags/manager/tagsmanager.cpp:374
 #, fuzzy, kde-format
 msgctxt "%2 is a comma separated list of tags to be deleted."
 msgid "Delete tag %2?"
 msgid_plural "Delete tags %2?"
 msgstr[0] "Xoá thẻ"
 
-#: core/libs/tags/manager/tagsmanager.cpp:382
+#: core/libs/tags/manager/tagsmanager.cpp:380
 #, fuzzy, kde-format
 msgid "Delete tag"
 msgid_plural "Delete tags"
 msgstr[0] "Xoá thẻ"
 
-#: core/libs/tags/manager/tagsmanager.cpp:505
+#: core/libs/tags/manager/tagsmanager.cpp:503
 #, kde-format
 msgid ""
 "<qt>digiKam will clean up tag metadata before setting tags from database.<br/"
@@ -36542,8 +36566,8 @@ msgid ""
 "Tags from Image).<br/> Do you want to continue?</qt>"
 msgstr ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:517
-#: core/libs/tags/manager/tagsmanager.cpp:536
+#: core/libs/tags/manager/tagsmanager.cpp:515
+#: core/libs/tags/manager/tagsmanager.cpp:534
 #, fuzzy, kde-format
 msgid ""
 "This operation can take long time depending on collection size.\n"
@@ -36552,7 +36576,7 @@ msgstr ""
 "Thực hiện thao tác này thì giảm chất lượng màu của ảnh. Bạn có muốn tiếp tục "
 "không?"
 
-#: core/libs/tags/manager/tagsmanager.cpp:556
+#: core/libs/tags/manager/tagsmanager.cpp:554
 #, kde-format
 msgid ""
 "This operation will wipe all tags from database only.\n"
@@ -36560,114 +36584,114 @@ msgid ""
 "Do you want to continue?"
 msgstr ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:620
+#: core/libs/tags/manager/tagsmanager.cpp:618
 #, kde-format
 msgid "Do you really want to remove the selected tag from all images?"
 msgid_plural "Do you really want to remove the selected tags from all images?"
 msgstr[0] ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:700
+#: core/libs/tags/manager/tagsmanager.cpp:698
 #, kde-format
 msgctxt "@action: button"
 msgid "Organize"
 msgstr ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:703
+#: core/libs/tags/manager/tagsmanager.cpp:701
 #, fuzzy, kde-format
 msgctxt "@action: button"
 msgid "Sync &Export"
 msgstr "&Xuất"
 
-#: core/libs/tags/manager/tagsmanager.cpp:720
+#: core/libs/tags/manager/tagsmanager.cpp:718
 #, fuzzy, kde-format
 msgid "Create Tag from Address Book"
 msgstr "Tạo thẻ từ Sổ địa chỉ"
 
-#: core/libs/tags/manager/tagsmanager.cpp:723
+#: core/libs/tags/manager/tagsmanager.cpp:721
 #, fuzzy, kde-format
 msgid "Mark Unassigned Tags"
 msgstr "Không có thẻ vừa được gán"
 
-#: core/libs/tags/manager/tagsmanager.cpp:743
+#: core/libs/tags/manager/tagsmanager.cpp:741
 #, kde-format
 msgid "Add new tag to current tag. Current tag is last clicked tag."
 msgstr ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:746
+#: core/libs/tags/manager/tagsmanager.cpp:744
 #, kde-format
 msgid ""
 "Delete selected items. Also work with multiple items, but will not delete "
 "the root tag."
 msgstr ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:750
+#: core/libs/tags/manager/tagsmanager.cpp:748
 #, fuzzy, kde-format
 msgid "Edit title from selected tag."
 msgstr "Đặt lại biểu tượng thẻ"
 
-#: core/libs/tags/manager/tagsmanager.cpp:752
+#: core/libs/tags/manager/tagsmanager.cpp:750
 #, kde-format
 msgid "Reset icon to selected tags. Works with multiple selection."
 msgstr ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:755
+#: core/libs/tags/manager/tagsmanager.cpp:753
 #, kde-format
 msgid "Mark all tags that are not assigned to images."
 msgstr ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:757
+#: core/libs/tags/manager/tagsmanager.cpp:755
 #, kde-format
 msgid "Invert selection. Only visible items will be selected"
 msgstr ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:760
+#: core/libs/tags/manager/tagsmanager.cpp:758
 #, kde-format
 msgid "Selected items will be expanded"
 msgstr ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:762
+#: core/libs/tags/manager/tagsmanager.cpp:760
 #, fuzzy, kde-format
 #| msgid "Download Selected"
 msgid "Expand tag tree completely"
 msgstr "Tải về các điều chọn"
 
-#: core/libs/tags/manager/tagsmanager.cpp:764
+#: core/libs/tags/manager/tagsmanager.cpp:762
 #, fuzzy, kde-format
 #| msgid "Download Selected"
 msgid "Collapse tag tree completely"
 msgstr "Tải về các điều chọn"
 
-#: core/libs/tags/manager/tagsmanager.cpp:766
+#: core/libs/tags/manager/tagsmanager.cpp:764
 #, kde-format
 msgid "Delete selected tag(s) from images. Works with multiple selection."
 msgstr ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:814
+#: core/libs/tags/manager/tagsmanager.cpp:812
 #, fuzzy, kde-format
 msgid "Write Tags from Database to Image"
 msgstr "Ghi siêu dữ liệu vào mỗi tệp"
 
-#: core/libs/tags/manager/tagsmanager.cpp:817
+#: core/libs/tags/manager/tagsmanager.cpp:815
 #, fuzzy, kde-format
 msgid "Read Tags from Image"
 msgstr "Đọc siêu dữ liệu từ tệp vào cơ sở dữ liệu"
 
-#: core/libs/tags/manager/tagsmanager.cpp:820
+#: core/libs/tags/manager/tagsmanager.cpp:818
 #, fuzzy, kde-format
 msgid "Wipe all tags from Database only"
 msgstr "Ghi siêu dữ liệu vào mỗi tệp"
 
-#: core/libs/tags/manager/tagsmanager.cpp:822
+#: core/libs/tags/manager/tagsmanager.cpp:820
 #, fuzzy, kde-format
 msgid "Write Tags Metadata to Image."
 msgstr "Ghi siêu dữ liệu vào mỗi tệp"
 
-#: core/libs/tags/manager/tagsmanager.cpp:824
+#: core/libs/tags/manager/tagsmanager.cpp:822
 #, kde-format
 msgid "Read tags from Images into Database. Existing tags will not be affected"
 msgstr ""
 
-#: core/libs/tags/manager/tagsmanager.cpp:827
+#: core/libs/tags/manager/tagsmanager.cpp:825
 #, kde-format
 msgid ""
 "Delete all tags from database only. Will not sync with files. Proceed with "
@@ -44339,37 +44363,37 @@ msgid "Set this option to indicate if image has geolocation information."
 msgstr "<p>Bật tuỳ chọn này để hiển thị chú thích về ảnh."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:168
-#: core/utilities/setup/setupmisc.cpp:199
+#: core/utilities/setup/setupmisc.cpp:204
 #, kde-format
 msgid "Scroll current item to center of thumbbar"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:177
-#: core/utilities/setup/setupmisc.cpp:220
+#: core/utilities/setup/setupmisc.cpp:226
 #, fuzzy, kde-format
 msgid "Updates"
 msgstr "Ngày:"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:181
-#: core/utilities/setup/setupmisc.cpp:224
+#: core/utilities/setup/setupmisc.cpp:230
 #, fuzzy, kde-format
 msgid "Check for new version:"
 msgstr "&Lưu dạng..."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:183
-#: core/utilities/setup/setupmisc.cpp:226
+#: core/utilities/setup/setupmisc.cpp:232
 #, kde-format
 msgid "Only For Stable Releases"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:184
-#: core/utilities/setup/setupmisc.cpp:227
+#: core/utilities/setup/setupmisc.cpp:233
 #, fuzzy, kde-format
 msgid "Weekly Pre-Releases"
 msgstr "Đang xử lí ảnh mẫu ít"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:185
-#: core/utilities/setup/setupmisc.cpp:228
+#: core/utilities/setup/setupmisc.cpp:234
 #, kde-format
 msgid ""
 "Set this option to configure which kind of new versions must be check for "
@@ -44380,13 +44404,13 @@ msgid ""
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:190
-#: core/utilities/setup/setupmisc.cpp:233
+#: core/utilities/setup/setupmisc.cpp:239
 #, kde-format
 msgid "Use Version With Debug Symbols"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:191
-#: core/utilities/setup/setupmisc.cpp:234
+#: core/utilities/setup/setupmisc.cpp:240
 #, kde-format
 msgid ""
 "If this option is enabled, a version including debug symbols will be used "
@@ -44396,19 +44420,19 @@ msgid ""
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:196
-#: core/utilities/setup/setupmisc.cpp:239
+#: core/utilities/setup/setupmisc.cpp:245
 #, kde-format
 msgid "Last check: %1"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:197
-#: core/utilities/setup/setupmisc.cpp:240
+#: core/utilities/setup/setupmisc.cpp:246
 #, fuzzy, kde-format
 msgid "Check now..."
 msgstr "&Lưu dạng..."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:225
-#: core/utilities/setup/setupmisc.cpp:292
+#: core/utilities/setup/setupmisc.cpp:300
 #, fuzzy, kde-format
 #| msgid "Behavior"
 msgctxt "@title:tab"
@@ -44416,7 +44440,7 @@ msgid "Behaviour"
 msgstr "Ứng xử"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:232
-#: core/utilities/setup/setupmisc.cpp:299
+#: core/utilities/setup/setupmisc.cpp:307
 #, kde-format
 msgid "&Show splash screen at startup"
 msgstr "Hiện màn hình &giật gân khi khởi chạy"
@@ -44427,19 +44451,19 @@ msgid "Use native file dialogs from the system"
 msgstr "Canh lề đoạn bên phải"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:236
-#: core/utilities/setup/setupmisc.cpp:304
+#: core/utilities/setup/setupmisc.cpp:312
 #, kde-format
 msgid "Sidebar tab title:"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:238
-#: core/utilities/setup/setupmisc.cpp:306
+#: core/utilities/setup/setupmisc.cpp:314
 #, kde-format
 msgid "Only For Active Tab"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:239
-#: core/utilities/setup/setupmisc.cpp:307
+#: core/utilities/setup/setupmisc.cpp:315
 #, fuzzy, kde-format
 msgid "For All Tabs"
 msgstr "Mọi thẻ"
@@ -44450,113 +44474,113 @@ msgid "Set this option to configure how sidebars tab title are visible."
 msgstr "<p>Bật tuỳ chọn này để hiển thị kích cỡ của tệp ảnh."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:243
-#: core/utilities/setup/setupmisc.cpp:312
+#: core/utilities/setup/setupmisc.cpp:320
 #, kde-format
 msgid "Widget style:"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:245
-#: core/utilities/setup/setupmisc.cpp:314
+#: core/utilities/setup/setupmisc.cpp:322
 #, fuzzy, kde-format
 msgid "Set this option to choose the default window decoration and looks."
 msgstr "<p>Bật tuỳ chọn này để hiển thị tên của tập ảnh."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:263
-#: core/utilities/setup/setupmisc.cpp:331
+#: core/utilities/setup/setupmisc.cpp:339
 #, kde-format
 msgid "Icon theme (changes after restart):"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:265
-#: core/utilities/setup/setupmisc.cpp:333
+#: core/utilities/setup/setupmisc.cpp:341
 #, fuzzy, kde-format
 msgid "Set this option to choose the default icon theme."
 msgstr "<p>Bật tuỳ chọn này để hiển thị tên của tập ảnh."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:269
-#: core/utilities/setup/setupmisc.cpp:337
+#: core/utilities/setup/setupmisc.cpp:345
 #, kde-format
 msgctxt "icon theme"
 msgid "Adwaita"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:270
-#: core/utilities/setup/setupmisc.cpp:338
+#: core/utilities/setup/setupmisc.cpp:346
 #, kde-format
 msgctxt "icon theme"
 msgid "Breeze"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:271
-#: core/utilities/setup/setupmisc.cpp:339
+#: core/utilities/setup/setupmisc.cpp:347
 #, kde-format
 msgctxt "icon theme"
 msgid "Breeze Dark"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:272
-#: core/utilities/setup/setupmisc.cpp:340
+#: core/utilities/setup/setupmisc.cpp:348
 #, kde-format
 msgctxt "icon theme"
 msgid "Faenza"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:273
-#: core/utilities/setup/setupmisc.cpp:341
+#: core/utilities/setup/setupmisc.cpp:349
 #, fuzzy, kde-format
 msgctxt "icon theme"
 msgid "Ambiance"
 msgstr "Độ trưng:"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:274
-#: core/utilities/setup/setupmisc.cpp:342
+#: core/utilities/setup/setupmisc.cpp:350
 #, kde-format
 msgctxt "icon theme"
 msgid "Humanity"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:275
-#: core/utilities/setup/setupmisc.cpp:343
+#: core/utilities/setup/setupmisc.cpp:351
 #, kde-format
 msgctxt "icon theme"
 msgid "Oxygen"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:298
-#: core/utilities/setup/setupmisc.cpp:366
+#: core/utilities/setup/setupmisc.cpp:374
 #, kde-format
 msgid "Use Icon Theme From System"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:305
-#: core/utilities/setup/setupmisc.cpp:373
+#: core/utilities/setup/setupmisc.cpp:381
 #, fuzzy, kde-format
 #| msgid "Selection"
 msgid "Application font:"
 msgstr "Vùng chọn"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:306
-#: core/utilities/setup/setupmisc.cpp:374
+#: core/utilities/setup/setupmisc.cpp:382
 #, fuzzy, kde-format
 msgid "Select here the font used to display text in whole application."
 msgstr "<p>Ở đây hãy đặt màu dùng để vẽ nét dẫn cấu tạo."
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:320
-#: core/utilities/setup/setupmisc.cpp:389
+#: core/utilities/setup/setupmisc.cpp:397
 #, fuzzy, kde-format
 msgctxt "@title:tab"
 msgid "Appearance"
 msgstr "T&hôi"
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:326
-#: core/utilities/setup/setupmisc.cpp:458
+#: core/utilities/setup/setupmisc.cpp:466
 #, kde-format
 msgctxt "@title:tab"
 msgid "System"
 msgstr ""
 
 #: core/showfoto/setup/showfotosetupmisc.cpp:348
-#: core/utilities/setup/setupmisc.cpp:481
+#: core/utilities/setup/setupmisc.cpp:489
 #, kde-format
 msgid ""
 "Check for new version option will verify the pre-releases.\n"
@@ -48208,20 +48232,10 @@ msgstr "&Sắp xếp ảnh"
 msgid "Show numbers"
 msgstr "Hiện các ảnh mẫu"
 
-#: core/utilities/geolocation/geoiface/widgets/mapwidget.cpp:288
-#, kde-format
-msgid "T+"
-msgstr ""
-
 #: core/utilities/geolocation/geoiface/widgets/mapwidget.cpp:289
 #, fuzzy, kde-format
 msgid "Increase the thumbnail size on the map"
 msgstr "Cỡ ảnh mẫu trên khung lề:"
-
-#: core/utilities/geolocation/geoiface/widgets/mapwidget.cpp:290
-#, kde-format
-msgid "T-"
-msgstr ""
 
 #: core/utilities/geolocation/geoiface/widgets/mapwidget.cpp:291
 #, fuzzy, kde-format
@@ -48273,7 +48287,7 @@ msgstr "Lưu ảnh"
 msgid "Lock the map position"
 msgstr "Phục hồi lại ảnh chụp"
 
-#: core/utilities/geolocation/geoiface/widgets/mapwidget.cpp:795
+#: core/utilities/geolocation/geoiface/widgets/mapwidget.cpp:796
 #, fuzzy, kde-format
 msgid "Map settings"
 msgstr "Thiết lập"
@@ -56271,24 +56285,24 @@ msgid ""
 "or unset it to preserve the images currently on the light table."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:158
+#: core/utilities/setup/setupmisc.cpp:161
 #, kde-format
 msgid "String comparison type:"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:160
+#: core/utilities/setup/setupmisc.cpp:163
 #, fuzzy, kde-format
 msgctxt "method to compare strings"
 msgid "Natural"
 msgstr "Tự nhiên"
 
-#: core/utilities/setup/setupmisc.cpp:161
+#: core/utilities/setup/setupmisc.cpp:164
 #, fuzzy, kde-format
 msgctxt "method to compare strings"
 msgid "Normal"
 msgstr "Chuẩn"
 
-#: core/utilities/setup/setupmisc.cpp:162
+#: core/utilities/setup/setupmisc.cpp:165
 #, kde-format
 msgid ""
 "<qt>Sets the way in which strings are compared inside digiKam. This eg. "
@@ -56300,28 +56314,28 @@ msgid ""
 "albums should be sorted according to these dates.</qt>"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:172
+#: core/utilities/setup/setupmisc.cpp:175
 #, fuzzy, kde-format
 msgid "Confirm when moving items to the &trash"
 msgstr "Yêu cầu xác nhận khi chuyển mục vào Sọ&t Rác"
 
-#: core/utilities/setup/setupmisc.cpp:173
+#: core/utilities/setup/setupmisc.cpp:176
 #, fuzzy, kde-format
 msgid "Confirm when permanently deleting items"
 msgstr "Yêu cầu xác nhận khi chuyển mục vào Sọ&t Rác"
 
-#: core/utilities/setup/setupmisc.cpp:174
+#: core/utilities/setup/setupmisc.cpp:177
 #, fuzzy, kde-format
 msgid "Do not confirm when applying changes in the &right sidebar"
 msgstr "Áp dụng thay đổi t&rong khung lề bên phải, không cần xác nhận"
 
-#: core/utilities/setup/setupmisc.cpp:175
+#: core/utilities/setup/setupmisc.cpp:178
 #, fuzzy, kde-format
 #| msgid "&Scan for new items on startup (slows down startup)"
 msgid "&Scan for new items at startup (makes startup slower)"
 msgstr "&Quét tìm mục mới khi khởi chạy (làm chậm việc khởi chạy)"
 
-#: core/utilities/setup/setupmisc.cpp:176
+#: core/utilities/setup/setupmisc.cpp:179
 #, kde-format
 msgid ""
 "Set this option to force digiKam to scan all collections for new items to\n"
@@ -56338,12 +56352,12 @@ msgid ""
 "a manual scan through the maintenance tool at the right moment."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:184
+#: core/utilities/setup/setupmisc.cpp:187
 #, kde-format
 msgid "Fast scan (detects new, deleted and renamed items)"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:185
+#: core/utilities/setup/setupmisc.cpp:188
 #, kde-format
 msgid ""
 "Set this option to significantly speed up the scan. New items, deleted and "
@@ -56353,12 +56367,17 @@ msgid ""
 "option must be deactivated."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:191
+#: core/utilities/setup/setupmisc.cpp:194
+#, kde-format
+msgid "Detect faces in newly added images"
+msgstr ""
+
+#: core/utilities/setup/setupmisc.cpp:196
 #, kde-format
 msgid "Remove obsolete core database objects (makes startup slower)"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:192
+#: core/utilities/setup/setupmisc.cpp:197
 #, kde-format
 msgid ""
 "Set this option to force digiKam to clean up the core database from obsolete "
@@ -56371,22 +56390,22 @@ msgid ""
 "For clean up routines for other databases, please use the maintenance."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:198
+#: core/utilities/setup/setupmisc.cpp:203
 #, kde-format
 msgid "Expand current tree item with a single mouse click"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:200
+#: core/utilities/setup/setupmisc.cpp:205
 #, kde-format
 msgid "Show only face tags for assigning names in people sidebar"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:205
+#: core/utilities/setup/setupmisc.cpp:211
 #, kde-format
 msgid "Lower bound for minimum similarity:"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:211
+#: core/utilities/setup/setupmisc.cpp:217
 #, kde-format
 msgid ""
 "Select here the lower bound of the minimum similarity threshold for fuzzy "
@@ -56394,17 +56413,17 @@ msgid ""
 "than 40 can make the search <b>really</b> slow."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:300
+#: core/utilities/setup/setupmisc.cpp:308
 #, fuzzy, kde-format
 msgid "Use native file dialogs from system"
 msgstr "Canh lề đoạn bên phải"
 
-#: core/utilities/setup/setupmisc.cpp:301
+#: core/utilities/setup/setupmisc.cpp:309
 #, fuzzy, kde-format
 msgid "Draw frames around grouped items"
 msgstr "&Sắp xếp ảnh"
 
-#: core/utilities/setup/setupmisc.cpp:308
+#: core/utilities/setup/setupmisc.cpp:316
 #, kde-format
 msgid ""
 "Set this option to configure how sidebar tab titles are visible. Use \"Only "
@@ -56412,12 +56431,12 @@ msgid ""
 "laptop computer."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:398
+#: core/utilities/setup/setupmisc.cpp:406
 #, kde-format
 msgid "Perform the following operations on all group members:"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:399
+#: core/utilities/setup/setupmisc.cpp:407
 #, kde-format
 msgid ""
 "When images are grouped the following operations<br/>are performed only on "
@@ -56426,27 +56445,27 @@ msgid ""
 "operation is executed."
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:405
+#: core/utilities/setup/setupmisc.cpp:413
 #, fuzzy, kde-format
 #| msgid "No"
 msgctxt "@label: grouped image ops"
 msgid "No"
 msgstr "Không"
 
-#: core/utilities/setup/setupmisc.cpp:406
+#: core/utilities/setup/setupmisc.cpp:414
 #, fuzzy, kde-format
 #| msgid "Yes"
 msgctxt "@label: grouped image ops"
 msgid "Yes"
 msgstr "Có"
 
-#: core/utilities/setup/setupmisc.cpp:407
+#: core/utilities/setup/setupmisc.cpp:415
 #, kde-format
 msgctxt "@label: grouped image ops"
 msgid "Ask"
 msgstr ""
 
-#: core/utilities/setup/setupmisc.cpp:452
+#: core/utilities/setup/setupmisc.cpp:460
 #, fuzzy, kde-format
 msgctxt "@title:tab"
 msgid "Grouping"
@@ -56915,6 +56934,21 @@ msgid ""
 "<b>Note: All changes to these settings only take effect after the restart. "
 "Some settings are hardware dependent and may have no effect.</b>"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "@item: information about memory"
+#~ msgid "Unknow"
+#~ msgstr "Không rõ"
+
+#, fuzzy
+#~ msgctxt "@title: Name of the component"
+#~ msgid "Component"
+#~ msgstr "Ghi chú :"
+
+#, fuzzy
+#~ msgctxt "@title: Is supported / version of the component"
+#~ msgid "Info"
+#~ msgstr "Thông tin..."
 
 #, fuzzy
 #~ msgctxt "@info: contry code"

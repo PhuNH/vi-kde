@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skanpage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-10 00:46+0000\n"
+"POT-Creation-Date: 2022-02-06 00:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,15 +28,15 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: DocumentModel.cpp:35
+#: DocumentModel.cpp:40 DocumentModel.cpp:87
 #, kde-format
 msgid "New document"
 msgstr ""
 
-#: DocumentModel.cpp:50
+#: DocumentModel.cpp:90
 #, kde-format
-msgctxt "Description for the name filter of a QML file dialog"
-msgid "All files"
+msgctxt "for file names, indicates a range: from file0000.png to file0014.png"
+msgid "%1 ... %2"
 msgstr ""
 
 #: DocumentPrinter.cpp:33
@@ -54,62 +54,57 @@ msgstr ""
 msgid "Document sent to printer."
 msgstr ""
 
-#: DocumentSaver.cpp:32
+#: DocumentSaver.cpp:29
 #, kde-format
 msgid "Nothing to save."
 msgstr ""
 
-#: DocumentSaver.cpp:36
-#, kde-format
-msgid "Saving still in progress."
-msgstr ""
-
-#: DocumentSaver.cpp:53
+#: DocumentSaver.cpp:84
 #, kde-format
 msgid "Document saved as PDF."
 msgstr ""
 
-#: DocumentSaver.cpp:56
+#: DocumentSaver.cpp:125
 #, kde-format
 msgid "Document saved as image."
 msgstr ""
 
-#: DocumentSaver.cpp:58
+#: DocumentSaver.cpp:130
 #, kde-format
 msgid "Failed to save document as image."
 msgstr ""
 
-#: DocumentSaver.cpp:150
+#: DocumentSaver.cpp:145
 #, kde-format
 msgid "Failed to save image"
 msgstr ""
 
-#: main.cpp:50
+#: main.cpp:55
 #, kde-format
 msgid "Skanpage"
 msgstr ""
 
-#: main.cpp:52
+#: main.cpp:57
 #, kde-format
 msgid "Page-scanning application by KDE based on libksane."
 msgstr ""
 
-#: main.cpp:54
+#: main.cpp:59
 #, kde-format
 msgid "© 2015-2021 Kåre Särs, Alexander Stippich"
 msgstr ""
 
-#: main.cpp:57 main.cpp:58
+#: main.cpp:62 main.cpp:63
 #, kde-format
 msgid "developer"
 msgstr ""
 
-#: main.cpp:69
+#: main.cpp:74
 #, kde-format
 msgid "Sane scanner device name. Use 'test' for test device."
 msgstr ""
 
-#: main.cpp:69
+#: main.cpp:74
 #, kde-format
 msgid "device"
 msgstr ""
@@ -145,54 +140,54 @@ msgstr ""
 msgid "Reload devices list"
 msgstr ""
 
-#: qml/DocumentList.qml:144
+#: qml/DocumentList.qml:143
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Processing page..."
 msgstr ""
 
-#: qml/DocumentList.qml:189
+#: qml/DocumentList.qml:188
 #, kde-format
 msgctxt "Page index"
 msgid "Page %1"
 msgstr ""
 
-#: qml/DocumentList.qml:204
+#: qml/DocumentList.qml:203
 #, kde-format
 msgid "Move Up"
 msgstr ""
 
-#: qml/DocumentList.qml:214
+#: qml/DocumentList.qml:213
 #, kde-format
 msgid "Move Down"
 msgstr ""
 
-#: qml/DocumentList.qml:224 qml/DocumentPage.qml:137
+#: qml/DocumentList.qml:223 qml/DocumentPage.qml:137
 #, kde-format
 msgid "Rotate Left"
 msgstr ""
 
-#: qml/DocumentList.qml:230 qml/DocumentPage.qml:144
+#: qml/DocumentList.qml:229 qml/DocumentPage.qml:144
 #, kde-format
 msgid "Rotate Right"
 msgstr ""
 
-#: qml/DocumentList.qml:236 qml/DocumentPage.qml:151
+#: qml/DocumentList.qml:235 qml/DocumentPage.qml:151
 #, kde-format
 msgid "Flip"
 msgstr ""
 
-#: qml/DocumentList.qml:242 qml/DocumentPage.qml:158
+#: qml/DocumentList.qml:241 qml/DocumentPage.qml:158
 #, kde-format
 msgid "Save Page"
 msgstr ""
 
-#: qml/DocumentList.qml:248 qml/DocumentPage.qml:165
+#: qml/DocumentList.qml:247 qml/DocumentPage.qml:165
 #, kde-format
 msgid "Delete Page"
 msgstr ""
 
-#: qml/DocumentList.qml:269
+#: qml/DocumentList.qml:268
 #, kde-format
 msgid "%1 page"
 msgid_plural "%1 pages"
