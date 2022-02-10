@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-09 00:47+0000\n"
+"POT-Creation-Date: 2022-02-10 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -699,7 +699,7 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:81 widgets/ruqolamainwindow.cpp:373
+#: core/model/adminusersmodel.cpp:81 widgets/ruqolamainwindow.cpp:378
 #, kde-format
 msgid "Status"
 msgstr ""
@@ -2082,7 +2082,7 @@ msgstr ""
 #: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:28
 #: widgets/dialogs/directchannelinfowidget.cpp:51
 #: widgets/dialogs/modifystatuswidget.cpp:32
-#: widgets/ruqolamainwindow.cpp:380
+#: widgets/ruqolamainwindow.cpp:385
 #, kde-format
 msgid "Status:"
 msgstr ""
@@ -3171,7 +3171,7 @@ msgid "Invite Users"
 msgstr ""
 
 #: widgets/dialogs/createnewdiscussionwidget.cpp:54
-#: widgets/ruqolamainwindow.cpp:678
+#: widgets/ruqolamainwindow.cpp:701
 #, kde-format
 msgid "Message"
 msgstr ""
@@ -3406,7 +3406,7 @@ msgid "No result found"
 msgstr ""
 
 #: widgets/dialogs/searchchannelwidget.cpp:32
-#: widgets/ruqolamainwindow.cpp:285
+#: widgets/ruqolamainwindow.cpp:290
 #, kde-format
 msgid "Search Channel..."
 msgstr ""
@@ -3860,7 +3860,18 @@ msgstr ""
 msgid "Reset E2E Key"
 msgstr ""
 
-#: widgets/myaccount/myaccount2e2configurewidget.cpp:33
+#: widgets/myaccount/myaccount2e2configurewidget.cpp:29
+#, kde-format
+msgid ""
+"You can now create encrypted private groups and direct messages. You may "
+"also change existing private groups or DMs to encrypted. This is end to end "
+"encryption so the key to encode/decode your messages will not be saved on "
+"the server. For that reason you need to store your password somewhere safe. "
+"You will be required to enter it on other devices you wish to use e2e "
+"encryption on."
+msgstr ""
+
+#: widgets/myaccount/myaccount2e2configurewidget.cpp:42
 #, kde-format
 msgid ""
 "This option will remove your current E2E key and log you out. When you login "
@@ -3888,13 +3899,13 @@ msgid ""
 msgstr ""
 
 #: widgets/myaccount/myaccount2fadisabletotpwidget.cpp:37
-#: widgets/myaccount/myaccount2fatotpwidget.cpp:52
+#: widgets/myaccount/myaccount2fatotpwidget.cpp:56
 #, kde-format
 msgid "Enter Authentication Code"
 msgstr ""
 
 #: widgets/myaccount/myaccount2fadisabletotpwidget.cpp:41
-#: widgets/myaccount/myaccount2fatotpwidget.cpp:56
+#: widgets/myaccount/myaccount2fatotpwidget.cpp:60
 #, kde-format
 msgid "Verify"
 msgstr ""
@@ -3905,18 +3916,18 @@ msgid "Regenerate Code"
 msgstr ""
 
 #: widgets/myaccount/myaccount2fadisabletotpwidget.cpp:69
-#: widgets/myaccount/myaccount2fatotpwidget.cpp:90
+#: widgets/myaccount/myaccount2fatotpwidget.cpp:94
 #, kde-format
 msgid "Invalid two factor code."
 msgstr ""
 
 #: widgets/myaccount/myaccount2fadisabletotpwidget.cpp:69
-#: widgets/myaccount/myaccount2fatotpwidget.cpp:90
+#: widgets/myaccount/myaccount2fatotpwidget.cpp:94
 #, kde-format
 msgid "Check Two Factor Code"
 msgstr ""
 
-#: widgets/myaccount/myaccount2fatotpwidget.cpp:35
+#: widgets/myaccount/myaccount2fatotpwidget.cpp:39
 #, kde-format
 msgid ""
 "Scan the QR code. It will display a 6 digit code which you need to enter "
@@ -3924,7 +3935,7 @@ msgid ""
 " If you can't scan the QR code, you may enter code manually instead:"
 msgstr ""
 
-#: widgets/myaccount/myaccount2fatotpwidget.cpp:82
+#: widgets/myaccount/myaccount2fatotpwidget.cpp:86
 #, kde-format
 msgid ""
 "Make sure you have a copy of your codes:\n"
@@ -3933,7 +3944,7 @@ msgid ""
 "to log in."
 msgstr ""
 
-#: widgets/myaccount/myaccount2fatotpwidget.cpp:84
+#: widgets/myaccount/myaccount2fatotpwidget.cpp:88
 #, kde-format
 msgid "Backup Codes"
 msgstr ""
@@ -4699,105 +4710,115 @@ msgstr ""
 msgid "Login Failed: generic error"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:272
+#: widgets/ruqolamainwindow.cpp:277
 #, kde-format
 msgid "Add Server..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:277
+#: widgets/ruqolamainwindow.cpp:282
 #, kde-format
 msgid "Server Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:281
+#: widgets/ruqolamainwindow.cpp:286
 #, kde-format
 msgid "Logout Current Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:289
+#: widgets/ruqolamainwindow.cpp:294
 #, kde-format
 msgid "Jump to Next Unread Channel"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:294
+#: widgets/ruqolamainwindow.cpp:299
 #, kde-format
 msgid "Create New Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:298
+#: widgets/ruqolamainwindow.cpp:303
 #, kde-format
 msgid "Create Direct Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:302
+#: widgets/ruqolamainwindow.cpp:307
 #, kde-format
 msgid "Create Discussion..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:306
+#: widgets/ruqolamainwindow.cpp:311
 #, kde-format
 msgid "Create Team..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:314
+#: widgets/ruqolamainwindow.cpp:319
 #, kde-format
 msgid "Unread on Top"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:319
+#: widgets/ruqolamainwindow.cpp:324
 #, kde-format
 msgid "Show Channel Log"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:323
+#: widgets/ruqolamainwindow.cpp:328
 #, kde-format
 msgid "Mark All Channels as Read"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:328
+#: widgets/ruqolamainwindow.cpp:333
 #, kde-format
 msgid "Register a New User..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:332
+#: widgets/ruqolamainwindow.cpp:337
 #, kde-format
 msgid "My Account..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:336
+#: widgets/ruqolamainwindow.cpp:341
 #, kde-format
 msgid "Administrator..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:340
+#: widgets/ruqolamainwindow.cpp:345
 #, kde-format
 msgid "Directory..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:361
+#: widgets/ruqolamainwindow.cpp:366
 #, kde-format
 msgid "&Next Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:366
+#: widgets/ruqolamainwindow.cpp:371
 #, kde-format
 msgid "&Previous Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:415
+#: widgets/ruqolamainwindow.cpp:401
+#, kde-format
+msgid "Previous Selected Channel"
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:408
+#, kde-format
+msgid "Next Selected Channel"
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:438
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Team"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:587
+#: widgets/ruqolamainwindow.cpp:610
 #, kde-format
 msgid ""
 "We have sent you an email to confirm your registration.\n"
 "If you do not receive an email shortly, please come back and try again."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:588
+#: widgets/ruqolamainwindow.cpp:611
 #, kde-format
 msgid "Register New User"
 msgstr ""
