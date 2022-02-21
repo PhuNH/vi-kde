@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-04 00:41+0000\n"
+"POT-Creation-Date: 2022-02-15 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -819,13 +819,13 @@ msgctxt "@title:window"
 msgid "License Agreement"
 msgstr ""
 
-#: kmainwindow.cpp:261
+#: kmainwindow.cpp:277
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: kmainwindow.cpp:262
+#: kmainwindow.cpp:278
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
@@ -1316,17 +1316,18 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr ""
 
-#. i18n: @info:tooltip Pressing Shift will show a longer message with contextual info
+#. i18n: Pressing Shift will show a longer message with contextual info
 #. about the thing the tooltip was invoked for. If there is no good way to translate
 #. the message, translating "Press Shift to learn more." would also mostly fit what
 #. is supposed to be expressed here.
-#: ktooltiphelper.cpp:258
+#: ktooltiphelper.cpp:259
 #, kde-format
+msgctxt "@info:tooltip"
 msgid ""
 "<small><font color=\"%1\">Press <b>Shift</b> for more Info.</font></small>"
 msgstr ""
 
-#. i18n: @info:tooltip The 'Press Shift for more' message is added to tooltips that have an
+#. i18n: The 'Press Shift for more' message is added to tooltips that have an
 #. available whatsthis help message. Pressing Shift will show this more exhaustive message.
 #. It is particularly important to keep this translation short because:
 #. 1. A longer translation will increase the size of *every* tooltip that gets this hint
@@ -1336,8 +1337,9 @@ msgstr ""
 #.
 #. %1 can be any tooltip. <br/> produces a linebreak. The other things between < and > are
 #. styling information. The word "more" refers to "information".
-#: ktooltiphelper.cpp:272
+#: ktooltiphelper.cpp:273
 #, kde-format
+msgctxt "@info:tooltip keep short"
 msgid ""
 "%1<br/><small><font color=\"%2\">Press <b>Shift</b> for more.</font></small>"
 msgstr ""
@@ -1357,12 +1359,12 @@ msgstr ""
 msgid "No text"
 msgstr ""
 
-#: kxmlguiwindow.cpp:189
+#: kxmlguiwindow.cpp:190
 #, kde-format
-msgid "Open Command Bar"
+msgid "Find Action…"
 msgstr ""
 
-#: kxmlguiwindow.cpp:534
+#: kxmlguiwindow.cpp:535
 #, kde-format
 msgid ""
 "There are two actions (%1, %2) that want to use the same shortcut (%3). This "
@@ -1370,7 +1372,7 @@ msgid ""
 "org'>bugs.kde.org</a>"
 msgstr ""
 
-#: kxmlguiwindow.cpp:539
+#: kxmlguiwindow.cpp:540
 #, kde-format
 msgid "Ambiguous Shortcuts"
 msgstr ""
@@ -1431,7 +1433,7 @@ msgid "&Settings"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: ui_standards.rc:195
+#: ui_standards.rc:196
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skrooge\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-23 00:45+0000\n"
+"POT-Creation-Date: 2022-02-20 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -793,34 +793,42 @@ msgstr ""
 
 #: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:40
 #, kde-format
+msgctxt "Execute an SQL queries (one per line)"
+msgid "Execute multi queries"
+msgstr ""
+
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:41
+#, kde-format
 msgctxt "Explain an SQL query"
 msgid "Explain"
 msgstr ""
 
-#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:41
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:42
 #, kde-format
 msgctxt "Explain the SQL query plan"
 msgid "Explain query plan"
 msgstr ""
 
-#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:42
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:43
 #, kde-format
 msgctxt "Execute script"
 msgid "Execute script [%1]"
 msgstr ""
 
-#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:162
-#, kde-format
-msgctxt "Display an SQL command from the debug plugin"
-msgid "SQL command from debug plugin"
-msgstr ""
-
-#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:171
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:146
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:215
 #, kde-format
 msgctxt "Display the execution time needed by an SQL query"
 msgid ""
 "\n"
 "Execution time: %1 ms"
+msgstr ""
+
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:183
+#: plugins/generic/skg_debug/skgdebugpluginwidget.cpp:206
+#, kde-format
+msgctxt "Display an SQL command from the debug plugin"
+msgid "SQL command from debug plugin"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (SKGComboBox, kSQLInput)
@@ -5941,7 +5949,7 @@ msgid "Remove operation"
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:993
-#: skgbasemodeler/skgservices.cpp:1723
+#: skgbasemodeler/skgservices.cpp:1726
 #, kde-format
 msgctxt "An erro message"
 msgid "Open file '%1' failed"
@@ -11346,19 +11354,19 @@ msgstr ""
 #: skgbankgui/skgobjectmodel.cpp:794
 #, kde-format
 msgctxt "Noun"
-msgid "Variation on the last month =%1\n"
+msgid "Variation on the last year = %1\n"
 msgstr ""
 
 #: skgbankgui/skgobjectmodel.cpp:795
 #, kde-format
 msgctxt "Noun"
-msgid "Variation on the last 6 months=%1\n"
+msgid "Variation on the last 6 months = %1 = %2 / year\n"
 msgstr ""
 
 #: skgbankgui/skgobjectmodel.cpp:796
 #, kde-format
 msgctxt "Noun"
-msgid "Variation on the last year=%1\n"
+msgid "Variation on the last month = %1 = %2 / year\n"
 msgstr ""
 
 #: skgbankgui/skgobjectmodel.cpp:838 skgbankgui/skgobjectmodel.cpp:868
@@ -16426,7 +16434,7 @@ msgid "Wrong installation"
 msgstr ""
 
 #: skgbasemodeler/skgdocument.cpp:1489 skgbasemodeler/skgdocument.cpp:1548
-#: skgbasemodeler/skgservices.cpp:1232 skgbasemodeler/skgservices.cpp:1304
+#: skgbasemodeler/skgservices.cpp:1235 skgbasemodeler/skgservices.cpp:1307
 #, kde-format
 msgctxt "Error message"
 msgid "Wrong password"
@@ -16505,8 +16513,8 @@ msgctxt "Error message: Could not create a backup file"
 msgid "Creation of backup file %1 failed"
 msgstr ""
 
-#: skgbasemodeler/skgdocument.cpp:1815 skgbasemodeler/skgservices.cpp:1335
-#: skgbasemodeler/skgservices.cpp:1343
+#: skgbasemodeler/skgdocument.cpp:1815 skgbasemodeler/skgservices.cpp:1338
+#: skgbasemodeler/skgservices.cpp:1346
 #, kde-format
 msgctxt "Error message: writing a file failed"
 msgid "Write file '%1' failed"
@@ -16664,115 +16672,106 @@ msgctxt "Logical condition"
 msgid "(%1) and not (%2)"
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1151
+#: skgbasemodeler/skgservices.cpp:1154
 #, kde-format
 msgctxt "An information message"
 msgid "Open file '%1' failed"
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1186 skgbasemodeler/skgservices.cpp:1192
+#: skgbasemodeler/skgservices.cpp:1189 skgbasemodeler/skgservices.cpp:1195
 #, kde-format
 msgctxt "Error message"
 msgid "Impossible to copy '%1' to '%2'"
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1252
+#: skgbasemodeler/skgservices.cpp:1255
 #, kde-format
 msgctxt "An error message about encryption"
 msgid "AES128 encryption is not supported (%1). Please install qca-ossl."
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1269 skgbasemodeler/skgservices.cpp:1288
+#: skgbasemodeler/skgservices.cpp:1272 skgbasemodeler/skgservices.cpp:1291
 #, kde-format
 msgctxt "Error message about encrypting a file"
 msgid "Encryption failed"
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1505
+#: skgbasemodeler/skgservices.cpp:1508
 #, kde-format
 msgctxt "An error message: creating a file failed"
 msgid "Creation file '%1' failed"
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1508
+#: skgbasemodeler/skgservices.cpp:1511
 #, kde-format
 msgctxt "Error message: something failed"
 msgid "%1 failed"
 msgstr ""
 
-#: skgbasemodeler/skgservices.cpp:1559
+#: skgbasemodeler/skgservices.cpp:1562
 #, kde-format
 msgctxt "Error message"
 msgid "Creation failed. The object already exists."
 msgstr ""
 
-#: skrooge/main.cpp:100
+#: skrooge/main.cpp:107
 #, kde-format
 msgctxt "The name of the application"
 msgid "Skrooge"
 msgstr ""
 
-#: skrooge/main.cpp:102
+#: skrooge/main.cpp:109
 #, kde-format
 msgctxt "The description of the application"
 msgid "Personal finances management made simple"
 msgstr ""
 
-#: skrooge/main.cpp:104 skroogeconvert/main.cpp:54
+#: skrooge/main.cpp:111 skroogeconvert/main.cpp:54
 #, kde-format
 msgctxt "Fullname"
 msgid "(c) 2007-%1 Stephane MANKOWSKI & Guillaume DE BURE"
 msgstr ""
 
-#: skrooge/main.cpp:108 skroogeconvert/main.cpp:58
+#: skrooge/main.cpp:115 skroogeconvert/main.cpp:58
 #, kde-format
 msgctxt "Fullname"
 msgid "Stephane MANKOWSKI"
 msgstr ""
 
-#: skrooge/main.cpp:108 skroogeconvert/main.cpp:58
+#: skrooge/main.cpp:115 skroogeconvert/main.cpp:58
 #, kde-format
 msgctxt "A job description"
 msgid "Architect & Developer"
 msgstr ""
 
-#: skrooge/main.cpp:111 skroogeconvert/main.cpp:61
+#: skrooge/main.cpp:118 skroogeconvert/main.cpp:61
 #, kde-format
 msgctxt "Fullname"
 msgid "Guillaume DE BURE"
 msgstr ""
 
-#: skrooge/main.cpp:111 skroogeconvert/main.cpp:61
+#: skrooge/main.cpp:118 skroogeconvert/main.cpp:61
 #, kde-format
 msgctxt "A job description"
 msgid "Developer"
 msgstr ""
 
-#: skrooge/main.cpp:114
+#: skrooge/main.cpp:121
 #, kde-format
 msgctxt "Fullname"
 msgid "Siddharth SHARMA"
 msgstr ""
 
-#: skrooge/main.cpp:114
+#: skrooge/main.cpp:121
 #, kde-format
 msgctxt "A job description"
 msgid "Developer - Google Summer Of Code 2010"
 msgstr ""
 
-#: skrooge/main.cpp:117
-#, kde-format
-msgctxt "Fullname"
-msgid "Priscilla DU PREEZ"
-msgstr ""
-
-#: skrooge/main.cpp:117
-#, kde-format
-msgctxt "A job description"
-msgid "Splash screen photographer"
-msgstr ""
-
-#: skrooge/main.cpp:120 skroogeconvert/main.cpp:64
+#. i18nc("Fullname", "Priscilla DU PREEZ"), i18nc("A job description", "Splash screen photographer"), QLatin1String(""), QLatin1String("")
+#. , QStringLiteral("")
+#. );
+#: skrooge/main.cpp:127 skroogeconvert/main.cpp:64
 #, kde-format
 msgctxt "The description of the application"
 msgid ""
@@ -16782,43 +16781,43 @@ msgid ""
 "good way."
 msgstr ""
 
-#: skrooge/main.cpp:121 skroogeconvert/main.cpp:65
+#: skrooge/main.cpp:128 skroogeconvert/main.cpp:65
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr ""
 
-#: skrooge/main.cpp:121 skroogeconvert/main.cpp:65
+#: skrooge/main.cpp:128 skroogeconvert/main.cpp:65
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: skrooge/main.cpp:125
+#: skrooge/main.cpp:132
 #, kde-format
 msgctxt "Reason of the about/credit"
 msgid "Users helping us to improve this application"
 msgstr ""
 
-#: skrooge/main.cpp:134
+#: skrooge/main.cpp:141
 #, kde-format
 msgctxt "Application argument"
 msgid "Document to open"
 msgstr ""
 
-#: skrooge/main.cpp:135
+#: skrooge/main.cpp:142
 #, kde-format
 msgctxt "Application argument"
 msgid "Display environment variables used by this application."
 msgstr ""
 
-#: skrooge/main.cpp:144
+#: skrooge/main.cpp:151
 #, kde-format
 msgctxt "Help"
 msgid "Environment variables:"
 msgstr ""
 
-#: skrooge/main.cpp:145
+#: skrooge/main.cpp:152
 #, kde-format
 msgctxt "Help, do not translate x"
 msgid ""
@@ -16826,25 +16825,25 @@ msgid ""
 "debug mode too."
 msgstr ""
 
-#: skrooge/main.cpp:146
+#: skrooge/main.cpp:153
 #, kde-format
 msgctxt "Help"
 msgid "  %1: To enable the profiling. This enables the debug mode too."
 msgstr ""
 
-#: skrooge/main.cpp:147
+#: skrooge/main.cpp:154
 #, kde-format
 msgctxt "Help do not translate x"
 msgid "  %1: To dump sql order taking more than x ms."
 msgstr ""
 
-#: skrooge/main.cpp:148
+#: skrooge/main.cpp:155
 #, kde-format
 msgctxt "Help"
 msgid "  %1: To enable the high DPI mode."
 msgstr ""
 
-#: skrooge/main.cpp:183
+#: skrooge/main.cpp:190
 #, kde-format
 msgctxt "Splash screen message"
 msgid "Loading ..."

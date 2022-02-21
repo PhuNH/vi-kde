@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-kde-org 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-07 00:48+0000\n"
+"POT-Creation-Date: 2022-02-15 00:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -35,17 +35,18 @@ msgstr ""
 msgid "KDE today announces the release of KDE Frameworks %ver."
 msgstr ""
 
+#. %1 version number
 #: i18n/en.yaml:0
-msgid "KDE today announces the release of KDE Frameworks {{ .Get \"version\" }}."
+msgid "KDE today announces the release of KDE Frameworks %1."
 msgstr ""
 
+#. %1 a number greater than or equal to 60, %2 link
 #: i18n/en.yaml:0
 msgid ""
-"KDE Frameworks are {{ .Get \"libCount\" }} addon libraries to Qt which "
-"provide a wide variety of commonly needed functionality in mature, peer "
-"reviewed and well tested libraries with friendly licensing terms. For an "
-"introduction see [the KDE Frameworks release announcement]({{ .Get "
-"\"firstAnncLink\" }})."
+"KDE Frameworks are %1 addon libraries to Qt which provide a wide variety of "
+"commonly needed functionality in mature, peer reviewed and well tested "
+"libraries with friendly licensing terms. For an introduction see [the KDE "
+"Frameworks release announcement](%2)."
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -68,7 +69,7 @@ msgstr ""
 msgid "KDE announces the release of KDE Gear %1."
 msgstr ""
 
-#. %1 a number larger than 100
+#. %1 a number greater than 100
 #: i18n/en.yaml:0
 msgid ""
 "Over %1 individual programs plus dozens of programmer libraries and feature "
@@ -110,26 +111,29 @@ msgstr ""
 msgid "%1 full changelog"
 msgstr ""
 
+#. %1 version number
 #: i18n/en.yaml:0
-msgid "Image of Plasma {{ .Get \"maj_min\" }}"
+msgid "Image of Plasma %1"
 msgstr ""
 
+#. %1 version number
 #: i18n/en.yaml:0
-msgid "KDE Plasma {{ .Get \"maj_min\" }}"
+msgid "KDE Plasma %1"
 msgstr ""
 
+#. %1 version number
 #: i18n/en.yaml:0
-msgid "Image of Plasma {{ .Get \"maj_min\" }} Beta"
+msgid "Image of Plasma %1 Beta"
 msgstr ""
 
+#. %1 version number
 #: i18n/en.yaml:0
-msgid "KDE Plasma {{ .Get \"maj_min\" }} Beta"
+msgid "KDE Plasma %1 Beta"
 msgstr ""
 
+#. %1 major version number, %2 full version number
 #: i18n/en.yaml:0
-msgid ""
-"Today KDE releases a bugfix update to KDE Plasma {{ .Get \"maj\" }}, "
-"versioned {{ .Get \"version\" }}."
+msgid "Today KDE releases a bugfix update to KDE Plasma %1, versioned %2."
 msgstr ""
 
 #. %1 version number, %2 link, %3 year
@@ -272,13 +276,12 @@ msgstr ""
 msgid "Compiling KDE Gear"
 msgstr ""
 
+#. %1 version number, %2 link, %3 link
 #: i18n/en.yaml:0
 msgid ""
-"The complete source code for KDE Gear may be [freely "
-"downloaded](https://download.kde.org/stable/release-service/{{ .Get "
-"\"version\" }}/src). Instructions on compiling and installing are available "
-"from the [KDE Gear {{ .Get \"version\" }} Info Page](/info/releases-{{ .Get "
-"\"version\" }})."
+"The complete source code for KDE Gear %1 may be [freely downloaded](%2). "
+"Instructions on compiling and installing are available from the [KDE Gear %1"
+" Info Page](%3)."
 msgstr ""
 
 #: i18n/en.yaml:0

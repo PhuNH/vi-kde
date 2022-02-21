@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: websites-aether-sass 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-08 00:47+0000\n"
+"POT-Creation-Date: 2022-02-19 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -239,16 +239,22 @@ msgid ""
 "mailing list)."
 msgstr ""
 
+#. String at the very end of each page, telling which commit generates the
+#. page
 #: i18n/en.yaml:0
-msgid "Generated from {{ .Get \"hash\" }}."
+msgid "Generated from %1."
 msgstr ""
 
+#: i18n/en.yaml:0
+msgid "Homepage of the KDE non-profit Organization"
+msgstr ""
+
+#. %1 link
 #: i18n/en.yaml:0
 msgid ""
 "KDE<sup>®</sup> and [the K Desktop Environment<sup>®</sup> "
 "logo](https://kde.org/media/images/trademark_kde_gear_black_logo.png) are "
-"registered trademarks of [KDE e.V.](https://ev.kde.org/ \"Homepage of the "
-"KDE non-profit Organization\")"
+"registered trademarks of [KDE e.V.](%1)"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -381,8 +387,9 @@ msgstr ""
 msgid "Loading..."
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
-msgid "Screenshot of {{ .Params.name }}"
+msgid "Screenshot of %1"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -407,11 +414,11 @@ msgstr ""
 msgid "Linux"
 msgstr ""
 
+#. %1 link
 #: i18n/en.yaml:0
 msgid ""
-"This button only works with [Discover]({{ .Get \"discoverLink\" }}) and "
-"other AppStream application stores. You can also use your distribution's "
-"package manager."
+"This button only works with [Discover](%1) and other AppStream application "
+"stores. You can also use your distribution's package manager."
 msgstr ""
 
 #. Used in "Download on Flathub" download badges, e.g. on
@@ -706,10 +713,9 @@ msgstr ""
 msgid "Barcelona"
 msgstr ""
 
+#. %1 link
 #: i18n/en.yaml:0
-msgid ""
-"You can find the full list of changes "
-"[here](/announcements/changelogs/applications/{{ .Get \"version\" }})."
+msgid "You can find the full list of changes [here](%1)."
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -770,13 +776,12 @@ msgstr ""
 msgid "Compiling KDE Applications"
 msgstr ""
 
+#. %1 link, %2 version number, %3 link
 #: i18n/en.yaml:0
 msgid ""
 "The complete source code for KDE Applications may be [freely "
-"downloaded](https://download.kde.org/stable/applications/{{ .Get \"version\""
-" }}/src). Instructions on compiling and installing are available from the "
-"[KDE Applications {{ .Get \"version\" }} Info Page](/info/applications-{{ "
-".Get \"version\" }})."
+"downloaded](%1). Instructions on compiling and installing are available from"
+" the [KDE Applications %2 Info Page](%3)."
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -813,62 +818,64 @@ msgstr ""
 msgid "Release Announcements"
 msgstr ""
 
+#. %1 version number
 #: i18n/en.yaml:0
-msgid "KDE Frameworks {{ .Get \"version\" }}"
+msgid "KDE Frameworks %1"
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Installing binary packages"
 msgstr ""
 
+#. %1 link
 #: i18n/en.yaml:0
 msgid ""
 "On Linux, using packages for your favorite distribution is the recommended "
 "way to get access to KDE Frameworks. [Get KDE Software on Your Linux Distro "
-"wiki page]({{ .Get \"wiki\" }})"
+"wiki page](%1)"
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Compiling from sources"
 msgstr ""
 
+#. %1 version number, %2 link, %3 link
 #: i18n/en.yaml:0
 msgid ""
-"The complete source code for KDE Frameworks {{ .Get \"version\" }} may be "
-"[freely downloaded](https://download.kde.org/stable/frameworks/{{ .Get "
-"\"version2\" }}/). Instructions on compiling and installing KDE Frameworks "
-"{{ .Get \"version\" }} are available from the [KDE Frameworks {{ .Get "
-"\"version\" }} Info Page](/info/kde-frameworks-{{ .Get \"version\" }})."
+"The complete source code for KDE Frameworks %1 may be [freely "
+"downloaded](%2). Instructions on compiling and installing are available from"
+" the [KDE Frameworks %1 Info Page](%3)."
 msgstr ""
 
+#. %1 link, %2 version number, %3 version number
 #: i18n/en.yaml:0
 msgid ""
 "Building from source is possible using the basic <em>cmake .; make; make "
 "install</em> commands. For a single Tier 1 framework, this is often the "
 "easiest solution. People interested in contributing to frameworks or "
 "tracking progress in development of the entire set are encouraged to [use "
-"kdesrc-build]({{ .Get \"url\" }}). Frameworks {{ .Get \"version\" }} "
-"requires Qt {{ .Get \"qtversion\" }}."
+"kdesrc-build](%1). Frameworks %2 requires Qt %3."
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
 "A detailed listing of all Frameworks and other third party Qt libraries is "
-"at [inqlude.org]({{ .Get \"inqlude\" }}), the curated archive of Qt "
-"libraries.  A complete list with API documentation is on [api.kde.org]({{ "
-".Get \"apiurl\" }})."
+"at [inqlude.org](https://inqlude.org), the curated archive of Qt libraries. "
+"A complete list with API documentation is on "
+"[api.kde.org](https://api.kde.org/frameworks)."
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid ""
 "Those interested in following and contributing to the development of "
-"Frameworks can check out the [git repositories]({{ .Get \"frameworkurl\" }})"
-" and follow the discussions on the [KDE Frameworks Development mailing "
-"list]({{ .Get \"frameworkmail\" }}). Policies and the current state of the "
-"project and plans are available at the [Frameworks "
-"wiki](https://community.kde.org/Frameworks). Real-time discussions take "
-"place on the [#kde-devel IRC channel on freenode.net](irc://#kde-"
-"devel@freenode.net)."
+"Frameworks can check out the [git "
+"repositories](https://invent.kde.org/frameworks) and follow the discussions "
+"on the [KDE Frameworks Development mailing "
+"list](https://mail.kde.org/mailman/listinfo/kde-frameworks-devel). Policies "
+"and the current state of the project and plans are available at the "
+"[Frameworks wiki](https://community.kde.org/Frameworks). Real-time "
+"discussions take place on the [#kde-devel IRC channel on Libera "
+"Chat](irc://irc.libera.chat/#kde-devel)."
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -1015,7 +1022,7 @@ msgstr ""
 #: i18n/en.yaml:0
 msgid ""
 "You can provide feedback direct to the developers via the [#Plasma IRC "
-"channel](irc://#plasma@freenode.net), [Plasma-devel mailing "
+"channel](irc://irc.libera.chat/#plasma), [Plasma-devel mailing "
 "list](https://mail.kde.org/mailman/listinfo/plasma-devel) or report issues "
 "via "
 "[Bugzilla](https://bugs.kde.org/enter_bug.cgi?product=plasmashell&amp;format=guided)."
@@ -1138,8 +1145,9 @@ msgstr ""
 msgid "Get Involved!"
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
-msgid "Build {{ .Params.name }} from Sources"
+msgid "Build %1 from Sources"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -1156,11 +1164,11 @@ msgstr ""
 msgid "Not a Programmer?"
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
 msgid ""
 "Not a problem! There are plenty of other tasks that you can help us with to "
-"make {{ .Params.name }} better even if you don't know any programming "
-"languages!"
+"make %1 better even if you don't know any programming languages!"
 msgstr ""
 
 #: i18n/en.yaml:0
@@ -1169,188 +1177,198 @@ msgid ""
 " - help us find mis-filed, duplicated or invalid bug reports in Bugzilla\n"
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
 msgid ""
 "[Localization](https://community.kde.org/Get_Involved/translation) - help to"
-" translate {{ .Params.name }} into your language\n"
+" translate %1 into your language\n"
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
 msgid ""
 "[Documentation](https://community.kde.org/Get_Involved/documentation) - help"
-" us improve user documentation to make {{ .Params.name }} more friendly for "
-"newcomers\n"
+" us improve user documentation to make %1 more friendly for newcomers\n"
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
 msgid ""
 "[Promotion](https://community.kde.org/Get_Involved/promotion) - help us "
-"promote {{ .Params.name }} both online and offline\n"
+"promote %1 both online and offline\n"
 msgstr ""
 
+#. %1 link
 #: i18n/en.yaml:0
 msgid ""
-"[Updating wiki](https://userbase.kde.org/{{ .Params.userbase }}) - help us "
-"update the information present in the wiki, add new tutorials, ... to make "
-"it easier for others to join!\n"
+"[Updating wiki](%1) - help us update the information present in the wiki, "
+"add new tutorials, ... to make it easier for others to join!\n"
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Do you have any other idea? Get in touch!"
 msgstr ""
 
+#. %1 app name, %2 link
 #: i18n/en.yaml:0
 msgid ""
-"{{ .Params.name }} is already available on majority of Linux distributions. It\n"
-"can be installed directly from [Discover](appstream://{{ .Params.appstream }}.desktop),\n"
-"[GNOME Software](appstream://{{ .Params.appstream }}.desktop) or your distribution's\n"
-"[software store](appstream://{{ .Params.appstream }}.desktop).\n"
+"%1 is already available on majority of Linux distributions. It can be "
+"installed directly from [Discover](%2), [GNOME Software](%2) or your "
+"distribution's [software store](%2)."
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Release Sources"
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
 msgid ""
-"{{ .Params.name }} is released regularly as part of KDE Gear. You can\n"
-"find {{ .Params.name }} latest stable release among the \n"
-"[tarballs from the latest KDE Gear release](https://download.kde.org/stable/release-service).\n"
+"%1 is released regularly as part of KDE Gear. You can find %1 latest stable release among the [tarballs from the latest KDE Gear release](https://download.kde.org/stable/release-service).\n"
 "\n"
-"If you want to build {{ .Params.name }} from sources, we recommend checking our\n"
-"[Getting Involved](/get-involved) page which contains links to full guide how to\n"
-"compile {{ .Params.name }}.\n"
+"If you want to build %1 from sources, we recommend checking our [Getting Involved](/get-involved) page which contains links to full guide how to compile %1.\n"
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Flatpak"
 msgstr ""
 
+#. %1 app name, %2 link, %3 link
 #: i18n/en.yaml:0
 msgid ""
-"You can install the latest [{{ .name }} "
-"flatpak](https://flathub.org/apps/details/{{ .id }}) from Flathub. "
-"Experimental flatpaks with nightly builds of {{ .name }} can be [installed "
-"from the KDE Flatpak repository]({{ .link }})."
+"You can install the latest [%1 flatpak](%2) from Flathub. Experimental "
+"flatpaks with nightly builds of %1 can be [installed from the KDE Flatpak "
+"repository](%3)."
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Installation"
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
 msgid ""
-"To install {{ .Params.name }}, follow the instructions of the platform you "
-"are using for how to install software. Most platforms have a graphical "
-"installer which can be used to install software packages. In many cases it "
-"will automatically be opened when clicking the download or install link for "
-"your platform. There is a [generic tutorial for installing KDE "
-"applications](https://userbase.kde.org/Tutorials/Install_KDE_software) which"
-" also can be applied to {{ .Params.name }}."
-msgstr ""
-
-#: i18n/en.yaml:0
-msgid ""
-"To install {{ .Params.name }} or one of its components as a stand-alone "
-"application, follow the instructions of the platform you are using for how "
-"to install software. Most platforms have a graphical installer which can be "
-"used to install software packages. In many cases it will automatically be "
+"To install %1, follow the instructions of the platform you are using for how"
+" to install software. Most platforms have a graphical installer which can be"
+" used to install software packages. In many cases it will automatically be "
 "opened when clicking the download or install link for your platform. There "
 "is a [generic tutorial for installing KDE "
 "applications](https://userbase.kde.org/Tutorials/Install_KDE_software) which"
-" also can be applied to {{ .Params.name }}."
+" also can be applied to %1."
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
 msgid ""
-"If you are using Linux, {{ .Params.name }} might already be pre-installed on"
-" your system as part of a default selection. If not, you can install it with"
-" the package management tool of your Linux distribution. See its "
-"documentation for details."
+"To install %1 or one of its components as a stand-alone application, follow "
+"the instructions of the platform you are using for how to install software. "
+"Most platforms have a graphical installer which can be used to install "
+"software packages. In many cases it will automatically be opened when "
+"clicking the download or install link for your platform. There is a [generic"
+" tutorial for installing KDE "
+"applications](https://userbase.kde.org/Tutorials/Install_KDE_software) which"
+" also can be applied to %1."
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
 msgid ""
-"In many cases you will have the opportunity to install {{ .Params.name }} in"
-" a modular way, so you can decide to only install the set of components you "
-"actually want to use. Translations of the user interface often also will be "
-"available as separate module you can install according to your needs and "
-"preferences."
+"If you are using Linux, %1 might already be pre-installed on your system as "
+"part of a default selection. If not, you can install it with the package "
+"management tool of your Linux distribution. See its documentation for "
+"details."
+msgstr ""
+
+#. %1 app name
+#: i18n/en.yaml:0
+msgid ""
+"In many cases you will have the opportunity to install %1 in a modular way, "
+"so you can decide to only install the set of components you actually want to"
+" use. Translations of the user interface often also will be available as "
+"separate module you can install according to your needs and preferences."
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Uninstallation"
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
 msgid ""
-"To uninstall {{ .Params.name }}, follow the instructions of the package "
-"management tool you have used to install {{ .Params.name }}. This will "
-"remove the {{ .Params.name }} application. It will not touch data you have "
-"viewed, created, or modified with {{ .Params.name }}."
+"To uninstall %1, follow the instructions of the package management tool you "
+"have used to install %1. This will remove the %1 application. It will not "
+"touch data you have viewed, created, or modified with %1."
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
 msgid ""
-"To uninstall {{ .Params.name }}, follow the instructions of the package "
-"management tool you have used to install {{ .Params.name }} and its "
-"components. This will remove the components of your choice. It will not "
-"touch data you have viewed, created, or modified with {{ .Params.name }}."
+"To uninstall %1, follow the instructions of the package management tool you "
+"have used to install %1 and its components. This will remove the components "
+"of your choice. It will not touch data you have viewed, created, or modified"
+" with %1."
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Handbook"
 msgstr ""
 
+#. %1 app name, %2 link
 #: i18n/en.yaml:0
 msgid ""
-"Lost in {{ .Params.name }} settings or just looking to discover more "
-"features in {{ .Params.name }}? You can read the [{{ .Params.name }} "
-"Handbook]({{ .Params.handbook }}) to find answers to your questions."
+"Lost in %1 settings or just looking to discover more features in %1? You can"
+" read the [%1 Handbook](%2) to find answers to your questions."
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Need Help?"
 msgstr ""
 
+#. %1 app name, %2 link
 #: i18n/en.yaml:0
 msgid ""
-"Check {{ .Params.name }} on [KDE Forum]({{ .Params.forum }}), maybe someone "
-"has already solved a similar problem. And if not, feel free to ask there!"
+"Check %1 on [KDE Forum](%2), maybe someone has already solved a similar "
+"problem. And if not, feel free to ask there!"
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Found a Bug?"
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
 msgid ""
-"Bugs in software happen. If you found some in {{ .Params.name }}, please "
-"report them into [our Bugzilla](https://bugs.kde.org). Please do not report "
-"bugs on forums or mailing lists - such reports will most likely be "
-"overlooked or forgotten by the developers quite soon. To make sure the bug "
-"gets noticed by developers and fixed as soon as possible, report it into "
-"Bugzilla."
+"Bugs in software happen. If you found some in %1, please report them into "
+"[our Bugzilla](https://bugs.kde.org). Please do not report bugs on forums or"
+" mailing lists - such reports will most likely be overlooked or forgotten by"
+" the developers quite soon. To make sure the bug gets noticed by developers "
+"and fixed as soon as possible, report it into Bugzilla."
 msgstr ""
 
 #: i18n/en.yaml:0
 msgid "Missing a Feature?"
 msgstr ""
 
+#. %1 app name
 #: i18n/en.yaml:0
 msgid ""
-"{{ .Params.name }} has a lot of features, but there's always a room for one or two more.\n"
-"If you have an idea for an improvement or you are missing a feature in {{ .Params.name }},\n"
-"write your suggestion in our [Bugzilla](https://bugs.kde.org) so that the\n"
-"developers can find it and implement it.\n"
+"%1 has a lot of features, but there's always a room for one or two more. If "
+"you have an idea for an improvement or you are missing a feature in %1, "
+"write your suggestion in our [Bugzilla](https://bugs.kde.org) so that the "
+"developers can find it and implement it."
 msgstr ""
 
+#. %1 author name list, %2 license ID
 #: i18n/en.yaml:0
-msgid ""
-"Article contributed by {{ .Get \"authors\" }} under the {{ .Get \"license\" "
-"}} license."
+msgid "Article contributed by %1 under the %2 license."
 msgstr ""
 
+#. Used to separate items in a list, like "a, b, c, and d"
+#: i18n/en.yaml:0
+msgid ", "
+msgstr ""
+
+#. Used to separate the last item in a list, like "a, b, c, and d"
 #: i18n/en.yaml:0
 msgid ", and "
 msgstr ""

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-04 00:41+0000\n"
+"POT-Creation-Date: 2022-02-15 00:41+0000\n"
 "PO-Revision-Date: 2022-02-09 17:51+0100\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -915,13 +915,13 @@ msgctxt "@title:window"
 msgid "License Agreement"
 msgstr "Thoả thuận cấp phép"
 
-#: kmainwindow.cpp:261
+#: kmainwindow.cpp:277
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Nguyễn Hùng Phú,Lê Hoàng Phương,Hoàng Đức Hiếu,Clytie Siddall"
 
-#: kmainwindow.cpp:262
+#: kmainwindow.cpp:278
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
@@ -1431,19 +1431,22 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#. i18n: @info:tooltip Pressing Shift will show a longer message with contextual info
+#. i18n: Pressing Shift will show a longer message with contextual info
 #. about the thing the tooltip was invoked for. If there is no good way to translate
 #. the message, translating "Press Shift to learn more." would also mostly fit what
 #. is supposed to be expressed here.
-#: ktooltiphelper.cpp:258
-#, kde-format
+#: ktooltiphelper.cpp:259
+#, fuzzy, kde-format
+#| msgid ""
+#| "<small><font color=\"%1\">Press <b>Shift</b> for more Info.</font></small>"
+msgctxt "@info:tooltip"
 msgid ""
 "<small><font color=\"%1\">Press <b>Shift</b> for more Info.</font></small>"
 msgstr ""
 "<small><font color=\"%1\">Nhấn <b>Shift</b> để có thêm thông tin.</font></"
 "small>"
 
-#. i18n: @info:tooltip The 'Press Shift for more' message is added to tooltips that have an
+#. i18n: The 'Press Shift for more' message is added to tooltips that have an
 #. available whatsthis help message. Pressing Shift will show this more exhaustive message.
 #. It is particularly important to keep this translation short because:
 #. 1. A longer translation will increase the size of *every* tooltip that gets this hint
@@ -1453,8 +1456,12 @@ msgstr ""
 #.
 #. %1 can be any tooltip. <br/> produces a linebreak. The other things between < and > are
 #. styling information. The word "more" refers to "information".
-#: ktooltiphelper.cpp:272
-#, kde-format
+#: ktooltiphelper.cpp:273
+#, fuzzy, kde-format
+#| msgid ""
+#| "%1<br/><small><font color=\"%2\">Press <b>Shift</b> for more.</font></"
+#| "small>"
+msgctxt "@info:tooltip keep short"
 msgid ""
 "%1<br/><small><font color=\"%2\">Press <b>Shift</b> for more.</font></small>"
 msgstr ""
@@ -1476,12 +1483,13 @@ msgstr "Đảo ngược"
 msgid "No text"
 msgstr "Không chữ"
 
-#: kxmlguiwindow.cpp:189
-#, kde-format
-msgid "Open Command Bar"
-msgstr "Mở thanh lệnh"
+#: kxmlguiwindow.cpp:190
+#, fuzzy, kde-format
+#| msgid "Action"
+msgid "Find Action…"
+msgstr "Hành động"
 
-#: kxmlguiwindow.cpp:534
+#: kxmlguiwindow.cpp:535
 #, kde-format
 msgid ""
 "There are two actions (%1, %2) that want to use the same shortcut (%3). This "
@@ -1492,7 +1500,7 @@ msgstr ""
 "chắc chắn là một lỗi. Vui lòng báo lỗi ở <a href='https://bugs.kde.org'>bugs."
 "kde.org</a>"
 
-#: kxmlguiwindow.cpp:539
+#: kxmlguiwindow.cpp:540
 #, kde-format
 msgid "Ambiguous Shortcuts"
 msgstr "Phím tắt nhập nhằng"
@@ -1553,10 +1561,13 @@ msgid "&Settings"
 msgstr "Thiết &lập"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: ui_standards.rc:195
+#: ui_standards.rc:196
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Thanh công cụ chính"
+
+#~ msgid "Open Command Bar"
+#~ msgstr "Mở thanh lệnh"
 
 #~ msgid ""
 #~ "<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The "

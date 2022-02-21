@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: timeline-kde-org VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-11 00:48+0000\n"
+"POT-Creation-Date: 2022-02-15 00:49+0000\n"
 "PO-Revision-Date: 2021-08-31 17:57+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -29,8 +29,11 @@ msgstr "Dịch bởi"
 msgid "KDE Timeline"
 msgstr "Các dấu mốc KDE"
 
+#. %1 number of years
 #: i18n/en.yaml:0
-msgid "A {{ .Scratch.Get \"years\" }} year timeline of KDE events"
+#, fuzzy
+#| msgid "A {{ .Scratch.Get \"years\" }} year timeline of KDE events"
+msgid "A %1 year timeline of KDE events"
 msgstr "Các sự kiện liên quan đến KDE trong {{ .Scratch.Get \"years\" }} năm"
 
 #: i18n/en.yaml:0
@@ -41,16 +44,24 @@ msgstr "Ngôn ngữ"
 msgid "Select your language"
 msgstr "Chọn ngôn ngữ"
 
+#. %1 number of years
 #: i18n/en.yaml:0
-msgid "{{ .Scratch.Get \"years\" }} Years of KDE"
-msgstr "{{ .Scratch.Get \"years\" }} năm KDE"
+msgid "%1 Years of KDE"
+msgstr ""
 
+#. %1 number of years
 #: i18n/en.yaml:0
+#, fuzzy
+#| msgid ""
+#| "A tour through the moments that marked the {{ .Scratch.Get \"years\" }} "
+#| "years of community history, starting with the technologies that made "
+#| "possible its existence. See our KDE 20 years <a style=\"text-decoration:"
+#| "underline;\" href=\"https://20years.kde.org/book/index.html\">book</a>."
 msgid ""
-"A tour through the moments that marked the {{ .Scratch.Get \"years\" }} "
-"years of community history, starting with the technologies that made "
-"possible its existence. See our KDE 20 years <a style=\"text-decoration:"
-"underline;\" href=\"https://20years.kde.org/book/index.html\">book</a>."
+"A tour through the moments that marked the %1 years of community history, "
+"starting with the technologies that made possible its existence. See our KDE "
+"20 years <a style=\"text-decoration:underline;\" href=\"https://20years.kde."
+"org/book/index.html\">book</a>."
 msgstr ""
 "Đi qua các thời điểm đánh dấu {{ .Scratch.Get \"years\" }} năm lịch sử của "
 "cộng đồng KDE, bắt đầu với những công nghệ giúp KDE được ra đời. Xem <a "
@@ -88,6 +99,9 @@ msgstr "Tuýt"
 #: i18n/en.yaml:0
 msgid "Available in:"
 msgstr "Bằng:"
+
+#~ msgid "{{ .Scratch.Get \"years\" }} Years of KDE"
+#~ msgstr "{{ .Scratch.Get \"years\" }} năm KDE"
 
 #~ msgid "LANGUAGE_NAME"
 #~ msgstr "Tiếng Việt"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-11 00:44+0000\n"
+"POT-Creation-Date: 2022-02-20 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -533,8 +533,8 @@ msgstr ""
 #: core/model/admincustomsoundmodel.cpp:30
 #: core/model/adminoauthmodel.cpp:33 core/model/adminpermissionsmodel.cpp:30
 #: core/model/adminrolesmodel.cpp:32 core/model/adminroomsmodel.cpp:30
-#: core/model/adminusersmodel.cpp:71 core/model/directoryroomsmodel.cpp:115
-#: core/model/directoryteamsmodel.cpp:89 core/model/directoryusersmodel.cpp:96
+#: core/model/adminusersmodel.cpp:105 core/model/directoryroomsmodel.cpp:115
+#: core/model/directoryteamsmodel.cpp:89 core/model/directoryusersmodel.cpp:101
 #: core/model/usersinrolemodel.cpp:87 widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:40
 #, kde-format
 msgid "Name"
@@ -604,10 +604,10 @@ msgstr ""
 msgid "Redirect Url"
 msgstr ""
 
-#: core/model/adminoauthmodel.cpp:41 core/model/adminusersmodel.cpp:124
+#: core/model/adminoauthmodel.cpp:41 core/model/adminusersmodel.cpp:159
 #: widgets/administratordialog/oauth/administratoroauthcreatewidget.cpp:16
 #: widgets/administratordialog/oauth/administratoroautheditwidget.cpp:16
-#: widgets/administratordialog/users/administratoruserswidget.cpp:190
+#: widgets/administratordialog/users/administratoruserswidget.cpp:201
 #, kde-format
 msgid "Active"
 msgstr ""
@@ -678,28 +678,28 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:73
+#: core/model/adminusersmodel.cpp:107
 #, kde-format
 msgid "UserName"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:75 widgets/dialogs/configurenotificationwidget.cpp:105
+#: core/model/adminusersmodel.cpp:109 widgets/dialogs/configurenotificationwidget.cpp:105
 #, kde-format
 msgid "Email"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:77
+#: core/model/adminusersmodel.cpp:111
 #, kde-format
 msgid "Role"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:79 core/model/adminusersmodel.cpp:124
+#: core/model/adminusersmodel.cpp:113 core/model/adminusersmodel.cpp:159
 #: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:101
 #, kde-format
 msgid "Disabled"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:81 widgets/ruqolamainwindow.cpp:378
+#: core/model/adminusersmodel.cpp:115 widgets/ruqolamainwindow.cpp:378
 #, kde-format
 msgid "Status"
 msgstr ""
@@ -728,12 +728,13 @@ msgstr ""
 msgid "Rooms"
 msgstr ""
 
-#: core/model/directoryusersmodel.cpp:98 core/model/usersinrolemodel.cpp:89
+#: core/model/directoryusersmodel.cpp:103
+#: core/model/usersinrolemodel.cpp:89
 #, kde-format
 msgid "Emails"
 msgstr ""
 
-#: core/model/directoryusersmodel.cpp:100
+#: core/model/directoryusersmodel.cpp:105
 #, kde-format
 msgid "Join At"
 msgstr ""
@@ -1100,12 +1101,12 @@ msgstr ""
 msgid "<strong>%1</strong> are typing..."
 msgstr ""
 
-#: core/rocketchataccount.cpp:2649
+#: core/rocketchataccount.cpp:2651
 #, kde-format
 msgid "Export Messages"
 msgstr ""
 
-#: core/rocketchataccount.cpp:2650
+#: core/rocketchataccount.cpp:2652
 #, kde-format
 msgid "Your email has been queued for sending."
 msgstr ""
@@ -1202,9 +1203,19 @@ msgstr ""
 msgid "Speak Text"
 msgstr ""
 
-#: rocketchatrestapi-qt5/2fa/user2fadisableemailjob.cpp:78
+#: rocketchatrestapi-qt5/2fa/user2fadisableemailjob.cpp:83
+#: rocketchatrestapi-qt5/users/resete2ekeyjob.cpp:98
+#: rocketchatrestapi-qt5/users/resettotpjob.cpp:99
 #, kde-format
 msgid "TOTP Required"
+msgstr ""
+
+#: rocketchatrestapi-qt5/2fa/user2fadisableemailjob.cpp:85
+#: rocketchatrestapi-qt5/users/resete2ekeyjob.cpp:100
+#: rocketchatrestapi-qt5/users/resettotpjob.cpp:101
+#: rocketchatrestapi-qt5/users/usersupdatejob.cpp:66
+#, kde-format
+msgid "Invalid Password"
 msgstr ""
 
 #: rocketchatrestapi-qt5/channels/channeljoinjob.cpp:108
@@ -1233,6 +1244,7 @@ msgid "A channel with name '%1' exists"
 msgstr ""
 
 #: rocketchatrestapi-qt5/channels/getchannelrolesjob.cpp:79
+#: rocketchatrestapi-qt5/groups/getgrouprolesjob.cpp:66
 #, kde-format
 msgid "Extract Roles"
 msgstr ""
@@ -1276,7 +1288,7 @@ msgid "The custom emoji or one of its aliases is already in use."
 msgstr ""
 
 #: rocketchatrestapi-qt5/groups/groupremoveownerjob.cpp:46
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:357
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:374
 #, kde-format
 msgid ""
 "This is the last owner. Please set a new owner before removing this one."
@@ -1287,538 +1299,538 @@ msgstr ""
 msgid "Generate link is not authorized in this channel."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:183
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:200
 #, kde-format
 msgid "Unauthorized"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:197
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:214
 #, kde-format
 msgid "%1:%2"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:204
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:221
 #, kde-format
 msgid "__action__ is not allowed"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:206
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:223
 #, kde-format
 msgid "Application not found"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:208
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:225
 #, kde-format
 msgid "There's an archived channel with name '__room_name__'"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:210
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:227
 #, kde-format
 msgid "Can't invite user to direct rooms"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:212
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:229
 #, kde-format
 msgid "The channel default setting is the same as what it would be changed to."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:214
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:231
 #, kde-format
 msgid "The bodyParam 'default' is required"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:216
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:233
 #, kde-format
 msgid "Could not change email"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:218
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:235
 #, kde-format
 msgid "Could not change name"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:220
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:237
 #, kde-format
 msgid "Could not change username"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:222
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:239
 #, kde-format
 msgid "Cannot delete a protected role"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:224
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:241
 #, kde-format
 msgid "Department not found"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:226
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:243
 #, kde-format
 msgid "File sharing not allowed in direct messages"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:228
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:245
 #, kde-format
 msgid "A channel with name '__channel_name__' exists"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:230
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:247
 #, kde-format
 msgid "Editing permissions is not allowed"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:232
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:249
 #, kde-format
 msgid "The email domain is blacklisted"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:234
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:251
 #, kde-format
 msgid "Error trying to send email: __message__"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:236
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:253
 #, kde-format
 msgid "<strong>__field__</strong> is already in use :("
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:238
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:255
 #, kde-format
 msgid "File is too large"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:240
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:257
 #, kde-format
 msgid "The importer was not defined correctly, it is missing the Import class."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:242
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:259
 #, kde-format
 msgid "Failed to extract import file."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:244
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:261
 #, kde-format
 msgid "Imported file seems to be empty."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:246
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:263
 #, kde-format
 msgid "The file to be imported was not found on the specified path."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:248
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:265
 #, kde-format
 msgid "__input__ is not a valid __field__"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:250
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:267
 #, kde-format
 msgid "Invalid action link"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:252
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:269
 #, kde-format
 msgid "Invalid Account"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:254
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:271
 #, kde-format
 msgid "Invalid arguments"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:256
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:273
 #, kde-format
 msgid "Invalid asset"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:258
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:275
 #, kde-format
 msgid "Invalid channel."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:260
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:277
 #, kde-format
 msgid "Invalid channel. Start with @ or #"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:262
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:279
 #, kde-format
 msgid "Invalid custom field"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:264
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:281
 #, kde-format
 msgid ""
 "Invalid custom field name. Use only letters, numbers, hyphens and "
 "underscores."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:266
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:283
 #, kde-format
 msgid "Invalid date provided."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:268
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:285
 #, kde-format
 msgid "Invalid description"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:270
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:287
 #, kde-format
 msgid "Invalid domain"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:272
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:289
 #, kde-format
 msgid "Invalid email __email__"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:274
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:291
 #, kde-format
 msgid "Invalid email address"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:276
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:293
 #, kde-format
 msgid "Invalid file height"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:278
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:295
 #, kde-format
 msgid "Invalid file type"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:280
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:297
 #, kde-format
 msgid "Invalid file width"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:282
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:299
 #, kde-format
 msgid "You informed an invalid FROM address."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:284
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:301
 #, kde-format
 msgid "Invalid integration"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:286
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:303
 #, kde-format
 msgid "Invalid message"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:288
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:305
 #, kde-format
 msgid "Invalid method"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:290
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:307
 #, kde-format
 msgid "Invalid name"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:292
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:309
 #, kde-format
 msgid "Invalid password"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:294
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:311
 #, kde-format
 msgid "Invalid permission"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:296
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:313
 #, kde-format
 msgid "Invalid redirectUri"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:298
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:315
 #, kde-format
 msgid "Invalid role"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:300
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:317
 #: rocketchatrestapi-qt5/rooms/roomstartdiscussionjob.cpp:153
 #, kde-format
 msgid "Invalid room"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:302
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:319
 #, kde-format
 msgid "<strong>__room_name__</strong> is not a valid room name"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:304
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:321
 #, kde-format
 msgid "<strong>__type__</strong> is not a valid room type."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:306
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:323
 #, kde-format
 msgid "Invalid settings provided"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:308
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:325
 #, kde-format
 msgid "Invalid subscription"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:310
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:327
 #, kde-format
 msgid "Invalid token"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:312
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:329
 #, kde-format
 msgid "Invalid triggerWords"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:314
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:331
 #, kde-format
 msgid "Invalid URLs"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:316
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:333
 #, kde-format
 msgid "Invalid user"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:318
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:335
 #, kde-format
 msgid "Invalid username"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:320
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:337
 #, kde-format
 msgid "The webhook URL responded with a status other than 200"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:322
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:339
 #, kde-format
 msgid "Message deleting is blocked"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:324
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:341
 #, kde-format
 msgid "Message editing is blocked"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:326
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:343
 #, kde-format
 msgid "Message size exceeds Message_MaxAllowedSize"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:328
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:345
 #, kde-format
 msgid "You must provide the [unsubscribe] link."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:330
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:347
 #, kde-format
 msgid "There are no tokens for this user"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:332
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:349
 #, kde-format
 msgid "Not allowed"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:334
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:336
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:351
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:353
 #, kde-format
 msgid "Not authorized"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:338
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:355
 #, kde-format
 msgid "Password does not meet the server's policy"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:340
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:357
 #, kde-format
 msgid ""
 "Password does not meet the server's policy of maximum length (password too "
 "long)"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:342
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:359
 #, kde-format
 msgid ""
 "Password does not meet the server's policy of minimum length (password too "
 "short)"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:344
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:361
 #, kde-format
 msgid ""
 "Password does not meet the server's policy of at least one lowercase "
 "character"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:346
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:363
 #, kde-format
 msgid ""
 "Password does not meet the server's policy of at least one numerical "
 "character"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:348
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:365
 #, kde-format
 msgid ""
 "Password does not meet the server's policy of at least one special character"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:350
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:367
 #, kde-format
 msgid ""
 "Password does not meet the server's policy of at least one uppercase "
 "character"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:353
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:370
 #, kde-format
 msgid ""
 "Password does not meet the server's policy of forbidden repeating characters "
 "(you have too many of the same characters next to each other)"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:355
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:372
 #, kde-format
 msgid "Push is disabled"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:359
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:376
 #, kde-format
 msgid "Cannot delete role because it's in use"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:361
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:378
 #, kde-format
 msgid "Role name is required"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:363
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:380
 #, kde-format
 msgid "Room is not closed"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:365
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:382
 #, kde-format
 msgid "The field __field__ is required."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:367
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:384
 #, kde-format
 msgid "This is not a Livechat room"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:369
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:386
 #, kde-format
 msgid "Personal Access Tokens are currently disabled"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:371
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:388
 #, kde-format
 msgid "A token with this name already exists"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:373
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:390
 #, kde-format
 msgid "Token does not exists"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:375
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:392
 #, kde-format
 msgid ""
 "Error, too many requests. Please slow down. You must wait __seconds__ "
 "seconds before trying again."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:377
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:394
 #, kde-format
 msgid "User has no roles"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:379
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:396
 #, kde-format
 msgid "User is not activated"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:381
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:398
 #, kde-format
 msgid ""
 "The number of users you are trying to invite to #channel_name exceeds the "
 "limit set by the administrator"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:383
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:400
 #, kde-format
 msgid "User is not in this room"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:385
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:402
 #, kde-format
 msgid "You are not in the room `%s`"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:387
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:404
 #, kde-format
 msgid "User registration is disabled"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:389
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:406
 #, kde-format
 msgid "User registration is only allowed via Secret URL"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:391
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:408
 #, kde-format
 msgid "You are the last owner. Please set new owner before leaving the room."
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:393
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:410
 #, kde-format
 msgid "The private group is archived"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:395
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:412
 #, kde-format
 msgid "User is already an owner"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:397
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:414
 #, kde-format
 msgid "User is already a leader"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:399
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:416
 #, kde-format
 msgid "User is already a moderator"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:401
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:418
 #, kde-format
 msgid "Invalid message id"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:403
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:420
 #, kde-format
 msgid "User is not a leader"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:405
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:422
 #, kde-format
 msgid "App user is not allowed to login"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:407
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:424
 #, kde-format
 msgid "Direct Messages can not be archived"
 msgstr ""
 
-#: rocketchatrestapi-qt5/restapiabstractjob.cpp:409
+#: rocketchatrestapi-qt5/restapiabstractjob.cpp:426
 #, kde-format
 msgid "Message not found."
 msgstr ""
@@ -1868,7 +1880,7 @@ msgstr ""
 msgid "%1 is already in use."
 msgstr ""
 
-#: rocketchatrestapi-qt5/users/usersupdatejob.cpp:59
+#: rocketchatrestapi-qt5/users/usersupdatejob.cpp:64
 #, kde-format
 msgid "Authentication required"
 msgstr ""
@@ -2003,7 +2015,7 @@ msgstr ""
 #: widgets/administratordialog/oauth/oauthtreeview.cpp:48
 #: widgets/administratordialog/roles/administratorroleswidget.cpp:98
 #: widgets/administratordialog/roles/usersinrolewidget.cpp:104
-#: widgets/administratordialog/users/administratoruserswidget.cpp:178
+#: widgets/administratordialog/users/administratoruserswidget.cpp:189
 #: widgets/configuredialog/configureaccountserverwidget.ui:30
 #, kde-format
 msgid "Add..."
@@ -2017,7 +2029,7 @@ msgstr ""
 #: widgets/administratordialog/permissions/permissionswidget.cpp:91
 #: widgets/administratordialog/roles/administratorroleswidget.cpp:100
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:63
-#: widgets/administratordialog/users/administratoruserswidget.cpp:184
+#: widgets/administratordialog/users/administratoruserswidget.cpp:194
 #: widgets/configuredialog/configureaccountserverwidget.ui:37
 #, kde-format
 msgid "Modify..."
@@ -2032,7 +2044,7 @@ msgstr ""
 #: widgets/administratordialog/roles/administratorroleswidget.cpp:114
 #: widgets/administratordialog/roles/usersinrolewidget.cpp:108
 #: widgets/administratordialog/rooms/administratorroomswidget.cpp:67
-#: widgets/administratordialog/users/administratoruserswidget.cpp:196
+#: widgets/administratordialog/users/administratoruserswidget.cpp:227
 #: widgets/configuredialog/configureaccountserverwidget.ui:44
 #, kde-format
 msgid "Remove"
@@ -2120,7 +2132,6 @@ msgid "Remove Invite"
 msgstr ""
 
 #: widgets/administratordialog/oauth/administratoroauthcreatedialog.cpp:23
-#: widgets/administratordialog/oauth/administratoroautheditdialog.cpp:23
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Oauth Apps"
@@ -2130,6 +2141,12 @@ msgstr ""
 #: widgets/administratordialog/oauth/administratoroautheditwidget.cpp:35
 #, kde-format
 msgid "Redirect Url:"
+msgstr ""
+
+#: widgets/administratordialog/oauth/administratoroautheditdialog.cpp:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Oauth Apps"
 msgstr ""
 
 #: widgets/administratordialog/oauth/administratoroautheditwidget.cpp:38
@@ -2248,7 +2265,7 @@ msgid "Add User in Role"
 msgstr ""
 
 #: widgets/administratordialog/roles/usersinrolewidget.cpp:34
-#: widgets/administratordialog/users/administratoruserswidget.cpp:37
+#: widgets/administratordialog/users/administratoruserswidget.cpp:45
 #: widgets/directory/directorywidget.cpp:38
 #, kde-format
 msgid "Search Users"
@@ -2266,19 +2283,19 @@ msgid "Do you want to remove this user \"%1\"?"
 msgstr ""
 
 #: widgets/administratordialog/roles/usersinrolewidget.cpp:78
-#: widgets/administratordialog/users/administratoruserswidget.cpp:128
+#: widgets/administratordialog/users/administratoruserswidget.cpp:140
 #, kde-format
 msgid "Remove User"
 msgstr ""
 
 #: widgets/administratordialog/roles/usersinrolewidget.cpp:117
-#: widgets/administratordialog/users/administratoruserswidget.cpp:206
+#: widgets/administratordialog/users/administratoruserswidget.cpp:237
 #, kde-format
 msgid "No user found"
 msgstr ""
 
 #: widgets/administratordialog/roles/usersinrolewidget.cpp:122
-#: widgets/administratordialog/users/administratoruserswidget.cpp:211
+#: widgets/administratordialog/users/administratoruserswidget.cpp:242
 #: widgets/directory/directorywidget.cpp:182
 #, kde-format
 msgid "%1 user (Total: %2)"
@@ -2603,22 +2620,22 @@ msgctxt "@title:window"
 msgid "Edit User"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoradduserwidget.cpp:24
+#: widgets/administratordialog/users/administratoradduserwidget.cpp:25
 #, kde-format
 msgid "Join Default Channels"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoradduserwidget.cpp:25
+#: widgets/administratordialog/users/administratoradduserwidget.cpp:26
 #, kde-format
 msgid "Send Welcome Email"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoradduserwidget.cpp:26
+#: widgets/administratordialog/users/administratoradduserwidget.cpp:27
 #, kde-format
 msgid "Require Password Change"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoradduserwidget.cpp:27
+#: widgets/administratordialog/users/administratoradduserwidget.cpp:28
 #, kde-format
 msgid "Set random password and send by email"
 msgstr ""
@@ -2654,14 +2671,78 @@ msgstr ""
 msgid "Password:"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoruserswidget.cpp:128
+#: widgets/administratordialog/users/administratoruserswidget.cpp:140
 #, kde-format
 msgid "Do you want to remove this user?"
 msgstr ""
 
-#: widgets/administratordialog/users/administratoruserswidget.cpp:190
+#: widgets/administratordialog/users/administratoruserswidget.cpp:201
 #, kde-format
 msgid "Disable"
+msgstr ""
+
+#: widgets/administratordialog/users/administratoruserswidget.cpp:209
+#, kde-format
+msgid "Remove Admin"
+msgstr ""
+
+#: widgets/administratordialog/users/administratoruserswidget.cpp:209
+#, kde-format
+msgid "Make Admin"
+msgstr ""
+
+#: widgets/administratordialog/users/administratoruserswidget.cpp:215
+#: widgets/myaccount/myaccount2e2configurewidget.cpp:21
+#, kde-format
+msgid "Reset E2E Key"
+msgstr ""
+
+#: widgets/administratordialog/users/administratoruserswidget.cpp:221
+#, kde-format
+msgid "Reset Totp"
+msgstr ""
+
+#: widgets/administratordialog/users/administratoruserswidget.cpp:286
+#, kde-format
+msgid ""
+"Reset the current E2E key will log out the user. When the user login again, "
+"Rocket.Chat will generate a new key and restore the user access to any "
+"encrypted room that has one or more members online. Due to the nature of the "
+"E2E encryption, Rocket.Chat will not be able to restore access to any "
+"encrypted room that has no member online."
+msgstr ""
+
+#: widgets/administratordialog/users/administratoruserswidget.cpp:290
+#, kde-format
+msgid "Reset E2E key"
+msgstr ""
+
+#: widgets/administratordialog/users/administratoruserswidget.cpp:310
+#, kde-format
+msgid "E2E key for %1 has been reset"
+msgstr ""
+
+#: widgets/administratordialog/users/administratoruserswidget.cpp:310
+#, kde-format
+msgid "Reset E2E"
+msgstr ""
+
+#: widgets/administratordialog/users/administratoruserswidget.cpp:323
+#, kde-format
+msgid ""
+"Reset the current Two Factor TOTP will log out the user. The user will be "
+"able to set the Two Factor again later."
+msgstr ""
+
+#: widgets/administratordialog/users/administratoruserswidget.cpp:324
+#: widgets/administratordialog/users/administratoruserswidget.cpp:344
+#, kde-format
+msgid "Reset TOTP"
+msgstr ""
+
+#: widgets/administratordialog/users/administratoruserswidget.cpp:344
+#, kde-format
+msgid "TOTP key for %1 has been reset"
 msgstr ""
 
 #: widgets/channellist/channellistview.cpp:89
@@ -3063,6 +3144,17 @@ msgstr ""
 #: widgets/dialogs/configurenotificationwidget.cpp:89
 #, kde-format
 msgid "Mobile"
+msgstr ""
+
+#: widgets/dialogs/confirmpassworddialog.cpp:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Confirm Password"
+msgstr ""
+
+#: widgets/dialogs/confirmpasswordwidget.cpp:23
+#, kde-format
+msgid "For your security, you must enter your current password to continue"
 msgstr ""
 
 #: widgets/dialogs/createdirectmessagesdialog.cpp:28
@@ -3855,11 +3947,6 @@ msgstr ""
 msgid "Send new code"
 msgstr ""
 
-#: widgets/myaccount/myaccount2e2configurewidget.cpp:21
-#, kde-format
-msgid "Reset E2E Key"
-msgstr ""
-
 #: widgets/myaccount/myaccount2e2configurewidget.cpp:29
 #, kde-format
 msgid ""
@@ -3915,13 +4002,13 @@ msgstr ""
 msgid "Regenerate Code"
 msgstr ""
 
-#: widgets/myaccount/myaccount2fadisabletotpwidget.cpp:69
+#: widgets/myaccount/myaccount2fadisabletotpwidget.cpp:67
 #: widgets/myaccount/myaccount2fatotpwidget.cpp:94
 #, kde-format
 msgid "Invalid two factor code."
 msgstr ""
 
-#: widgets/myaccount/myaccount2fadisabletotpwidget.cpp:69
+#: widgets/myaccount/myaccount2fadisabletotpwidget.cpp:67
 #: widgets/myaccount/myaccount2fatotpwidget.cpp:94
 #, kde-format
 msgid "Check Two Factor Code"
@@ -4302,17 +4389,17 @@ msgstr[1] ""
 msgid "No message yet"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:728
+#: widgets/room/delegate/messagelistdelegate.cpp:732
 #, kde-format
 msgid "Following"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:732
+#: widgets/room/delegate/messagelistdelegate.cpp:736
 #, kde-format
 msgid "Message has been pinned"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:736
+#: widgets/room/delegate/messagelistdelegate.cpp:740
 #, kde-format
 msgid "Message has been starred"
 msgstr ""
