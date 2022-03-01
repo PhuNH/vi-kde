@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktexteditor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-21 00:40+0000\n"
+"POT-Creation-Date: 2022-02-28 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1670,7 +1670,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowWordCount)
 #: dialogs/textareaappearanceconfigwidget.ui:240
-#: view/katestatusbar.cpp:243
+#: view/katestatusbar.cpp:249
 #, kde-format
 msgid "Show word count"
 msgstr ""
@@ -1683,7 +1683,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowLineCount)
 #: dialogs/textareaappearanceconfigwidget.ui:250
-#: view/katestatusbar.cpp:240
+#: view/katestatusbar.cpp:246
 #, kde-format
 msgid "Show line count"
 msgstr ""
@@ -4162,7 +4162,7 @@ msgstr ""
 msgid "Marker Colors"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:304 view/kateviewhelpers.cpp:1475
+#: syntax/katethemeconfig.cpp:304 view/kateviewhelpers.cpp:1474
 #, kde-format
 msgid "Bookmark"
 msgstr ""
@@ -4432,7 +4432,7 @@ msgstr ""
 msgid "Remove all bookmarks of the current document."
 msgstr ""
 
-#: utils/katebookmarks.cpp:61 utils/katebookmarks.cpp:216
+#: utils/katebookmarks.cpp:61 utils/katebookmarks.cpp:218
 #, kde-format
 msgid "Next Bookmark"
 msgstr ""
@@ -4442,7 +4442,7 @@ msgstr ""
 msgid "Go to the next bookmark."
 msgstr ""
 
-#: utils/katebookmarks.cpp:68 utils/katebookmarks.cpp:217
+#: utils/katebookmarks.cpp:68 utils/katebookmarks.cpp:219
 #, kde-format
 msgid "Previous Bookmark"
 msgstr ""
@@ -4457,12 +4457,12 @@ msgstr ""
 msgid "&Bookmarks"
 msgstr ""
 
-#: utils/katebookmarks.cpp:188
+#: utils/katebookmarks.cpp:190
 #, kde-format
 msgid "&Next: %1 - \"%2\""
 msgstr ""
 
-#: utils/katebookmarks.cpp:194
+#: utils/katebookmarks.cpp:196
 #, kde-format
 msgid "&Previous: %1 - \"%2\""
 msgstr ""
@@ -5616,151 +5616,131 @@ msgctxt "short translation please"
 msgid "Enable word wrap while typing text."
 msgstr ""
 
-#: view/katestatusbar.cpp:99
+#: view/katestatusbar.cpp:108
 #, kde-format
 msgid "Current cursor position. Click to go to a specific line."
 msgstr ""
 
-#: view/katestatusbar.cpp:115
+#: view/katestatusbar.cpp:124
 #, kde-format
 msgid "Insert mode and VI input mode indicator. Click to change the mode."
 msgstr ""
 
-#: view/katestatusbar.cpp:123
+#: view/katestatusbar.cpp:132
 #, kde-format
 msgid "Change dictionary"
 msgstr ""
 
-#: view/katestatusbar.cpp:149 view/katestatusbar.cpp:504
+#: view/katestatusbar.cpp:158 view/katestatusbar.cpp:464
 #, kde-format
 msgid "Tab Width"
 msgstr ""
 
-#: view/katestatusbar.cpp:157 view/katestatusbar.cpp:519
+#: view/katestatusbar.cpp:166 view/katestatusbar.cpp:479
 #, kde-format
 msgid "Indentation Width"
 msgstr ""
 
-#: view/katestatusbar.cpp:165
+#: view/katestatusbar.cpp:174
 #, kde-format
 msgid "Indentation Mode"
 msgstr ""
 
-#: view/katestatusbar.cpp:167
+#: view/katestatusbar.cpp:176
 #, kde-format
 msgid "Tabulators && Spaces"
 msgstr ""
 
-#: view/katestatusbar.cpp:170
+#: view/katestatusbar.cpp:179
 #, kde-format
 msgid "Tabulators"
 msgstr ""
 
-#: view/katestatusbar.cpp:173
+#: view/katestatusbar.cpp:182
 #, kde-format
 msgid "Spaces"
 msgstr ""
 
-#: view/katestatusbar.cpp:185
+#: view/katestatusbar.cpp:194
 #, kde-format
 msgid "Encoding"
 msgstr ""
 
-#: view/katestatusbar.cpp:189
+#: view/katestatusbar.cpp:198
 #, kde-format
 msgid "Mode"
 msgstr ""
 
-#: view/katestatusbar.cpp:191 view/kateview.cpp:644
+#: view/katestatusbar.cpp:200 view/kateview.cpp:644
 #, kde-format
 msgid ""
 "Here you can choose which mode should be used for the current document. This "
 "will influence the highlighting and folding being used, for example."
 msgstr ""
 
-#: view/katestatusbar.cpp:198
+#: view/katestatusbar.cpp:207
 #, kde-format
 msgid "Syntax highlighting"
 msgstr ""
 
-#: view/katestatusbar.cpp:287
+#: view/katestatusbar.cpp:292
 #, kde-format
 msgid "[BLOCK] %1"
 msgstr ""
 
-#: view/katestatusbar.cpp:300
+#: view/katestatusbar.cpp:305
 #, kde-format
 msgid "Line %1 of %2, Column %3"
 msgstr ""
 
-#: view/katestatusbar.cpp:305
+#: view/katestatusbar.cpp:310
 #, kde-format
 msgid "Line %1, Column %2"
 msgstr ""
 
-#: view/katestatusbar.cpp:386
-#, kde-format
-msgid "Meaning of current icon: Document was not modified since it was loaded"
-msgstr ""
-
-#: view/katestatusbar.cpp:392
-#, kde-format
-msgid "Meaning of current icon: Document was modified since it was loaded"
-msgstr ""
-
-#: view/katestatusbar.cpp:398
-#, kde-format
-msgid "Meaning of current icon: Document was modified or deleted on disk"
-msgstr ""
-
-#: view/katestatusbar.cpp:410
-#, kde-format
-msgid "Meaning of current icon: Document is in read-only mode"
-msgstr ""
-
-#: view/katestatusbar.cpp:423
+#: view/katestatusbar.cpp:383
 #, kde-format
 msgid "Soft Tabs: %1"
 msgstr ""
 
-#: view/katestatusbar.cpp:424
+#: view/katestatusbar.cpp:384
 #, kde-format
 msgid "Soft Tabs: %1 (%2)"
 msgstr ""
 
-#: view/katestatusbar.cpp:425
+#: view/katestatusbar.cpp:385
 #, kde-format
 msgid "Tab Size: %1"
 msgstr ""
 
-#: view/katestatusbar.cpp:426
+#: view/katestatusbar.cpp:386
 #, kde-format
 msgid "Indent/Tab: %1/%2"
 msgstr ""
 
-#: view/katestatusbar.cpp:465 view/katestatusbar.cpp:490
+#: view/katestatusbar.cpp:425 view/katestatusbar.cpp:450
 #, kde-format
 msgid "Other..."
 msgstr ""
 
-#: view/katestatusbar.cpp:492
+#: view/katestatusbar.cpp:452
 #, kde-format
 msgid "Other (%1)"
 msgid_plural "Other (%1)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: view/katestatusbar.cpp:504
+#: view/katestatusbar.cpp:464
 #, kde-format
 msgid "Please specify the wanted tab width:"
 msgstr ""
 
-#: view/katestatusbar.cpp:520
+#: view/katestatusbar.cpp:480
 #, kde-format
 msgid "Please specify the wanted indentation width:"
 msgstr ""
 
-#: view/katestatusbar.cpp:582
+#: view/katestatusbar.cpp:542
 #, kde-format
 msgctxt ""
 "%1 and %3 are the selected words/chars count, %2 and %4 are the total words/"
@@ -5768,7 +5748,7 @@ msgctxt ""
 msgid "Words %1/%2, Chars %3/%4"
 msgstr ""
 
-#: view/katestatusbar.cpp:600
+#: view/katestatusbar.cpp:560
 #, kde-format
 msgid "Zoom: %1%"
 msgstr ""
@@ -6732,36 +6712,36 @@ msgstr ""
 msgid "Export File as HTML"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:303 view/kateviewhelpers.cpp:346
-#: view/kateviewhelpers.cpp:982
+#: view/kateviewhelpers.cpp:302 view/kateviewhelpers.cpp:345
+#: view/kateviewhelpers.cpp:981
 #, kde-format
 msgctxt "from line - to line"
 msgid "<center>%1<br/>&#x2014;<br/>%2</center>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1151
+#: view/kateviewhelpers.cpp:1150
 #, kde-format
 msgid "Available Commands"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1152
+#: view/kateviewhelpers.cpp:1151
 #, kde-format
 msgid ""
 "<p>For help on individual commands, do <code>'help &lt;command&gt;'</code></"
 "p>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1159
+#: view/kateviewhelpers.cpp:1158
 #, kde-format
 msgid "No help for '%1'"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1162
+#: view/kateviewhelpers.cpp:1161
 #, kde-format
 msgid "No such command <b>%1</b>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1168
+#: view/kateviewhelpers.cpp:1167
 #, kde-format
 msgid ""
 "<p>This is the Katepart <b>command line</b>.<br />Syntax: <code><b>command "
@@ -6770,37 +6750,37 @@ msgid ""
 "<code><b>help &lt;command&gt;</b></code></p>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1256 vimode/emulatedcommandbar/commandmode.cpp:210
+#: view/kateviewhelpers.cpp:1255 vimode/emulatedcommandbar/commandmode.cpp:210
 #, kde-format
 msgid "No such command: \"%1\""
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1259 vimode/emulatedcommandbar/commandmode.cpp:192
+#: view/kateviewhelpers.cpp:1258 vimode/emulatedcommandbar/commandmode.cpp:192
 #, kde-format
 msgid "Error: No range allowed for command \"%1\"."
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1269 vimode/emulatedcommandbar/commandmode.cpp:196
+#: view/kateviewhelpers.cpp:1268 vimode/emulatedcommandbar/commandmode.cpp:196
 #, kde-format
 msgid "Success: "
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1283 vimode/emulatedcommandbar/commandmode.cpp:205
+#: view/kateviewhelpers.cpp:1282 vimode/emulatedcommandbar/commandmode.cpp:205
 #, kde-format
 msgid "Command \"%1\" failed."
 msgstr ""
 
-#: view/kateviewhelpers.cpp:2545 view/kateviewhelpers.cpp:2546
+#: view/kateviewhelpers.cpp:2544 view/kateviewhelpers.cpp:2545
 #, kde-format
 msgid "Mark Type %1"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:2569
+#: view/kateviewhelpers.cpp:2568
 #, kde-format
 msgid "Set Default Mark Type"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:2710
+#: view/kateviewhelpers.cpp:2709
 #, kde-format
 msgid "Disable Annotation Bar"
 msgstr ""

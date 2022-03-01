@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-21 00:40+0000\n"
+"POT-Creation-Date: 2022-02-28 00:41+0000\n"
 "PO-Revision-Date: 2022-02-11 22:46+0100\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -1814,7 +1814,7 @@ msgid "Show/hide word count in status bar"
 msgstr "Ẩn/hiện số lượng từ ở thanh trạng thái"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowWordCount)
-#: dialogs/textareaappearanceconfigwidget.ui:240 view/katestatusbar.cpp:243
+#: dialogs/textareaappearanceconfigwidget.ui:240 view/katestatusbar.cpp:249
 #, kde-format
 msgid "Show word count"
 msgstr "Hiện số lượng từ"
@@ -1826,7 +1826,7 @@ msgid "Show/hide line count in status bar"
 msgstr "Ẩn/hiện số lượng dòng ở thanh trạng thái"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowLineCount)
-#: dialogs/textareaappearanceconfigwidget.ui:250 view/katestatusbar.cpp:240
+#: dialogs/textareaappearanceconfigwidget.ui:250 view/katestatusbar.cpp:246
 #, kde-format
 msgid "Show line count"
 msgstr "Hiện số lượng dòng"
@@ -4598,7 +4598,7 @@ msgstr ""
 msgid "Marker Colors"
 msgstr "Màu sắc"
 
-#: syntax/katethemeconfig.cpp:304 view/kateviewhelpers.cpp:1475
+#: syntax/katethemeconfig.cpp:304 view/kateviewhelpers.cpp:1474
 #, kde-format
 msgid "Bookmark"
 msgstr "Đánh dấu"
@@ -4913,7 +4913,7 @@ msgstr "Xoá &mọi Đánh dấu"
 msgid "Remove all bookmarks of the current document."
 msgstr "Gỡ bỏ mọi Đánh dấu của tài liệu hiện có."
 
-#: utils/katebookmarks.cpp:61 utils/katebookmarks.cpp:216
+#: utils/katebookmarks.cpp:61 utils/katebookmarks.cpp:218
 #, kde-format
 msgid "Next Bookmark"
 msgstr "Đánh Dấu kế"
@@ -4923,7 +4923,7 @@ msgstr "Đánh Dấu kế"
 msgid "Go to the next bookmark."
 msgstr "Đi tới Đánh dấu kế tiếp."
 
-#: utils/katebookmarks.cpp:68 utils/katebookmarks.cpp:217
+#: utils/katebookmarks.cpp:68 utils/katebookmarks.cpp:219
 #, kde-format
 msgid "Previous Bookmark"
 msgstr "Đánh dấu lùi"
@@ -4938,12 +4938,12 @@ msgstr "Trở về Đánh dấu trước đó."
 msgid "&Bookmarks"
 msgstr "&Liên kết đã lưu"
 
-#: utils/katebookmarks.cpp:188
+#: utils/katebookmarks.cpp:190
 #, kde-format
 msgid "&Next: %1 - \"%2\""
 msgstr "&Kế: %1 - \"%2\""
 
-#: utils/katebookmarks.cpp:194
+#: utils/katebookmarks.cpp:196
 #, kde-format
 msgid "&Previous: %1 - \"%2\""
 msgstr "&Lùi: %1 - \"%2\""
@@ -6155,70 +6155,70 @@ msgctxt "short translation please"
 msgid "Enable word wrap while typing text."
 msgstr ""
 
-#: view/katestatusbar.cpp:99
+#: view/katestatusbar.cpp:108
 #, kde-format
 msgid "Current cursor position. Click to go to a specific line."
 msgstr ""
 
-#: view/katestatusbar.cpp:115
+#: view/katestatusbar.cpp:124
 #, kde-format
 msgid "Insert mode and VI input mode indicator. Click to change the mode."
 msgstr ""
 
-#: view/katestatusbar.cpp:123
+#: view/katestatusbar.cpp:132
 #, fuzzy, kde-format
 #| msgid "Choose Editor..."
 msgid "Change dictionary"
 msgstr "Chọn bộ sửa..."
 
-#: view/katestatusbar.cpp:149 view/katestatusbar.cpp:504
+#: view/katestatusbar.cpp:158 view/katestatusbar.cpp:464
 #, kde-format
 msgid "Tab Width"
 msgstr "Độ rộng kí tự lập bảng"
 
-#: view/katestatusbar.cpp:157 view/katestatusbar.cpp:519
+#: view/katestatusbar.cpp:166 view/katestatusbar.cpp:479
 #, fuzzy, kde-format
 #| msgid "Indentation"
 msgid "Indentation Width"
 msgstr "Canh lề"
 
-#: view/katestatusbar.cpp:165
+#: view/katestatusbar.cpp:174
 #, fuzzy, kde-format
 #| msgid "&Indentation"
 msgid "Indentation Mode"
 msgstr "Thụt &lề"
 
-#: view/katestatusbar.cpp:167
+#: view/katestatusbar.cpp:176
 #, fuzzy, kde-format
 #| msgid "&Highlight all"
 msgid "Tabulators && Spaces"
 msgstr "Tô &sáng tất cả"
 
-#: view/katestatusbar.cpp:170
+#: view/katestatusbar.cpp:179
 #, fuzzy, kde-format
 #| msgid "&Highlight all"
 msgid "Tabulators"
 msgstr "Tô &sáng tất cả"
 
-#: view/katestatusbar.cpp:173
+#: view/katestatusbar.cpp:182
 #, fuzzy, kde-format
 #| msgid "Template"
 msgid "Spaces"
 msgstr "Mẫu"
 
-#: view/katestatusbar.cpp:185
+#: view/katestatusbar.cpp:194
 #, fuzzy, kde-format
 #| msgid "E&ncoding"
 msgid "Encoding"
 msgstr "Bộ &kí tự"
 
-#: view/katestatusbar.cpp:189
+#: view/katestatusbar.cpp:198
 #, fuzzy, kde-format
 #| msgid "&Mode"
 msgid "Mode"
 msgstr "&Chế độ"
 
-#: view/katestatusbar.cpp:191 view/kateview.cpp:644
+#: view/katestatusbar.cpp:200 view/kateview.cpp:644
 #, fuzzy, kde-format
 #| msgid ""
 #| "Here you can choose which mode should be used for the current document. "
@@ -6230,97 +6230,75 @@ msgstr ""
 "Ở đây bạn có khả năng chọn chế độ nào nên được dùng cho tài liệu hiện thời. "
 "Nó sẽ có tác động kiểu tô sáng và gấp lại."
 
-#: view/katestatusbar.cpp:198
+#: view/katestatusbar.cpp:207
 #, fuzzy, kde-format
 #| msgid "Kate Syntax Highlighting Parser"
 msgid "Syntax highlighting"
 msgstr "Bộ phân tách tô sáng cú pháp Kate"
 
-#: view/katestatusbar.cpp:287
+#: view/katestatusbar.cpp:292
 #, fuzzy, kde-format
 #| msgid " BLK "
 msgid "[BLOCK] %1"
 msgstr " KHỐI "
 
-#: view/katestatusbar.cpp:300
+#: view/katestatusbar.cpp:305
 #, fuzzy, kde-format
 #| msgid " Line: %1 Col: %2 "
 msgid "Line %1 of %2, Column %3"
 msgstr " Dòng: %1 Cột: %2 "
 
-#: view/katestatusbar.cpp:305
+#: view/katestatusbar.cpp:310
 #, fuzzy, kde-format
 #| msgid " Line: %1 Col: %2 "
 msgid "Line %1, Column %2"
 msgstr " Dòng: %1 Cột: %2 "
 
-#: view/katestatusbar.cpp:386
-#, kde-format
-msgid "Meaning of current icon: Document was not modified since it was loaded"
-msgstr ""
-
-#: view/katestatusbar.cpp:392
-#, kde-format
-msgid "Meaning of current icon: Document was modified since it was loaded"
-msgstr ""
-
-#: view/katestatusbar.cpp:398
-#, fuzzy, kde-format
-#| msgid "The file '%1' was modified by another program."
-msgid "Meaning of current icon: Document was modified or deleted on disk"
-msgstr "Một chương trình khác đã sửa đổi tệp « %1 »."
-
-#: view/katestatusbar.cpp:410
-#, fuzzy, kde-format
-#| msgid "The file '%1' was modified by another program."
-msgid "Meaning of current icon: Document is in read-only mode"
-msgstr "Một chương trình khác đã sửa đổi tệp « %1 »."
-
-#: view/katestatusbar.cpp:423
+#: view/katestatusbar.cpp:383
 #, kde-format
 msgid "Soft Tabs: %1"
 msgstr ""
 
-#: view/katestatusbar.cpp:424
+#: view/katestatusbar.cpp:384
 #, kde-format
 msgid "Soft Tabs: %1 (%2)"
 msgstr ""
 
-#: view/katestatusbar.cpp:425
+#: view/katestatusbar.cpp:385
 #, fuzzy, kde-format
 #| msgid "Insert: %1"
 msgid "Tab Size: %1"
 msgstr "Chèn: %1"
 
-#: view/katestatusbar.cpp:426
+#: view/katestatusbar.cpp:386
 #, kde-format
 msgid "Indent/Tab: %1/%2"
 msgstr ""
 
-#: view/katestatusbar.cpp:465 view/katestatusbar.cpp:490
+#: view/katestatusbar.cpp:425 view/katestatusbar.cpp:450
 #, fuzzy, kde-format
 #| msgid "Other"
 msgid "Other..."
 msgstr "Khác"
 
-#: view/katestatusbar.cpp:492
+#: view/katestatusbar.cpp:452
 #, fuzzy, kde-format
 #| msgid "Other"
 msgid "Other (%1)"
 msgid_plural "Other (%1)"
 msgstr[0] "Khác"
 
-#: view/katestatusbar.cpp:504
+#: view/katestatusbar.cpp:464
 #, kde-format
 msgid "Please specify the wanted tab width:"
 msgstr ""
 
-#: view/katestatusbar.cpp:520
+#: view/katestatusbar.cpp:480
 #, kde-format
 msgid "Please specify the wanted indentation width:"
 msgstr ""
 
-#: view/katestatusbar.cpp:582
+#: view/katestatusbar.cpp:542
 #, kde-format
 msgctxt ""
 "%1 and %3 are the selected words/chars count, %2 and %4 are the total words/"
@@ -6328,7 +6306,7 @@ msgctxt ""
 msgid "Words %1/%2, Chars %3/%4"
 msgstr ""
 
-#: view/katestatusbar.cpp:600
+#: view/katestatusbar.cpp:560
 #, kde-format
 msgid "Zoom: %1%"
 msgstr ""
@@ -7382,19 +7360,19 @@ msgstr ""
 msgid "Export File as HTML"
 msgstr "Xuất tệp dạng HTML"
 
-#: view/kateviewhelpers.cpp:303 view/kateviewhelpers.cpp:346
-#: view/kateviewhelpers.cpp:982
+#: view/kateviewhelpers.cpp:302 view/kateviewhelpers.cpp:345
+#: view/kateviewhelpers.cpp:981
 #, kde-format
 msgctxt "from line - to line"
 msgid "<center>%1<br/>&#x2014;<br/>%2</center>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1151
+#: view/kateviewhelpers.cpp:1150
 #, kde-format
 msgid "Available Commands"
 msgstr "Lệnh sẵn sàng"
 
-#: view/kateviewhelpers.cpp:1152
+#: view/kateviewhelpers.cpp:1151
 #, kde-format
 msgid ""
 "<p>For help on individual commands, do <code>'help &lt;command&gt;'</code></"
@@ -7403,17 +7381,17 @@ msgstr ""
 "<p>Để xem trợ giúp về lệnh riêng, hãy gõ <code>'help &lt;tên_lệnh&gt;'</"
 "code></p>"
 
-#: view/kateviewhelpers.cpp:1159
+#: view/kateviewhelpers.cpp:1158
 #, kde-format
 msgid "No help for '%1'"
 msgstr "Không có trợ giúp cho « %1 »"
 
-#: view/kateviewhelpers.cpp:1162
+#: view/kateviewhelpers.cpp:1161
 #, kde-format
 msgid "No such command <b>%1</b>"
 msgstr "Không có lệnh <b>%1</b>"
 
-#: view/kateviewhelpers.cpp:1168
+#: view/kateviewhelpers.cpp:1167
 #, kde-format
 msgid ""
 "<p>This is the Katepart <b>command line</b>.<br />Syntax: <code><b>command "
@@ -7426,37 +7404,37 @@ msgstr ""
 "<code><b>help list</b></code><br/>Còn để xem trợ giúp về lệnh riêng, "
 "gõ<code><b>help &lt;tên_lệnh&gt;</b></code></p>"
 
-#: view/kateviewhelpers.cpp:1256 vimode/emulatedcommandbar/commandmode.cpp:210
+#: view/kateviewhelpers.cpp:1255 vimode/emulatedcommandbar/commandmode.cpp:210
 #, kde-format
 msgid "No such command: \"%1\""
 msgstr "Không có lệnh: « %1 »"
 
-#: view/kateviewhelpers.cpp:1259 vimode/emulatedcommandbar/commandmode.cpp:192
+#: view/kateviewhelpers.cpp:1258 vimode/emulatedcommandbar/commandmode.cpp:192
 #, kde-format
 msgid "Error: No range allowed for command \"%1\"."
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1269 vimode/emulatedcommandbar/commandmode.cpp:196
+#: view/kateviewhelpers.cpp:1268 vimode/emulatedcommandbar/commandmode.cpp:196
 #, kde-format
 msgid "Success: "
 msgstr "Thành công: "
 
-#: view/kateviewhelpers.cpp:1283 vimode/emulatedcommandbar/commandmode.cpp:205
+#: view/kateviewhelpers.cpp:1282 vimode/emulatedcommandbar/commandmode.cpp:205
 #, kde-format
 msgid "Command \"%1\" failed."
 msgstr "Lệnh « %1 » đã thất bại."
 
-#: view/kateviewhelpers.cpp:2545 view/kateviewhelpers.cpp:2546
+#: view/kateviewhelpers.cpp:2544 view/kateviewhelpers.cpp:2545
 #, kde-format
 msgid "Mark Type %1"
 msgstr "Kiểu dấu %1"
 
-#: view/kateviewhelpers.cpp:2569
+#: view/kateviewhelpers.cpp:2568
 #, kde-format
 msgid "Set Default Mark Type"
 msgstr "Đặt kiểu dấu mặc định"
 
-#: view/kateviewhelpers.cpp:2710
+#: view/kateviewhelpers.cpp:2709
 #, kde-format
 msgid "Disable Annotation Bar"
 msgstr ""
@@ -7794,6 +7772,16 @@ msgstr ""
 #| msgid "Mark Type %1"
 msgid "Mark not set: %1"
 msgstr "Kiểu dấu %1"
+
+#, fuzzy
+#~| msgid "The file '%1' was modified by another program."
+#~ msgid "Meaning of current icon: Document was modified or deleted on disk"
+#~ msgstr "Một chương trình khác đã sửa đổi tệp « %1 »."
+
+#, fuzzy
+#~| msgid "The file '%1' was modified by another program."
+#~ msgid "Meaning of current icon: Document is in read-only mode"
+#~ msgstr "Một chương trình khác đã sửa đổi tệp « %1 »."
 
 #, fuzzy
 #~| msgctxt "Language"

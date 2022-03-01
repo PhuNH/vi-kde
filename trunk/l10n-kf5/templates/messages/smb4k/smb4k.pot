@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: smb4k\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-05 00:44+0000\n"
+"POT-Creation-Date: 2022-03-01 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -167,8 +167,7 @@ msgstr ""
 msgid "Custom Options"
 msgstr ""
 
-#: smb4k/smb4kconfigdialog.cpp:128 smb4k/smb4kconfigpageprofiles.cpp:42
-#: smb4k/smb4kprofilesmenu.cpp:22
+#: smb4k/smb4kconfigdialog.cpp:128 smb4k/smb4kprofilesmenu.cpp:22
 #, kde-format
 msgid "Profiles"
 msgstr ""
@@ -186,85 +185,102 @@ msgstr ""
 msgid "Enter the default login information."
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:42
-#: smb4k/smb4kconfigpageprofiles.cpp:28
+#: smb4k/smb4kconfigpageauthentication.cpp:49
+#: smb4k/smb4kconfigpageprofiles.cpp:36 smb4k/smb4kconfigpageuserinterface.cpp:54
+#: smb4k/smb4kconfigpageuserinterface.cpp:74
+#: smb4k/smb4kconfigpageuserinterface.cpp:136
 #, kde-format
-msgid "Settings"
+msgid "Behavior:"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:66
+#: smb4k/smb4kconfigpageauthentication.cpp:61
 #, kde-format
-msgid "Wallet Entries"
+msgid "Wallet Entries:"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:88
+#. i18n("Add"), walletEntriesWidget);
+#. addAction->setObjectName("AddAction");
+#. addAction->setEnabled(false);
+#. // FIXME: Connection
+#. qDebug() << "Make add action work";
+#. walletEntriesWidget->addAction(addAction);
+#.
+#. // Add Default action
+#. QAction *addDefaultAction = new QAction(KDE::icon("list-add"), i18n("Add Default"), walletEntriesWidget);
+#. addDefaultAction->setObjectName("AddDefaultAction");
+#. addDefaultAction->setEnabled(false);
+#. // FIXME: Connection
+#. qDebug() << "Make add default action work";
+#. walletEntriesWidget->addAction(addDefaultAction);
+#. Edit action
+#: smb4k/smb4kconfigpageauthentication.cpp:102
 #: smb4k/smb4kconfigpagecustomoptions.cpp:59
 #, kde-format
 msgid "Edit"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:95
+#: smb4k/smb4kconfigpageauthentication.cpp:109
 #: smb4k/smb4kconfigpagecustomoptions.cpp:63
 #, kde-format
 msgid "Remove"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:102
+#: smb4k/smb4kconfigpageauthentication.cpp:116
 #: smb4k/smb4knetworksearchtoolbar.cpp:108
 #, kde-format
 msgid "Clear"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:117
+#: smb4k/smb4kconfigpageauthentication.cpp:131
 #, kde-format
 msgid "Load"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:119
+#: smb4k/smb4kconfigpageauthentication.cpp:133
 #, kde-format
 msgid ""
 "The login information that was stored by Smb4K will be loaded from the "
 "wallet."
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:130
+#: smb4k/smb4kconfigpageauthentication.cpp:144
 #, kde-format
 msgid "Save"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:132
+#: smb4k/smb4kconfigpageauthentication.cpp:146
 #, kde-format
 msgid "All modifications you applied are saved to the wallet."
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:146
+#: smb4k/smb4kconfigpageauthentication.cpp:160
 #, kde-format
 msgid "Details"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:213
-#: smb4k/smb4kconfigpageauthentication.cpp:323
-#: smb4k/smb4kconfigpageauthentication.cpp:423
-#: smb4k/smb4kconfigpageauthentication.cpp:447
-#: smb4k/smb4kconfigpageauthentication.cpp:542
+#: smb4k/smb4kconfigpageauthentication.cpp:227
+#: smb4k/smb4kconfigpageauthentication.cpp:352
+#: smb4k/smb4kconfigpageauthentication.cpp:452
+#: smb4k/smb4kconfigpageauthentication.cpp:476
+#: smb4k/smb4kconfigpageauthentication.cpp:571
 #, kde-format
 msgid "Default Login"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:290
 #: smb4k/smb4kconfigpageauthentication.cpp:319
+#: smb4k/smb4kconfigpageauthentication.cpp:348
 #, kde-format
 msgid "Entry"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:298
 #: smb4k/smb4kconfigpageauthentication.cpp:327
+#: smb4k/smb4kconfigpageauthentication.cpp:356
 #, kde-format
 msgid "Username"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:302
 #: smb4k/smb4kconfigpageauthentication.cpp:331
+#: smb4k/smb4kconfigpageauthentication.cpp:360
 #, kde-format
 msgid "Password"
 msgstr ""
@@ -482,6 +498,11 @@ msgid ""
 "qt>"
 msgstr ""
 
+#: smb4k/smb4kconfigpageprofiles.cpp:46
+#, kde-format
+msgid "Profiles:"
+msgstr ""
+
 #: smb4k/smb4kconfigpagesynchronization.cpp:36
 #, kde-format
 msgid "Default Destination"
@@ -581,12 +602,12 @@ msgstr ""
 msgid "Checksums"
 msgstr ""
 
-#: smb4k/smb4kconfigpageuserinterface.cpp:37
+#: smb4k/smb4kconfigpageuserinterface.cpp:35
 #, kde-format
 msgid "Main Window"
 msgstr ""
 
-#: smb4k/smb4kconfigpageuserinterface.cpp:66
+#: smb4k/smb4kconfigpageuserinterface.cpp:59
 #: smb4k/smb4kmainwindow.cpp:216
 #, kde-format
 msgid "Network Neighborhood"

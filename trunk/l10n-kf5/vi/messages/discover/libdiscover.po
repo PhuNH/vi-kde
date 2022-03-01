@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-16 00:46+0000\n"
+"POT-Creation-Date: 2022-02-26 00:49+0000\n"
 "PO-Revision-Date: 2012-06-13 11:10+0800\n"
 "Last-Translator: HeroP <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -495,23 +495,23 @@ msgctxt "Category"
 msgid "System Settings"
 msgstr "Hệ thống & thiết lập"
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:574
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:606
 #, kde-format
 msgid "Local bundle"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1471
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:583
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1515
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:602
 #, kde-format
 msgid "Malformed appstream url '%1'"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1609
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1653
 #, kde-format
 msgid "There are no Flatpak sources."
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1613
+#: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1657
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid ""
@@ -741,12 +741,20 @@ msgctxt "Category"
 msgid "Fonts"
 msgstr "Phông chữ"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:210
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:212
 #, kde-format
 msgid "Please make sure that Appstream is properly set up on your system"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:675
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:241
+#, kde-format
+msgctxt "%1 is the date as formatted by the locale"
+msgid ""
+"Your operating system ended support on %1. Consider upgrading to a supported "
+"version."
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitBackend.cpp:694
 #, kde-format
 msgid "Cannot remove '%1'"
 msgstr ""
@@ -1602,7 +1610,7 @@ msgstr[0] ""
 "\n"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:110
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:143
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:158
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Open File"
@@ -1621,23 +1629,34 @@ msgid "Repair System"
 msgstr "Hệ thống cơ sở"
 
 #: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:120
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgid "Repairing failed offline update"
+msgstr "Ứng dụng"
+
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:128
 #, kde-format
 msgid "Repair Failed"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:121
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:129
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1<nl/>Please report this error to your distribution."
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:141
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:140
+#, kde-format
+msgid "Repaired Successfully"
+msgstr ""
+
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:156
 #, fuzzy, kde-format
 #| msgid "Applications"
 msgid "Offline Updates"
 msgstr "Ứng dụng"
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:142
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:157
 #, fuzzy, kde-format
 #| msgctxt "@label"
 #| msgid ""

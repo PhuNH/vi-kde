@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-16 00:46+0000\n"
+"POT-Creation-Date: 2022-02-25 00:47+0000\n"
 "PO-Revision-Date: 2021-10-19 14:45+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -40,13 +40,13 @@ msgstr "(Không hồi đáp)"
 msgid "unknown"
 msgstr "không rõ"
 
-#: composite.cpp:630
+#: composite.cpp:633
 #, kde-format
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr ""
 "Các hiệu ứng bàn làm việc đã bị khởi động lại do một lần đặt lại đồ hoạ"
 
-#: composite.cpp:770
+#: composite.cpp:837
 #, kde-format
 msgid ""
 "Desktop effects have been suspended by another application.<br/>You can "
@@ -1023,88 +1023,88 @@ msgstr "Bảng nháp"
 msgid "Primary Selection"
 msgstr "Phần chọn chính"
 
-#: helpers/killer/killer.cpp:30
+#: helpers/killer/killer.cpp:35
 #, kde-format
 msgid "Window Manager"
 msgstr "Trình quản lí cửa sổ"
 
-#: helpers/killer/killer.cpp:35
+#: helpers/killer/killer.cpp:40
 #, kde-format
 msgid "PID of the application to terminate"
 msgstr "Mã tiến trình của ứng dụng để kết thúc"
 
-#: helpers/killer/killer.cpp:35
+#: helpers/killer/killer.cpp:40
 #, kde-format
 msgid "pid"
 msgstr "mã-tiến-trình"
 
-#: helpers/killer/killer.cpp:37
+#: helpers/killer/killer.cpp:42
 #, kde-format
 msgid "Hostname on which the application is running"
 msgstr "Tên máy mà ứng dụng đang chạy ở trong"
 
-#: helpers/killer/killer.cpp:37
+#: helpers/killer/killer.cpp:42
 #, kde-format
 msgid "hostname"
 msgstr "tên-máy"
 
-#: helpers/killer/killer.cpp:39
+#: helpers/killer/killer.cpp:44
 #, kde-format
 msgid "Caption of the window to be terminated"
 msgstr "Tiêu đề của cửa sổ để kết thúc"
 
-#: helpers/killer/killer.cpp:39
+#: helpers/killer/killer.cpp:44
 #, kde-format
 msgid "caption"
 msgstr "tiêu-đề"
 
-#: helpers/killer/killer.cpp:41
+#: helpers/killer/killer.cpp:46
 #, kde-format
 msgid "Name of the application to be terminated"
 msgstr "Tên của ứng dụng để kết thúc"
 
-#: helpers/killer/killer.cpp:41
+#: helpers/killer/killer.cpp:46
 #, kde-format
 msgid "name"
 msgstr "tên"
 
-#: helpers/killer/killer.cpp:43
+#: helpers/killer/killer.cpp:48
 #, kde-format
 msgid "ID of resource belonging to the application"
 msgstr "id của tài nguyên thuộc về ứng dụng"
 
-#: helpers/killer/killer.cpp:43
+#: helpers/killer/killer.cpp:48
 #, kde-format
 msgid "id"
 msgstr "id"
 
-#: helpers/killer/killer.cpp:45
+#: helpers/killer/killer.cpp:50
 #, kde-format
 msgid "Time of user action causing termination"
 msgstr "Thời gian mà hành động của người dùng dẫn đến việc kết thúc"
 
-#: helpers/killer/killer.cpp:45
+#: helpers/killer/killer.cpp:50
 #, kde-format
 msgid "time"
 msgstr "thời-gian"
 
-#: helpers/killer/killer.cpp:47
+#: helpers/killer/killer.cpp:52
 #, kde-format
 msgid "KWin helper utility"
 msgstr "Tiện ích trợ giúp KWin"
 
-#: helpers/killer/killer.cpp:71
+#: helpers/killer/killer.cpp:76
 #, kde-format
 msgid "This helper utility is not supposed to be called directly."
 msgstr "Không nên gọi trực tiếp tiện ích trợ giúp này."
 
-#: helpers/killer/killer.cpp:81
+#: helpers/killer/killer.cpp:86
 #, kde-format
 msgctxt "@info"
 msgid "<b>Application \"%1\" is not responding</b>"
 msgstr "<b>Ứng dụng \"%1\" không hồi đáp</b>"
 
-#: helpers/killer/killer.cpp:83
+#: helpers/killer/killer.cpp:88
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1114,7 +1114,7 @@ msgstr ""
 "<para>Bạn đã thử đóng cửa sổ \"%1\" từ ứng dụng \"%2\" (mã tiến trình: %3) "
 "nhưng ứng dụng đó không hồi đáp.</para>"
 
-#: helpers/killer/killer.cpp:85
+#: helpers/killer/killer.cpp:90
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1124,7 +1124,7 @@ msgstr ""
 "<para>Bạn đã thử đóng cửa sổ \"%1\" từ ứng dụng \"%2\" (mã tiến trình: %3), "
 "chạy trên máy \"%4\", nhưng ứng dụng đó không hồi đáp.</para>"
 
-#: helpers/killer/killer.cpp:88
+#: helpers/killer/killer.cpp:93
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1136,17 +1136,17 @@ msgstr ""
 "thúc ứng dụng này sẽ đóng tất cả các cửa sổ con của nó. Mọi dữ liệu chưa lưu "
 "sẽ bị mất.</warning></para>"
 
-#: helpers/killer/killer.cpp:92
+#: helpers/killer/killer.cpp:97
 #, kde-format
 msgid "&Terminate Application %1"
 msgstr "&Kết thúc ứng dụng %1"
 
-#: helpers/killer/killer.cpp:93
+#: helpers/killer/killer.cpp:98
 #, kde-format
 msgid "Wait Longer"
 msgstr "Đợi thêm"
 
-#: input.cpp:2737
+#: input.cpp:2742
 #, kde-format
 msgid "Touchpad"
 msgstr "Bàn cảm ứng"
@@ -1165,124 +1165,124 @@ msgstr ""
 "Bấm trái hoặc enter để chọn cửa sổ để ép đóng.\n"
 "Escape hoặc bấm phải để huỷ."
 
-#: main.cpp:196 main.cpp:226
+#: main.cpp:199 main.cpp:229
 #, kde-format
 msgid "KDE window manager"
 msgstr "Trình quản lí cửa sổ KDE"
 
-#: main.cpp:201
+#: main.cpp:204
 #, kde-format
 msgid "KWin"
 msgstr "KWin"
 
-#: main.cpp:205
+#: main.cpp:208
 #, kde-format
 msgid "(c) 1999-2019, The KDE Developers"
 msgstr "(c) 1999-2019, Các nhà phát triển KDE"
 
-#: main.cpp:207
+#: main.cpp:210
 #, kde-format
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:208
+#: main.cpp:211
 #, kde-format
 msgid "Cristian Tibirna"
 msgstr "Cristian Tibirna"
 
-#: main.cpp:209
+#: main.cpp:212
 #, kde-format
 msgid "Daniel M. Duley"
 msgstr "Daniel M. Duley"
 
-#: main.cpp:210
+#: main.cpp:213
 #, kde-format
 msgid "Luboš Luňák"
 msgstr "Luboš Luňák"
 
-#: main.cpp:211
+#: main.cpp:214
 #, kde-format
 msgid "Martin Flöser"
 msgstr "Martin Flöser"
 
-#: main.cpp:212
+#: main.cpp:215
 #, kde-format
 msgid "David Edmundson"
 msgstr "David Edmundson"
 
-#: main.cpp:213
+#: main.cpp:216
 #, kde-format
 msgid "Roman Gilg"
 msgstr "Roman Gilg"
 
-#: main.cpp:214
+#: main.cpp:217
 #, kde-format
 msgid "Vlad Zahorodnii"
 msgstr "Vlad Zahorodnii"
 
-#: main.cpp:223
+#: main.cpp:226
 #, kde-format
 msgid "Disable configuration options"
 msgstr "Tắt các lựa chọn cấu hình"
 
-#: main.cpp:224
+#: main.cpp:227
 #, kde-format
 msgid "Indicate that KWin has recently crashed n times"
 msgstr "Cho biết gần đây KWin đã gặp sự cố n lần"
 
-#: main_wayland.cpp:414
+#: main_wayland.cpp:410
 #, kde-format
 msgid "Start a rootless Xwayland server."
 msgstr "Khởi động một trình chủ Xwayland không gốc."
 
-#: main_wayland.cpp:416
+#: main_wayland.cpp:412
 #, kde-format
 msgid ""
 "Name of the Wayland socket to listen on. If not set \"wayland-0\" is used."
 msgstr "Tên của ổ cắm Wayland dùng để nghe. Nếu không đặt, dùng \"wayland-0\"."
 
-#: main_wayland.cpp:419
+#: main_wayland.cpp:415
 #, kde-format
 msgid "Render to framebuffer."
 msgstr "Kết xuất vào framebuffer."
 
-#: main_wayland.cpp:421
+#: main_wayland.cpp:417
 #, kde-format
 msgid "The framebuffer device to render to."
 msgstr "Thiết bị framebuffer để kết xuất vào."
 
-#: main_wayland.cpp:424
+#: main_wayland.cpp:420
 #, kde-format
 msgid "The X11 Display to use in windowed mode on platform X11."
 msgstr "Bộ hiển thị X11 để dùng trong chế độ cửa sổ hoá trên nền tảng X11."
 
-#: main_wayland.cpp:427
+#: main_wayland.cpp:423
 #, kde-format
 msgid "The Wayland Display to use in windowed mode on platform Wayland."
 msgstr ""
 "Bộ hiển thị Wayland để dùng trong chế độ cửa sổ hoá trên nền tảng Wayland."
 
-#: main_wayland.cpp:429
+#: main_wayland.cpp:425
 #, kde-format
 msgid "Render to a virtual framebuffer."
 msgstr "Kết xuất vào một framebuffer ảo."
 
-#: main_wayland.cpp:431
+#: main_wayland.cpp:427
 #, kde-format
 msgid "The width for windowed mode. Default width is 1024."
 msgstr "Chiều rộng cho chế độ cửa sổ hoá. Chiều rộng mặc định là 1024."
 
-#: main_wayland.cpp:435
+#: main_wayland.cpp:431
 #, kde-format
 msgid "The height for windowed mode. Default height is 768."
 msgstr "Chiều cao cho chế độ cửa sổ hoá. Chiều cao mặc định là 768."
 
-#: main_wayland.cpp:440
+#: main_wayland.cpp:436
 #, kde-format
 msgid "The scale for windowed mode. Default value is 1."
 msgstr "Tỉ lệ cho chế độ cửa sổ hoá. Giá trị mặc định là 1."
 
-#: main_wayland.cpp:445
+#: main_wayland.cpp:441
 #, kde-format
 msgid ""
 "The number of windows to open as outputs in windowed mode. Default value is 1"
@@ -1290,7 +1290,7 @@ msgstr ""
 "Số lượng cửa sổ để mở làm đầu ra trong chế độ cửa sổ hoá. Giá trị mặc định "
 "là 1"
 
-#: main_wayland.cpp:450
+#: main_wayland.cpp:446
 #, kde-format
 msgid ""
 "Wayland socket to use for incoming connections. This can be combined with --"
@@ -1299,7 +1299,7 @@ msgstr ""
 "Ổ cắm Wayland để dùng cho các kết nối đến. Có thể kết hợp với --socket để "
 "đặt tên cho ổ cắm"
 
-#: main_wayland.cpp:454
+#: main_wayland.cpp:450
 #, kde-format
 msgid ""
 "XWayland socket to use for Xwayland's incoming connections. This can be set "
@@ -1308,63 +1308,63 @@ msgstr ""
 "Ổ cắm XWayland để dùng cho các kết nối đến của Xwayland. Có thể được đặt "
 "nhiều lần"
 
-#: main_wayland.cpp:458
+#: main_wayland.cpp:454
 #, kde-format
 msgid "Name of the xwayland display that has been pre-set up"
 msgstr "Tên của bộ hiển thị xwayland đã được cài đặt trước"
 
-#: main_wayland.cpp:462
+#: main_wayland.cpp:458
 #, kde-format
 msgid "Name of the xauthority file "
 msgstr "Tên tệp xauthority"
 
-#: main_wayland.cpp:466
+#: main_wayland.cpp:462
 #, kde-format
 msgid "Exits this instance so it can be restarted by kwin_wayland_wrapper."
 msgstr ""
 "Thoát hiện thể này để nó có thể được khởi động lại bởi kwin_wayland_wrapper."
 
-#: main_wayland.cpp:499
+#: main_wayland.cpp:495
 #, kde-format
 msgid "Render through drm node."
 msgstr "Kết xuất qua nút drm."
 
-#: main_wayland.cpp:505
+#: main_wayland.cpp:501
 #, kde-format
 msgid "Input method that KWin starts."
 msgstr "Phương thức nhập mà KWin khởi động."
 
-#: main_wayland.cpp:510
+#: main_wayland.cpp:506
 #, kde-format
 msgid "List all available backends and quit."
 msgstr "Liệt kê tất cả các hậu phương hiện có và thoát."
 
-#: main_wayland.cpp:514
+#: main_wayland.cpp:511
 #, kde-format
 msgid "Starts the session in locked mode."
 msgstr "Khởi động phiên trong chế độ bị khoá."
 
-#: main_wayland.cpp:518
+#: main_wayland.cpp:515
 #, kde-format
 msgid "Starts the session without lock screen support."
 msgstr "Khởi động phiên mà không có hỗ trợ màn hình khoá."
 
-#: main_wayland.cpp:522
+#: main_wayland.cpp:520
 #, kde-format
 msgid "Starts the session without global shortcuts support."
 msgstr "Khởi động phiên mà không có hỗ trợ phím tắt toàn cục."
 
-#: main_wayland.cpp:527 main_x11.cpp:442
+#: main_wayland.cpp:525 main_x11.cpp:442
 #, kde-format
 msgid "Disable KActivities integration."
 msgstr "Tắt tích hợp KActivities."
 
-#: main_wayland.cpp:532
+#: main_wayland.cpp:530
 #, kde-format
 msgid "Exit after the session application, which is started by KWin, closed."
 msgstr "Thoát sau khi ứng dụng phiên, được khởi động bởi KWin, đóng."
 
-#: main_wayland.cpp:537
+#: main_wayland.cpp:535
 #, kde-format
 msgid "Applications to start once Wayland and Xwayland server are started"
 msgstr "Ứng dụng để khởi động khi trình chủ Wayland và Xwayland được khởi động"
