@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kiten\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-09 00:13+0000\n"
+"POT-Creation-Date: 2022-02-03 00:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -93,9 +93,9 @@ msgstr ""
 #, kde-format
 msgid ""
 "Learn mode is disabled in this version of kiten. There are several excellent "
-"open source flashcard programs available, such as Parley in kde-edu (and "
-"probably in your distro's repositories), and the anki project (https://apps."
-"ankiweb.net/)"
+"open source flashcard programs available, such as <a href=\"https://apps.kde."
+"org/parley\">Parley</a>, and the <a href=\"https://apps.ankiweb.net\">Anki "
+"project</a>."
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ConfigSearching)
@@ -214,13 +214,14 @@ msgid ""
 "%1"
 msgstr ""
 
-#: app/kiten.cpp:164
+#: app/kiten.cpp:164 radselect/main.cpp:25
 #, kde-format
 msgid "Radical Selector"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KanjiBrowserView)
 #: app/kiten.cpp:170 kanjibrowser/kanjibrowserview.ui:26
+#: kanjibrowser/main.cpp:29
 #, kde-format
 msgid "Kanji Browser"
 msgstr ""
@@ -471,7 +472,7 @@ msgstr ""
 msgid "Porting to KConfig XT, bug fixing"
 msgstr ""
 
-#: app/main.cpp:50 radselect/main.cpp:29
+#: app/main.cpp:50 radselect/main.cpp:28
 #, kde-format
 msgid "Joseph Kerian"
 msgstr ""
@@ -486,7 +487,7 @@ msgstr ""
 msgid "Eric Kjeldergaard"
 msgstr ""
 
-#: app/main.cpp:52 kanjibrowser/main.cpp:38
+#: app/main.cpp:52 kanjibrowser/main.cpp:37
 #, kde-format
 msgid "Daniel E. Moctezuma"
 msgstr ""
@@ -708,17 +709,12 @@ msgstr ""
 msgid "Meanings: "
 msgstr ""
 
-#: kanjibrowser/main.cpp:15
+#: kanjibrowser/main.cpp:31
 #, kde-format
 msgid "Kiten's Kanji Browser, a KDE Japanese Reference Tool"
 msgstr ""
 
-#: kanjibrowser/main.cpp:30
-#, kde-format
-msgid "kitenkanjibrowser"
-msgstr ""
-
-#: kanjibrowser/main.cpp:34
+#: kanjibrowser/main.cpp:33
 #, kde-format
 msgid "(C) 2011 Daniel E. Moctezuma"
 msgstr ""
@@ -855,25 +851,25 @@ msgstr ""
 msgid "Uncommon"
 msgstr ""
 
-#: lib/kromajiedit.cpp:31
+#: lib/kromajiedit.cpp:32
 #, kde-format
 msgid ""
 "Romaji information file not installed, so Romaji conversion cannot be used."
 msgstr ""
 
-#: lib/kromajiedit.cpp:39
+#: lib/kromajiedit.cpp:40
 #, kde-format
 msgid ""
 "Romaji information could not be loaded, so Romaji conversion cannot be used."
 msgstr ""
 
-#: lib/kromajiedit.cpp:100
+#: lib/kromajiedit.cpp:101
 #, kde-format
 msgctxt "@option:radio selects english translation"
 msgid "English"
 msgstr ""
 
-#: lib/kromajiedit.cpp:112
+#: lib/kromajiedit.cpp:113
 #, kde-format
 msgctxt "@option:radio selects japanese translation"
 msgid "Kana"
@@ -889,27 +885,22 @@ msgstr ""
 msgid "Selected Radicals: "
 msgstr ""
 
-#: radselect/main.cpp:17
+#: radselect/main.cpp:26
 #, kde-format
 msgid "A KDE Application"
 msgstr ""
 
-#: radselect/main.cpp:26
-#, kde-format
-msgid "kitenradselect"
-msgstr ""
-
-#: radselect/main.cpp:28
+#: radselect/main.cpp:27
 #, kde-format
 msgid "(C) 2005 Joseph Kerian"
 msgstr ""
 
-#: radselect/main.cpp:30
+#: radselect/main.cpp:29
 #, kde-format
 msgid "Electronic Dictionary Research and Development Group"
 msgstr ""
 
-#: radselect/main.cpp:30
+#: radselect/main.cpp:29
 #, kde-format
 msgid ""
 "This program uses the KANJIDIC and RADKFILE dictionary files. These files "
@@ -917,7 +908,7 @@ msgid ""
 "Group, and are used in conformance with the Group's licence."
 msgstr ""
 
-#: radselect/main.cpp:37
+#: radselect/main.cpp:36
 #, kde-format
 msgid "Initial Search String from Kiten"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: print-manager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-05 00:21+0000\n"
+"POT-Creation-Date: 2021-12-21 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -35,7 +35,7 @@ msgid "Add a New Printer"
 msgstr ""
 
 #: add-printer/AddPrinterAssistant.cpp:69
-#: add-printer/ChooseLpd.cpp:25 add-printer/ChooseSamba.cpp:24
+#: add-printer/ChooseLpd.cpp:25 add-printer/ChooseSamba.cpp:29
 #: add-printer/ChooseSerial.cpp:23 add-printer/ChooseSocket.cpp:23
 #: add-printer/ChooseUri.cpp:26 add-printer/PageAddPrinter.cpp:26
 #: add-printer/PageChoosePPD.cpp:30 add-printer/PageChoosePrinters.cpp:24
@@ -334,13 +334,13 @@ msgid "Tool for adding new printers"
 msgstr ""
 
 #: add-printer/main.cpp:32 configure-printer/main.cpp:30
-#: printer-manager-kcm/PrintKCM.cpp:38 printqueue/main.cpp:29
+#: printer-manager-kcm/PrintKCM.cpp:41 printqueue/main.cpp:29
 #, kde-format
 msgid "(C) 2010-2018 Daniel Nicoletti"
 msgstr ""
 
 #: add-printer/main.cpp:35 configure-printer/main.cpp:32
-#: printer-manager-kcm/PrintKCM.cpp:40 printqueue/main.cpp:32
+#: printer-manager-kcm/PrintKCM.cpp:43 printqueue/main.cpp:32
 #, kde-format
 msgid "Port to Qt 5 / Plasma 5"
 msgstr ""
@@ -647,7 +647,7 @@ msgid "Failed to configure printer"
 msgstr ""
 
 #: configure-printer/ModifyPrinter.cpp:230
-#: printer-manager-kcm/PrintKCM.cpp:308
+#: printer-manager-kcm/PrintKCM.cpp:311
 #, kde-format
 msgctxt "@title:window"
 msgid "Failed"
@@ -1276,95 +1276,95 @@ msgstr ""
 msgid "Print Self Test Page"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:34 printer-manager-kcm/PrintKCM.cpp:36
+#: printer-manager-kcm/PrintKCM.cpp:37 printer-manager-kcm/PrintKCM.cpp:39
 #, kde-format
 msgid "Print settings"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:53
+#: printer-manager-kcm/PrintKCM.cpp:56
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Add a Printer Class"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:56
+#: printer-manager-kcm/PrintKCM.cpp:59
 #, kde-format
 msgid "Add a new printer or a printer class"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, removeTB)
-#: printer-manager-kcm/PrintKCM.cpp:60 printer-manager-kcm/PrintKCM.ui:32
+#: printer-manager-kcm/PrintKCM.cpp:63 printer-manager-kcm/PrintKCM.ui:32
 #, kde-format
 msgid "Remove Printer"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:65
+#: printer-manager-kcm/PrintKCM.cpp:68
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Show printers shared by other systems"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:69
+#: printer-manager-kcm/PrintKCM.cpp:72
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Share printers connected to this system"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:71
+#: printer-manager-kcm/PrintKCM.cpp:74
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Allow printing from the Internet"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:77
+#: printer-manager-kcm/PrintKCM.cpp:80
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Allow remote administration"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:79
+#: printer-manager-kcm/PrintKCM.cpp:82
 #, kde-format
 msgctxt "@action:intoolbar"
 msgid "Allow users to cancel any job (not just their own)"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:83
+#: printer-manager-kcm/PrintKCM.cpp:86
 #, kde-format
 msgid "Configure the global preferences"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:128 printer-manager-kcm/PrintKCM.cpp:228
+#: printer-manager-kcm/PrintKCM.cpp:131 printer-manager-kcm/PrintKCM.cpp:231
 #, kde-format
 msgid "No printers have been configured or discovered"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:259
+#: printer-manager-kcm/PrintKCM.cpp:262
 #, kde-format
 msgid "Remove class"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:260
+#: printer-manager-kcm/PrintKCM.cpp:263
 #, kde-format
 msgid "Are you sure you want to remove the class '%1'?"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:263
+#: printer-manager-kcm/PrintKCM.cpp:266
 #, kde-format
 msgid "Remove printer"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:264
+#: printer-manager-kcm/PrintKCM.cpp:267
 #, kde-format
 msgid "Are you sure you want to remove the printer '%1'?"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:306
+#: printer-manager-kcm/PrintKCM.cpp:309
 #, kde-format
 msgctxt "@info"
 msgid "Failed to get server settings"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:337
+#: printer-manager-kcm/PrintKCM.cpp:340
 #, kde-format
 msgctxt "@info"
 msgid "Failed to configure server settings"

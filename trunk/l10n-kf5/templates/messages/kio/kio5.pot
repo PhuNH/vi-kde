@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-24 00:41+0000\n"
+"POT-Creation-Date: 2022-03-15 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -2077,17 +2077,17 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr ""
 
-#: core/kfileitem.cpp:1352
+#: core/kfileitem.cpp:1356
 #, kde-format
 msgid "(Symbolic Link to %1)"
 msgstr ""
 
-#: core/kfileitem.cpp:1354
+#: core/kfileitem.cpp:1358
 #, kde-format
 msgid "(%1, Link to %2)"
 msgstr ""
 
-#: core/kfileitem.cpp:1357
+#: core/kfileitem.cpp:1361
 #, kde-format
 msgid " (Points to %1)"
 msgstr ""
@@ -2516,7 +2516,7 @@ msgstr ""
 msgid "Open Containing Folder"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2291 filewidgets/kfileplacesview.cpp:1017
+#: filewidgets/kdiroperator.cpp:2291 filewidgets/kfileplacesview.cpp:1018
 #, kde-format
 msgid "Properties"
 msgstr ""
@@ -2838,41 +2838,52 @@ msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1404
+#: filewidgets/kfileplacesmodel.cpp:1129
+#, kde-format
+msgctxt "Placeholder is error message"
+msgid "Could not add to the Places panel: %1"
+msgstr ""
+
+#: filewidgets/kfileplacesmodel.cpp:1136
+#, kde-format
+msgid "Only folders can be added to the Places panel."
+msgstr ""
+
+#: filewidgets/kfileplacesmodel.cpp:1395
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Release"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1406
+#: filewidgets/kfileplacesmodel.cpp:1397
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Safely Remove"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1409
+#: filewidgets/kfileplacesmodel.cpp:1400
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Unmount"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1428
+#: filewidgets/kfileplacesmodel.cpp:1419
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Eject"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1464
+#: filewidgets/kfileplacesmodel.cpp:1455
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1499
+#: filewidgets/kfileplacesmodel.cpp:1490
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1501
+#: filewidgets/kfileplacesmodel.cpp:1492
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr ""
@@ -2882,78 +2893,78 @@ msgstr ""
 msgid "%1 (hidden)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:986
+#: filewidgets/kfileplacesview.cpp:987
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1004
+#: filewidgets/kfileplacesview.cpp:1005
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mount"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1010
+#: filewidgets/kfileplacesview.cpp:1011
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open in New Tab"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1013
+#: filewidgets/kfileplacesview.cpp:1014
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open in New Window"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1022
+#: filewidgets/kfileplacesview.cpp:1023
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add Entry…"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1028
+#: filewidgets/kfileplacesview.cpp:1029
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Edit…"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1033
+#: filewidgets/kfileplacesview.cpp:1034
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1037
+#: filewidgets/kfileplacesview.cpp:1038
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Hide"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1045
+#: filewidgets/kfileplacesview.cpp:1046
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hide Section '%1'"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1045
+#: filewidgets/kfileplacesview.cpp:1046
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hide Section"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1053
+#: filewidgets/kfileplacesview.cpp:1054
 #, kde-format
 msgid "&Show All Entries"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1058
+#: filewidgets/kfileplacesview.cpp:1059
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Icon Size"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1181
+#: filewidgets/kfileplacesview.cpp:1182
 #, kde-format
 msgctxt ""
 "@item:inmenu Auto set icon size based on available space inthe Places side-"
@@ -2961,25 +2972,25 @@ msgctxt ""
 msgid "Auto Resize"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1201
+#: filewidgets/kfileplacesview.cpp:1202
 #, kde-format
 msgctxt "Small icon size"
 msgid "Small (%1x%1)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1204
+#: filewidgets/kfileplacesview.cpp:1205
 #, kde-format
 msgctxt "Medium icon size"
 msgid "Medium (%1x%1)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1207
+#: filewidgets/kfileplacesview.cpp:1208
 #, kde-format
 msgctxt "Large icon size"
 msgid "Large (%1x%1)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1210
+#: filewidgets/kfileplacesview.cpp:1211
 #, kde-format
 msgctxt "Huge icon size"
 msgid "Huge (%1x%1)"
@@ -3784,7 +3795,7 @@ msgstr ""
 msgid "Site:"
 msgstr ""
 
-#: ioslaves/ftp/ftp.cpp:565 ioslaves/ftp/ftp.cpp:2518
+#: ioslaves/ftp/ftp.cpp:565 ioslaves/ftp/ftp.cpp:2515
 #, kde-format
 msgid "<b>%1</b>"
 msgstr ""
@@ -3799,14 +3810,14 @@ msgstr ""
 msgid "Could not login to %1."
 msgstr ""
 
-#: ioslaves/ftp/ftp.cpp:1058
+#: ioslaves/ftp/ftp.cpp:1055
 #, kde-format
 msgid ""
 "\n"
 "The server said: \"%1\""
 msgstr ""
 
-#: ioslaves/ftp/ftp.cpp:2513 ioslaves/http/http.cpp:5195
+#: ioslaves/ftp/ftp.cpp:2510 ioslaves/http/http.cpp:5195
 #: ioslaves/http/http.cpp:5329
 #, kde-format
 msgid ""
@@ -3814,13 +3825,13 @@ msgid ""
 "below before you are allowed to access any sites."
 msgstr ""
 
-#: ioslaves/ftp/ftp.cpp:2517 ioslaves/http/http.cpp:5199
+#: ioslaves/ftp/ftp.cpp:2514 ioslaves/http/http.cpp:5199
 #: ioslaves/http/http.cpp:5332
 #, kde-format
 msgid "Proxy:"
 msgstr ""
 
-#: ioslaves/ftp/ftp.cpp:2520 ioslaves/http/http.cpp:5202
+#: ioslaves/ftp/ftp.cpp:2517 ioslaves/http/http.cpp:5202
 #: ioslaves/http/http.cpp:5347
 #, kde-format
 msgid "Proxy Authentication Failed."
@@ -4416,7 +4427,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, sizeLabelLeft)
-#: ioslaves/trash/kcmtrash.cpp:258 widgets/kfilepropspluginwidget.ui:276
+#: ioslaves/trash/kcmtrash.cpp:258 widgets/kfilepropspluginwidget.ui:288
 #, kde-format
 msgid "Size:"
 msgstr ""
@@ -6722,85 +6733,85 @@ msgid "Explore in Filelight"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, mountSrcLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:131
+#: widgets/kfilepropspluginwidget.ui:134
 #, kde-format
 msgid "Mounted From:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, freespaceLabel)
-#: widgets/kfilepropspluginwidget.ui:198
+#: widgets/kfilepropspluginwidget.ui:207
 #, kde-format
 msgid "Free Space:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, typeLabel)
-#: widgets/kfilepropspluginwidget.ui:236
+#: widgets/kfilepropspluginwidget.ui:245
 #, kde-format
 msgid "Type:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, locationLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:256 widgets/kurlrequesterdialog.cpp:44
+#: widgets/kfilepropspluginwidget.ui:268 widgets/kurlrequesterdialog.cpp:44
 #, kde-format
 msgid "Location:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, configureMimeBtn)
-#: widgets/kfilepropspluginwidget.ui:321
+#: widgets/kfilepropspluginwidget.ui:336
 #, kde-format
 msgid "Change..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, contentLabel)
-#: widgets/kfilepropspluginwidget.ui:334
+#: widgets/kfilepropspluginwidget.ui:349
 #, kde-format
 msgid "Content:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, symlinkTargetLabel)
-#: widgets/kfilepropspluginwidget.ui:354
+#: widgets/kfilepropspluginwidget.ui:372
 #, kde-format
 msgid "Points to:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, modifiedTimeLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:364
+#: widgets/kfilepropspluginwidget.ui:382
 #, kde-format
 msgid "Modified:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, createdTimeLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:374
+#: widgets/kfilepropspluginwidget.ui:392
 #, kde-format
 msgid "Created:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, fsLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:384
+#: widgets/kfilepropspluginwidget.ui:402
 #, kde-format
 msgid "File System:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KCapacityBar, capacityBar)
-#: widgets/kfilepropspluginwidget.ui:408
+#: widgets/kfilepropspluginwidget.ui:432
 #, kde-format
 msgid "Unknown size"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, mountPointLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:428
+#: widgets/kfilepropspluginwidget.ui:455
 #, kde-format
 msgid "Mounted On:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, accessTimeLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:448
+#: widgets/kfilepropspluginwidget.ui:475
 #, kde-format
 msgid "Accessed:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, defaultHandlerLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:458
+#: widgets/kfilepropspluginwidget.ui:485
 #, kde-format
 msgid "Open With:"
 msgstr ""

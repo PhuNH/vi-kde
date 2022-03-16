@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-24 00:41+0000\n"
+"POT-Creation-Date: 2022-03-15 00:41+0000\n"
 "PO-Revision-Date: 2022-02-09 17:50+0100\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -2353,17 +2353,17 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr "Lỗi chưa được lập tài liệu"
 
-#: core/kfileitem.cpp:1352
+#: core/kfileitem.cpp:1356
 #, kde-format
 msgid "(Symbolic Link to %1)"
 msgstr "(Liên kết tượng trưng đến %1)"
 
-#: core/kfileitem.cpp:1354
+#: core/kfileitem.cpp:1358
 #, kde-format
 msgid "(%1, Link to %2)"
 msgstr "(%1, liên kết đến %2)"
 
-#: core/kfileitem.cpp:1357
+#: core/kfileitem.cpp:1361
 #, kde-format
 msgid " (Points to %1)"
 msgstr " (Trỏ đến %1)"
@@ -2801,7 +2801,7 @@ msgstr "Hiện xem thử"
 msgid "Open Containing Folder"
 msgstr "Mở thư mục chứa"
 
-#: filewidgets/kdiroperator.cpp:2291 filewidgets/kfileplacesview.cpp:1017
+#: filewidgets/kdiroperator.cpp:2291 filewidgets/kfileplacesview.cpp:1018
 #, kde-format
 msgid "Properties"
 msgstr "Thuộc tính"
@@ -3134,31 +3134,44 @@ msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "Âm thanh"
 
-#: filewidgets/kfileplacesmodel.cpp:1404
+#: filewidgets/kfileplacesmodel.cpp:1129
+#, fuzzy, kde-format
+#| msgid "Could not find the program '%1'"
+msgctxt "Placeholder is error message"
+msgid "Could not add to the Places panel: %1"
+msgstr "Không tìm được chương trình '%1'"
+
+#: filewidgets/kfileplacesmodel.cpp:1136
+#, fuzzy, kde-format
+#| msgid "A folder cannot be moved into itself"
+msgid "Only folders can be added to the Places panel."
+msgstr "Không thể chuyển một thư mục vào trong chính nó"
+
+#: filewidgets/kfileplacesmodel.cpp:1395
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Release"
 msgstr "&Rút"
 
-#: filewidgets/kfileplacesmodel.cpp:1406
+#: filewidgets/kfileplacesmodel.cpp:1397
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Safely Remove"
 msgstr "Rút an &toàn"
 
-#: filewidgets/kfileplacesmodel.cpp:1409
+#: filewidgets/kfileplacesmodel.cpp:1400
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Unmount"
 msgstr "Bỏ gắn &kết"
 
-#: filewidgets/kfileplacesmodel.cpp:1428
+#: filewidgets/kfileplacesmodel.cpp:1419
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Eject"
 msgstr "&Rút"
 
-#: filewidgets/kfileplacesmodel.cpp:1464
+#: filewidgets/kfileplacesmodel.cpp:1455
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Thiết bị '%1' không phải là đĩa và không thể rút ra được."
@@ -3166,13 +3179,13 @@ msgstr "Thiết bị '%1' không phải là đĩa và không thể rút ra đư�
 # msgid ""
 # An error occurred while attempting to %1, %2. A summary of the reasons is
 # below.<ul>
-#: filewidgets/kfileplacesmodel.cpp:1499
+#: filewidgets/kfileplacesmodel.cpp:1490
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "Lỗi xảy ra khi đang truy cập '%1', phản hồi từ hệ thống: %2"
 
 # msgid "An unexpected error (%1) occurred while attempting to %2."
-#: filewidgets/kfileplacesmodel.cpp:1501
+#: filewidgets/kfileplacesmodel.cpp:1492
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "Lỗi xảy ra khi đang truy cập '%1'"
@@ -3182,78 +3195,78 @@ msgstr "Lỗi xảy ra khi đang truy cập '%1'"
 msgid "%1 (hidden)"
 msgstr "%1 (ẩn)"
 
-#: filewidgets/kfileplacesview.cpp:986
+#: filewidgets/kfileplacesview.cpp:987
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Đổ rác"
 
-#: filewidgets/kfileplacesview.cpp:1004
+#: filewidgets/kfileplacesview.cpp:1005
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Mount"
 msgstr "Gắn kết"
 
-#: filewidgets/kfileplacesview.cpp:1010
+#: filewidgets/kfileplacesview.cpp:1011
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open in New Tab"
 msgstr "Mở trong thẻ mới"
 
-#: filewidgets/kfileplacesview.cpp:1013
+#: filewidgets/kfileplacesview.cpp:1014
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open in New Window"
 msgstr "Mở trong cửa sổ mới"
 
-#: filewidgets/kfileplacesview.cpp:1022
+#: filewidgets/kfileplacesview.cpp:1023
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add Entry…"
 msgstr "Thêm mục…"
 
-#: filewidgets/kfileplacesview.cpp:1028
+#: filewidgets/kfileplacesview.cpp:1029
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Edit…"
 msgstr "&Sửa…"
 
-#: filewidgets/kfileplacesview.cpp:1033
+#: filewidgets/kfileplacesview.cpp:1034
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove"
 msgstr "Bỏ"
 
-#: filewidgets/kfileplacesview.cpp:1037
+#: filewidgets/kfileplacesview.cpp:1038
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Hide"
 msgstr "Ẩ&n"
 
-#: filewidgets/kfileplacesview.cpp:1045
+#: filewidgets/kfileplacesview.cpp:1046
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hide Section '%1'"
 msgstr "Ẩn khu vực '%1'"
 
-#: filewidgets/kfileplacesview.cpp:1045
+#: filewidgets/kfileplacesview.cpp:1046
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hide Section"
 msgstr "Ẩn khu vực"
 
-#: filewidgets/kfileplacesview.cpp:1053
+#: filewidgets/kfileplacesview.cpp:1054
 #, kde-format
 msgid "&Show All Entries"
 msgstr "Hiện &tất cả các mục"
 
-#: filewidgets/kfileplacesview.cpp:1058
+#: filewidgets/kfileplacesview.cpp:1059
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Icon Size"
 msgstr "Cỡ biểu tượng"
 
-#: filewidgets/kfileplacesview.cpp:1181
+#: filewidgets/kfileplacesview.cpp:1182
 #, kde-format
 msgctxt ""
 "@item:inmenu Auto set icon size based on available space inthe Places side-"
@@ -3261,25 +3274,25 @@ msgctxt ""
 msgid "Auto Resize"
 msgstr "Tự động đổi cỡ"
 
-#: filewidgets/kfileplacesview.cpp:1201
+#: filewidgets/kfileplacesview.cpp:1202
 #, kde-format
 msgctxt "Small icon size"
 msgid "Small (%1x%1)"
 msgstr "Nhỏ (%1x%1)"
 
-#: filewidgets/kfileplacesview.cpp:1204
+#: filewidgets/kfileplacesview.cpp:1205
 #, kde-format
 msgctxt "Medium icon size"
 msgid "Medium (%1x%1)"
 msgstr "Vừa (%1x%1)"
 
-#: filewidgets/kfileplacesview.cpp:1207
+#: filewidgets/kfileplacesview.cpp:1208
 #, kde-format
 msgctxt "Large icon size"
 msgid "Large (%1x%1)"
 msgstr "Lớn (%1x%1)"
 
-#: filewidgets/kfileplacesview.cpp:1210
+#: filewidgets/kfileplacesview.cpp:1211
 #, kde-format
 msgctxt "Huge icon size"
 msgid "Huge (%1x%1)"
@@ -4162,7 +4175,7 @@ msgstr ""
 msgid "Site:"
 msgstr "Địa điểm:"
 
-#: ioslaves/ftp/ftp.cpp:565 ioslaves/ftp/ftp.cpp:2518
+#: ioslaves/ftp/ftp.cpp:565 ioslaves/ftp/ftp.cpp:2515
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
@@ -4177,7 +4190,7 @@ msgstr "Đăng nhập OK"
 msgid "Could not login to %1."
 msgstr "Không đăng nhập được vào %1."
 
-#: ioslaves/ftp/ftp.cpp:1058
+#: ioslaves/ftp/ftp.cpp:1055
 #, kde-format
 msgid ""
 "\n"
@@ -4186,7 +4199,7 @@ msgstr ""
 "\n"
 "Máy chủ nói: \"%1\""
 
-#: ioslaves/ftp/ftp.cpp:2513 ioslaves/http/http.cpp:5195
+#: ioslaves/ftp/ftp.cpp:2510 ioslaves/http/http.cpp:5195
 #: ioslaves/http/http.cpp:5329
 #, kde-format
 msgid ""
@@ -4196,13 +4209,13 @@ msgstr ""
 "Bạn cần đưa ra một tên người dùng và một mật khẩu cho máy chủ uỷ nhiệm được "
 "liệt kê bên dưới trước khi bạn được phép truy cập bất kì địa điểm nào."
 
-#: ioslaves/ftp/ftp.cpp:2517 ioslaves/http/http.cpp:5199
+#: ioslaves/ftp/ftp.cpp:2514 ioslaves/http/http.cpp:5199
 #: ioslaves/http/http.cpp:5332
 #, kde-format
 msgid "Proxy:"
 msgstr "Uỷ nhiệm:"
 
-#: ioslaves/ftp/ftp.cpp:2520 ioslaves/http/http.cpp:5202
+#: ioslaves/ftp/ftp.cpp:2517 ioslaves/http/http.cpp:5202
 #: ioslaves/http/http.cpp:5347
 #, kde-format
 msgid "Proxy Authentication Failed."
@@ -4834,7 +4847,7 @@ msgstr ""
 "mà bạn chỉ ra bên dưới. Nếu không, nó sẽ là không giới hạn.</para>"
 
 #. i18n: ectx: property (text), widget (QLabel, sizeLabelLeft)
-#: ioslaves/trash/kcmtrash.cpp:258 widgets/kfilepropspluginwidget.ui:276
+#: ioslaves/trash/kcmtrash.cpp:258 widgets/kfilepropspluginwidget.ui:288
 #, kde-format
 msgid "Size:"
 msgstr "Kích thước:"
@@ -7486,85 +7499,85 @@ msgid "Explore in Filelight"
 msgstr "Thăm dò trong FileLight"
 
 #. i18n: ectx: property (text), widget (QLabel, mountSrcLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:131
+#: widgets/kfilepropspluginwidget.ui:134
 #, kde-format
 msgid "Mounted From:"
 msgstr "Gắn kết từ:"
 
 #. i18n: ectx: property (text), widget (QLabel, freespaceLabel)
-#: widgets/kfilepropspluginwidget.ui:198
+#: widgets/kfilepropspluginwidget.ui:207
 #, kde-format
 msgid "Free Space:"
 msgstr "Không gian trống:"
 
 #. i18n: ectx: property (text), widget (QLabel, typeLabel)
-#: widgets/kfilepropspluginwidget.ui:236
+#: widgets/kfilepropspluginwidget.ui:245
 #, kde-format
 msgid "Type:"
 msgstr "Kiểu:"
 
 #. i18n: ectx: property (text), widget (QLabel, locationLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:256 widgets/kurlrequesterdialog.cpp:44
+#: widgets/kfilepropspluginwidget.ui:268 widgets/kurlrequesterdialog.cpp:44
 #, kde-format
 msgid "Location:"
 msgstr "Địa điểm:"
 
 #. i18n: ectx: property (text), widget (QPushButton, configureMimeBtn)
-#: widgets/kfilepropspluginwidget.ui:321
+#: widgets/kfilepropspluginwidget.ui:336
 #, kde-format
 msgid "Change..."
 msgstr "Đổi..."
 
 #. i18n: ectx: property (text), widget (QLabel, contentLabel)
-#: widgets/kfilepropspluginwidget.ui:334
+#: widgets/kfilepropspluginwidget.ui:349
 #, kde-format
 msgid "Content:"
 msgstr "Nội dung:"
 
 #. i18n: ectx: property (text), widget (QLabel, symlinkTargetLabel)
-#: widgets/kfilepropspluginwidget.ui:354
+#: widgets/kfilepropspluginwidget.ui:372
 #, kde-format
 msgid "Points to:"
 msgstr "Trỏ đến:"
 
 #. i18n: ectx: property (text), widget (QLabel, modifiedTimeLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:364
+#: widgets/kfilepropspluginwidget.ui:382
 #, kde-format
 msgid "Modified:"
 msgstr "Chỉnh sửa:"
 
 #. i18n: ectx: property (text), widget (QLabel, createdTimeLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:374
+#: widgets/kfilepropspluginwidget.ui:392
 #, kde-format
 msgid "Created:"
 msgstr "Tạo:"
 
 #. i18n: ectx: property (text), widget (QLabel, fsLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:384
+#: widgets/kfilepropspluginwidget.ui:402
 #, kde-format
 msgid "File System:"
 msgstr "Hệ thống tệp:"
 
 #. i18n: ectx: property (text), widget (KCapacityBar, capacityBar)
-#: widgets/kfilepropspluginwidget.ui:408
+#: widgets/kfilepropspluginwidget.ui:432
 #, kde-format
 msgid "Unknown size"
 msgstr "Kích thước không rõ"
 
 #. i18n: ectx: property (text), widget (QLabel, mountPointLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:428
+#: widgets/kfilepropspluginwidget.ui:455
 #, kde-format
 msgid "Mounted On:"
 msgstr "Gắn kết vào:"
 
 #. i18n: ectx: property (text), widget (QLabel, accessTimeLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:448
+#: widgets/kfilepropspluginwidget.ui:475
 #, kde-format
 msgid "Accessed:"
 msgstr "Truy cập:"
 
 #. i18n: ectx: property (text), widget (QLabel, defaultHandlerLabel_Left)
-#: widgets/kfilepropspluginwidget.ui:458
+#: widgets/kfilepropspluginwidget.ui:485
 #, kde-format
 msgid "Open With:"
 msgstr "Mở bằng:"

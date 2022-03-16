@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-01 00:44+0000\n"
+"POT-Creation-Date: 2022-03-16 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -354,154 +354,224 @@ msgstr ""
 msgid "%1 has left the channel"
 msgstr ""
 
-#: core/messages/message.cpp:424
+#: core/messages/message.cpp:423
 #, kde-format
-msgid "Topic was cleared by: %1"
+msgid "%1 left this Team"
 msgstr ""
 
 #: core/messages/message.cpp:426
 #, kde-format
-msgid "%2 changed topic to: <i>%1</i>"
+msgid "Topic was cleared by: %1"
 msgstr ""
 
-#: core/messages/message.cpp:429
+#: core/messages/message.cpp:428
 #, kde-format
-msgid "%2 added %1 to the conversation"
+msgid "%2 changed topic to: <i>%1</i>"
 msgstr ""
 
 #: core/messages/message.cpp:431
 #, kde-format
-msgid "%2 changed room name to <a href=\"ruqola:/room/%1\">#%1</a>"
+msgid "%2 added %1 to the conversation"
 msgstr ""
 
 #: core/messages/message.cpp:433
 #, kde-format
-msgid "%2 removed user %1"
+msgid "%2 changed room name to <a href=\"ruqola:/room/%1\">#%1</a>"
 msgstr ""
 
-#: core/messages/message.cpp:436
+#: core/messages/message.cpp:435
 #, kde-format
-msgid "Description was cleared by %1"
+msgid "%2 removed user %1"
 msgstr ""
 
 #: core/messages/message.cpp:438
 #, kde-format
-msgid "%2 changed room description to %1"
+msgid "Description was cleared by %1"
 msgstr ""
 
-#: core/messages/message.cpp:442
+#: core/messages/message.cpp:440
 #, kde-format
-msgid "Announcement was cleared by %1"
+msgid "%2 changed room description to %1"
 msgstr ""
 
 #: core/messages/message.cpp:444
 #, kde-format
-msgid "%2 changed room announcement to %1"
+msgid "Announcement was cleared by %1"
 msgstr ""
 
-#: core/messages/message.cpp:447
+#: core/messages/message.cpp:446
 #, kde-format
-msgid "%2 changed room privacy to %1"
+msgid "%2 changed room announcement to %1"
 msgstr ""
 
 #: core/messages/message.cpp:449
 #, kde-format
-msgid "Click to join to video"
+msgid "%2 changed room privacy to %1"
 msgstr ""
 
-#: core/messages/message.cpp:452
+#: core/messages/message.cpp:451
 #, kde-format
-msgid "Message Deleted"
+msgid "Click to join to video"
 msgstr ""
 
 #: core/messages/message.cpp:454
 #, kde-format
-msgid "Message Pinned"
+msgid "Message Deleted"
 msgstr ""
 
 #: core/messages/message.cpp:456
 #, kde-format
-msgid "Encrypted Message"
+msgid "Message Pinned"
 msgstr ""
 
 #: core/messages/message.cpp:458
 #, kde-format
-msgid "%1 was unmuted by %2"
+msgid "Encrypted Message"
 msgstr ""
 
 #: core/messages/message.cpp:460
 #, kde-format
-msgid "%1 was muted by %2"
+msgid "%1 was unmuted by %2"
 msgstr ""
 
 #: core/messages/message.cpp:462
 #, kde-format
-msgid "Role '%3' was added to %1 by %2"
+msgid "%1 was muted by %2"
 msgstr ""
 
 #: core/messages/message.cpp:464
 #, kde-format
-msgid "Role '%3' was removed to %1 by %2"
+msgid "Role '%3' was added to %1 by %2"
 msgstr ""
 
-#: core/messages/message.cpp:467
+#: core/messages/message.cpp:466
 #, kde-format
-msgid "Encrypted message: %1"
+msgid "Role '%3' was removed to %1 by %2"
 msgstr ""
 
 #: core/messages/message.cpp:469
 #, kde-format
-msgid "Discussion created about \"%1\""
+msgid "Encrypted message: %1"
 msgstr ""
 
 #: core/messages/message.cpp:471
 #, kde-format
-msgid "%1 has joined the conversation"
+msgid "Discussion created about \"%1\""
 msgstr ""
 
 #: core/messages/message.cpp:473
 #, kde-format
-msgid "This room has been archived by %1"
+msgid "%1 has joined the conversation"
 msgstr ""
 
 #: core/messages/message.cpp:475
 #, kde-format
+msgid "This room has been archived by %1"
+msgstr ""
+
+#: core/messages/message.cpp:477
+#, kde-format
 msgid "This room has been unarchived by %1"
 msgstr ""
 
-#: core/messages/message.cpp:478 core/messages/message.cpp:495
+#: core/messages/message.cpp:480 core/messages/message.cpp:523
 #, kde-format
 msgid "Unknown action!"
 msgstr ""
 
-#: core/messages/message.cpp:482
+#: core/messages/message.cpp:484
 #, kde-format
 msgid "Welcome %1!"
 msgstr ""
 
-#: core/messages/message.cpp:484
+#: core/messages/message.cpp:486
 #, kde-format
 msgid "Room avatar changed by %1"
 msgstr ""
 
-#: core/messages/message.cpp:486
+#: core/messages/message.cpp:488
 #, kde-format
 msgid "This room's encryption has been enabled by %1"
 msgstr ""
 
-#: core/messages/message.cpp:488
+#: core/messages/message.cpp:490
 #, kde-format
 msgid "This room's encryption has been disabled by %1"
 msgstr ""
 
-#: core/messages/message.cpp:490
+#: core/messages/message.cpp:492
 #, kde-format
 msgid "Room set as Read Only by  %1"
 msgstr ""
 
-#: core/messages/message.cpp:492
+#: core/messages/message.cpp:494
 #, kde-format
-msgid "Room added writing permission by  %1"
+msgid "Room added writing permission by %1"
+msgstr ""
+
+#: core/messages/message.cpp:496
+#, kde-format
+msgid "%1 added @%2 to this Team"
+msgstr ""
+
+#: core/messages/message.cpp:498
+#, kde-format
+msgid "Removed %1 from this Team"
+msgstr ""
+
+#: core/messages/message.cpp:500
+#, kde-format
+msgid "%1 converted #%2 to a Team"
+msgstr ""
+
+#: core/messages/message.cpp:502
+#, kde-format
+msgid "%1 converted #%2 to a Channel"
+msgstr ""
+
+#: core/messages/message.cpp:504
+#, kde-format
+msgid "%1 removed #%2 from this Team"
+msgstr ""
+
+#: core/messages/message.cpp:506
+#, kde-format
+msgid "%1 deleted #%2"
+msgstr ""
+
+#: core/messages/message.cpp:508
+#, kde-format
+msgid "%1 added #%2 to this Team"
+msgstr ""
+
+#: core/messages/message.cpp:510
+#, kde-format
+msgid "Room allowed reacting by %1"
+msgstr ""
+
+#: core/messages/message.cpp:512
+#, kde-format
+msgid "Room disallowed reacting by %1"
+msgstr ""
+
+#: core/messages/message.cpp:514
+#, kde-format
+msgid "%1 joined this Team"
+msgstr ""
+
+#: core/messages/message.cpp:516
+#, kde-format
+msgid "Has joined OTR chat."
+msgstr ""
+
+#: core/messages/message.cpp:518
+#, kde-format
+msgid "key refreshed successfully"
+msgstr ""
+
+#: core/messages/message.cpp:520
+#, kde-format
+msgid "Has requested key refresh."
 msgstr ""
 
 #: core/messages/messageattachment.cpp:244
@@ -699,7 +769,7 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:116 widgets/ruqolamainwindow.cpp:378
+#: core/model/adminusersmodel.cpp:116 widgets/ruqolamainwindow.cpp:385
 #, kde-format
 msgid "Status"
 msgstr ""
@@ -739,7 +809,7 @@ msgstr ""
 msgid "Join At"
 msgstr ""
 
-#: core/model/emoticonmodel.cpp:95 widgets/misc/emoticonmenuwidget.cpp:107
+#: core/model/emoticonmodel.cpp:94 widgets/misc/emoticonmenuwidget.cpp:107
 #, kde-format
 msgid "Custom"
 msgstr ""
@@ -903,23 +973,23 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: core/model/statusmodel.cpp:62 core/utils.cpp:354
+#: core/model/statusmodel.cpp:62 core/utils.cpp:359
 #, kde-format
 msgid "Online"
 msgstr ""
 
-#: core/model/statusmodel.cpp:64 core/utils.cpp:356 widgets/room/usersinroomcombobox.cpp:24
+#: core/model/statusmodel.cpp:64 core/utils.cpp:361 widgets/room/usersinroomcombobox.cpp:24
 #, kde-format
 msgid "Busy"
 msgstr ""
 
-#: core/model/statusmodel.cpp:66 core/utils.cpp:358 widgets/room/usersinroomcombobox.cpp:23
+#: core/model/statusmodel.cpp:66 core/utils.cpp:363 widgets/room/usersinroomcombobox.cpp:23
 #, kde-format
 msgid "Away"
 msgstr ""
 
 #: core/model/statusmodel.cpp:68 core/model/usersmodel.cpp:71
-#: core/utils.cpp:360
+#: core/utils.cpp:365
 #, kde-format
 msgid "Offline"
 msgstr ""
@@ -956,77 +1026,132 @@ msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:38
 #, kde-format
-msgid "Hide \"User Join\" messages"
+msgid "Hide \"User Left Team\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:39
 #, kde-format
-msgid "Hide \"Role No Longer Defined\" messages"
+msgid "Hide \"User Join\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:40
 #, kde-format
-msgid "Hide \"Was Set Role\" messages"
+msgid "Hide \"Role No Longer Defined\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:41
 #, kde-format
-msgid "Hide \"User Removed\" messages"
+msgid "Hide \"Was Set Role\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:42
 #, kde-format
-msgid "Hide \"Room Unarchived\" messages"
+msgid "Hide \"User Removed\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:43
 #, kde-format
-msgid "Hide \"Room encryption disabled\" messages"
+msgid "Hide \"Room Unarchived\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:44
 #, kde-format
-msgid "Hide \"Room encryption enabled\" messages"
+msgid "Hide \"Room encryption disabled\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:45
 #, kde-format
-msgid "Hide \"Room type changed\" messages"
+msgid "Hide \"Room encryption enabled\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:46
 #, kde-format
-msgid "Hide \"Room avatar changed\" messages"
+msgid "Hide \"Room type changed\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:47
 #, kde-format
-msgid "Hide \"User Muted / Unmuted\" messages"
+msgid "Hide \"Room avatar changed\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:48
 #, kde-format
-msgid "Hide \"Room Name Changed\" messages"
+msgid "Hide \"User Muted / Unmuted\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:49
 #, kde-format
-msgid "Hide \"Message Removed\" messages"
+msgid "Hide \"Room Name Changed\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:50
 #, kde-format
-msgid "Hide \"Room Archived\" messages"
+msgid "Hide \"Message Removed\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:51
 #, kde-format
-msgid "Hide \"Encryption Enabled\" messages"
+msgid "Hide \"Room Archived\" messages"
 msgstr ""
 
 #: core/model/systemmessagesmodel.cpp:52
 #, kde-format
+msgid "Hide \"Encryption Enabled\" messages"
+msgstr ""
+
+#: core/model/systemmessagesmodel.cpp:53
+#, kde-format
 msgid "Hide \"Encryption Disabled\" messages"
+msgstr ""
+
+#: core/model/systemmessagesmodel.cpp:54
+#, kde-format
+msgid "Hide \"Room added writing permission\" messages"
+msgstr ""
+
+#: core/model/systemmessagesmodel.cpp:55
+#, kde-format
+msgid "Hide \"Room set Read Only\" messages"
+msgstr ""
+
+#: core/model/systemmessagesmodel.cpp:56
+#, kde-format
+msgid "Hide \"Room disallowed reacting\" messages"
+msgstr ""
+
+#: core/model/systemmessagesmodel.cpp:57
+#, kde-format
+msgid "Hide \"Room allowed reacting\" messages"
+msgstr ""
+
+#: core/model/systemmessagesmodel.cpp:58
+#, kde-format
+msgid "Hide \"User Added Room to Team\" messages"
+msgstr ""
+
+#: core/model/systemmessagesmodel.cpp:59
+#, kde-format
+msgid "Hide \"User converted team to a Channel\" messages"
+msgstr ""
+
+#: core/model/systemmessagesmodel.cpp:60
+#, kde-format
+msgid "Hide \"User converted channel to a Team\" messages"
+msgstr ""
+
+#: core/model/systemmessagesmodel.cpp:61
+#, kde-format
+msgid "Hide \"User deleted room from Team\" messages"
+msgstr ""
+
+#: core/model/systemmessagesmodel.cpp:62
+#, kde-format
+msgid "Hide \"User removed room from Team\" messages"
+msgstr ""
+
+#: core/model/systemmessagesmodel.cpp:63
+#, kde-format
+msgid "Joined this Team"
 msgstr ""
 
 #: core/model/teamroomsmodel.cpp:32
@@ -1101,12 +1226,12 @@ msgstr ""
 msgid "<strong>%1</strong> are typing..."
 msgstr ""
 
-#: core/rocketchataccount.cpp:2656
+#: core/rocketchataccount.cpp:2657
 #, kde-format
 msgid "Export Messages"
 msgstr ""
 
-#: core/rocketchataccount.cpp:2657
+#: core/rocketchataccount.cpp:2658
 #, kde-format
 msgid "Your email has been queued for sending."
 msgstr ""
@@ -1126,17 +1251,17 @@ msgstr ""
 msgid "Moderator"
 msgstr ""
 
-#: core/room.cpp:1457
+#: core/room.cpp:1462
 #, kde-format
 msgid "Channel is read only."
 msgstr ""
 
-#: core/room.cpp:1460
+#: core/room.cpp:1465
 #, kde-format
 msgid "You have blocked this channel."
 msgstr ""
 
-#: core/room.cpp:1463
+#: core/room.cpp:1468
 #, kde-format
 msgid "Channel was blocked."
 msgstr ""
@@ -1851,6 +1976,11 @@ msgstr ""
 msgid "Unread message not authorized."
 msgstr ""
 
+#: rocketchatrestapi-qt5/teams/channelsconverttoteamjob.cpp:97
+#, kde-format
+msgid "Channel can not convert to Team."
+msgstr ""
+
 #: rocketchatrestapi-qt5/teams/teamaddroomsjob.cpp:112
 #, kde-format
 msgid "You don't have permission to add this channel to the team"
@@ -2100,7 +2230,7 @@ msgstr ""
 #: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:28
 #: widgets/dialogs/directchannelinfowidget.cpp:51
 #: widgets/dialogs/modifystatuswidget.cpp:32
-#: widgets/ruqolamainwindow.cpp:385
+#: widgets/ruqolamainwindow.cpp:392
 #, kde-format
 msgid "Status:"
 msgstr ""
@@ -2322,7 +2452,13 @@ msgstr ""
 msgid "Featured"
 msgstr ""
 
-#: widgets/administratordialog/rooms/administratorroomseditdialog.cpp:20
+#: widgets/administratordialog/rooms/administratorroomseditdialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Direct Room"
+msgstr ""
+
+#: widgets/administratordialog/rooms/administratorroomseditdialog.cpp:31
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Room"
@@ -2777,28 +2913,38 @@ msgstr ""
 msgid "Hide Channel"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:119
-#: widgets/channellist/channellistview.cpp:228
+#: widgets/channellist/channellistview.cpp:120
+#: widgets/channellist/channellistview.cpp:231
 #, kde-format
 msgid "Convert to Team"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:128
+#: widgets/channellist/channellistview.cpp:129
 #, kde-format
 msgid "Convert to Channel"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:138
+#: widgets/channellist/channellistview.cpp:139
 #, kde-format
 msgid "Move to Team"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:151
+#: widgets/channellist/channellistview.cpp:152
 #, kde-format
 msgid "Quit Channel"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:228
+#: widgets/channellist/channellistview.cpp:189
+#, kde-format
+msgid "Any team selected."
+msgstr ""
+
+#: widgets/channellist/channellistview.cpp:189
+#, kde-format
+msgid "Move To Team"
+msgstr ""
+
+#: widgets/channellist/channellistview.cpp:231
 #, kde-format
 msgid "Are you sure to convert it to team? It can not be undo."
 msgstr ""
@@ -2824,7 +2970,7 @@ msgstr ""
 msgid "Next Channel"
 msgstr ""
 
-#: widgets/common/delegateutil.cpp:53
+#: widgets/common/delegateutil.cpp:64
 #, kde-format
 msgid "Error saving file"
 msgstr ""
@@ -3088,9 +3234,14 @@ msgstr ""
 msgid "Maximum message age in days (default: 300):"
 msgstr ""
 
-#: widgets/dialogs/channelnamevalidlinewidget.cpp:38
+#: widgets/dialogs/channelnamevalidlinewidget.cpp:59
 #, kde-format
-msgid "%1 is already used"
+msgid "%1 name is already used."
+msgstr ""
+
+#: widgets/dialogs/channelnamevalidlinewidget.cpp:65
+#, kde-format
+msgid "Invalid characters found."
 msgstr ""
 
 #: widgets/dialogs/channelpassworddialog.cpp:18
@@ -3107,6 +3258,11 @@ msgstr ""
 #: widgets/dialogs/channelsearchnamelineresultwidget.cpp:27
 #, kde-format
 msgid "Clear"
+msgstr ""
+
+#: widgets/dialogs/channelsearchwidget.cpp:25
+#, kde-format
+msgid "Select a channel"
 msgstr ""
 
 #: widgets/dialogs/configurenotificationdialog.cpp:17
@@ -3274,9 +3430,16 @@ msgid "Invite Users"
 msgstr ""
 
 #: widgets/dialogs/createnewdiscussionwidget.cpp:54
-#: widgets/ruqolamainwindow.cpp:704
+#: widgets/ruqolamainwindow.cpp:727
 #, kde-format
 msgid "Message"
+msgstr ""
+
+#: widgets/dialogs/createnewdiscussionwidget.cpp:60
+#, kde-format
+msgid ""
+"Usually a discussion starts with a question, like \"How do I upload a "
+"picture?\""
 msgstr ""
 
 #: widgets/dialogs/createnewserverdialog.cpp:25
@@ -3445,6 +3608,18 @@ msgctxt "@title:window"
 msgid "Play Sound"
 msgstr ""
 
+#: widgets/dialogs/playsounddialog.cpp:35
+#, kde-format
+msgctxt "@title:window"
+msgid "Sound: %1"
+msgstr ""
+
+#: widgets/dialogs/playsoundwidget.cpp:193
+#: widgets/dialogs/showvideowidget.cpp:199
+#, kde-format
+msgid "Error: "
+msgstr ""
+
 #: widgets/dialogs/reportmessagedialog.cpp:24
 #, kde-format
 msgctxt "@title:window"
@@ -3509,7 +3684,7 @@ msgid "No result found"
 msgstr ""
 
 #: widgets/dialogs/searchchannelwidget.cpp:32
-#: widgets/ruqolamainwindow.cpp:290
+#: widgets/ruqolamainwindow.cpp:297
 #, kde-format
 msgid "Search Channel..."
 msgstr ""
@@ -3743,11 +3918,6 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Video: %1"
-msgstr ""
-
-#: widgets/dialogs/showvideowidget.cpp:152
-#, kde-format
-msgid "Error: "
 msgstr ""
 
 #: widgets/dialogs/uploadfiledialog.cpp:24
@@ -4370,57 +4540,57 @@ msgstr ""
 msgid "Save Sound"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:393
+#: widgets/room/delegate/messagelistdelegate.cpp:394
 #: widgets/room/usersinroommenu.cpp:85
 #, kde-format
 msgid "User Info"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:401
+#: widgets/room/delegate/messagelistdelegate.cpp:402
 #, kde-format
 msgid "Start a Private Conversation"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:533
+#: widgets/room/delegate/messagelistdelegate.cpp:534
 #, kde-format
 msgid "1 reply"
 msgid_plural "%1 replies"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:540
+#: widgets/room/delegate/messagelistdelegate.cpp:541
 #, kde-format
 msgid "1 message"
 msgid_plural "%1 messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:540
+#: widgets/room/delegate/messagelistdelegate.cpp:541
 #, kde-format
 msgid "No message yet"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:733
+#: widgets/room/delegate/messagelistdelegate.cpp:735
 #, kde-format
 msgid "Following"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:737
+#: widgets/room/delegate/messagelistdelegate.cpp:739
 #, kde-format
 msgid "Message has been pinned"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:741
+#: widgets/room/delegate/messagelistdelegate.cpp:743
 #, kde-format
 msgid "Message has been starred"
 msgstr ""
 
-#: widgets/room/messagelinewidget.cpp:226
+#: widgets/room/messagelinewidget.cpp:240
 #, kde-format
 msgid "File selected is too big (Maximum size %1)"
 msgstr ""
 
-#: widgets/room/messagelinewidget.cpp:226
+#: widgets/room/messagelinewidget.cpp:240
 #, kde-format
 msgid "File upload"
 msgstr ""
@@ -4500,58 +4670,58 @@ msgstr ""
 msgid "Reply in Thread"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:372
+#: widgets/room/messagelistview.cpp:373
 #, kde-format
 msgid "Show Original Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:372
+#: widgets/room/messagelistview.cpp:373
 #, kde-format
 msgid "Translate Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:427
+#: widgets/room/messagelistview.cpp:428
 #, kde-format
 msgid "Go to Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:445
+#: widgets/room/messagelistview.cpp:446
 #, kde-format
 msgid "Report Message"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:632
+#: widgets/room/messagelistview.cpp:639
 #, kde-format
 msgid "Do you want to delete this message?"
 msgstr ""
 
-#: widgets/room/messagelistview.cpp:633
+#: widgets/room/messagelistview.cpp:640
 #, kde-format
 msgctxt "@title"
 msgid "Delete Message"
 msgstr ""
 
-#: widgets/room/messagetextedit.cpp:137
+#: widgets/room/messagetextedit.cpp:138
 #, kde-format
 msgid "Change Text Format"
 msgstr ""
 
-#: widgets/room/messagetextedit.cpp:139
+#: widgets/room/messagetextedit.cpp:140
 #, kde-format
 msgid "Bold"
 msgstr ""
 
-#: widgets/room/messagetextedit.cpp:140
+#: widgets/room/messagetextedit.cpp:141
 #, kde-format
 msgid "Italic"
 msgstr ""
 
-#: widgets/room/messagetextedit.cpp:141
+#: widgets/room/messagetextedit.cpp:142
 #, kde-format
 msgid "Strike-out"
 msgstr ""
 
-#: widgets/room/messagetextedit.cpp:143
+#: widgets/room/messagetextedit.cpp:144
 #, kde-format
 msgid "Code Block"
 msgstr ""
@@ -4628,19 +4798,24 @@ msgstr ""
 msgid "Replying in a thread"
 msgstr ""
 
-#: widgets/room/roomreplythreadwidget.cpp:30
+#: widgets/room/roomreplythreadwidget.cpp:34
 #, kde-format
 msgid "Reply in Thread for Message: '%1'"
 msgstr ""
 
-#: widgets/room/roomwidget.cpp:215
+#: widgets/room/roomwidget.cpp:214
 #, kde-format
 msgid "Do you want really remove history?"
 msgstr ""
 
-#: widgets/room/roomwidget.cpp:216
+#: widgets/room/roomwidget.cpp:215
 #, kde-format
 msgid "Remove History"
+msgstr ""
+
+#: widgets/room/uploadfileprogressstatuswidget.cpp:34
+#, kde-format
+msgid "Cancel Upload"
 msgstr ""
 
 #: widgets/room/usersinroomcombobox.cpp:21
@@ -4808,117 +4983,129 @@ msgstr ""
 msgid "Login Failed: generic error"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:277
+#: widgets/ruqolamainwindow.cpp:284
 #, kde-format
 msgid "Add Server..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:282
+#: widgets/ruqolamainwindow.cpp:289
 #, kde-format
 msgid "Server Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:286
+#: widgets/ruqolamainwindow.cpp:293
 #, kde-format
 msgid "Logout Current Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:294
+#: widgets/ruqolamainwindow.cpp:301
 #, kde-format
 msgid "Jump to Next Unread Channel"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:299
+#: widgets/ruqolamainwindow.cpp:306
 #, kde-format
 msgid "Create New Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:303
+#: widgets/ruqolamainwindow.cpp:310
 #, kde-format
 msgid "Create Direct Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:307
+#: widgets/ruqolamainwindow.cpp:314
 #, kde-format
 msgid "Create Discussion..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:311
+#: widgets/ruqolamainwindow.cpp:318
 #, kde-format
 msgid "Create Team..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:319
+#: widgets/ruqolamainwindow.cpp:326
 #, kde-format
 msgid "Unread on Top"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:324
+#: widgets/ruqolamainwindow.cpp:331
 #, kde-format
 msgid "Show Channel Log"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:328
+#: widgets/ruqolamainwindow.cpp:335
 #, kde-format
 msgid "Mark All Channels as Read"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:333
+#: widgets/ruqolamainwindow.cpp:340
 #, kde-format
 msgid "Register a New User..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:337
+#: widgets/ruqolamainwindow.cpp:344
 #, kde-format
 msgid "My Account..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:341
+#: widgets/ruqolamainwindow.cpp:348
 #, kde-format
 msgid "Administrator..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:345
+#: widgets/ruqolamainwindow.cpp:352
 #, kde-format
 msgid "Directory..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:366
+#: widgets/ruqolamainwindow.cpp:373
 #, kde-format
 msgid "&Next Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:371
+#: widgets/ruqolamainwindow.cpp:378
 #, kde-format
 msgid "&Previous Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:401
+#: widgets/ruqolamainwindow.cpp:408
 #, kde-format
 msgid "Previous Selected Channel"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:408
+#: widgets/ruqolamainwindow.cpp:415
 #, kde-format
 msgid "Next Selected Channel"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:438
+#: widgets/ruqolamainwindow.cpp:461
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Team"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:613
+#: widgets/ruqolamainwindow.cpp:636
 #, kde-format
 msgid ""
 "We have sent you an email to confirm your registration.\n"
 "If you do not receive an email shortly, please come back and try again."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:614
+#: widgets/ruqolamainwindow.cpp:637
 #, kde-format
 msgid "Register New User"
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:754
+#, kde-format
+msgid ""
+"<qt>This will hide the menu bar completely. You can show it again by typing "
+"%1.</qt>"
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:757
+#, kde-format
+msgid "Hide menu bar"
 msgstr ""
 
 #. i18n: ectx: Menu (windows)
@@ -4927,14 +5114,20 @@ msgstr ""
 msgid "&Window"
 msgstr ""
 
-#. i18n: ectx: Menu (display)
+#. i18n: ectx: Menu (settings)
 #: widgets/ruqolaui.rc:40
+#, kde-format
+msgid "&Settings"
+msgstr ""
+
+#. i18n: ectx: Menu (display)
+#: widgets/ruqolaui.rc:44
 #, kde-format
 msgid "Display"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/ruqolaui.rc:46
+#: widgets/ruqolaui.rc:50
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""

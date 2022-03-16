@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kget\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-28 00:18+0000\n"
+"POT-Creation-Date: 2022-01-29 00:43+0000\n"
 "PO-Revision-Date: 2012-07-09 22:04+0800\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -52,7 +52,7 @@ msgid "Execute action after all downloads have been finished:"
 msgstr "Thực hiện hành động sau khi đã tải xong tất cả:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_AfterFinishAction)
-#: conf/dlgadvanced.ui:34 mainwindow.cpp:365 ui/droptarget.cpp:91
+#: conf/dlgadvanced.ui:34 mainwindow.cpp:364 ui/droptarget.cpp:91
 #, kde-format
 msgid "Quit KGet"
 msgstr "Thoát KGet"
@@ -335,17 +335,17 @@ msgstr ""
 msgid "Sqlite"
 msgstr ""
 
-#: conf/preferencesdialog.cpp:58 mainwindow.cpp:371
+#: conf/preferencesdialog.cpp:58 mainwindow.cpp:370
 #, kde-format
 msgid "Turn Off Computer"
 msgstr "Tắt máy"
 
-#: conf/preferencesdialog.cpp:59 mainwindow.cpp:376
+#: conf/preferencesdialog.cpp:59 mainwindow.cpp:375
 #, kde-format
 msgid "Hibernate Computer"
 msgstr "Ngủ đông"
 
-#: conf/preferencesdialog.cpp:60 mainwindow.cpp:381
+#: conf/preferencesdialog.cpp:60 mainwindow.cpp:380
 #, kde-format
 msgid "Suspend Computer"
 msgstr "Ngưng"
@@ -482,7 +482,7 @@ msgid "Keyservers:"
 msgstr "Máy chủ khoá:"
 
 #: core/datasourcefactory.cpp:279 core/datasourcefactory.cpp:624
-#: core/kget.cpp:1390 transfer-plugins/metalink/metalink.cpp:200
+#: core/kget.cpp:1386 transfer-plugins/metalink/metalink.cpp:200
 #: transfer-plugins/metalink/metalinkhttp.cpp:242
 #: transfer-plugins/metalink/metalinkxml.cpp:199
 #: ui/metalinkcreator/metalinkcreator.cpp:149
@@ -551,54 +551,54 @@ msgid ""
 "settings or restart KGet and retry downloading."
 msgstr ""
 
-#: core/kget.cpp:121
+#: core/kget.cpp:120
 #, kde-format
 msgid "Are you sure that you want to remove the group named %1?"
 msgstr "Bạn có chắc muốn gỡ bỏ nhóm tên %1 không?"
 
-#: core/kget.cpp:122
+#: core/kget.cpp:121
 #, kde-format
 msgid "Remove Group"
 msgstr "Xoá nhóm"
 
-#: core/kget.cpp:146
+#: core/kget.cpp:145
 #, kde-format
 msgid "Are you sure that you want to remove the following groups?"
 msgstr "Bạn có chắc muốn gỡ bỏ các nhóm sau không?"
 
-#: core/kget.cpp:148
+#: core/kget.cpp:147
 #, kde-format
 msgid "Remove groups"
 msgstr "Xoá nhóm"
 
-#: core/kget.cpp:254
+#: core/kget.cpp:253
 #, kde-format
 msgid ""
 "<p>The following transfer has been added to the download list:</p><p style="
 "\"font-size: small;\">%1</p>"
 msgstr ""
 
-#: core/kget.cpp:255 core/kget.cpp:352
+#: core/kget.cpp:254 core/kget.cpp:351
 #, kde-format
 msgid "Download added"
 msgstr "Đã thêm mục tải"
 
-#: core/kget.cpp:347
+#: core/kget.cpp:346
 #, kde-format
 msgid "<p>The following transfer has been added to the download list:</p>"
 msgstr ""
 
-#: core/kget.cpp:349
+#: core/kget.cpp:348
 #, kde-format
 msgid "<p>The following transfers have been added to the download list:</p>"
 msgstr ""
 
-#: core/kget.cpp:517 core/kget.cpp:566
+#: core/kget.cpp:516 core/kget.cpp:565
 #, kde-format
 msgid "My Downloads"
 msgstr "Bản tải của tôi"
 
-#: core/kget.cpp:576
+#: core/kget.cpp:575
 #, kde-format
 msgid ""
 "The file %1 already exists.\n"
@@ -607,17 +607,17 @@ msgstr ""
 "Tệp %1 đã có.\n"
 "Ghi đè không?"
 
-#: core/kget.cpp:577
+#: core/kget.cpp:576
 #, kde-format
 msgid "Overwrite existing file?"
 msgstr "Ghi đè lên tệp đã có?"
 
-#: core/kget.cpp:598 ui/metalinkcreator/metalinkcreator.cpp:166
+#: core/kget.cpp:597 ui/metalinkcreator/metalinkcreator.cpp:166
 #, kde-format
 msgid "Unable to save to: %1"
 msgstr "Không thể lưu vào : %1"
 
-#: core/kget.cpp:901
+#: core/kget.cpp:900
 #, kde-format
 msgid ""
 "<p>The following URL cannot be downloaded, its protocol is not supported by "
@@ -627,34 +627,34 @@ msgid_plural ""
 "supported by KGet:</p>"
 msgstr[0] ""
 
-#: core/kget.cpp:911
+#: core/kget.cpp:910
 #, kde-format
 msgid "Protocol unsupported"
 msgstr ""
 
-#: core/kget.cpp:965 ui/newtransferdialog.cpp:53
+#: core/kget.cpp:964 ui/newtransferdialog.cpp:53
 #, kde-format
 msgid "New Download"
 msgstr "Tải về mới"
 
-#: core/kget.cpp:965
+#: core/kget.cpp:964
 #, kde-format
 msgid "Enter URL:"
 msgstr "Nhập URL:"
 
-#: core/kget.cpp:985
+#: core/kget.cpp:984
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Directory"
 msgstr ""
 
-#: core/kget.cpp:1004
+#: core/kget.cpp:1003
 #, kde-format
 msgctxt "@title:window"
 msgid "Save As"
 msgstr ""
 
-#: core/kget.cpp:1017 core/urlchecker.cpp:366
+#: core/kget.cpp:1016 core/urlchecker.cpp:366
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -663,7 +663,7 @@ msgstr ""
 "URL dạng sai:\n"
 "%1"
 
-#: core/kget.cpp:1024 core/urlchecker.cpp:368
+#: core/kget.cpp:1023 core/urlchecker.cpp:368
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL:\n"
@@ -675,7 +675,7 @@ msgstr ""
 "URL dạng sai:\n"
 "%1"
 
-#: core/kget.cpp:1035 core/urlchecker.cpp:424
+#: core/kget.cpp:1034 core/urlchecker.cpp:424
 #, kde-format
 msgid ""
 "You have already completed a download from the location: \n"
@@ -685,13 +685,13 @@ msgid ""
 "Download it again?"
 msgstr ""
 
-#: core/kget.cpp:1036 core/urlchecker.cpp:641
+#: core/kget.cpp:1035 core/urlchecker.cpp:641
 #, fuzzy, kde-format
 #| msgid "Download URL again?"
 msgid "Download it again?"
 msgstr "Tải về URL lần nữa không?"
 
-#: core/kget.cpp:1048 core/urlchecker.cpp:426
+#: core/kget.cpp:1047 core/urlchecker.cpp:426
 #, kde-format
 msgid ""
 "You have a download in progress from the location: \n"
@@ -701,18 +701,18 @@ msgid ""
 "Delete it and download again?"
 msgstr ""
 
-#: core/kget.cpp:1049 core/urlchecker.cpp:638
+#: core/kget.cpp:1048 core/urlchecker.cpp:638
 #, fuzzy, kde-format
 #| msgid "Download URL again?"
 msgid "Delete it and download again?"
 msgstr "Tải về URL lần nữa không?"
 
-#: core/kget.cpp:1072 core/kget.cpp:1079
+#: core/kget.cpp:1071 core/kget.cpp:1078
 #, kde-format
 msgid "Directory is not writable"
 msgstr ""
 
-#: core/kget.cpp:1107
+#: core/kget.cpp:1106
 #, kde-format
 msgid ""
 "You have already downloaded that file from another location.\n"
@@ -720,7 +720,7 @@ msgid ""
 "Download and delete the previous one?"
 msgstr ""
 
-#: core/kget.cpp:1108 core/urlchecker.cpp:650
+#: core/kget.cpp:1107 core/urlchecker.cpp:650
 #, fuzzy, kde-format
 #| msgid ""
 #| "URL already saved:\n"
@@ -732,12 +732,12 @@ msgstr ""
 "%1\n"
 "Tải về lại không?"
 
-#: core/kget.cpp:1117
+#: core/kget.cpp:1116
 #, kde-format
 msgid "You are already downloading the same file"
 msgstr ""
 
-#: core/kget.cpp:1121 core/kget.cpp:1124 core/urlchecker.cpp:653
+#: core/kget.cpp:1120 core/kget.cpp:1123 core/urlchecker.cpp:653
 #: core/urlchecker.cpp:735 transfer-plugins/metalink/abstractmetalink.cpp:481
 #: transfer-plugins/metalink/metalink.cpp:717
 #, fuzzy, kde-format
@@ -749,17 +749,17 @@ msgstr ""
 "Tệp %1 đã có.\n"
 "Ghi đè không?"
 
-#: core/kget.cpp:1228
+#: core/kget.cpp:1224
 #, kde-format
 msgid "Internet connection established, resuming transfers."
 msgstr ""
 
-#: core/kget.cpp:1233
+#: core/kget.cpp:1229
 #, kde-format
 msgid "No internet connection, stopping transfers."
 msgstr ""
 
-#: core/kget.cpp:1246
+#: core/kget.cpp:1242
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>KLibLoader could not load the plugin:<br/><i>%1</i></p><p>Error "
@@ -769,7 +769,7 @@ msgstr ""
 "<p>Bộ nạp thư viện KLibLoader không thể nạp bổ sung:<br/><i>%1</i></"
 "p><p>Thông điệp lỗi:<br/><i>%2</i></p>"
 
-#: core/kget.cpp:1261
+#: core/kget.cpp:1257
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -780,7 +780,7 @@ msgstr ""
 "%1\n"
 "vì đó là một thư mục."
 
-#: core/kget.cpp:1272
+#: core/kget.cpp:1268
 #, kde-format
 msgid ""
 "Not deleting\n"
@@ -791,33 +791,33 @@ msgstr ""
 "%1\n"
 "vì không phải là tệp trên máy này."
 
-#: core/kget.cpp:1383
+#: core/kget.cpp:1379
 #, kde-format
 msgid ""
 "<p>The following file has finished downloading:</p><p style=\"font-size: "
 "small;\">%1</p>"
 msgstr ""
 
-#: core/kget.cpp:1384
+#: core/kget.cpp:1380
 #, fuzzy, kde-format
 #| msgid "Default Download Folders"
 msgid "Download completed"
 msgstr "Thư mục tải về mặc định"
 
-#: core/kget.cpp:1387
+#: core/kget.cpp:1383
 #, kde-format
 msgid ""
 "<p>The following transfer has been started:</p><p style=\"font-size: small;"
 "\">%1</p>"
 msgstr ""
 
-#: core/kget.cpp:1388
+#: core/kget.cpp:1384
 #, fuzzy, kde-format
 #| msgid "Downloads"
 msgid "Download started"
 msgstr "Tải về"
 
-#: core/kget.cpp:1390
+#: core/kget.cpp:1386
 #, kde-format
 msgid ""
 "<p>There has been an error in the following transfer:</p><p style=\"font-"
@@ -825,70 +825,70 @@ msgid ""
 "\">%2</p>"
 msgstr ""
 
-#: core/kget.cpp:1395
+#: core/kget.cpp:1391
 #, fuzzy, kde-format
 #| msgid "Transfers:"
 msgid "Resolve"
 msgstr "Truyền:"
 
-#: core/kget.cpp:1447
+#: core/kget.cpp:1443
 #, kde-format
 msgid "KGet is now closing, as all downloads have completed."
 msgstr ""
 
-#: core/kget.cpp:1451
+#: core/kget.cpp:1447
 #, kde-format
 msgid "The computer will now turn off, as all downloads have completed."
 msgstr "Máy tính sẽ tắt ngay bây giờ: tất cả mục tải đã hoàn tất."
 
-#: core/kget.cpp:1451
+#: core/kget.cpp:1447
 #, fuzzy, kde-format
 #| msgid "Auto shutdown"
 msgctxt "Shutting down computer"
 msgid "Shutdown"
 msgstr "Tự động thoát"
 
-#: core/kget.cpp:1454
+#: core/kget.cpp:1450
 #, kde-format
 msgid "The computer will now suspend to disk, as all downloads have completed."
 msgstr "Máy tính sẽ ngủ đông ngay bây giờ: tất cả mục tải đã hoàn tất."
 
-#: core/kget.cpp:1454
+#: core/kget.cpp:1450
 #, kde-format
 msgctxt "Hibernating computer"
 msgid "Hibernating"
 msgstr ""
 
-#: core/kget.cpp:1457
+#: core/kget.cpp:1453
 #, kde-format
 msgid "The computer will now suspend to RAM, as all downloads have completed."
 msgstr "Máy tính sẽ ngưng ngay bây giờ: tất cả mục tải đã hoàn tất."
 
-#: core/kget.cpp:1457
+#: core/kget.cpp:1453
 #, fuzzy, kde-format
 #| msgid "Speed"
 msgctxt "Suspending computer"
 msgid "Suspending"
 msgstr "Tốc độ"
 
-#: core/kget.cpp:1465
+#: core/kget.cpp:1461
 #, kde-format
 msgctxt "abort the proposed action"
 msgid "Abort"
 msgstr ""
 
-#: core/kget.cpp:1475
+#: core/kget.cpp:1471
 #, kde-format
 msgid "<p>All transfers have been finished.</p>"
 msgstr ""
 
-#: core/kget.cpp:1476
+#: core/kget.cpp:1472
 #, fuzzy, kde-format
 #| msgid "Default Download Folders"
 msgid "Downloads completed"
 msgstr "Thư mục tải về mặc định"
 
-#: core/kget.h:366 main.cpp:103 mainwindow.cpp:96 mainwindow.cpp:527
+#: core/kget.h:366 main.cpp:103 mainwindow.cpp:95 mainwindow.cpp:526
 #: ui/tray.cpp:44
 #, kde-format
 msgid "KGet"
@@ -1413,164 +1413,6 @@ msgctxt "verification-result of a file, can be true/false"
 msgid "Verified"
 msgstr ""
 
-#: extensions/webinterface/httpserver.cpp:43
-#: extensions/webinterface/httpserver.cpp:59
-#, kde-format
-msgid "Unable to start WebInterface: Could not open KWallet"
-msgstr ""
-
-#: extensions/webinterface/httpserver.cpp:64
-#, fuzzy, kde-format
-#| msgid "Unable to save to: %1"
-msgctxt "@info"
-msgid "Unable to start WebInterface: %1"
-msgstr "Không thể lưu vào : %1"
-
-#: extensions/webinterface/httpserver.cpp:123
-#, fuzzy, kde-format
-#| msgid "%1/s"
-msgctxt "@item speed of transfer per seconds"
-msgid "%1/s"
-msgstr "%1/giây"
-
-#: extensions/webinterface/httpserver.cpp:210
-#, kde-format
-msgctxt "@label"
-msgid "KGet Web Interface"
-msgstr "Giao diện mạng KGet"
-
-#: extensions/webinterface/httpserver.cpp:211
-#, kde-format
-msgctxt "@label number"
-msgid "Nr"
-msgstr ""
-
-#: extensions/webinterface/httpserver.cpp:212
-#, fuzzy, kde-format
-#| msgid "Name"
-msgctxt "@label"
-msgid "File name"
-msgstr "Tên"
-
-#: extensions/webinterface/httpserver.cpp:213
-#, fuzzy, kde-format
-#| msgid "Finished"
-msgctxt "@label Progress of transfer"
-msgid "Finished"
-msgstr "Xong"
-
-#: extensions/webinterface/httpserver.cpp:214
-#, fuzzy, kde-format
-#| msgid "Speed"
-msgctxt "@label Speed of transfer"
-msgid "Speed"
-msgstr "Tốc độ"
-
-#: extensions/webinterface/httpserver.cpp:215
-#, kde-format
-msgctxt "@label Status of transfer"
-msgid "Status"
-msgstr "Trạng thái"
-
-#: extensions/webinterface/httpserver.cpp:216
-#, fuzzy, kde-format
-#| msgid "Start"
-msgctxt "@action:button start a transfer"
-msgid "Start"
-msgstr "Chạy"
-
-#: extensions/webinterface/httpserver.cpp:217
-#, fuzzy, kde-format
-#| msgid "Stop"
-msgctxt "@action:button"
-msgid "Stop"
-msgstr "Ngừng"
-
-#: extensions/webinterface/httpserver.cpp:218
-#, kde-format
-msgctxt "@action:button"
-msgid "Remove"
-msgstr "Gỡ bỏ"
-
-#: extensions/webinterface/httpserver.cpp:219
-#, fuzzy, kde-format
-#| msgid "Source:"
-msgctxt "@label Download from"
-msgid "Source:"
-msgstr "Nguồn:"
-
-#: extensions/webinterface/httpserver.cpp:220
-#, fuzzy, kde-format
-#| msgid "Saving to:"
-msgctxt "@label Save download to"
-msgid "Saving to:"
-msgstr "Lưu vào :"
-
-#: extensions/webinterface/httpserver.cpp:221
-#, kde-format
-msgctxt "@label Title in header"
-msgid "Web Interface"
-msgstr "Giao diện mạng"
-
-#: extensions/webinterface/httpserver.cpp:222
-#, fuzzy, kde-format
-#| msgid "&Settings"
-msgctxt "@action"
-msgid "Settings"
-msgstr "Thiết &lập"
-
-#: extensions/webinterface/httpserver.cpp:223
-#, kde-format
-msgctxt "@action"
-msgid "Refresh"
-msgstr ""
-
-#: extensions/webinterface/httpserver.cpp:224
-#, fuzzy, kde-format
-#| msgid "Enter URL:"
-msgctxt "@action"
-msgid "Enter URL: "
-msgstr "Nhập URL:"
-
-#: extensions/webinterface/httpserver.cpp:225
-#, kde-format
-msgctxt "@action:button"
-msgid "OK"
-msgstr ""
-
-#: extensions/webinterface/httpserver.cpp:227
-#, fuzzy, kde-format
-#| msgid "Default Download Folders"
-msgctxt "@action Refresh download list every x (seconds)"
-msgid "Refresh download list every"
-msgstr "Thư mục tải về mặc định"
-
-#: extensions/webinterface/httpserver.cpp:228
-#, kde-format
-msgctxt "@action (Refresh very x )seconds"
-msgid "seconds"
-msgstr "giây"
-
-#: extensions/webinterface/httpserver.cpp:229
-#, fuzzy, kde-format
-#| msgid "&Settings"
-msgctxt "@action:button"
-msgid "Save Settings"
-msgstr "Thiết &lập"
-
-#: extensions/webinterface/httpserver.cpp:230
-#, fuzzy, kde-format
-#| msgid "Downloads"
-msgctxt "@title"
-msgid "Downloads"
-msgstr "Tải về"
-
-#: extensions/webinterface/httpserver.cpp:232
-#, kde-format
-msgctxt "@label text in footer"
-msgid "KGet Web Interface | Valid XHTML 1.0 Strict &amp; CSS"
-msgstr "Giao diện mạng KGet | Valid XHTML 1.0 Strict &amp; CSS"
-
 #: main.cpp:105
 #, fuzzy, kde-format
 #| msgid "An advanced download manager for KDE"
@@ -1756,71 +1598,71 @@ msgstr ""
 msgid "URL(s) to download"
 msgstr "URL để tải về"
 
-#: mainwindow.cpp:148
+#: mainwindow.cpp:147
 #, kde-format
 msgid "&New Download..."
 msgstr "Tải về mớ&i..."
 
-#: mainwindow.cpp:155
+#: mainwindow.cpp:154
 #, kde-format
 msgid "&Import Transfers..."
 msgstr "&Nhập mục truyền..."
 
-#: mainwindow.cpp:162
+#: mainwindow.cpp:161
 #, kde-format
 msgid "&Export Transfers List..."
 msgstr "&Xuất danh sách truyền..."
 
-#: mainwindow.cpp:169
+#: mainwindow.cpp:168
 #, kde-format
 msgid "&Create a Metalink..."
 msgstr ""
 
-#: mainwindow.cpp:175
+#: mainwindow.cpp:174
 #, kde-format
 msgid "Top Priority"
 msgstr "Ưu tiên đầu"
 
-#: mainwindow.cpp:182
+#: mainwindow.cpp:181
 #, kde-format
 msgid "Least Priority"
 msgstr "Ưu tiên cuối"
 
-#: mainwindow.cpp:189
+#: mainwindow.cpp:188
 #, kde-format
 msgid "Increase Priority"
 msgstr "Tăng ưu tiên"
 
-#: mainwindow.cpp:196
+#: mainwindow.cpp:195
 #, kde-format
 msgid "Decrease Priority"
 msgstr "Giảm ưu tiên"
 
-#: mainwindow.cpp:204
+#: mainwindow.cpp:203
 #, fuzzy, kde-format
 #| msgid "Delete Group"
 msgctxt "@action"
 msgid "Delete Group"
 msgstr "Xoá nhóm"
 
-#: mainwindow.cpp:210
+#: mainwindow.cpp:209
 #, fuzzy, kde-format
 #| msgid "Delete Group"
 msgctxt "@action"
 msgid "Rename Group..."
 msgstr "Xoá nhóm"
 
-#: mainwindow.cpp:215
+#: mainwindow.cpp:214
 #, kde-format
 msgid "Set Icon..."
 msgstr ""
 
-#: mainwindow.cpp:221
+#: mainwindow.cpp:220
 #, kde-format
 msgid "Auto-Paste Mode"
 msgstr "Chế độ tự động dán"
 
-#: mainwindow.cpp:224
+#: mainwindow.cpp:223
 #, kde-format
 msgid ""
 "<b>Auto paste</b> button toggles the auto-paste mode on and off.\n"
@@ -1831,120 +1673,120 @@ msgstr ""
 "Khi bật, KGet sẽ quét định kì nội dung của bảng nháp để tìm các URL và thêm "
 "chúng một cách tự động."
 
-#: mainwindow.cpp:230
+#: mainwindow.cpp:229
 #, kde-format
 msgid "Use KGet as Konqueror Download Manager"
 msgstr "Dùng KGet làm trình quản lí tải Konqueror"
 
-#: mainwindow.cpp:248
+#: mainwindow.cpp:247
 #, kde-format
 msgctxt "delete selected transfer item"
 msgid "Remove Selected"
 msgstr "Xoá mục chọn"
 
-#: mainwindow.cpp:255
+#: mainwindow.cpp:254
 #, kde-format
 msgctxt "delete all finished transfers"
 msgid "Remove All Finished"
 msgstr "Xoá tất cả tải xong"
 
-#: mainwindow.cpp:261
+#: mainwindow.cpp:260
 #, kde-format
 msgctxt "delete selected transfer item and files"
 msgid "Remove Selected and Delete Files"
 msgstr "Bỏ các mục đã chọn và xoá các tệp"
 
-#: mainwindow.cpp:267
+#: mainwindow.cpp:266
 #, fuzzy, kde-format
 #| msgid "Default Download Folders"
 msgctxt "redownload selected transfer item"
 msgid "Redownload Selected"
 msgstr "Thư mục tải về mặc định"
 
-#: mainwindow.cpp:272
+#: mainwindow.cpp:271
 #, kde-format
 msgid "Start All"
 msgstr "Bắt đầu tất cả"
 
-#: mainwindow.cpp:279
+#: mainwindow.cpp:278
 #, kde-format
 msgid "Start Selected"
 msgstr "Bắt đầu mục chọn"
 
-#: mainwindow.cpp:285
+#: mainwindow.cpp:284
 #, kde-format
 msgid "Pause All"
 msgstr "Ngưng tất cả"
 
-#: mainwindow.cpp:292
+#: mainwindow.cpp:291
 #, kde-format
 msgid "Stop Selected"
 msgstr "Ngừng mục đã chọn"
 
-#: mainwindow.cpp:297
+#: mainwindow.cpp:296
 #, fuzzy, kde-format
 #| msgid "Start"
 msgid "Start"
 msgstr "Chạy"
 
-#: mainwindow.cpp:305
+#: mainwindow.cpp:304
 #, kde-format
 msgid "Pause"
 msgstr ""
 
-#: mainwindow.cpp:314
+#: mainwindow.cpp:313
 #, kde-format
 msgid "Open Destination"
 msgstr "Mở đích"
 
-#: mainwindow.cpp:319
+#: mainwindow.cpp:318
 #, kde-format
 msgid "Open File"
 msgstr "Mở tệp"
 
-#: mainwindow.cpp:323
+#: mainwindow.cpp:322
 #, kde-format
 msgid "Show Details"
 msgstr "Hiện chi tiết"
 
-#: mainwindow.cpp:328
+#: mainwindow.cpp:327
 #, kde-format
 msgid "Copy URL to Clipboard"
 msgstr "Chép URL vào bảng nháp"
 
-#: mainwindow.cpp:333
+#: mainwindow.cpp:332
 #, kde-format
 msgid "&Transfer History"
 msgstr "&Lịch sử tải"
 
-#: mainwindow.cpp:339
+#: mainwindow.cpp:338
 #, fuzzy, kde-format
 #| msgid "&Settings"
 msgid "&Group Settings"
 msgstr "Thiết &lập"
 
-#: mainwindow.cpp:345
+#: mainwindow.cpp:344
 #, kde-format
 msgid "&Transfer Settings"
 msgstr "&Thiết lập tải"
 
-#: mainwindow.cpp:351
+#: mainwindow.cpp:350
 #, kde-format
 msgid "Import &Links..."
 msgstr "Nhập &liên kết..."
 
-#: mainwindow.cpp:357
+#: mainwindow.cpp:356
 #, kde-format
 msgid "After downloads finished action"
 msgstr ""
 
 #. i18n("Choose an action that is executed after all downloads have been finished."));
-#: mainwindow.cpp:361
+#: mainwindow.cpp:360
 #, kde-format
 msgid "No Action"
 msgstr ""
 
-#: mainwindow.cpp:439
+#: mainwindow.cpp:438
 #, kde-format
 msgid ""
 "This is the first time you have run KGet.\n"
@@ -1953,40 +1795,40 @@ msgstr ""
 "Đây là lần đầu tiên bạn chạy KGet.\n"
 "Bạn có muốn KGet làm trình quản lí tải cho Konqueror không?"
 
-#: mainwindow.cpp:441
+#: mainwindow.cpp:440
 #, kde-format
 msgid "Konqueror Integration"
 msgstr "Tích hợp Konqueror"
 
-#: mainwindow.cpp:441
+#: mainwindow.cpp:440
 #, kde-format
 msgid "Enable"
 msgstr "Bật"
 
-#: mainwindow.cpp:442
+#: mainwindow.cpp:441
 #, kde-format
 msgid "Do Not Enable"
 msgstr "Không bật"
 
-#: mainwindow.cpp:508
+#: mainwindow.cpp:507
 #, fuzzy, kde-format
 #| msgid "Open File"
 msgctxt "@title:window"
 msgid "Open File"
 msgstr "Mở tệp"
 
-#: mainwindow.cpp:509
+#: mainwindow.cpp:508
 #, kde-format
 msgid "All Openable Files"
 msgstr "Mọi tệp mở được"
 
-#: mainwindow.cpp:525
+#: mainwindow.cpp:524
 #, kde-format
 msgctxt "window title including overall download progress in percent"
 msgid "KGet - %1%"
 msgstr ""
 
-#: mainwindow.cpp:575
+#: mainwindow.cpp:574
 #, kde-format
 msgid ""
 "Some transfers are still running.\n"
@@ -1995,58 +1837,58 @@ msgstr ""
 "Một vài truyền tải vẫn đang chạy.\n"
 "Bạn có chắc muốn đóng KGet không?"
 
-#: mainwindow.cpp:577
+#: mainwindow.cpp:576
 #, kde-format
 msgid "Confirm Quit"
 msgstr "Xác nhận Thoát"
 
-#: mainwindow.cpp:603
+#: mainwindow.cpp:602
 #, fuzzy, kde-format
 #| msgid "Export Transfers"
 msgctxt "@title:window"
 msgid "Export Transfers"
 msgstr "Xuất mục tải"
 
-#: mainwindow.cpp:604
+#: mainwindow.cpp:603
 #, kde-format
 msgid "KGet Transfer List"
 msgstr "Danh sách truyền KGet"
 
-#: mainwindow.cpp:604
+#: mainwindow.cpp:603
 #, fuzzy, kde-format
 #| msgid "Open File"
 msgid "Text File"
 msgstr "Mở tệp"
 
-#: mainwindow.cpp:635
+#: mainwindow.cpp:634
 #, kde-format
 msgid "Enter Group Name"
 msgstr "Nhập tên nhóm"
 
-#: mainwindow.cpp:636
+#: mainwindow.cpp:635
 #, kde-format
 msgid "Group name:"
 msgstr "Tên nhóm:"
 
-#: mainwindow.cpp:723
+#: mainwindow.cpp:722
 #, kde-format
 msgid "Are you sure you want to delete the selected transfer?"
 msgid_plural "Are you sure you want to delete the selected transfers?"
 msgstr[0] "Bạn có chắc muốn xoá các mục tải đã chọn?"
 
-#: mainwindow.cpp:725 mainwindow.cpp:754
+#: mainwindow.cpp:724 mainwindow.cpp:753
 #, kde-format
 msgid "Confirm transfer delete"
 msgstr "Xác nhận xoá mục tải"
 
-#: mainwindow.cpp:752
+#: mainwindow.cpp:751
 #, kde-format
 msgid "Are you sure you want to delete the selected transfer including files?"
 msgid_plural ""
 "Are you sure you want to delete the selected transfers including files?"
 msgstr[0] "Bạn có chắc muốn xoá các mục tải đã chọn cùng với các tệp?"
 
-#: mainwindow.cpp:1083
+#: mainwindow.cpp:1082
 #, kde-format
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
@@ -2057,19 +1899,19 @@ msgstr ""
 "vô hiệu mãi mãi, hãy vào Thiết lập->Nâng cao và tắt \"Sử dụng làm trình quản "
 "lí tải cho Konqueror\"."
 
-#: mainwindow.cpp:1202 ui/droptarget.cpp:220
+#: mainwindow.cpp:1201 ui/droptarget.cpp:220
 #, fuzzy, kde-format
 #| msgid "KGet Transfer List"
 msgid "The dropped file is a KGet Transfer List"
 msgstr "Danh sách truyền KGet"
 
-#: mainwindow.cpp:1203 ui/droptarget.cpp:221
+#: mainwindow.cpp:1202 ui/droptarget.cpp:221
 #, fuzzy, kde-format
 #| msgid "&Downloads"
 msgid "&Download"
 msgstr "Tải &về"
 
-#: mainwindow.cpp:1204 ui/droptarget.cpp:222
+#: mainwindow.cpp:1203 ui/droptarget.cpp:222
 #, fuzzy, kde-format
 #| msgid "KGet Transfer List"
 msgid "&Load transfer list"
@@ -4450,8 +4292,8 @@ msgid "Optional: The priority of the mirror, 1 highest 999999 lowest."
 msgstr "Tuỳ chọn: Độ ưu tiên của bản sao, 1 - cao nhất, 999999 - thấp nhất."
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, priority)
-#: ui/mirror/mirroradddlg.ui:72 ui/mirror/mirrormodel.cpp:214
-#: ui/mirror/mirrormodel.cpp:232
+#: ui/mirror/mirroradddlg.ui:72 ui/mirror/mirrormodel.cpp:213
+#: ui/mirror/mirrormodel.cpp:231
 #, kde-format
 msgid "not specified"
 msgstr ""
@@ -4462,27 +4304,27 @@ msgstr ""
 msgid "Location:"
 msgstr ""
 
-#: ui/mirror/mirrormodel.cpp:388
+#: ui/mirror/mirrormodel.cpp:366
 #, fuzzy, kde-format
 #| msgid "Error"
 msgctxt "Mirror as in server, in url"
 msgid "Mirror"
 msgstr "Lỗi"
 
-#: ui/mirror/mirrormodel.cpp:391
+#: ui/mirror/mirrormodel.cpp:369
 #, kde-format
 msgctxt "The priority of the mirror"
 msgid "Priority"
 msgstr "Ưu tiên"
 
-#: ui/mirror/mirrormodel.cpp:396
+#: ui/mirror/mirrormodel.cpp:374
 #, fuzzy, kde-format
 #| msgid "Number of retries:"
 msgctxt "Number of parallel connections to the mirror"
 msgid "Connections"
 msgstr "Số lần thử lại:"
 
-#: ui/mirror/mirrormodel.cpp:398
+#: ui/mirror/mirrormodel.cpp:376
 #, kde-format
 msgctxt "Location = country"
 msgid "Location"
@@ -4955,3 +4797,111 @@ msgstr ""
 #, kde-format
 msgid "Close"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Unable to save to: %1"
+#~ msgctxt "@info"
+#~ msgid "Unable to start WebInterface: %1"
+#~ msgstr "Không thể lưu vào : %1"
+
+#, fuzzy
+#~| msgid "%1/s"
+#~ msgctxt "@item speed of transfer per seconds"
+#~ msgid "%1/s"
+#~ msgstr "%1/giây"
+
+#~ msgctxt "@label"
+#~ msgid "KGet Web Interface"
+#~ msgstr "Giao diện mạng KGet"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgctxt "@label"
+#~ msgid "File name"
+#~ msgstr "Tên"
+
+#, fuzzy
+#~| msgid "Finished"
+#~ msgctxt "@label Progress of transfer"
+#~ msgid "Finished"
+#~ msgstr "Xong"
+
+#, fuzzy
+#~| msgid "Speed"
+#~ msgctxt "@label Speed of transfer"
+#~ msgid "Speed"
+#~ msgstr "Tốc độ"
+
+#~ msgctxt "@label Status of transfer"
+#~ msgid "Status"
+#~ msgstr "Trạng thái"
+
+#, fuzzy
+#~| msgid "Start"
+#~ msgctxt "@action:button start a transfer"
+#~ msgid "Start"
+#~ msgstr "Chạy"
+
+#, fuzzy
+#~| msgid "Stop"
+#~ msgctxt "@action:button"
+#~ msgid "Stop"
+#~ msgstr "Ngừng"
+
+#~ msgctxt "@action:button"
+#~ msgid "Remove"
+#~ msgstr "Gỡ bỏ"
+
+#, fuzzy
+#~| msgid "Source:"
+#~ msgctxt "@label Download from"
+#~ msgid "Source:"
+#~ msgstr "Nguồn:"
+
+#, fuzzy
+#~| msgid "Saving to:"
+#~ msgctxt "@label Save download to"
+#~ msgid "Saving to:"
+#~ msgstr "Lưu vào :"
+
+#~ msgctxt "@label Title in header"
+#~ msgid "Web Interface"
+#~ msgstr "Giao diện mạng"
+
+#, fuzzy
+#~| msgid "&Settings"
+#~ msgctxt "@action"
+#~ msgid "Settings"
+#~ msgstr "Thiết &lập"
+
+#, fuzzy
+#~| msgid "Enter URL:"
+#~ msgctxt "@action"
+#~ msgid "Enter URL: "
+#~ msgstr "Nhập URL:"
+
+#, fuzzy
+#~| msgid "Default Download Folders"
+#~ msgctxt "@action Refresh download list every x (seconds)"
+#~ msgid "Refresh download list every"
+#~ msgstr "Thư mục tải về mặc định"
+
+#~ msgctxt "@action (Refresh very x )seconds"
+#~ msgid "seconds"
+#~ msgstr "giây"
+
+#, fuzzy
+#~| msgid "&Settings"
+#~ msgctxt "@action:button"
+#~ msgid "Save Settings"
+#~ msgstr "Thiết &lập"
+
+#, fuzzy
+#~| msgid "Downloads"
+#~ msgctxt "@title"
+#~ msgid "Downloads"
+#~ msgstr "Tải về"
+
+#~ msgctxt "@label text in footer"
+#~ msgid "KGet Web Interface | Valid XHTML 1.0 Strict &amp; CSS"
+#~ msgstr "Giao diện mạng KGet | Valid XHTML 1.0 Strict &amp; CSS"

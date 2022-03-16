@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-01 00:42+0000\n"
+"POT-Creation-Date: 2022-03-11 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -14897,12 +14897,12 @@ msgstr ""
 #: libs/ui/animation/wdg_animationrenderer.ui:196
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:753
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:757
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:965
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:972
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1185
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1356
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1359
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1425
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:960
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:967
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1178
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1347
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1350
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1414
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1193
 #: libs/ui/forms/wdgdisplaysettings.ui:356
 #: libs/ui/forms/wdggeneralsettings.ui:245
@@ -14922,8 +14922,8 @@ msgstr ""
 #: plugins/dockers/griddocker/grid_config_widget.ui:230
 #: plugins/dockers/griddocker/grid_config_widget.ui:444
 #: plugins/dockers/griddocker/grid_config_widget.ui:489
-#: plugins/dockers/recorder/recorder_export.ui:222
-#: plugins/dockers/recorder/recorder_export.ui:260
+#: plugins/dockers/recorder/recorder_export.ui:442
+#: plugins/dockers/recorder/recorder_export.ui:480
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:36
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:44
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:40
@@ -14956,15 +14956,15 @@ msgstr ""
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:122
 #: plugins/paintops/spray/kis_spray_shape_option.cpp:124
 #: plugins/paintops/spray/kis_sprayop_option.cpp:31
-#: plugins/tools/basictools/kis_tool_brush.cc:388
-#: plugins/tools/basictools/kis_tool_fill.cc:349
-#: plugins/tools/basictools/kis_tool_fill.cc:356
+#: plugins/tools/basictools/kis_tool_brush.cc:463
+#: plugins/tools/basictools/kis_tool_fill.cc:412
+#: plugins/tools/basictools/kis_tool_fill.cc:416
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:51
 #: plugins/tools/basictools/kis_tool_movetooloptionswidget.cpp:52
 #: plugins/tools/basictools/kis_tool_multihand.cpp:451
 #: plugins/tools/basictools/wdgcolorsampler.ui:186
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:304
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:307
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:306
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:309
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:117
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:142
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:250
@@ -15287,13 +15287,13 @@ msgid "Imported Image"
 msgstr ""
 
 #: libs/image/kis_image.cc:656 libs/image/kis_layer_utils.cpp:1870
-#: libs/impex/KisExportCheckRegistry.cpp:118
+#: libs/impex/KisExportCheckRegistry.cpp:120
 #, kde-format
 msgid "Selection Mask"
 msgstr ""
 
 #: libs/image/kis_image.cc:716 libs/ui/KisDocument.cpp:2426
-#: plugins/impex/psd/psd_loader.cpp:162 plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
+#: plugins/impex/psd/psd_loader.cpp:190 plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
 #, kde-format
 msgid "Background"
@@ -15880,12 +15880,12 @@ msgstr ""
 msgid "Satin (style)"
 msgstr ""
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:955
+#: libs/image/lazybrush/kis_colorize_mask.cpp:962
 msgctxt "(qtundo-format)"
 msgid "Change Key Stroke Color"
 msgstr ""
 
-#: libs/image/lazybrush/kis_colorize_mask.cpp:982
+#: libs/image/lazybrush/kis_colorize_mask.cpp:989
 msgctxt "(qtundo-format)"
 msgid "Remove Key Stroke"
 msgstr ""
@@ -15962,65 +15962,73 @@ msgid ""
 "the first layer</b> will be saved."
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:98
+#: libs/impex/FillLayerTypeCheck.h:92
+#, kde-format
+msgctxt "image conversion warning"
+msgid ""
+"The image contains a Fill Layer of type <b>%1</b>, which is not supported, "
+"the layer will be converted to a paintlayer"
+msgstr ""
+
+#: libs/impex/KisExportCheckRegistry.cpp:100
 #: libs/ui/kis_layer_manager.cc:647
 #, kde-format
 msgid "Clone Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:100
+#: libs/impex/KisExportCheckRegistry.cpp:102
 #: libs/ui/kis_layer_manager.cc:631 libs/ui/kis_node_manager.cpp:1514
 #, kde-format
 msgctxt "A group of layers"
 msgid "Group"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:102
+#: libs/impex/KisExportCheckRegistry.cpp:104
 #: libs/ui/kis_layer_manager.cc:956
 #, kde-format
 msgid "File Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:104
+#: libs/impex/KisExportCheckRegistry.cpp:106
 #: libs/ui/kis_layer_manager.cc:660 plugins/impex/svg/kis_svg_import.cc:80
 #, kde-format
 msgid "Vector Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:106
+#: libs/impex/KisExportCheckRegistry.cpp:108
 #: libs/ui/kis_layer_manager.cc:682
 #, kde-format
 msgid "Filter Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:108
+#: libs/impex/KisExportCheckRegistry.cpp:110
 #, kde-format
 msgid "Generator Layer"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:110
+#: libs/impex/KisExportCheckRegistry.cpp:112
 #: libs/ui/kis_mask_manager.cc:274
 #, kde-format
 msgid "Colorize Mask"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:112
+#: libs/impex/KisExportCheckRegistry.cpp:114
 #: libs/ui/dialogs/kis_dlg_filter.cpp:218
 #: libs/ui/kis_mask_manager.cc:223
 #, kde-format
 msgid "Filter Mask"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:114
+#: libs/impex/KisExportCheckRegistry.cpp:116
 #: libs/ui/kis_mask_manager.cc:286
 #, kde-format
 msgid "Transform Mask"
 msgstr ""
 
-#: libs/impex/KisExportCheckRegistry.cpp:116
+#: libs/impex/KisExportCheckRegistry.cpp:118
 #: libs/ui/kis_mask_manager.cc:210 libs/ui/kis_node_manager.cpp:1294
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:213
-#: plugins/impex/psd/psd_loader.cpp:288 plugins/impex/tiff/kis_tiff_converter.cc:1296
+#: plugins/impex/psd/psd_loader.cpp:380 plugins/impex/tiff/kis_tiff_converter.cc:1296
 #: plugins/impex/xcf/kis_xcf_import.cpp:273
 #, kde-format
 msgid "Transparency Mask"
@@ -17500,34 +17508,34 @@ msgstr ""
 msgid "Out"
 msgstr ""
 
-#: libs/pigment/resources/KoColorSet.cpp:489
-#: libs/pigment/resources/KoColorSet.cpp:770
-#: libs/pigment/resources/KoColorSet.cpp:852
-#: libs/pigment/resources/KoColorSet.cpp:1075
+#: libs/pigment/resources/KoColorSet.cpp:495
+#: libs/pigment/resources/KoColorSet.cpp:837
+#: libs/pigment/resources/KoColorSet.cpp:914
+#: libs/pigment/resources/KoColorSet.cpp:1124
 #: libs/ui/actions/KisPasteActionFactories.cpp:300
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:345
-#: libs/ui/KisView.cpp:839 plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
+#: libs/ui/KisView.cpp:845 plugins/generators/seexpr/kis_wdg_seexpr.cpp:34
 #, kde-format
 msgid "Untitled"
 msgstr ""
 
-#: libs/pigment/resources/KoStopGradient.cpp:372
+#: libs/pigment/resources/KoStopGradient.cpp:377
 #, kde-format
 msgid "SVG Gradient"
 msgstr ""
 
-#: libs/psd/psd_layer_section.cpp:381
+#: libs/psd/psd_layer_section.cpp:403
 #, kde-format
 msgctxt "Automatically created layer name when saving into PSD"
 msgid "Background"
 msgstr ""
 
-#: libs/psd/psd_layer_section.cpp:633 libs/psd/psd_layer_section.cpp:778
+#: libs/psd/psd_layer_section.cpp:710 libs/psd/psd_layer_section.cpp:860
 #, kde-format
 msgid "Unnamed Layer"
 msgstr ""
 
-#: libs/psd/psd_resource_block.h:108
+#: libs/psd/psd_resource_block.h:109
 #, kde-format
 msgid "Unparsed Resource Block"
 msgstr ""
@@ -17578,7 +17586,7 @@ msgstr ""
 #: libs/ui/KisRemoteFileFetcher.cpp:35 libs/ui/KisRemoteFileFetcher.cpp:56
 #: libs/ui/KisRemoteFileFetcher.cpp:86 libs/ui/KisTemplateCreateDia.cpp:284
 #: libs/ui/KisTemplateCreateDia.cpp:390 libs/ui/KisView.cpp:589
-#: libs/ui/KisView.cpp:842 libs/ui/KisWelcomePageWidget.cpp:711
+#: libs/ui/KisView.cpp:848 libs/ui/KisWelcomePageWidget.cpp:711
 #: libs/ui/opengl/KisOpenGLCanvasRenderer.cpp:358
 #: libs/ui/widgets/kis_custom_image_widget.cc:293
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1301
@@ -18335,7 +18343,7 @@ msgstr ""
 #: libs/ui/input/kis_tool_invocation_action.cpp:43
 #: libs/ui/widgets/kis_canvas_drop.cpp:45
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:190
-#: plugins/dockers/recorder/recorder_export.ui:788
+#: plugins/dockers/recorder/recorder_export.ui:809
 #: plugins/dockers/recorder/recorder_snapshots_manager.ui:130
 #: plugins/extensions/resourcemanager/wdgtagselection.cpp:112
 #: plugins/generators/seexpr/wdgseexpr.ui:179
@@ -19486,7 +19494,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, labelX)
 #: libs/ui/animation/VideoHDRMetadataOptionsDialog.ui:46
-#: libs/ui/kis_paintop_box.cc:297 plugins/dockers/recorder/recorder_export.ui:241
+#: libs/ui/kis_paintop_box.cc:297 plugins/dockers/recorder/recorder_export.ui:461
 #, kde-format
 msgid "x"
 msgstr ""
@@ -19673,7 +19681,11 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, exportDurationLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, labelHoldFirstFrameSec)
+#. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
 #: libs/ui/animation/VideoImportDialog.ui:401
+#: plugins/dockers/recorder/recorder_export.ui:148
+#: plugins/dockers/recorder/recorder_export.ui:521
 #: plugins/paintops/libpaintop/sensors/SensorTimeConfiguration.ui:54
 #, kde-format
 msgid "Duration:"
@@ -19924,7 +19936,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (text), widget (QLabel, labelResolution)
 #: libs/ui/animation/wdg_animationrenderer.ui:283
-#: plugins/dockers/recorder/recorder_export.ui:386
+#: plugins/dockers/recorder/recorder_export.ui:182
 #, kde-format
 msgid "Render as:"
 msgstr ""
@@ -20077,7 +20089,7 @@ msgstr ""
 msgid "Down"
 msgstr ""
 
-#: libs/ui/canvas/kis_animation_player.cpp:257
+#: libs/ui/canvas/kis_animation_player.cpp:247
 #, kde-format
 msgctxt "floating on-canvas message"
 msgid ""
@@ -20510,7 +20522,7 @@ msgstr ""
 #: libs/ui/widgets/kis_custom_image_widget.cc:100
 #: libs/ui/widgets/KisAutoLevelsWidget.cpp:16
 #: libs/widgets/kis_color_input.cpp:146 libs/widgets/kis_color_input.cpp:189
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:230
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:246
 #: plugins/dockers/animation/KisOnionSkinsDocker.cpp:47
 #: plugins/dockers/layerdocker/LayerBox.cpp:200
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:47
@@ -20560,8 +20572,9 @@ msgstr ""
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:39
 #: plugins/paintops/tangentnormal/kis_tangent_tilt_option.cpp:43
 #: plugins/tools/basictools/kis_tool_colorsampler.cc:398
-#: plugins/tools/basictools/kis_tool_fill.cc:335
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:260
+#: plugins/tools/basictools/kis_tool_fill.cc:389
+#: plugins/tools/basictools/kis_tool_fill.cc:399
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:262
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1449
 #, no-c-format, kde-format
 msgid "%"
@@ -20644,23 +20657,23 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:789
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:797
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:800
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:927
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:962
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:969
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:976
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1107
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1110
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1176
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1179
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:924
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:957
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:964
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:971
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1100
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1103
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1169
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1172
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1175
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:1182
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1189
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1192
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1311
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1314
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1353
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1429
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1432
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1435
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1185
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1302
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1305
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1344
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1418
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1421
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1424
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1108
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1112
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1116
@@ -20676,25 +20689,25 @@ msgstr ""
 msgid " %"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:910
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:907
 #: libs/ui/widgets/kis_cmb_contour.cpp:13
 #, kde-format
 msgid "Not Implemented Yet"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:999
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:994
 #: libs/ui/layerstyles/wdglayerstyles.ui:52
 #, kde-format
 msgid "Inner Shadow"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1000
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:995
 #, kde-format
 msgid "Choke:"
 msgstr ""
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1218
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:1211
 #, kde-format
 msgctxt "layer styles parameter"
 msgid "Spread:"
@@ -20851,7 +20864,7 @@ msgid "Screen %1 (%2):"
 msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:837
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:793
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:791
 #: libs/ui/widgets/kis_color_space_selector.cc:191
 #, kde-format
 msgid "Install Color Profiles"
@@ -21798,7 +21811,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioPerceptual)
 #: libs/ui/forms/wdgapplyprofile.ui:100 libs/ui/forms/wdgcolorsettings.ui:183
 #: libs/ui/forms/wdgcolorsettings.ui:274 libs/ui/forms/wdgimageproperties.ui:298
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:485
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:483
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:45
 #, kde-format
 msgid "Perceptual"
@@ -21833,7 +21846,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioSaturation)
 #: libs/ui/forms/wdgapplyprofile.ui:120 libs/ui/forms/wdgcolorsettings.ui:193
 #: libs/ui/forms/wdgcolorsettings.ui:284 libs/ui/forms/wdgimageproperties.ui:308
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:494
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:492
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:89
 #, kde-format
 msgctxt "ICC profile rendering intent"
@@ -21969,7 +21982,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbProofingIntent)
 #: libs/ui/forms/wdgcolorsettings.ui:188 libs/ui/forms/wdgcolorsettings.ui:279
 #: libs/ui/forms/wdgimageproperties.ui:303
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:488
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:486
 #, kde-format
 msgid "Relative Colorimetric"
 msgstr ""
@@ -21979,7 +21992,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbProofingIntent)
 #: libs/ui/forms/wdgcolorsettings.ui:198 libs/ui/forms/wdgcolorsettings.ui:289
 #: libs/ui/forms/wdgimageproperties.ui:313
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:491
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:489
 #, kde-format
 msgid "Absolute Colorimetric"
 msgstr ""
@@ -23199,6 +23212,7 @@ msgstr ""
 #: plugins/generators/pattern/wdgpatternoptions.ui:21
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:46
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:54
+#: plugins/tools/basictools/kis_tool_fill.cc:440
 #, kde-format
 msgid "Pattern"
 msgstr ""
@@ -23237,7 +23251,6 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/forms/wdggeometryoptions.ui:120
-#: plugins/tools/basictools/kis_tool_fill.cc:362
 #, kde-format
 msgid "Rotate:"
 msgstr ""
@@ -23256,7 +23269,6 @@ msgstr ""
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:121
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:76
 #: plugins/paintops/spray/wdgsprayoptions.ui:112
-#: plugins/tools/basictools/kis_tool_fill.cc:368
 #, kde-format
 msgid "Scale:"
 msgstr ""
@@ -24559,7 +24571,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, heightLabel)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, spinScaleHeight)
 #: libs/ui/forms/wdgrectangleconstraints.ui:83
-#: plugins/dockers/recorder/recorder_export.ui:254
+#: plugins/dockers/recorder/recorder_export.ui:474
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:222
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:247
 #, kde-format
@@ -24577,7 +24589,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, widthLabel)
 #. i18n: ectx: property (toolTip), widget (QSpinBox, spinScaleWidth)
 #: libs/ui/forms/wdgrectangleconstraints.ui:131
-#: plugins/dockers/recorder/recorder_export.ui:216
+#: plugins/dockers/recorder/recorder_export.ui:436
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:272
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:320
 #, kde-format
@@ -24818,7 +24830,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, chkAntialiasing)
 #: libs/ui/forms/wdgselectionoptions.ui:185
 #: plugins/extensions/modify_selection/wdg_border_selection.ui:127
-#: plugins/tools/basictools/kis_tool_fill.cc:339
 #, kde-format
 msgid "Anti-aliasing"
 msgstr ""
@@ -24884,6 +24895,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, fillBox)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:96
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:224
+#: plugins/tools/basictools/kis_tool_fill.cc:438
 #, kde-format
 msgid "Foreground color"
 msgstr ""
@@ -24892,6 +24904,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, fillBox)
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:101
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:214
+#: plugins/tools/basictools/kis_tool_fill.cc:439
 #, kde-format
 msgid "Background color"
 msgstr ""
@@ -25140,7 +25153,7 @@ msgstr ""
 #: libs/ui/imagesize/wdg_canvassize.ui:135
 #: libs/ui/imagesize/wdg_imagesize.ui:342
 #: libs/ui/imagesize/wdg_layersize.ui:142
-#: plugins/dockers/recorder/recorder_export.ui:444
+#: plugins/dockers/recorder/recorder_export.ui:359
 #: plugins/impex/webp/dlg_webp_import.ui:235
 #, kde-format
 msgid "Constrain proportions"
@@ -27764,38 +27777,38 @@ msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2510
+#: libs/ui/KisMainWindow.cpp:2507
 #, kde-format
 msgctxt "@item:inmenu opened document, %1=index %2=document path"
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2513
+#: libs/ui/KisMainWindow.cpp:2510
 #, kde-format
 msgctxt "@item:inmenu opened document, %1=index %2=document path"
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2672
+#: libs/ui/KisMainWindow.cpp:2669
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2688
+#: libs/ui/KisMainWindow.cpp:2685
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2797
+#: libs/ui/KisMainWindow.cpp:2794
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2851
+#: libs/ui/KisMainWindow.cpp:2848
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -28104,89 +28117,89 @@ msgstr ""
 msgid "Layer is invisible."
 msgstr ""
 
-#: libs/ui/KisView.cpp:843
+#: libs/ui/KisView.cpp:849
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
 "</p>"
 msgstr ""
 
-#: libs/ui/KisView.cpp:1032
+#: libs/ui/KisView.cpp:1038
 #, kde-format
 msgid "Soft Proofing doesn't work in floating point."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1037
+#: libs/ui/KisView.cpp:1043
 #, kde-format
 msgid "Soft Proofing turned on."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1039
+#: libs/ui/KisView.cpp:1045
 #, kde-format
 msgid "Soft Proofing turned off."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1051
+#: libs/ui/KisView.cpp:1057
 #, kde-format
 msgid "Gamut Warnings don't work in floating point."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1057
+#: libs/ui/KisView.cpp:1063
 #, kde-format
 msgid "Gamut Warnings turned on."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1059
+#: libs/ui/KisView.cpp:1065
 #, kde-format
 msgid "But Soft Proofing is still off."
 msgstr ""
 
-#: libs/ui/KisView.cpp:1062
+#: libs/ui/KisView.cpp:1068
 #, kde-format
 msgid "Gamut Warnings turned off."
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:754
+#: libs/ui/KisViewManager.cpp:759
 #, kde-format
 msgid "Active Author Profile"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:881
+#: libs/ui/KisViewManager.cpp:886
 #, kde-format
 msgid "%1 (Copy)"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1023 libs/ui/KisViewManager.cpp:1104
+#: libs/ui/KisViewManager.cpp:1028 libs/ui/KisViewManager.cpp:1109
 #, kde-format
 msgid "Alternative names exhausted, try manually saving with a higher number"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1023
+#: libs/ui/KisViewManager.cpp:1028
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1104
+#: libs/ui/KisViewManager.cpp:1109
 #, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental backup"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1287
+#: libs/ui/KisViewManager.cpp:1292
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
 "Press %1 to go back."
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1327
+#: libs/ui/KisViewManager.cpp:1332
 #, kde-format
 msgctxt "@title:window resource folder"
 msgid "Open Resource Folder"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1330
+#: libs/ui/KisViewManager.cpp:1335
 #, kde-format
 msgctxt "@info resource folder"
 msgid ""
@@ -28201,19 +28214,19 @@ msgid ""
 "%2</p>"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1344
+#: libs/ui/KisViewManager.cpp:1349
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &user AppData"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1345
+#: libs/ui/KisViewManager.cpp:1350
 #, kde-format
 msgctxt "@action:button resource folder"
 msgid "Open in &private app location"
 msgstr ""
 
-#: libs/ui/KisViewManager.cpp:1458 libs/ui/KisViewManager.cpp:1476
+#: libs/ui/KisViewManager.cpp:1463 libs/ui/KisViewManager.cpp:1481
 #, kde-format
 msgctxt "choice for author profile"
 msgid "Anonymous"
@@ -29329,14 +29342,14 @@ msgstr ""
 msgid "Local selection is locked."
 msgstr ""
 
-#: libs/ui/tool/kis_tool_freehand.cc:195
+#: libs/ui/tool/kis_tool_freehand.cc:203
 #, kde-format
 msgid ""
 "The brush tool cannot paint on this layer.  Please select a paint layer or "
 "mask."
 msgstr ""
 
-#: libs/ui/tool/kis_tool_freehand.cc:200 libs/ui/tool/kis_tool_polyline_base.cpp:76
+#: libs/ui/tool/kis_tool_freehand.cc:208 libs/ui/tool/kis_tool_polyline_base.cpp:76
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:146
 #: libs/ui/tool/KisToolOutlineBase.cpp:88
 #: plugins/tools/basictools/kis_tool_line.cc:175
@@ -29512,64 +29525,64 @@ msgstr ""
 msgid "Custom Segmented Gradient"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:175
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:178
 #, kde-format
 msgctxt "Set the gradient chooser to show icons instead of a list"
 msgid "Icon view"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:181
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:184
 #, kde-format
 msgctxt "Set the gradient chooser to show a list instead of icons"
 msgid "List view"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:190
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:193
 #, kde-format
 msgctxt "Set the gradient chooser to show small items"
 msgid "Small items"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:196
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:199
 #, kde-format
 msgctxt "Set the gradient chooser to show medium size items"
 msgid "Medium size items"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:202
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:205
 #, kde-format
 msgctxt "Set the gradient chooser to show large items"
 msgid "Large items"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:208
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:211
 #, kde-format
 msgctxt "Set the gradient chooser to show custom size items"
 msgid "Custom size items"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:235
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:238
 #, kde-format
 msgid "Add..."
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:240
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:243
 #, kde-format
 msgid "Stop gradient"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:242
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:245
 #, kde-format
 msgid "Segmented gradient"
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:249
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:252
 #, kde-format
 msgid "Edit..."
 msgstr ""
 
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:487
-#: libs/ui/widgets/gradient/KisGradientChooser.cpp:496
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:490
+#: libs/ui/widgets/gradient/KisGradientChooser.cpp:499
 #, kde-format
 msgid "unnamed"
 msgstr ""
@@ -29915,7 +29928,7 @@ msgstr ""
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:365
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Estimated Gamma cannot be retrieved for YCrCb."
+msgid "Estimated Gamma cannot be retrieved for YCbCr."
 msgstr ""
 
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:371
@@ -30021,12 +30034,10 @@ msgid ""
 "lightness, red-green balance and yellow-blue balance. Chroma in this case is "
 "then a word indicating a special type of saturation, in these cases the "
 "saturation of Red and Blue, of which the desaturated equivalents are Green "
-"and Yellow respectively. It is available to open up certain images "
-"correctly, but Krita does not currently ship a profile for this due to lack "
-"of open source ICC profiles for YCrCb."
+"and Yellow respectively."
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:442
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:440
 #, kde-format
 msgctxt "When the selected Bitdepth is 8"
 msgid ""
@@ -30036,7 +30047,7 @@ msgid ""
 "intended for the web, or otherwise simple images."
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:448
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:446
 #, kde-format
 msgctxt "When the selected Bitdepth is 16"
 msgid ""
@@ -30050,7 +30061,7 @@ msgid ""
 "from 16 bit/channel to 8 bit/channel."
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:457
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:455
 #, kde-format
 msgctxt "When the selected Bitdepth is 16 bit float"
 msgid ""
@@ -30065,7 +30076,7 @@ msgid ""
 "bit if your computer slows down."
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:466
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:464
 #, kde-format
 msgctxt "When the selected Bitdepth is 32bit float"
 msgid ""
@@ -30079,7 +30090,7 @@ msgid ""
 "otherwise use 8 bit if your computer slows down."
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:475
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:473
 #, kde-format
 msgctxt ""
 "When the selected Bitdepth is 64bit float, but this isn't actually available "
@@ -30095,12 +30106,12 @@ msgid ""
 "otherwise use 8 bit if your computer slows down."
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:483
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:481
 #, kde-format
 msgid "The following conversion intents are possible: "
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:502
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:500
 #, kde-format
 msgctxt "These are Elle Stone's notes on her profiles that we ship."
 msgid ""
@@ -30111,7 +30122,7 @@ msgid ""
 "\">the full documentation</a> as well.</i></p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:510
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:508
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30122,7 +30133,7 @@ msgid ""
 "source'.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:518
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:516
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30132,7 +30143,7 @@ msgid ""
 "just barely outside the area of real colors humans can see</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:525
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:523
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30149,7 +30160,7 @@ msgid ""
 "to some of today's high-end wide gamut monitors.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:539
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:537
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30167,7 +30178,7 @@ msgid ""
 "colors.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:554
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:552
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30181,7 +30192,7 @@ msgid ""
 "be calculated from the spectral wavelengths, so I did.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:567
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:565
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30192,7 +30203,7 @@ msgid ""
 "to actually edit images in the IdentityRGB working space.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:575
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:573
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30213,7 +30224,7 @@ msgid ""
 "and cons of changing your workflow.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:593
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:591
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30226,7 +30237,7 @@ msgid ""
 "working space than the exceedingly small sRGB color space.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:602
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:600
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30247,7 +30258,7 @@ msgid ""
 "profile, and matrix profiles don't have perceptual intent tables.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:618
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:616
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30260,7 +30271,7 @@ msgid ""
 "color space.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:626
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:624
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30273,7 +30284,7 @@ msgid ""
 "internet, convert the image to the V2 Gray profile with the sRGB TRC.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:634
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:632
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30284,7 +30295,7 @@ msgid ""
 "color spaces.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:641
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:639
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30293,7 +30304,7 @@ msgid ""
 "Make sure you use the V4 versions for editing high bit depth images.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:647
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:645
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30302,7 +30313,7 @@ msgid ""
 "gamma=1.8 TRC is not quite as close to being perceptually uniform.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:652
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:650
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30315,7 +30326,7 @@ msgid ""
 "8-bit editing.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:660
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:658
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -30324,7 +30335,7 @@ msgid ""
 "showFoto, and GIMP 2.9.</p>"
 msgstr ""
 
-#: libs/ui/widgets/kis_advanced_color_space_selector.cc:665
+#: libs/ui/widgets/kis_advanced_color_space_selector.cc:663
 #, kde-format
 msgctxt "From Elle's notes."
 msgid ""
@@ -31679,13 +31690,13 @@ msgstr ""
 msgid "Distance:"
 msgstr ""
 
-#: libs/widgets/KoToolBox.cpp:311 libs/widgetutils/xmlgui/ktoolbar.cpp:323
+#: libs/widgets/KoToolBox.cpp:312 libs/widgetutils/xmlgui/ktoolbar.cpp:323
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr ""
 
-#: libs/widgets/KoToolBox.cpp:318
+#: libs/widgets/KoToolBox.cpp:319
 #, kde-format
 msgid "%1x%2"
 msgstr ""
@@ -33466,7 +33477,7 @@ msgstr ""
 msgid "Two point assistant"
 msgstr ""
 
-#: plugins/assistants/Assistants/TwoPointAssistant.cc:558
+#: plugins/assistants/Assistants/TwoPointAssistant.cc:559
 #, kde-format
 msgid "2 Point Perspective"
 msgstr ""
@@ -33585,107 +33596,107 @@ msgstr ""
 msgid "ICC Engine"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:160
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:158
 #, kde-format
 msgid "L*a*b*/8 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:164
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:162
 #, kde-format
 msgid "L*a*b*/16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:168
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:166
 #, kde-format
 msgid "L*a*b*/32 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:186
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:184
 #, kde-format
 msgid "RGBA/8 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:190
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:188
 #, kde-format
 msgid "RGBA/16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:196
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:194
 #, kde-format
 msgid "RGBA/F16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:202
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:200
 #, kde-format
 msgid "RGBA/F32 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:223
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:221
 #, kde-format
 msgid "GRAY/8 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:227
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:225
 #, kde-format
 msgid "GRAY/16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:232
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:230
 #, kde-format
 msgid "GRAYF/F16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:238
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:236
 #, kde-format
 msgid "GRAY/F32 float Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:248
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:246
 #, kde-format
 msgid "CMYK/8 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:252
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:250
 #, kde-format
 msgid "CMYK/16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:256
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:254
 #, kde-format
 msgid "CMYK/F32 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:274
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:272
 #, kde-format
 msgid "XYZ/8 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:278
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:276
 #, kde-format
 msgid "XYZ/16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:284
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:282
 #, kde-format
 msgid "XYZ/F16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:290
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:288
 #, kde-format
 msgid "XYZF32 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:303
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:301
 #, kde-format
 msgid "YCbCr/8 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:307
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:305
 #, kde-format
 msgid "YCbCr/16 Histogram"
 msgstr ""
 
-#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:311
+#: plugins/color/lcms2engine/LcmsEnginePlugin.cpp:309
 #, kde-format
 msgid "YCbCr/F32 Histogram"
 msgstr ""
@@ -34262,7 +34273,7 @@ msgid "Bluer/Yellower: "
 msgstr ""
 
 #: plugins/dockers/animation/KisAnimCurvesDocker.cpp:55
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:250
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:254
 #, kde-format
 msgid "Animation Curves"
 msgstr ""
@@ -34328,22 +34339,22 @@ msgstr ""
 msgid "Frame Rate: "
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:272
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:274
 #, kde-format
 msgid "Channel Operations"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:274
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:275
 #, kde-format
 msgid "Layer Operations"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:277
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:278
 #, kde-format
 msgid "Reset Channel"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:283
+#: plugins/dockers/animation/KisAnimCurvesDocker.cpp:284
 #, kde-format
 msgid "Reset All Channels"
 msgstr ""
@@ -34383,34 +34394,34 @@ msgstr ""
 msgid "Zoom view to fit curve."
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimCurvesModel.cpp:235
+#: plugins/dockers/animation/KisAnimCurvesModel.cpp:230
 msgctxt "(qtundo-format)"
 msgid "Adjust keyframe"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimCurvesModel.cpp:239
+#: plugins/dockers/animation/KisAnimCurvesModel.cpp:234
 msgctxt "(qtundo-format)"
 msgid "Insert keyframe"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimCurvesModel.cpp:254
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:722
+#: plugins/dockers/animation/KisAnimCurvesModel.cpp:249
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:723
 msgctxt "(qtundo-format)"
 msgid "Adjust tangent"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimCurvesModel.cpp:263
-#: plugins/dockers/animation/KisAnimCurvesModel.cpp:275
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:869
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:878
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:887
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:896
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:924
+#: plugins/dockers/animation/KisAnimCurvesModel.cpp:258
+#: plugins/dockers/animation/KisAnimCurvesModel.cpp:270
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:870
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:879
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:888
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:897
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:925
 msgctxt "(qtundo-format)"
 msgid "Set interpolation mode"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimCurvesModel.cpp:320
+#: plugins/dockers/animation/KisAnimCurvesModel.cpp:315
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Adjust Keyframe"
@@ -34468,82 +34479,82 @@ msgid_plural "Insert %1 frames"
 msgstr[0] ""
 msgstr[1] ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:179
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:195
 #, kde-format
 msgid "Edit Layers:"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:208
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:224
 #, kde-format
 msgid "Edit Audio:"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:212
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:228
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Audio playback is not supported in this build!"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:219
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:235
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Mute"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:224
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:240
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Remove audio"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:231
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:247
 #, kde-format
 msgctxt "@item:inmenu, slider"
 msgid "Volume:"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:270
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:286
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Zoom Timeline. Hold down and drag left or right."
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:814
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:831
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open audio..."
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:817
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:834
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Change audio (%1)..."
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1577
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1594
 #, kde-format
 msgctxt "@title:window"
 msgid "Insert or Remove Hold Frames"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1578
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1595
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Enter number of frames"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1685
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1702
 #, kde-format
 msgid "Edit Frames:"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1712
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1729
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Keyframes"
 msgstr ""
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1720
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1737
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hold Frames"
@@ -35768,7 +35779,7 @@ msgctxt "action"
 msgid "Export Timelapse..."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:98
+#: plugins/dockers/recorder/recorder_export.cpp:101
 #, kde-format
 msgctxt ""
 "This text is displayed instead of path to external tool in case of external "
@@ -35776,93 +35787,93 @@ msgctxt ""
 msgid "[NOT FOUND]"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:99
+#: plugins/dockers/recorder/recorder_export.cpp:102
 #, kde-format
 msgid ""
 "FFmpeg executable location couldn't be detected, please install it or select "
 "its location manually"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:163
+#: plugins/dockers/recorder/recorder_export.cpp:166
 #, kde-format
 msgid "Abort encoding the timelapse video?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:235
+#: plugins/dockers/recorder/recorder_export.cpp:238
 #, kde-format
 msgctxt "Status for the export of the video record"
 msgid "Starting FFmpeg..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, btnExport)
-#: plugins/dockers/recorder/recorder_export.cpp:321
+#: plugins/dockers/recorder/recorder_export.cpp:341
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:29
 #: plugins/dockers/storyboarddocker/wdgstoryboarddock.ui:21
 #, kde-format
 msgid "Export"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:346
+#: plugins/dockers/recorder/recorder_export.cpp:370
 #, kde-format
 msgctxt "Can't export recording because nothing to export"
 msgid "No frames to export"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:350
+#: plugins/dockers/recorder/recorder_export.cpp:374
 #, kde-format
 msgctxt "General information about recording"
 msgid "Recording info"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:353
+#: plugins/dockers/recorder/recorder_export.cpp:377
 #, kde-format
 msgctxt "Pixel dimension suffix"
 msgid "px"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:355
+#: plugins/dockers/recorder/recorder_export.cpp:379
 #, kde-format
 msgctxt "The suffix after number of frames"
 msgid "frame(s)"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:406
+#: plugins/dockers/recorder/recorder_export.cpp:434
 #, kde-format
 msgctxt "Can't browse frames of recording because no frames have been recorded"
 msgid "No frames to browse."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:480
+#: plugins/dockers/recorder/recorder_export.cpp:522
 #, kde-format
 msgid "Select FFmpeg Executable File"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:526
+#: plugins/dockers/recorder/recorder_export.cpp:568
 #, kde-format
 msgid "Export Timelapse Video As"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:542
+#: plugins/dockers/recorder/recorder_export.cpp:584
 #, kde-format
 msgid "The video file already exists. Do you wish to overwrite it?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:547
+#: plugins/dockers/recorder/recorder_export.cpp:589
 #, kde-format
 msgid "No frames to export."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:574
+#: plugins/dockers/recorder/recorder_export.cpp:616
 #, kde-format
 msgid "The timelapse video is being encoded..."
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:587
+#: plugins/dockers/recorder/recorder_export.cpp:629
 #, kde-format
 msgid "Export failed. FFmpeg message:"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:608
+#: plugins/dockers/recorder/recorder_export.cpp:650
 #, kde-format
 msgid ""
 "The recordings for this document will be deleted and you will not be able to "
@@ -35872,7 +35883,7 @@ msgid ""
 "Do you wish to continue?"
 msgstr ""
 
-#: plugins/dockers/recorder/recorder_export.cpp:615
+#: plugins/dockers/recorder/recorder_export.cpp:657
 #: plugins/dockers/recorder/recorder_snapshots_manager.cpp:262
 #, kde-format
 msgctxt "Label title, Snapshot directory deleting is in progress"
@@ -35885,91 +35896,38 @@ msgstr ""
 msgid "Export Timelapse"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelTitleVideoDuration)
-#: plugins/dockers/recorder/recorder_export.ui:62
-#, kde-format
-msgid "Video duration:"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseDirectory)
-#: plugins/dockers/recorder/recorder_export.ui:122
+#: plugins/dockers/recorder/recorder_export.ui:64
 #, kde-format
 msgid "Open record directory"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, checkResize)
+#: plugins/dockers/recorder/recorder_export.ui:116
+#, kde-format
+msgid "Resize:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, labelExportTo)
-#: plugins/dockers/recorder/recorder_export.ui:166
+#: plugins/dockers/recorder/recorder_export.ui:135
 #, kde-format
 msgid "Video location:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLabel, labelHoldLastFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:179
-#, kde-format
-msgid "The added duration for showing the last frame."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelHoldLastFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:182
-#, kde-format
-msgid "Hold last frame for:"
-msgstr ""
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, spinCaptureInterval)
-#. i18n: ectx: property (suffix), widget (QSpinBox, spinLastFrameSec)
-#. i18n: ectx: property (suffix), widget (QSpinBox, spinFirstFrameSec)
-#: plugins/dockers/recorder/recorder_export.ui:306
-#: plugins/dockers/recorder/recorder_export.ui:637
-#: plugins/dockers/recorder/recorderdocker.ui:180
-#, kde-format
-msgctxt "Contraction of \"second\" for interval"
-msgid " sec."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/dockers/recorder/recorder_export.ui:334
-#, kde-format
-msgid "Show result on first frame for:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLineEdit, editFfmpegPath)
-#: plugins/dockers/recorder/recorder_export.ui:405
-#, kde-format
-msgid "ffmpeg"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, labelFfmpegLocation)
-#: plugins/dockers/recorder/recorder_export.ui:415
+#: plugins/dockers/recorder/recorder_export.ui:155
 #, kde-format
 msgid "FFmpeg:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseExport)
-#: plugins/dockers/recorder/recorder_export.ui:461
+#: plugins/dockers/recorder/recorder_export.ui:168
 #, kde-format
 msgid "Select a file location for the exported timelapse video"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, checkResize)
-#: plugins/dockers/recorder/recorder_export.ui:499
-#, kde-format
-msgid "Resize:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseFfmpeg)
-#: plugins/dockers/recorder/recorder_export.ui:560
-#, kde-format
-msgid "Setup ffmpeg executable location"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelFps)
-#: plugins/dockers/recorder/recorder_export.ui:574
-#, kde-format
-msgid "Video FPS:"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:588
+#: plugins/dockers/recorder/recorder_export.ui:209
 #, kde-format
 msgid ""
 "The speed of reading the input stream.\n"
@@ -35978,61 +35936,132 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelFpsInput)
-#: plugins/dockers/recorder/recorder_export.ui:591
+#: plugins/dockers/recorder/recorder_export.ui:212
 #, kde-format
 msgctxt "Input FPS of recorded timelapses."
 msgid "Input FPS:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonEditProfile)
-#: plugins/dockers/recorder/recorder_export.ui:622
+#: plugins/dockers/recorder/recorder_export.ui:243
 #, kde-format
 msgid "Edit video profile"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLineEdit, editFfmpegPath)
+#: plugins/dockers/recorder/recorder_export.ui:256
+#, kde-format
+msgid "ffmpeg"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, resultPreviewCheckBox)
+#: plugins/dockers/recorder/recorder_export.ui:267
+#, kde-format
+msgid ""
+"Prepend a preview to the exported video.\n"
+"The preview will show the last frame of the video for the specified duration"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, resultPreviewCheckBox)
+#: plugins/dockers/recorder/recorder_export.ui:273
+#, kde-format
+msgid "Enable result preview"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonBrowseFfmpeg)
+#: plugins/dockers/recorder/recorder_export.ui:280
+#, kde-format
+msgid "Setup ffmpeg executable location"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelFps)
+#: plugins/dockers/recorder/recorder_export.ui:343
+#, kde-format
+msgid "Video FPS:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinCaptureInterval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinLastFrameSec)
+#: plugins/dockers/recorder/recorder_export.ui:384
+#: plugins/dockers/recorder/recorderdocker.ui:180
+#, kde-format
+msgctxt "Contraction of \"second\" for interval"
+msgid " sec."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelHoldLastFrameSec)
+#: plugins/dockers/recorder/recorder_export.ui:518
+#, kde-format
+msgid "The added duration for showing the last frame."
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinFirstFrameSec)
+#: plugins/dockers/recorder/recorder_export.ui:581
+#, kde-format
+msgid " sec."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, extendResultCheckBox)
+#: plugins/dockers/recorder/recorder_export.ui:609
+#, kde-format
+msgid "Extend the last frame in the exported video by the specified duration"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, extendResultCheckBox)
+#: plugins/dockers/recorder/recorder_export.ui:612
+#, kde-format
+msgid "Extend end result"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelTitleVideoDuration)
+#: plugins/dockers/recorder/recorder_export.ui:649
+#, kde-format
+msgid "Video duration:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, labelDone)
-#: plugins/dockers/recorder/recorder_export.ui:891
+#: plugins/dockers/recorder/recorder_export.ui:912
 #, kde-format
 msgctxt "Caption: Video exporting finished"
 msgid "Done!"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonWatchIt)
-#: plugins/dockers/recorder/recorder_export.ui:909
+#: plugins/dockers/recorder/recorder_export.ui:930
 #, kde-format
 msgctxt "Watch the video which is just created"
 msgid "Watch it!"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelWritten)
-#: plugins/dockers/recorder/recorder_export.ui:919
+#: plugins/dockers/recorder/recorder_export.ui:940
 #, kde-format
 msgid "The timelapse video has been written to:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonShowInFolder)
-#: plugins/dockers/recorder/recorder_export.ui:937
+#: plugins/dockers/recorder/recorder_export.ui:958
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Show in folder"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRemoveSnapshots)
-#: plugins/dockers/recorder/recorder_export.ui:974
+#: plugins/dockers/recorder/recorder_export.ui:995
 #, kde-format
 msgctxt "Open the folder when the new created video is placed"
 msgid "Remove recordings"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRestart)
-#: plugins/dockers/recorder/recorder_export.ui:1040
+#: plugins/dockers/recorder/recorder_export.ui:1061
 #, kde-format
 msgctxt "Button to restart the timelapse video configuring"
 msgid "Restart"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonDoneClose)
-#: plugins/dockers/recorder/recorder_export.ui:1047
+#: plugins/dockers/recorder/recorder_export.ui:1068
 #, kde-format
 msgctxt "Close dialog button"
 msgid "Close"
@@ -36506,17 +36535,17 @@ msgctxt "(qtundo-format)"
 msgid "Edit Storyboard Child"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:136
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:305
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:921
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:137
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:311
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:922
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'seconds'"
 msgid "s"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:141
-#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:312
-#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:924
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:142
+#: plugins/dockers/storyboarddocker/StoryboardDelegate.cpp:318
+#: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:925
 #, kde-format
 msgctxt "suffix in spin box in storyboard that means 'frames'"
 msgid "f"
@@ -36547,14 +36576,14 @@ msgid "Freeze Keyframe Data"
 msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:236
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:279
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:281
 #, kde-format
 msgctxt "Add new scene as the last storyboard"
 msgid "Add Scene"
 msgstr ""
 
 #: plugins/dockers/storyboarddocker/StoryboardDockerDock.cpp:252
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:298
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:300
 #, kde-format
 msgctxt "Remove current scene from storyboards"
 msgid "Remove Scene"
@@ -36574,19 +36603,19 @@ msgctxt "default name for storyboard item"
 msgid "scene "
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:286
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:288
 #, kde-format
 msgctxt "Add scene after active scene"
 msgid "Add Scene After"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:288
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:290
 #, kde-format
 msgctxt "Add scene before active scene"
 msgid "Add Scene Before"
 msgstr ""
 
-#: plugins/dockers/storyboarddocker/StoryboardView.cpp:291
+#: plugins/dockers/storyboarddocker/StoryboardView.cpp:293
 #, kde-format
 msgctxt "Duplicate current scene from storyboard docker"
 msgid "Duplicate Scene"
@@ -41799,7 +41828,7 @@ msgstr ""
 msgid "Color Factors"
 msgstr ""
 
-#: plugins/generators/pattern/patterngenerator.cpp:111
+#: plugins/generators/pattern/patterngenerator.cpp:113
 #, kde-format
 msgid "&Pattern..."
 msgstr ""
@@ -43703,7 +43732,7 @@ msgstr ""
 msgid "Save as HDR image (Rec. 2020 PQ)"
 msgstr ""
 
-#: plugins/impex/psd/psd_export.cc:55
+#: plugins/impex/psd/psd_export.cc:56
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -43711,7 +43740,7 @@ msgid ""
 "from the image."
 msgstr ""
 
-#: plugins/impex/psd/psd_loader.cpp:149
+#: plugins/impex/psd/psd_loader.cpp:152
 #, kde-format
 msgid "Duotone Colormode Block"
 msgstr ""
@@ -44707,79 +44736,79 @@ msgctxt "make a very small file, but take a long time saving"
 msgid "Small"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:25
+#: plugins/impex/webp/dlg_webp_export.cpp:33
 #, kde-format
 msgctxt "WebP presets"
 msgid "Default"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:26
+#: plugins/impex/webp/dlg_webp_export.cpp:34
 #, kde-format
 msgctxt "WebP presets"
 msgid "Portrait"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:27
+#: plugins/impex/webp/dlg_webp_export.cpp:35
 #, kde-format
 msgctxt "WebP presets"
 msgid "Outdoor photo"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:28
+#: plugins/impex/webp/dlg_webp_export.cpp:36
 #, kde-format
 msgctxt "WebP presets"
 msgid "Line drawing"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:29
+#: plugins/impex/webp/dlg_webp_export.cpp:37
 #, kde-format
 msgctxt "WebP presets"
 msgid "Icon"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:30
+#: plugins/impex/webp/dlg_webp_export.cpp:38
 #, kde-format
 msgctxt "WebP presets"
 msgid "Text"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:32
+#: plugins/impex/webp/dlg_webp_export.cpp:40
 #, kde-format
 msgctxt "WebP filters"
 msgid "Simple"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:33
+#: plugins/impex/webp/dlg_webp_export.cpp:41
 #, kde-format
 msgctxt "WebP filters"
 msgid "Strong"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:35
+#: plugins/impex/webp/dlg_webp_export.cpp:43
 #, kde-format
 msgctxt "WebP alpha plane compression"
 msgid "None"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:36
+#: plugins/impex/webp/dlg_webp_export.cpp:44
 #, kde-format
 msgctxt "WebP alpha plane compression"
 msgid "Lossless"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:38
+#: plugins/impex/webp/dlg_webp_export.cpp:46
 #, kde-format
 msgctxt "WebP preprocessing filters"
 msgid "None"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:39
+#: plugins/impex/webp/dlg_webp_export.cpp:47
 #, kde-format
 msgctxt "WebP preprocessing filters"
 msgid "Segment-smooth"
 msgstr ""
 
-#: plugins/impex/webp/dlg_webp_export.cpp:40
+#: plugins/impex/webp/dlg_webp_export.cpp:48
 #, kde-format
 msgctxt "WebP preprocessing filters"
 msgid "Pseudo-random dithering"
@@ -50704,126 +50733,54 @@ msgstr ""
 msgid "Python files (*.py)"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:57
+#: plugins/tools/basictools/kis_tool_brush.cc:58
 msgctxt "(qtundo-format)"
 msgid "Freehand Brush Stroke"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:180
+#: plugins/tools/basictools/kis_tool_brush.cc:139
 #, kde-format
 msgid "Sample count:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:191
+#: plugins/tools/basictools/kis_tool_brush.cc:150
 #, kde-format
 msgctxt ""
 "Label of Distance value in Freehand brush tool's Weighted Smoothing mode"
 msgid "Distance:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:348
+#: plugins/tools/basictools/kis_tool_brush.cc:346
 #, kde-format
-msgctxt "@item:inlistbox Brush Smoothing"
-msgid "None"
+msgid "Eraser smoothing"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:349
-#, kde-format
-msgctxt "@item:inlistbox Brush Smoothing"
-msgid "Basic"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_brush.cc:350
-#, kde-format
-msgctxt "@item:inlistbox Brush Smoothing"
-msgid "Weighted"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_brush.cc:351
-#, kde-format
-msgctxt "@item:inlistbox Brush Smoothing"
-msgid "Stabilizer"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_brush.cc:353
-#, kde-format
-msgid "Brush Smoothing:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_brush.cc:376
-#, kde-format
-msgid "Delay:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_brush.cc:381
-#, kde-format
-msgid "Delay the brush stroke to make the line smoother"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_brush.cc:385
-#, kde-format
-msgid "Radius where the brush is blocked"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_brush.cc:392
-#, kde-format
-msgid "Finish line:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_brush.cc:405
-#, kde-format
-msgid "Stabilize Sensors:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_brush.cc:414
-#, kde-format
-msgid "Stroke Ending:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_brush.cc:421
-#, kde-format
-msgid "Smooth Pressure"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_brush.cc:428
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Scalable distance takes zoom level into account and makes the distance be "
-"visually constant whatever zoom level is chosen"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_brush.cc:433
-#, kde-format
-msgid "Scalable Distance"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_brush.cc:449
+#: plugins/tools/basictools/kis_tool_brush.cc:369
 #, kde-format
 msgid "Snap to Assistants"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:451
+#: plugins/tools/basictools/kis_tool_brush.cc:371
 #, kde-format
 msgid "You need to add Assistants before this tool will work."
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:456
+#: plugins/tools/basictools/kis_tool_brush.cc:376
 #, kde-format
 msgid "Assistant Magnetism"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:462
+#: plugins/tools/basictools/kis_tool_brush.cc:382
 #, kde-format
 msgid "Magnetism:"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:465
+#: plugins/tools/basictools/kis_tool_brush.cc:385
 #, kde-format
 msgid "Snap to Single Line"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:468
+#: plugins/tools/basictools/kis_tool_brush.cc:388
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -50831,18 +50788,95 @@ msgid ""
 "using the infinite assistants."
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:473
+#: plugins/tools/basictools/kis_tool_brush.cc:393
 #, kde-format
 msgid "Snap Eraser"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.cc:476
+#: plugins/tools/basictools/kis_tool_brush.cc:396
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enable snapping when using erasers"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_brush.h:137
+#: plugins/tools/basictools/kis_tool_brush.cc:427
+#, kde-format
+msgctxt "@item:inlistbox Brush Smoothing"
+msgid "None"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:428
+#, kde-format
+msgctxt "@item:inlistbox Brush Smoothing"
+msgid "Basic"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:429
+#, kde-format
+msgctxt "@item:inlistbox Brush Smoothing"
+msgid "Weighted"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:430
+#, kde-format
+msgctxt "@item:inlistbox Brush Smoothing"
+msgid "Stabilizer"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:431
+#, kde-format
+msgid "Brush Smoothing:"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:452
+#, kde-format
+msgid "Delay:"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:457
+#, kde-format
+msgid "Delay the brush stroke to make the line smoother"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:460
+#, kde-format
+msgid "Radius where the brush is blocked"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:466
+#, kde-format
+msgid "Finish line:"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:478
+#, kde-format
+msgid "Stabilize Sensors:"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:486
+#, kde-format
+msgid "Stroke Ending:"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:492
+#, kde-format
+msgid "Smooth Pressure"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:499
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Scalable distance takes zoom level into account and makes the distance be "
+"visually constant whatever zoom level is chosen"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.cc:503
+#, kde-format
+msgid "Scalable Distance"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_brush.h:162
 #, kde-format
 msgid "Freehand Brush Tool"
 msgstr ""
@@ -50877,157 +50911,194 @@ msgstr ""
 msgid "Ellipse Tool"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:120
+#: plugins/tools/basictools/kis_tool_fill.cc:114
 #, kde-format
 msgid "You cannot use this tool with the selected layer type"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:192
+#: plugins/tools/basictools/kis_tool_fill.cc:187
 msgctxt "(qtundo-format)"
 msgid "Flood Fill"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:318
+#: plugins/tools/basictools/kis_tool_fill.cc:388
 #, kde-format
-msgid "Fast mode:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:321
-#, kde-format
-msgid ""
-"Fills area faster, but does not take composition mode into account. "
-"Selections and other extended features will also be disabled."
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:326
-#, kde-format
-msgctxt "The Threshold label in Fill tool options"
-msgid "Threshold:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:332
-#, kde-format
-msgctxt "The Opacity Spread label in Fill tool options"
-msgid "Opacity Spread:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:342
-#, kde-format
-msgid "Smooths the jagged edges."
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:344
-#, kde-format
-msgid "Grow selection:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:351
-#, kde-format
-msgid "Feathering radius:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:358
-#, kde-format
-msgid "Use pattern:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:360
-#, kde-format
-msgid ""
-"When checked do not use the foreground color, but the pattern selected to "
-"fill with"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:378
-#, kde-format
-msgctxt ""
-"This is a label before a combobox with different choices regarding which "
-"layers to take into considerationg when calculating the area to fill. "
-"Options together with the label are: /Sample current layer/ /Sample all "
-"layers/ /Sample color labeled layers/. Sample is a verb here and means "
-"something akin to 'take into account'."
-msgid "Sample:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:387
-#, kde-format
-msgctxt ""
-"This is a string in tool options for Fill Tool to describe a combobox about "
-"a choice of color labels that a layer can be marked with. Those color labels "
-"will be used for calculating the area to fill."
-msgid "Labels used:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:391
-#, kde-format
-msgid "Fill entire selection:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:393
-#, kde-format
-msgid ""
-"When checked do not look at the current layer colors, but just fill all of "
-"the selected area"
+msgctxt "The pattern 'scale' spinbox prefix in fill tool options"
+msgid "Scale: "
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:395
 #, kde-format
-msgctxt ""
-"Description for a checkbox in a Fill Tool to use selection borders as "
-"boundary when filling"
-msgid "Use selection as boundary:"
+msgctxt "The 'threshold' spinbox prefix in fill tool options"
+msgid "Threshold: "
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:397
+#: plugins/tools/basictools/kis_tool_fill.cc:398
 #, kde-format
-msgctxt "Tooltip for 'Use selection as boundary' checkbox"
-msgid "When checked, use selection borders as boundary when filling"
+msgctxt "The 'spread' spinbox prefix in fill tool options"
+msgid "Spread: "
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:399
-#, kde-format
-msgctxt "The 'continuous fill' label in Fill tool options"
-msgid "Continuous Fill:"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:401
-#, kde-format
-msgctxt "Continuous fill mode in fill tool options"
-msgid "Any region"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:402
-#, kde-format
-msgctxt "Continuous fill mode in fill tool options"
-msgid "Similar regions"
-msgstr ""
-
-#: plugins/tools/basictools/kis_tool_fill.cc:523
+#: plugins/tools/basictools/kis_tool_fill.cc:404
 #, kde-format
 msgctxt ""
-"Option in fill tool: take only the current layer into account when "
-"calculating the area to fill"
-msgid "Current Layer"
+"The 'use selection as boundary' checkbox in fill tool to use selection "
+"borders as boundary when filling"
+msgid "Use selection as boundary"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:527
+#: plugins/tools/basictools/kis_tool_fill.cc:408
 #, kde-format
-msgctxt ""
-"Option in fill tool: take all layers (merged) into account when calculating "
-"the area to fill"
-msgid "All Layers"
+msgctxt "The anti-alias checkbox in fill tool options"
+msgid "Anti-aliasing"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.cc:530
+#: plugins/tools/basictools/kis_tool_fill.cc:410
 #, kde-format
-msgctxt ""
-"Option in fill tool: take all layers that were labeled with a color label "
-"(more precisely: all those layers merged) into account when calculating the "
-"area to fill"
-msgid "Color Labeled Layers"
+msgctxt "The 'grow/shrink' spinbox prefix in fill tool options"
+msgid "Grow: "
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_fill.h:160
+#: plugins/tools/basictools/kis_tool_fill.cc:414
+#, kde-format
+msgctxt "The 'feather' spinbox prefix in fill tool options"
+msgid "Feather: "
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:432
+#, kde-format
+msgctxt "The 'reset' button in fill tool options"
+msgid "Reset"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:435
+#, kde-format
+msgid "Current selection"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:436
+#, kde-format
+msgid "Contiguous region obtained from the layers"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:441
+#, kde-format
+msgid "Set the scale of the pattern"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:442
+#, kde-format
+msgid "Set the rotation of the pattern"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:444
+#, kde-format
+msgid ""
+"Set how far the region should extend from the selected pixel in terms of "
+"color similarity"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:445
+#, kde-format
+msgid ""
+"Set how far the fully opaque portion of the region should extend.\n"
+"0% will make opaque only the pixels that are exactly equal to the selected "
+"pixel.\n"
+"100% will make opaque all the pixels in the region up to its boundary."
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:448
+#, kde-format
+msgid ""
+"Set if the contour of the current selection should be treated as a boundary "
+"when obtaining the region"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:450
+#, kde-format
+msgid "Smooth the jagged edges"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:451
+#, kde-format
+msgid ""
+"Grow (positive values) or shrink (negative values) the region by the set "
+"amount"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:452
+#, kde-format
+msgid "Blur the region by the set amount"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:454
+#, kde-format
+msgid "Obtain the region using the active layer"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:455
+#, kde-format
+msgid "Obtain the region using a merged copy of all layers"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:456
+#, kde-format
+msgid ""
+"Obtain the region using a merged copy of the selected color-labeled layers"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:458
+#, kde-format
+msgid "Fill regions of any color"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:459
+#, kde-format
+msgid "Fill only regions similar in color to the initial region"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:461
+#, kde-format
+msgid "Reset the options to their default values"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:470
+#, kde-format
+msgctxt "The 'what to fill' section label in fill tool options"
+msgid "What to fill"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:477
+#, kde-format
+msgctxt "The 'fill with' section label in fill tool options"
+msgid "Fill with"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:488
+#, kde-format
+msgctxt "The 'region extent' section label in fill tool options"
+msgid "Region extent"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:497
+#, kde-format
+msgctxt "The 'adjustments' section label in fill tool options"
+msgid "Adjustments"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:506
+#, kde-format
+msgctxt "The 'reference' section label in fill tool options"
+msgid "Reference"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:515
+#, kde-format
+msgctxt "The 'multiple fill' section label in fill tool options"
+msgid "Multiple fill"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.h:187
 #, kde-format
 msgid "Fill Tool"
 msgstr ""
@@ -52014,34 +52085,34 @@ msgid "Contiguous Area Selection"
 msgstr ""
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:98
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:174
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:176
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:131
 msgctxt "(qtundo-format)"
 msgid "Select Contiguous Area"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:241
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:343
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:243
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:345
 #, kde-format
 msgid "Fuzziness: "
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:252
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:254
 #, kde-format
 msgid "Opacity Spread: "
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:263
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:265
 #, kde-format
 msgid "Grow/shrink selection: "
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:273
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:275
 #, kde-format
 msgid "Feathering radius: "
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:283
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:285
 #, kde-format
 msgid "Use selection as boundary: "
 msgstr ""
@@ -52131,7 +52202,7 @@ msgstr ""
 msgid "Similar Color Selection"
 msgstr ""
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:310
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:312
 msgctxt "(qtundo-format)"
 msgid "Select Similar Color"
 msgstr ""

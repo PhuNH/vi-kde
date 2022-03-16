@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: okular\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-04 02:10+0000\n"
+"POT-Creation-Date: 2022-03-10 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -34,7 +34,7 @@ msgid "Enhance thin lines:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EnhanceThinLines)
-#: conf/pdfsettingswidget.ui:30 generator_pdf.cpp:860
+#: conf/pdfsettingswidget.ui:30 generator_pdf.cpp:935
 #, kde-format
 msgid "No"
 msgstr ""
@@ -162,66 +162,43 @@ msgstr ""
 msgid "Scale mode:"
 msgstr ""
 
-#: generator_pdf.cpp:858
+#: generator_pdf.cpp:933
 #, kde-format
 msgctxt "PDF v. <version>"
 msgid "PDF v. %1.%2"
 msgstr ""
 
-#: generator_pdf.cpp:858
+#: generator_pdf.cpp:933
 #, kde-format
 msgid "Format"
 msgstr ""
 
-#: generator_pdf.cpp:859
+#: generator_pdf.cpp:934
 #, kde-format
 msgid "Encrypted"
 msgstr ""
 
-#: generator_pdf.cpp:859
+#: generator_pdf.cpp:934
 #, kde-format
 msgid "Unencrypted"
 msgstr ""
 
-#: generator_pdf.cpp:859
+#: generator_pdf.cpp:934
 #, kde-format
 msgid "Security"
 msgstr ""
 
-#: generator_pdf.cpp:860
+#: generator_pdf.cpp:935
 #, kde-format
 msgid "Yes"
 msgstr ""
 
-#: generator_pdf.cpp:860
+#: generator_pdf.cpp:935
 #, kde-format
 msgid "Optimized"
 msgstr ""
 
-#: generator_pdf.cpp:1466
-#, kde-format
-msgid "Using Poppler %1"
-msgstr ""
-
-#: generator_pdf.cpp:1468
-#, kde-format
-msgid ""
-"Using Poppler %1\n"
-"\n"
-"Built against Poppler %2"
-msgstr ""
-
-#: generator_pdf.cpp:1506
-#, kde-format
-msgid "PDF"
-msgstr ""
-
-#: generator_pdf.cpp:1506
-#, kde-format
-msgid "PDF Backend Configuration"
-msgstr ""
-
-#: generator_pdf.cpp:1923
+#: generator_pdf.cpp:1367
 #, kde-format
 msgid ""
 "Signed by: %1\n"
@@ -229,7 +206,30 @@ msgid ""
 "Date: %2"
 msgstr ""
 
-#: generator_pdf.cpp:1964
+#: generator_pdf.cpp:1573
+#, kde-format
+msgid "Using Poppler %1"
+msgstr ""
+
+#: generator_pdf.cpp:1575
+#, kde-format
+msgid ""
+"Using Poppler %1\n"
+"\n"
+"Built against Poppler %2"
+msgstr ""
+
+#: generator_pdf.cpp:1622
+#, kde-format
+msgid "PDF"
+msgstr ""
+
+#: generator_pdf.cpp:1622
+#, kde-format
+msgid "PDF Backend Configuration"
+msgstr ""
+
+#: generator_pdf.cpp:2080
 #, kde-format
 msgid ""
 "Some errors were found in the document, Okular might not be able to show the "
@@ -275,12 +275,12 @@ msgstr ""
 msgid "Not Available"
 msgstr ""
 
-#: pdfsignatureutils.cpp:267
+#: pdfsignatureutils.cpp:275
 #, kde-format
 msgid "Enter Password"
 msgstr ""
 
-#: pdfsignatureutils.cpp:267
+#: pdfsignatureutils.cpp:275
 #, kde-format
 msgid "Enter password to open %1:"
 msgstr ""
