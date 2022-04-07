@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-15 00:41+0000\n"
+"POT-Creation-Date: 2022-04-06 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -372,48 +372,72 @@ msgstr ""
 msgid "OS:"
 msgstr ""
 
-#: kbugreport.cpp:219
+#: kbugreport.cpp:214
+#, kde-format
+msgctxt ""
+"%1 is the operating system name, e.g. 'Windows 10', %2 is the CPU "
+"architecture, e.g. 'x86_64'"
+msgid "%1 (%2)"
+msgstr ""
+
+#: kbugreport.cpp:221
+#, kde-format
+msgctxt ""
+"%1 is the operating system name, e.g. 'Fedora Linux', %2 is the operating "
+"system version, e.g. '35', %3 is the CPU architecture, e.g. 'x86_64'"
+msgid "%1 %2 (%3)"
+msgstr ""
+
+#: kbugreport.cpp:227
+#, kde-format
+msgctxt ""
+"%1 is the operating system name, e.g. 'Fedora Linux', %2 is the CPU "
+"architecture, e.g. 'x86_64'"
+msgid "%1 (%2)"
+msgstr ""
+
+#: kbugreport.cpp:239
 #, kde-format
 msgctxt "@title:group"
 msgid "Se&verity"
 msgstr ""
 
-#: kbugreport.cpp:226
+#: kbugreport.cpp:246
 #, kde-format
 msgctxt "bug severity"
 msgid "Critical"
 msgstr ""
 
-#: kbugreport.cpp:227
+#: kbugreport.cpp:247
 #, kde-format
 msgctxt "bug severity"
 msgid "Grave"
 msgstr ""
 
-#: kbugreport.cpp:228
+#: kbugreport.cpp:248
 #, kde-format
 msgctxt "bug severity"
 msgid "Normal"
 msgstr ""
 
-#: kbugreport.cpp:229
+#: kbugreport.cpp:249
 #, kde-format
 msgctxt "bug severity"
 msgid "Wishlist"
 msgstr ""
 
-#: kbugreport.cpp:230
+#: kbugreport.cpp:250
 #, kde-format
 msgctxt "bug severity"
 msgid "Translation"
 msgstr ""
 
-#: kbugreport.cpp:248
+#: kbugreport.cpp:268
 #, kde-format
 msgid "S&ubject: "
 msgstr ""
 
-#: kbugreport.cpp:257
+#: kbugreport.cpp:277
 #, kde-format
 msgid ""
 "Enter the text (in English if possible) that you wish to submit for the bug "
@@ -422,7 +446,7 @@ msgid ""
 "program.\n"
 msgstr ""
 
-#: kbugreport.cpp:280
+#: kbugreport.cpp:300
 #, kde-format
 msgid ""
 "<qt>To submit a bug report, click on the button below. This will open a web "
@@ -431,39 +455,39 @@ msgid ""
 "be transferred to that server.</qt>"
 msgstr ""
 
-#: kbugreport.cpp:286
+#: kbugreport.cpp:306
 #, kde-format
 msgid ""
 "<qt>To submit a bug report, click on the button below. This will open a web "
 "browser window on <a href=\"%1\">%2</a>.</qt>"
 msgstr ""
 
-#: kbugreport.cpp:303
+#: kbugreport.cpp:323
 #, kde-format
 msgctxt "@action:button"
 msgid "&Launch Bug Report Wizard"
 msgstr ""
 
-#: kbugreport.cpp:305
+#: kbugreport.cpp:325
 #, kde-format
 msgctxt "@action:button"
 msgid "&Submit Bug Report"
 msgstr ""
 
-#: kbugreport.cpp:360
+#: kbugreport.cpp:380
 #, kde-format
 msgctxt "The arg is the command kcmshell5"
 msgid "Could not find '%1' executable in PATH."
 msgstr ""
 
-#: kbugreport.cpp:410
+#: kbugreport.cpp:430
 #, kde-format
 msgid ""
 "You must specify both a subject and a description before the report can be "
 "sent."
 msgstr ""
 
-#: kbugreport.cpp:419
+#: kbugreport.cpp:439
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
@@ -475,7 +499,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:435
+#: kbugreport.cpp:455
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
@@ -487,7 +511,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:454
+#: kbugreport.cpp:474
 #, kde-format
 msgid ""
 "Unable to send the bug report.\n"
@@ -495,19 +519,19 @@ msgid ""
 "See https://bugs.kde.org/ for instructions."
 msgstr ""
 
-#: kbugreport.cpp:461
+#: kbugreport.cpp:481
 #, kde-format
 msgid "Bug report sent, thank you for your input."
 msgstr ""
 
-#: kbugreport.cpp:469
+#: kbugreport.cpp:489
 #, kde-format
 msgid ""
 "Close and discard\n"
 "edited message?"
 msgstr ""
 
-#: kbugreport.cpp:470
+#: kbugreport.cpp:490
 #, kde-format
 msgctxt "@title:window"
 msgid "Close Message"
@@ -590,7 +614,7 @@ msgstr ""
 msgid "Reset"
 msgstr ""
 
-#: kedittoolbar.cpp:992
+#: kedittoolbar.cpp:989
 #, kde-format
 msgid "&Toolbar:"
 msgstr ""
@@ -602,84 +626,84 @@ msgstr ""
 #. del_toolbar->setPixmap(BarIcon("edit-delete", KIconLoader::SizeSmall));
 #. del_toolbar->setEnabled(false); // disabled until implemented
 #. our list of inactive actions
-#: kedittoolbar.cpp:1008
+#: kedittoolbar.cpp:1005
 #, kde-format
 msgid "A&vailable actions:"
 msgstr ""
 
-#: kedittoolbar.cpp:1029 kedittoolbar.cpp:1054
+#: kedittoolbar.cpp:1026 kedittoolbar.cpp:1051
 #, kde-format
 msgid "Filter"
 msgstr ""
 
-#: kedittoolbar.cpp:1032
+#: kedittoolbar.cpp:1029
 #, kde-format
 msgid "Curr&ent actions:"
 msgstr ""
 
-#: kedittoolbar.cpp:1057
+#: kedittoolbar.cpp:1054
 #, kde-format
 msgctxt "@action:button"
 msgid "Change &Icon..."
 msgstr ""
 
-#: kedittoolbar.cpp:1066
+#: kedittoolbar.cpp:1063
 #, kde-format
 msgctxt "@action:button"
 msgid "Change Te&xt..."
 msgstr ""
 
-#: kedittoolbar.cpp:1208
+#: kedittoolbar.cpp:1205
 #, kde-format
 msgid "--- separator ---"
 msgstr ""
 
-#: kedittoolbar.cpp:1209
+#: kedittoolbar.cpp:1206
 #, kde-format
 msgid "--- expanding spacer ---"
 msgstr ""
 
-#: kedittoolbar.cpp:1231
+#: kedittoolbar.cpp:1228
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr ""
 
-#: kedittoolbar.cpp:1259
+#: kedittoolbar.cpp:1256
 #, kde-format
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 
-#: kedittoolbar.cpp:1261
+#: kedittoolbar.cpp:1258
 #, kde-format
 msgid "<Merge>"
 msgstr ""
 
-#: kedittoolbar.cpp:1263
+#: kedittoolbar.cpp:1260
 #, kde-format
 msgid "<Merge %1>"
 msgstr ""
 
-#: kedittoolbar.cpp:1273
+#: kedittoolbar.cpp:1270
 #, kde-format
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
 "will not be able to re-add it."
 msgstr ""
 
-#: kedittoolbar.cpp:1274
+#: kedittoolbar.cpp:1271
 #, kde-format
 msgid "ActionList: %1"
 msgstr ""
 
-#: kedittoolbar.cpp:1375 kedittoolbar.cpp:1400
+#: kedittoolbar.cpp:1372 kedittoolbar.cpp:1397
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr ""
 
-#: kedittoolbar.cpp:1628
+#: kedittoolbar.cpp:1625
 #, kde-format
 msgid "Change Icon"
 msgstr ""
@@ -1197,109 +1221,109 @@ msgid ""
 "contain a proper translation."
 msgstr ""
 
-#: ktoolbar.cpp:294 ktoolbar.cpp:301
+#: ktoolbar.cpp:300 ktoolbar.cpp:307
 #, kde-format
 msgctxt "@title:menu"
 msgid "Toolbar Settings"
 msgstr ""
 
-#: ktoolbar.cpp:296
+#: ktoolbar.cpp:302
 #, kde-format
 msgctxt "@title:menu"
 msgid "Show Text"
 msgstr ""
 
-#: ktoolbar.cpp:303
+#: ktoolbar.cpp:309
 #, kde-format
 msgctxt "Toolbar orientation"
 msgid "Orientation"
 msgstr ""
 
-#: ktoolbar.cpp:305
+#: ktoolbar.cpp:311
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Top"
 msgstr ""
 
-#: ktoolbar.cpp:309
+#: ktoolbar.cpp:315
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Left"
 msgstr ""
 
-#: ktoolbar.cpp:312
+#: ktoolbar.cpp:318
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Right"
 msgstr ""
 
-#: ktoolbar.cpp:315
+#: ktoolbar.cpp:321
 #, kde-format
 msgctxt "toolbar position string"
 msgid "Bottom"
 msgstr ""
 
-#: ktoolbar.cpp:326
+#: ktoolbar.cpp:332
 #, kde-format
 msgid "Text Position"
-msgstr ""
-
-#: ktoolbar.cpp:328
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Icons Only"
-msgstr ""
-
-#: ktoolbar.cpp:331
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Text Only"
 msgstr ""
 
 #: ktoolbar.cpp:334
 #, kde-format
 msgctxt "@item:inmenu"
-msgid "Text Alongside Icons"
+msgid "Icons Only"
 msgstr ""
 
 #: ktoolbar.cpp:337
 #, kde-format
 msgctxt "@item:inmenu"
+msgid "Text Only"
+msgstr ""
+
+#: ktoolbar.cpp:340
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Text Alongside Icons"
+msgstr ""
+
+#: ktoolbar.cpp:343
+#, kde-format
+msgctxt "@item:inmenu"
 msgid "Text Under Icons"
 msgstr ""
 
-#: ktoolbar.cpp:348
+#: ktoolbar.cpp:354
 #, kde-format
 msgid "Icon Size"
 msgstr ""
 
-#: ktoolbar.cpp:354
+#: ktoolbar.cpp:356
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr ""
 
-#: ktoolbar.cpp:371 ktoolbar.cpp:392
+#: ktoolbar.cpp:376 ktoolbar.cpp:400
 #, kde-format
 msgid "Small (%1x%2)"
 msgstr ""
 
-#: ktoolbar.cpp:373 ktoolbar.cpp:394
+#: ktoolbar.cpp:378 ktoolbar.cpp:402
 #, kde-format
 msgid "Medium (%1x%2)"
 msgstr ""
 
-#: ktoolbar.cpp:375 ktoolbar.cpp:396
+#: ktoolbar.cpp:380 ktoolbar.cpp:404
 #, kde-format
 msgid "Large (%1x%2)"
 msgstr ""
 
-#: ktoolbar.cpp:377 ktoolbar.cpp:398
+#: ktoolbar.cpp:382 ktoolbar.cpp:406
 #, kde-format
 msgid "Huge (%1x%2)"
 msgstr ""
 
-#: ktoolbar.cpp:421
+#: ktoolbar.cpp:432
 #, kde-format
 msgid "Lock Toolbar Positions"
 msgstr ""

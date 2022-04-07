@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: spectacle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-17 00:43+0000\n"
+"POT-Creation-Date: 2022-04-02 00:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -349,8 +349,7 @@ msgstr ""
 msgid "Full Screen (All Monitors, scaled)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (KTitleWidget, regionTitle)
-#: src/Gui/KSWidget.cpp:70 src/Gui/SettingsDialog/GeneralOptions.ui:160
+#: src/Gui/KSWidget.cpp:70
 #, kde-format
 msgid "Rectangular Region"
 msgstr ""
@@ -538,6 +537,12 @@ msgstr ""
 msgid "Return focus to Spectacle"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (KTitleWidget, regionTitle)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:160
+#, kde-format
+msgid "Rectangular Region Selection"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, generalLabel)
 #: src/Gui/SettingsDialog/GeneralOptions.ui:167
 #, kde-format
@@ -562,26 +567,32 @@ msgstr ""
 msgid "Accept on click-and-release"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showCaptureInstructions)
+#: src/Gui/SettingsDialog/GeneralOptions.ui:195
+#, kde-format
+msgid "Show capture instructions"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, rememberLabel)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:211
+#: src/Gui/SettingsDialog/GeneralOptions.ui:218
 #, kde-format
 msgid "Remember selected area:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_rememberLastRectangularRegion)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:219
+#: src/Gui/SettingsDialog/GeneralOptions.ui:226
 #, kde-format
 msgid "Never"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_rememberLastRectangularRegion)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:224
+#: src/Gui/SettingsDialog/GeneralOptions.ui:231
 #, kde-format
 msgid "Always"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_rememberLastRectangularRegion)
-#: src/Gui/SettingsDialog/GeneralOptions.ui:229
+#: src/Gui/SettingsDialog/GeneralOptions.ui:236
 #, kde-format
 msgid "Until Spectacle is closed"
 msgstr ""
@@ -702,98 +713,104 @@ msgid ""
 "releasing the mouse"
 msgstr ""
 
-#. i18n: ectx: label, entry (rememberLastRectangularRegion), group (General)
+#. i18n: ectx: label, entry (showCaptureInstructions), group (General)
 #: src/Gui/SettingsDialog/spectacle.kcfg:55
+#, kde-format
+msgid "Whether to show capture instructions in the region selection"
+msgstr ""
+
+#. i18n: ectx: label, entry (rememberLastRectangularRegion), group (General)
+#: src/Gui/SettingsDialog/spectacle.kcfg:59
 #, kde-format
 msgid "Remember the last rectangular region"
 msgstr ""
 
 #. i18n: ectx: label, entry (cropRegion), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:66
+#: src/Gui/SettingsDialog/spectacle.kcfg:70
 #, kde-format
 msgid "The last used region the user selected"
 msgstr ""
 
 #. i18n: ectx: label, entry (onClickChecked), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:70
+#: src/Gui/SettingsDialog/spectacle.kcfg:74
 #, kde-format
 msgid "Take screenshot on click"
 msgstr ""
 
 #. i18n: ectx: label, entry (includePointer), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:74
+#: src/Gui/SettingsDialog/spectacle.kcfg:78
 #, kde-format
 msgid "Whether the mouse cursor is included in the screenshot"
 msgstr ""
 
 #. i18n: ectx: label, entry (includeDecorations), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:78
+#: src/Gui/SettingsDialog/spectacle.kcfg:82
 #, kde-format
 msgid "Whether the window decorations are included in the screenshot"
 msgstr ""
 
 #. i18n: ectx: label, entry (transientOnly), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:82
+#: src/Gui/SettingsDialog/spectacle.kcfg:86
 #, kde-format
 msgid "Only capture the current pop up menu"
 msgstr ""
 
 #. i18n: ectx: label, entry (quitAfterSaveCopyExport), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:86
+#: src/Gui/SettingsDialog/spectacle.kcfg:90
 #, kde-format
 msgid "Quit after saving or copying an image"
 msgstr ""
 
 #. i18n: ectx: label, entry (captureDelay), group (GuiConfig)
-#: src/Gui/SettingsDialog/spectacle.kcfg:90
+#: src/Gui/SettingsDialog/spectacle.kcfg:94
 #, kde-format
 msgid "Delay"
 msgstr ""
 
 #. i18n: ectx: label, entry (defaultSaveLocation), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:100
+#: src/Gui/SettingsDialog/spectacle.kcfg:104
 #, kde-format
 msgid "Default filename"
 msgstr ""
 
 #. i18n: ectx: label, entry (compressionQuality), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:106
+#: src/Gui/SettingsDialog/spectacle.kcfg:110
 #, kde-format
 msgid "Compression quality for lossy file formats"
 msgstr ""
 
 #. i18n: ectx: label, entry (defaultSaveImageFormat), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:110
+#: src/Gui/SettingsDialog/spectacle.kcfg:114
 #, kde-format
 msgid "Default save image format"
 msgstr ""
 
 #. i18n: ectx: label, entry (saveFilenameFormat), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:114
+#: src/Gui/SettingsDialog/spectacle.kcfg:118
 #, kde-format
 msgid "The default filename used when saving"
 msgstr ""
 
 #. i18n: ectx: label, entry (lastSaveLocation), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:118
+#: src/Gui/SettingsDialog/spectacle.kcfg:122
 #, kde-format
 msgid "The path of the file saved last"
 msgstr ""
 
 #. i18n: ectx: label, entry (lastSaveAsLocation), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:122
+#: src/Gui/SettingsDialog/spectacle.kcfg:126
 #, kde-format
 msgid "Last path used for \"save as\" action"
 msgstr ""
 
 #. i18n: ectx: label, entry (lastUsedSaveMode), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:126
+#: src/Gui/SettingsDialog/spectacle.kcfg:130
 #, kde-format
 msgid "The last used save mode"
 msgstr ""
 
 #. i18n: ectx: label, entry (lastUsedCopyMode), group (Save)
-#: src/Gui/SettingsDialog/spectacle.kcfg:134
+#: src/Gui/SettingsDialog/spectacle.kcfg:138
 #, kde-format
 msgid "The last used copy mode"
 msgstr ""
@@ -846,115 +863,115 @@ msgid ""
 "or press Esc to quit"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:717 src/QuickEditor/QuickEditor.cpp:725
+#: src/QuickEditor/QuickEditor.cpp:722 src/QuickEditor/QuickEditor.cpp:730
 #, kde-format
 msgid "Take Screenshot:"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:718
+#: src/QuickEditor/QuickEditor.cpp:723
 #, kde-format
 msgctxt "Mouse action"
 msgid "Release left-click"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:718 src/QuickEditor/QuickEditor.cpp:726
+#: src/QuickEditor/QuickEditor.cpp:723 src/QuickEditor/QuickEditor.cpp:731
 #, kde-format
 msgctxt "Keyboard action"
 msgid "Enter"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:720 src/QuickEditor/QuickEditor.cpp:728
+#: src/QuickEditor/QuickEditor.cpp:725 src/QuickEditor/QuickEditor.cpp:733
 #, kde-format
 msgid "Create new selection rectangle:"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:721 src/QuickEditor/QuickEditor.cpp:729
+#: src/QuickEditor/QuickEditor.cpp:726 src/QuickEditor/QuickEditor.cpp:734
 #, kde-format
 msgctxt "Mouse action"
 msgid "Drag outside selection rectangle"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:721 src/QuickEditor/QuickEditor.cpp:729
+#: src/QuickEditor/QuickEditor.cpp:726 src/QuickEditor/QuickEditor.cpp:734
 #, kde-format
 msgctxt "Keyboard action"
 msgid "+ Shift: Magnifier"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:722 src/QuickEditor/QuickEditor.cpp:739
+#: src/QuickEditor/QuickEditor.cpp:727 src/QuickEditor/QuickEditor.cpp:744
 #, kde-format
 msgid "Cancel:"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:722 src/QuickEditor/QuickEditor.cpp:739
+#: src/QuickEditor/QuickEditor.cpp:727 src/QuickEditor/QuickEditor.cpp:744
 #, kde-format
 msgctxt "Keyboard action"
 msgid "Escape"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:726
+#: src/QuickEditor/QuickEditor.cpp:731
 #, kde-format
 msgctxt "Mouse action"
 msgid "Double-click"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:730
+#: src/QuickEditor/QuickEditor.cpp:735
 #, kde-format
 msgid "Move selection rectangle:"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:731
+#: src/QuickEditor/QuickEditor.cpp:736
 #, kde-format
 msgctxt "Mouse action"
 msgid "Drag inside selection rectangle"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:732
+#: src/QuickEditor/QuickEditor.cpp:737
 #, kde-format
 msgctxt "Keyboard action"
 msgid "Arrow keys"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:733
+#: src/QuickEditor/QuickEditor.cpp:738
 #, kde-format
 msgctxt "Keyboard action"
 msgid "+ Shift: Move in 1 pixel steps"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:734
+#: src/QuickEditor/QuickEditor.cpp:739
 #, kde-format
 msgid "Resize selection rectangle:"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:735
+#: src/QuickEditor/QuickEditor.cpp:740
 #, kde-format
 msgctxt "Mouse action"
 msgid "Drag handles"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:736
+#: src/QuickEditor/QuickEditor.cpp:741
 #, kde-format
 msgctxt "Keyboard action"
 msgid "Arrow keys + Alt"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:737
+#: src/QuickEditor/QuickEditor.cpp:742
 #, kde-format
 msgctxt "Keyboard action"
 msgid "+ Shift: Resize in 1 pixel steps"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:738
+#: src/QuickEditor/QuickEditor.cpp:743
 #, kde-format
 msgid "Reset selection:"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:738
+#: src/QuickEditor/QuickEditor.cpp:743
 #, kde-format
 msgctxt "Mouse action"
 msgid "Right-click"
 msgstr ""
 
-#: src/QuickEditor/QuickEditor.cpp:924
+#: src/QuickEditor/QuickEditor.cpp:929
 #, kde-format
 msgid "%1×%2"
 msgstr ""

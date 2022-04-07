@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-16 00:42+0000\n"
+"POT-Creation-Date: 2022-04-07 00:40+0000\n"
 "PO-Revision-Date: 2022-02-11 22:46+0100\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -96,6 +96,12 @@ msgstr "Dùng lại từ ở dưới"
 #, kde-format
 msgid "&File"
 msgstr "&Tệp"
+
+#. i18n: ectx: Menu (file_export)
+#: data/katepart5ui.rc:10
+#, kde-format
+msgid "Export/Print"
+msgstr ""
 
 #. i18n: ectx: Menu (edit)
 #: data/katepart5ui.rc:17
@@ -413,7 +419,7 @@ msgstr "Sắp xếp trình đơn \"Dấu nhớ\":"
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeneral)
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
 #: dialogs/completionconfigtab.ui:20 dialogs/katedialogs.cpp:591
-#: dialogs/katedialogs.cpp:720 dialogs/katedialogs.cpp:956
+#: dialogs/katedialogs.cpp:720 dialogs/katedialogs.cpp:962
 #: vimode/config/configwidget.ui:29
 #, kde-format
 msgid "General"
@@ -649,7 +655,7 @@ msgid "Delete the current file type."
 msgstr "Xoá kiểu tệp hiện tại."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnDelete)
-#: dialogs/filetypeconfigwidget.ui:44 syntax/katethemeconfig.cpp:1014
+#: dialogs/filetypeconfigwidget.ui:44 syntax/katethemeconfig.cpp:1102
 #, kde-format
 msgid "&Delete"
 msgstr "&Xoá"
@@ -1128,12 +1134,12 @@ msgstr "Tắt"
 msgid "Follow Line Numbers"
 msgstr "Theo số thứ tự dòng"
 
-#: dialogs/katedialogs.cpp:887 dialogs/katedialogs.cpp:892
+#: dialogs/katedialogs.cpp:890 dialogs/katedialogs.cpp:895
 #, kde-format
 msgid "Appearance"
 msgstr "Diện mạo"
 
-#: dialogs/katedialogs.cpp:925
+#: dialogs/katedialogs.cpp:928
 #, kde-format
 msgid ""
 "%1 backs up unsaved files to \"swap files.\" Swap files allow %1 to recover "
@@ -1145,12 +1151,12 @@ msgstr ""
 "thống. Tắt các tệp hoán đổi có thể sẽ gây mất dữ liệu nếu xảy ra sự cố hệ "
 "thống."
 
-#: dialogs/katedialogs.cpp:957
+#: dialogs/katedialogs.cpp:963
 #, kde-format
 msgid "Advanced"
 msgstr "Nâng cao"
 
-#: dialogs/katedialogs.cpp:1022
+#: dialogs/katedialogs.cpp:1028
 #, kde-format
 msgid ""
 "You did not provide a backup suffix or prefix. Using default suffix: '~'"
@@ -1158,110 +1164,110 @@ msgstr ""
 "Bạn chưa cung cấp hậu tố hoặc tiền tố bản dự phòng. Đang dùng hậu tố mặc "
 "định: '~'"
 
-#: dialogs/katedialogs.cpp:1022
+#: dialogs/katedialogs.cpp:1028
 #, kde-format
 msgid "No Backup Suffix or Prefix"
 msgstr "Không có hậu tố hoặc tiền tố bản dự phòng"
 
-#: dialogs/katedialogs.cpp:1144
+#: dialogs/katedialogs.cpp:1158
 #, kde-format
 msgid "Open/Save"
 msgstr "Mở/Lưu"
 
-#: dialogs/katedialogs.cpp:1149
+#: dialogs/katedialogs.cpp:1163
 #, kde-format
 msgid "File Opening & Saving"
 msgstr "Mở & lưu tệp"
 
-#: dialogs/katedialogs.cpp:1172
+#: dialogs/katedialogs.cpp:1186
 #, kde-format
 msgid "&Line:"
 msgstr "&Dòng:"
 
-#: dialogs/katedialogs.cpp:1173
+#: dialogs/katedialogs.cpp:1187
 #, kde-format
 msgid "Go to line number from clipboard"
 msgstr "Đi đến dòng thứ ... trong bảng nháp"
 
-#: dialogs/katedialogs.cpp:1184
+#: dialogs/katedialogs.cpp:1198
 #, kde-format
 msgid "Go to"
 msgstr "Đi đến"
 
-#: dialogs/katedialogs.cpp:1260
+#: dialogs/katedialogs.cpp:1274
 #, kde-format
 msgid "No valid line number found in clipboard"
 msgstr "Không tìm thấy số thứ tự dòng hợp lệ trong bảng nháp"
 
-#: dialogs/katedialogs.cpp:1324
+#: dialogs/katedialogs.cpp:1338
 #, kde-format
 msgid "Dictionary:"
 msgstr "Từ điển:"
 
-#: dialogs/katedialogs.cpp:1377
+#: dialogs/katedialogs.cpp:1391
 #, kde-format
 msgid "Enable Auto Reload"
 msgstr "Bật tải lại tự động"
 
-#: dialogs/katedialogs.cpp:1379
+#: dialogs/katedialogs.cpp:1393
 #, kde-format
 msgid "Will never again warn about on disk changes but always reload."
 msgstr ""
 "Sẽ không bao giờ cảnh báo về các thay đổi trên đĩa nữa, mà sẽ luôn tải lại."
 
-#: dialogs/katedialogs.cpp:1384
+#: dialogs/katedialogs.cpp:1398
 #, kde-format
 msgid "View &Difference"
 msgstr "&Xem sự khác nhau"
 
-#: dialogs/katedialogs.cpp:1386
+#: dialogs/katedialogs.cpp:1400
 #, kde-format
 msgid "Shows a diff of the changes"
 msgstr "Hiện phần chênh của các thay đổi"
 
-#: dialogs/katedialogs.cpp:1391
+#: dialogs/katedialogs.cpp:1405
 #, kde-format
 msgid "&Reload"
 msgstr "&Tải lại"
 
-#: dialogs/katedialogs.cpp:1393
+#: dialogs/katedialogs.cpp:1407
 #, kde-format
 msgid "Reload the file from disk. Unsaved changes will be lost."
 msgstr "Tải lại tệp từ đĩa. Các thay đổi chưa lưu sẽ bị mất."
 
-#: dialogs/katedialogs.cpp:1397
+#: dialogs/katedialogs.cpp:1411
 #, kde-format
 msgctxt "@action:button closes the opened file"
 msgid "&Close File"
 msgstr "Đón&g tệp"
 
-#: dialogs/katedialogs.cpp:1399
+#: dialogs/katedialogs.cpp:1413
 #, kde-format
 msgid "Close the file, discarding its content."
 msgstr "Đóng tệp, loại bỏ nội dung."
 
-#: dialogs/katedialogs.cpp:1403
+#: dialogs/katedialogs.cpp:1417
 #, kde-format
 msgid "&Save As..."
 msgstr "&Lưu thành..."
 
-#: dialogs/katedialogs.cpp:1405
+#: dialogs/katedialogs.cpp:1419
 #, kde-format
 msgid "Lets you select a location and save the file again."
 msgstr "Cho bạn chọn một địa điểm rồi lưu tệp lại lần nữa."
 
 #. i18n: ectx: property (text), widget (QPushButton, m_skipBtn)
-#: dialogs/katedialogs.cpp:1410 spellcheck/spellcheckbar.ui:143
+#: dialogs/katedialogs.cpp:1424 spellcheck/spellcheckbar.ui:143
 #, kde-format
 msgid "&Ignore"
 msgstr "&Bỏ qua"
 
-#: dialogs/katedialogs.cpp:1411
+#: dialogs/katedialogs.cpp:1425
 #, kde-format
 msgid "Ignores the changes on disk without any action."
 msgstr "Bỏ qua các thay đổi trên đĩa, không có hành động nào."
 
-#: dialogs/katedialogs.cpp:1477 swapfile/kateswapdiffcreator.cpp:135
+#: dialogs/katedialogs.cpp:1491 swapfile/kateswapdiffcreator.cpp:135
 #, kde-format
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
@@ -1270,18 +1276,18 @@ msgstr ""
 "Lệnh diff thất bại. Vui lòng kiểm tra rằng diff(1) được cài đặt và nằm trong "
 "biến PATH."
 
-#: dialogs/katedialogs.cpp:1479 swapfile/kateswapdiffcreator.cpp:95
+#: dialogs/katedialogs.cpp:1493 swapfile/kateswapdiffcreator.cpp:95
 #: swapfile/kateswapdiffcreator.cpp:103 swapfile/kateswapdiffcreator.cpp:137
 #, kde-format
 msgid "Error Creating Diff"
 msgstr "Lỗi tạo phần chênh"
 
-#: dialogs/katedialogs.cpp:1486 swapfile/kateswapdiffcreator.cpp:144
+#: dialogs/katedialogs.cpp:1500 swapfile/kateswapdiffcreator.cpp:144
 #, kde-format
 msgid "The files are identical."
 msgstr "Các tệp giống nhau."
 
-#: dialogs/katedialogs.cpp:1486 swapfile/kateswapdiffcreator.cpp:144
+#: dialogs/katedialogs.cpp:1500 swapfile/kateswapdiffcreator.cpp:144
 #, kde-format
 msgid "Diff Output"
 msgstr "Đầu ra diff"
@@ -1534,19 +1540,19 @@ msgstr ""
 "KateSaveConfigTab."
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbFileFormat)
-#: dialogs/opensaveconfigwidget.ui:12
+#: dialogs/opensaveconfigwidget.ui:29
 #, kde-format
 msgid "File Format"
 msgstr "Dạng thức tệp"
 
 #. i18n: ectx: property (text), widget (QLabel, lblEncoding)
-#: dialogs/opensaveconfigwidget.ui:23
+#: dialogs/opensaveconfigwidget.ui:40
 #, kde-format
 msgid "&Encoding:"
 msgstr "&Mã hoá:"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, cmbEncoding)
-#: dialogs/opensaveconfigwidget.ui:33
+#: dialogs/opensaveconfigwidget.ui:50
 #, kde-format
 msgid ""
 "This defines the standard encoding to use to open/save files, if not changed "
@@ -1556,13 +1562,13 @@ msgstr ""
 "trong hộp thoại mở/lưu hay bằng cách dùng một lựa chọn dòng lệnh."
 
 #. i18n: ectx: property (text), widget (QLabel, lblEncodingDetection)
-#: dialogs/opensaveconfigwidget.ui:40
+#: dialogs/opensaveconfigwidget.ui:57
 #, kde-format
 msgid "&Encoding detection:"
 msgstr "Nhận &diện mã hoá:"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, cmbEncodingDetection)
-#: dialogs/opensaveconfigwidget.ui:50
+#: dialogs/opensaveconfigwidget.ui:67
 #, kde-format
 msgid ""
 "if neither the encoding chosen as standard above, nor the encoding specified "
@@ -1574,13 +1580,13 @@ msgstr ""
 "không khớp với nội dung tệp, thì việc nhận diện này sẽ được chạy."
 
 #. i18n: ectx: property (text), widget (QLabel, lblEncodingDetection2)
-#: dialogs/opensaveconfigwidget.ui:57
+#: dialogs/opensaveconfigwidget.ui:74
 #, kde-format
 msgid "&Fallback encoding:"
 msgstr "Bộ mã hoá thoái &lui:"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, cmbEncodingFallback)
-#: dialogs/opensaveconfigwidget.ui:67
+#: dialogs/opensaveconfigwidget.ui:84
 #, kde-format
 msgid ""
 "This defines the fallback encoding to try for opening files if neither the "
@@ -1600,31 +1606,31 @@ msgstr ""
 "cả hai đều thất bại thì bộ mã hoá thoái lui sẽ được thử."
 
 #. i18n: ectx: property (text), widget (QLabel, lblEOL)
-#: dialogs/opensaveconfigwidget.ui:74
+#: dialogs/opensaveconfigwidget.ui:91
 #, kde-format
 msgid "E&nd of line:"
 msgstr "&Kết thúc dòng:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbEOL)
-#: dialogs/opensaveconfigwidget.ui:85
+#: dialogs/opensaveconfigwidget.ui:102
 #, kde-format
 msgid "UNIX"
 msgstr "UNIX"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbEOL)
-#: dialogs/opensaveconfigwidget.ui:90
+#: dialogs/opensaveconfigwidget.ui:107
 #, kde-format
 msgid "DOS/Windows"
 msgstr "DOS/Windows"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbEOL)
-#: dialogs/opensaveconfigwidget.ui:95
+#: dialogs/opensaveconfigwidget.ui:112
 #, kde-format
 msgid "Macintosh"
 msgstr "Macintosh"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkDetectEOL)
-#: dialogs/opensaveconfigwidget.ui:105
+#: dialogs/opensaveconfigwidget.ui:122
 #, kde-format
 msgid ""
 "If this option is enabled the editor will autodetect the end of line type. "
@@ -1634,13 +1640,13 @@ msgstr ""
 "dòng. Kiểu kết thúc dòng được tìm ra đầu tiên sẽ được dùng cho cả tệp."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDetectEOL)
-#: dialogs/opensaveconfigwidget.ui:108
+#: dialogs/opensaveconfigwidget.ui:125
 #, kde-format
 msgid "A&utomatic end of line detection"
 msgstr "Nhận diện kết thúc dòng tự độn&g"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkEnableBOM)
-#: dialogs/opensaveconfigwidget.ui:115
+#: dialogs/opensaveconfigwidget.ui:132
 #, kde-format
 msgid ""
 "The byte order mark is a special sequence at the beginning of Unicode "
@@ -1653,32 +1659,32 @@ msgstr ""
 "đúng. Chỉ dấu thứ tự byte sẽ không thấy được ở trong tài liệu được hiển thị."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkEnableBOM)
-#: dialogs/opensaveconfigwidget.ui:118
+#: dialogs/opensaveconfigwidget.ui:135
 #, kde-format
 msgid "Enable byte order mark (BOM)"
 msgstr "Bật chỉ dấu thứ tự byte (byte order mark - BOM)"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/opensaveconfigwidget.ui:125
+#: dialogs/opensaveconfigwidget.ui:142
 #, kde-format
 msgid "Line length limit:"
 msgstr "Giới hạn độ dài dòng:"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, lineLengthLimit)
-#: dialogs/opensaveconfigwidget.ui:135
+#: dialogs/opensaveconfigwidget.ui:152
 #, kde-format
 msgid "Unlimited"
 msgstr "Không giới hạn"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbCleanups)
-#: dialogs/opensaveconfigwidget.ui:151
+#: dialogs/opensaveconfigwidget.ui:168
 #, kde-format
 msgid "Automatic Cleanups on Save"
 msgstr "Dọn dẹp tự động khi lưu"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, lblRemoveTrailingSpaces)
 #. i18n: ectx: property (whatsThis), widget (QComboBox, cbRemoveTrailingSpaces)
-#: dialogs/opensaveconfigwidget.ui:159 dialogs/opensaveconfigwidget.ui:172
+#: dialogs/opensaveconfigwidget.ui:176 dialogs/opensaveconfigwidget.ui:189
 #, kde-format
 msgid ""
 "Depending on the choice, trailing spaces are removed when saving a document, "
@@ -1688,33 +1694,34 @@ msgstr ""
 "liệu, hoặc trong toàn bộ tài liệu hoặc chỉ ở những dòng bị chỉnh sửa."
 
 #. i18n: ectx: property (text), widget (QLabel, lblRemoveTrailingSpaces)
-#: dialogs/opensaveconfigwidget.ui:162
+#: dialogs/opensaveconfigwidget.ui:179
 #, kde-format
 msgid "Re&move trailing spaces:"
 msgstr "&Xoá các dấu cách theo sau:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbRemoveTrailingSpaces)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, spbAutoSaveInterval)
 #. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
-#: dialogs/opensaveconfigwidget.ui:176
+#: dialogs/opensaveconfigwidget.ui:193 dialogs/opensaveconfigwidget.ui:270
 #: dialogs/textareaappearanceconfigwidget.ui:72
 #, kde-format
 msgid "Never"
 msgstr "Không bao giờ"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbRemoveTrailingSpaces)
-#: dialogs/opensaveconfigwidget.ui:181
+#: dialogs/opensaveconfigwidget.ui:198
 #, kde-format
 msgid "On Modified Lines"
 msgstr "Ở những dòng bị chỉnh sửa"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbRemoveTrailingSpaces)
-#: dialogs/opensaveconfigwidget.ui:186
+#: dialogs/opensaveconfigwidget.ui:203
 #, kde-format
 msgid "In Entire Document"
 msgstr "Trong toàn bộ tài liệu"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkNewLineAtEof)
-#: dialogs/opensaveconfigwidget.ui:209
+#: dialogs/opensaveconfigwidget.ui:226
 #, kde-format
 msgid ""
 "On save, a line break is appended to the document if not already present. "
@@ -1724,10 +1731,35 @@ msgstr ""
 "Dấu ngắt dòng này sẽ thấy được sau khi tải lại tệp."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkNewLineAtEof)
-#: dialogs/opensaveconfigwidget.ui:212
+#: dialogs/opensaveconfigwidget.ui:229
 #, kde-format
 msgid "Append newline at end of file on save"
 msgstr "Ghi thêm dòng mới vào cuối tệp khi lưu"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbAutoSave)
+#: dialogs/opensaveconfigwidget.ui:239
+#, fuzzy, kde-format
+#| msgid "Enable Auto Reload"
+msgid "Enable Auto Save (local files only)"
+msgstr "Bật tải lại tự động"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbAutoSaveOnFocus)
+#: dialogs/opensaveconfigwidget.ui:254
+#, kde-format
+msgid "Auto save document when focus leaves the editor"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/opensaveconfigwidget.ui:263
+#, kde-format
+msgid "Auto save interval:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, spbAutoSaveInterval)
+#: dialogs/opensaveconfigwidget.ui:273
+#, kde-format
+msgid " seconds"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: dialogs/textareaappearanceconfigwidget.ui:28
@@ -1782,14 +1814,20 @@ msgstr ""
 "Trình biên tập sẽ hiển thị một kí hiệu để chỉ ra sự có mặt của một kí tự lập "
 "bảng trong văn bản."
 
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: dialogs/textareaappearanceconfigwidget.ui:145
+#, kde-format
+msgid "Show focus frame around editor"
+msgstr "Hiện khung nhắm ở quanh trình biên tập"
+
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: dialogs/textareaappearanceconfigwidget.ui:161
+#: dialogs/textareaappearanceconfigwidget.ui:175
 #, kde-format
 msgid "Bracket matching:"
 msgstr "Tìm dấu ngoặc cùng cặp:"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowWholeBracketExpression)
-#: dialogs/textareaappearanceconfigwidget.ui:168
+#: dialogs/textareaappearanceconfigwidget.ui:182
 #, kde-format
 msgid ""
 "If this is enabled, the range between the selected matching brackets will be "
@@ -1799,19 +1837,19 @@ msgstr ""
 "tô sáng."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowWholeBracketExpression)
-#: dialogs/textareaappearanceconfigwidget.ui:171
+#: dialogs/textareaappearanceconfigwidget.ui:185
 #, kde-format
 msgid "Highlight range between selected brackets"
 msgstr "Tô sáng khoảng giữa các dấu ngoặc đã chọn"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowBracketMatchPreview)
-#: dialogs/textareaappearanceconfigwidget.ui:178
+#: dialogs/textareaappearanceconfigwidget.ui:192
 #, kde-format
 msgid "Show the matching open bracket and lines adjacent to it for context"
 msgstr "Hiện dấu ngoặc mở cùng cặp và các dòng cạnh đó để thấy được ngữ cảnh"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowBracketMatchPreview)
-#: dialogs/textareaappearanceconfigwidget.ui:181
+#: dialogs/textareaappearanceconfigwidget.ui:195
 #, kde-format
 msgid ""
 "If this is enabled, a preview of the lines near a matching open bracket is "
@@ -1825,19 +1863,19 @@ msgstr ""
 "lồng sâu"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowBracketMatchPreview)
-#: dialogs/textareaappearanceconfigwidget.ui:184
+#: dialogs/textareaappearanceconfigwidget.ui:198
 #, kde-format
 msgid "Show preview of matching open bracket"
 msgstr "Hiện xem thử cho dấu ngoặc mở cùng cặp"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkAnimateBracketMatching)
-#: dialogs/textareaappearanceconfigwidget.ui:191
+#: dialogs/textareaappearanceconfigwidget.ui:205
 #, kde-format
 msgid "Flash matching brackets"
 msgstr "Nháy sáng các dấu ngoặc cùng cặp"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkAnimateBracketMatching)
-#: dialogs/textareaappearanceconfigwidget.ui:194
+#: dialogs/textareaappearanceconfigwidget.ui:208
 #, kde-format
 msgid ""
 "If this is enabled, matching brackets are animated for better visibility."
@@ -1846,13 +1884,13 @@ msgstr ""
 "dễ phát hiện hơn."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAnimateBracketMatching)
-#: dialogs/textareaappearanceconfigwidget.ui:197
+#: dialogs/textareaappearanceconfigwidget.ui:211
 #, kde-format
 msgid "Flash matching bracket when cursor moves to other bracket in pair"
 msgstr "Nháy sáng dấu ngoặc cùng cặp khi con trỏ di chuyển đến một dấu ngoặc"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowIndentationLines)
-#: dialogs/textareaappearanceconfigwidget.ui:204
+#: dialogs/textareaappearanceconfigwidget.ui:218
 #, kde-format
 msgid ""
 "If this is enabled, the editor will display vertical lines to help identify "
@@ -1862,43 +1900,43 @@ msgstr ""
 "diện các mốc thụt lề."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowIndentationLines)
-#: dialogs/textareaappearanceconfigwidget.ui:207
+#: dialogs/textareaappearanceconfigwidget.ui:221
 #, kde-format
 msgid "Show i&ndentation lines"
 msgstr "Hiện các &mốc thụt lề"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: dialogs/textareaappearanceconfigwidget.ui:230
+#: dialogs/textareaappearanceconfigwidget.ui:244
 #, kde-format
 msgid "Counts:"
 msgstr "Số lượng:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowWordCount)
-#: dialogs/textareaappearanceconfigwidget.ui:237
+#: dialogs/textareaappearanceconfigwidget.ui:251
 #, kde-format
 msgid "Show/hide word count in status bar"
 msgstr "Ẩn/hiện số lượng từ ở thanh trạng thái"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowWordCount)
-#: dialogs/textareaappearanceconfigwidget.ui:240 view/katestatusbar.cpp:251
+#: dialogs/textareaappearanceconfigwidget.ui:254 view/katestatusbar.cpp:251
 #, kde-format
 msgid "Show word count"
 msgstr "Hiện số lượng từ"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowLineCount)
-#: dialogs/textareaappearanceconfigwidget.ui:247
+#: dialogs/textareaappearanceconfigwidget.ui:261
 #, kde-format
 msgid "Show/hide line count in status bar"
 msgstr "Ẩn/hiện số lượng dòng ở thanh trạng thái"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowLineCount)
-#: dialogs/textareaappearanceconfigwidget.ui:250 view/katestatusbar.cpp:248
+#: dialogs/textareaappearanceconfigwidget.ui:264 view/katestatusbar.cpp:248
 #, kde-format
 msgid "Show line count"
 msgstr "Hiện số lượng dòng"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkFoldFirstLine)
-#: dialogs/textareaappearanceconfigwidget.ui:276
+#: dialogs/textareaappearanceconfigwidget.ui:290
 #, kde-format
 msgid ""
 "When this setting is enabled, the editor view automatically folds\n"
@@ -1912,55 +1950,55 @@ msgstr ""
 "tệp."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkFoldFirstLine)
-#: dialogs/textareaappearanceconfigwidget.ui:279
+#: dialogs/textareaappearanceconfigwidget.ui:293
 #, kde-format
 msgid "Fold first line"
 msgstr "Gập dòng đầu"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbxWordWrap)
-#: dialogs/textareaappearanceconfigwidget.ui:299
+#: dialogs/textareaappearanceconfigwidget.ui:313
 #, kde-format
 msgid "Dynamic Word Wrap:"
 msgstr "Bọc từ động:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDynWrapAtStaticMarker)
-#: dialogs/textareaappearanceconfigwidget.ui:306
+#: dialogs/textareaappearanceconfigwidget.ui:320
 #, kde-format
 msgid "Wrap dynamically at static word wrap marker"
 msgstr "Bọc động ở chỉ dấu bọc từ tĩnh"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkDynWrapAnywhere)
-#: dialogs/textareaappearanceconfigwidget.ui:313
+#: dialogs/textareaappearanceconfigwidget.ui:327
 #, kde-format
 msgid "Disregard word boundaries for dynamic wrapping"
 msgstr "Không để ý đến giới hạn từ khi bọc động"
 
 #. i18n: ectx: property (text), widget (QLabel, lblDynamicWordWrapIndicators)
-#: dialogs/textareaappearanceconfigwidget.ui:320
+#: dialogs/textareaappearanceconfigwidget.ui:334
 #, kde-format
 msgid "D&ynamic word wrap indicators:"
 msgstr "Chỉ dấu bọc từ độn&g:"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, cmbDynamicWordWrapIndicator)
-#: dialogs/textareaappearanceconfigwidget.ui:330
+#: dialogs/textareaappearanceconfigwidget.ui:344
 #, kde-format
 msgid "Choose when the Dynamic Word Wrap Indicators should be displayed."
 msgstr "Chọn khi nào thì hiển thị chỉ dấu bọc từ động."
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: dialogs/textareaappearanceconfigwidget.ui:353
+#: dialogs/textareaappearanceconfigwidget.ui:367
 #, kde-format
 msgid "Indent wrapped lines:"
 msgstr "Thụt lề các dòng được bọc:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblDynamicWordWrapIndicators_2)
-#: dialogs/textareaappearanceconfigwidget.ui:367
+#: dialogs/textareaappearanceconfigwidget.ui:381
 #, kde-format
 msgid "Don't indent lines wider than:"
 msgstr "Không thụt lề các dòng dài hơn:"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, sbDynamicWordWrapDepth)
-#: dialogs/textareaappearanceconfigwidget.ui:383
+#: dialogs/textareaappearanceconfigwidget.ui:397
 #, no-c-format, kde-format
 msgid ""
 "<p>Enables the start of dynamically wrapped lines to be aligned vertically "
@@ -1980,16 +2018,25 @@ msgstr ""
 "p>"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbDynamicWordWrapDepth)
-#: dialogs/textareaappearanceconfigwidget.ui:386
+#: dialogs/textareaappearanceconfigwidget.ui:400
 #, no-c-format, kde-format
 msgid "% of View Width"
 msgstr "% chiều rộng khung xem"
 
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: dialogs/textareaappearanceconfigwidget.ui:402
+#. i18n: ectx: property (text), widget (QLabel, lblLineHeight)
+#: dialogs/textareaappearanceconfigwidget.ui:416
+#, fuzzy, kde-format
+#| msgid "Line length limit:"
+msgid "Line Height Multiplier:"
+msgstr "Giới hạn độ dài dòng:"
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, spbLineHeightMultiplier)
+#: dialogs/textareaappearanceconfigwidget.ui:423
 #, kde-format
-msgid "Show focus frame around editor"
-msgstr "Hiện khung nhắm ở quanh trình biên tập"
+msgid ""
+"This value will be multiplied with the font's default line height. A value "
+"of 1.0 means that the default height will be used."
+msgstr ""
 
 #: document/katebuffer.cpp:151
 #, kde-format
@@ -2012,7 +2059,7 @@ msgstr "Tự động tải lại tài liệu"
 msgid "Automatic reload the document when it was changed on disk"
 msgstr "Tự động tải lại tài liệu khi nó bị thay đổi trên đĩa"
 
-#: document/katedocument.cpp:2287
+#: document/katedocument.cpp:2298
 #, kde-format
 msgid ""
 "The file %1 could not be loaded, as it was not possible to read from it.<br /"
@@ -2021,23 +2068,23 @@ msgstr ""
 "Không tải được tệp %1, vì không thể đọc được.<br />Hãy kiểm tra rằng bạn có "
 "quyền đọc tệp này."
 
-#: document/katedocument.cpp:2292
+#: document/katedocument.cpp:2303
 #, kde-format
 msgctxt "translators: you can also translate 'Try Again' with 'Reload'"
 msgid "Try Again"
 msgstr "Tải lại"
 
-#: document/katedocument.cpp:2296 document/katedocument.cpp:6289
+#: document/katedocument.cpp:2307 document/katedocument.cpp:6423
 #, kde-format
 msgid "&Close"
 msgstr "Đón&g"
 
-#: document/katedocument.cpp:2297 document/katedocument.cpp:6290
+#: document/katedocument.cpp:2308 document/katedocument.cpp:6424
 #, kde-format
 msgid "Close message"
 msgstr "Đóng thông điệp"
 
-#: document/katedocument.cpp:2308
+#: document/katedocument.cpp:2319
 #, kde-format
 msgid ""
 "The file %1 could not be loaded, as it was not possible to read from it.\n"
@@ -2048,7 +2095,7 @@ msgstr ""
 "\n"
 "Hãy kiểm tra rằng bạn có quyền đọc tệp này."
 
-#: document/katedocument.cpp:2432
+#: document/katedocument.cpp:2443
 #, fuzzy, kde-format
 #| msgid ""
 #| "The file %1 was opened with UTF-8 encoding but contained invalid "
@@ -2066,7 +2113,7 @@ msgstr ""
 "Hoặc mở lại tệp này với bảng mã đúng được chọn, hoặc hiệu lực chế độ đọc-ghi "
 "lần nửa trong trình đơn để có khả năng hiệu chỉnh nó."
 
-#: document/katedocument.cpp:2444
+#: document/katedocument.cpp:2455
 #, fuzzy, kde-format
 #| msgid ""
 #| "The file %1 was opened with UTF-8 encoding but contained invalid "
@@ -2084,7 +2131,7 @@ msgstr ""
 "Hoặc mở lại tệp này với bảng mã đúng được chọn, hoặc hiệu lực chế độ đọc-ghi "
 "lần nửa trong trình đơn để có khả năng hiệu chỉnh nó."
 
-#: document/katedocument.cpp:2457
+#: document/katedocument.cpp:2468
 #, kde-format
 msgid ""
 "The file %1 was opened and contained lines longer than the configured Line "
@@ -2093,17 +2140,17 @@ msgid ""
 "only mode, as saving will modify its content."
 msgstr ""
 
-#: document/katedocument.cpp:2464
+#: document/katedocument.cpp:2475
 #, kde-format
 msgid "Temporarily raise limit and reload file"
 msgstr ""
 
-#: document/katedocument.cpp:2467
+#: document/katedocument.cpp:2478
 #, kde-format
 msgid "Close"
 msgstr ""
 
-#: document/katedocument.cpp:2474
+#: document/katedocument.cpp:2485
 #, kde-format
 msgid ""
 "The file %1 was opened and contained lines longer than the configured Line "
@@ -2112,7 +2159,7 @@ msgid ""
 "only mode, as saving will modify its content."
 msgstr ""
 
-#: document/katedocument.cpp:2501
+#: document/katedocument.cpp:2512
 #, kde-format
 msgid ""
 "Do you really want to save this unmodified file? You could overwrite changed "
@@ -2121,18 +2168,18 @@ msgstr ""
 "Bạn thật sự muốn lưu tệp chưa được sửa đổi này? Việc này có thể ghi đè lên "
 "dữ liệu đã thay đổi trong tệp trên đĩa."
 
-#: document/katedocument.cpp:2502
+#: document/katedocument.cpp:2513
 #, kde-format
 msgid "Trying to Save Unmodified File"
 msgstr "Đang cố lưu tệp chưa được sửa đổi"
 
-#: document/katedocument.cpp:2503 document/katedocument.cpp:2514
-#: document/katedocument.cpp:2530
+#: document/katedocument.cpp:2514 document/katedocument.cpp:2525
+#: document/katedocument.cpp:2541
 #, kde-format
 msgid "Save Nevertheless"
 msgstr "Vẫn lưu"
 
-#: document/katedocument.cpp:2512
+#: document/katedocument.cpp:2523
 #, kde-format
 msgid ""
 "Do you really want to save this file? Both your open file and the file on "
@@ -2141,14 +2188,14 @@ msgstr ""
 "Bạn thật sự muốn lưu tệp này? Cả tệp được mở của bạn lẫn tệp trên đĩa đều đã "
 "được thay đổi. Một phần dữ liệu có thể bị mất."
 
-#: document/katedocument.cpp:2513 document/katedocument.cpp:2529
-#: document/katedocument.cpp:2821 syntax/katethemeconfig.cpp:1110
-#: syntax/katethemeconfig.cpp:1258
+#: document/katedocument.cpp:2524 document/katedocument.cpp:2540
+#: document/katedocument.cpp:2832 syntax/katethemeconfig.cpp:1186
+#: syntax/katethemeconfig.cpp:1336
 #, kde-format
 msgid "Possible Data Loss"
 msgstr "Có thể mất dữ liệu"
 
-#: document/katedocument.cpp:2527
+#: document/katedocument.cpp:2538
 #, fuzzy, kde-format
 #| msgid ""
 #| "The selected encoding cannot encode every unicode character in this "
@@ -2160,7 +2207,7 @@ msgstr ""
 "Bảng mã đã chọn không thể mã hoá mọi kí tự Unicode trong tài liệu này. Bạn "
 "thật sự muốn lưu nó không? Một phần dữ liệu có thể bị mất."
 
-#: document/katedocument.cpp:2572
+#: document/katedocument.cpp:2583
 #, fuzzy, kde-format
 #| msgid ""
 #| "The document could not be saved, as it was not possible to write to %1.\n"
@@ -2179,7 +2226,7 @@ msgstr ""
 "Hãy kiểm tra xem bạn có quyền ghi vào tệp này, hoặc có đủ chỗ còn rảnh trên "
 "đĩa."
 
-#: document/katedocument.cpp:2693
+#: document/katedocument.cpp:2704
 #, fuzzy, kde-format
 #| msgid ""
 #| "For file %1 no backup copy could be created before saving. If the there "
@@ -2197,51 +2244,51 @@ msgstr ""
 "ghi vào vật chứa đã đầy, hoặc bạn thử ghi tệp trong thư mục vào đó bạn không "
 "có quyền ghi."
 
-#: document/katedocument.cpp:2697
+#: document/katedocument.cpp:2708
 #, kde-format
 msgid "Failed to create backup copy."
 msgstr "Lỗi tạo bản sao lưu."
 
-#: document/katedocument.cpp:2698
+#: document/katedocument.cpp:2709
 #, kde-format
 msgid "Try to Save Nevertheless"
 msgstr "Vẫn thử lưu"
 
-#: document/katedocument.cpp:2820
+#: document/katedocument.cpp:2831
 #, kde-format
 msgid "Do you really want to continue to close this file? Data loss may occur."
 msgstr ""
 "Bạn thật sự muốn tiếp tục đóng tệp này không? Một phần dữ liệu có thể bị mất."
 
-#: document/katedocument.cpp:2822
+#: document/katedocument.cpp:2833
 #, kde-format
 msgid "Close Nevertheless"
 msgstr "Vẫn đóng"
 
-#: document/katedocument.cpp:4450
+#: document/katedocument.cpp:4572
 #, kde-format
 msgid "Untitled"
 msgstr "Không tên"
 
-#: document/katedocument.cpp:4573 document/katedocument.cpp:4783
-#: document/katedocument.cpp:4793 document/katedocument.cpp:5504
-#: document/katedocument.cpp:5695
+#: document/katedocument.cpp:4695 document/katedocument.cpp:4905
+#: document/katedocument.cpp:4915 document/katedocument.cpp:5638
+#: document/katedocument.cpp:5829
 #, kde-format
 msgid "Save File"
 msgstr "Lưu tệp"
 
-#: document/katedocument.cpp:4576
+#: document/katedocument.cpp:4698
 #, kde-format
 msgid "Save failed"
 msgstr "Lỗi lưu"
 
-#: document/katedocument.cpp:4804
+#: document/katedocument.cpp:4926
 #, fuzzy, kde-format
 #| msgid "Save File"
 msgid "Save Copy of File"
 msgstr "Lưu tệp"
 
-#: document/katedocument.cpp:4816
+#: document/katedocument.cpp:4938
 #, kde-format
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
@@ -2254,7 +2301,7 @@ msgstr ""
 "Hãy kiểm tra xem bạn có quyền ghi vào tệp này, hoặc có đủ chỗ còn rảnh trên "
 "đĩa."
 
-#: document/katedocument.cpp:5054
+#: document/katedocument.cpp:5188
 #, kde-format
 msgid ""
 "Using deprecated modeline 'remove-trailing-space'. Please replace with "
@@ -2263,7 +2310,7 @@ msgid ""
 "remove-trailing-spaces"
 msgstr ""
 
-#: document/katedocument.cpp:5060
+#: document/katedocument.cpp:5194
 #, kde-format
 msgid ""
 "Using deprecated modeline 'replace-trailing-space-save'. Please replace with "
@@ -2272,43 +2319,43 @@ msgid ""
 "remove-trailing-spaces"
 msgstr ""
 
-#: document/katedocument.cpp:5367
+#: document/katedocument.cpp:5501
 #, fuzzy, kde-format
 #| msgid "The file '%1' was modified by another program."
 msgid "The file '%1' was modified on disk."
 msgstr "Một chương trình khác đã sửa đổi tệp « %1 »."
 
-#: document/katedocument.cpp:5370
+#: document/katedocument.cpp:5504
 #, fuzzy, kde-format
 #| msgid "The file '%1' was created by another program."
 msgid "The file '%1' was created on disk."
 msgstr "Một chương trình khác đã tạo tệp « %1 »."
 
-#: document/katedocument.cpp:5373
+#: document/katedocument.cpp:5507
 #, fuzzy, kde-format
 #| msgid "The file '%1' was deleted by another program."
 msgid "The file '%1' was deleted on disk."
 msgstr "Một chương trình khác đã xoá tệp « %1 »."
 
-#: document/katedocument.cpp:5680
+#: document/katedocument.cpp:5814
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Do you want to save your changes or discard them?"
 msgstr ""
 
-#: document/katedocument.cpp:5683
+#: document/katedocument.cpp:5817
 #, fuzzy, kde-format
 #| msgid "&Word Wrap Document"
 msgid "Close Document"
 msgstr "&Ngắt từ trong tài liệu"
 
-#: document/katedocument.cpp:5792
+#: document/katedocument.cpp:5926
 #, kde-format
 msgid "The file <a href=\"%1\">%2</a> is still loading."
 msgstr ""
 
-#: document/katedocument.cpp:5797
+#: document/katedocument.cpp:5931
 #, kde-format
 msgid "&Abort Loading"
 msgstr ""
@@ -2434,13 +2481,13 @@ msgid ""
 "example, C++ or .cpp)"
 msgstr ""
 
-#: mode/katemodemenulist.cpp:561
+#: mode/katemodemenulist.cpp:566
 #, kde-format
 msgctxt "A search yielded no results"
 msgid "No items matching your search"
 msgstr "Không mục nào khớp với tìm kiếm"
 
-#: mode/katemodemenulist.cpp:1088
+#: mode/katemodemenulist.cpp:1093
 #, kde-format
 msgctxt ""
 "Title (in singular) of the best result in an item search. Please, that the "
@@ -2449,7 +2496,7 @@ msgctxt ""
 msgid "Best Search Match"
 msgstr ""
 
-#: mode/katemodemenulist.cpp:1093
+#: mode/katemodemenulist.cpp:1098
 #, kde-format
 msgctxt ""
 "Title (in plural) of the best results in an item search. Please, that the "
@@ -3048,9 +3095,9 @@ msgid "Sort Selected Text"
 msgstr "Đã chọn"
 
 #: script/data/commands/utils.js:10 script/data/commands/utils.js:15
-#: script/data/commands/utils.js:20 script/data/commands/utils.js:25
-#: script/data/commands/utils.js:29 script/data/commands/utils.js:33
-#: script/data/commands/utils.js:37
+#: script/data/commands/utils.js:20 script/data/commands/utils.js:24
+#: script/data/commands/utils.js:28 script/data/commands/utils.js:32
+#: script/data/commands/utils.js:36
 #, fuzzy, kde-format
 #| msgid "Editing"
 msgctxt "Script command category"
@@ -3078,51 +3125,51 @@ msgctxt "Script command name"
 msgid "Duplicate Selected Lines Down"
 msgstr "Đã chọn"
 
-#: script/data/commands/utils.js:28
+#: script/data/commands/utils.js:27
 #, fuzzy, kde-format
 #| msgid "Selected"
 msgctxt "Script command name"
 msgid "Duplicate Selected Lines Up"
 msgstr "Đã chọn"
 
-#: script/data/commands/utils.js:32
+#: script/data/commands/utils.js:31
 #, fuzzy, kde-format
 #| msgid "Selected"
 msgctxt "Script command name"
 msgid "URI-encode Selected Text"
 msgstr "Đã chọn"
 
-#: script/data/commands/utils.js:36
+#: script/data/commands/utils.js:35
 #, fuzzy, kde-format
 #| msgid "Selected"
 msgctxt "Script command name"
 msgid "URI-decode Selected Text"
 msgstr "Đã chọn"
 
-#: script/data/commands/utils.js:362
+#: script/data/commands/utils.js:359
 #, fuzzy, kde-format
 #| msgid "Select the entire text of the current document."
 msgid "Sort the selected text or whole document."
 msgstr "Chọn toàn bộ nội dung tài liệu."
 
-#: script/data/commands/utils.js:364
+#: script/data/commands/utils.js:361
 #, fuzzy, kde-format
 #| msgid "Selected"
 msgid "Move selected lines down."
 msgstr "Đã chọn"
 
-#: script/data/commands/utils.js:366
+#: script/data/commands/utils.js:363
 #, fuzzy, kde-format
 #| msgid "Selected"
 msgid "Move selected lines up."
 msgstr "Đã chọn"
 
-#: script/data/commands/utils.js:368
+#: script/data/commands/utils.js:365
 #, kde-format
 msgid "Remove duplicate lines from the selected text or whole document."
 msgstr ""
 
-#: script/data/commands/utils.js:370
+#: script/data/commands/utils.js:367
 #, kde-format
 msgid ""
 "Sort the selected text or whole document in natural order.<br>Here is an "
@@ -3130,22 +3177,22 @@ msgid ""
 "a2) => a1, a10, a2<br>natsort(a10, a1, a2) => a1, a2, a10"
 msgstr ""
 
-#: script/data/commands/utils.js:372
+#: script/data/commands/utils.js:369
 #, kde-format
 msgid "Trims trailing whitespace from selection or whole document."
 msgstr ""
 
-#: script/data/commands/utils.js:374
+#: script/data/commands/utils.js:371
 #, kde-format
 msgid "Trims leading whitespace from selection or whole document."
 msgstr ""
 
-#: script/data/commands/utils.js:376
+#: script/data/commands/utils.js:373
 #, kde-format
 msgid "Trims leading and trailing whitespace from selection or whole document."
 msgstr ""
 
-#: script/data/commands/utils.js:378
+#: script/data/commands/utils.js:375
 #, kde-format
 msgid ""
 "Joins selected lines or whole document. Optionally pass a separator to put "
@@ -3153,12 +3200,12 @@ msgid ""
 "separate them by a comma."
 msgstr ""
 
-#: script/data/commands/utils.js:380
+#: script/data/commands/utils.js:377
 #, kde-format
 msgid "Removes empty lines from selection or whole document."
 msgstr ""
 
-#: script/data/commands/utils.js:384
+#: script/data/commands/utils.js:381
 #, kde-format
 msgid ""
 "Given a JavaScript function as argument, call that for the list of "
@@ -3168,7 +3215,7 @@ msgid ""
 "this to achieve the same:<br><code>each 'lines.join(\", \")'</code>"
 msgstr ""
 
-#: script/data/commands/utils.js:386
+#: script/data/commands/utils.js:383
 #, kde-format
 msgid ""
 "Given a JavaScript function as argument, call that for the list of "
@@ -3178,7 +3225,7 @@ msgid ""
 "this to achieve the same:<br><code>filter 'line.length > 0'</code>"
 msgstr ""
 
-#: script/data/commands/utils.js:388
+#: script/data/commands/utils.js:385
 #, kde-format
 msgid ""
 "Given a JavaScript function as argument, call that for the list of "
@@ -3189,24 +3236,24 @@ msgid ""
 "+/, \"\")'</code>"
 msgstr ""
 
-#: script/data/commands/utils.js:390
+#: script/data/commands/utils.js:387
 #, kde-format
 msgid "Duplicates the selected lines up."
 msgstr ""
 
-#: script/data/commands/utils.js:392
+#: script/data/commands/utils.js:389
 #, kde-format
 msgid "Duplicates the selected lines down."
 msgstr ""
 
-#: script/data/commands/utils.js:394
+#: script/data/commands/utils.js:391
 #, kde-format
 msgid ""
 "Encode special chars in a single line selection, so the result text can be "
 "used as URI."
 msgstr ""
 
-#: script/data/commands/utils.js:396
+#: script/data/commands/utils.js:393
 #, kde-format
 msgid "Reverse action of URI encode."
 msgstr ""
@@ -4217,183 +4264,183 @@ msgstr ""
 msgid "Kate Styles"
 msgstr "Kiểu dáng Kate"
 
-#: syntax/katethemeconfig.cpp:45
+#: syntax/katethemeconfig.cpp:46
 #, fuzzy, kde-format
 #| msgid "Normal"
 msgctxt "@item:intable Text context"
 msgid "Normal"
 msgstr "Chuẩn"
 
-#: syntax/katethemeconfig.cpp:46
+#: syntax/katethemeconfig.cpp:47
 #, fuzzy, kde-format
 #| msgid "Keyword"
 msgctxt "@item:intable Text context"
 msgid "Keyword"
 msgstr "Từ khoá"
 
-#: syntax/katethemeconfig.cpp:47
+#: syntax/katethemeconfig.cpp:48
 #, fuzzy, kde-format
 #| msgid "Function"
 msgctxt "@item:intable Text context"
 msgid "Function"
 msgstr "Hàm"
 
-#: syntax/katethemeconfig.cpp:48
+#: syntax/katethemeconfig.cpp:49
 #, fuzzy, kde-format
 #| msgid "Variable"
 msgctxt "@item:intable Text context"
 msgid "Variable"
 msgstr "Biến"
 
-#: syntax/katethemeconfig.cpp:49
+#: syntax/katethemeconfig.cpp:50
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Control Flow"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:50
+#: syntax/katethemeconfig.cpp:51
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Operator"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:51
+#: syntax/katethemeconfig.cpp:52
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Built-in"
 msgstr ""
 
 # msgid "File e&xtensions:"
-#: syntax/katethemeconfig.cpp:52
+#: syntax/katethemeconfig.cpp:53
 #, fuzzy, kde-format
 #| msgid "Extensions"
 msgctxt "@item:intable Text context"
 msgid "Extension"
 msgstr "Phần mở rộng"
 
-#: syntax/katethemeconfig.cpp:53
+#: syntax/katethemeconfig.cpp:54
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Preprocessor"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:54
+#: syntax/katethemeconfig.cpp:55
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Attribute"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:56
+#: syntax/katethemeconfig.cpp:57
 #, fuzzy, kde-format
 #| msgid "Character"
 msgctxt "@item:intable Text context"
 msgid "Character"
 msgstr "Kí tự"
 
-#: syntax/katethemeconfig.cpp:57
+#: syntax/katethemeconfig.cpp:58
 #, fuzzy, kde-format
 #| msgid "Character"
 msgctxt "@item:intable Text context"
 msgid "Special Character"
 msgstr "Kí tự"
 
-#: syntax/katethemeconfig.cpp:58
+#: syntax/katethemeconfig.cpp:59
 #, fuzzy, kde-format
 #| msgid "String"
 msgctxt "@item:intable Text context"
 msgid "String"
 msgstr "Chuỗi"
 
-#: syntax/katethemeconfig.cpp:59
+#: syntax/katethemeconfig.cpp:60
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Verbatim String"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:60
+#: syntax/katethemeconfig.cpp:61
 #, fuzzy, kde-format
 #| msgid "Filter: None"
 msgctxt "@item:intable Text context"
 msgid "Special String"
 msgstr "Lọc: không có"
 
-#: syntax/katethemeconfig.cpp:61
+#: syntax/katethemeconfig.cpp:62
 #, kde-format
 msgctxt "@item:intable Text context"
 msgid "Imports, Modules, Includes"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:63
+#: syntax/katethemeconfig.cpp:64
 #, fuzzy, kde-format
 #| msgid "Data Type"
 msgctxt "@item:intable Text context"
 msgid "Data Type"
 msgstr "Kiểu dữ liệu"
 
-#: syntax/katethemeconfig.cpp:64
+#: syntax/katethemeconfig.cpp:65
 #, fuzzy, kde-format
 #| msgid "Decimal/Value"
 msgctxt "@item:intable Text context"
 msgid "Decimal/Value"
 msgstr "Thập phân/Giá trị"
 
-#: syntax/katethemeconfig.cpp:65
+#: syntax/katethemeconfig.cpp:66
 #, fuzzy, kde-format
 #| msgid "Base-N Integer"
 msgctxt "@item:intable Text context"
 msgid "Base-N Integer"
 msgstr "Số nguyên cơ số N"
 
-#: syntax/katethemeconfig.cpp:66
+#: syntax/katethemeconfig.cpp:67
 #, fuzzy, kde-format
 #| msgid "Floating Point"
 msgctxt "@item:intable Text context"
 msgid "Floating Point"
 msgstr "Điểm phù động"
 
-#: syntax/katethemeconfig.cpp:67
+#: syntax/katethemeconfig.cpp:68
 #, fuzzy, kde-format
 #| msgid "Constant"
 msgctxt "@item:intable Text context"
 msgid "Constant"
 msgstr "Hằng"
 
-#: syntax/katethemeconfig.cpp:69
+#: syntax/katethemeconfig.cpp:70
 #, fuzzy, kde-format
 #| msgid "Comment"
 msgctxt "@item:intable Text context"
 msgid "Comment"
 msgstr "Ghi chú"
 
-#: syntax/katethemeconfig.cpp:70
+#: syntax/katethemeconfig.cpp:71
 #, fuzzy, kde-format
 #| msgid "&Indentation"
 msgctxt "@item:intable Text context"
 msgid "Documentation"
 msgstr "Th&ụt lề"
 
-#: syntax/katethemeconfig.cpp:71
+#: syntax/katethemeconfig.cpp:72
 #, fuzzy, kde-format
 #| msgid "Indentation"
 msgctxt "@item:intable Text context"
 msgid "Annotation"
 msgstr "Canh lề"
 
-#: syntax/katethemeconfig.cpp:72
+#: syntax/katethemeconfig.cpp:73
 #, fuzzy, kde-format
 #| msgid "Variable"
 msgctxt "@item:intable Text context"
 msgid "Comment Variable"
 msgstr "Biến"
 
-#: syntax/katethemeconfig.cpp:74
+#: syntax/katethemeconfig.cpp:75
 #, fuzzy, kde-format
 #| msgid "Region Marker"
 msgctxt "@item:intable Text context"
 msgid "Region Marker"
 msgstr "Dấu hiệu miền"
 
-#: syntax/katethemeconfig.cpp:75
+#: syntax/katethemeconfig.cpp:76
 #, fuzzy, kde-format
 #| msgctxt "Language"
 #| msgid "Inform"
@@ -4401,64 +4448,64 @@ msgctxt "@item:intable Text context"
 msgid "Information"
 msgstr "Inform"
 
-#: syntax/katethemeconfig.cpp:76
+#: syntax/katethemeconfig.cpp:77
 #, fuzzy, kde-format
 #| msgid "Warning"
 msgctxt "@item:intable Text context"
 msgid "Warning"
 msgstr "Cảnh báo"
 
-#: syntax/katethemeconfig.cpp:77
+#: syntax/katethemeconfig.cpp:78
 #, fuzzy, kde-format
 #| msgid "Alert"
 msgctxt "@item:intable Text context"
 msgid "Alert"
 msgstr "Báo động"
 
-#: syntax/katethemeconfig.cpp:79
+#: syntax/katethemeconfig.cpp:80
 #, fuzzy, kde-format
 #| msgid "Others"
 msgctxt "@item:intable Text context"
 msgid "Others"
 msgstr "Khác"
 
-#: syntax/katethemeconfig.cpp:81
+#: syntax/katethemeconfig.cpp:82
 #, fuzzy, kde-format
 #| msgid "Error"
 msgctxt "@item:intable Text context"
 msgid "Error"
 msgstr "Lỗi"
 
-#: syntax/katethemeconfig.cpp:142
+#: syntax/katethemeconfig.cpp:143
 #, fuzzy, kde-format
 #| msgid "Use Default Style"
 msgid "Use Default Colors"
 msgstr "Dùng kiểu dáng mặc định"
 
-#: syntax/katethemeconfig.cpp:162
+#: syntax/katethemeconfig.cpp:163
 #, fuzzy, kde-format
 #| msgid "Unset Background Color"
 msgid "Editor Background Colors"
 msgstr "Bỏ chọn màu nền"
 
-#: syntax/katethemeconfig.cpp:164
+#: syntax/katethemeconfig.cpp:165
 #, fuzzy, kde-format
 #| msgid "Template Background"
 msgid "Text Area"
 msgstr "Nền mẫu"
 
-#: syntax/katethemeconfig.cpp:166
+#: syntax/katethemeconfig.cpp:167
 #, kde-format
 msgid "<p>Sets the background color of the editing area.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:171
+#: syntax/katethemeconfig.cpp:172
 #, fuzzy, kde-format
 #| msgid "Selected"
 msgid "Selected Text"
 msgstr "Đã chọn"
 
-#: syntax/katethemeconfig.cpp:174
+#: syntax/katethemeconfig.cpp:175
 #, kde-format
 msgid ""
 "<p>Sets the background color of the selection.</p><p>To set the text color "
@@ -4466,13 +4513,13 @@ msgid ""
 "</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:180
+#: syntax/katethemeconfig.cpp:181
 #, fuzzy, kde-format
 #| msgid "Current Word Only"
 msgid "Current Line"
 msgstr "Chỉ từ hiện có"
 
-#: syntax/katethemeconfig.cpp:182
+#: syntax/katethemeconfig.cpp:183
 #, kde-format
 msgid ""
 "<p>Sets the background color of the currently active line, which means the "
@@ -4480,74 +4527,74 @@ msgid ""
 msgstr ""
 
 # msgid "Highlighting"
-#: syntax/katethemeconfig.cpp:187
+#: syntax/katethemeconfig.cpp:188
 #, fuzzy, kde-format
 #| msgid "&Highlighting"
 msgid "Search Highlight"
 msgstr "Tô &sáng"
 
-#: syntax/katethemeconfig.cpp:189
+#: syntax/katethemeconfig.cpp:190
 #, kde-format
 msgid "<p>Sets the background color of search results.</p>"
 msgstr ""
 
 # msgid "Highlighting"
-#: syntax/katethemeconfig.cpp:194
+#: syntax/katethemeconfig.cpp:195
 #, fuzzy, kde-format
 #| msgid "&Highlighting"
 msgid "Replace Highlight"
 msgstr "Tô &sáng"
 
-#: syntax/katethemeconfig.cpp:196
+#: syntax/katethemeconfig.cpp:197
 #, kde-format
 msgid "<p>Sets the background color of replaced text.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:203
+#: syntax/katethemeconfig.cpp:204
 #, kde-format
 msgid "Icon Border"
 msgstr "Viền biểu tượng"
 
-#: syntax/katethemeconfig.cpp:206
+#: syntax/katethemeconfig.cpp:207
 #, fuzzy, kde-format
 #| msgid "Background"
 msgid "Background Area"
 msgstr "Nền"
 
-#: syntax/katethemeconfig.cpp:208
+#: syntax/katethemeconfig.cpp:209
 #, kde-format
 msgid "<p>Sets the background color of the icon border.</p>"
 msgstr "<p>Đặt màu nền của viền biểu tượng.</p>"
 
-#: syntax/katethemeconfig.cpp:213
+#: syntax/katethemeconfig.cpp:214
 #, kde-format
 msgid "Line Numbers"
 msgstr "Số thứ tự dòng"
 
-#: syntax/katethemeconfig.cpp:215
+#: syntax/katethemeconfig.cpp:216
 #, kde-format
 msgid "<p>This color will be used to draw the line numbers (if enabled).</p>"
 msgstr "<p>Màu này sẽ được dùng cho số thứ tự dòng (nếu bật).</p>"
 
-#: syntax/katethemeconfig.cpp:220
+#: syntax/katethemeconfig.cpp:221
 #, fuzzy, kde-format
 #| msgid "Current Word Only"
 msgid "Current Line Number"
 msgstr "Chỉ từ hiện có"
 
-#: syntax/katethemeconfig.cpp:222
+#: syntax/katethemeconfig.cpp:223
 #, kde-format
 msgid ""
 "<p>This color will be used to draw the number of the current line (if "
 "enabled).</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:227
+#: syntax/katethemeconfig.cpp:228
 #, kde-format
 msgid "Separator"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:229
+#: syntax/katethemeconfig.cpp:230
 #, kde-format
 msgid ""
 "<p>This color will be used to draw the line between line numbers and the "
@@ -4556,13 +4603,13 @@ msgstr ""
 "<p>Màu này sẽ được dùng cho đường thẳng ở giữa số thứ tự dòng và viền biểu "
 "tượng, nếu cả hai được bật.</p>"
 
-#: syntax/katethemeconfig.cpp:234
+#: syntax/katethemeconfig.cpp:235
 #, fuzzy, kde-format
 #| msgid "Show Static &Word Wrap Marker"
 msgid "Word Wrap Marker"
 msgstr "Hiện dấu hiệu &Ngắt từ tĩnh"
 
-#: syntax/katethemeconfig.cpp:237
+#: syntax/katethemeconfig.cpp:238
 #, kde-format
 msgid ""
 "<p>Sets the color of Word Wrap-related markers:</p><dl><dt>Static Word Wrap</"
@@ -4571,85 +4618,85 @@ msgid ""
 "visually-wrapped lines</dd></dl>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:244
+#: syntax/katethemeconfig.cpp:245
 #, fuzzy, kde-format
 #| msgid "&Code Folding"
 msgid "Code Folding"
 msgstr "&Gấp lại mã"
 
-#: syntax/katethemeconfig.cpp:246
+#: syntax/katethemeconfig.cpp:247
 #, kde-format
 msgid "<p>Sets the color of the code folding bar.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:251
+#: syntax/katethemeconfig.cpp:252
 #, fuzzy, kde-format
 #| msgid "Scroll Line Up"
 msgid "Modified Lines"
 msgstr "Cuộn lên một dòng"
 
-#: syntax/katethemeconfig.cpp:253
+#: syntax/katethemeconfig.cpp:254
 #, kde-format
 msgid ""
 "<p>Sets the color of the line modification marker for modified lines.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:258
+#: syntax/katethemeconfig.cpp:259
 #, fuzzy, kde-format
 #| msgid "Save File"
 msgid "Saved Lines"
 msgstr "Lưu tệp"
 
-#: syntax/katethemeconfig.cpp:260
+#: syntax/katethemeconfig.cpp:261
 #, kde-format
 msgid "<p>Sets the color of the line modification marker for saved lines.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:267
+#: syntax/katethemeconfig.cpp:268
 #, fuzzy, kde-format
 #| msgid "Bl&ock Selection Mode"
 msgid "Text Decorations"
 msgstr "Chế độ chọn &khối"
 
-#: syntax/katethemeconfig.cpp:270
+#: syntax/katethemeconfig.cpp:271
 #, kde-format
 msgid "Spelling Mistake Line"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:272
+#: syntax/katethemeconfig.cpp:273
 #, kde-format
 msgid ""
 "<p>Sets the color of the line that is used to indicate spelling mistakes.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:277
+#: syntax/katethemeconfig.cpp:278
 #, kde-format
 msgid "Tab and Space Markers"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:279
+#: syntax/katethemeconfig.cpp:280
 #, kde-format
 msgid "<p>Sets the color of the tabulator marks.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:284
+#: syntax/katethemeconfig.cpp:285
 #, fuzzy, kde-format
 #| msgid "Indentation"
 msgid "Indentation Line"
 msgstr "Canh lề"
 
-#: syntax/katethemeconfig.cpp:286
+#: syntax/katethemeconfig.cpp:287
 #, kde-format
 msgid "<p>Sets the color of the vertical indentation lines.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:291
+#: syntax/katethemeconfig.cpp:292
 #, fuzzy, kde-format
 #| msgid "H&ighlight:"
 msgid "Bracket Highlight"
 msgstr "T&ô sáng:"
 
-#: syntax/katethemeconfig.cpp:294
+#: syntax/katethemeconfig.cpp:295
 #, kde-format
 msgid ""
 "<p>Sets the bracket matching color. This means, if you place the cursor e.g. "
@@ -4658,84 +4705,84 @@ msgstr ""
 "<p>Đặt màu cho dấu ngoặc cùng cặp. Cụ thể là, nếu bạn để con trỏ vd. ở một "
 "dấu <b>(</b>, thì dấu <b>)</b> cùng cặp sẽ được tô sáng bằng màu này.</p>"
 
-#: syntax/katethemeconfig.cpp:302
+#: syntax/katethemeconfig.cpp:303
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Marker Colors"
 msgstr "Màu sắc"
 
-#: syntax/katethemeconfig.cpp:304 view/kateviewhelpers.cpp:1474
+#: syntax/katethemeconfig.cpp:305 view/kateviewhelpers.cpp:1474
 #, kde-format
 msgid "Bookmark"
 msgstr "Đánh dấu"
 
-#: syntax/katethemeconfig.cpp:305
+#: syntax/katethemeconfig.cpp:306
 #, kde-format
 msgid "Active Breakpoint"
 msgstr "Điểm ngắt hoạt động"
 
-#: syntax/katethemeconfig.cpp:306
+#: syntax/katethemeconfig.cpp:307
 #, kde-format
 msgid "Reached Breakpoint"
 msgstr "Điểm ngắt đã tới"
 
-#: syntax/katethemeconfig.cpp:307
+#: syntax/katethemeconfig.cpp:308
 #, kde-format
 msgid "Disabled Breakpoint"
 msgstr "Điểm ngắt bị tắt"
 
-#: syntax/katethemeconfig.cpp:308
+#: syntax/katethemeconfig.cpp:309
 #, kde-format
 msgid "Execution"
 msgstr "Thực hiện"
 
-#: syntax/katethemeconfig.cpp:309
+#: syntax/katethemeconfig.cpp:310
 #, kde-format
 msgid "Warning"
 msgstr "Cảnh báo"
 
-#: syntax/katethemeconfig.cpp:310
+#: syntax/katethemeconfig.cpp:311
 #, kde-format
 msgid "Error"
 msgstr "Lỗi"
 
-#: syntax/katethemeconfig.cpp:312
+#: syntax/katethemeconfig.cpp:313
 #, kde-format
 msgid ""
 "<p>Sets the background color of mark type.</p><p><b>Note</b>: The marker "
 "color is displayed lightly because of transparency.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:324
+#: syntax/katethemeconfig.cpp:325
 #, kde-format
 msgid "Text Templates & Snippets"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:329
+#: syntax/katethemeconfig.cpp:330
 #, fuzzy, kde-format
 #| msgid "Background"
 msgid "Background"
 msgstr "Nền"
 
-#: syntax/katethemeconfig.cpp:335
+#: syntax/katethemeconfig.cpp:336
 #, fuzzy, kde-format
 #| msgid "Template Editable Placeholder"
 msgid "Editable Placeholder"
 msgstr "Bộ giữ chỗ sửa được mẫu"
 
-#: syntax/katethemeconfig.cpp:341
+#: syntax/katethemeconfig.cpp:342
 #, fuzzy, kde-format
 #| msgid "Template Focused Editable Placeholder"
 msgid "Focused Editable Placeholder"
 msgstr "Bộ giữ chỗ sửa được dựa vào mẫu"
 
-#: syntax/katethemeconfig.cpp:347
+#: syntax/katethemeconfig.cpp:348
 #, fuzzy, kde-format
 #| msgid "Template Not Editable Placeholder"
 msgid "Not Editable Placeholder"
 msgstr "Bộ giữ chỗ không sửa được mẫu"
 
-#: syntax/katethemeconfig.cpp:481
+#: syntax/katethemeconfig.cpp:482
 #, fuzzy, kde-format
 #| msgid ""
 #| "This list displays the default styles for the current schema and offers "
@@ -4756,45 +4803,45 @@ msgstr ""
 "bật lên.<p>Bạn có thể bỏ đặt màu Nền và Nền đã chọn, từ trình đơn bật lên, "
 "khi thích hợp."
 
-#: syntax/katethemeconfig.cpp:547
+#: syntax/katethemeconfig.cpp:548
 #, fuzzy, kde-format
 #| msgid "Normal Text"
 msgctxt "@item:intable"
 msgid "Normal Text & Source Code"
 msgstr "Văn bản chuẩn"
 
-#: syntax/katethemeconfig.cpp:554
+#: syntax/katethemeconfig.cpp:555
 #, kde-format
 msgctxt "@item:intable"
 msgid "Numbers, Types & Constants"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:561
+#: syntax/katethemeconfig.cpp:562
 #, fuzzy, kde-format
 #| msgid "Character"
 msgctxt "@item:intable"
 msgid "Strings & Characters"
 msgstr "Kí tự"
 
-#: syntax/katethemeconfig.cpp:568
+#: syntax/katethemeconfig.cpp:569
 #, fuzzy, kde-format
 #| msgid "&Indentation"
 msgctxt "@item:intable"
 msgid "Comments & Documentation"
 msgstr "Th&ụt lề"
 
-#: syntax/katethemeconfig.cpp:575
+#: syntax/katethemeconfig.cpp:576
 #, kde-format
 msgctxt "@item:intable"
 msgid "Miscellaneous"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:682
+#: syntax/katethemeconfig.cpp:683
 #, kde-format
 msgid "H&ighlight:"
 msgstr "T&ô sáng:"
 
-#: syntax/katethemeconfig.cpp:724
+#: syntax/katethemeconfig.cpp:725
 #, kde-format
 msgid ""
 "<p>This list displays the contexts of the current syntax highlight mode and "
@@ -4813,131 +4860,146 @@ msgstr ""
 "p><p>Bạn có thể bỏ đặt màu Nền và Nền đã chọn, từ trình đơn bật lên, khi "
 "thích hợp.</p>"
 
-#: syntax/katethemeconfig.cpp:1001
+#: syntax/katethemeconfig.cpp:1003
+#, fuzzy, kde-format
+#| msgid "Normal Text Styles"
+msgid "Default Theme"
+msgstr "Kiểu đáng chữ chuẩn"
+
+#: syntax/katethemeconfig.cpp:1004
+#, kde-format
+msgid "Theme Editor"
+msgstr ""
+
+#: syntax/katethemeconfig.cpp:1018
+#, fuzzy, kde-format
+#| msgid "Selected"
+msgid "Select theme:"
+msgstr "Đã chọn"
+
+#: syntax/katethemeconfig.cpp:1065
+#, kde-format
+msgid "Preview:"
+msgstr ""
+
+#: syntax/katethemeconfig.cpp:1089
 #, fuzzy, kde-format
 #| msgctxt "Language"
 #| msgid "Scheme"
 msgid "&Theme:"
 msgstr "Scheme"
 
-#: syntax/katethemeconfig.cpp:1010
+#: syntax/katethemeconfig.cpp:1098
 #, fuzzy, kde-format
 #| msgid "&Save File As..."
 msgid "&Copy..."
 msgstr "&Lưu tệp dạng..."
 
-#: syntax/katethemeconfig.cpp:1018
+#: syntax/katethemeconfig.cpp:1106
 #, fuzzy, kde-format
 #| msgid "E&xport as HTML..."
 msgid "Export..."
 msgstr "&Xuất dạng HTML..."
 
-#: syntax/katethemeconfig.cpp:1022
+#: syntax/katethemeconfig.cpp:1110
 #, fuzzy, kde-format
 #| msgid "Normal &Color..."
 msgid "Import..."
 msgstr "Màu &chuẩn..."
 
-#: syntax/katethemeconfig.cpp:1029
+#: syntax/katethemeconfig.cpp:1117
 #, kde-format
 msgid "Bundled read-only theme. To modify the theme, please copy it."
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:1040
+#: syntax/katethemeconfig.cpp:1128
 #, kde-format
 msgid "Colors"
 msgstr "Màu"
 
-#: syntax/katethemeconfig.cpp:1044
+#: syntax/katethemeconfig.cpp:1132
 #, fuzzy, kde-format
 #| msgid "Normal Text Styles"
 msgid "Default Text Styles"
 msgstr "Kiểu đáng chữ chuẩn"
 
-#: syntax/katethemeconfig.cpp:1048
+#: syntax/katethemeconfig.cpp:1136
 #, kde-format
 msgid "Highlighting Text Styles"
 msgstr "Kiểu dáng chữ tô sáng"
 
-#: syntax/katethemeconfig.cpp:1054
-#, fuzzy, kde-format
-#| msgid "&Default schema for %1:"
-msgid "&Default theme for %1:"
-msgstr "Giản đồ &mặc định cho %1:"
-
-#: syntax/katethemeconfig.cpp:1072
+#: syntax/katethemeconfig.cpp:1148
 #, fuzzy, kde-format
 #| msgid "Font & Color Schemas"
 msgid "Exporting color theme: %1"
 msgstr "Giản đồ Phông chữ và Màu sắc"
 
-#: syntax/katethemeconfig.cpp:1074 syntax/katethemeconfig.cpp:1095
+#: syntax/katethemeconfig.cpp:1150 syntax/katethemeconfig.cpp:1171
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Color theme"
 msgstr "Màu sắc"
 
-#: syntax/katethemeconfig.cpp:1095
+#: syntax/katethemeconfig.cpp:1171
 #, fuzzy, kde-format
 #| msgid "Font & Color Schemas"
 msgid "Importing Color Theme"
 msgstr "Giản đồ Phông chữ và Màu sắc"
 
-#: syntax/katethemeconfig.cpp:1109
+#: syntax/katethemeconfig.cpp:1185
 #, kde-format
 msgid ""
 "Importing will overwrite the existing theme file \"%1\". This can not be "
 "undone."
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:1111
+#: syntax/katethemeconfig.cpp:1187
 #, fuzzy, kde-format
 #| msgid "Close Nevertheless"
 msgid "Import Nevertheless"
 msgstr "Vẫn đóng"
 
-#: syntax/katethemeconfig.cpp:1193
-#, fuzzy, kde-format
-#| msgid "Word Completion Plugin"
-msgid "Automatic Selection"
-msgstr "Bổ sung hoàn chỉnh từ"
+#: syntax/katethemeconfig.cpp:1269
+#, kde-format
+msgid "Follow System Color Scheme"
+msgstr ""
 
-#: syntax/katethemeconfig.cpp:1257
+#: syntax/katethemeconfig.cpp:1335
 #, kde-format
 msgid "Do you really want to delete the theme \"%1\"? This can not be undone."
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:1259
+#: syntax/katethemeconfig.cpp:1337
 #, fuzzy, kde-format
 #| msgid "Close Nevertheless"
 msgid "Delete Nevertheless"
 msgstr "Vẫn đóng"
 
-#: syntax/katethemeconfig.cpp:1301
+#: syntax/katethemeconfig.cpp:1379
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Copy theme"
 msgstr "Màu sắc"
 
-#: syntax/katethemeconfig.cpp:1302
+#: syntax/katethemeconfig.cpp:1380
 #, kde-format
 msgid "Name for copy of color theme \"%1\":"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:1313
+#: syntax/katethemeconfig.cpp:1391
 #, kde-format
 msgid ""
 "<p>The theme \"%1\" already exists.</p><p>Please choose a different theme "
 "name.</p>"
 msgstr ""
 
-#: syntax/katethemeconfig.cpp:1314
+#: syntax/katethemeconfig.cpp:1392
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Copy Theme"
 msgstr "Màu sắc"
 
-#: syntax/katethemeconfig.cpp:1367 syntax/katethemeconfig.cpp:1372
+#: syntax/katethemeconfig.cpp:1445 syntax/katethemeconfig.cpp:1450
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgid "Color Themes"
@@ -5692,7 +5754,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kde-l10n-vi@kde.org"
 
-#: utils/kateglobal.cpp:322
+#: utils/kateglobal.cpp:272
 #, kde-format
 msgid "Configure"
 msgstr "Cấu hình"
@@ -7426,12 +7488,34 @@ msgid ""
 "Insert a new line without indentation, regardless of indentation settings."
 msgstr ""
 
+#: view/kateview.cpp:1219
+#, kde-format
+msgid "Insert a Newline Above Current Line"
+msgstr ""
+
 #: view/kateview.cpp:1220
+#, kde-format
+msgid ""
+"Insert a new line above current line without modifying the current line."
+msgstr ""
+
+#: view/kateview.cpp:1228
+#, kde-format
+msgid "Insert a Newline Below Current Line"
+msgstr ""
+
+#: view/kateview.cpp:1229
+#, kde-format
+msgid ""
+"Insert a new line below current line without modifying the current line."
+msgstr ""
+
+#: view/kateview.cpp:1238
 #, kde-format
 msgid "&Indent"
 msgstr "Thụt &lề"
 
-#: view/kateview.cpp:1222
+#: view/kateview.cpp:1240
 #, kde-format
 msgid ""
 "Use this to indent a selected block of text.<br /><br />You can configure "
@@ -7442,62 +7526,62 @@ msgstr ""
 "cấu hình, bạn có thể chọn nếu thao tác này theo dấu cách Tab, hoặc nên thay "
 "thế chúng bằng dấu cách thường."
 
-#: view/kateview.cpp:1229
+#: view/kateview.cpp:1247
 #, kde-format
 msgid "&Unindent"
 msgstr "&Bỏ thụt lề"
 
-#: view/kateview.cpp:1230
+#: view/kateview.cpp:1248
 #, kde-format
 msgid "Use this to unindent a selected block of text."
 msgstr "Dùng lệnh này để bỏ thụt lề một khối văn bản đã chọn."
 
-#: view/kateview.cpp:1248
+#: view/kateview.cpp:1266
 #, fuzzy, kde-format
 #| msgid "Collapse Toplevel"
 msgid "Fold Toplevel Nodes"
 msgstr "Co lại cấp đầu"
 
-#: view/kateview.cpp:1253
+#: view/kateview.cpp:1271
 #, fuzzy, kde-format
 #| msgid "Expand Toplevel"
 msgid "Unfold Toplevel Nodes"
 msgstr "Bung cấp đầu"
 
-#: view/kateview.cpp:1266
+#: view/kateview.cpp:1284
 #, fuzzy, kde-format
 #| msgid "Current Word Only"
 msgid "Toggle Current Node"
 msgstr "Chỉ từ hiện có"
 
-#: view/kateview.cpp:1270
+#: view/kateview.cpp:1288
 #, fuzzy, kde-format
 #| msgid "Comment"
 msgid "Toggle Contained Nodes"
 msgstr "Ghi chú"
 
-#: view/kateview.cpp:1428
+#: view/kateview.cpp:1446
 #, kde-format
 msgid "(R/O) %1"
 msgstr ""
 
-#: view/kateview.cpp:1615
+#: view/kateview.cpp:1639
 #, kde-format
 msgid "Camel case movement disabled"
 msgstr ""
 
-#: view/kateview.cpp:1617
+#: view/kateview.cpp:1641
 #, fuzzy, kde-format
 #| msgid "Enable camel case cursor movement"
 msgid "Camel case movement enabled"
 msgstr "Bật cách di chuyển con trỏ trong kiểu lạc đà"
 
-#: view/kateview.cpp:2073
+#: view/kateview.cpp:2107
 #, kde-format
 msgid "Search wrapped"
 msgstr ""
 
-#: view/kateview.cpp:4377
+#: view/kateview.cpp:4506
 #, kde-format
 msgid "Export File as HTML"
 msgstr "Xuất tệp dạng HTML"
@@ -7914,6 +7998,16 @@ msgstr ""
 #| msgid "Mark Type %1"
 msgid "Mark not set: %1"
 msgstr "Kiểu dấu %1"
+
+#, fuzzy
+#~| msgid "&Default schema for %1:"
+#~ msgid "&Default theme for %1:"
+#~ msgstr "Giản đồ &mặc định cho %1:"
+
+#, fuzzy
+#~| msgid "Word Completion Plugin"
+#~ msgid "Automatic Selection"
+#~ msgstr "Bổ sung hoàn chỉnh từ"
 
 #, fuzzy
 #~| msgid "The file '%1' was modified by another program."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-23 00:47+0000\n"
+"POT-Creation-Date: 2022-04-04 00:45+0000\n"
 "PO-Revision-Date: 2021-12-21 10:30+0100\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -61,41 +61,66 @@ msgctxt "@label %1 is the kernel version, %2 CPU bit width (e.g. 32 or 64)"
 msgid "%1 (%2-bit)"
 msgstr "%1 (%2-bit)"
 
-#: main.cpp:43
+#: main.cpp:101
 #, kde-format
 msgctxt "@title"
 msgid "About this System"
 msgstr "Về hệ thống này"
 
-#: main.cpp:46
+#: main.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Copyright 2012-2020 Harald Sitter"
 msgstr "Bản quyền 2012-2020 Harald Sitter"
 
-#: main.cpp:47
+#: main.cpp:105
 #, kde-format
 msgctxt "@info:credit"
 msgid "Harald Sitter"
 msgstr "Harald Sitter"
 
-#: main.cpp:47
+#: main.cpp:105
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
 msgstr "Tác giả"
 
-#: main.cpp:102
+#: main.cpp:160
 #, kde-format
 msgid "Operating System:"
 msgstr "Hệ điều hành:"
 
-#: main.cpp:129
+#: main.cpp:174
+#, kde-format
+msgctxt "@label"
+msgid "Manufacturer:"
+msgstr ""
+
+#: main.cpp:177
+#, kde-format
+msgctxt "@label"
+msgid "Product Name:"
+msgstr ""
+
+#: main.cpp:180
+#, fuzzy, kde-format
+#| msgid "Qt Version:"
+msgctxt "@label"
+msgid "System Version:"
+msgstr "Phiên bản Qt:"
+
+#: main.cpp:183
+#, kde-format
+msgctxt "@label"
+msgid "Serial Number:"
+msgstr ""
+
+#: main.cpp:205
 #, kde-format
 msgid "KDE Frameworks Version:"
 msgstr "Phiên bản Các Kết cấu KDE:"
 
-#: main.cpp:130
+#: main.cpp:206
 #, kde-format
 msgid "Qt Version:"
 msgstr "Phiên bản Qt:"
@@ -117,31 +142,43 @@ msgctxt "Unknown amount of RAM"
 msgid "Unknown"
 msgstr "Không rõ"
 
-#: package/contents/ui/main.qml:84
+#: package/contents/ui/main.qml:86
 #, kde-format
-msgctxt "@title:group"
-msgid "Software"
-msgstr "Phần mềm"
+msgctxt "@title"
+msgid "Serial Number"
+msgstr ""
 
-#: package/contents/ui/main.qml:94
-#, kde-format
-msgctxt "@title:group"
-msgid "Hardware"
-msgstr "Phần cứng"
-
-#: package/contents/ui/main.qml:112
-#, kde-format
-msgctxt "@action:button launches kinfocenter from systemsettings"
-msgid "Show More Information"
-msgstr "Hiện thêm thông tin"
-
-#: package/contents/ui/main.qml:130
+#: package/contents/ui/main.qml:92 package/contents/ui/main.qml:163
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy to Clipboard"
 msgstr "Chép vào bảng nháp"
 
-#: package/contents/ui/main.qml:137
+#: package/contents/ui/main.qml:107
+#, kde-format
+msgctxt "@action:button show a hidden entry in an overlay"
+msgid "Show"
+msgstr ""
+
+#: package/contents/ui/main.qml:117
+#, kde-format
+msgctxt "@title:group"
+msgid "Software"
+msgstr "Phần mềm"
+
+#: package/contents/ui/main.qml:127
+#, kde-format
+msgctxt "@title:group"
+msgid "Hardware"
+msgstr "Phần cứng"
+
+#: package/contents/ui/main.qml:145
+#, kde-format
+msgctxt "@action:button launches kinfocenter from systemsettings"
+msgid "Show More Information"
+msgstr "Hiện thêm thông tin"
+
+#: package/contents/ui/main.qml:170
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy to Clipboard in English"
