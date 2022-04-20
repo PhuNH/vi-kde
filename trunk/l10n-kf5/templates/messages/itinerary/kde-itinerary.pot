@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-04 00:44+0000\n"
+"POT-Creation-Date: 2022-04-19 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,7 +28,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: app/AboutPage.qml:16 app/main.qml:116
+#: app/AboutPage.qml:16 app/main.qml:123
 #, kde-format
 msgid "About"
 msgstr ""
@@ -95,68 +95,79 @@ msgstr ""
 msgid "Alternative Connections"
 msgstr ""
 
-#: app/AlternativeJourneyPage.qml:29
+#: app/AlternativeJourneyPage.qml:29 app/AlternativeJourneyPage.qml:41
+#, kde-format
+msgctxt "to travel destination"
+msgid "To %1"
+msgstr ""
+
+#: app/AlternativeJourneyPage.qml:60
 #, kde-format
 msgid "Replace Journey"
 msgstr ""
 
-#: app/AlternativeJourneyPage.qml:33
+#: app/AlternativeJourneyPage.qml:64
 #, kde-format
 msgid ""
 "Do you really want to replace your existing reservation with the newly "
 "selected journey?"
 msgstr ""
 
-#: app/AlternativeJourneyPage.qml:40
+#: app/AlternativeJourneyPage.qml:71
 #, kde-format
 msgid "Replace"
 msgstr ""
 
-#: app/applicationcontroller.cpp:321
+#: app/applicationcontroller.cpp:337
 #, kde-format
 msgid "Download failed: %1"
 msgstr ""
 
-#: app/applicationcontroller.cpp:342 app/applicationcontroller.cpp:507
-#: app/applicationcontroller.cpp:522
+#: app/applicationcontroller.cpp:358 app/applicationcontroller.cpp:579
+#: app/applicationcontroller.cpp:594
 #, kde-format
 msgid "Import failed: %1"
 msgstr ""
 
-#: app/applicationcontroller.cpp:347
+#: app/applicationcontroller.cpp:363
 #, kde-format
 msgid "Import failed: File too large."
 msgstr ""
 
-#: app/applicationcontroller.cpp:410 app/applicationcontroller.cpp:579
-#: app/applicationcontroller.cpp:589
+#: app/applicationcontroller.cpp:430 app/applicationcontroller.cpp:656
+#: app/applicationcontroller.cpp:666
 #, kde-format
 msgid "One reservation imported."
 msgid_plural "%1 reservations imported."
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/applicationcontroller.cpp:417
+#: app/applicationcontroller.cpp:436
+#, kde-format
+msgid "Pass imported."
+msgstr ""
+
+#: app/applicationcontroller.cpp:443
 #, kde-format
 msgid "Health certificate imported."
 msgstr ""
 
-#: app/applicationcontroller.cpp:422
+#: app/applicationcontroller.cpp:448
 #, kde-format
 msgid "Nothing imported."
 msgstr ""
 
-#: app/applicationcontroller.cpp:461 app/applicationcontroller.cpp:486
+#: app/applicationcontroller.cpp:532 app/applicationcontroller.cpp:558
 #, kde-format
 msgid "Export failed: %1"
 msgstr ""
 
-#: app/applicationcontroller.cpp:474 app/applicationcontroller.cpp:499
+#: app/applicationcontroller.cpp:546 app/applicationcontroller.cpp:571
 #, kde-format
 msgid "Export completed."
 msgstr ""
 
-#: app/applicationcontroller.cpp:546
+#: app/applicationcontroller.cpp:619
 #, kde-format
 msgid "Import completed."
 msgstr ""
@@ -192,7 +203,8 @@ msgid "Bus Ticket"
 msgstr ""
 
 #: app/BusPage.qml:29 app/EventPage.qml:26 app/FlightPage.qml:35
-#: app/HealthCertificatePage.qml:42 app/PkPassPage.qml:25 app/TrainPage.qml:27
+#: app/HealthCertificatePage.qml:42 app/PkPassPage.qml:26 app/ProgramMembershipPage.qml:51
+#: app/TrainPage.qml:27
 #, kde-format
 msgid "Barcode Scan Mode"
 msgstr ""
@@ -362,7 +374,9 @@ msgid "Do you really want to delete this event?"
 msgstr ""
 
 #: app/DetailsPage.qml:50 app/DetailsPage.qml:142 app/DocumentsPage.qml:81
+#: app/GenericPkPassPage.qml:30 app/GenericPkPassPage.qml:43
 #: app/HealthCertificatePage.qml:57 app/HealthCertificatePage.qml:74
+#: app/ProgramMembershipPage.qml:39 app/ProgramMembershipPage.qml:61
 #: app/TimelinePage.qml:93
 #, kde-format
 msgid "Delete"
@@ -713,12 +727,23 @@ msgctxt "name of a frequent flyer program"
 msgid "Program:"
 msgstr ""
 
-#: app/FlightPage.qml:195 app/TrainPage.qml:280
+#: app/FlightPage.qml:195 app/ProgramMembershipPage.qml:102
+#: app/TrainPage.qml:280
 #, kde-format
 msgid "Number:"
 msgstr ""
 
-#: app/gpxexport.cpp:32 app/main.cpp:245 app/main.qml:17 app/main.qml:42
+#: app/GenericPkPassPage.qml:19 app/ProgramMembershipPage.qml:28
+#, kde-format
+msgid "Delete Pass"
+msgstr ""
+
+#: app/GenericPkPassPage.qml:23 app/ProgramMembershipPage.qml:32
+#, kde-format
+msgid "Do you really want to delete this pass?"
+msgstr ""
+
+#: app/gpxexport.cpp:32 app/main.cpp:257 app/main.qml:17 app/main.qml:42
 #, kde-format
 msgid "KDE Itinerary"
 msgstr ""
@@ -768,7 +793,7 @@ msgstr ""
 msgid "Recovery (%1)"
 msgstr ""
 
-#: app/HealthCertificatePage.qml:17 app/main.qml:87
+#: app/HealthCertificatePage.qml:17 app/main.qml:94
 #, kde-format
 msgid "Health Certificates"
 msgstr ""
@@ -801,7 +826,8 @@ msgstr ""
 
 #: app/HealthCertificateRecovery.qml:34 app/HealthCertificateTest.qml:35
 #: app/HealthCertificateVaccination.qml:38
-#: app/PlaceEditor.qml:23 app/TrainPage.qml:274
+#: app/PlaceEditor.qml:23 app/ProgramMembershipPage.qml:96
+#: app/TrainPage.qml:274
 #, kde-format
 msgid "Name:"
 msgstr ""
@@ -1346,22 +1372,22 @@ msgctxt "currency conversion rate"
 msgid "1 %1 = %2 %3"
 msgstr ""
 
-#: app/main.cpp:252
+#: app/main.cpp:264
 #, kde-format
 msgid "Digital Travel Assistant"
 msgstr ""
 
-#: app/main.cpp:253
+#: app/main.cpp:265
 #, kde-format
 msgid "Copyright © 2018-%1 The KDE Community"
 msgstr ""
 
-#: app/main.cpp:259
+#: app/main.cpp:271
 #, kde-format
 msgid "Open Itinerary on the given page"
 msgstr ""
 
-#: app/main.cpp:262
+#: app/main.cpp:274
 #, kde-format
 msgid "PkPass or JSON-LD file to import."
 msgstr ""
@@ -1391,7 +1417,7 @@ msgstr ""
 msgid "Export Itinerary Data"
 msgstr ""
 
-#: app/main.qml:47
+#: app/main.qml:47 app/PassPage.qml:81
 #, kde-format
 msgid "Import..."
 msgstr ""
@@ -1421,22 +1447,32 @@ msgstr ""
 msgid "Statistics"
 msgstr ""
 
-#: app/main.qml:98
+#: app/main.qml:87
+#, kde-format
+msgid "Passes && Programs"
+msgstr ""
+
+#: app/main.qml:87
+#, kde-format
+msgid "Passes & Programs"
+msgstr ""
+
+#: app/main.qml:105
 #, kde-format
 msgid "Settings..."
 msgstr ""
 
-#: app/main.qml:104
+#: app/main.qml:111
 #, kde-format
 msgid "Export..."
 msgstr ""
 
-#: app/main.qml:109 app/WelcomePage.qml:17
+#: app/main.qml:116 app/WelcomePage.qml:17
 #, kde-format
 msgid "Help"
 msgstr ""
 
-#: app/main.qml:176
+#: app/main.qml:183
 #, kde-format
 msgid "Map download finished."
 msgstr ""
@@ -1513,6 +1549,27 @@ msgstr ""
 msgid "New arrival platform is: %1"
 msgstr ""
 
+#: app/PassPage.qml:17
+#, kde-format
+msgid "Passes and Programs"
+msgstr ""
+
+#: app/PassPage.qml:42
+#, kde-format
+msgctxt "name - number"
+msgid "%1 - %2"
+msgstr ""
+
+#: app/PassPage.qml:79
+#, kde-format
+msgid "Import bonus or discount program cards or flat rate passes."
+msgstr ""
+
+#: app/PassPage.qml:82
+#, kde-format
+msgid "document-open"
+msgstr ""
+
 #: app/PkPassPage.qml:18
 #, kde-format
 msgid "Boarding Pass"
@@ -1521,6 +1578,11 @@ msgstr ""
 #: app/PkPassPage.qml:19
 #, kde-format
 msgid "Event Ticket"
+msgstr ""
+
+#: app/PkPassPage.qml:20
+#, kde-format
+msgid "Pass"
 msgstr ""
 
 #: app/PlaceDelegate.qml:69
@@ -1565,6 +1627,16 @@ msgstr ""
 #: app/PlaceEditor.qml:178
 #, kde-format
 msgid "%1°, %2°"
+msgstr ""
+
+#: app/ProgramMembershipPage.qml:16
+#, kde-format
+msgid "Program Membership"
+msgstr ""
+
+#: app/ProgramMembershipPage.qml:90
+#, kde-format
+msgid "Member"
 msgstr ""
 
 #: app/PublicTransportBackendPage.qml:17
@@ -1864,9 +1936,9 @@ msgstr ""
 msgid "My Itinerary"
 msgstr ""
 
-#: app/TimelinePage.qml:24 app/timelinesectiondelegatecontroller.cpp:65
+#: app/TimelinePage.qml:24
 #, kde-format
-msgid "Today"
+msgid "Go To Now"
 msgstr ""
 
 #: app/TimelinePage.qml:29
@@ -1892,6 +1964,11 @@ msgstr ""
 #: app/TimelinePage.qml:243
 #, kde-format
 msgid "Nothing on the itinerary for today."
+msgstr ""
+
+#: app/timelinesectiondelegatecontroller.cpp:65
+#, kde-format
+msgid "Today"
 msgstr ""
 
 #: app/timelinesectiondelegatecontroller.cpp:67

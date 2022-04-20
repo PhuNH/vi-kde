@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-08 00:46+0000\n"
+"POT-Creation-Date: 2022-04-19 00:45+0000\n"
 "PO-Revision-Date: 2021-10-19 14:45+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -29,24 +29,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "phu.nguyen@kdemail.net,teppi82@gmail.com"
 
-#: abstract_client.cpp:2804
+#: abstract_client.cpp:3472
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
 msgstr "(Không hồi đáp)"
 
-#: abstract_wayland_output.cpp:217
-#, kde-format
-msgid "unknown"
-msgstr "không rõ"
-
-#: composite.cpp:648
+#: composite.cpp:647
 #, kde-format
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr ""
 "Các hiệu ứng bàn làm việc đã bị khởi động lại do một lần đặt lại đồ hoạ"
 
-#: composite.cpp:849
+#: composite.cpp:850
 #, kde-format
 msgid ""
 "Desktop effects have been suspended by another application.<br/>You can "
@@ -1146,7 +1141,7 @@ msgstr "&Kết thúc ứng dụng %1"
 msgid "Wait Longer"
 msgstr "Đợi thêm"
 
-#: input.cpp:3021
+#: input.cpp:3026
 #, kde-format
 msgid "Touchpad"
 msgstr "Bàn cảm ứng"
@@ -1390,6 +1385,11 @@ msgstr ""
 msgid "Replace already-running ICCCM2.0-compliant window manager"
 msgstr "Thay thế trình quản lí cửa sổ tương thích với ICCCM2.0 đang chạy"
 
+#: output.cpp:331
+#, kde-format
+msgid "unknown"
+msgstr "không rõ"
+
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:60
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:62
 #, kde-format
@@ -1530,21 +1530,21 @@ msgstr "Bật/tắt chế độ giữ dưới cho cửa sổ đang chạy ở %1
 msgid "Activate running window on %1"
 msgstr "Kích hoạt cửa sổ đang chạy ở %1"
 
-#: plugins/nightcolor/nightcolormanager.cpp:63
+#: plugins/nightcolor/nightcolormanager.cpp:64
 #, kde-format
 msgctxt "Night Color was disabled"
 msgid "Night Color Off"
 msgstr "Màu buổi tối tắt"
 
-#: plugins/nightcolor/nightcolormanager.cpp:64
+#: plugins/nightcolor/nightcolormanager.cpp:65
 #, kde-format
 msgctxt "Night Color was enabled"
 msgid "Night Color On"
 msgstr "Màu buổi tối bật"
 
-#: plugins/nightcolor/nightcolormanager.cpp:103
-#: plugins/nightcolor/nightcolormanager.cpp:106
-#: plugins/nightcolor/nightcolormanager.cpp:113
+#: plugins/nightcolor/nightcolormanager.cpp:104
+#: plugins/nightcolor/nightcolormanager.cpp:107
+#: plugins/nightcolor/nightcolormanager.cpp:114
 #, kde-format
 msgid "Toggle Night Color"
 msgstr "Bật/tắt màu buổi tối"
@@ -2089,57 +2089,57 @@ msgstr "Hộp thoại"
 msgid "..."
 msgstr "..."
 
-#: tabbox/tabbox.cpp:384
+#: tabbox/tabbox.cpp:383
 #, kde-format
 msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "Hiện bàn làm việc"
 
-#: tabbox/tabbox.cpp:534
+#: tabbox/tabbox.cpp:533
 msgid "Walk Through Windows"
 msgstr "Đi qua các cửa sổ"
 
-#: tabbox/tabbox.cpp:535
+#: tabbox/tabbox.cpp:534
 msgid "Walk Through Windows (Reverse)"
 msgstr "Đi qua các cửa sổ (ngược lại)"
 
-#: tabbox/tabbox.cpp:536
+#: tabbox/tabbox.cpp:535
 msgid "Walk Through Windows Alternative"
 msgstr "Đi qua các cửa sổ, thay thế"
 
-#: tabbox/tabbox.cpp:537
+#: tabbox/tabbox.cpp:536
 msgid "Walk Through Windows Alternative (Reverse)"
 msgstr "Đi qua các cửa sổ, thay thế (ngược lại)"
 
-#: tabbox/tabbox.cpp:538
+#: tabbox/tabbox.cpp:537
 msgid "Walk Through Windows of Current Application"
 msgstr "Đi qua các cửa sổ của ứng dụng hiện tại"
 
-#: tabbox/tabbox.cpp:539
+#: tabbox/tabbox.cpp:538
 msgid "Walk Through Windows of Current Application (Reverse)"
 msgstr "Đi qua các cửa sổ của ứng dụng hiện tại (ngược lại)"
 
-#: tabbox/tabbox.cpp:540
+#: tabbox/tabbox.cpp:539
 msgid "Walk Through Windows of Current Application Alternative"
 msgstr "Đi qua các cửa sổ của ứng dụng hiện tại, thay thế"
 
-#: tabbox/tabbox.cpp:541
+#: tabbox/tabbox.cpp:540
 msgid "Walk Through Windows of Current Application Alternative (Reverse)"
 msgstr "Đi qua các cửa sổ của ứng dụng hiện tại, thay thế (ngược lại)"
 
-#: tabbox/tabbox.cpp:542
+#: tabbox/tabbox.cpp:541
 msgid "Walk Through Desktops"
 msgstr "Đi qua các bàn làm việc"
 
-#: tabbox/tabbox.cpp:543
+#: tabbox/tabbox.cpp:542
 msgid "Walk Through Desktops (Reverse)"
 msgstr "Đi qua các bàn làm việc (ngược lại)"
 
-#: tabbox/tabbox.cpp:544
+#: tabbox/tabbox.cpp:543
 msgid "Walk Through Desktop List"
 msgstr "Đi qua danh sách bàn làm việc"
 
-#: tabbox/tabbox.cpp:545
+#: tabbox/tabbox.cpp:544
 msgid "Walk Through Desktop List (Reverse)"
 msgstr "Đi qua danh sách bàn làm việc (ngược lại)"
 
@@ -2588,47 +2588,47 @@ msgstr ""
 "động.\n"
 "Vì vậy không có cách nào để chuyển sang một màn hình cụ thể được."
 
-#: virtualdesktops.cpp:677 virtualdesktops.cpp:748
+#: virtualdesktops.cpp:688 virtualdesktops.cpp:759
 #, kde-format
 msgid "Desktop %1"
 msgstr "Bàn làm việc %1"
 
-#: virtualdesktops.cpp:783
+#: virtualdesktops.cpp:794
 #, kde-format
 msgid "Switch to Next Desktop"
 msgstr "Chuyển sang bàn làm việc sau"
 
-#: virtualdesktops.cpp:785
+#: virtualdesktops.cpp:795
 #, kde-format
 msgid "Switch to Previous Desktop"
 msgstr "Chuyển sang bàn làm việc trước"
 
-#: virtualdesktops.cpp:787
+#: virtualdesktops.cpp:798
 #, kde-format
 msgid "Switch One Desktop to the Right"
 msgstr "Chuyển sang bàn làm việc bên phải"
 
-#: virtualdesktops.cpp:789
+#: virtualdesktops.cpp:800
 #, kde-format
 msgid "Switch One Desktop to the Left"
 msgstr "Chuyển sang bàn làm việc bên trái"
 
-#: virtualdesktops.cpp:791
+#: virtualdesktops.cpp:802
 #, kde-format
 msgid "Switch One Desktop Up"
 msgstr "Chuyển sang bàn làm việc phía trên"
 
-#: virtualdesktops.cpp:793
+#: virtualdesktops.cpp:804
 #, kde-format
 msgid "Switch One Desktop Down"
 msgstr "Chuyển sang bàn làm việc phía dưới"
 
-#: virtualdesktops.cpp:809
+#: virtualdesktops.cpp:887
 #, kde-format
 msgid "Switch to Desktop %1"
 msgstr "Chuyển sang bàn làm việc %1"
 
-#: workspace.cpp:1464
+#: workspace.cpp:1482
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""

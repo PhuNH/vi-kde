@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kphotoalbum\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-02 00:42+0000\n"
+"POT-Creation-Date: 2022-04-15 00:45+0000\n"
 "PO-Revision-Date: 2012-01-16 16:58+0700\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -1634,67 +1634,67 @@ msgid ""
 "Exif search database to ensure lens data for all images.</note>"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:48
+#: HTMLGenerator/Generator.cpp:49
 #, kde-format
 msgid "<p>No file name given!</p>"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:72
+#: HTMLGenerator/Generator.cpp:73
 #, kde-format
 msgid "Generating images for HTML page "
 msgstr "Đang tạo ra các ảnh cho trang HTML "
 
-#: HTMLGenerator/Generator.cpp:175
+#: HTMLGenerator/Generator.cpp:176
 #, kde-format
 msgid "Error copying %1 to %2"
 msgstr "Gặp lỗi khi sao chép %1 vào %2"
 
-#: HTMLGenerator/Generator.cpp:469
+#: HTMLGenerator/Generator.cpp:470
 #, kde-format
 msgid "<a href=\"%1\">prev</a>"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:471 HTMLGenerator/Generator.cpp:479
+#: HTMLGenerator/Generator.cpp:472 HTMLGenerator/Generator.cpp:480
 #, kde-format
 msgid "prev"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:483
+#: HTMLGenerator/Generator.cpp:484
 #, kde-format
 msgid "<a href=\"index-%1.html\">index</a>"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:492
+#: HTMLGenerator/Generator.cpp:493
 #, kde-format
 msgid "<a href=\"%1\">next</a>"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:494 HTMLGenerator/Generator.cpp:501
+#: HTMLGenerator/Generator.cpp:495 HTMLGenerator/Generator.cpp:502
 #, kde-format
 msgid "next"
 msgstr ""
 
-#: HTMLGenerator/Generator.cpp:647
+#: HTMLGenerator/Generator.cpp:648
 #, kde-format
 msgid "Could not create file '%1'."
 msgstr "Không thể tạo tệp « %1 »."
 
-#: HTMLGenerator/Generator.cpp:648
+#: HTMLGenerator/Generator.cpp:649
 #, kde-format
 msgid "Could Not Create File"
 msgstr "Không thể tạo tệp"
 
-#: HTMLGenerator/Generator.cpp:680
+#: HTMLGenerator/Generator.cpp:668
 #, kde-format
 msgid "<p>Unable to copy %1 to %2</p>"
 msgstr "<p>Không thể sao chép %1 vào %2</p>"
 
-#: HTMLGenerator/Generator.cpp:714
+#: HTMLGenerator/Generator.cpp:702
 #, kde-format
 msgid "Unable to write image '%1'."
 msgstr "Không thể ghi ảnh « %1 »."
 
-#: HTMLGenerator/Generator.cpp:788 HTMLGenerator/HTMLDialog.cpp:146
+#: HTMLGenerator/Generator.cpp:776 HTMLGenerator/HTMLDialog.cpp:146
 #, fuzzy, kde-format
 #| msgid "Date: "
 msgid "Date"
@@ -4099,7 +4099,7 @@ msgstr "Trạng thái tính năng KPhotoAlbum"
 msgid "Show Demo Videos"
 msgstr "Hiện ảnh động"
 
-#: MainWindow/Window.cpp:993 Viewer/ViewerWidget.cpp:173
+#: MainWindow/Window.cpp:993 Viewer/ViewerWidget.cpp:177
 #, fuzzy, kde-format
 #| msgid "Show Exif Info"
 msgid "Show Exif Info and file metadata"
@@ -5601,12 +5601,12 @@ msgid ""
 "error about this tag being not present on the next start.</p>"
 msgstr ""
 
-#: Settings/VideoPlayerSelectorDialog.cpp:21
+#: Settings/VideoPlayerSelectorDialog.cpp:25
 #, kde-format
 msgid "<h1>Choose a Video Player</h1>"
 msgstr ""
 
-#: Settings/VideoPlayerSelectorDialog.cpp:24
+#: Settings/VideoPlayerSelectorDialog.cpp:28
 #, kde-format
 msgid ""
 "<html><p>Unfortunately, there is no video player which just works out of the "
@@ -5627,9 +5627,9 @@ msgid ""
 "time change the backend from Settings -> Viewer</font></b></p></html>"
 msgstr ""
 
-#: Settings/VideoPlayerSelectorDialog.cpp:47
-#: Settings/VideoPlayerSelectorDialog.cpp:56
-#: Settings/VideoPlayerSelectorDialog.cpp:65
+#: Settings/VideoPlayerSelectorDialog.cpp:51
+#: Settings/VideoPlayerSelectorDialog.cpp:60
+#: Settings/VideoPlayerSelectorDialog.cpp:69
 #, kde-format
 msgid " (NOT AVAILABLE)"
 msgstr ""
@@ -5644,62 +5644,89 @@ msgid ""
 "talk to the maintainer of the package.</html>"
 msgstr ""
 
-#: Settings/ViewerPage.cpp:24
+#: Settings/VideoPlayerSelectorDialog.cpp:160
+#, kde-format
+msgctxt "A friendly name for the video backend"
+msgid "Unconfigured video backend"
+msgstr ""
+
+#: Settings/VideoPlayerSelectorDialog.cpp:162
+#, fuzzy, kde-format
+#| msgid "Database backend"
+msgctxt "A friendly name for the video backend"
+msgid "Phonon video backend"
+msgstr "Hậu phương co sở dữ liệu"
+
+#: Settings/VideoPlayerSelectorDialog.cpp:164
+#, fuzzy, kde-format
+#| msgid "Database backend"
+msgctxt "A friendly name for the video backend"
+msgid "QtAV video backend"
+msgstr "Hậu phương co sở dữ liệu"
+
+#: Settings/VideoPlayerSelectorDialog.cpp:166
+#, fuzzy, kde-format
+#| msgid "Database backend"
+msgctxt "A friendly name for the video backend"
+msgid "VLC video backend"
+msgstr "Hậu phương co sở dữ liệu"
+
+#: Settings/ViewerPage.cpp:25
 #, kde-format
 msgid "Not Configured"
 msgstr ""
 
-#: Settings/ViewerPage.cpp:40
+#: Settings/ViewerPage.cpp:42
 #, kde-format
 msgid "Running Slide Show From Thumbnail View"
 msgstr "Đang chạy trình chiều ảnh từ ô xem mẫu ảnh"
 
-#: Settings/ViewerPage.cpp:43
+#: Settings/ViewerPage.cpp:45
 #, kde-format
 msgid "Viewing Images and Videos From Thumbnail View"
 msgstr "Đang xem ảnh và ảnh động từ ô xem mẫu ảnh"
 
-#: Settings/ViewerPage.cpp:50
+#: Settings/ViewerPage.cpp:52
 #, kde-format
 msgid "Slideshow interval:"
 msgstr "Thời gian chiều ảnh:"
 
-#: Settings/ViewerPage.cpp:56
+#: Settings/ViewerPage.cpp:58
 #, kde-format
 msgid " sec"
 msgstr " giây"
 
-#: Settings/ViewerPage.cpp:59
+#: Settings/ViewerPage.cpp:61
 #, kde-format
 msgid "Image cache:"
 msgstr "Bộ nhớ tạm ảnh:"
 
-#: Settings/ViewerPage.cpp:65
+#: Settings/ViewerPage.cpp:67
 #, kde-format
 msgid " Mbytes"
 msgstr " Mbyte"
 
-#: Settings/ViewerPage.cpp:71
+#: Settings/ViewerPage.cpp:73
 #, kde-format
 msgid "Standard size in viewer:"
 msgstr "Cỡ chuẩn trong bộ xem:"
 
-#: Settings/ViewerPage.cpp:73
+#: Settings/ViewerPage.cpp:75
 #, kde-format
 msgid "Full Viewer Size"
 msgstr "Cỡ bộ xem đầy"
 
-#: Settings/ViewerPage.cpp:73
+#: Settings/ViewerPage.cpp:75
 #, kde-format
 msgid "Natural Image Size"
 msgstr "Cỡ ảnh tự nhiên"
 
-#: Settings/ViewerPage.cpp:73
+#: Settings/ViewerPage.cpp:75
 #, kde-format
 msgid "Natural Image Size If Possible"
 msgstr "Cỡ ảnh tự nhiên nếu có thể"
 
-#: Settings/ViewerPage.cpp:78
+#: Settings/ViewerPage.cpp:80
 #, kde-format
 msgid ""
 "<p>Set the standard size for images to be displayed in the viewer.</p> "
@@ -5717,23 +5744,23 @@ msgstr ""
 "ảnh nếu nó sẽ vừa khít cửa sổ; nếu không thì nó sẽ được thu gọn để vừa khít "
 "bộ xem.</p>"
 
-#: Settings/ViewerPage.cpp:85
+#: Settings/ViewerPage.cpp:87
 #, fuzzy, kde-format
 #| msgid "Scaling Algorithm"
 msgid "Scaling algorithm:"
 msgstr "Thuật toán co dãn"
 
-#: Settings/ViewerPage.cpp:87
+#: Settings/ViewerPage.cpp:89
 #, kde-format
 msgid "Fastest"
 msgstr "Nhanh nhất"
 
-#: Settings/ViewerPage.cpp:87
+#: Settings/ViewerPage.cpp:89
 #, kde-format
 msgid "Best"
 msgstr "Tốt nhất"
 
-#: Settings/ViewerPage.cpp:92
+#: Settings/ViewerPage.cpp:94
 #, kde-format
 msgid ""
 "<p>When displaying images, KPhotoAlbum normally performs smooth scaling of "
@@ -5744,7 +5771,7 @@ msgstr ""
 "Nếu tuỳ chọn này không được bật, KPhotoAlbum sẽ dùng một phương pháp co dãn "
 "nhanh hơn còn ít mịn hơn.</p>"
 
-#: Settings/ViewerPage.cpp:97
+#: Settings/ViewerPage.cpp:99
 #, fuzzy, kde-format
 #| msgid "Database backend"
 msgid "Video Backend:"
@@ -6386,23 +6413,23 @@ msgstr "[ thu/phóng x%1 ]"
 msgid "Show the geographic position of this image on a map"
 msgstr ""
 
-#: Viewer/PhononDisplay.cpp:165
+#: Viewer/PhononDisplay.cpp:166
 #, fuzzy, kde-format
 #| msgid "Error Saving Image"
 msgid "Error playing media"
 msgstr "Gặp lỗi khi lưu ảnh"
 
-#: Viewer/QtAVDisplay.cpp:26 Viewer/QtAVDisplay.cpp:39
+#: Viewer/QtAVDisplay.cpp:28 Viewer/QtAVDisplay.cpp:41
 #, kde-format
 msgid "Failed to set up video playback"
 msgstr ""
 
-#: Viewer/QtAVDisplay.cpp:26
+#: Viewer/QtAVDisplay.cpp:28
 #, kde-format
 msgid "Failed to set up video playback (renderer wasn't created)"
 msgstr ""
 
-#: Viewer/QtAVDisplay.cpp:39
+#: Viewer/QtAVDisplay.cpp:41
 #, kde-format
 msgid "Failed to set up video playback (widget wasn't created)"
 msgstr ""
@@ -6432,407 +6459,429 @@ msgid "<p><center><font size=\"+4\">Ending Slideshow</font></center></p>"
 msgstr ""
 "<p><center><font size=\"+4\">Đang kết thúc chiếu ảnh</font></center></p>"
 
-#: Viewer/ViewerWidget.cpp:163
+#: Viewer/ViewerWidget.cpp:167
 #, fuzzy, kde-format
 #| msgid "Annotate..."
 msgctxt "@action:inmenu"
 msgid "Annotate..."
 msgstr "Chú giải..."
 
-#: Viewer/ViewerWidget.cpp:168
+#: Viewer/ViewerWidget.cpp:172
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Set as First Image in Stack"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:179
+#: Viewer/ViewerWidget.cpp:183
 #, fuzzy, kde-format
 #| msgid "Copying Images"
 msgctxt "@action:inmenu"
 msgid "Copy image to ..."
 msgstr "Đang sao chép ảnh"
 
-#: Viewer/ViewerWidget.cpp:184
+#: Viewer/ViewerWidget.cpp:188
 #, fuzzy, kde-format
 #| msgid "Copying Images"
 msgctxt "@action:inmenu"
 msgid "Link image to ..."
 msgstr "Đang sao chép ảnh"
 
-#: Viewer/ViewerWidget.cpp:192
+#: Viewer/ViewerWidget.cpp:196
 #, fuzzy, kde-format
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Close"
 msgstr "Đóng"
 
-#: Viewer/ViewerWidget.cpp:248
+#: Viewer/ViewerWidget.cpp:252
 #, fuzzy, kde-format
 #| msgid "Rotate"
 msgctxt "@title:inmenu"
 msgid "Rotate"
 msgstr "Xoay"
 
-#: Viewer/ViewerWidget.cpp:259
+#: Viewer/ViewerWidget.cpp:263
 #, fuzzy, kde-format
 #| msgid "Rotate clockwise (to the right)"
 msgctxt "@action:inmenu"
 msgid "Rotate clockwise"
 msgstr "Xoay theo chiều kim đồng hồ"
 
-#: Viewer/ViewerWidget.cpp:260
+#: Viewer/ViewerWidget.cpp:264
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Flip Over"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:261
+#: Viewer/ViewerWidget.cpp:265
 #, fuzzy, kde-format
 #| msgid "Rotate contra-clockwise (to the left)"
 msgctxt "@action:inmenu"
 msgid "Rotate counterclockwise"
 msgstr "Xoay theo ngược chiều kim đồng hồ"
 
-#: Viewer/ViewerWidget.cpp:268
+#: Viewer/ViewerWidget.cpp:272
 #, fuzzy, kde-format
 #| msgid "Skip"
 msgctxt "@title:inmenu As in 'skip 2 images'"
 msgid "Skip"
 msgstr "Bỏ qua"
 
-#: Viewer/ViewerWidget.cpp:271
+#: Viewer/ViewerWidget.cpp:275
 #, fuzzy, kde-format
 #| msgid "First"
 msgctxt "@action:inmenu Go to first image"
 msgid "First"
 msgstr "Đầu"
 
-#: Viewer/ViewerWidget.cpp:278
+#: Viewer/ViewerWidget.cpp:282
 #, fuzzy, kde-format
 #| msgid "Last"
 msgctxt "@action:inmenu Go to last image"
 msgid "Last"
 msgstr "Cuối"
 
-#: Viewer/ViewerWidget.cpp:285
+#: Viewer/ViewerWidget.cpp:289
 #, fuzzy, kde-format
 #| msgid "Show Next"
 msgctxt "@action:inmenu"
 msgid "Show Next"
 msgstr "Hiện kế"
 
-#: Viewer/ViewerWidget.cpp:291
+#: Viewer/ViewerWidget.cpp:295
 #, fuzzy, kde-format
 #| msgid "Skip 10 Forward"
 msgctxt "@action:inmenu"
 msgid "Skip 10 Forward"
 msgstr "Nhảy 10 tới"
 
-#: Viewer/ViewerWidget.cpp:297
+#: Viewer/ViewerWidget.cpp:301
 #, fuzzy, kde-format
 #| msgid "Skip 100 Forward"
 msgctxt "@action:inmenu"
 msgid "Skip 100 Forward"
 msgstr "Nhảy 100 tới"
 
-#: Viewer/ViewerWidget.cpp:303
+#: Viewer/ViewerWidget.cpp:307
 #, fuzzy, kde-format
 #| msgid "Skip 1000 Forward"
 msgctxt "@action:inmenu"
 msgid "Skip 1000 Forward"
 msgstr "Nhảy 1000 tới"
 
-#: Viewer/ViewerWidget.cpp:309
+#: Viewer/ViewerWidget.cpp:313
 #, fuzzy, kde-format
 #| msgid "Show Previous"
 msgctxt "@action:inmenu"
 msgid "Show Previous"
 msgstr "Hiện lùi"
 
-#: Viewer/ViewerWidget.cpp:315
+#: Viewer/ViewerWidget.cpp:319
 #, fuzzy, kde-format
 #| msgid "Skip 10 Backward"
 msgctxt "@action:inmenu"
 msgid "Skip 10 Backward"
 msgstr "Nhảy 10 ngược"
 
-#: Viewer/ViewerWidget.cpp:321
+#: Viewer/ViewerWidget.cpp:325
 #, fuzzy, kde-format
 #| msgid "Skip 100 Backward"
 msgctxt "@action:inmenu"
 msgid "Skip 100 Backward"
 msgstr "Nhảy 100 ngược"
 
-#: Viewer/ViewerWidget.cpp:327
+#: Viewer/ViewerWidget.cpp:331
 #, fuzzy, kde-format
 #| msgid "Skip 1000 Backward"
 msgctxt "@action:inmenu"
 msgid "Skip 1000 Backward"
 msgstr "Nhảy 1000 ngược"
 
-#: Viewer/ViewerWidget.cpp:333
+#: Viewer/ViewerWidget.cpp:337
 #, fuzzy, kde-format
 #| msgid "Delete image"
 msgctxt "@action:inmenu"
 msgid "Delete Image"
 msgstr "Xoá ảnh"
 
-#: Viewer/ViewerWidget.cpp:338
+#: Viewer/ViewerWidget.cpp:342
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove Image from Display List"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:349
+#: Viewer/ViewerWidget.cpp:353
 #, fuzzy, kde-format
 #| msgid "Zoom"
 msgctxt "@action:inmenu"
 msgid "Zoom"
 msgstr "Phóng/thu"
 
-#: Viewer/ViewerWidget.cpp:353
+#: Viewer/ViewerWidget.cpp:357
 #, fuzzy, kde-format
 #| msgid "Zoom In"
 msgctxt "@action:inmenu"
 msgid "Zoom In"
 msgstr "Phóng to"
 
-#: Viewer/ViewerWidget.cpp:359
+#: Viewer/ViewerWidget.cpp:363
 #, fuzzy, kde-format
 #| msgid "Zoom Out"
 msgctxt "@action:inmenu"
 msgid "Zoom Out"
 msgstr "Thu nhỏ"
 
-#: Viewer/ViewerWidget.cpp:365
+#: Viewer/ViewerWidget.cpp:369
 #, fuzzy, kde-format
 #| msgid "Full View"
 msgctxt "@action:inmenu"
 msgid "Full View"
 msgstr "Xem toàn"
 
-#: Viewer/ViewerWidget.cpp:371
+#: Viewer/ViewerWidget.cpp:375
 #, fuzzy, kde-format
 #| msgid "Pixel for Pixel View"
 msgctxt "@action:inmenu"
 msgid "Pixel for Pixel View"
 msgstr "Xem mỗi điểm ảnh"
 
-#: Viewer/ViewerWidget.cpp:377
+#: Viewer/ViewerWidget.cpp:381
 #, fuzzy, kde-format
 #| msgid "Toggle Full Screen"
 msgctxt "@action:inmenu"
 msgid "Toggle Full Screen"
 msgstr "Hiện/ẩn toàn màn hình"
 
-#: Viewer/ViewerWidget.cpp:387
+#: Viewer/ViewerWidget.cpp:391
 #, fuzzy, kde-format
 #| msgid "Slideshow"
 msgctxt "@title:inmenu"
 msgid "Slideshow"
 msgstr "Chiếu ảnh"
 
-#: Viewer/ViewerWidget.cpp:390 Viewer/ViewerWidget.cpp:783
+#: Viewer/ViewerWidget.cpp:394 Viewer/ViewerWidget.cpp:789
 #, fuzzy, kde-format
 #| msgid "Run Slideshow"
 msgctxt "@action:inmenu"
 msgid "Run Slideshow"
 msgstr "Chạy chiếu ảnh"
 
-#: Viewer/ViewerWidget.cpp:395
+#: Viewer/ViewerWidget.cpp:399
 #, fuzzy, kde-format
 #| msgid "Run Faster"
 msgctxt "@action:inmenu"
 msgid "Run Faster"
 msgstr "Chạy nhanh hơn"
 
-#: Viewer/ViewerWidget.cpp:400
+#: Viewer/ViewerWidget.cpp:404
 #, fuzzy, kde-format
 #| msgid "Run Slower"
 msgctxt "@action:inmenu"
 msgid "Run Slower"
 msgstr "Chạy chậm hơn"
 
-#: Viewer/ViewerWidget.cpp:433
+#: Viewer/ViewerWidget.cpp:439
 #, kde-format
 msgid "File not available"
 msgstr "Tệp không sẵn sàng"
 
-#: Viewer/ViewerWidget.cpp:483
+#: Viewer/ViewerWidget.cpp:489
 #, fuzzy, kde-format
 #| msgid "%1 to %2  %3"
 msgctxt "@title:window %1 is the filename, %2 its detail info"
 msgid "%1 %2"
 msgstr "%1 đến %2  %3"
 
-#: Viewer/ViewerWidget.cpp:499
+#: Viewer/ViewerWidget.cpp:505
 #, fuzzy, kde-format
 #| msgid "Play"
 msgctxt "@action:inmenu Start video playback"
 msgid "Play"
 msgstr "Phát"
 
-#: Viewer/ViewerWidget.cpp:501
+#: Viewer/ViewerWidget.cpp:507
 #, fuzzy, kde-format
 #| msgid "Pause"
 msgctxt "@action:inmenu Pause video playback"
 msgid "Pause"
 msgstr "Tạm dừng"
 
-#: Viewer/ViewerWidget.cpp:736
+#: Viewer/ViewerWidget.cpp:742
 #, fuzzy, kde-format
 #| msgid "<b>Sub Categories</b>"
 msgctxt "Basically 'enter a category name'"
 msgid "<b>Setting Category: </b>"
 msgstr "<b>Phân loại con</b>"
 
-#: Viewer/ViewerWidget.cpp:741
+#: Viewer/ViewerWidget.cpp:747
 #, fuzzy, kde-format
 #| msgid "<b>Description: </b> "
 msgctxt "Basically 'enter a tag name'"
 msgid "<b>Assigning: </b>"
 msgstr "<b>Mô tả: </b> "
 
-#: Viewer/ViewerWidget.cpp:789
+#: Viewer/ViewerWidget.cpp:795
 #, fuzzy, kde-format
 #| msgid "Stop Slideshow"
 msgctxt "@action:inmenu"
 msgid "Stop Slideshow"
 msgstr "Dừng chiếu ảnh"
 
-#: Viewer/ViewerWidget.cpp:1186
+#: Viewer/ViewerWidget.cpp:1192
 #, fuzzy, kde-format
 #| msgid "1 Week"
 msgctxt "@title:inmenu"
 msgid "Seek"
 msgstr "1 tuần"
 
-#: Viewer/ViewerWidget.cpp:1207
+#: Viewer/ViewerWidget.cpp:1213
 #, fuzzy, kde-format
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "10 minutes backward"
 msgstr "10 phút"
 
-#: Viewer/ViewerWidget.cpp:1208
+#: Viewer/ViewerWidget.cpp:1214
 #, fuzzy, kde-format
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "1 minute backward"
 msgstr "10 phút"
 
-#: Viewer/ViewerWidget.cpp:1209
+#: Viewer/ViewerWidget.cpp:1215
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "10 seconds backward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1210
+#: Viewer/ViewerWidget.cpp:1216
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "1 seconds backward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1211
+#: Viewer/ViewerWidget.cpp:1217
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "100 milliseconds backward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1212
+#: Viewer/ViewerWidget.cpp:1218
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "100 milliseconds forward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1213
+#: Viewer/ViewerWidget.cpp:1219
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "1 seconds forward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1214
+#: Viewer/ViewerWidget.cpp:1220
 #, fuzzy, kde-format
 #| msgid "1 second"
 msgctxt "@action:inmenu"
 msgid "10 seconds forward"
 msgstr "1 giây"
 
-#: Viewer/ViewerWidget.cpp:1215
+#: Viewer/ViewerWidget.cpp:1221
 #, fuzzy, kde-format
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "1 minute forward"
 msgstr "10 phút"
 
-#: Viewer/ViewerWidget.cpp:1216
+#: Viewer/ViewerWidget.cpp:1222
 #, fuzzy, kde-format
 #| msgid "10 Minutes"
 msgctxt "@action:inmenu"
 msgid "10 minutes forward"
 msgstr "10 phút"
 
-#: Viewer/ViewerWidget.cpp:1224
+#: Viewer/ViewerWidget.cpp:1230
 #, fuzzy, kde-format
 #| msgid "Stop"
 msgctxt "@action:inmenu Stop video playback"
 msgid "Stop"
 msgstr "Dừng"
 
-#: Viewer/ViewerWidget.cpp:1237
+#: Viewer/ViewerWidget.cpp:1243
 #, fuzzy, kde-format
 #| msgid "Display categories in thumbnail view"
 msgctxt "@action:inmenu"
 msgid "Use current frame in thumbnail view"
 msgstr "Hiện nhãn trong ô xem mẫu ảnh"
 
-#: Viewer/ViewerWidget.cpp:1243
+#: Viewer/ViewerWidget.cpp:1249
 #, fuzzy, kde-format
 #| msgid "Restart"
 msgctxt "@action:inmenu Restart video playback."
 msgid "Restart"
 msgstr "Chạy lại"
 
-#: Viewer/ViewerWidget.cpp:1258
+#: Viewer/ViewerWidget.cpp:1264
 #, fuzzy, kde-format
 #| msgid "First"
 msgctxt "@title:inmenu"
 msgid "Filters"
 msgstr "Đầu"
 
-#: Viewer/ViewerWidget.cpp:1261
+#: Viewer/ViewerWidget.cpp:1267
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove All Filters"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1265
+#: Viewer/ViewerWidget.cpp:1271
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Grayscale Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1270
+#: Viewer/ViewerWidget.cpp:1276
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Contrast Stretching Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1275
+#: Viewer/ViewerWidget.cpp:1281
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Histogram Equalization Filter"
 msgstr ""
 
-#: Viewer/ViewerWidget.cpp:1280
+#: Viewer/ViewerWidget.cpp:1286
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Apply Monochrome Filter"
+msgstr ""
+
+#: Viewer/ViewerWidget.cpp:1338
+#, kde-format
+msgid ""
+"<p>It seems that KPhotoAlbum previously crashed during video playback. On "
+"some platforms, this is a common problem with some video players.</"
+"p><p>Press <i>Continue</i> to let KPhotoAlbum try a different backend...</p>"
+msgstr ""
+
+#: Viewer/ViewerWidget.cpp:1342
+#, kde-format
+msgid ""
+"<p>Video backend that was interrupted: <tt>%1</tt></p><p>Video backend that "
+"will be used instead: <tt>%2</tt></p>"
+msgstr ""
+
+#: Viewer/ViewerWidget.cpp:1355
+#, kde-format
+msgid ""
+"<p>KPhotoAlbum has tried out all available video backends, but every one "
+"crashed at some point.</p><p>Crash detection is now turned off.</p>"
 msgstr ""
 
 #: Viewer/VisibleOptionsMenu.cpp:21

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-10 00:46+0000\n"
+"POT-Creation-Date: 2022-04-17 00:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -172,34 +172,34 @@ msgstr ""
 
 #: editor/connectioneditorbase.cpp:238 editor/settings/teamwidget.cpp:38
 #: editor/uiutils.cpp:208 models/creatableconnectionsmodel.cpp:141
-#: models/networkmodelitem.cpp:653
+#: models/networkmodelitem.cpp:658
 #, kde-format
 msgid "Infiniband"
 msgstr ""
 
 #: editor/connectioneditorbase.cpp:241 editor/uiutils.cpp:197
 #: models/creatableconnectionsmodel.cpp:191
-#: models/networkmodelitem.cpp:659
+#: models/networkmodelitem.cpp:664
 #, kde-format
 msgid "Bond"
 msgstr ""
 
 #: editor/connectioneditorbase.cpp:244 editor/uiutils.cpp:200
 #: models/creatableconnectionsmodel.cpp:201
-#: models/networkmodelitem.cpp:665
+#: models/networkmodelitem.cpp:670
 #, kde-format
 msgid "Bridge"
 msgstr ""
 
 #: editor/connectioneditorbase.cpp:247 models/creatableconnectionsmodel.cpp:221
-#: models/networkmodelitem.cpp:671
+#: models/networkmodelitem.cpp:676
 #, kde-format
 msgid "Vlan"
 msgstr ""
 
 #: editor/connectioneditorbase.cpp:250 editor/uiutils.cpp:229
 #: models/creatableconnectionsmodel.cpp:211
-#: models/networkmodelitem.cpp:680
+#: models/networkmodelitem.cpp:685
 #, kde-format
 msgid "Team"
 msgstr ""
@@ -245,7 +245,7 @@ msgid "New %1 connection"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: editor/connectioneditortabwidget.ui:17
+#: editor/connectioneditortabwidget.ui:20
 #, kde-format
 msgid "Connection name:"
 msgstr ""
@@ -2404,301 +2404,307 @@ msgctxt "connection speed"
 msgid "%1 GBit/s"
 msgstr ""
 
-#: editor/uiutils.cpp:457
+#: editor/uiutils.cpp:455
+#, kde-format
+msgctxt "Wireless connection frequency"
+msgid "%1 GHz"
+msgstr ""
+
+#: editor/uiutils.cpp:462
 #, kde-format
 msgctxt "Gsm modes (2G/3G/any)"
 msgid "LTE"
 msgstr ""
 
-#: editor/uiutils.cpp:459
+#: editor/uiutils.cpp:464
 #, kde-format
 msgctxt "Gsm modes (2G/3G/any)"
 msgid "UMTS/HSxPA"
 msgstr ""
 
-#: editor/uiutils.cpp:461
+#: editor/uiutils.cpp:466
 #, kde-format
 msgctxt "Gsm modes (2G/3G/any)"
 msgid "GPRS/EDGE"
 msgstr ""
 
-#: editor/uiutils.cpp:463
+#: editor/uiutils.cpp:468
 #, kde-format
 msgctxt "Gsm modes (2G/3G/any)"
 msgid "GSM"
 msgstr ""
 
-#: editor/uiutils.cpp:465 editor/uiutils.cpp:468
+#: editor/uiutils.cpp:470 editor/uiutils.cpp:473
 #, kde-format
 msgctxt "Gsm modes (2G/3G/any)"
 msgid "Any"
 msgstr ""
 
-#: editor/uiutils.cpp:474
+#: editor/uiutils.cpp:479
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "LTE"
 msgstr ""
 
-#: editor/uiutils.cpp:476
+#: editor/uiutils.cpp:481
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "CDMA2000 EVDO revision B"
 msgstr ""
 
-#: editor/uiutils.cpp:478
+#: editor/uiutils.cpp:483
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "CDMA2000 EVDO revision A"
 msgstr ""
 
-#: editor/uiutils.cpp:480
+#: editor/uiutils.cpp:485
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "CDMA2000 EVDO revision 0"
 msgstr ""
 
-#: editor/uiutils.cpp:482
+#: editor/uiutils.cpp:487
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "CDMA2000 1xRTT"
 msgstr ""
 
-#: editor/uiutils.cpp:484
+#: editor/uiutils.cpp:489
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "HSPA+"
 msgstr ""
 
-#: editor/uiutils.cpp:486
+#: editor/uiutils.cpp:491
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "HSPA"
 msgstr ""
 
-#: editor/uiutils.cpp:488
+#: editor/uiutils.cpp:493
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "HSUPA"
 msgstr ""
 
-#: editor/uiutils.cpp:490
+#: editor/uiutils.cpp:495
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "HSDPA"
 msgstr ""
 
-#: editor/uiutils.cpp:492
+#: editor/uiutils.cpp:497
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "UMTS"
 msgstr ""
 
-#: editor/uiutils.cpp:494
+#: editor/uiutils.cpp:499
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "EDGE"
 msgstr ""
 
-#: editor/uiutils.cpp:496
+#: editor/uiutils.cpp:501
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "GPRS"
 msgstr ""
 
-#: editor/uiutils.cpp:498
+#: editor/uiutils.cpp:503
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "Compact GSM"
 msgstr ""
 
-#: editor/uiutils.cpp:500
+#: editor/uiutils.cpp:505
 #, kde-format
 msgctxt "Cellular access technology"
 msgid "GSM"
 msgstr ""
 
-#: editor/uiutils.cpp:502
+#: editor/uiutils.cpp:507
 #, kde-format
 msgctxt "Analog wireline modem"
 msgid "Analog"
 msgstr ""
 
-#: editor/uiutils.cpp:504 editor/uiutils.cpp:509
+#: editor/uiutils.cpp:509 editor/uiutils.cpp:514
 #, kde-format
 msgctxt "Unknown cellular access technology"
 msgid "Unknown"
 msgstr ""
 
-#: editor/uiutils.cpp:506
+#: editor/uiutils.cpp:511
 #, kde-format
 msgctxt "Any cellular access technology"
 msgid "Any"
 msgstr ""
 
-#: editor/uiutils.cpp:516
+#: editor/uiutils.cpp:521
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem is unlocked."
 msgstr ""
 
-#: editor/uiutils.cpp:518
+#: editor/uiutils.cpp:523
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "SIM requires the PIN code."
 msgstr ""
 
-#: editor/uiutils.cpp:520
+#: editor/uiutils.cpp:525
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "SIM requires the PIN2 code."
 msgstr ""
 
-#: editor/uiutils.cpp:522
+#: editor/uiutils.cpp:527
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "SIM requires the PUK code."
 msgstr ""
 
-#: editor/uiutils.cpp:524
+#: editor/uiutils.cpp:529
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "SIM requires the PUK2 code."
 msgstr ""
 
-#: editor/uiutils.cpp:526
+#: editor/uiutils.cpp:531
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the service provider PIN code."
 msgstr ""
 
-#: editor/uiutils.cpp:528
+#: editor/uiutils.cpp:533
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the service provider PUK code."
 msgstr ""
 
-#: editor/uiutils.cpp:530
+#: editor/uiutils.cpp:535
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the network PIN code."
 msgstr ""
 
-#: editor/uiutils.cpp:532
+#: editor/uiutils.cpp:537
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the network PUK code."
 msgstr ""
 
-#: editor/uiutils.cpp:534
+#: editor/uiutils.cpp:539
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the PIN code."
 msgstr ""
 
-#: editor/uiutils.cpp:536
+#: editor/uiutils.cpp:541
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the corporate PIN code."
 msgstr ""
 
-#: editor/uiutils.cpp:538
+#: editor/uiutils.cpp:543
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the corporate PUK code."
 msgstr ""
 
-#: editor/uiutils.cpp:540
+#: editor/uiutils.cpp:545
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the PH-FSIM PIN code."
 msgstr ""
 
-#: editor/uiutils.cpp:542
+#: editor/uiutils.cpp:547
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the PH-FSIM PUK code."
 msgstr ""
 
-#: editor/uiutils.cpp:544
+#: editor/uiutils.cpp:549
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the network subset PIN code."
 msgstr ""
 
-#: editor/uiutils.cpp:546
+#: editor/uiutils.cpp:551
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Modem requires the network subset PUK code."
 msgstr ""
 
-#: editor/uiutils.cpp:549
+#: editor/uiutils.cpp:554
 #, kde-format
 msgctxt "possible SIM lock reason"
 msgid "Lock reason unknown."
 msgstr ""
 
-#: editor/uiutils.cpp:573
+#: editor/uiutils.cpp:578
 #, kde-format
 msgctxt "@label no security"
 msgid "Insecure"
 msgstr ""
 
-#: editor/uiutils.cpp:576
+#: editor/uiutils.cpp:581
 #, kde-format
 msgctxt "@label WEP security"
 msgid "WEP"
 msgstr ""
 
-#: editor/uiutils.cpp:579
+#: editor/uiutils.cpp:584
 #, kde-format
 msgctxt "@label LEAP security"
 msgid "LEAP"
 msgstr ""
 
-#: editor/uiutils.cpp:582
+#: editor/uiutils.cpp:587
 #, kde-format
 msgctxt "@label Dynamic WEP security"
 msgid "Dynamic WEP"
 msgstr ""
 
-#: editor/uiutils.cpp:585
+#: editor/uiutils.cpp:590
 #, kde-format
 msgctxt "@label WPA-PSK security"
 msgid "WPA-PSK"
 msgstr ""
 
-#: editor/uiutils.cpp:588
+#: editor/uiutils.cpp:593
 #, kde-format
 msgctxt "@label WPA-EAP security"
 msgid "WPA-EAP"
 msgstr ""
 
-#: editor/uiutils.cpp:591
+#: editor/uiutils.cpp:596
 #, kde-format
 msgctxt "@label WPA2-PSK security"
 msgid "WPA2-PSK"
 msgstr ""
 
-#: editor/uiutils.cpp:594
+#: editor/uiutils.cpp:599
 #, kde-format
 msgctxt "@label WPA2-EAP security"
 msgid "WPA2-EAP"
 msgstr ""
 
-#: editor/uiutils.cpp:597
+#: editor/uiutils.cpp:602
 #, kde-format
 msgctxt "@label WPA3-SAE security"
 msgid "WPA3-SAE"
 msgstr ""
 
-#: editor/uiutils.cpp:600
+#: editor/uiutils.cpp:605
 #, kde-format
 msgctxt "@label unknown security"
 msgid "Unknown security type"
 msgstr ""
 
-#: editor/uiutils.cpp:616
+#: editor/uiutils.cpp:621
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection used in the last hour, as "
@@ -2708,7 +2714,7 @@ msgid_plural "%1 minutes ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: editor/uiutils.cpp:622
+#: editor/uiutils.cpp:627
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection used in the last day, as "
@@ -2718,21 +2724,21 @@ msgid_plural "%1 hours ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: editor/uiutils.cpp:627
+#: editor/uiutils.cpp:632
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection used the previous day"
 msgid "Yesterday"
 msgstr ""
 
-#: editor/uiutils.cpp:635
+#: editor/uiutils.cpp:640
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection that has never been used"
 msgid "Never"
 msgstr ""
 
-#: editor/uiutils.cpp:650
+#: editor/uiutils.cpp:655
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection used in the last hour, as "
@@ -2742,7 +2748,7 @@ msgid_plural "Last used %1 minutes ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: editor/uiutils.cpp:656
+#: editor/uiutils.cpp:661
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection used in the last day, as "
@@ -2752,19 +2758,19 @@ msgid_plural "Last used %1 hours ago"
 msgstr[0] ""
 msgstr[1] ""
 
-#: editor/uiutils.cpp:661
+#: editor/uiutils.cpp:666
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection used the previous day"
 msgid "Last used yesterday"
 msgstr ""
 
-#: editor/uiutils.cpp:663
+#: editor/uiutils.cpp:668
 #, kde-format
 msgid "Last used on %1"
 msgstr ""
 
-#: editor/uiutils.cpp:669
+#: editor/uiutils.cpp:674
 #, kde-format
 msgctxt ""
 "Label for last used time for a network connection that has never been used"
@@ -3361,10 +3367,10 @@ msgstr ""
 msgid "Connection speed"
 msgstr ""
 
-#: models/networkmodelitem.cpp:585 models/networkmodelitem.cpp:598
-#: models/networkmodelitem.cpp:649 models/networkmodelitem.cpp:655
-#: models/networkmodelitem.cpp:661 models/networkmodelitem.cpp:667
-#: models/networkmodelitem.cpp:674 models/networkmodelitem.cpp:682
+#: models/networkmodelitem.cpp:585 models/networkmodelitem.cpp:603
+#: models/networkmodelitem.cpp:654 models/networkmodelitem.cpp:660
+#: models/networkmodelitem.cpp:666 models/networkmodelitem.cpp:672
+#: models/networkmodelitem.cpp:679 models/networkmodelitem.cpp:687
 #, kde-format
 msgid "MAC Address"
 msgstr ""
@@ -3384,64 +3390,74 @@ msgstr ""
 msgid "Security type"
 msgstr ""
 
-#: models/networkmodelitem.cpp:611
+#: models/networkmodelitem.cpp:600
+#, kde-format
+msgid "Frequency"
+msgstr ""
+
+#: models/networkmodelitem.cpp:601
+#, kde-format
+msgid "BSSID"
+msgstr ""
+
+#: models/networkmodelitem.cpp:616
 #, kde-format
 msgid "Operator"
 msgstr ""
 
-#: models/networkmodelitem.cpp:615
+#: models/networkmodelitem.cpp:620
 #, kde-format
 msgid "Network ID"
 msgstr ""
 
-#: models/networkmodelitem.cpp:619
+#: models/networkmodelitem.cpp:624
 #, kde-format
 msgid "Signal Quality"
 msgstr ""
 
-#: models/networkmodelitem.cpp:620
+#: models/networkmodelitem.cpp:625
 #, kde-format
 msgid "Access Technology"
 msgstr ""
 
-#: models/networkmodelitem.cpp:626
+#: models/networkmodelitem.cpp:631
 #, kde-format
 msgid "VPN plugin"
 msgstr ""
 
-#: models/networkmodelitem.cpp:637
+#: models/networkmodelitem.cpp:642
 #, kde-format
 msgid "Banner"
 msgstr ""
 
-#: models/networkmodelitem.cpp:643
+#: models/networkmodelitem.cpp:648
 #, kde-format
 msgid "Name"
 msgstr ""
 
-#: models/networkmodelitem.cpp:645 models/networkmodelitem.cpp:647
+#: models/networkmodelitem.cpp:650 models/networkmodelitem.cpp:652
 #, kde-format
 msgid "Capabilities"
 msgstr ""
 
-#: models/networkmodelitem.cpp:653 models/networkmodelitem.cpp:659
-#: models/networkmodelitem.cpp:665 models/networkmodelitem.cpp:671
-#: models/networkmodelitem.cpp:677 models/networkmodelitem.cpp:680
+#: models/networkmodelitem.cpp:658 models/networkmodelitem.cpp:664
+#: models/networkmodelitem.cpp:670 models/networkmodelitem.cpp:676
+#: models/networkmodelitem.cpp:682 models/networkmodelitem.cpp:685
 #, kde-format
 msgid "Type"
 msgstr ""
 
-#: models/networkmodelitem.cpp:673
+#: models/networkmodelitem.cpp:678
 #, kde-format
 msgid "Vlan ID"
 msgstr ""
 
-#: models/networkmodelitem.cpp:677
+#: models/networkmodelitem.cpp:682
 #, kde-format
 msgid "Adsl"
 msgstr ""
 
-#: models/networkmodelitem.cpp:687
+#: models/networkmodelitem.cpp:692
 #, kde-format
 msgid "Device"
 msgstr ""

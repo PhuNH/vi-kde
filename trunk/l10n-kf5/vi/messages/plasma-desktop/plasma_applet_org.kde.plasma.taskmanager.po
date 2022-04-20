@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-04 00:45+0000\n"
+"POT-Creation-Date: 2022-04-20 00:46+0000\n"
 "PO-Revision-Date: 2022-04-08 00:48+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -146,10 +146,9 @@ msgstr "Hiện hình nhỏ của cửa sổ ở dạng chú giải"
 #: package/contents/ui/ConfigBehavior.qml:63
 #, kde-format
 msgctxt ""
-"Completes the sentence 'Clicking grouped task shows 'Present Windows' "
-"effect' "
-msgid "Shows 'Present Windows' effect"
-msgstr "Hiện hiệu ứng 'Các cửa sổ hiện thời'"
+"Completes the sentence 'Clicking grouped task shows windows side by side' "
+msgid "Shows windows side by side"
+msgstr ""
 
 #: package/contents/ui/ConfigBehavior.qml:64
 #, kde-format
@@ -158,28 +157,36 @@ msgid "Shows textual list"
 msgstr "Hiện danh sách bằng chữ"
 
 #: package/contents/ui/ConfigBehavior.qml:72
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Tooltips are disabled, so the 'Present Windows' effect will be displayed "
+#| "instead."
 msgid ""
-"Tooltips are disabled, so the 'Present Windows' effect will be displayed "
-"instead."
+"Tooltips are disabled, so the windows will be displayed side by side instead."
 msgstr ""
 "Chú giải bị tắt, nên hiệu ứng 'Các cửa sổ hiện thời' sẽ được hiển thị để "
 "thay thế."
 
 #: package/contents/ui/ConfigBehavior.qml:79
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Tooltips are disabled, and the 'Present Windows' effect is not enabled or "
+#| "otherwise available right now, so a textual list will be displayed instead"
 msgid ""
-"Tooltips are disabled, and the 'Present Windows' effect is not enabled or "
-"otherwise available right now, so a textual list will be displayed instead"
+"Tooltips are disabled, and the compositor does not support displaying "
+"windows side by side, so a textual list will be displayed instead"
 msgstr ""
 "Chú giải bị tắt, và hiệu ứng 'Các cửa sổ hiện thời' không được bật hoặc hiện "
 "không khả dụng, nên một danh sách bằng chữ sẽ được hiển thị để thay thế"
 
 #: package/contents/ui/ConfigBehavior.qml:86
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "The 'Present Windows' effect is not enabled or otherwise available right "
+#| "now, so a textual list will be displayed instead."
 msgid ""
-"The 'Present Windows' effect is not enabled or otherwise available right "
-"now, so a textual list will be displayed instead."
+"The compositor does not support displaying windows side by side, so a "
+"textual list will be displayed instead."
 msgstr ""
 "Hiệu ứng 'Các cửa sổ hiện thời' không được bật hoặc hiện không khả dụng, nên "
 "một danh sách bằng chữ sẽ được hiển thị để thay thế."
@@ -544,61 +551,61 @@ msgstr "Đón&g"
 msgid "Activate %1"
 msgstr "Kích hoạt %1"
 
-#: package/contents/ui/ToolTipInstance.qml:432
+#: package/contents/ui/ToolTipInstance.qml:326
 #, kde-format
 msgctxt "button to unmute app"
 msgid "Unmute %1"
 msgstr "Bỏ tắt tiếng %1"
 
-#: package/contents/ui/ToolTipInstance.qml:433
+#: package/contents/ui/ToolTipInstance.qml:327
 #, kde-format
 msgctxt "button to mute app"
 msgid "Mute %1"
 msgstr "Tắt tiếng %1"
 
-#: package/contents/ui/ToolTipInstance.qml:456
+#: package/contents/ui/ToolTipInstance.qml:350
 #, kde-format
 msgctxt "Accessibility data on volume slider"
 msgid "Adjust volume for %1"
 msgstr "Điều chỉnh âm lượng của %1"
 
-#: package/contents/ui/ToolTipInstance.qml:472
+#: package/contents/ui/ToolTipInstance.qml:366
 #, kde-format
 msgctxt "volume percentage"
 msgid "%1%"
 msgstr "%1%"
 
-#: package/contents/ui/ToolTipInstance.qml:475
+#: package/contents/ui/ToolTipInstance.qml:369
 #, kde-format
 msgctxt "only used for sizing, should be widest possible string"
 msgid "100%"
 msgstr "100%"
 
-#: package/contents/ui/ToolTipInstance.qml:499
+#: package/contents/ui/ToolTipInstance.qml:393
 #, kde-format
 msgctxt "Comma-separated list of desktops"
 msgid "On %1"
 msgstr "Ở %1"
 
-#: package/contents/ui/ToolTipInstance.qml:502
+#: package/contents/ui/ToolTipInstance.qml:396
 #, kde-format
 msgctxt "Comma-separated list of desktops"
 msgid "Pinned to all desktops"
 msgstr "Ghim vào tất cả các bàn làm việc"
 
-#: package/contents/ui/ToolTipInstance.qml:513
+#: package/contents/ui/ToolTipInstance.qml:407
 #, kde-format
 msgctxt "Which virtual desktop a window is currently on"
 msgid "Available on all activities"
 msgstr "Hiện có ở tất cả các Hoạt động"
 
-#: package/contents/ui/ToolTipInstance.qml:535
+#: package/contents/ui/ToolTipInstance.qml:429
 #, kde-format
 msgctxt "Activities a window is currently on (apart from the current one)"
 msgid "Also available on %1"
 msgstr "Còn hiện có ở %1"
 
-#: package/contents/ui/ToolTipInstance.qml:539
+#: package/contents/ui/ToolTipInstance.qml:433
 #, kde-format
 msgctxt "Which activities a window is currently on"
 msgid "Available on %1"
@@ -649,6 +656,12 @@ msgstr "Quên các địa điểm gần đây đi"
 msgctxt "@action:inmenu"
 msgid "Forget Recent Files"
 msgstr "Quên các tệp gần đây đi"
+
+#~ msgctxt ""
+#~ "Completes the sentence 'Clicking grouped task shows 'Present Windows' "
+#~ "effect' "
+#~ msgid "Shows 'Present Windows' effect"
+#~ msgstr "Hiện hiệu ứng 'Các cửa sổ hiện thời'"
 
 #~ msgid "Icon size:"
 #~ msgstr "Cỡ biểu tượng:"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-05 00:45+0000\n"
+"POT-Creation-Date: 2022-04-18 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3183,7 +3183,7 @@ msgctxt "@info Todo calendar item's due date/time"
 msgid "Due:"
 msgstr ""
 
-#: kalarmcalendar/kacalendar.cpp:135
+#: kalarmcalendar/kacalendar.cpp:137
 #, kde-format
 msgid "KAlarm"
 msgstr ""
@@ -3756,8 +3756,8 @@ msgstr ""
 msgctxt "@info"
 msgid ""
 "<para>No 'From' email address is configured.</para><para>Please set a "
-"default address in <application>KMail</application> or KDE System Settings "
-"or in the <application>KAlarm</application> Configuration dialog.</para>"
+"default address in <application>KMail</application> or in the "
+"<application>KAlarm</application> Configuration dialog.</para>"
 msgstr ""
 
 #: kamail.cpp:133
@@ -3768,55 +3768,55 @@ msgid ""
 "the <application>KAlarm</application> Configuration dialog.</para>"
 msgstr ""
 
-#: kamail.cpp:165
+#: kamail.cpp:163
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<command>%1</command> not found"
 msgstr ""
 
-#: kamail.cpp:216
+#: kamail.cpp:215
 #, kde-kuit-format
 msgctxt "@info"
 msgid "No mail transport configured for email identity <resource>%1</resource>"
 msgstr ""
 
-#: kamail.cpp:277
+#: kamail.cpp:276
 #, kde-format
 msgctxt "@info"
 msgid "Emails may not have been sent"
 msgstr ""
 
-#: kamail.cpp:278 undo.cpp:409
+#: kamail.cpp:277 undo.cpp:409
 #, kde-format
 msgctxt "@info"
 msgid "Program error"
 msgstr ""
 
-#: kamail.cpp:380
+#: kamail.cpp:339
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Error attaching file: <filename>%1</filename>"
 msgstr ""
 
-#: kamail.cpp:390
+#: kamail.cpp:349
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Attachment not found: <filename>%1</filename>"
 msgstr ""
 
-#: kamail.cpp:472
+#: kamail.cpp:431
 #, kde-format
 msgctxt "@info"
 msgid "An email has been queued to be sent"
 msgstr ""
 
-#: kamail.cpp:638
+#: kamail.cpp:597
 #, kde-format
 msgctxt "@info"
 msgid "Failed to send email"
 msgstr ""
 
-#: kamail.cpp:639
+#: kamail.cpp:598
 #, kde-format
 msgctxt "@info"
 msgid "Error sending email"
@@ -5068,8 +5068,7 @@ msgstr ""
 #: prefdlg.cpp:1053 prefdlg.cpp:1089
 #, kde-kuit-format
 msgctxt "@option:radio"
-msgid ""
-"Use default address from <application>KMail</application> or System Settings"
+msgid "Use default address from <application>KMail</application>"
 msgstr ""
 
 #: prefdlg.cpp:1056
@@ -5077,8 +5076,7 @@ msgstr ""
 msgctxt "@info:whatsthis"
 msgid ""
 "Check to use the default email address set in <application>KMail</"
-"application> or KDE System Settings, to identify you as the sender when "
-"sending email alarms."
+"application>, to identify you as the sender when sending email alarms."
 msgstr ""
 
 #: prefdlg.cpp:1060
@@ -5119,8 +5117,7 @@ msgstr ""
 msgctxt "@info:whatsthis"
 msgid ""
 "Check to use the default email address set in <application>KMail</"
-"application> or KDE System Settings, for blind copying email alarms to "
-"yourself."
+"application>, for blind copying email alarms to yourself."
 msgstr ""
 
 #: prefdlg.cpp:1174
@@ -5130,23 +5127,25 @@ msgid "No valid 'Bcc' email address is specified."
 msgstr ""
 
 #: prefdlg.cpp:1181
-#, kde-kuit-format
+#, kde-format
 msgctxt "@info"
-msgid "<para>%1</para><para>Are you sure you want to save your changes?</para>"
+msgid "Are you sure you want to save your changes?"
 msgstr ""
 
 #: prefdlg.cpp:1187
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"No default email address is currently set in <application>KMail</"
-"application> or KDE System Settings. %1"
+"<para>No default email address is currently set in <application>KMail</"
+"application>.</para><para>%1</para><para>%2</para>"
 msgstr ""
 
 #: prefdlg.cpp:1192
 #, kde-kuit-format
 msgctxt "@info"
-msgid "No <application>KMail</application> identities currently exist. %1"
+msgid ""
+"<para>No <application>KMail</application> identities currently exist.</"
+"para><para>%1</para><para>%2</para>"
 msgstr ""
 
 #: prefdlg.cpp:1210
@@ -6195,32 +6194,32 @@ msgid ""
 "para><para>Do you wish to update the calendar?</para>"
 msgstr ""
 
-#: resources/fileresource.cpp:325 resources/fileresource.cpp:453
+#: resources/fileresource.cpp:325 resources/fileresource.cpp:454
 #, kde-format
 msgctxt "@info"
 msgid "Resource is not configured."
 msgstr ""
 
-#: resources/fileresource.cpp:354 resources/fileresource.cpp:371
+#: resources/fileresource.cpp:354 resources/fileresource.cpp:372
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Error loading calendar <resource>%1</resource>."
 msgstr ""
 
-#: resources/fileresource.cpp:431 resources/fileresource.cpp:470
-#: resources/fileresource.cpp:480
+#: resources/fileresource.cpp:432 resources/fileresource.cpp:471
+#: resources/fileresource.cpp:481
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Error saving calendar <resource>%1</resource>."
 msgstr ""
 
-#: resources/fileresource.cpp:460
+#: resources/fileresource.cpp:461
 #, kde-format
 msgctxt "@info"
 msgid "Resource is read-only."
 msgstr ""
 
-#: resources/fileresource.cpp:465
+#: resources/fileresource.cpp:466
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Calendar file is in wrong format: <filename>%1</filename>."
@@ -6773,31 +6772,31 @@ msgctxt "@info A prompt for user to enter what to search for"
 msgid "Search"
 msgstr ""
 
-#: resources/resourcetype.cpp:355
+#: resources/resourcetype.cpp:359
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "KAlarm Calendar File"
 msgstr ""
 
-#: resources/resourcetype.cpp:355
+#: resources/resourcetype.cpp:359
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "KAlarm Calendar Directory"
 msgstr ""
 
-#: resources/resourcetype.cpp:356
+#: resources/resourcetype.cpp:360
 #, kde-format
 msgctxt "@item:intext What a resource is stored in"
 msgid "File"
 msgstr ""
 
-#: resources/resourcetype.cpp:357
+#: resources/resourcetype.cpp:361
 #, kde-format
 msgctxt "@item:intext What a resource is stored in"
 msgid "URL"
 msgstr ""
 
-#: resources/resourcetype.cpp:358
+#: resources/resourcetype.cpp:362
 #, kde-format
 msgctxt "@item:intext What a resource is stored in (directory in filesystem)"
 msgid "Directory"

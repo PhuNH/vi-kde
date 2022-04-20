@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-08 00:49+0000\n"
+"POT-Creation-Date: 2022-04-19 00:48+0000\n"
 "PO-Revision-Date: 2022-04-08 02:06+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -639,19 +639,7 @@ msgstr ""
 "Tại đây bạn có thể thấy tất cả các phần cài cắm hiện có của Kate. Những cái "
 "có đánh dấu là đã được tải, và sẽ được tải lại lần tiếp theo Kate được chạy."
 
-#: ../lib/katedocmanager.cpp:222
-#, kde-format
-msgid ""
-"The supposedly temporary file %1 has been modified. Do you want to delete it "
-"anyway?"
-msgstr "Tệp được cho là tạm %1 đã bị chỉnh sửa. Bạn vẫn muốn xoá nó?"
-
-#: ../lib/katedocmanager.cpp:225
-#, kde-format
-msgid "Delete File?"
-msgstr "Xoá tệp?"
-
-#: ../lib/katedocmanager.cpp:333
+#: ../lib/katedocmanager.cpp:297
 #, kde-format
 msgid ""
 "<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
@@ -660,32 +648,32 @@ msgstr ""
 "<p>Tài liệu '%1' đã bị chỉnh sửa nhưng chưa được lưu.</p><p>Bạn muốn lưu các "
 "thay đổi hay loại bỏ chúng?</p>"
 
-#: ../lib/katedocmanager.cpp:336
+#: ../lib/katedocmanager.cpp:300
 #, kde-format
 msgid "Close Document"
 msgstr "Đóng tài liệu"
 
-#: ../lib/katedocmanager.cpp:345
+#: ../lib/katedocmanager.cpp:309
 #, kde-format
 msgid "Save As"
 msgstr "Lưu thành"
 
-#: ../lib/katedocmanager.cpp:363 ../lib/katemainwindow.cpp:588
+#: ../lib/katedocmanager.cpp:327 ../lib/katemainwindow.cpp:588
 #, kde-format
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr "Một tệp mới được mở khi đang đóng Kate, đã huỷ việc đóng."
 
-#: ../lib/katedocmanager.cpp:363 ../lib/katemainwindow.cpp:588
+#: ../lib/katedocmanager.cpp:327 ../lib/katemainwindow.cpp:588
 #, kde-format
 msgid "Closing Aborted"
 msgstr "Đã huỷ việc đóng"
 
-#: ../lib/katedocmanager.cpp:441
+#: ../lib/katedocmanager.cpp:405
 #, kde-format
 msgid "Starting Up"
 msgstr "Đang khởi động"
 
-#: ../lib/katedocmanager.cpp:442
+#: ../lib/katedocmanager.cpp:406
 #, kde-format
 msgid "Reopening files from the last session..."
 msgstr "Đang mở lại tệp từ phiên trước..."
@@ -1011,12 +999,12 @@ msgstr "&Lưu phiên"
 msgid "Save Session &As..."
 msgstr "Lưu phiên &thành..."
 
-#: ../lib/katemainwindow.cpp:496
+#: ../lib/katemainwindow.cpp:496 ../lib/kateviewspace.cpp:60
 #, kde-format
 msgid "Go to Previous Location"
 msgstr "Đi đến vị trí trước"
 
-#: ../lib/katemainwindow.cpp:504
+#: ../lib/katemainwindow.cpp:504 ../lib/kateviewspace.cpp:73
 #, kde-format
 msgid "Go to Next Location"
 msgstr "Đi đến vị trí sau"
@@ -1534,21 +1522,11 @@ msgstr ""
 msgid "Opening Large File"
 msgstr "Đang mở tệp lớn"
 
-#: ../lib/kateviewmanager.cpp:997
+#: ../lib/kateviewmanager.cpp:991
 #, kde-format
 msgid "This view may have unsaved work. Do you really want to close it?"
 msgstr ""
 "Khung xem này có thể có công việc chưa được lưu. Bạn có thật sự muốn đóng nó?"
-
-#: ../lib/kateviewspace.cpp:60
-#, kde-format
-msgid "Go to previous edit location"
-msgstr "Đi đến vị trí sửa trước"
-
-#: ../lib/kateviewspace.cpp:73
-#, kde-format
-msgid "Go to next edit location"
-msgstr "Đi đến vị trí sửa sau"
 
 #: ../lib/kateviewspace.cpp:100
 #, kde-format
@@ -1962,6 +1940,20 @@ msgstr "Tài liệu sẽ mở."
 #, kde-format
 msgid "[urls...]"
 msgstr "[urls...]"
+
+#~ msgid "Go to previous edit location"
+#~ msgstr "Đi đến vị trí sửa trước"
+
+#~ msgid "Go to next edit location"
+#~ msgstr "Đi đến vị trí sửa sau"
+
+#~ msgid ""
+#~ "The supposedly temporary file %1 has been modified. Do you want to delete "
+#~ "it anyway?"
+#~ msgstr "Tệp được cho là tạm %1 đã bị chỉnh sửa. Bạn vẫn muốn xoá nó?"
+
+#~ msgid "Delete File?"
+#~ msgstr "Xoá tệp?"
 
 #~ msgid "Use this command to close the current document"
 #~ msgstr "Dùng lệnh này để đóng tài liệu hiện tại"

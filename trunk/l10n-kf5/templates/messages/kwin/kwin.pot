@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-08 00:46+0000\n"
+"POT-Creation-Date: 2022-04-19 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -27,23 +27,18 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: abstract_client.cpp:2804
+#: abstract_client.cpp:3472
 #, kde-format
 msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
 msgstr ""
 
-#: abstract_wayland_output.cpp:217
-#, kde-format
-msgid "unknown"
-msgstr ""
-
-#: composite.cpp:648
+#: composite.cpp:647
 #, kde-format
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr ""
 
-#: composite.cpp:849
+#: composite.cpp:850
 #, kde-format
 msgid ""
 "Desktop effects have been suspended by another application.<br/>You can "
@@ -1134,7 +1129,7 @@ msgstr ""
 msgid "Wait Longer"
 msgstr ""
 
-#: input.cpp:3021
+#: input.cpp:3026
 #, kde-format
 msgid "Touchpad"
 msgstr ""
@@ -1362,6 +1357,11 @@ msgstr ""
 msgid "Replace already-running ICCCM2.0-compliant window manager"
 msgstr ""
 
+#: output.cpp:331
+#, kde-format
+msgid "unknown"
+msgstr ""
+
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:60
 #: plugins/krunner-integration/windowsrunnerinterface.cpp:62
 #, kde-format
@@ -1502,21 +1502,21 @@ msgstr ""
 msgid "Activate running window on %1"
 msgstr ""
 
-#: plugins/nightcolor/nightcolormanager.cpp:63
+#: plugins/nightcolor/nightcolormanager.cpp:64
 #, kde-format
 msgctxt "Night Color was disabled"
 msgid "Night Color Off"
 msgstr ""
 
-#: plugins/nightcolor/nightcolormanager.cpp:64
+#: plugins/nightcolor/nightcolormanager.cpp:65
 #, kde-format
 msgctxt "Night Color was enabled"
 msgid "Night Color On"
 msgstr ""
 
-#: plugins/nightcolor/nightcolormanager.cpp:103
-#: plugins/nightcolor/nightcolormanager.cpp:106
-#: plugins/nightcolor/nightcolormanager.cpp:113
+#: plugins/nightcolor/nightcolormanager.cpp:104
+#: plugins/nightcolor/nightcolormanager.cpp:107
+#: plugins/nightcolor/nightcolormanager.cpp:114
 #, kde-format
 msgid "Toggle Night Color"
 msgstr ""
@@ -2061,57 +2061,57 @@ msgstr ""
 msgid "..."
 msgstr ""
 
-#: tabbox/tabbox.cpp:384
+#: tabbox/tabbox.cpp:383
 #, kde-format
 msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr ""
 
-#: tabbox/tabbox.cpp:534
+#: tabbox/tabbox.cpp:533
 msgid "Walk Through Windows"
 msgstr ""
 
-#: tabbox/tabbox.cpp:535
+#: tabbox/tabbox.cpp:534
 msgid "Walk Through Windows (Reverse)"
 msgstr ""
 
-#: tabbox/tabbox.cpp:536
+#: tabbox/tabbox.cpp:535
 msgid "Walk Through Windows Alternative"
 msgstr ""
 
-#: tabbox/tabbox.cpp:537
+#: tabbox/tabbox.cpp:536
 msgid "Walk Through Windows Alternative (Reverse)"
 msgstr ""
 
-#: tabbox/tabbox.cpp:538
+#: tabbox/tabbox.cpp:537
 msgid "Walk Through Windows of Current Application"
 msgstr ""
 
-#: tabbox/tabbox.cpp:539
+#: tabbox/tabbox.cpp:538
 msgid "Walk Through Windows of Current Application (Reverse)"
 msgstr ""
 
-#: tabbox/tabbox.cpp:540
+#: tabbox/tabbox.cpp:539
 msgid "Walk Through Windows of Current Application Alternative"
 msgstr ""
 
-#: tabbox/tabbox.cpp:541
+#: tabbox/tabbox.cpp:540
 msgid "Walk Through Windows of Current Application Alternative (Reverse)"
 msgstr ""
 
-#: tabbox/tabbox.cpp:542
+#: tabbox/tabbox.cpp:541
 msgid "Walk Through Desktops"
 msgstr ""
 
-#: tabbox/tabbox.cpp:543
+#: tabbox/tabbox.cpp:542
 msgid "Walk Through Desktops (Reverse)"
 msgstr ""
 
-#: tabbox/tabbox.cpp:544
+#: tabbox/tabbox.cpp:543
 msgid "Walk Through Desktop List"
 msgstr ""
 
-#: tabbox/tabbox.cpp:545
+#: tabbox/tabbox.cpp:544
 msgid "Walk Through Desktop List (Reverse)"
 msgstr ""
 
@@ -2548,47 +2548,47 @@ msgid ""
 "Therefore it is not possible to switch to a screen explicitly."
 msgstr ""
 
-#: virtualdesktops.cpp:677 virtualdesktops.cpp:748
+#: virtualdesktops.cpp:688 virtualdesktops.cpp:759
 #, kde-format
 msgid "Desktop %1"
 msgstr ""
 
-#: virtualdesktops.cpp:783
+#: virtualdesktops.cpp:794
 #, kde-format
 msgid "Switch to Next Desktop"
 msgstr ""
 
-#: virtualdesktops.cpp:785
+#: virtualdesktops.cpp:795
 #, kde-format
 msgid "Switch to Previous Desktop"
 msgstr ""
 
-#: virtualdesktops.cpp:787
+#: virtualdesktops.cpp:798
 #, kde-format
 msgid "Switch One Desktop to the Right"
 msgstr ""
 
-#: virtualdesktops.cpp:789
+#: virtualdesktops.cpp:800
 #, kde-format
 msgid "Switch One Desktop to the Left"
 msgstr ""
 
-#: virtualdesktops.cpp:791
+#: virtualdesktops.cpp:802
 #, kde-format
 msgid "Switch One Desktop Up"
 msgstr ""
 
-#: virtualdesktops.cpp:793
+#: virtualdesktops.cpp:804
 #, kde-format
 msgid "Switch One Desktop Down"
 msgstr ""
 
-#: virtualdesktops.cpp:809
+#: virtualdesktops.cpp:887
 #, kde-format
 msgid "Switch to Desktop %1"
 msgstr ""
 
-#: workspace.cpp:1464
+#: workspace.cpp:1482
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""

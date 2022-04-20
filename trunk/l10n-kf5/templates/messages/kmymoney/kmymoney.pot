@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmymoney\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-05 00:45+0000\n"
+"POT-Creation-Date: 2022-04-19 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -284,8 +284,8 @@ msgid ""
 msgstr ""
 
 #: kmymoney/converter/mymoneystatementreader.cpp:1573
-#: kmymoney/views/kscheduledview_p.h:192 kmymoney/views/kscheduledview_p.h:300
-#: kmymoney/views/kscheduledview_p.h:304
+#: kmymoney/views/kscheduledview_p.h:192 kmymoney/views/kscheduledview_p.h:304
+#: kmymoney/views/kscheduledview_p.h:308
 #, kde-format
 msgid "Unable to enter scheduled transaction '%1'"
 msgstr ""
@@ -1230,6 +1230,7 @@ msgid ""
 "Enter the price precision for this currency to be used for exchange rates."
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, lblName)
 #. i18n: ectx: property (text), widget (QTreeWidget, backendsList)
 #. i18n: ectx: property (text), widget (QTreeWidget, accountsList)
@@ -1241,6 +1242,7 @@ msgstr ""
 #: kmymoney/plugins/csv/import/securitiesdlg.ui:82
 #: kmymoney/plugins/woob/dialogs/mapaccountwizard.ui:28
 #: kmymoney/plugins/woob/dialogs/mapaccountwizard.ui:68
+#: kmymoney/wizards/newloanwizard/loanattributeswizardpage.ui:52
 #, kde-format
 msgid "Name"
 msgstr ""
@@ -1801,10 +1803,9 @@ msgstr ""
 msgid "Payees"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, TextLabel1_3)
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
 #: kmymoney/dialogs/kmymoneyfileinfodlg.ui:108
-#: kmymoney/views/kmymoneyview.cpp:172 kmymoney/wizards/newloanwizard/loanattributeswizardpage.ui:17
+#: kmymoney/views/kmymoneyview.cpp:172
 #, kde-format
 msgid "Institutions"
 msgstr ""
@@ -2135,7 +2136,7 @@ msgstr ""
 #: kmymoney/dialogs/knewaccountdlg.cpp:698
 #: kmymoney/dialogs/knewaccountdlg.cpp:856
 #: kmymoney/dialogs/knewaccountdlg.cpp:871
-#: kmymoney/wizards/newloanwizard/keditloanwizard.cpp:506
+#: kmymoney/wizards/newloanwizard/keditloanwizard.cpp:514
 #: kmymoney/wizards/newloanwizard/loanattributeswizardpage.cpp:45
 #: kmymoney/wizards/newloanwizard/loanattributeswizardpage.cpp:80
 #, kde-format
@@ -2342,6 +2343,7 @@ msgstr ""
 msgid "Opening Balance Account"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1_3)
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #. i18n: ectx: attribute (title), widget (QWidget, m_institutionTab)
 #. i18n: ectx: property (title), widget (QGroupBox, m_institutionBox)
@@ -2350,6 +2352,7 @@ msgstr ""
 #: kmymoney/plugins/views/reports/core/listtable.cpp:689
 #: kmymoney/wizards/newaccountwizard/kinstitutionpage.ui:44
 #: kmymoney/wizards/newaccountwizard/knewaccountwizard.cpp:72
+#: kmymoney/wizards/newloanwizard/loanattributeswizardpage.ui:19
 #, kde-format
 msgid "Institution"
 msgstr ""
@@ -5559,7 +5562,7 @@ msgstr ""
 msgid "CashFlow"
 msgstr ""
 
-#: kmymoney/kmymoneyutils.cpp:277 kmymoney/views/kenterscheduledlg.cpp:186
+#: kmymoney/kmymoneyutils.cpp:277 kmymoney/views/kenterscheduledlg.cpp:123
 #, kde-format
 msgid "Unable to load schedule details"
 msgstr ""
@@ -11357,12 +11360,12 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: kmymoney/plugins/kbanking/kbanking.cpp:1548
+#: kmymoney/plugins/kbanking/kbanking.cpp:1564
 #, kde-format
 msgid "Error importing statement. Do you want to continue?"
 msgstr ""
 
-#: kmymoney/plugins/kbanking/kbanking.cpp:1549
+#: kmymoney/plugins/kbanking/kbanking.cpp:1565
 #: kmymoney/plugins/views/reports/kreportsview.cpp:429
 #: kmymoney/plugins/views/reports/kreportsview.cpp:486
 #: kmymoney/plugins/views/reports/kreportsview.cpp:505
@@ -17920,17 +17923,17 @@ msgstr ""
 msgid "Unable to delete category '%1'. Cause: %2"
 msgstr ""
 
-#: kmymoney/views/keditscheduledlg.cpp:519
+#: kmymoney/views/keditscheduledlg.cpp:515
 #, kde-format
 msgid "Unable to add scheduled transaction: %1"
 msgstr ""
 
-#: kmymoney/views/keditscheduledlg.cpp:519
+#: kmymoney/views/keditscheduledlg.cpp:515
 #, kde-format
 msgid "Add scheduled transaction"
 msgstr ""
 
-#: kmymoney/views/keditscheduledlg.cpp:555
+#: kmymoney/views/keditscheduledlg.cpp:551
 #, kde-format
 msgid ""
 "<qt>You have entered a scheduled transaction date of <b>%1</b>.  Because the "
@@ -17940,14 +17943,14 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: kmymoney/views/keditscheduledlg.cpp:560
+#: kmymoney/views/keditscheduledlg.cpp:556
 #, kde-format
 msgid "Reset Last Payment Date"
 msgstr ""
 
-#: kmymoney/views/keditscheduledlg.cpp:569
-#: kmymoney/views/keditscheduledlg.cpp:585
-#: kmymoney/views/keditscheduledlg.cpp:595
+#: kmymoney/views/keditscheduledlg.cpp:565
+#: kmymoney/views/keditscheduledlg.cpp:581
+#: kmymoney/views/keditscheduledlg.cpp:591
 #, kde-format
 msgid "Unable to modify scheduled transaction '%1'"
 msgstr ""
@@ -18031,7 +18034,7 @@ msgstr ""
 msgid "Date of final transaction:"
 msgstr ""
 
-#: kmymoney/views/kenterscheduledlg.cpp:208
+#: kmymoney/views/kenterscheduledlg.cpp:197
 #, kde-format
 msgid ""
 "<p>Please check that all the details in the following dialog are correct and "
@@ -18041,7 +18044,7 @@ msgid ""
 "dialog)</p>"
 msgstr ""
 
-#: kmymoney/views/kenterscheduledlg.cpp:211
+#: kmymoney/views/kenterscheduledlg.cpp:200
 #, kde-format
 msgid "Enter scheduled transaction"
 msgstr ""
@@ -18820,7 +18823,7 @@ msgctxt "Placeholdertext in schedulesview"
 msgid "Filter"
 msgstr ""
 
-#: kmymoney/views/kscheduledview_p.h:242
+#: kmymoney/views/kscheduledview_p.h:246
 #, kde-format
 msgid ""
 "Are you sure you wish to stop this scheduled transaction from being entered "
@@ -18830,14 +18833,14 @@ msgid ""
 "it later."
 msgstr ""
 
-#: kmymoney/views/kscheduledview_p.h:338
+#: kmymoney/views/kscheduledview_p.h:342
 #, kde-format
 msgid ""
 "<qt>Do you really want to skip the <b>%1</b> transaction scheduled for <b>"
 "%2</b>?</qt>"
 msgstr ""
 
-#: kmymoney/views/kscheduledview_p.h:348
+#: kmymoney/views/kscheduledview_p.h:352
 #, kde-format
 msgid "<qt>Unable to skip scheduled transaction <b>%1</b>.</qt>"
 msgstr ""
@@ -20050,6 +20053,11 @@ msgstr ""
 #, kde-format
 msgctxt "Filter widget label"
 msgid "Fi&lter:"
+msgstr ""
+
+#: kmymoney/widgets/passstore.cpp:61
+#, kde-format
+msgid "Read the password from pass store"
 msgstr ""
 
 #: kmymoney/widgets/passwordtoggle.cpp:33
@@ -22286,7 +22294,7 @@ msgid ""
 "come."
 msgstr ""
 
-#: kmymoney/wizards/newloanwizard/keditloanwizard.cpp:272
+#: kmymoney/wizards/newloanwizard/keditloanwizard.cpp:280
 #, kde-format
 msgid ""
 "Your previous selection was \"%1\". If you select another option, KMyMoney "
