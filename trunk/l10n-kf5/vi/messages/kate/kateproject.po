@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-19 00:48+0000\n"
+"POT-Creation-Date: 2022-04-21 00:47+0000\n"
 "PO-Revision-Date: 2022-04-08 01:38+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -431,7 +431,8 @@ msgstr "Bạn có chắc chắn muốn xoá những tệp này không?"
 msgid "Are you sure you want to discard all changes?"
 msgstr "Bạn có chắc chắn muốn loại bỏ tất cả các thay đổi không?"
 
-#: gitwidget.cpp:1041 kateprojectconfigpage.cpp:83 kateprojectconfigpage.cpp:94
+#: gitwidget.cpp:1041 kateprojectconfigpage.cpp:92
+#: kateprojectconfigpage.cpp:103
 #, kde-format
 msgid "Open file"
 msgstr "Mở tệp"
@@ -564,25 +565,42 @@ msgstr "&Fossil"
 #: kateprojectconfigpage.cpp:46
 #, kde-format
 msgctxt "Groupbox title"
+msgid "Session Behavior"
+msgstr ""
+
+#: kateprojectconfigpage.cpp:47
+#, kde-format
+msgid "Session settings for projects"
+msgstr ""
+
+#: kateprojectconfigpage.cpp:48
+#, fuzzy, kde-format
+#| msgid "Current Project"
+msgid "Restore Open Projects"
+msgstr "Dự án hiện tại"
+
+#: kateprojectconfigpage.cpp:55
+#, kde-format
+msgctxt "Groupbox title"
 msgid "Project Index"
 msgstr "Chỉ mục dự án"
 
-#: kateprojectconfigpage.cpp:47
+#: kateprojectconfigpage.cpp:56
 #, kde-format
 msgid "Project ctags index settings"
 msgstr "Thiết lập chỉ mục ctags của dự án"
 
-#: kateprojectconfigpage.cpp:48 kateprojectinfoviewindex.cpp:207
+#: kateprojectconfigpage.cpp:57 kateprojectinfoviewindex.cpp:207
 #, kde-format
 msgid "Enable indexing"
 msgstr "Bật chức năng lập chỉ mục"
 
-#: kateprojectconfigpage.cpp:51
+#: kateprojectconfigpage.cpp:60
 #, kde-format
 msgid "Directory for index files"
 msgstr "Thư mục chứa tệp chỉ mục"
 
-#: kateprojectconfigpage.cpp:55
+#: kateprojectconfigpage.cpp:64
 #, kde-format
 msgid ""
 "The system temporary directory is used if not specified, which may overflow "
@@ -591,70 +609,70 @@ msgstr ""
 "Thư mục tạm của hệ thống sẽ được dùng nếu không có gì được chỉ định, có thể "
 "xảy ra tràn khi kho quá lớn"
 
-#: kateprojectconfigpage.cpp:62
+#: kateprojectconfigpage.cpp:71
 #, kde-format
 msgctxt "Groupbox title"
 msgid "Cross-Project Functionality"
 msgstr "Chức năng liên dự án"
 
-#: kateprojectconfigpage.cpp:63
+#: kateprojectconfigpage.cpp:72
 #, kde-format
 msgid ""
 "Project plugin is able to perform some operations across multiple projects"
 msgstr "Phần cài cắm 'dự án' có thể thực hiện một số thao tác giữa nhiều dự án"
 
-#: kateprojectconfigpage.cpp:64
+#: kateprojectconfigpage.cpp:73
 #, kde-format
 msgid "Cross-Project Completion"
 msgstr "Hoàn tất liên dự án"
 
-#: kateprojectconfigpage.cpp:66
+#: kateprojectconfigpage.cpp:75
 #, kde-format
 msgid "Cross-Project Goto Symbol"
 msgstr "Kí hiệu \"Đi đến\" liên dự án"
 
-#: kateprojectconfigpage.cpp:74
+#: kateprojectconfigpage.cpp:83
 #, kde-format
 msgctxt "Groupbox title"
 msgid "Git"
 msgstr "Git"
 
-#: kateprojectconfigpage.cpp:75
+#: kateprojectconfigpage.cpp:84
 #, kde-format
 msgid "Show number of changed lines in git status"
 msgstr "Hiện số dòng bị thay đổi trong trạng thái git"
 
-#: kateprojectconfigpage.cpp:79
+#: kateprojectconfigpage.cpp:88
 #, kde-format
 msgid "Single click action in the git status view"
 msgstr "Hành động bấm đơn trong khung xem trạng thái git"
 
-#: kateprojectconfigpage.cpp:81 kateprojectconfigpage.cpp:92
+#: kateprojectconfigpage.cpp:90 kateprojectconfigpage.cpp:101
 #, kde-format
 msgid "No Action"
 msgstr "Không hành động"
 
-#: kateprojectconfigpage.cpp:82 kateprojectconfigpage.cpp:93
+#: kateprojectconfigpage.cpp:91 kateprojectconfigpage.cpp:102
 #, kde-format
 msgid "Show Diff"
 msgstr "Hiện phần chênh"
 
-#: kateprojectconfigpage.cpp:84 kateprojectconfigpage.cpp:95
+#: kateprojectconfigpage.cpp:93 kateprojectconfigpage.cpp:104
 #, kde-format
 msgid "Stage / Unstage"
 msgstr "Chấp nhận / Bỏ chấp nhận"
 
-#: kateprojectconfigpage.cpp:90
+#: kateprojectconfigpage.cpp:99
 #, kde-format
 msgid "Double click action in the git status view"
 msgstr "Hành động bấm đúp trong khung xem trạng thái git"
 
-#: kateprojectconfigpage.cpp:125 kateprojectpluginview.cpp:65
+#: kateprojectconfigpage.cpp:135 kateprojectpluginview.cpp:65
 #, kde-format
 msgid "Projects"
 msgstr "Dự án"
 
-#: kateprojectconfigpage.cpp:130
+#: kateprojectconfigpage.cpp:140
 #, kde-format
 msgctxt "Groupbox title"
 msgid "Projects Properties"
@@ -776,12 +794,12 @@ msgstr "Xác nhận đóng dự án: %1"
 msgid "Do you want to close the project %1 and the related %2 open documents?"
 msgstr "Bạn có muốn đóng dự án %1 và %2 tài liệu liên quan đang mở?"
 
-#: kateprojectplugin.cpp:576
+#: kateprojectplugin.cpp:591
 #, kde-format
 msgid "Full path to current project excluding the file name."
 msgstr "Đường dẫn đầy đủ đến dự án hiện tại không bao gồm tên tệp."
 
-#: kateprojectplugin.cpp:593
+#: kateprojectplugin.cpp:608
 #, kde-format
 msgid ""
 "Full path to current project excluding the file name, with native path "
@@ -1006,6 +1024,3 @@ msgstr "Hiện phần cất thất bại. Lỗi: "
 #, kde-format
 msgid "&Projects"
 msgstr "&Dự án"
-
-#~ msgid "Current Project"
-#~ msgstr "Dự án hiện tại"
