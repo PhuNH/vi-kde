@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-23 00:46+0000\n"
+"POT-Creation-Date: 2022-04-30 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -1393,8 +1393,8 @@ msgstr ""
 
 #: src/commands/importcertificatefromdatacommand.cpp:74
 #: src/view/padwidget.cpp:132 src/view/padwidget.cpp:326
-#: src/view/padwidget.cpp:327 src/view/padwidget.cpp:396
-#: src/view/padwidget.cpp:397
+#: src/view/padwidget.cpp:327 src/view/padwidget.cpp:395
+#: src/view/padwidget.cpp:396
 #, kde-format
 msgid "Notepad"
 msgstr ""
@@ -1984,12 +1984,12 @@ msgid ""
 "output of <icode>%1</icode> for details.</para>"
 msgstr ""
 
-#: src/commands/learncardkeyscommand.cpp:94
+#: src/commands/learncardkeyscommand.cpp:98
 #, kde-format
 msgid "Loading certificates... (this can take a while)"
 msgstr ""
 
-#: src/commands/learncardkeyscommand.cpp:95
+#: src/commands/learncardkeyscommand.cpp:99
 #, kde-format
 msgid "Show Details"
 msgstr ""
@@ -3778,42 +3778,38 @@ msgstr ""
 msgid "Encryption succeeded."
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:187
+#: src/crypto/gui/certificatelineedit.cpp:201
 #, kde-format
 msgid "Please enter a name or email address..."
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:200
-#: src/crypto/gui/certificatelineedit.cpp:201
+#: src/crypto/gui/certificatelineedit.cpp:214
+#: src/crypto/gui/certificatelineedit.cpp:215
 #, kde-format
 msgid "Show certificate list"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:220
+#: src/crypto/gui/certificatelineedit.cpp:234
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Show Details"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:402
-#, kde-format
-msgid "Multiple matching certificates or groups found"
-msgstr ""
-
-#: src/crypto/gui/certificatelineedit.cpp:412
-#: src/crypto/gui/certificatelineedit.cpp:417
+#: src/crypto/gui/certificatelineedit.cpp:488
 #, kde-format
 msgid "No matching certificates or groups found"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:451
+#: src/crypto/gui/certificatelineedit.cpp:490
 #, kde-format
-msgid "Error: No matching certificates or groups found"
+msgid "Multiple matching certificates or groups found"
 msgstr ""
 
-#: src/crypto/gui/certificatelineedit.cpp:453
+#: src/crypto/gui/certificatelineedit.cpp:560
+#: src/view/formtextinput.cpp:120
 #, kde-format
-msgid "Error: Multiple matching certificates or groups found"
+msgctxt "@info"
+msgid "Error: %1"
 msgstr ""
 
 #: src/crypto/gui/certificateselectionline.cpp:39
@@ -4137,7 +4133,7 @@ msgstr ""
 
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:283
 #: src/crypto/gui/signencryptfileswizard.cpp:438
-#: src/view/padwidget.cpp:501
+#: src/view/padwidget.cpp:500
 #, kde-format
 msgctxt ""
 "%1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED "
@@ -4147,7 +4143,7 @@ msgstr ""
 
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:285
 #: src/crypto/gui/signencryptfileswizard.cpp:440
-#: src/view/padwidget.cpp:503
+#: src/view/padwidget.cpp:502
 #, kde-format
 msgctxt ""
 "%1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED "
@@ -5796,7 +5792,7 @@ msgid "Lookup on Server"
 msgstr ""
 
 #: src/dialogs/lookupcertificatesdialog.cpp:202
-#: src/view/padwidget.cpp:476
+#: src/view/padwidget.cpp:475
 #, kde-format
 msgid "Import"
 msgstr ""
@@ -6897,8 +6893,29 @@ msgid ""
 "LDAP keyservers."
 msgstr ""
 
-#. i18n: ectx: label, entry (ProfilesDisabled), group (General)
+#. i18n: ectx: label, entry (autoLoadP15Certs), group (Smartcard)
+#: src/kcfg/settings.kcfg:158
+#, kde-format
+msgid "Try to load S/MIME certificates from PKCS#15 smartcards"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (autoLoadP15Certs), group (Smartcard)
+#: src/kcfg/settings.kcfg:159
+#, kde-format
+msgid "Automatically load S/MIME certificates from PKCS#15 (CardOS) smartcards"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (autoLoadP15Certs), group (Smartcard)
 #: src/kcfg/settings.kcfg:160
+#, kde-format
+msgid ""
+"If true, then Kleopatra will call gpgsm --learn if a PKCS#15 Smartcard is "
+"inserted with unknown certificates. This can take a while and blocks the "
+"smartcard while the command is running."
+msgstr ""
+
+#. i18n: ectx: label, entry (ProfilesDisabled), group (General)
+#: src/kcfg/settings.kcfg:166
 #, kde-format
 msgid "Disable profile settings"
 msgstr ""
@@ -7119,47 +7136,47 @@ msgstr ""
 msgid "String or Fingerprint for query and search"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:283
+#: src/kleopatraapplication.cpp:290
 #, kde-format
 msgid "Failed to execute command"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:326
+#: src/kleopatraapplication.cpp:333
 #, kde-format
 msgid "Ambiguous protocol: --openpgp and --cms"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:360
+#: src/kleopatraapplication.cpp:367
 #, kde-format
 msgid "No search string specified for --search"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:371
+#: src/kleopatraapplication.cpp:378
 #, kde-format
 msgid "No fingerprint argument specified for --query"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:411
+#: src/kleopatraapplication.cpp:418
 #, kde-format
 msgid "Ambiguous commands \"%1\" and \"%2\""
 msgstr ""
 
-#: src/kleopatraapplication.cpp:418
+#: src/kleopatraapplication.cpp:425
 #, kde-format
 msgid "No files specified for \"%1\" command"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:432
+#: src/kleopatraapplication.cpp:439
 #, kde-format
 msgid "Cannot read \"%1\""
 msgstr ""
 
-#: src/kleopatraapplication.cpp:698
+#: src/kleopatraapplication.cpp:705
 #, kde-format
 msgid "Opening an external link is administratively prohibited."
 msgstr ""
 
-#: src/kleopatraapplication.cpp:699
+#: src/kleopatraapplication.cpp:706
 #, kde-format
 msgid "Prohibited"
 msgstr ""
@@ -9174,12 +9191,6 @@ msgctxt "@label label text (required)"
 msgid "%1 (required)"
 msgstr ""
 
-#: src/view/formtextinput.cpp:120
-#, kde-format
-msgctxt "@info"
-msgid "Error: %1"
-msgstr ""
-
 #: src/view/keycacheoverlay.cpp:38
 #, kde-format
 msgid "Loading certificate cache..."
@@ -9370,7 +9381,7 @@ msgstr ""
 msgid "List of certificates"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:80 src/view/p15cardwidget.cpp:77
+#: src/view/netkeywidget.cpp:80 src/view/p15cardwidget.cpp:81
 #: src/view/pgpcardwidget.cpp:137 src/view/pivcardwidget.cpp:110
 #, kde-format
 msgid "Serial number:"
@@ -9554,38 +9565,38 @@ msgctxt "@info"
 msgid "Sorry, I cannot find the key with fingerprint %1."
 msgstr ""
 
-#: src/view/p15cardwidget.cpp:92
+#: src/view/p15cardwidget.cpp:96
 #, kde-format
 msgid "OpenPGP keys:"
 msgstr ""
 
-#: src/view/p15cardwidget.cpp:113
+#: src/view/p15cardwidget.cpp:117
 #, kde-format
 msgid "Searching in directory service..."
 msgstr ""
 
-#: src/view/p15cardwidget.cpp:128
+#: src/view/p15cardwidget.cpp:132
 #, kde-format
 msgid "Automatic import finished."
 msgstr ""
 
-#: src/view/p15cardwidget.cpp:133
+#: src/view/p15cardwidget.cpp:137
 #, kde-format
 msgid "Error multiple keys found on server."
 msgstr ""
 
-#: src/view/p15cardwidget.cpp:136
+#: src/view/p15cardwidget.cpp:140
 #, kde-format
 msgid "Key not found in directory service."
 msgstr ""
 
-#: src/view/p15cardwidget.cpp:145
+#: src/view/p15cardwidget.cpp:149
 #, kde-format
 msgctxt "%1 is a smartcard manufacturer"
 msgid "%1 PKCS#15 card"
 msgstr ""
 
-#: src/view/padwidget.cpp:79 src/view/padwidget.cpp:487
+#: src/view/padwidget.cpp:79 src/view/padwidget.cpp:486
 #, kde-format
 msgid "Sign / Encrypt Notepad"
 msgstr ""
@@ -9631,7 +9642,7 @@ msgstr ""
 msgid "Enter a message to encrypt or decrypt..."
 msgstr ""
 
-#: src/view/padwidget.cpp:307 src/view/padwidget.cpp:348
+#: src/view/padwidget.cpp:306 src/view/padwidget.cpp:348
 #, kde-format
 msgctxt "@title"
 msgid "Error in crypto action"
@@ -9642,7 +9653,7 @@ msgstr ""
 msgid "Decrypt / Verify"
 msgstr ""
 
-#: src/view/padwidget.cpp:388
+#: src/view/padwidget.cpp:387
 #, kde-kuit-format
 msgctxt ""
 "@info %1 is a placeholder for the name of a compliance mode. E.g. NATO "
@@ -9653,12 +9664,12 @@ msgid ""
 "<application>Kleopatra</application> is not %1.</para>"
 msgstr ""
 
-#: src/view/padwidget.cpp:437
+#: src/view/padwidget.cpp:436
 #, kde-format
 msgid "Importing..."
 msgstr ""
 
-#: src/view/padwidget.cpp:475 src/view/padwidget.cpp:484
+#: src/view/padwidget.cpp:474 src/view/padwidget.cpp:483
 #, kde-format
 msgctxt ""
 "1 is an operation to apply to the notepad. Like Sign/Encrypt or just Encrypt."

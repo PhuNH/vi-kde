@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-04 02:13+0000\n"
+"POT-Creation-Date: 2022-04-27 02:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -302,7 +302,7 @@ msgctxt "open application menu"
 msgid "Application Menu"
 msgstr ""
 
-#: qml/ApplicationMenu.qml:25 qml/NativeGlobalMenu.qml:29
+#: qml/ApplicationMenu.qml:25 qml/NativeGlobalMenu.qml:33
 #: qml/NativeTrayMenu.qml:25
 #, kde-format
 msgctxt "Refresh Music Collection application menu entry"
@@ -391,17 +391,17 @@ msgstr ""
 msgid "Warning"
 msgstr ""
 
-#: qml/ElisaMainWindow.qml:26 qml/MediaPlayListView.qml:388
-#, kde-format
-msgid "Retry"
-msgstr ""
-
 #: qml/ElisaMainWindow.qml:26
 #, kde-format
 msgid "Loading failed"
 msgstr ""
 
-#: qml/ElisaMainWindow.qml:30 qml/MediaPlayListView.qml:315
+#: qml/ElisaMainWindow.qml:26 qml/ElisaMainWindow.qml:163
+#, kde-format
+msgid "Retry"
+msgstr ""
+
+#: qml/ElisaMainWindow.qml:30 qml/MediaPlayListView.qml:310
 #, kde-format
 msgid "Undo"
 msgstr ""
@@ -421,6 +421,17 @@ msgstr ""
 #, kde-format
 msgctxt "Window title"
 msgid "Elisa"
+msgstr ""
+
+#: qml/ElisaMainWindow.qml:157
+#, kde-format
+msgctxt "file type (mime type) for m3u and m3u8 playlist file formats"
+msgid "Playlist (*.m3u*)"
+msgstr ""
+
+#: qml/ElisaMainWindow.qml:163
+#, kde-format
+msgid "Saving failed"
 msgstr ""
 
 #: qml/GridBrowserDelegate.qml:203 qml/GridBrowserDelegate.qml:415
@@ -595,30 +606,30 @@ msgid "Current: Repeat all tracks in playlist"
 msgstr ""
 
 #: qml/MediaPlayerControl.qml:155 qml/mobile/MobileTrackPlayer.qml:261
-#: qml/NativeGlobalMenu.qml:133
+#: qml/NativeGlobalMenu.qml:137
 #, kde-format
 msgid "Playlist"
 msgstr ""
 
 #: qml/MediaPlayerControl.qml:159 qml/mobile/MobileTrackPlayer.qml:265
-#: qml/NativeGlobalMenu.qml:137
+#: qml/NativeGlobalMenu.qml:141
 #, kde-format
 msgid "One"
 msgstr ""
 
 #: qml/MediaPlayerControl.qml:163 qml/mobile/MobileTrackPlayer.qml:269
-#: qml/NativeGlobalMenu.qml:141
+#: qml/NativeGlobalMenu.qml:145
 #, kde-format
 msgid "None"
 msgstr ""
 
-#: qml/MediaPlayerControl.qml:179 qml/NativeGlobalMenu.qml:64
+#: qml/MediaPlayerControl.qml:179 qml/NativeGlobalMenu.qml:68
 #: qml/NativeTrayMenu.qml:51
 #, kde-format
 msgid "Show Playlist"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:28
+#: qml/MediaPlayListView.qml:27
 #, kde-format
 msgctxt ""
 "@info Title of the view of the playlist; keep this string as short as "
@@ -626,55 +637,55 @@ msgctxt ""
 msgid "Playlist"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:63
+#: qml/MediaPlayListView.qml:62
 #, kde-format
 msgctxt "Save a playlist file"
 msgid "Save…"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:75
+#: qml/MediaPlayListView.qml:72
 #, kde-format
 msgctxt "Load a playlist file"
 msgid "Load…"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:177
+#: qml/MediaPlayListView.qml:172
 #, kde-format
 msgid "Playlist is empty"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:178
+#: qml/MediaPlayListView.qml:173
 #, kde-format
 msgid ""
 "Add some songs to get started. You can browse your music using the views on "
 "the left."
 msgstr ""
 
-#: qml/MediaPlayListView.qml:250
+#: qml/MediaPlayListView.qml:245
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Your playlist is empty."
 msgstr ""
 
-#: qml/MediaPlayListView.qml:311
+#: qml/MediaPlayListView.qml:306
 #, kde-format
 msgctxt "Playlist cleared"
 msgid "Playlist cleared"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:334 qml/MediaPlayListView.qml:339
+#: qml/MediaPlayListView.qml:329 qml/MediaPlayListView.qml:334
 #, kde-format
 msgid "%1 track"
 msgid_plural "%1 tracks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qml/MediaPlayListView.qml:337
+#: qml/MediaPlayListView.qml:332
 #, kde-format
 msgid "1 track"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:340
+#: qml/MediaPlayListView.qml:335
 #, kde-format
 msgctxt "number of tracks remaining"
 msgid "%1 remaining"
@@ -682,33 +693,22 @@ msgid_plural "%1 remaining"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qml/MediaPlayListView.qml:341
+#: qml/MediaPlayListView.qml:336
 #, kde-format
 msgctxt "%1 is the translation of track[s], %2 is the translation of remaining"
 msgid "%1 (%2)"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:355
+#: qml/MediaPlayListView.qml:350
 #, kde-format
 msgctxt "Show currently played track inside playlist"
 msgid "Show Current"
 msgstr ""
 
-#: qml/MediaPlayListView.qml:366
+#: qml/MediaPlayListView.qml:361
 #, kde-format
 msgctxt "Remove all tracks from play list"
 msgid "Clear All"
-msgstr ""
-
-#: qml/MediaPlayListView.qml:382
-#, kde-format
-msgctxt "file type (mime type) for m3u and m3u8 playlist file formats"
-msgid "Playlist (*.m3u*)"
-msgstr ""
-
-#: qml/MediaPlayListView.qml:388
-#, kde-format
-msgid "Saving failed"
 msgstr ""
 
 #: qml/MediaTrackMetadataForm.qml:37
@@ -803,93 +803,93 @@ msgctxt "menu entry"
 msgid "Save Playlist…"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:23
+#: qml/NativeGlobalMenu.qml:25
 #, kde-format
 msgctxt "menu entry"
 msgid "Open Playlist…"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:49
+#: qml/NativeGlobalMenu.qml:53
 #, kde-format
 msgctxt "menu category"
 msgid "View"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:52
+#: qml/NativeGlobalMenu.qml:56
 #, kde-format
 msgctxt "menu entry"
 msgid "Toggle Party Mode"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:58
+#: qml/NativeGlobalMenu.qml:62
 #, kde-format
 msgctxt "menu entry"
 msgid "Leave Fullscreen"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:58
+#: qml/NativeGlobalMenu.qml:62
 #, kde-format
 msgctxt "menu entry"
 msgid "Enter Fullscreen"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:64
+#: qml/NativeGlobalMenu.qml:68
 #, kde-format
 msgid "Hide Playlist"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:70
+#: qml/NativeGlobalMenu.qml:74
 #, kde-format
 msgctxt "menu category"
 msgid "Controls"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:73 qml/NavigationActionBar.qml:141
+#: qml/NativeGlobalMenu.qml:77 qml/NavigationActionBar.qml:141
 #, kde-format
 msgid "Play"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:73
+#: qml/NativeGlobalMenu.qml:77
 #, kde-format
 msgid "Pause"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:80
+#: qml/NativeGlobalMenu.qml:84
 #, kde-format
 msgid "Stop"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:89
+#: qml/NativeGlobalMenu.qml:93
 #, kde-format
 msgid "Increase Volume"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:94
+#: qml/NativeGlobalMenu.qml:98
 #, kde-format
 msgid "Decrease Volume"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:104
+#: qml/NativeGlobalMenu.qml:108
 #, kde-format
 msgid "Shuffle"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:111
+#: qml/NativeGlobalMenu.qml:115
 #, kde-format
 msgid "On"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:117
+#: qml/NativeGlobalMenu.qml:121
 #, kde-format
 msgid "Off"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:126
+#: qml/NativeGlobalMenu.qml:130
 #, kde-format
 msgid "Repeat"
 msgstr ""
 
-#: qml/NativeGlobalMenu.qml:147
+#: qml/NativeGlobalMenu.qml:151
 #, kde-format
 msgctxt "menu category"
 msgid "Help"
