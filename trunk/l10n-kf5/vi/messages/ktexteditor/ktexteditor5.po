@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-02 00:41+0000\n"
+"POT-Creation-Date: 2022-05-03 00:41+0000\n"
 "PO-Revision-Date: 2022-05-02 22:21+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -124,7 +124,6 @@ msgstr "Chọn"
 #. i18n: ectx: Menu (capitalization)
 #: data/katepart5ui.rc:51
 #, kde-format
-#| msgid "Capitalize"
 msgid "Capitalization"
 msgstr "Viết hoa"
 
@@ -419,21 +418,18 @@ msgstr "Sắp xếp trình đơn \"Dấu nhớ\":"
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: dialogs/bordersappearanceconfigwidget.ui:295
 #, kde-format
-#| msgid "Scro&llbars visibility:"
 msgid "Folding arrows visibility:"
 msgstr "Hiển thị mũi tên gập:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFoldingArrowVisiblity)
 #: dialogs/bordersappearanceconfigwidget.ui:303
 #, kde-format
-#| msgid "Show &Icon Border"
 msgid "Show on Hover"
 msgstr "Hiện khi đảo chuột"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFoldingArrowVisiblity)
 #: dialogs/bordersappearanceconfigwidget.ui:308
 #, kde-format
-#| msgid "Always"
 msgid "Show Always"
 msgstr "Luôn hiện"
 
@@ -1758,7 +1754,6 @@ msgstr "Ghi thêm dòng mới vào cuối tệp khi lưu"
 #. i18n: ectx: property (title), widget (QGroupBox, gbAutoSave)
 #: dialogs/opensaveconfigwidget.ui:239
 #, kde-format
-#| msgid "Enable Auto Reload"
 msgid "Enable Auto Save (local files only)"
 msgstr "Bật lưu tự động (chỉ cho tệp cục bộ)"
 
@@ -2045,7 +2040,6 @@ msgstr "% chiều rộng khung xem"
 #. i18n: ectx: property (text), widget (QLabel, lblLineHeight)
 #: dialogs/textareaappearanceconfigwidget.ui:416
 #, kde-format
-#| msgid "Line length limit:"
 msgid "Line Height Multiplier:"
 msgstr "Hệ số độ cao dòng:"
 
@@ -2095,12 +2089,12 @@ msgctxt "translators: you can also translate 'Try Again' with 'Reload'"
 msgid "Try Again"
 msgstr "Tải lại"
 
-#: document/katedocument.cpp:2307 document/katedocument.cpp:6423
+#: document/katedocument.cpp:2307 document/katedocument.cpp:6439
 #, kde-format
 msgid "&Close"
 msgstr "Đón&g"
 
-#: document/katedocument.cpp:2308 document/katedocument.cpp:6424
+#: document/katedocument.cpp:2308 document/katedocument.cpp:6440
 #, kde-format
 msgid "Close message"
 msgstr "Đóng thông điệp"
@@ -2118,29 +2112,19 @@ msgstr ""
 
 #: document/katedocument.cpp:2443
 #, kde-format
-#| msgid ""
-#| "The file %1 was opened with UTF-8 encoding but contained invalid "
-#| "characters. It is set to read-only mode, as saving might destroy it's "
-#| "content. Either reopen the file with the correct encoding chosen or "
-#| "enable the read-write mode again in the menu to be able to edit it."
 msgid ""
 "The file %1 was opened with %2 encoding but contained invalid characters."
 "<br />It is set to read-only mode, as saving might destroy its content.<br /"
 ">Either reopen the file with the correct encoding chosen or enable the read-"
 "write mode again in the tools menu to be able to edit it."
 msgstr ""
-"Tệp %1 đã được mở với bộ mã hoá %2 nhưng lại chứa kí tự không hợp lệ.<br />"
-"Nó đã được đặt sang chế độ chỉ đọc, vì việc lưu lại có thể làm hỏng nội dung "
-"của nó.<br />Hoặc mở lại tệp này với bộ mã hoá đúng, hoặc bật lại chế độ đọc-"
-"ghi trong trình đơn 'Công cụ' để có thể chỉnh sửa nó."
+"Tệp %1 đã được mở với bộ mã hoá %2 nhưng lại chứa kí tự không hợp lệ.<br /"
+">Nó đã được đặt sang chế độ chỉ đọc, vì việc lưu lại có thể làm hỏng nội "
+"dung của nó.<br />Hoặc mở lại tệp này với bộ mã hoá đúng, hoặc bật lại chế "
+"độ đọc-ghi trong trình đơn 'Công cụ' để có thể chỉnh sửa nó."
 
 #: document/katedocument.cpp:2455
 #, kde-format
-#| msgid ""
-#| "The file %1 was opened with UTF-8 encoding but contained invalid "
-#| "characters. It is set to read-only mode, as saving might destroy it's "
-#| "content. Either reopen the file with the correct encoding chosen or "
-#| "enable the read-write mode again in the menu to be able to edit it."
 msgid ""
 "The file %1 was opened with %2 encoding but contained invalid characters. It "
 "is set to read-only mode, as saving might destroy its content. Either reopen "
@@ -2226,9 +2210,6 @@ msgstr "Có thể mất dữ liệu"
 
 #: document/katedocument.cpp:2538
 #, kde-format
-#| msgid ""
-#| "The selected encoding cannot encode every unicode character in this "
-#| "document. Do you really want to save it? There could be some data lost."
 msgid ""
 "The selected encoding cannot encode every Unicode character in this "
 "document. Do you really want to save it? There could be some data lost."
@@ -2238,11 +2219,6 @@ msgstr ""
 
 #: document/katedocument.cpp:2583
 #, kde-format
-#| msgid ""
-#| "The document could not be saved, as it was not possible to write to %1.\n"
-#| "\n"
-#| "Check that you have write access to this file or that enough disk space "
-#| "is available."
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
 "Check that you have write access to this file or that enough disk space is "
@@ -2258,11 +2234,6 @@ msgstr ""
 
 #: document/katedocument.cpp:2704
 #, kde-format
-#| msgid ""
-#| "For file %1 no backup copy could be created before saving. If the there "
-#| "occurs an error while saving, you might loose the data of this file. A "
-#| "reason could be, that the media you write to is full or the directory of "
-#| "the file is read-only for you."
 msgid ""
 "For file %1 no backup copy could be created before saving. If an error "
 "occurs while saving, you might lose the data of this file. A reason could be "
@@ -2300,8 +2271,8 @@ msgid "Untitled"
 msgstr "Không tên"
 
 #: document/katedocument.cpp:4695 document/katedocument.cpp:4905
-#: document/katedocument.cpp:4915 document/katedocument.cpp:5638
-#: document/katedocument.cpp:5829
+#: document/katedocument.cpp:4915 document/katedocument.cpp:5654
+#: document/katedocument.cpp:5845
 #, kde-format
 msgid "Save File"
 msgstr "Lưu tệp"
@@ -2313,7 +2284,6 @@ msgstr "Lưu thất bại"
 
 #: document/katedocument.cpp:4926
 #, kde-format
-#| msgid "Save File"
 msgid "Save Copy of File"
 msgstr "Lưu bản sao của tệp"
 
@@ -2358,23 +2328,20 @@ msgstr ""
 
 #: document/katedocument.cpp:5501
 #, kde-format
-#| msgid "The file '%1' was modified by another program."
 msgid "The file '%1' was modified on disk."
 msgstr "Tệp '%1' đã bị chỉnh sửa trên đĩa."
 
 #: document/katedocument.cpp:5504
 #, kde-format
-#| msgid "The file '%1' was created by another program."
 msgid "The file '%1' was created on disk."
 msgstr "Tệp '%1' đã được tạo trên đĩa."
 
 #: document/katedocument.cpp:5507
 #, kde-format
-#| msgid "The file '%1' was deleted by another program."
 msgid "The file '%1' was deleted on disk."
 msgstr "Tệp '%1' đã bị xoá trên đĩa."
 
-#: document/katedocument.cpp:5814
+#: document/katedocument.cpp:5830
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -2383,18 +2350,17 @@ msgstr ""
 "Tài liệu \"%1\" đã bị chỉnh sửa.\n"
 "Bạn muốn lưu các thay đổi hay loại bỏ chúng?"
 
-#: document/katedocument.cpp:5817
+#: document/katedocument.cpp:5833
 #, kde-format
-#| msgid "&Word Wrap Document"
 msgid "Close Document"
 msgstr "Đóng tài liệu"
 
-#: document/katedocument.cpp:5926
+#: document/katedocument.cpp:5942
 #, kde-format
 msgid "The file <a href=\"%1\">%2</a> is still loading."
 msgstr "Tệp <a href=\"%1\">%2</a> vẫn đang tải."
 
-#: document/katedocument.cpp:5931
+#: document/katedocument.cpp:5947
 #, kde-format
 msgid "&Abort Loading"
 msgstr "Huỷ bỏ &việc tải"
@@ -2411,7 +2377,6 @@ msgstr "CHÈN"
 
 #: inputmode/katenormalinputmodefactory.cpp:29
 #, kde-format
-#| msgid "Normal Text"
 msgid "Normal Mode"
 msgstr "Chế độ thường"
 
@@ -2452,7 +2417,6 @@ msgstr "chế-độ-vi"
 
 #: inputmode/kateviinputmode.cpp:157
 #, kde-format
-#| msgid "E&ncoding"
 msgid "recording"
 msgstr "đang ghi"
 
@@ -2469,7 +2433,6 @@ msgstr "<Chưa thay đổi>"
 
 #: mode/katemodeconfigpage.cpp:58
 #, kde-format
-#| msgid "Use Default Style"
 msgid "Use Default"
 msgstr "Dùng mặc định"
 
@@ -2501,7 +2464,6 @@ msgstr "Chọn kiểu MIME"
 # msgid "Filetypes"
 #: mode/katemodeconfigpage.cpp:306
 #, kde-format
-#| msgid "Modes & Filetypes"
 msgid "Modes && Filetypes"
 msgstr "Chế độ & kiểu tệp"
 
@@ -2557,7 +2519,6 @@ msgstr "In số thứ tự &dòng"
 
 #: printing/printconfigwidgets.cpp:43
 #, kde-format
-#| msgid "Print &line numbers"
 msgid "Print &legend"
 msgstr "In &chú thích"
 
@@ -2570,9 +2531,6 @@ msgstr "<p>Nếu bật, các số thứ tự dòng sẽ được in bên trái (
 
 #: printing/printconfigwidgets.cpp:53
 #, kde-format
-#| msgid ""
-#| "<p>Print a box displaying typographical conventions for the document "
-#| "type, as defined by the syntax highlighting being used."
 msgid ""
 "<p>Print a box displaying typographical conventions for the document type, "
 "as defined by the syntax highlighting being used.</p>"
@@ -2652,14 +2610,6 @@ msgstr "<p>Dạng thức của phần đầu trang. Hỗ trợ các thẻ sau đ
 
 #: printing/printconfigwidgets.cpp:246
 #, kde-format
-#| msgid ""
-#| "<ul><li><tt>%u</tt>: current user name</li><li><tt>%d</tt>: complete date/"
-#| "time in short format</li><li><tt>%D</tt>: complete date/time in long "
-#| "format</li><li><tt>%h</tt>: current time</li><li><tt>%y</tt>: current "
-#| "date in short format</li><li><tt>%Y</tt>: current date in long format</"
-#| "li><li><tt>%f</tt>: file name</li><li><tt>%U</tt>: full URL of the "
-#| "document</li><li><tt>%p</tt>: page number</li></ul><br><u>Note:</u> Do "
-#| "<b>not</b> use the '|' (vertical bar) character."
 msgid ""
 "<ul><li><tt>%u</tt>: current user name</li><li><tt>%d</tt>: complete date/"
 "time in short format</li><li><tt>%D</tt>: complete date/time in long format</"
@@ -2669,11 +2619,11 @@ msgid ""
 "page number</li><li><tt>%P</tt>: total amount of pages</li></ul><br />"
 msgstr ""
 "<ul><li><tt>%u</tt>: tên người dùng hiện tại</li><li><tt>%d</tt>: ngày/giờ "
-"đầy đủ ở dạng ngắn</li><li><tt>%D</tt>: ngày/giờ đầy đủ ở dạng dài</li><li>"
-"<tt>%h</tt>: giờ hiện tại</li><li><tt>%y</tt>: ngày hiện tại ở dạng ngắn</li>"
-"<li><tt>%Y</tt>: ngày hiện tại ở dạng dài</li><li><tt>%f</tt>: tên tệp</li>"
-"<li><tt>%U</tt>: URL đầy đủ của tài liệu</li><li><tt>%p</tt>: số thứ tự trang"
-"</li><li><tt>%P</tt>: tổng số trang</li></ul><br />"
+"đầy đủ ở dạng ngắn</li><li><tt>%D</tt>: ngày/giờ đầy đủ ở dạng dài</"
+"li><li><tt>%h</tt>: giờ hiện tại</li><li><tt>%y</tt>: ngày hiện tại ở dạng "
+"ngắn</li><li><tt>%Y</tt>: ngày hiện tại ở dạng dài</li><li><tt>%f</tt>: tên "
+"tệp</li><li><tt>%U</tt>: URL đầy đủ của tài liệu</li><li><tt>%p</tt>: số thứ "
+"tự trang</li><li><tt>%P</tt>: tổng số trang</li></ul><br />"
 
 #: printing/printconfigwidgets.cpp:260
 #, kde-format
@@ -2692,7 +2642,6 @@ msgstr "Thêm phần giữ chỗ..."
 
 #: printing/printconfigwidgets.cpp:358
 #, kde-format
-#| msgid "Current Word Only"
 msgid "Current User Name"
 msgstr "Tên người dùng hiện tại"
 
@@ -2708,7 +2657,6 @@ msgstr "Ngày/giờ đầy đủ (dạng dài)"
 
 #: printing/printconfigwidgets.cpp:364
 #, kde-format
-#| msgid "Current Word Only"
 msgid "Current Time"
 msgstr "Giờ hiện tại"
 
@@ -2724,7 +2672,6 @@ msgstr "Ngày hiện tại (dạng dài)"
 
 #: printing/printconfigwidgets.cpp:370
 #, kde-format
-#| msgid "File Masks"
 msgid "File Name"
 msgstr "Tên tệp"
 
@@ -2750,7 +2697,6 @@ msgstr "&Bố cục"
 
 #: printing/printconfigwidgets.cpp:491
 #, kde-format
-#| msgid "Colors"
 msgid "&Color theme:"
 msgstr "Chủ đề &màu:"
 
@@ -2836,7 +2782,6 @@ msgstr "Các quy ước thuật in máy cho %1"
 
 #: printing/printpainter.cpp:547
 #, kde-format
-#| msgid "Next"
 msgid "text"
 msgstr "văn bản"
 
@@ -2887,42 +2832,36 @@ msgstr "Chọn nội dung thẻ HTML/XML hướng ra ngoài"
 
 #: script/data/commands/emmet.js:30
 #, kde-format
-#| msgid "Comment"
 msgctxt "Script command name"
 msgid "Toggle comment"
 msgstr "Bật/tắt chú thích"
 
 #: script/data/commands/emmet.js:34
 #, kde-format
-#| msgid "Select to Next Line"
 msgctxt "Script command name"
 msgid "Go to next edit point"
 msgstr "Đi đến điểm sửa sau"
 
 #: script/data/commands/emmet.js:38
 #, kde-format
-#| msgid "Move to Previous Line"
 msgctxt "Script command name"
 msgid "Go to previous edit point"
 msgstr "Đi đến điểm sửa trước"
 
 #: script/data/commands/emmet.js:42
 #, kde-format
-#| msgid "Select to Next Line"
 msgctxt "Script command name"
 msgid "Select next edit point"
 msgstr "Chọn điểm sửa sau"
 
 #: script/data/commands/emmet.js:46
 #, kde-format
-#| msgid "Select to Previous Line"
 msgctxt "Script command name"
 msgid "Select previous edit point"
 msgstr "Chọn điểm sửa trước"
 
 #: script/data/commands/emmet.js:50
 #, kde-format
-#| msgid "Print the current document."
 msgctxt "Script command name"
 msgid "Delete tag under cursor"
 msgstr "Xoá thẻ ở vị trí con trỏ"
@@ -2981,8 +2920,8 @@ msgid ""
 "Expands the abbreviation using Emmet expressions; see http://code.google.com/"
 "p/zen-coding/wiki/ZenHTMLSelectorsEn"
 msgstr ""
-"Mở rộng từ viết tắt bằng biểu thức Emmet; xem http://code.google.com/"
-"p/zen-coding/wiki/ZenHTMLSelectorsEn"
+"Mở rộng từ viết tắt bằng biểu thức Emmet; xem http://code.google.com/p/zen-"
+"coding/wiki/ZenHTMLSelectorsEn"
 
 #: script/data/commands/emmet.js:97
 #, kde-format
@@ -4648,7 +4587,6 @@ msgstr ""
 
 #: syntax/katethemeconfig.cpp:235
 #, kde-format
-#| msgid "Show Static &Word Wrap Marker"
 msgid "Word Wrap Marker"
 msgstr "Chỉ dấu bọc từ"
 
@@ -4660,10 +4598,10 @@ msgid ""
 "wrapped</dd><dt>Dynamic Word Wrap</dt><dd>An arrow shown to the left of "
 "visually-wrapped lines</dd></dl>"
 msgstr ""
-"<p>Đặt màu cho các chỉ dấu liên quan đến bọc từ:</p><dl><dt>Bọc từ tĩnh</dt>"
-"<dd>Một đường dọc cho biết cột nơi mà văn bản sẽ được bọc</dd><dt>Bọc từ động"
-"</dt><dd>Một mũi tên hiện ra ở bên trái các dòng được bọc một cách trực quan"
-"</dd></dl>"
+"<p>Đặt màu cho các chỉ dấu liên quan đến bọc từ:</p><dl><dt>Bọc từ tĩnh</"
+"dt><dd>Một đường dọc cho biết cột nơi mà văn bản sẽ được bọc</dd><dt>Bọc từ "
+"động</dt><dd>Một mũi tên hiện ra ở bên trái các dòng được bọc một cách trực "
+"quan</dd></dl>"
 
 #: syntax/katethemeconfig.cpp:245
 #, fuzzy, kde-format
@@ -6324,7 +6262,6 @@ msgstr "Đặt số cột để bọc từ."
 
 #: variableeditor/variablelineedit.cpp:339
 #, kde-format
-#| msgid "S&elected Background Color..."
 msgctxt "short translation please"
 msgid "Set the word wrap marker color."
 msgstr "Đặt màu cho chỉ dấu bọc từ."
@@ -6557,7 +6494,6 @@ msgstr "Văn lệnh"
 
 #: view/kateview.cpp:490
 #, kde-format
-#| msgid "&Dynamic Word Wrap"
 msgid "Apply &Word Wrap"
 msgstr "Áp dụng &bọc từ"
 
@@ -6569,8 +6505,8 @@ msgid ""
 "<br /><br />This is a static word wrap, meaning the document is changed."
 msgstr ""
 "Dùng chức năng này để bọc dòng hiện tại, hoặc để định dạng các dòng đã chọn "
-"thành đoạn văn, khớp với thiết lập 'Bọc từ ở:' trong hộp thoại cấu hình."
-"<br /><br />Đây là một cách bọc từ tĩnh, tức là tài liệu sẽ bị thay đổi."
+"thành đoạn văn, khớp với thiết lập 'Bọc từ ở:' trong hộp thoại cấu hình.<br /"
+"><br />Đây là một cách bọc từ tĩnh, tức là tài liệu sẽ bị thay đổi."
 
 #: view/kateview.cpp:498
 #, kde-format
@@ -6929,9 +6865,6 @@ msgstr "Bọc từ độn&g"
 
 #: view/kateview.cpp:723
 #, kde-format
-#| msgid ""
-#| "If this option is checked, the text lines will be wrapped at the view "
-#| "border on the screen."
 msgid ""
 "If this option is checked, the text lines will be wrapped at the view border "
 "on the screen.<br /><br />This is only a view option, meaning the document "
@@ -6973,9 +6906,6 @@ msgstr "Bọc từ tĩnh"
 
 #: view/kateview.cpp:737
 #, kde-format
-#| msgid ""
-#| "If this option is checked, the text lines will be wrapped at the view "
-#| "border on the screen."
 msgid ""
 "If this option is checked, the text lines will be wrapped at the column "
 "defined in the editing properties."
@@ -7475,7 +7405,6 @@ msgstr "Chọn tới cuối khung xem"
 
 #: view/kateview.cpp:1144
 #, kde-format
-#| msgid "Move to Matching Bracket"
 msgid "Go to Matching Bracket"
 msgstr "Đi đến dấu ngoặc cùng cặp"
 
@@ -7833,10 +7762,10 @@ msgid ""
 "\") in document list. </p><p> <b>[N]</b> defaults to one. </p><p>Wraps "
 "around the start of the document list.</p>"
 msgstr ""
-"<p><b>bp,bprev &mdash; chuyển sang tài liệu trước</b></p><p>Sử dụng: <tt><b>"
-"bp[revious] [N]</b></tt></p><p>Đi đến tài liệu (\"<b>b</b>uffer\") thứ <b>[N]"
-"</b> ở trước trong danh sách tài liệu. </p><p> <b>[N]</b> mặc định là 1.</p>"
-"<p>Xoay vòng ở đầu danh sách tài liệu.</p>"
+"<p><b>bp,bprev &mdash; chuyển sang tài liệu trước</b></p><p>Sử dụng: "
+"<tt><b>bp[revious] [N]</b></tt></p><p>Đi đến tài liệu (\"<b>b</b>uffer\") "
+"thứ <b>[N]</b> ở trước trong danh sách tài liệu. </p><p> <b>[N]</b> mặc định "
+"là 1.</p><p>Xoay vòng ở đầu danh sách tài liệu.</p>"
 
 #: vimode/appcommands.cpp:518
 #, kde-format
@@ -7846,10 +7775,10 @@ msgid ""
 "(\"<b>b</b>uffer\") in document list.<b>[N]</b> defaults to one. </"
 "p><p>Wraps around the end of the document list.</p>"
 msgstr ""
-"<p><b>bn,bnext &mdash; chuyển sang tài liệu sau</b></p><p>Sử dụng: <tt><b>"
-"bn[ext] [N]</b></tt></p><p>Đi đến tài liệu (\"<b>b</b>uffer\") thứ <b>[N]</b> "
-"ở sau trong danh sách tài liệu. </p><p> <b>[N]</b> mặc định là 1.</p><p>Xoay "
-"vòng ở cuối danh sách tài liệu.</p>"
+"<p><b>bn,bnext &mdash; chuyển sang tài liệu sau</b></p><p>Sử dụng: "
+"<tt><b>bn[ext] [N]</b></tt></p><p>Đi đến tài liệu (\"<b>b</b>uffer\") thứ "
+"<b>[N]</b> ở sau trong danh sách tài liệu. </p><p> <b>[N]</b> mặc định là 1."
+"</p><p>Xoay vòng ở cuối danh sách tài liệu.</p>"
 
 #: vimode/appcommands.cpp:526
 #, kde-format
