@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-29 00:47+0000\n"
+"POT-Creation-Date: 2022-05-04 00:49+0000\n"
 "PO-Revision-Date: 2022-05-02 11:29+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -240,7 +240,7 @@ msgid "..."
 msgstr "..."
 
 #. i18n: ectx: property (text), widget (QPushButton, replaceButton)
-#: search.ui:192 SearchPlugin.cpp:493
+#: search.ui:192 SearchPlugin.cpp:494
 #, kde-format
 msgid "Replace"
 msgstr "Thay thế"
@@ -501,26 +501,28 @@ msgid "Kate Search & Replace"
 msgstr "Tìm kiếm & thay thế trong Kate"
 
 #: SearchPlugin.cpp:337
-#, kde-format
-msgid "Search in Files"
-msgstr "Tìm kiếm trong các tệp"
+#, fuzzy, kde-format
+#| msgid "In Open Files"
+msgid "Find in Files"
+msgstr "Trong các tệp đang mở"
 
-#: SearchPlugin.cpp:341
-#, kde-format
-msgid "Search in Files (in new tab)"
+#: SearchPlugin.cpp:342
+#, fuzzy, kde-format
+#| msgid "Search in Files (in new tab)"
+msgid "Find in Files (in new tab)"
 msgstr "Tìm kiếm trong các tệp (trong thẻ mới)"
 
-#: SearchPlugin.cpp:347
+#: SearchPlugin.cpp:348
 #, kde-format
 msgid "Go to Next Match"
 msgstr "Đi đến phần khớp sau"
 
-#: SearchPlugin.cpp:352
+#: SearchPlugin.cpp:353
 #, kde-format
 msgid "Go to Previous Match"
 msgstr "Đi đến phần khớp trước"
 
-#: SearchPlugin.cpp:380
+#: SearchPlugin.cpp:381
 #, kde-format
 msgid ""
 "Comma separated list of file types to search in. Example: \"*.cpp,*.h\"\n"
@@ -528,7 +530,7 @@ msgstr ""
 "Danh sách phân cách bởi dấu phẩy các kiểu tệp để tìm ở trong. Ví dụ: \"*.cpp,"
 "*.h\"\n"
 
-#: SearchPlugin.cpp:381
+#: SearchPlugin.cpp:382
 #, kde-format
 msgid ""
 "Comma separated list of files and directories to exclude from the search. "
@@ -537,88 +539,88 @@ msgstr ""
 "Danh sách phân cách bởi dấu phẩy các tệp và thư mục để loại trừ khỏi việc "
 "tìm kiếm. Ví dụ: \"build*\""
 
-#: SearchPlugin.cpp:383
+#: SearchPlugin.cpp:384
 #, kde-format
 msgid "Click to filter through results"
 msgstr "Bấm để lọc các kết quả"
 
-#: SearchPlugin.cpp:473
+#: SearchPlugin.cpp:474
 #, kde-format
 msgid "Find"
 msgstr "Tìm"
 
-#: SearchPlugin.cpp:1222
+#: SearchPlugin.cpp:1223
 #, kde-format
 msgid "Searching while you type was interrupted. It would have taken too long."
 msgstr ""
 "Việc tìm kiếm trong khi gõ đã bị ngắt. Nếu tiếp tục, nó sẽ chạy quá lâu."
 
-#: SearchPlugin.cpp:1564
+#: SearchPlugin.cpp:1565
 #, kde-format
 msgid "Search Match"
 msgstr "Phần khớp tìm kiếm"
 
-#: SearchPlugin.cpp:1747 SearchPlugin.cpp:1824
+#: SearchPlugin.cpp:1748 SearchPlugin.cpp:1825
 #, kde-format
 msgid "Next from cursor"
 msgstr "Tiếp theo từ con trỏ"
 
-#: SearchPlugin.cpp:1764
+#: SearchPlugin.cpp:1765
 #, kde-format
 msgid "Starting from first match"
 msgstr "Bắt đầu từ phần khớp đầu tiên"
 
-#: SearchPlugin.cpp:1784
+#: SearchPlugin.cpp:1785
 #, kde-format
 msgid "Continuing from first match"
 msgstr "Tiếp tục từ phần khớp đầu tiên"
 
-#: SearchPlugin.cpp:1841
+#: SearchPlugin.cpp:1842
 #, kde-format
 msgid "Starting from last match"
 msgstr "Bắt đầu từ phần khớp cuối cùng"
 
-#: SearchPlugin.cpp:1861
+#: SearchPlugin.cpp:1862
 #, kde-format
 msgid "Continuing from last match"
 msgstr "Tiếp tục từ phần khớp cuối cùng"
 
-#: SearchPlugin.cpp:2132
+#: SearchPlugin.cpp:2133
 #, kde-format
 msgid "Copy all"
 msgstr "Chép tất cả"
 
-#: SearchPlugin.cpp:2137
+#: SearchPlugin.cpp:2138
 #, kde-format
 msgid "Copy expanded"
 msgstr "Chép mục được mở rộng"
 
-#: SearchPlugin.cpp:2140
+#: SearchPlugin.cpp:2141
 #, kde-format
 msgid "Export matches"
 msgstr "Xuất khẩu các đoạn khớp"
 
-#: SearchPlugin.cpp:2145
+#: SearchPlugin.cpp:2146
 #, kde-format
 msgid "Clear"
 msgstr "Làm trống"
 
-#: SearchPlugin.cpp:2253 SearchPlugin.cpp:2287
+#: SearchPlugin.cpp:2254 SearchPlugin.cpp:2288
 #, kde-format
 msgid "Add..."
 msgstr "Thêm..."
 
-#: SearchPlugin.cpp:2265
+#: SearchPlugin.cpp:2266
 #, kde-format
 msgid "Search As You Type"
 msgstr "Tìm trong khi gõ"
 
-#: SearchPlugin.cpp:2336
+#: SearchPlugin.cpp:2337
 #, kde-format
 msgid "In Current Project"
 msgstr "Trong dự án hiện tại"
 
-#: SearchPlugin.cpp:2338
+#: SearchPlugin.cpp:2339
 #, kde-format
 msgid "In All Open Projects"
 msgstr "Trong tất cả các dự án đang mở"
@@ -632,8 +634,14 @@ msgstr "&Sửa"
 #. i18n: ectx: Menu (search_more)
 #: ui.rc:9
 #, kde-format
-msgid "Search More"
-msgstr "Tìm thêm"
+msgid "Find in Files Variants"
+msgstr ""
+
+#~ msgid "Search in Files"
+#~ msgstr "Tìm kiếm trong các tệp"
+
+#~ msgid "Search More"
+#~ msgstr "Tìm thêm"
 
 #~ msgid "Type to filter through results..."
 #~ msgstr "Gõ để lọc các kết quả..."
