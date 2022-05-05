@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-05-04 00:42+0000\n"
-"PO-Revision-Date: 2022-05-04 21:40+0200\n"
+"PO-Revision-Date: 2022-05-05 11:08+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -598,8 +598,8 @@ msgid ""
 "When some text is selected these chars will be added on both its sides in a "
 "way \"Auto Bracket\" do"
 msgstr ""
-"Khi một đoạn chữ được chọn, các kí tự này sẽ được thêm vào hai phía của đoạn "
-"đó theo cách giống như \"Ngoặc tự động\""
+"Khi một đoạn chữ được bôi đen, các kí tự này sẽ được thêm vào hai phía của "
+"đoạn đó theo cách giống như \"Ngoặc tự động\""
 
 #. i18n: ectx: property (text), widget (QLabel, lbEncloseSelection)
 #: dialogs/editconfigwidget.ui:140
@@ -617,13 +617,13 @@ msgstr "Chép và dán:"
 #: dialogs/editconfigwidget.ui:167
 #, kde-format
 msgid "Move selected text when dragged"
-msgstr "Khi kéo, di chuyển đoạn đã chọn "
+msgstr "Khi kéo, di chuyển đoạn bôi đen"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSmartCopyCut)
 #: dialogs/editconfigwidget.ui:174
 #, kde-format
 msgid "Copy/cut the current line if invoked without any text selected"
-msgstr "Chép/cắt dòng hiện tại nếu được gọi mà đang không chọn gì"
+msgstr "Chép/cắt dòng hiện tại nếu được gọi mà đang không bôi đen gì"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMousePasteAtCursorPosition)
 #: dialogs/editconfigwidget.ui:181
@@ -638,8 +638,8 @@ msgid ""
 "When you type these characters while text is selected, they will surround "
 "the selected text instead of replacing it."
 msgstr ""
-"Khi bạn gõ những kí tự này mà có phần chữ đang được chọn, chúng sẽ bao quanh "
-"thay vì thay thế phần chữ được chọn."
+"Khi bạn gõ những kí tự này mà đang có phần bôi đen, chúng sẽ bao quanh "
+"thay vì thay thế phần bôi đen."
 
 #. i18n: ectx: property (text), widget (QLabel, lblFiletype)
 #: dialogs/filetypeconfigwidget.ui:14
@@ -723,8 +723,8 @@ msgid ""
 "set, such as highlight, indent-mode, encoding, etc.</p><p>For a full list of "
 "known variables, see the manual.</p>"
 msgstr ""
-"<p>Chuỗi này cho phép cấu hình các thiết lập của Kate cho các tệp được chọn "
-"ra bởi kiểu MIME này bằng các biến Kate. Hầu như bất kì lựa chọn cấu hình "
+"<p>Chuỗi này cho phép dùng các biến Kate để cấu hình các thiết lập của Kate "
+"cho các tệp được chọn ra bởi kiểu MIME này. Hầu như bất kì lựa chọn cấu hình "
 "nào cũng có thể đặt được, chẳng hạn tô sáng, chế độ thụt lề, mã hoá, v.v.</"
 "p><p>Xem danh sách đầy đủ các biến đã có trong sổ tay.</p>"
 
@@ -782,7 +782,7 @@ msgstr ""
 #: dialogs/filetypeconfigwidget.ui:188
 #, kde-format
 msgid "Displays a wizard that helps you easily select mimetypes."
-msgstr "Hiển thị một trình hướng dẫn giúp đỡ bạn dễ dàng chọn các kiểu MIME."
+msgstr "Hiển thị một trình hướng dẫn giúp bạn dễ dàng chọn các kiểu MIME."
 
 #. i18n: ectx: property (text), widget (QLabel, lblPriority)
 #: dialogs/filetypeconfigwidget.ui:197
@@ -953,7 +953,7 @@ msgstr ""
 "\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body>\n"
-"<p>Hành động của phím Tab (nếu đang không chọn gì) <a href=\"Nếu bạn muốn "
+"<p>Hành động của phím Tab (nếu đang không bôi đen gì) <a href=\"Nếu bạn muốn "
 "phím <b>Tab</b> căn lề cho dòng hiện tại trong khối mã hiện tại như trong "
 "Emacs, hãy đặt <b>Tab</b> làm phím tắt cho hành động <b>Căn lề</b>."
 "\"><span>Thêm ...</span></a></p></body></html>"
@@ -1398,7 +1398,7 @@ msgstr "Hỗn hợp"
 #: dialogs/navigationconfigwidget.ui:128
 #, kde-format
 msgid "Text selection mode:"
-msgstr "Chế độ chọn văn bản:"
+msgstr "Chế độ bôi đen văn bản:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbTextSelectionMode)
 #: dialogs/navigationconfigwidget.ui:139 inputmode/katenormalinputmode.cpp:64
@@ -1847,14 +1847,14 @@ msgid ""
 "If this is enabled, the range between the selected matching brackets will be "
 "highlighted."
 msgstr ""
-"Nếu mục này được bật, khoảng chữ giữa các dấu ngoặc cùng cặp đã chọn sẽ được "
-"tô sáng."
+"Nếu mục này được bật, khoảng chữ giữa các dấu ngoặc cùng cặp được chọn sẽ "
+"được tô sáng."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowWholeBracketExpression)
 #: dialogs/textareaappearanceconfigwidget.ui:185
 #, kde-format
 msgid "Highlight range between selected brackets"
-msgstr "Tô sáng khoảng giữa các dấu ngoặc đã chọn"
+msgstr "Tô sáng khoảng giữa các dấu ngoặc được chọn"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkShowBracketMatchPreview)
 #: dialogs/textareaappearanceconfigwidget.ui:192
@@ -2773,7 +2773,7 @@ msgstr "Màu đường thẳng để dùng cho hộp"
 #: printing/printpainter.cpp:261
 #, kde-format
 msgid "(Selection of) "
-msgstr "(Phần chọn của) "
+msgstr "(Chọn lựa) "
 
 #: printing/printpainter.cpp:514
 #, kde-format
@@ -2822,13 +2822,13 @@ msgstr "Di chuyển con trỏ đến thẻ cùng cặp"
 #, kde-format
 msgctxt "Script command name"
 msgid "Select HTML/XML tag contents inwards"
-msgstr "Chọn nội dung thẻ HTML/XML hướng vào trong"
+msgstr "Bôi đen nội dung thẻ HTML/XML hướng vào trong"
 
 #: script/data/commands/emmet.js:26
 #, kde-format
 msgctxt "Script command name"
 msgid "Select HTML/XML tag contents outwards"
-msgstr "Chọn nội dung thẻ HTML/XML hướng ra ngoài"
+msgstr "Bôi đen nội dung thẻ HTML/XML hướng ra ngoài"
 
 #: script/data/commands/emmet.js:30
 #, kde-format
@@ -2852,13 +2852,13 @@ msgstr "Đi đến điểm sửa trước"
 #, kde-format
 msgctxt "Script command name"
 msgid "Select next edit point"
-msgstr "Chọn điểm sửa sau"
+msgstr "Bôi đen điểm sửa sau"
 
 #: script/data/commands/emmet.js:46
 #, kde-format
 msgctxt "Script command name"
 msgid "Select previous edit point"
-msgstr "Chọn điểm sửa trước"
+msgstr "Bôi đen điểm sửa trước"
 
 #: script/data/commands/emmet.js:50
 #, kde-format
@@ -2929,8 +2929,8 @@ msgid ""
 "Wraps the selected text in XML tags constructed from the provided Emmet "
 "expression (defaults to div)."
 msgstr ""
-"Đưa phần văn bản được chọn vào trong các thẻ XML tạo ra từ biểu thức Emmet "
-"đã cho (mặc định là div)."
+"Đưa phần văn bản được bôi đen vào trong các thẻ XML tạo ra từ biểu thức "
+"Emmet đã cho (mặc định là div)."
 
 #: script/data/commands/emmet.js:98
 #, kde-format
@@ -2942,14 +2942,16 @@ msgstr "Di chuyển dấu nháy đến thẻ cùng cặp với thẻ hiện tạ
 msgid ""
 "Select contents of HTML/XML tag, moving inward on continuous invocations"
 msgstr ""
-"Chọn nội dung thẻ HTML/XML, di chuyển vào trong ở các lần thực hiện liên tiếp"
+"Bôi đen nội dung thẻ HTML/XML, di chuyển vào trong ở các lần thực hiện liên"
+" tiếp"
 
 #: script/data/commands/emmet.js:100
 #, kde-format
 msgid ""
 "Select contents of HTML/XML tag, moving outwards on continuous invocations"
 msgstr ""
-"Chọn nội dung thẻ HTML/XML, di chuyển ra ngoài ở các lần thực hiện liên tiếp"
+"Bôi đen nội dung thẻ HTML/XML, di chuyển ra ngoài ở các lần thực hiện liên"
+" tiếp"
 
 #: script/data/commands/emmet.js:101
 #, kde-format
@@ -2964,12 +2966,12 @@ msgstr "Di chuyển đến điểm sửa trước (thẻ hoặc thuộc tính tr
 #: script/data/commands/emmet.js:103
 #, kde-format
 msgid "Select next edit point (tag or empty attribute)."
-msgstr "Chọn điểm sửa sau (thẻ hoặc thuộc tính trống)."
+msgstr "Bôi đen điểm sửa sau (thẻ hoặc thuộc tính trống)."
 
 #: script/data/commands/emmet.js:104
 #, kde-format
 msgid "Select previous edit point (tag or empty attribute)."
-msgstr "Chọn điểm sửa trước (thẻ hoặc thuộc tính trống)."
+msgstr "Bôi đen điểm sửa trước (thẻ hoặc thuộc tính trống)."
 
 #: script/data/commands/emmet.js:105
 #, kde-format
@@ -3071,7 +3073,7 @@ msgstr "Mở rộng từ viết tắt tạo mã nhanh"
 #, kde-format
 msgctxt "Script command name"
 msgid "Sort Selected Text"
-msgstr "Sắp xếp văn bản đã chọn"
+msgstr "Sắp xếp văn bản bôi đen"
 
 #: script/data/commands/utils.js:10 script/data/commands/utils.js:15
 #: script/data/commands/utils.js:20 script/data/commands/utils.js:24
@@ -3098,45 +3100,45 @@ msgstr "Di chuyển các dòng lên"
 #, kde-format
 msgctxt "Script command name"
 msgid "Duplicate Selected Lines Down"
-msgstr "Nhân đôi các dòng đã chọn xuống"
+msgstr "Nhân đôi các dòng bôi đen xuống"
 
 #: script/data/commands/utils.js:27
 #, kde-format
 msgctxt "Script command name"
 msgid "Duplicate Selected Lines Up"
-msgstr "Nhân đôi các dòng đã chọn lên"
+msgstr "Nhân đôi các dòng bôi đen lên"
 
 #: script/data/commands/utils.js:31
 #, kde-format
 msgctxt "Script command name"
 msgid "URI-encode Selected Text"
-msgstr "Mã hoá URI văn bản đã chọn"
+msgstr "Mã hoá URI văn bản bôi đen"
 
 #: script/data/commands/utils.js:35
 #, kde-format
 msgctxt "Script command name"
 msgid "URI-decode Selected Text"
-msgstr "Giải mã hoá URI văn bản đã chọn"
+msgstr "Giải mã hoá URI văn bản bôi đen"
 
 #: script/data/commands/utils.js:359
 #, kde-format
 msgid "Sort the selected text or whole document."
-msgstr "Sắp xếp văn bản đã chọn hoặc toàn bộ tài liệu."
+msgstr "Sắp xếp văn bản bôi đen hoặc toàn bộ tài liệu."
 
 #: script/data/commands/utils.js:361
 #, kde-format
 msgid "Move selected lines down."
-msgstr "Di chuyển các dòng đã chọn xuống."
+msgstr "Di chuyển các dòng bôi đen xuống."
 
 #: script/data/commands/utils.js:363
 #, kde-format
 msgid "Move selected lines up."
-msgstr "Di chuyển các dòng đã chọn lên."
+msgstr "Di chuyển các dòng bôi đen lên."
 
 #: script/data/commands/utils.js:365
 #, kde-format
 msgid "Remove duplicate lines from the selected text or whole document."
-msgstr "Xoá các dòng lặp lại khỏi văn bản đã chọn hoặc toàn bộ tài liệu."
+msgstr "Xoá các dòng lặp lại khỏi văn bản bôi đen hoặc toàn bộ tài liệu."
 
 #: script/data/commands/utils.js:367
 #, kde-format
@@ -3145,25 +3147,25 @@ msgid ""
 "example to show the difference to the normal sort method:<br>sort(a10, a1, "
 "a2) => a1, a10, a2<br>natsort(a10, a1, a2) => a1, a2, a10"
 msgstr ""
-"Sắp xếp văn bản đã chọn hoặc toàn bộ tài liệu theo thứ tự tự nhiên.<br>Đây "
+"Sắp xếp văn bản bôi đen hoặc toàn bộ tài liệu theo thứ tự tự nhiên.<br>Đây "
 "là một ví dụ cho thấy sự khác biệt so với phương pháp sắp xếp thông thường:"
 "<br>sort(a10, a1, a2) => a1, a10, a2<br>natsort(a10, a1, a2) => a1, a2, a10"
 
 #: script/data/commands/utils.js:369
 #, kde-format
 msgid "Trims trailing whitespace from selection or whole document."
-msgstr "Cắt bỏ khoảng trắng ở cuối trong phần chọn hoặc toàn bộ tài liệu."
+msgstr "Cắt bỏ khoảng trắng ở cuối trong phần bôi đen hoặc toàn bộ tài liệu."
 
 #: script/data/commands/utils.js:371
 #, kde-format
 msgid "Trims leading whitespace from selection or whole document."
-msgstr "Cắt bỏ khoảng trắng ở đầu trong phần chọn hoặc toàn bộ tài liệu."
+msgstr "Cắt bỏ khoảng trắng ở đầu trong phần bôi đen hoặc toàn bộ tài liệu."
 
 #: script/data/commands/utils.js:373
 #, kde-format
 msgid "Trims leading and trailing whitespace from selection or whole document."
 msgstr ""
-"Cắt bỏ khoảng trắng ở đầu và cuối trong phần chọn hoặc toàn bộ tài liệu."
+"Cắt bỏ khoảng trắng ở đầu và cuối trong phần bôi đen hoặc toàn bộ tài liệu."
 
 #: script/data/commands/utils.js:375
 #, kde-format
@@ -3172,14 +3174,14 @@ msgid ""
 "between each line:<br><code>join ', '</code> will e.g. join lines and "
 "separate them by a comma."
 msgstr ""
-"Nối các dòng đã chọn hoặc toàn bộ tài liệu. Tuỳ chọn truyền vào một phần "
+"Nối các dòng bôi đen hoặc toàn bộ tài liệu. Tuỳ chọn truyền vào một phần "
 "phân cách để đặt giữa các dòng:<br>Vd. <code>join ', '</code> sẽ nối các "
 "dòng và phân cách chúng bằng một dấu phẩy."
 
 #: script/data/commands/utils.js:377
 #, kde-format
 msgid "Removes empty lines from selection or whole document."
-msgstr "Xoá bỏ các dòng trống khỏi phần chọn hoặc toàn bộ tài liệu."
+msgstr "Xoá bỏ các dòng trống khỏi phần bôi đen hoặc toàn bộ tài liệu."
 
 #: script/data/commands/utils.js:381
 #, kde-format
@@ -3190,9 +3192,9 @@ msgid ""
 "lines.join(\", \");}'</code><br>To save you some typing, you can also do "
 "this to achieve the same:<br><code>each 'lines.join(\", \")'</code>"
 msgstr ""
-"Cho một hàm JavaScript làm đối số, gọi hàm đó cho danh sách các dòng (đã "
-"chọn) và thay thế chúng bằng giá trị trả về của lời gọi đó.<br>Ví dụ (nối "
-"các dòng đã chọn):<br><code>each 'function(lines){return lines.join(\", "
+"Cho một hàm JavaScript làm đối số, gọi hàm đó cho danh sách các dòng (bôi "
+"đen) và thay thế chúng bằng giá trị trả về của lời gọi đó.<br>Ví dụ (nối "
+"các dòng bôi đen):<br><code>each 'function(lines){return lines.join(\", "
 "\");}'</code><br>Để gõ ít hơn một chút, bạn cũng có thể làm như sau:"
 "<br><code>each 'lines.join(\", \")'</code>"
 
@@ -3205,8 +3207,8 @@ msgid ""
 "{return l.length > 0;}'</code><br>To save you some typing, you can also do "
 "this to achieve the same:<br><code>filter 'line.length > 0'</code>"
 msgstr ""
-"Cho một hàm JavaScript làm đối số, gọi hàm đó cho danh sách các dòng (đã "
-"chọn) và bỏ đi các dòng mà lời gọi trả về false.<br>Ví dụ (xem thêm "
+"Cho một hàm JavaScript làm đối số, gọi hàm đó cho danh sách các dòng (bôi "
+"đen) và bỏ đi các dòng mà lời gọi trả về false.<br>Ví dụ (xem thêm "
 "<code>rmblank</code>):<br><code>filter 'function(l){return l.length > 0;}'</"
 "code><br>Để gõ ít hơn một chút, bạn cũng có thể làm như sau:<br><code>filter "
 "'line.length > 0'</code>"
@@ -3221,8 +3223,8 @@ msgid ""
 "you can also do this to achieve the same:<br><code>map 'line.replace(/^\\s"
 "+/, \"\")'</code>"
 msgstr ""
-"Cho một hàm JavaScript làm đối số, gọi hàm đó cho danh sách các dòng (đã "
-"chọn) và thay thế mỗi dòng bằng giá trị trả về của lời gọi đó.<br>Ví dụ (xem "
+"Cho một hàm JavaScript làm đối số, gọi hàm đó cho danh sách các dòng (bôi "
+"đen) và thay thế mỗi dòng bằng giá trị trả về của lời gọi đó.<br>Ví dụ (xem "
 "thêm <code>ltrim</code>):<br><code>map 'function(line){return line.replace(/^"
 "\\s+/, \"\");}'</code><br>Để gõ ít hơn một chút, bạn cũng có thể làm như sau:"
 "<br><code>map 'line.replace(/^\\s+/, \"\")'</code>"
@@ -3230,12 +3232,12 @@ msgstr ""
 #: script/data/commands/utils.js:387
 #, kde-format
 msgid "Duplicates the selected lines up."
-msgstr "Nhân đôi các dòng đã chọn lên."
+msgstr "Nhân đôi các dòng bôi đen lên."
 
 #: script/data/commands/utils.js:389
 #, kde-format
 msgid "Duplicates the selected lines down."
-msgstr "Nhân đôi các dòng đã chọn xuống."
+msgstr "Nhân đôi các dòng bôi đen xuống."
 
 #: script/data/commands/utils.js:391
 #, kde-format
@@ -3243,8 +3245,8 @@ msgid ""
 "Encode special chars in a single line selection, so the result text can be "
 "used as URI."
 msgstr ""
-"Mã hoá các kí tự đặc biệt trong phần chọn một dòng, sao cho văn bản kết quả "
-"có thể dùng làm URI."
+"Mã hoá các kí tự đặc biệt trong phần bôi đen một dòng, sao cho văn bản kết "
+"quả có thể dùng làm URI."
 
 #: script/data/commands/utils.js:393
 #, kde-format
@@ -3725,7 +3727,7 @@ msgstr "Biểu thức chính quy"
 #: search/searchbarpower.ui:153
 #, kde-format
 msgid "Search in the selection only"
-msgstr "Chỉ tìm trong phần chọn"
+msgstr "Chỉ tìm trong phần bôi đen"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, replaceNext)
 #: search/searchbarpower.ui:211
@@ -4095,7 +4097,7 @@ msgstr "Thường"
 #, kde-format
 msgctxt "@title:column Text style"
 msgid "Selected"
-msgstr "Đã chọn"
+msgstr "Bôi đen"
 
 #: syntax/katestyletreewidget.cpp:131
 #, kde-format
@@ -4107,7 +4109,7 @@ msgstr "Nền"
 #, kde-format
 msgctxt "@title:column Text style"
 msgid "Background Selected"
-msgstr "Nền đã chọn"
+msgstr "Nền bôi đen"
 
 #: syntax/katestyletreewidget.cpp:134
 #, kde-format
@@ -4142,7 +4144,7 @@ msgstr "Mà&u thường..."
 #: syntax/katestyletreewidget.cpp:252
 #, kde-format
 msgid "&Selected Color..."
-msgstr "Màu đã c&họn..."
+msgstr "Màu bôi đ&en..."
 
 #: syntax/katestyletreewidget.cpp:255
 #, kde-format
@@ -4152,7 +4154,7 @@ msgstr "Màu &nền..."
 #: syntax/katestyletreewidget.cpp:258
 #, kde-format
 msgid "S&elected Background Color..."
-msgstr "&Màu nền đã chọn..."
+msgstr "&Màu nền bôi đen..."
 
 #: syntax/katestyletreewidget.cpp:264
 #, kde-format
@@ -4162,7 +4164,7 @@ msgstr "Bỏ đặt màu thường"
 #: syntax/katestyletreewidget.cpp:267
 #, kde-format
 msgid "Unset Selected Color"
-msgstr "Bỏ đặt màu đã chọn"
+msgstr "Bỏ đặt màu bôi đen"
 
 #: syntax/katestyletreewidget.cpp:273
 #, kde-format
@@ -4172,7 +4174,7 @@ msgstr "Bỏ đặt màu nền"
 #: syntax/katestyletreewidget.cpp:278
 #, kde-format
 msgid "Unset Selected Background Color"
-msgstr "Bỏ đặt màu nền đã chọn"
+msgstr "Bỏ đặt màu nền bôi đen"
 
 #: syntax/katestyletreewidget.cpp:284
 #, kde-format
@@ -4409,7 +4411,7 @@ msgstr "<p>Đặt màu nền của vùng biên tập.</p>"
 #: syntax/katethemeconfig.cpp:172
 #, kde-format
 msgid "Selected Text"
-msgstr "Chữ được chọn"
+msgstr "Chữ bôi đen"
 
 #: syntax/katethemeconfig.cpp:175
 #, kde-format
@@ -4418,9 +4420,8 @@ msgid ""
 "for selected text, use the &quot;<b>Configure Highlighting</b>&quot; dialog."
 "</p>"
 msgstr ""
-"<p>Sets the background color of the selection.</p><p>To set the text color "
-"for selected text, use the &quot;<b>Configure Highlighting</b>&quot; dialog."
-"</p>"
+"<p>Đặt màu nền cho phần bôi đen.</p><p>Để đặt màu văn bản cho văn bản bôi "
+"đen, dùng hộp thoại &quot;<b>Cấu hình tô sáng</b>&quot;.</p>"
 
 #: syntax/katethemeconfig.cpp:181
 #, kde-format
@@ -4695,7 +4696,7 @@ msgstr ""
 "cung cấp các cách thức để chỉnh sửa chúng. Tên của kiểu cách phản ánh các "
 "thiết lập kiểu cách hiện tại.</p><p>Để sửa màu, bấm vào các ô chứa màu, hoặc "
 "chọn màu để sửa trong trình đơn bật lên.</p><p>Bạn có thể bỏ đặt các màu "
-"\"nền\" và \"nền đã chọn\" trong trình đơn bật lên khi thích hợp.</p>"
+"\"nền\" và \"nền bôi đen\" trong trình đơn bật lên khi thích hợp.</p>"
 
 #: syntax/katethemeconfig.cpp:548
 #, kde-format
@@ -4748,8 +4749,8 @@ msgstr ""
 "thiết lập kiểu cách hiện tại.</p><p>Để chỉnh sửa bằng bàn phím, ấn "
 "<strong>&lt;phím cách&gt;</strong> rồi chọn một thuộc tính trong trình đơn "
 "bật lên.</p><p>Để sửa màu, bấm vào các ô chứa màu, hoặc chọn màu để sửa "
-"trong trình đơn bật lên.</p><p>Bạn có thể bỏ đặt các màu \"nền\" và \"nền đã "
-"chọn\" trong trình đơn bật lên khi thích hợp.</p>"
+"trong trình đơn bật lên.</p><p>Bạn có thể bỏ đặt các màu \"nền\" và \"nền bôi "
+"đen\" trong trình đơn bật lên khi thích hợp.</p>"
 
 #: syntax/katethemeconfig.cpp:1003
 #, kde-format
@@ -4954,12 +4955,12 @@ msgstr "&Trước: %1 - \"%2\""
 #: utils/katecmds.cpp:53
 #, kde-format
 msgid "<p>indent</p><p>Indents the selected lines or the current line</p>"
-msgstr "<p>indent</p><p>Thụt lề các dòng đã chọn hoặc dòng hiện tại</p>"
+msgstr "<p>indent</p><p>Thụt lề các dòng bôi đen hoặc dòng hiện tại</p>"
 
 #: utils/katecmds.cpp:58
 #, kde-format
 msgid "<p>unindent</p><p>Unindents the selected lines or current line.</p>"
-msgstr "<p>unindent</p><p>Bỏ thụt lề các dòng đã chọn hoặc dòng hiện tại.</p>"
+msgstr "<p>unindent</p><p>Bỏ thụt lề các dòng bôi đen hoặc dòng hiện tại.</p>"
 
 #: utils/katecmds.cpp:63
 #, kde-format
@@ -4967,7 +4968,7 @@ msgid ""
 "<p>cleanindent</p><p>Cleans up the indentation of the selected lines or "
 "current line according to the indentation settings in the document. </p>"
 msgstr ""
-"<p>cleanindent</p><p>Xoá hết thụt lề của các dòng đã chọn hoặc dòng hiện tại "
+"<p>cleanindent</p><p>Xoá hết thụt lề của các dòng bôi đen hoặc dòng hiện tại "
 "tuỳ theo thiết lập thụt lề của tài liệu. </p>"
 
 #: utils/katecmds.cpp:68
@@ -4977,9 +4978,9 @@ msgid ""
 "lines or current line a comment according to the text format as defined by "
 "the syntax highlight definition for the document.</p>"
 msgstr ""
-"<p>comment</p><p>Chèn chỉ dấu chú thích để biến phần chọn hoặc các dòng được "
-"chọn hoặc dòng hiện tại thành một chú thích, dựa theo dạng thức văn bản như "
-"được định nghĩa trong định nghĩa tô sáng cú pháp cho tài liệu.</p>"
+"<p>comment</p><p>Chèn chỉ dấu chú thích để biến phần bôi đen hoặc các dòng "
+"được bôi đen hoặc dòng hiện tại thành một chú thích, dựa theo dạng thức văn "
+"bản như được định nghĩa trong định nghĩa tô sáng cú pháp cho tài liệu.</p>"
 
 #: utils/katecmds.cpp:74
 #, kde-format
@@ -4988,9 +4989,9 @@ msgid ""
 "lines or current line according to the text format as defined by the syntax "
 "highlight definition for the document.</p>"
 msgstr ""
-"<p>uncomment</p><p>Xoá các chỉ dấu chú thích khỏi phần chọn hoặc các dòng "
-"được chọn hoặc dòng hiện tại, dựa theo dạng thức văn bản như được định nghĩa "
-"trong định nghĩa tô sáng cú pháp cho tài liệu.</p>"
+"<p>uncomment</p><p>Xoá các chỉ dấu chú thích khỏi phần bôi đen hoặc các dòng "
+"được bôi đen hoặc dòng hiện tại, dựa theo dạng thức văn bản như được định "
+"nghĩa trong định nghĩa tô sáng cú pháp cho tài liệu.</p>"
 
 #: utils/katecmds.cpp:80
 #, kde-format
@@ -5526,7 +5527,7 @@ msgstr "Matthew Woehlke"
 #: utils/kateglobal.cpp:126
 #, kde-format
 msgid "Selection, KColorScheme integration"
-msgstr "Phần chọn, phần tích hợp KColorScheme"
+msgstr "Phần bôi đen, phần tích hợp KColorScheme"
 
 #: utils/kateglobal.cpp:127
 #, kde-format
@@ -5835,27 +5836,27 @@ msgstr "Thành phần Y trong toạ độ màn hình toàn cục của vị trí
 #: utils/katevariableexpansionmanager.cpp:124
 #, kde-format
 msgid "Text selection of the current document."
-msgstr "Phần chọn văn bản của tài liệu hiện tại."
+msgstr "Phần bôi đen văn bản của tài liệu hiện tại."
 
 #: utils/katevariableexpansionmanager.cpp:131
 #, kde-format
 msgid "Start line of selected text of the current document."
-msgstr "Dòng bắt đầu của phần văn bản được chọn trong tài liệu hiện tại."
+msgstr "Dòng bắt đầu của phần văn bản được bôi đen trong tài liệu hiện tại."
 
 #: utils/katevariableexpansionmanager.cpp:138
 #, kde-format
 msgid "Start column of selected text of the current document."
-msgstr "Cột bắt đầu của phần văn bản được chọn trong tài liệu hiện tại."
+msgstr "Cột bắt đầu của phần văn bản được bôi đen trong tài liệu hiện tại."
 
 #: utils/katevariableexpansionmanager.cpp:145
 #, kde-format
 msgid "End line of selected text of the current document."
-msgstr "Dòng kết thúc của phần văn bản được chọn trong tài liệu hiện tại."
+msgstr "Dòng kết thúc của phần văn bản được bôi đen trong tài liệu hiện tại."
 
 #: utils/katevariableexpansionmanager.cpp:152
 #, kde-format
 msgid "End column of selected text of the current document."
-msgstr "Cột kết thúc của phần văn bản được chọn trong tài liệu hiện tại."
+msgstr "Cột kết thúc của phần văn bản được bôi đen trong tài liệu hiện tại."
 
 #: utils/katevariableexpansionmanager.cpp:159
 #, kde-format
@@ -5983,7 +5984,7 @@ msgstr "Ấn backspace ở khoảng trắng ở đầu sẽ bỏ thụt lề."
 #, kde-format
 msgctxt "short translation please"
 msgid "Enable block selection mode."
-msgstr "Bật chế độ chọn khối."
+msgstr "Bật chế độ bôi đen khối."
 
 #: variableeditor/variablelineedit.cpp:144
 #, kde-format
@@ -6109,7 +6110,7 @@ msgstr "Bật chế độ ghi đè trong tài liệu."
 #, kde-format
 msgctxt "short translation please"
 msgid "Enable persistent text selection."
-msgstr "Bật cách chọn văn bản bền vững."
+msgstr "Bật cách bôi đen văn bản bền vững."
 
 #: variableeditor/variablelineedit.cpp:265
 #, kde-format
@@ -6151,7 +6152,7 @@ msgstr "Đặt quy hoạch màu."
 #, kde-format
 msgctxt "short translation please"
 msgid "Set the text selection color."
-msgstr "Đặt màu phần chọn văn bản."
+msgstr "Đặt màu phần bôi đen văn bản."
 
 #: variableeditor/variablelineedit.cpp:306
 #, kde-format
@@ -6342,7 +6343,7 @@ msgstr "Thu phóng: %1%"
 #: view/kateview.cpp:449
 #, kde-format
 msgid "Cut the selected text and move it to the clipboard"
-msgstr "Cắt văn bản được chọn và chuyển vào bảng nháp"
+msgstr "Cắt văn bản bôi đen và chuyển vào bảng nháp"
 
 #: view/kateview.cpp:452
 #, kde-format
@@ -6353,7 +6354,8 @@ msgstr "Dán nội dung bảng nháp đã được chép hoặc cắt từ trư�
 #, kde-format
 msgid ""
 "Use this command to copy the currently selected text to the system clipboard."
-msgstr "Dùng lệnh này để chép văn bản đang được chọn vào bảng nháp hệ thống."
+msgstr ""
+"Dùng lệnh này để chép văn bản đang được bôi đen vào bảng nháp hệ thống."
 
 #: view/kateview.cpp:457
 #, kde-format
@@ -6363,12 +6365,12 @@ msgstr "Lịch sử bảng nhá&p"
 #: view/kateview.cpp:465
 #, kde-format
 msgid "Paste Selection"
-msgstr "Dán phần chọn"
+msgstr "Dán phần bôi đen"
 
 #: view/kateview.cpp:467
 #, kde-format
 msgid "Paste previously mouse selection contents"
-msgstr "Dán nội dung phần chọn từ trước bằng chuột"
+msgstr "Dán nội dung phần bôi đen từ trước bằng chuột"
 
 #: view/kateview.cpp:471
 #, kde-format
@@ -6378,7 +6380,7 @@ msgstr "Hoán đổi với nội dung bảng nháp"
 #: view/kateview.cpp:472
 #, kde-format
 msgid "Swap the selected text with the clipboard contents"
-msgstr "Hoán đổi văn bản được chọn với nội dung bảng nháp"
+msgstr "Hoán đổi văn bản bôi đen với nội dung bảng nháp"
 
 #: view/kateview.cpp:476
 #, kde-format
@@ -6412,8 +6414,8 @@ msgid ""
 "paragraph, to fit the 'Wrap words at' setting in the configuration dialog."
 "<br /><br />This is a static word wrap, meaning the document is changed."
 msgstr ""
-"Dùng thao tác này để bọc dòng hiện tại, hoặc để định dạng lại các dòng đã "
-"chọn thành đoạn văn, khớp với thiết lập 'Bọc từ ở:' trong hộp thoại cấu hình."
+"Dùng thao tác này để bọc dòng hiện tại, hoặc để định dạng lại các dòng bôi "
+"đen thành đoạn văn, khớp với thiết lập 'Bọc từ ở:' trong hộp thoại cấu hình."
 "<br /><br />Đây là một cách bọc từ tĩnh, tức là tài liệu sẽ bị thay đổi."
 
 #: view/kateview.cpp:498
@@ -6428,7 +6430,7 @@ msgid ""
 "only spaces).<br /><br />You can configure whether tabs should be honored "
 "and used or replaced with spaces, in the configuration dialog."
 msgstr ""
-"Dùng thao tác này để xoá hết thụt lề của một khối văn bản đã chọn (chỉ kí tự "
+"Dùng thao tác này để xoá hết thụt lề của một khối văn bản bôi đen (chỉ kí tự "
 "lập bảng/chỉ dấu cách).<br/><br/>Trong hộp thoại cấu hình, bạn có thể cấu "
 "hình việc kí tự lập bảng sẽ được dùng hay sẽ được thay bằng dấu cách."
 
@@ -6458,7 +6460,7 @@ msgid ""
 "><br />The characters for single/multiple line comments are defined within "
 "the language's highlighting."
 msgstr ""
-"Lệnh này chú thích dòng hiện tại hoặc khối văn bản đã chọn.<br/><br/>Các kí "
+"Lệnh này chú thích dòng hiện tại hoặc khối văn bản bôi đen.<br/><br/>Các kí "
 "tự dùng cho chú thích một/nhiều dòng được định nghĩa trong kiểu tô sáng của "
 "ngôn ngữ."
 
@@ -6484,8 +6486,8 @@ msgid ""
 "text.<br /><br />The characters for single/multiple line comments are "
 "defined within the language's highlighting."
 msgstr ""
-"Lệnh này xoá chú thích khỏi dòng hiện tại hoặc khối văn bản đã chọn.<br /"
-"><br />Các kí tự dùng cho chú thích một/nhiều dòng được định nghĩa trong "
+"Lệnh này xoá chú thích khỏi dòng hiện tại hoặc khối văn bản bôi đen.<br />"
+"<br />Các kí tự dùng cho chú thích một/nhiều dòng được định nghĩa trong "
 "kiểu tô sáng của ngôn ngữ."
 
 #: view/kateview.cpp:538
@@ -6514,8 +6516,8 @@ msgid ""
 "Convert the selection to uppercase, or the character to the right of the "
 "cursor if no text is selected."
 msgstr ""
-"Chuyển đổi phần chọn sang chữ hoa, hoặc kí tự ở bên phải con trỏ nếu chưa "
-"chọn gì."
+"Chuyển đổi phần bôi đen sang chữ hoa, hoặc kí tự ở bên phải con trỏ nếu chưa "
+"bôi đen gì."
 
 #: view/kateview.cpp:559
 #, kde-format
@@ -6528,8 +6530,8 @@ msgid ""
 "Convert the selection to lowercase, or the character to the right of the "
 "cursor if no text is selected."
 msgstr ""
-"Chuyển đổi phần chọn sang chữ thường, hoặc kí tự ở bên phải con trỏ nếu chưa "
-"chọn gì."
+"Chuyển đổi phần bôi đen sang chữ thường, hoặc kí tự ở bên phải con trỏ nếu "
+"chưa bôi đen gì."
 
 #: view/kateview.cpp:568
 #, kde-format
@@ -6542,8 +6544,8 @@ msgid ""
 "Capitalize the selection, or the word under the cursor if no text is "
 "selected."
 msgstr ""
-"Viết hoa đầu mỗi từ trong phần chọn, hoặc từ ở vị trí con trỏ nếu chưa chọn "
-"gì."
+"Viết hoa đầu mỗi từ trong phần bôi đen, hoặc từ ở vị trí con trỏ nếu chưa "
+"bôi đen gì."
 
 #: view/kateview.cpp:576
 #, kde-format
@@ -6672,7 +6674,7 @@ msgstr "Thụt &lề"
 #: view/kateview.cpp:670
 #, kde-format
 msgid "Select the entire text of the current document."
-msgstr "Chọn toàn bộ văn bản của tài liệu hiện tại."
+msgstr "Bôi đen toàn bộ văn bản của tài liệu hiện tại."
 
 #: view/kateview.cpp:673
 #, kde-format
@@ -6680,7 +6682,8 @@ msgid ""
 "If you have selected something within the current document, this will no "
 "longer be selected."
 msgstr ""
-"Nếu bạn đã chọn gì đó trong tài liệu hiện tại, nó sẽ không còn được chọn nữa."
+"Nếu bạn đã bôi đen gì đó trong tài liệu hiện tại, nó sẽ không còn được bôi"
+" đen nữa."
 
 #: view/kateview.cpp:677
 #, kde-format
@@ -6715,7 +6718,7 @@ msgstr "Thao tác này đặt lại cỡ phông chữ hiển thị."
 #: view/kateview.cpp:700
 #, kde-format
 msgid "Bl&ock Selection Mode"
-msgstr "Chế độ chọn &khối"
+msgstr "Chế độ bôi đen &khối"
 
 #: view/kateview.cpp:703
 #, kde-format
@@ -6723,8 +6726,8 @@ msgid ""
 "This command allows switching between the normal (line based) selection mode "
 "and the block selection mode."
 msgstr ""
-"Lệnh này cho phép chuyển giữa chế độ chọn thường (theo dòng) và chế độ chọn "
-"khối."
+"Lệnh này cho phép chuyển giữa chế độ bôi đen thường (theo dòng) và chế độ "
+"bôi đen khối."
 
 #: view/kateview.cpp:707
 #, kde-format
@@ -6974,43 +6977,44 @@ msgstr ""
 #: view/kateview.cpp:840
 #, kde-format
 msgid "Find Selected"
-msgstr "Tìm phần chọn"
+msgstr "Tìm phần bôi đen"
 
 #: view/kateview.cpp:842
 #, kde-format
 msgid "Finds next occurrence of selected text."
-msgstr "Tìm lần xuất hiện tiếp theo của văn bản đã chọn."
+msgstr "Tìm lần xuất hiện tiếp theo của văn bản bôi đen."
 
 #: view/kateview.cpp:846
 #, kde-format
 msgid "Find Selected Backwards"
-msgstr "Tìm phần chọn, ngược lại"
+msgstr "Tìm phần bôi đen, ngược lại"
 
 #: view/kateview.cpp:848
 #, kde-format
 msgid "Finds previous occurrence of selected text."
-msgstr "Tìm lần xuất hiện trước của văn bản đã chọn."
+msgstr "Tìm lần xuất hiện trước của văn bản bôi đen."
 
 #: view/kateview.cpp:852
 #, kde-format
 msgid "Find and Select Next Occurrence"
-msgstr "Tìm và chọn lần xuất hiện tiếp theo"
+msgstr "Tìm và bôi đen lần xuất hiện tiếp theo"
 
 #: view/kateview.cpp:854
 #, kde-format
 msgid "Finds next occurrence of the word under cursor and add it to selection."
 msgstr ""
-"Tìm lần xuất hiện tiếp theo của từ ở vị trí con trỏ và thêm nó vào phần chọn."
+"Tìm lần xuất hiện tiếp theo của từ ở vị trí con trỏ và thêm nó vào phần bôi"
+" đen."
 
 #: view/kateview.cpp:858
 #, kde-format
 msgid "Find and Select All Occurrences"
-msgstr "Tìm và chọn tất cả các lần xuất hiện"
+msgstr "Tìm và bôi đen tất cả các lần xuất hiện"
 
 #: view/kateview.cpp:860
 #, kde-format
 msgid "Finds all occurrences of the word under cursor and select them."
-msgstr "Tìm tất cả các lần xuất hiện của từ ở vị trí con trỏ và chọn chúng."
+msgstr "Tìm tất cả các lần xuất hiện của từ ở vị trí con trỏ và bôi đen chúng."
 
 #: view/kateview.cpp:864
 #, kde-format
@@ -7039,7 +7043,7 @@ msgstr "Thêm các con trỏ vào cuối các dòng"
 #: view/kateview.cpp:877
 #, kde-format
 msgid "Creates a cursor at the end of every line in selection."
-msgstr "Tạo một con trỏ ở cuối mỗi dòng trong phần chọn."
+msgstr "Tạo một con trỏ ở cuối mỗi dòng trong phần bôi đen."
 
 #: view/kateview.cpp:881
 #, kde-format
@@ -7116,7 +7120,7 @@ msgid ""
 "Use this command to copy the currently selected text as HTML to the system "
 "clipboard."
 msgstr ""
-"Dùng lệnh này để chép văn bản đang được chọn thành HTML vào bảng nháp hệ "
+"Dùng lệnh này để chép văn bản đang được bôi đen thành HTML vào bảng nháp hệ "
 "thống."
 
 #: view/kateview.cpp:923
@@ -7141,12 +7145,12 @@ msgstr "Di chuyển từ sang trái"
 #: view/kateview.cpp:970
 #, kde-format
 msgid "Select Character Left"
-msgstr "Chọn kí tự trái"
+msgstr "Bôi đen kí tự trái"
 
 #: view/kateview.cpp:976
 #, kde-format
 msgid "Select Word Left"
-msgstr "Chọn từ trái"
+msgstr "Bôi đen từ trái"
 
 #: view/kateview.cpp:982
 #, kde-format
@@ -7156,12 +7160,12 @@ msgstr "Di chuyển từ sang phải"
 #: view/kateview.cpp:988
 #, kde-format
 msgid "Select Character Right"
-msgstr "Chọn kí tự phải"
+msgstr "Bôi đen kí tự phải"
 
 #: view/kateview.cpp:994
 #, kde-format
 msgid "Select Word Right"
-msgstr "Chọn từ phải"
+msgstr "Bôi đen từ phải"
 
 #: view/kateview.cpp:1000
 #, kde-format
@@ -7176,12 +7180,12 @@ msgstr "Đi đến đầu tài liệu"
 #: view/kateview.cpp:1012
 #, kde-format
 msgid "Select to Beginning of Line"
-msgstr "Chọn đến đầu dòng"
+msgstr "Bôi đen đến đầu dòng"
 
 #: view/kateview.cpp:1018
 #, kde-format
 msgid "Select to Beginning of Document"
-msgstr "Chọn đến đầu tài liệu"
+msgstr "Bôi đen đến đầu tài liệu"
 
 #: view/kateview.cpp:1024
 #, kde-format
@@ -7196,17 +7200,17 @@ msgstr "Đi đến cuối tài liệu"
 #: view/kateview.cpp:1036
 #, kde-format
 msgid "Select to End of Line"
-msgstr "Chọn đến cuối dòng"
+msgstr "Bôi đen đến cuối dòng"
 
 #: view/kateview.cpp:1042
 #, kde-format
 msgid "Select to End of Document"
-msgstr "Chọn đến cuối tài liệu"
+msgstr "Bôi đen đến cuối tài liệu"
 
 #: view/kateview.cpp:1048
 #, kde-format
 msgid "Select to Previous Line"
-msgstr "Chọn đến dòng trước"
+msgstr "Bôi đen đến dòng trước"
 
 #: view/kateview.cpp:1054
 #, kde-format
@@ -7236,7 +7240,7 @@ msgstr "Con trỏ sang trái"
 #: view/kateview.cpp:1084
 #, kde-format
 msgid "Select to Next Line"
-msgstr "Chọn đến dòng sau"
+msgstr "Bôi đen đến dòng sau"
 
 #: view/kateview.cpp:1090
 #, kde-format
@@ -7251,7 +7255,7 @@ msgstr "Cuộn lên một trang"
 #: view/kateview.cpp:1102
 #, kde-format
 msgid "Select Page Up"
-msgstr "Chọn lên một trang"
+msgstr "Bôi đen lên một trang"
 
 #: view/kateview.cpp:1108
 #, kde-format
@@ -7261,7 +7265,7 @@ msgstr "Đến đầu khung xem"
 #: view/kateview.cpp:1114
 #, kde-format
 msgid "Select to Top of View"
-msgstr "Chọn đến đầu khung xem"
+msgstr "Bôi đen đến đầu khung xem"
 
 #: view/kateview.cpp:1120
 #, kde-format
@@ -7271,7 +7275,7 @@ msgstr "Cuộn xuống một trang"
 #: view/kateview.cpp:1126
 #, kde-format
 msgid "Select Page Down"
-msgstr "Chọn xuống một trang"
+msgstr "Bôi đen xuống một trang"
 
 #: view/kateview.cpp:1132
 #, kde-format
@@ -7281,7 +7285,7 @@ msgstr "Đến cuối khung xem"
 #: view/kateview.cpp:1138
 #, kde-format
 msgid "Select to Bottom of View"
-msgstr "Chọn đến cuối khung xem"
+msgstr "Bôi đen đến cuối khung xem"
 
 #: view/kateview.cpp:1144
 #, kde-format
@@ -7291,7 +7295,7 @@ msgstr "Đi đến dấu ngoặc cùng cặp"
 #: view/kateview.cpp:1150
 #, kde-format
 msgid "Select to Matching Bracket"
-msgstr "Chọn đến dấu ngoặc cùng cặp"
+msgstr "Bôi đen đến dấu ngoặc cùng cặp"
 
 #: view/kateview.cpp:1158
 #, kde-format
@@ -7395,7 +7399,7 @@ msgid ""
 "whether tabs should be honored and used or replaced with spaces, in the "
 "configuration dialog."
 msgstr ""
-"Dùng thao tác này để thụt lề một khối văn bản đã chọn.<br /><br />Trong hộp "
+"Dùng thao tác này để thụt lề một khối văn bản bôi đen.<br /><br />Trong hộp "
 "thoại cấu hình, bạn có thể cấu hình việc kí tự lập bảng sẽ được dùng hay sẽ "
 "được thay bằng dấu cách."
 
@@ -7407,7 +7411,7 @@ msgstr "&Bỏ thụt lề"
 #: view/kateview.cpp:1253
 #, kde-format
 msgid "Use this to unindent a selected block of text."
-msgstr "Dùng thao tác này để bỏ thụt lề một khối văn bản đã chọn."
+msgstr "Dùng thao tác này để bỏ thụt lề một khối văn bản bôi đen."
 
 #: view/kateview.cpp:1271
 #, kde-format

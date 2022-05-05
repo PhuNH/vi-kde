@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-05-05 00:47+0000\n"
-"PO-Revision-Date: 2022-02-09 19:32+0100\n"
+"PO-Revision-Date: 2022-05-05 10:01+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 20.12.2\n"
+"X-Generator: Lokalize 21.12.2\n"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: actionsconfig.ui:17
@@ -74,7 +74,7 @@ msgstr ""
 #: configdialog.cpp:68
 #, kde-format
 msgid "Selection and Clipboard:"
-msgstr "Phần chọn và bảng nháp:"
+msgstr "Phần bôi đen và bảng nháp:"
 
 #: configdialog.cpp:75
 #, kde-kuit-format
@@ -92,24 +92,24 @@ msgid ""
 "options below), but it can only be pasted using the middle mouse button."
 msgstr ""
 "Khi văn bản hoặc một vùng màn hình được tô sáng bằng chuột hoặc bàn phím, "
-"đây gọi là <emphasis>phần chọn</emphasis>. Nó có thể được dán bằng nút chuột "
-"giữa.<nl/><nl/>Nếu phần chọn được sao chép rõ ràng bằng một hành động "
-"<interface>Chép</interface> hoặc <interface>Cắt</interface>, thì nó được lưu "
-"vào <emphasis>bảng nháp</emphasis>. Nó có thể được dán bằng hành động "
-"<interface>Dán</interface>.<nl/><nl/>Khi được bật, lựa chọn này giữ cho phần "
-"chọn và bảng nháp giống nhau, để bất kì phần chọn nào cũng lập tức có sẵn để "
-"dán bằng bất kì cách nào. Nếu nó tắt, phần chọn có thể vẫn được lưu trong "
-"lịch sử bảng nháp (tuỳ theo các lựa chọn ở dưới đây), nhưng chỉ có thể dán "
-"được bằng nút chuột giữa."
+"đây gọi là <emphasis>phần bôi đen</emphasis>. Nó có thể được dán bằng nút "
+"chuột giữa.<nl/><nl/>Nếu phần bôi đen được sao chép rõ ràng bằng một hành "
+"động <interface>Chép</interface> hoặc <interface>Cắt</interface>, thì nó "
+"được lưu vào <emphasis>bảng nháp</emphasis>. Nó có thể được dán bằng hành "
+"động <interface>Dán</interface>.<nl/><nl/>Khi được bật, lựa chọn này giữ cho "
+"phần bôi đen và bảng nháp giống nhau, để bất kì phần bôi đen nào cũng lập "
+"tức có sẵn để dán bằng bất kì cách nào. Nếu nó tắt, phần bôi đen có thể vẫn "
+"được lưu trong lịch sử bảng nháp (tuỳ theo các lựa chọn ở dưới đây), nhưng "
+"chỉ có thể dán được bằng nút chuột giữa."
 
 #: configdialog.cpp:95
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Clipboard history"
 msgid "Clipboard history:"
-msgstr "Lịch sử bảng nháp"
+msgstr "Lịch sử bảng nháp:"
 
 #: configdialog.cpp:102
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "NUmber of entries"
 #| msgid " entry"
 #| msgid_plural " entries"
@@ -126,7 +126,7 @@ msgstr "Luôn lưu vào lịch sử"
 #: configdialog.cpp:122
 #, kde-format
 msgid "Text selection:"
-msgstr "Phần chọn văn bản:"
+msgstr "Phần bôi đen văn bản:"
 
 #: configdialog.cpp:124 configdialog.cpp:159
 #, kde-format
@@ -136,12 +136,13 @@ msgstr "Chỉ khi được sao chép rõ ràng"
 #: configdialog.cpp:129
 #, kde-format
 msgid "Whether text selections are saved in the clipboard history."
-msgstr "Các phần chọn văn bản có được lưu trong lịch sử bảng nháp hay không."
+msgstr ""
+"Các phần bôi đen văn bản có được lưu trong lịch sử bảng nháp hay không."
 
 #: configdialog.cpp:157
 #, kde-format
 msgid "Non-text selection:"
-msgstr "Phần chọn phi văn bản:"
+msgstr "Phần bôi đen phi văn bản:"
 
 #: configdialog.cpp:164
 #, kde-format
@@ -154,14 +155,14 @@ msgid ""
 "Whether non-text selections (such as images) are saved in the clipboard "
 "history."
 msgstr ""
-"Các phần chọn phi văn bản (chẳng hạn như ảnh) có được lưu trong lịch sử bảng "
-"nháp hay không."
+"Các phần bôi đen phi văn bản (chẳng hạn như ảnh) có được lưu trong lịch sử "
+"bảng nháp hay không."
 
 #: configdialog.cpp:235
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Automatic action popup time:"
 msgid "Show action popup menu:"
-msgstr "Thời gian hiện ô bật lên cho hành động tự động:"
+msgstr "Hiện trình đơn bật lên cho hành động:"
 
 #: configdialog.cpp:247
 #, kde-kuit-format
@@ -173,11 +174,16 @@ msgid ""
 "excluded window, then it can be shown by using the <shortcut>%1</shortcut> "
 "key shortcut."
 msgstr ""
+"Khi một văn bản được bôi đen hoặc được chọn trong lịch sử bảng nháp mà khớp "
+"với một dạng mẫu hành động, thì sẽ tự động hiện trình đơn bật lên này với "
+"những hành động khả dụng. Nếu trình đơn tự động bị tắt đi ở đây, hoặc không "
+"hiện ra cho một cửa sổ bị loại trừ, thì nó cũng có thể được hiển thị bằng "
+"cách dùng phím tắt <shortcut>%1</shortcut>."
 
 #: configdialog.cpp:254
 #, kde-format
 msgid "Exclude Windows..."
-msgstr ""
+msgstr "Loại trừ cửa sổ..."
 
 #: configdialog.cpp:269
 #, kde-format
@@ -193,11 +199,11 @@ msgid "None"
 msgstr "Không"
 
 #: configdialog.cpp:280
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Actions Config"
 #| msgid "Actions"
 msgid "Options:"
-msgstr "Hành động"
+msgstr "Lựa chọn:"
 
 #: configdialog.cpp:295
 #, kde-kuit-format
@@ -206,11 +212,13 @@ msgid ""
 "The actions shown in the popup menu can be configured on the "
 "<interface>Actions Configuration</interface> page."
 msgstr ""
+"Các hành động hiện ra trong trình đơn bật lên có thể được cấu hình trong "
+"trang <interface>Cấu hình hành động</interface>."
 
 #: configdialog.cpp:323
 #, kde-format
 msgid "Exclude Windows"
-msgstr ""
+msgstr "Loại trừ cửa sổ"
 
 #: configdialog.cpp:548
 #, kde-format
@@ -224,22 +232,22 @@ msgid "General Configuration"
 msgstr "Cấu hình chung"
 
 #: configdialog.cpp:549
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Actions Config"
 #| msgid "Actions"
 msgctxt "Popup Menu Config"
 msgid "Action Menu"
-msgstr "Hành động"
+msgstr "Trình đơn hành động"
 
 #: configdialog.cpp:549
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Actions Config"
 #| msgid "Actions"
 msgid "Action Menu"
-msgstr "Hành động"
+msgstr "Trình đơn hành động"
 
 #: configdialog.cpp:550
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Actions Configuration"
 msgctxt "Actions Config"
 msgid "Actions Configuration"
@@ -272,6 +280,12 @@ msgid ""
 "a particular application, then add it to this list. <link>How to find the "
 "name to enter</link>."
 msgstr ""
+"Trình đơn bật lên cho hành động sẽ không tự động hiện ra cho các cửa sổ này, "
+"kể cả khi nó được bật. Đó là vì, ví dụ, một trình duyệt web có thể tô sáng "
+"một URL trong thanh địa chỉ khi bạn đang gõ, và trình đơn này sẽ hiện ra "
+"với mỗi lần gõ phím.<nl/><nl/>Nếu trình đơn hành động hiện ra ngoài mong đợi "
+"khi dùng một ứng dụng, hãy thêm nó vào danh sách này. <link>Cách tìm ra cái "
+"tên để thêm</link>."
 
 #: configdialog.cpp:635
 #, kde-kuit-format
@@ -283,6 +297,11 @@ msgid ""
 "icode><nl/><nl/>and click on the window that you want to exclude. The first "
 "name that it displays after the equal sign is the one that you need to enter."
 msgstr ""
+"Tên cần được nhập vào đây là tên WM_CLASS của cửa sổ bạn muốn loại trừ. Để "
+"tìm ra tên WM_CLASS cho một cửa sổ, nhập lệnh sau trong một cửa sổ dòng lệnh:"
+"<nl/><nl/>&nbsp;&nbsp;<icode>xprop | grep WM_CLASS</icode><nl/><nl/> và bấm "
+"vào cửa sổ mà bạn muốn loại trừ. Cái tên đầu tiên mà nó hiển thị sau dấu "
+"bằng là cái mà bạn cần nhập vào."
 
 #: editactiondialog.cpp:27
 #, kde-format
@@ -378,28 +397,28 @@ msgid "%1x%2 %3bpp"
 msgstr "%1x%2 %3bpp"
 
 #: klipper.cpp:145
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Automatic action popup time:"
 msgctxt "@action:inmenu Toggle automatic action"
 msgid "Automatic Action Popup Menu"
-msgstr "Thời gian hiện ô bật lên cho hành động tự động:"
+msgstr "Trình đơn tự động bật lên cho hành động:"
 
 #: klipper.cpp:168
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "C&lear Clipboard History"
 msgctxt "@action:inmenu"
 msgid "C&lear Clipboard History"
 msgstr "&Xoá lịch sử bảng nháp"
 
 #: klipper.cpp:175
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Configure Klipper…"
 msgctxt "@action:inmenu"
 msgid "&Configure Klipper…"
 msgstr "&Cấu hình Klipper…"
 
 #: klipper.cpp:181
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@item:inmenu Quit Klipper"
 #| msgid "&Quit"
 msgctxt "@action:inmenu Quit Klipper"
@@ -407,42 +426,42 @@ msgid "&Quit"
 msgstr "Th&oát"
 
 #: klipper.cpp:186
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Manually Invoke Action on Current Clipboard"
 msgctxt "@action:inmenu"
 msgid "Manually Invoke Action on Current Clipboard"
-msgstr "Gọi hành động trên bảng nháp hiện thời một cách thủ công"
+msgstr "Gọi hành động trên bảng nháp hiện tại một cách thủ công"
 
 #: klipper.cpp:193
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Edit Contents…"
 msgctxt "@action:inmenu"
 msgid "&Edit Contents…"
 msgstr "&Sửa nội dung…"
 
 #: klipper.cpp:201
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Show Barcode…"
 msgctxt "@action:inmenu"
 msgid "&Show Barcode…"
 msgstr "Hiện mã &vạch…"
 
 #: klipper.cpp:209
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Next History Item"
 msgctxt "@action:inmenu"
 msgid "Next History Item"
 msgstr "Mục lịch sử sau"
 
 #: klipper.cpp:213
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Previous History Item"
 msgctxt "@action:inmenu"
 msgid "Previous History Item"
 msgstr "Mục lịch sử trước"
 
 #: klipper.cpp:219
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open Klipper at Mouse Position"
 msgctxt "@action:inmenu"
 msgid "Open Klipper at Mouse Position"
@@ -526,10 +545,10 @@ msgstr "Phiên bản Klipper"
 
 #. i18n: ectx: label, entry (KeepClipboardContents), group (General)
 #: klipper.kcfg:13
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Save the clipboard history across desktop sessions"
 msgid "Save history across desktop sessions"
-msgstr "Lưu lịch sử bảng nháp giữa các phiên bàn làm việc"
+msgstr "Lưu lịch sử giữa các phiên bàn làm việc"
 
 #. i18n: ectx: tooltip, entry (KeepClipboardContents), group (General)
 #: klipper.kcfg:15
@@ -557,7 +576,7 @@ msgstr "Không cho phép bảng nháp bị làm trống, ví dụ khi một ứn
 #: klipper.kcfg:27
 #, kde-format
 msgid "Keep the selection and clipboard the same"
-msgstr "Giữ phần chọn và bảng nháp giống nhau"
+msgstr "Giữ phần bôi đen và bảng nháp giống nhau"
 
 #. i18n: ectx: whatsthis, entry (SyncClipboards), group (General)
 #: klipper.kcfg:29
@@ -567,15 +586,15 @@ msgid ""
 "that it can be pasted with either a Paste action or a middle-click.<br/><a "
 "href=\"1\">More about the selection and clipboard</a>."
 msgstr ""
-"Nội dung được chọn bằng con trỏ sẽ được sao chép tự động vào bảng nháp để nó "
+"Nội dung được bôi đen bằng con trỏ sẽ được chép tự động vào bảng nháp để nó "
 "có thể dán được bằng hành động \"dán\" hoặc bằng một cú bấm giữa.<br/><a "
-"href=\"1\">Xem thêm về phần chọn và bảng nháp</a>."
+"href=\"1\">Xem thêm về phần bôi đen và bảng nháp</a>."
 
 #. i18n: ectx: label, entry (IgnoreSelection), group (General)
 #: klipper.kcfg:32
 #, kde-format
 msgid "Ignore the selection"
-msgstr "Bỏ qua phần chọn"
+msgstr "Bỏ qua phần bôi đen"
 
 #. i18n: ectx: whatsthis, entry (IgnoreSelection), group (General)
 #: klipper.kcfg:34
@@ -593,7 +612,7 @@ msgstr ""
 #: klipper.kcfg:37
 #, kde-format
 msgid "Text selection only"
-msgstr "Chỉ lấy phần chọn văn bản"
+msgstr "Chỉ lấy phần bôi đen văn bản"
 
 #. i18n: ectx: whatsthis, entry (SelectionTextOnly), group (General)
 #: klipper.kcfg:39
@@ -602,8 +621,8 @@ msgid ""
 "Only store text selections in the clipboard history, not images or any other "
 "type of data."
 msgstr ""
-"Chỉ lưu các phần chọn văn bản trong lịch sử bảng nháp, không lưu ảnh hay bất "
-"kì kiểu dữ liệu nào khác."
+"Chỉ lưu các phần bôi đen văn bản trong lịch sử bảng nháp, không lưu ảnh hay "
+"bất kì kiểu dữ liệu nào khác."
 
 #. i18n: ectx: label, entry (IgnoreImages), group (General)
 #: klipper.kcfg:42
@@ -626,10 +645,10 @@ msgstr "Dùng trình biên tập btcq đồ hoạ"
 
 #. i18n: ectx: label, entry (URLGrabberEnabled), group (General)
 #: klipper.kcfg:51
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Ignore the selection"
 msgid "Immediately on selection"
-msgstr "Bỏ qua phần chọn"
+msgstr "Ngay khi bôi đen"
 
 #. i18n: ectx: tooltip, entry (URLGrabberEnabled), group (General)
 #: klipper.kcfg:52
@@ -637,6 +656,8 @@ msgstr "Bỏ qua phần chọn"
 msgid ""
 "Show the popup menu of applicable actions as soon as a selection is made."
 msgstr ""
+"Hiện trình đơn bật lên với các hành động khả dụng ngay khi có một phần bôi"
+" đen."
 
 #. i18n: ectx: label, entry (NoActionsForWM_CLASS), group (General)
 #: klipper.kcfg:57
@@ -646,24 +667,25 @@ msgstr "Không có hành động nào cho WM_CLASS"
 
 #. i18n: ectx: label, entry (TimeoutForActionPopups), group (General)
 #: klipper.kcfg:60
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Automatic action popup time:"
 msgid "Automatic action menu time:"
-msgstr "Thời gian hiện ô bật lên cho hành động tự động:"
+msgstr "Thời gian hiện trình đơn tự động cho hành động:"
 
 #. i18n: ectx: tooltip, entry (TimeoutForActionPopups), group (General)
 #: klipper.kcfg:64
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Display the automatic action popup for this time."
 msgid "Display the automatic action popup menu for this time."
-msgstr "Trong khoảng thời gian này, hiển thị ô bật lên cho hành động tự động."
+msgstr ""
+"Trong khoảng thời gian này, hiển thị trình đơn tự động bật lên cho hành động."
 
 #. i18n: ectx: label, entry (MaxClipItems), group (General)
 #: klipper.kcfg:67
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Clipboard history size:"
 msgid "History size:"
-msgstr "Kích thước lịch sử bảng nháp:"
+msgstr "Kích thước lịch sử:"
 
 #. i18n: ectx: tooltip, entry (MaxClipItems), group (General)
 #: klipper.kcfg:71
@@ -680,14 +702,14 @@ msgstr ""
 
 #. i18n: ectx: label, entry (StripWhiteSpace), group (Actions)
 #: klipper.kcfg:84
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Strip whitespace when executing an action"
 msgid "Trim whitespace from selection"
-msgstr "Xoá bỏ khoảng trắng khi thực hiện hành động"
+msgstr "Cắt bỏ khoảng trắng khỏi phần bôi đen"
 
 #. i18n: ectx: whatsthis, entry (StripWhiteSpace), group (Actions)
 #: klipper.kcfg:86
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Remove white space from the start and end of clipboard text before "
 #| "performing an action. For example, this ensures that the URL pasted in a "
@@ -699,37 +721,39 @@ msgid ""
 "browser is interpreted as expected. The text saved on the clipboard is not "
 "affected."
 msgstr ""
-"Xoá khoảng trắng ở đầu và cuối văn bản trong bảng nháp trước khi thực hiện "
-"một hành động. Ví dụ, việc này đảm bảo rằng URL được dán vào một trình duyệt "
-"sẽ được hiểu đúng như mong đợi.<br/><br/>Văn bản lưu trong bảng nháp không "
-"bị ảnh hưởng."
+"Xoá khoảng trắng ở đầu và cuối văn bản được bôi đen, trước khi thực hiện một "
+"hành động. Ví dụ, việc này đảm bảo rằng URL được dán vào một trình duyệt sẽ "
+"được hiểu đúng như mong đợi. Văn bản lưu trong bảng nháp sẽ không bị ảnh "
+"hưởng."
 
 #. i18n: ectx: label, entry (ReplayActionInHistory), group (Actions)
 #: klipper.kcfg:89
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Replay actions on an item selected from history"
 msgid "For an item chosen from history"
-msgstr "Lặp lại hành động với một mục được chọn trong lịch sử"
+msgstr "Với một mục được chọn trong lịch sử"
 
 #. i18n: ectx: tooltip, entry (ReplayActionInHistory), group (Actions)
 #: klipper.kcfg:91
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Whether text selections are saved in the clipboard history."
 msgid ""
 "Show the popup menu of applicable actions if an entry is chosen from the "
 "clipboard history."
-msgstr "Các phần chọn văn bản có được lưu trong lịch sử bảng nháp hay không."
+msgstr ""
+"Hiện trình đơn bật lên với các hành động khả dụng nếu một mục được chọn "
+"trong lịch sử bảng nháp."
 
 #. i18n: ectx: label, entry (EnableMagicMimeActions), group (Actions)
 #: klipper.kcfg:94
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Enable MIME-based actions"
 msgid "Include MIME actions"
 msgstr "Dùng các hành động dựa trên MIME"
 
 #. i18n: ectx: whatsthis, entry (EnableMagicMimeActions), group (Actions)
 #: klipper.kcfg:96
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "If this option is set, and a file name or URL is selected, include "
 #| "applications that can handle its MIME type in the actions popup."
@@ -737,8 +761,8 @@ msgid ""
 "If a file name or URL is selected, include applications that can accept its "
 "MIME type in the popup menu."
 msgstr ""
-"Nếu lựa chọn này được đặt, và một tên tệp hoặc URL được chọn, thì thêm các "
-"ứng dụng có thể xử lí kiểu MIME của nó vào ô bật lên cho hành động."
+"Nếu một tên tệp hoặc URL được bôi đen, thì sẽ thêm các ứng dụng có thể chấp "
+"nhận kiểu MIME của nó vào trình đơn hành động."
 
 #: klipperpopup.cpp:59 tray.cpp:25 tray.cpp:41
 #, kde-format
