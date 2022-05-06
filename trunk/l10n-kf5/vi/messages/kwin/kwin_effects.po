@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-14 00:46+0000\n"
+"POT-Creation-Date: 2022-05-06 00:47+0000\n"
 "PO-Revision-Date: 2022-04-07 19:43+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -64,7 +64,8 @@ msgstr "Hiện lưới bàn làm việc"
 #: presentwindows/presentwindows_config.cpp:50
 #: showpaint/showpaint_config.cpp:33
 #: thumbnailaside/thumbnailaside_config.cpp:56
-#: trackmouse/trackmouse_config.cpp:52 zoom/zoom_config.cpp:58
+#: trackmouse/trackmouse_config.cpp:52
+#: windowview/kcm/windowvieweffectkcm.cpp:35 zoom/zoom_config.cpp:58
 #, kde-format
 msgid "KWin"
 msgstr "KWin"
@@ -278,22 +279,18 @@ msgstr "Cửa sổ toàn màn hình"
 
 #. i18n: ectx: property (text), widget (QLabel, label_Duration)
 #: glide/glide_config.ui:19 scale/package/contents/ui/config.ui:17
-#: slide/slide_config.ui:19
 #, kde-format
 msgid "Duration:"
 msgstr "Thời lượng:"
 
-#. i18n: Duration of the slide animation.
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_Duration)
 #: glide/glide_config.ui:32 scale/package/contents/ui/config.ui:30
-#: slide/slide_config.ui:32
 #, kde-format
 msgid "Default"
 msgstr "Mặc định"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Duration)
 #: glide/glide_config.ui:35 scale/package/contents/ui/config.ui:33
-#: slide/slide_config.ui:35
 #, kde-format
 msgid " milliseconds"
 msgstr " mi-li giây"
@@ -571,12 +568,14 @@ msgstr "Bật/tắt tổng quan"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: overview/kcm/overvieweffectkcm.ui:22
 #: presentwindows/presentwindows_config.ui:393
+#: windowview/kcm/windowvieweffectkcm.ui:22
 #, kde-format
 msgid "Layout mode:"
 msgstr "Chế độ bố cục:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LayoutMode)
 #: overview/kcm/overvieweffectkcm.ui:30
+#: windowview/kcm/windowvieweffectkcm.ui:30
 #, kde-format
 msgid "Closest"
 msgstr "Gần nhất"
@@ -584,6 +583,7 @@ msgstr "Gần nhất"
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LayoutMode)
 #: overview/kcm/overvieweffectkcm.ui:35
 #: presentwindows/presentwindows_config.ui:441
+#: windowview/kcm/windowvieweffectkcm.ui:35
 #, kde-format
 msgid "Natural"
 msgstr "Tự nhiên"
@@ -609,20 +609,20 @@ msgstr "Thêm bàn làm việc"
 msgid "Search..."
 msgstr "Tìm kiếm..."
 
-#: presentwindows/presentwindows.cpp:71
-#: presentwindows/presentwindows_config.cpp:61
-#, kde-format
-msgid "Toggle Present Windows (Current desktop)"
-msgstr "Ẩn/hiện \"Các cửa sổ hiện thời\" (Bàn làm việc hiện tại)"
-
-#: presentwindows/presentwindows.cpp:80
 #: presentwindows/presentwindows_config.cpp:55
+#: windowview/kcm/windowvieweffectkcm.cpp:48 windowview/windowvieweffect.cpp:71
 #, kde-format
 msgid "Toggle Present Windows (All desktops)"
 msgstr "Ẩn/hiện \"Các cửa sổ hiện thời\" (Tất cả các bàn làm việc)"
 
-#: presentwindows/presentwindows.cpp:98
+#: presentwindows/presentwindows_config.cpp:61
+#: windowview/kcm/windowvieweffectkcm.cpp:41 windowview/windowvieweffect.cpp:56
+#, kde-format
+msgid "Toggle Present Windows (Current desktop)"
+msgstr "Ẩn/hiện \"Các cửa sổ hiện thời\" (Bàn làm việc hiện tại)"
+
 #: presentwindows/presentwindows_config.cpp:67
+#: windowview/kcm/windowvieweffectkcm.cpp:55 windowview/windowvieweffect.cpp:86
 #, kde-format
 msgid "Toggle Present Windows (Window class)"
 msgstr "Ẩn/hiện \"Các cửa sổ hiện thời\" (Lớp cửa sổ)"
@@ -826,7 +826,7 @@ msgstr "Lưới linh hoạt"
 msgid "Provide buttons to close the windows"
 msgstr "Cung cấp các nút để đóng cửa sổ"
 
-#: private/qml/WindowHeap.qml:141
+#: private/qml/WindowHeap.qml:166
 #, kde-format
 msgid "Drag Down To Close"
 msgstr "Kéo xuống để đóng"
@@ -982,31 +982,31 @@ msgid "Toggle Show Paint"
 msgstr "Bật/tắt \"Hiện sơn\""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_Gaps)
-#: slide/slide_config.ui:50
+#: slide/slide_config.ui:17
 #, kde-format
 msgid "Gap between desktops"
 msgstr "Chỗ trống giữa các bàn làm việc"
 
 #. i18n: ectx: property (text), widget (QLabel, label_HorizontalGap)
-#: slide/slide_config.ui:56
+#: slide/slide_config.ui:23
 #, kde-format
 msgid "Horizontal:"
 msgstr "Ngang:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_VerticalGap)
-#: slide/slide_config.ui:79
+#: slide/slide_config.ui:46
 #, kde-format
 msgid "Vertical:"
 msgstr "Dọc:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlideDocks)
-#: slide/slide_config.ui:105
+#: slide/slide_config.ui:72
 #, kde-format
 msgid "Slide docks"
 msgstr "Trượt các giá"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlideBackground)
-#: slide/slide_config.ui:112
+#: slide/slide_config.ui:79
 #, kde-format
 msgid "Slide desktop background"
 msgstr "Trượt nền bàn làm việc"
@@ -1177,6 +1177,17 @@ msgstr "Trình đơn bật lên:"
 #, kde-format
 msgid "Torn-off menus:"
 msgstr "Trình đơn xé tách:"
+
+#: windowview/qml/main.qml:130
+#, kde-format
+msgid "No Matches"
+msgstr ""
+
+#: windowview/qml/main.qml:130
+#, fuzzy, kde-format
+#| msgid "Windows"
+msgid "No Windows"
+msgstr "Cửa sổ"
 
 #. i18n: ectx: property (title), widget (QGroupBox, advancedGroup)
 #: wobblywindows/wobblywindows_config.ui:20

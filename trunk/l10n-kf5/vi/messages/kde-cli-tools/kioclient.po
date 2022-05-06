@@ -39,10 +39,6 @@ msgstr ""
 
 #: kioclient.cpp:57
 #, kde-format
-#| msgid ""
-#| "  kioclient openProperties 'url'\n"
-#| "            # Opens a properties menu\n"
-#| "\n"
 msgctxt "The argument is the command \"kioclient openProperties\""
 msgid ""
 "  %1 'url'\n"
@@ -55,15 +51,6 @@ msgstr ""
 
 #: kioclient.cpp:64
 #, kde-format
-#| msgid ""
-#| "  kioclient exec 'url' ['mimetype']\n"
-#| "            # Tries to open the document pointed to by 'url', in the "
-#| "application\n"
-#| "            #   associated with it in KDE. You may omit 'mimetype'.\n"
-#| "            #   In this case the mimetype is determined\n"
-#| "            #   automatically. Of course URL may be the URL of a\n"
-#| "            #   document, or it may be a *.desktop file.\n"
-#| "            #   'url' can be an executable, too.\n"
 msgctxt "The argument is the command \"kioclient exec\""
 msgid ""
 "  %1 'url' ['mimetype']\n"
@@ -95,19 +82,13 @@ msgstr ""
 "  %1 'nguồn' 'đích'\n"
 "            # Chuyển URL 'nguồn' đến 'đích'.\n"
 "            #   'nguồn' có thể là một danh sách các URL.\n"
-"            #   'đích' có thể là \"trash:/\" để chuyển các tệp vào thùng"
-" rác.\n"
+"            #   'đích' có thể là \"trash:/\" để chuyển các tệp vào thùng "
+"rác.\n"
 "            #   Cách viết ngắn 'kioclient mv' cũng khả dụng.\n"
 "\n"
 
 #: kioclient.cpp:85
 #, kde-format
-#| msgid ""
-#| "  kioclient download ['src']\n"
-#| "            # Copies the URL 'src' to a user-specified location'.\n"
-#| "            #   'src' may be a list of URLs, if not present then\n"
-#| "            #   a URL will be requested.\n"
-#| "\n"
 msgctxt "The argument is the command \"kioclient download\""
 msgid ""
 "  %1 ['src']\n"
@@ -124,10 +105,6 @@ msgstr ""
 
 #: kioclient.cpp:94
 #, kde-format
-#| msgid ""
-#| "  kioclient copy 'src' 'dest'\n"
-#| "            # Copies the URL 'src' to 'dest'.\n"
-#| "            #   'src' may be a list of URLs.\n"
 msgctxt "The argument is the command \"kioclient copy\""
 msgid ""
 "  %1 'src' 'dest'\n"
@@ -144,10 +121,6 @@ msgstr ""
 
 #: kioclient.cpp:103
 #, kde-format
-#| msgid ""
-#| "  kioclient ls 'url'\n"
-#| "            # Lists the contents of the directory 'url' to stdout\n"
-#| "\n"
 msgctxt "The argument is the command \"kioclient cat\""
 msgid ""
 "  %1 'url'\n"
@@ -160,10 +133,6 @@ msgstr ""
 
 #: kioclient.cpp:110
 #, kde-format
-#| msgid ""
-#| "  kioclient ls 'url'\n"
-#| "            # Lists the contents of the directory 'url' to stdout\n"
-#| "\n"
 msgctxt "The argument is the command \"kioclient ls\""
 msgid ""
 "  %1 'url'\n"
@@ -176,10 +145,6 @@ msgstr ""
 
 #: kioclient.cpp:117
 #, kde-format
-#| msgid ""
-#| "  kioclient remove 'url'\n"
-#| "            # Removes the URL\n"
-#| "            #   'url' may be a list of URLs.\n"
 msgctxt "The argument is the command \"kioclient remove\""
 msgid ""
 "  %1 'url'\n"
@@ -196,10 +161,6 @@ msgstr ""
 
 #: kioclient.cpp:126
 #, kde-format
-#| msgid ""
-#| "  kioclient cat 'url'\n"
-#| "            # Writes out the contents of 'url' to stdout\n"
-#| "\n"
 msgctxt "The argument is the command \"kioclient stat\""
 msgid ""
 "  %1 'url'\n"
@@ -212,10 +173,6 @@ msgstr ""
 
 #: kioclient.cpp:133
 #, kde-format
-#| msgid ""
-#| "  kioclient openProperties 'url'\n"
-#| "            # Opens a properties menu\n"
-#| "\n"
 msgctxt "The argument is the command \"kioclient appmenu\""
 msgid ""
 "  %1\n"
@@ -233,10 +190,6 @@ msgstr "*** Ví dụ:\n"
 
 #: kioclient.cpp:140
 #, kde-format
-#| msgid ""
-#| "  kioclient exec file:/home/weis/data/test.html\n"
-#| "             // Opens the file with default binding\n"
-#| "\n"
 msgid ""
 "  kioclient exec file:/home/weis/data/test.html\n"
 "             // Opens the file with the default application associated\n"
@@ -250,10 +203,6 @@ msgstr ""
 
 #: kioclient.cpp:145
 #, kde-format
-#| msgid ""
-#| "  kioclient exec ftp://localhost/\n"
-#| "             // Opens new window with URL\n"
-#| "\n"
 msgid ""
 "  kioclient exec ftp://localhost/\n"
 "             // Opens URL with the default handler for ftp:// scheme\n"
@@ -265,10 +214,6 @@ msgstr ""
 
 #: kioclient.cpp:149
 #, kde-format
-#| msgid ""
-#| "  kioclient exec file:/root/Desktop/emacs.desktop\n"
-#| "             // Starts emacs\n"
-#| "\n"
 msgid ""
 "  kioclient exec file:/root/Desktop/emacs.desktop\n"
 "             // Starts emacs\n"
@@ -280,10 +225,6 @@ msgstr ""
 
 #: kioclient.cpp:153
 #, kde-format
-#| msgid ""
-#| "  kioclient exec .\n"
-#| "             // Opens the current directory. Very convenient.\n"
-#| "\n"
 msgid ""
 "  kioclient exec .\n"
 "             // Opens the current directory in the default\n"
@@ -326,7 +267,6 @@ msgstr "Ghi đè đích nếu nó tồn tại (cho sao chép và di chuyển)"
 
 #: kioclient.cpp:191
 #, kde-format
-#| msgid "URL or URLs"
 msgid "file or URL"
 msgstr "tệp hoặc URL"
 
@@ -372,14 +312,12 @@ msgstr "Đối số cho lệnh"
 
 #: kioclient.cpp:225
 #, kde-format
-#| msgid "Syntax Error: Not enough arguments\n"
 msgctxt "@info:shell"
 msgid "%1: Syntax error, not enough arguments\n"
 msgstr "%1: Lỗi cú pháp, không đủ đối số\n"
 
 #: kioclient.cpp:229
 #, kde-format
-#| msgid "Syntax Error: Too many arguments\n"
 msgctxt "@info:shell"
 msgid "%1: Syntax error, too many arguments\n"
 msgstr "%1: Lỗi cú pháp, quá nhiều đối số\n"
@@ -391,7 +329,6 @@ msgstr "Đích, nơi để tải tệp về"
 
 #: kioclient.cpp:476
 #, kde-format
-#| msgid "Syntax Error: Unknown command '%1'\n"
 msgctxt "@info:shell"
 msgid "%1: Syntax error, unknown command '%2'\n"
 msgstr "%1: Lỗi cú pháp, lệnh không rõ '%2'\n"

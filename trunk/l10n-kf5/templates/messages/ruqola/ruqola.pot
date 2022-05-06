@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-05 00:44+0000\n"
+"POT-Creation-Date: 2022-05-06 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -449,127 +449,130 @@ msgstr ""
 msgid "Role '%3' was removed to %1 by %2"
 msgstr ""
 
-#: core/messages/message.cpp:490
+#. i18n("Encrypted message: %1", mText);
+#: core/messages/message.cpp:491
 #, kde-format
-msgid "Encrypted message: %1"
+msgid ""
+"This message is end-to-end encrypted. To view it, you must enter your "
+"encryption key in your account settings."
 msgstr ""
 
-#: core/messages/message.cpp:492
+#: core/messages/message.cpp:493
 #, kde-format
 msgid "Discussion created about \"%1\""
 msgstr ""
 
-#: core/messages/message.cpp:494
+#: core/messages/message.cpp:495
 #, kde-format
 msgid "%1 has joined the conversation"
 msgstr ""
 
-#: core/messages/message.cpp:496
+#: core/messages/message.cpp:497
 #, kde-format
 msgid "This room has been archived by %1"
 msgstr ""
 
-#: core/messages/message.cpp:498
+#: core/messages/message.cpp:499
 #, kde-format
 msgid "This room has been unarchived by %1"
 msgstr ""
 
-#: core/messages/message.cpp:501 core/messages/message.cpp:544
+#: core/messages/message.cpp:502 core/messages/message.cpp:545
 #, kde-format
 msgid "Unknown action!"
 msgstr ""
 
-#: core/messages/message.cpp:505
+#: core/messages/message.cpp:506
 #, kde-format
 msgid "Welcome %1!"
 msgstr ""
 
-#: core/messages/message.cpp:507
+#: core/messages/message.cpp:508
 #, kde-format
 msgid "Room avatar changed by %1"
 msgstr ""
 
-#: core/messages/message.cpp:509
+#: core/messages/message.cpp:510
 #, kde-format
 msgid "This room's encryption has been enabled by %1"
 msgstr ""
 
-#: core/messages/message.cpp:511
+#: core/messages/message.cpp:512
 #, kde-format
 msgid "This room's encryption has been disabled by %1"
 msgstr ""
 
-#: core/messages/message.cpp:513
+#: core/messages/message.cpp:514
 #, kde-format
 msgid "Room set as Read Only by  %1"
 msgstr ""
 
-#: core/messages/message.cpp:515
+#: core/messages/message.cpp:516
 #, kde-format
 msgid "Room added writing permission by %1"
 msgstr ""
 
-#: core/messages/message.cpp:517
+#: core/messages/message.cpp:518
 #, kde-format
 msgid "%1 added @%2 to this Team"
 msgstr ""
 
-#: core/messages/message.cpp:519
+#: core/messages/message.cpp:520
 #, kde-format
 msgid "Removed %1 from this Team"
 msgstr ""
 
-#: core/messages/message.cpp:521
+#: core/messages/message.cpp:522
 #, kde-format
 msgid "%1 converted #%2 to a Team"
 msgstr ""
 
-#: core/messages/message.cpp:523
+#: core/messages/message.cpp:524
 #, kde-format
 msgid "%1 converted #%2 to a Channel"
 msgstr ""
 
-#: core/messages/message.cpp:525
+#: core/messages/message.cpp:526
 #, kde-format
 msgid "%1 removed #%2 from this Team"
 msgstr ""
 
-#: core/messages/message.cpp:527
+#: core/messages/message.cpp:528
 #, kde-format
 msgid "%1 deleted #%2"
 msgstr ""
 
-#: core/messages/message.cpp:529
+#: core/messages/message.cpp:530
 #, kde-format
 msgid "%1 added #%2 to this Team"
 msgstr ""
 
-#: core/messages/message.cpp:531
+#: core/messages/message.cpp:532
 #, kde-format
 msgid "Room allowed reacting by %1"
 msgstr ""
 
-#: core/messages/message.cpp:533
+#: core/messages/message.cpp:534
 #, kde-format
 msgid "Room disallowed reacting by %1"
 msgstr ""
 
-#: core/messages/message.cpp:535
+#: core/messages/message.cpp:536
 #, kde-format
 msgid "%1 joined this Team"
 msgstr ""
 
-#: core/messages/message.cpp:537
+#: core/messages/message.cpp:538
 #, kde-format
 msgid "Has joined OTR chat."
 msgstr ""
 
-#: core/messages/message.cpp:539
+#: core/messages/message.cpp:540
 #, kde-format
 msgid "key refreshed successfully"
 msgstr ""
 
-#: core/messages/message.cpp:541
+#: core/messages/message.cpp:542
 #, kde-format
 msgid "Has requested key refresh."
 msgstr ""
@@ -769,7 +772,7 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:116 widgets/ruqolamainwindow.cpp:399
+#: core/model/adminusersmodel.cpp:116 widgets/ruqolamainwindow.cpp:412
 #, kde-format
 msgid "Status"
 msgstr ""
@@ -1303,7 +1306,7 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-#: core/user.cpp:200
+#: core/user.cpp:200 widgets/ruqolamainwindow.cpp:367
 #, kde-format
 msgid "Administrator"
 msgstr ""
@@ -2047,7 +2050,6 @@ msgid "Two Authentication Password Required"
 msgstr ""
 
 #: widgets/administratordialog/administratordialog.cpp:25
-#: widgets/administratorsettingsdialog/administratorsettingsdialog.cpp:25
 #, kde-format
 msgctxt "@title:window"
 msgid "Administrator"
@@ -2142,9 +2144,8 @@ msgid "File:"
 msgstr ""
 
 #: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:32
-#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:29
 #, kde-format
-msgid "Search Custom Sounds"
+msgid "Search Custom Emojis"
 msgstr ""
 
 #: widgets/administratordialog/customemoji/administratorcustomemojiwidget.cpp:46
@@ -2218,6 +2219,11 @@ msgctxt "@title:window"
 msgid "Create New Sound"
 msgstr ""
 
+#: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:29
+#, kde-format
+msgid "Search Custom Sounds"
+msgstr ""
+
 #: widgets/administratordialog/customsounds/administratorcustomsoundswidget.cpp:61
 #, kde-format
 msgid "No custom sound found"
@@ -2256,7 +2262,7 @@ msgstr ""
 #: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:28
 #: widgets/dialogs/directchannelinfowidget.cpp:51
 #: widgets/dialogs/modifystatuswidget.cpp:32
-#: widgets/ruqolamainwindow.cpp:406
+#: widgets/ruqolamainwindow.cpp:419
 #, kde-format
 msgid "Status:"
 msgstr ""
@@ -2826,7 +2832,7 @@ msgid "Status Message:"
 msgstr ""
 
 #: widgets/administratordialog/users/administratoradduserwidget.cpp:52
-#: widgets/dialogs/directchannelinfowidget.cpp:75
+#: widgets/dialogs/directchannelinfowidget.cpp:76
 #: widgets/misc/passwordlineeditwidget.cpp:43
 #: widgets/myaccount/myaccountprofileconfigurewidget.cpp:58
 #: widgets/registeruser/registeruserwidget.cpp:35
@@ -2920,6 +2926,12 @@ msgstr ""
 #: widgets/administratorsettingsdialog/accounts/accountsettingswidget.cpp:14
 #, kde-format
 msgid "Allow Name Change"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/administratorsettingsdialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Administrator Server Settings"
 msgstr ""
 
 #: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:30
@@ -3463,7 +3475,7 @@ msgid "Invite Users"
 msgstr ""
 
 #: widgets/dialogs/createnewdiscussionwidget.cpp:54
-#: widgets/ruqolamainwindow.cpp:742
+#: widgets/ruqolamainwindow.cpp:762
 #, kde-format
 msgid "Message"
 msgstr ""
@@ -3540,17 +3552,17 @@ msgstr ""
 msgid "Last Login:"
 msgstr ""
 
-#: widgets/dialogs/directchannelinfowidget.cpp:168
+#: widgets/dialogs/directchannelinfowidget.cpp:169
 #, kde-format
 msgid "Verified"
 msgstr ""
 
-#: widgets/dialogs/directchannelinfowidget.cpp:168
+#: widgets/dialogs/directchannelinfowidget.cpp:169
 #, kde-format
 msgid "Not verified"
 msgstr ""
 
-#: widgets/dialogs/directchannelinfowidget.cpp:168
+#: widgets/dialogs/directchannelinfowidget.cpp:169
 #, kde-format
 msgid "%1 [%2]"
 msgstr ""
@@ -5033,137 +5045,142 @@ msgstr ""
 msgid "Login Failed: generic error"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:183
+#: widgets/ruqolamainwindow.cpp:185
 #, kde-format
 msgid "Show New Notifications"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:302
+#: widgets/ruqolamainwindow.cpp:307
 #, kde-format
 msgid "Add Server..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:307
+#: widgets/ruqolamainwindow.cpp:312
 #, kde-format
 msgid "Server Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:311
+#: widgets/ruqolamainwindow.cpp:316
 #, kde-format
 msgid "Logout Current Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:315
+#: widgets/ruqolamainwindow.cpp:320
 #, kde-format
 msgid "Jump to Next Unread Channel"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:320
+#: widgets/ruqolamainwindow.cpp:325
 #, kde-format
 msgid "Create New Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:324
+#: widgets/ruqolamainwindow.cpp:329
 #, kde-format
 msgid "Create Direct Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:328
+#: widgets/ruqolamainwindow.cpp:333
 #, kde-format
 msgid "Create Discussion..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:332
+#: widgets/ruqolamainwindow.cpp:337
 #, kde-format
 msgid "Create Team..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:340
+#: widgets/ruqolamainwindow.cpp:345
 #, kde-format
 msgid "Unread on Top"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:345
+#: widgets/ruqolamainwindow.cpp:350
 #, kde-format
 msgid "Show Channel Log"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:349
+#: widgets/ruqolamainwindow.cpp:354
 #, kde-format
 msgid "Mark All Channels as Read"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:354
+#: widgets/ruqolamainwindow.cpp:359
 #, kde-format
 msgid "Register a New User..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:358
+#: widgets/ruqolamainwindow.cpp:363
 #, kde-format
 msgid "My Account..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:362
+#: widgets/ruqolamainwindow.cpp:368
 #, kde-format
 msgid "Administrator..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:366
+#: widgets/ruqolamainwindow.cpp:374
+#, kde-format
+msgid "Server Settings..."
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:379
 #, kde-format
 msgid "Directory..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:387
+#: widgets/ruqolamainwindow.cpp:400
 #, kde-format
 msgid "&Next Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:392
+#: widgets/ruqolamainwindow.cpp:405
 #, kde-format
 msgid "&Previous Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:422
+#: widgets/ruqolamainwindow.cpp:435
 #, kde-format
 msgid "Previous Selected Channel"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:429
+#: widgets/ruqolamainwindow.cpp:442
 #, kde-format
 msgid "Next Selected Channel"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:458
+#: widgets/ruqolamainwindow.cpp:471
 #, kde-format
 msgid "Show Notify History"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:483
+#: widgets/ruqolamainwindow.cpp:496
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Team"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:651
+#: widgets/ruqolamainwindow.cpp:664
 #, kde-format
 msgid ""
 "We have sent you an email to confirm your registration.\n"
 "If you do not receive an email shortly, please come back and try again."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:652
+#: widgets/ruqolamainwindow.cpp:665
 #, kde-format
 msgid "Register New User"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:769
+#: widgets/ruqolamainwindow.cpp:789
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:772
+#: widgets/ruqolamainwindow.cpp:792
 #, kde-format
 msgid "Hide menu bar"
 msgstr ""
