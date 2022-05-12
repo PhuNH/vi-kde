@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-06 00:57+0000\n"
+"POT-Creation-Date: 2022-05-09 00:57+0000\n"
 "PO-Revision-Date: 2022-05-02 11:26+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -124,12 +124,6 @@ msgctxt "Name"
 msgid "Overview"
 msgstr "Tổng quan"
 
-#: src/effects/presentwindows/metadata.json
-#: src/effects/windowview/metadata.json
-msgctxt "Name"
-msgid "Present Windows"
-msgstr "Các cửa sổ hiện thời"
-
 #: src/effects/screenedge/metadata.json
 msgctxt "Name"
 msgid "Screen Edge"
@@ -200,6 +194,11 @@ msgctxt "Name"
 msgid "Track Mouse"
 msgstr "Theo dõi chuột"
 
+#: src/effects/windowview/metadata.json
+msgctxt "Name"
+msgid "Present Windows"
+msgstr "Các cửa sổ hiện thời"
+
 #: src/effects/wobblywindows/metadata.json
 msgctxt "Name"
 msgid "Wobbly Windows"
@@ -210,10 +209,72 @@ msgctxt "Name"
 msgid "Zoom"
 msgstr "Thu phóng"
 
-#: src/kcmkwin/kwinscripts/kwinscripts.json
+#: src/kcmkwin/kwincompositing/metadata.json
+msgctxt "Name"
+msgid "Compositor"
+msgstr ""
+
+#: src/kcmkwin/kwindecoration/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWin Decoration"
+msgctxt "Name"
+msgid "Window Decorations"
+msgstr "Trang trí KWin"
+
+#: src/kcmkwin/kwindesktop/metadata.json
+msgctxt "Name"
+msgid "Virtual Desktops"
+msgstr ""
+
+#: src/kcmkwin/kwineffects/metadata.json
+msgctxt "Name"
+msgid "Desktop Effects"
+msgstr ""
+
+#: src/kcmkwin/kwinoptions/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window View"
+msgctxt "Name"
+msgid "Window Behavior"
+msgstr "Khung xem cửa sổ"
+
+#: src/kcmkwin/kwinrules/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window View"
+msgctxt "Name"
+msgid "Window Rules"
+msgstr "Khung xem cửa sổ"
+
+#: src/kcmkwin/kwinscreenedges/kwintouchscreen.json
+msgctxt "Name"
+msgid "Touch Screen"
+msgstr ""
+
+#: src/kcmkwin/kwinscreenedges/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen Edge"
+msgctxt "Name"
+msgid "Screen Edges"
+msgstr "Cạnh màn hình"
+
+#: src/kcmkwin/kwinscripts/metadata.json
 msgctxt "Name"
 msgid "KWin Scripts"
 msgstr "Kịch bản KWin"
+
+#: src/kcmkwin/kwintabbox/metadata.json
+msgctxt "Name"
+msgid "Task Switcher"
+msgstr ""
+
+#: src/kcmkwin/kwinvirtualkeyboard/metadata.json
+msgctxt "Name"
+msgid "Virtual Keyboard"
+msgstr ""
 
 #: src/plugins/kpackage/aurorae/kwin-packagestructure-aurorae.json
 msgctxt "Name"
@@ -356,12 +417,6 @@ msgctxt "Description"
 msgid "Allows you to overview virtual desktops and windows"
 msgstr "Cho phép bạn xem tổng quan các bàn làm việc ảo và các cửa sổ"
 
-#: src/effects/presentwindows/metadata.json
-#: src/effects/windowview/metadata.json
-msgctxt "Description"
-msgid "Zoom out until all opened windows can be displayed side-by-side"
-msgstr "Thu nhỏ cho đến khi tất cả các cửa sổ đang mở hiển thị được cạnh nhau"
-
 #: src/effects/screenedge/metadata.json
 msgctxt "Description"
 msgid "Highlights a screen edge when approaching"
@@ -435,6 +490,11 @@ msgctxt "Description"
 msgid "Display a mouse cursor locating effect when activated"
 msgstr "Khi được kích hoạt, hiển thị một hiệu ứng định vị con trỏ chuột"
 
+#: src/effects/windowview/metadata.json
+msgctxt "Description"
+msgid "Zoom out until all opened windows can be displayed side-by-side"
+msgstr "Thu nhỏ cho đến khi tất cả các cửa sổ đang mở hiển thị được cạnh nhau"
+
 #: src/effects/wobblywindows/metadata.json
 msgctxt "Description"
 msgid "Deform windows while they are moving"
@@ -445,10 +505,60 @@ msgctxt "Description"
 msgid "Magnify the entire desktop"
 msgstr "Phóng đại toàn bộ bàn làm việc"
 
-#: src/kcmkwin/kwinscripts/kwinscripts.json
+#: src/kcmkwin/kwincompositing/metadata.json
+msgctxt "Description"
+msgid "Compositor Settings for Desktop Effects"
+msgstr ""
+
+#: src/kcmkwin/kwindecoration/metadata.json
+msgctxt "Description"
+msgid "Configure window titlebars and borders"
+msgstr ""
+
+#: src/kcmkwin/kwindesktop/metadata.json
+msgctxt "Description"
+msgid "Configure navigation, number and layout of virtual desktops"
+msgstr ""
+
+#: src/kcmkwin/kwineffects/metadata.json
+msgctxt "Description"
+msgid "Configure compositor settings for desktop effects"
+msgstr ""
+
+#: src/kcmkwin/kwinoptions/metadata.json
+msgctxt "Description"
+msgid "Configure window actions and behavior"
+msgstr ""
+
+#: src/kcmkwin/kwinrules/metadata.json
+msgctxt "Description"
+msgid "Individual Window Behavior"
+msgstr ""
+
+#: src/kcmkwin/kwinscreenedges/kwintouchscreen.json
+msgctxt "Description"
+msgid "Configure touch screen swipe gestures"
+msgstr ""
+
+#: src/kcmkwin/kwinscreenedges/metadata.json
+msgctxt "Description"
+msgid "Configure active screen corners and edges"
+msgstr ""
+
+#: src/kcmkwin/kwinscripts/metadata.json
 msgctxt "Description"
 msgid "Manage KWin scripts"
 msgstr "Quản lí các kịch bản KWin"
+
+#: src/kcmkwin/kwintabbox/metadata.json
+msgctxt "Description"
+msgid "Navigation Through Windows"
+msgstr ""
+
+#: src/kcmkwin/kwinvirtualkeyboard/metadata.json
+msgctxt "Description"
+msgid "Select which virtual keyboard to use"
+msgstr ""
 
 #: src/plugins/kpackage/aurorae/kwin-packagestructure-aurorae.json
 #: src/plugins/kpackage/decoration/kwin-packagestructure-decoration.json
@@ -466,10 +576,6 @@ msgstr "Vlad Zahorodnii"
 msgctxt "Authors Name"
 msgid "Marco Martin"
 msgstr "Marco Martin"
-
-#~ msgctxt "Name"
-#~ msgid "Window View"
-#~ msgstr "Khung xem cửa sổ"
 
 #~ msgctxt "Description"
 #~ msgid "Helper effect for the task manager"

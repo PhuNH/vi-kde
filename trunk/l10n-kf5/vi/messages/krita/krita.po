@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-04 00:44+0000\n"
+"POT-Creation-Date: 2022-05-12 00:41+0000\n"
 "PO-Revision-Date: 2022-01-11 21:56+0700\n"
 "Last-Translator: thanh9356 <thanh9356@hotmail.com>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -14669,9 +14669,9 @@ msgstr ""
 msgid "Cannot save %1 to html"
 msgstr ""
 
-#: libs/flake/KoMarkerCollection.cpp:68
+#: libs/flake/KoMarkerCollection.cpp:67
 #: libs/flake/resources/KoSvgSymbolCollectionResource.cpp:126
-#: libs/ui/flake/kis_shape_layer.cc:552
+#: libs/ui/flake/kis_shape_layer.cc:551
 #, kde-format
 msgid ""
 "Parsing error in the main document at line %1, column %2\n"
@@ -14680,12 +14680,12 @@ msgstr ""
 "Lỗi đọc tài liệu chính ở dòng %1, cột %2\n"
 "Thông báo lỗi: %3"
 
-#: libs/flake/KoPathShapeFactory.cpp:25
+#: libs/flake/KoPathShapeFactory.cpp:23
 #, fuzzy, kde-format
 msgid "Simple path shape"
 msgstr "Làm méo các hình"
 
-#: libs/flake/KoPathShapeFactory.cpp:27
+#: libs/flake/KoPathShapeFactory.cpp:25
 #, fuzzy, kde-format
 msgid "A simple path shape"
 msgstr "Làm méo các hình"
@@ -14701,7 +14701,7 @@ msgstr "Tuỳ chọn"
 msgid "Active tool: %1"
 msgstr "Công cụ &di chuyển"
 
-#: libs/flake/svg/SvgParser.cpp:1773
+#: libs/flake/svg/SvgParser.cpp:1776
 #, kde-format
 msgctxt "warning while loading SVG text"
 msgid ""
@@ -14710,47 +14710,47 @@ msgid ""
 "longer be compatible with Krita 4.x"
 msgstr ""
 
-#: libs/flake/text/KoSvgTextShape.cpp:572
+#: libs/flake/text/KoSvgTextShape.cpp:571
 #, fuzzy, kde-format
 msgctxt "Text label in SVG Text Tool"
 msgid "Text"
 msgstr "Chữ"
 
-#: libs/flake/text/KoSvgTextShape.cpp:574
-#: libs/flake/text/KoSvgTextShape.cpp:582
+#: libs/flake/text/KoSvgTextShape.cpp:573
+#: libs/flake/text/KoSvgTextShape.cpp:581
 #, fuzzy, kde-format
 msgid "SVG Text Shape"
 msgstr "Hình dáng:"
 
-#: libs/flake/text/KoSvgTextShape.cpp:580
+#: libs/flake/text/KoSvgTextShape.cpp:579
 #, fuzzy, kde-format
 msgid "SVG Text"
 msgstr "Chữ:"
 
-#: libs/flake/text/KoSvgTextShape.cpp:594
-#: libs/flake/text/KoSvgTextShape.cpp:609
+#: libs/flake/text/KoSvgTextShape.cpp:593
+#: libs/flake/text/KoSvgTextShape.cpp:608
 #, kde-format
 msgctxt "Default text for the text shape"
 msgid "<text>Placeholder Text</text>"
 msgstr ""
 
-#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:134
+#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:133
 #, kde-format
 msgid "More than one 'text' node found!"
 msgstr ""
 
-#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:143
+#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:142
 #, kde-format
 msgid "Unknown node of type '%1' found!"
 msgstr ""
 
-#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:149
+#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:148
 #, kde-format
 msgid "No 'text' node found!"
 msgstr ""
 
-#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:357
-#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:726
+#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:356
+#: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:725
 #, kde-format
 msgid "Unknown error writing SVG text element"
 msgstr ""
@@ -15501,7 +15501,7 @@ msgstr "Nhập ảnh"
 msgid "Selection Mask"
 msgstr "Không có phần chọn"
 
-#: libs/image/kis_image.cc:720 libs/ui/KisDocument.cpp:2426
+#: libs/image/kis_image.cc:720 libs/ui/KisDocument.cpp:2425
 #: plugins/impex/psd/psd_loader.cpp:190
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:68
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:302
@@ -15686,7 +15686,6 @@ msgstr "%1%"
 #. i18n: ectx: property (toolTip), widget (KisCompositeOpComboBox, cmbComposite)
 #: libs/image/kis_layer.cc:283 libs/ui/widgets/kis_cmb_composite.cc:66
 #: plugins/dockers/layerdocker/WdgLayerBox.ui:56
-#: plugins/paintops/experiment/kis_experimentop_option.cpp:38
 #: plugins/paintops/libpaintop/kis_compositeop_option.cpp:20
 #, fuzzy, kde-format
 msgid "Blending Mode"
@@ -16553,7 +16552,14 @@ msgctxt "description of a file type"
 msgid "Animated PNG Image"
 msgstr "Chương trình hành động"
 
-#: libs/libkis/Document.cpp:927 libs/ui/KisMainWindow.cpp:1954
+#: libs/koplugin/KisMimeDatabase.cpp:344
+#, fuzzy, kde-format
+#| msgid "Image"
+msgctxt "description of a file type"
+msgid "JPEG-XL Image"
+msgstr "Ảnh"
+
+#: libs/libkis/Document.cpp:926 libs/ui/KisMainWindow.cpp:1954
 #: libs/ui/KisMainWindow.cpp:2037
 #, fuzzy, kde-format
 msgid "Import frames"
@@ -17878,9 +17884,9 @@ msgstr "Gỡ bỏ Layer"
 #: libs/ui/kis_node_manager.cpp:1281 libs/ui/KisApplication.cpp:970
 #: libs/ui/KisApplication.cpp:973 libs/ui/KisApplication.cpp:989
 #: libs/ui/KisApplication.cpp:1021 libs/ui/KisApplication.cpp:1035
-#: libs/ui/KisApplication.cpp:1063 libs/ui/KisDocument.cpp:917
-#: libs/ui/KisDocument.cpp:925 libs/ui/KisDocument.cpp:1782
-#: libs/ui/KisDocument.cpp:1825 libs/ui/KisDocument.cpp:1833
+#: libs/ui/KisApplication.cpp:1063 libs/ui/KisDocument.cpp:916
+#: libs/ui/KisDocument.cpp:924 libs/ui/KisDocument.cpp:1781
+#: libs/ui/KisDocument.cpp:1824 libs/ui/KisDocument.cpp:1832
 #: libs/ui/KisMainWindow.cpp:994 libs/ui/KisMainWindow.cpp:1120
 #: libs/ui/KisMainWindow.cpp:1218 libs/ui/KisMainWindow.cpp:1814
 #: libs/ui/KisMainWindow.cpp:1823 libs/ui/KisMainWindow.cpp:1962
@@ -18083,7 +18089,7 @@ msgstr ""
 #: libs/resources/KisResourceStorage.h:116
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1588
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1592
-#: libs/ui/forms/wdgdisplaysettings.ui:173 libs/ui/KoDocumentInfo.cpp:39
+#: libs/ui/forms/wdgdisplaysettings.ui:173 libs/ui/KoDocumentInfo.cpp:35
 #: libs/widgets/KisDlgInternalColorSelector.cpp:322
 #: libs/widgets/WdgDlgInternalColorSelector.ui:89
 #: plugins/python/channels2layers/channels2layers.py:853
@@ -18240,9 +18246,15 @@ msgstr "Nhập ảnh"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDelete)
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllAssistantsButton)
+#. i18n: ectx: property (text), widget (QLabel, lblBest)
+#. i18n: ectx: property (text), widget (QLabel, lblBest2)
+#. i18n: ectx: property (text), widget (QLabel, lblMaximumDegradation)
 #: libs/resources/KisTagModel.cpp:121 libs/resources/KisTagModel.cpp:294
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:592
 #: plugins/assistants/Assistants/AssistantsToolOptions.ui:325
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:489
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:541
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:640
 #: plugins/tools/defaulttool/referenceimagestool/WdgToolOptions.ui:220
 #, kde-format
 msgid "All"
@@ -19942,6 +19954,7 @@ msgstr "Định hướng"
 #: libs/ui/KoDocumentInfoDlg.cpp:92
 #: plugins/dockers/logdocker/LogDockerDock.cpp:119
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:49
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:31
 #: plugins/impex/webp/dlg_webp_export.ui:31
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:263
 #, kde-format
@@ -20004,9 +20017,11 @@ msgstr "%"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#. i18n: ectx: attribute (title), widget (QWidget, metadata)
 #: libs/ui/animation/VideoImportDialog.ui:197
 #: plugins/dockers/logdocker/LogDockerDock.cpp:187
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:262
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:705
 #, fuzzy, kde-format
 msgid "Metadata"
 msgstr "&Sửa siêu dữ liệu..."
@@ -20095,6 +20110,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, advanced)
 #: libs/ui/animation/VideoImportDialog.ui:532
 #: libs/ui/forms/wdgperformancesettings.ui:251
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:153
 #: plugins/impex/webp/dlg_webp_export.ui:148
 #: plugins/impex/webp/dlg_webp_import.ui:304
 #, kde-format
@@ -20879,6 +20895,9 @@ msgstr "Tính chất Lớp"
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, nearLossless)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, qMin)
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, qMax)
+#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, channelColorsGlobalPercent)
+#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, channelColorsGroupPercent)
+#. i18n: ectx: property (suffix), widget (KisSliderSpinBox, modularMATreeLearningPercent)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleWidth)
 #. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, spbScaleHeight)
 #: libs/ui/dialogs/kis_dlg_layer_properties.cc:97
@@ -20907,6 +20926,9 @@ msgstr "Tính chất Lớp"
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:49
 #: plugins/impex/jpeg/kis_jpeg_export.cc:217
 #: plugins/impex/jpeg/kis_jpeg_export.cc:219
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:463
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:515
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:662
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:314
 #: plugins/impex/webp/dlg_webp_export.ui:79
 #: plugins/impex/webp/dlg_webp_export.ui:320
@@ -21113,10 +21135,10 @@ msgid "Tool Icon"
 msgstr "Hình công cụ"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:187
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:188
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:222
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:256
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:290
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:187
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:221
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:255
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:289
 #, kde-format
 msgid "Arrow"
 msgstr "Mũi tên"
@@ -21782,7 +21804,7 @@ msgstr "Tạo mẫu"
 msgid "New name:"
 msgstr "Tên:"
 
-#: libs/ui/flake/kis_shape_controller.cpp:197
+#: libs/ui/flake/kis_shape_controller.cpp:196
 #, fuzzy, kde-format
 msgid "Vector Layer %1"
 msgstr "Lớp %1"
@@ -27305,8 +27327,8 @@ msgstr "Không gian màu"
 msgid "Brush composite"
 msgstr "Cỡ chổi"
 
-#: libs/ui/kis_paintop_box.cc:1269 libs/ui/kis_paintop_box.cc:1291
-#: libs/ui/kis_paintop_box.cc:1305
+#: libs/ui/kis_paintop_box.cc:1279 libs/ui/kis_paintop_box.cc:1301
+#: libs/ui/kis_paintop_box.cc:1315
 #, fuzzy, kde-format
 msgid ""
 "%1\n"
@@ -27904,36 +27926,36 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr "Chỉnh màu"
 
-#: libs/ui/KisDocument.cpp:713
+#: libs/ui/KisDocument.cpp:712
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:776
+#: libs/ui/KisDocument.cpp:775
 #, fuzzy, kde-format
 msgid "Exporting Document..."
 msgstr "Mở tài liệu"
 
-#: libs/ui/KisDocument.cpp:777
+#: libs/ui/KisDocument.cpp:776
 #, fuzzy, kde-format
 msgid "Saving Document..."
 msgstr "Lưu Tài liệu"
 
-#: libs/ui/KisDocument.cpp:912
+#: libs/ui/KisDocument.cpp:911
 #, fuzzy, kde-format
 #| msgid "Error during autosave! Partition full?"
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr "Lỗi khi đang tự động lưu! Đĩa đầy?"
 
-#: libs/ui/KisDocument.cpp:918
+#: libs/ui/KisDocument.cpp:917
 #, fuzzy, kde-format
 msgid ""
 "Could not save %1.\n"
 "Reason: %2"
 msgstr "Chọn véctơ"
 
-#: libs/ui/KisDocument.cpp:927
+#: libs/ui/KisDocument.cpp:926
 #, kde-format
 msgctxt ""
 "dialog box shown to the user if there were warnings while saving the "
@@ -27943,40 +27965,40 @@ msgid ""
 "The following problems were encountered when saving:"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:963
+#: libs/ui/KisDocument.cpp:962
 #, fuzzy, kde-format
 msgid "Finished saving %1"
 msgstr "Công cụ đa &Sgiác"
 
-#: libs/ui/KisDocument.cpp:1341
+#: libs/ui/KisDocument.cpp:1340
 #, fuzzy, kde-format
 #| msgid "Autosaving..."
 msgid "Autosaving... %1"
 msgstr "Đang tự động lưu..."
 
-#: libs/ui/KisDocument.cpp:1349
+#: libs/ui/KisDocument.cpp:1348
 #, kde-format
 msgid "Autosaving..."
 msgstr "Đang tự động lưu..."
 
-#: libs/ui/KisDocument.cpp:1355
+#: libs/ui/KisDocument.cpp:1354
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1460
+#: libs/ui/KisDocument.cpp:1459
 #, fuzzy, kde-format
 #| msgid "Error during autosave! Partition full?"
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during autosaving %1: %2"
 msgstr "Lỗi khi đang tự động lưu! Đĩa đầy?"
 
-#: libs/ui/KisDocument.cpp:1474
+#: libs/ui/KisDocument.cpp:1473
 #, fuzzy, kde-format
 msgid "Finished autosaving %1"
 msgstr "Công cụ đa &Sgiác"
 
-#: libs/ui/KisDocument.cpp:1716
+#: libs/ui/KisDocument.cpp:1715
 #, fuzzy, kde-format
 #| msgid ""
 #| "Malformed URL\n"
@@ -27988,41 +28010,41 @@ msgstr ""
 "URL không hợp lệ\n"
 "%1"
 
-#: libs/ui/KisDocument.cpp:1782
+#: libs/ui/KisDocument.cpp:1781
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "File %1 does not exist."
 msgstr "Tệp %1 không tồn tại."
 
-#: libs/ui/KisDocument.cpp:1811
+#: libs/ui/KisDocument.cpp:1810
 #, fuzzy, kde-format
 msgid "Opening document"
 msgstr "Mở tài liệu"
 
-#: libs/ui/KisDocument.cpp:1826
+#: libs/ui/KisDocument.cpp:1825
 #, fuzzy, kde-format
 msgid ""
 "Could not open %2.\n"
 "Reason: %1"
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: libs/ui/KisDocument.cpp:1834
+#: libs/ui/KisDocument.cpp:1833
 #, kde-format
 msgid "There were problems opening %1"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:1963
+#: libs/ui/KisDocument.cpp:1962
 #, fuzzy, kde-format
 msgid "Not Saved"
 msgstr "Không được chỉ định"
 
-#: libs/ui/KisDocument.cpp:2433
+#: libs/ui/KisDocument.cpp:2432
 #, fuzzy, kde-format
 msgctxt "Name of automatically created background color fill layer"
 msgid "Background Fill"
 msgstr "nền"
 
-#: libs/ui/KisDocument.cpp:2487
+#: libs/ui/KisDocument.cpp:2486
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -28195,8 +28217,8 @@ msgid "The action was cancelled by the user."
 msgstr ""
 
 #: libs/ui/KisImportExportErrorCode.cpp:178
-#: plugins/impex/libkra/kra_converter.cpp:379
-#: plugins/impex/libkra/kra_converter.cpp:408
+#: plugins/impex/libkra/kra_converter.cpp:378
+#: plugins/impex/libkra/kra_converter.cpp:407
 #, fuzzy, kde-format
 msgid "Unknown error."
 msgstr "Không rõ"
@@ -30158,7 +30180,7 @@ msgstr ""
 msgid "Color sampler does not work on this layer."
 msgstr ""
 
-#: libs/ui/tool/kis_tool_paint.cc:683
+#: libs/ui/tool/kis_tool_paint.cc:671
 #, fuzzy, kde-format
 #| msgid "Brush size"
 msgid "Brush Size: %1 px"
@@ -31870,42 +31892,42 @@ msgstr "Màu Mặt"
 msgid "Background color selector"
 msgstr "Màu Nền"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:272
+#: libs/ui/widgets/KoFillConfigWidget.cpp:271
 #, fuzzy, kde-format
 msgid "Change the filling color"
 msgstr "Thay đổi tham số"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:305
+#: libs/ui/widgets/KoFillConfigWidget.cpp:304
 #, fuzzy, kde-format
 msgid "Change filling gradient"
 msgstr "Thay đổi tham số"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:654
+#: libs/ui/widgets/KoFillConfigWidget.cpp:653
 #, fuzzy, kde-format
 msgctxt "default prefix for the saved gradient"
 msgid "gradient"
 msgstr "Đổ dốc màu"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:663
+#: libs/ui/widgets/KoFillConfigWidget.cpp:662
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Save Gradient"
 msgstr "Đổ dốc màu"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:664
+#: libs/ui/widgets/KoFillConfigWidget.cpp:663
 #, fuzzy, kde-format
 #| msgid "Enter group name:"
 msgid "Enter gradient name:"
 msgstr "Nhập tên nhóm:"
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:671
+#: libs/ui/widgets/KoFillConfigWidget.cpp:670
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:204
 #, kde-format
 msgctxt "@title:window"
 msgid "Name Already Exists"
 msgstr ""
 
-#: libs/ui/widgets/KoFillConfigWidget.cpp:672
+#: libs/ui/widgets/KoFillConfigWidget.cpp:671
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:205
 #, fuzzy, kde-format
 msgid "The name '%1' already exists, do you wish to overwrite it?"
@@ -33251,12 +33273,20 @@ msgstr ""
 msgid "Toggle Preview"
 msgstr "Bật/tắt xem thử"
 
-#: libs/widgetutils/KoFileDialog.cpp:254
+#: libs/widgetutils/KoFileDialog.cpp:240
 #, fuzzy, kde-format
 msgid "Save As:"
 msgstr "Phóng Lớp"
 
-#: libs/widgetutils/KoFileDialog.cpp:448
+#: libs/widgetutils/KoFileDialog.cpp:319
+#, kde-format
+msgid ""
+"The selected file name does not have a file extension that Krita "
+"understands.\n"
+"Make sure the file name ends in '.%1' for example."
+msgstr ""
+
+#: libs/widgetutils/KoFileDialog.cpp:486
 #, kde-format
 msgid "All supported formats"
 msgstr ""
@@ -34159,7 +34189,7 @@ msgstr "Khoảng cách:"
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
 #: plugins/assistants/Assistants/EllipseAssistant.cc:183
-#: plugins/flake/pathshapes/ellipse/EllipseShapeFactory.cpp:22
+#: plugins/flake/pathshapes/ellipse/EllipseShapeFactory.cpp:21
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:41
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:262
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:70
@@ -35957,7 +35987,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, cbShape)
 #: plugins/dockers/griddocker/grid_config_widget.cpp:52
 #: plugins/filters/blur/wdgblur.ui:81
-#: plugins/flake/pathshapes/rectangle/RectangleShapeFactory.cpp:24
+#: plugins/flake/pathshapes/rectangle/RectangleShapeFactory.cpp:23
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:46
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:267
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:75
@@ -37735,7 +37765,7 @@ msgstr "Phương thức"
 
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:156
 #, fuzzy, kde-format
-msgid "Vector Libraries"
+msgid "Symbol Libraries"
 msgstr "Trộn Layer"
 
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:78
@@ -39266,6 +39296,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, exif)
 #: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:162
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:274
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:726
 #: plugins/metadata/exif/kis_exif_io.h:28
 #, kde-format
 msgid "Exif"
@@ -42381,71 +42412,71 @@ msgstr "Góc"
 msgid "Close ellipse"
 msgstr "Đóng"
 
-#: plugins/flake/pathshapes/ellipse/EllipseShapeFactory.cpp:24
+#: plugins/flake/pathshapes/ellipse/EllipseShapeFactory.cpp:23
 #, fuzzy, kde-format
 msgid "An ellipse"
 msgstr "Hình êlíp"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:27
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:26
 #, fuzzy, kde-format
 msgid "An enhanced path shape"
 msgstr "Làm méo các hình"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:29
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:28
 #, fuzzy, kde-format
 msgid "An enhanced path"
 msgstr "Ngắt đường con"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:152
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:151
 #, fuzzy, kde-format
 msgid "Cross"
 msgstr "Đóng"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:154
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:153
 #, fuzzy, kde-format
 msgid "A cross"
 msgstr "Đóng"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:190
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:224
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:258
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:292
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:189
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:223
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:257
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:291
 #, fuzzy, kde-format
 msgid "An arrow"
 msgstr "Mũi tên"
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:369
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:368
 #, kde-format
 msgid "Callout"
 msgstr ""
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:371
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:370
 #, kde-format
 msgid "A callout"
 msgstr ""
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:415
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:417
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:414
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:416
 #, kde-format
 msgid "Smiley"
 msgstr ""
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:495
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:494
 #, kde-format
 msgid "Circular Arrow"
 msgstr ""
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:497
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:496
 #, kde-format
 msgid "A circular-arrow"
 msgstr ""
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:540
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:539
 #, kde-format
 msgid "Gearhead"
 msgstr ""
 
-#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:542
+#: plugins/flake/pathshapes/enhancedpath/EnhancedPathShapeFactory.cpp:541
 #, kde-format
 msgid "A gearhead"
 msgstr ""
@@ -42474,7 +42505,7 @@ msgstr "Trình chọn &màu"
 msgid "Corner radius y:"
 msgstr "Trình chọn &màu"
 
-#: plugins/flake/pathshapes/rectangle/RectangleShapeFactory.cpp:26
+#: plugins/flake/pathshapes/rectangle/RectangleShapeFactory.cpp:25
 #, fuzzy, kde-format
 msgid "A rectangle"
 msgstr "Hình chữ nhật"
@@ -42561,48 +42592,48 @@ msgstr "Bán kính làm mờ:"
 msgid "Outer radius:"
 msgstr "Bán kính làm mờ:"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:26
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:25
 #, fuzzy, kde-format
 msgid "A star shape"
 msgstr "Làm méo các hình"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:28
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:40
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:27
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:39
 #, fuzzy, kde-format
 msgid "A star"
 msgstr "Làm méo các hình"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:38
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:37
 #, kde-format
 msgid "Star"
 msgstr "Ngôi sao"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:52
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:51
 #, fuzzy, kde-format
 msgid "Flower"
 msgstr "&Hiện"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:54
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:53
 #, fuzzy, kde-format
 msgid "A flower"
 msgstr "&Hiện"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:69
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:68
 #, fuzzy, kde-format
 msgid "Pentagon"
 msgstr "&Phần trăm:"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:71
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:70
 #, fuzzy, kde-format
 msgid "A pentagon"
 msgstr "Định hướng"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:85
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:84
 #, fuzzy, kde-format
 msgid "Hexagon"
 msgstr "&Phần trăm:"
 
-#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:87
+#: plugins/flake/pathshapes/star/StarShapeFactory.cpp:86
 #, fuzzy, kde-format
 msgid "A hexagon"
 msgstr "&Phần trăm:"
@@ -44107,19 +44138,23 @@ msgid "Optimize"
 msgstr "Kênh"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:268
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:720
 #, fuzzy, kde-format
 msgid "Formats:"
 msgstr "&Trắng"
 
 #. i18n: ectx: property (text), widget (QCheckBox, iptc)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:284
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:733
 #, kde-format
 msgid "IPTC"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, xmp)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:294
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:740
 #: plugins/metadata/xmp/kis_xmp_io.h:26
 #, kde-format
 msgid "XMP"
@@ -44134,7 +44169,9 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMetaData)
+#. i18n: ectx: property (title), widget (QGroupBox, chkMetadata)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:336
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:711
 #, fuzzy, kde-format
 msgid "Store Document Metadata"
 msgstr "Quay &90"
@@ -44161,6 +44198,684 @@ msgstr ""
 msgid "Sign with Author Profile Data"
 msgstr "Khoảng màu"
 
+#: plugins/impex/jxl/JPEGXLImport.cpp:244
+#, fuzzy, kde-format
+msgctxt "JPEG-XL errors"
+msgid "Unable to read the image profile."
+msgstr "Không thể thêm lớp vào ảnh."
+
+#: plugins/impex/jxl/JPEGXLImport.cpp:256
+#, kde-format
+msgctxt "JPEG-XL errors"
+msgid "JPEG-XL encoded profile not implemented"
+msgstr ""
+
+#: plugins/impex/jxl/JPEGXLImport.cpp:300
+#, kde-format
+msgctxt "JPEG-XL errors"
+msgid "JPEG-XL image is animated, but cannot retrieve animation frame header."
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:22
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:28
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Default (only for low quality)"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:23
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:29
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "No downsampling"
+msgstr "Giá trị"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:24
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:30
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "2x2 downsampling"
+msgstr "Giá trị"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:25
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:31
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "4x4 downsampling"
+msgstr "Giá trị"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:26
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:32
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "8x8 downsampling"
+msgstr "Giá trị"
+
+#. i18n: ectx: property (text), widget (QLabel, lblNone1)
+#. i18n: ectx: property (text), widget (QLabel, lblNone)
+#. i18n: ectx: property (text), widget (QLabel, lblNone2)
+#. i18n: ectx: property (text), widget (QLabel, lblNoDegradation)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:36
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:42
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:48
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:54
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:60
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:66
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:72
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:78
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:84
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:90
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:97
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:103
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:111
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:131
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:304
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:482
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:534
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:650
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Default (encoder chooses)"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:37
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:43
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:49
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:61
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:73
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:79
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:85
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:91
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:98
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:132
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Disabled"
+msgstr "Kích hoạt"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:38
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:44
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:50
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:62
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:74
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:80
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:86
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:99
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:133
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Enabled"
+msgstr "Kích hoạt"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:55
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "VarDCT mode (e.g. for photographic images)"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:56
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Modular mode (e.g. for lossless images)"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:67
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Scanline order"
+msgstr "Sóng Dọc"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:68
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Center-first order"
+msgstr "Tâm:"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:92
+#, fuzzy, kde-format
+#| msgid "X resolution:"
+msgctxt "JPEG-XL encoder options"
+msgid "64x64 lower resolution pass"
+msgstr "Độ phân giải X:"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:93
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "512x512 + 64x64 lower resolution passes"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:104
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "128"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:105
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "256"
+msgstr "D75"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:106
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "512"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:107
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "1024"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:112
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Zero"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:113
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Left"
+msgstr "Trái:"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:114
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Top"
+msgstr "Đỉnh:"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:115
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Avg0"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:116
+#, fuzzy, kde-format
+#| msgid "Select"
+msgctxt "JPEG-XL encoder options"
+msgid "Select"
+msgstr "Chọn"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:117
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Gradient"
+msgstr "Đổ dốc màu"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:118
+#, fuzzy, kde-format
+#| msgid "Height:"
+msgctxt "JPEG-XL encoder options"
+msgid "Weighted"
+msgstr "Chiều cao:"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:119
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Top right"
+msgstr "Di chuyển Lớp"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:120
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Top left"
+msgstr "Không có phần chọn"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:121
+#, fuzzy, kde-format
+#| msgid "Left indent"
+msgctxt "JPEG-XL encoder options"
+msgid "Left left"
+msgstr "Thụt trái"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:122
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Avg1"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:123
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Avg2"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:124
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Avg3"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:125
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Toptop predictive average"
+msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:126
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Gradient + Weighted"
+msgstr "Các đổ dốc màu"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:127
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Use all predictors"
+msgstr "sửa định sẵn"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, haveAnimation)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:37
+#, kde-format
+msgid "If this is not enabled, only the first frame will be saved."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, haveAnimation)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:40
+#, kde-format
+msgid "Save as animated JPEG-XL"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:47
+#, fuzzy, kde-format
+msgid "Encoding options"
+msgstr "Chổi nhoè"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lossless)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:53
+#, fuzzy, kde-format
+msgid "Lossless encoding"
+msgstr "Tính chất:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblTradeoff)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:60
+#: plugins/impex/webp/dlg_webp_export.ui:92
+#, kde-format
+msgid "Tradeoff"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblFaster)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:69
+#: plugins/impex/webp/dlg_webp_export.ui:101
+#, fuzzy, kde-format
+msgid "Faster"
+msgstr "Ngày"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSlowerBetter)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:76
+#: plugins/impex/webp/dlg_webp_export.ui:108
+#, kde-format
+msgid "Slower/Better"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, effort)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:88
+#, kde-format
+msgid ""
+"Sets encoder effort/speed level without affecting decoding speed.\n"
+"Valid values are, from faster to slower speed: 1:lightning 2:thunder 3:"
+"falcon 4:cheetah 5:hare 6:wombat 7:squirrel 8:kitten 9:tortoise.\n"
+"Default: squirrel (7)."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:106
+#, kde-format
+msgid "Decoding speed"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblSlowest)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:115
+#, fuzzy, kde-format
+msgid "Slowest/Best quality"
+msgstr "Chế độ chân dung"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSlowerBetter2)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:122
+#, kde-format
+msgid "Fastest/Slight quality loss"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, decodingSpeed)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:134
+#, kde-format
+msgid ""
+"Sets the decoding speed tier for the provided options.\n"
+"Minimum is 0 (slowest to decode, best quality/density), and maximum is 4 "
+"(fastest to decode, at the cost of some quality/density).\n"
+"Default is 0."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblResampling)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:204
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Color channel resampling"
+msgstr "Trình chọn &màu"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, resampling)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:211
+#, kde-format
+msgid ""
+"Sets resampling option. If enabled, the image's color channels are "
+"downsampled before compression, and upsampled to original size in the "
+"decoder."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblAlphaResampling)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:218
+#, fuzzy, kde-format
+msgid "Alpha channel resampling"
+msgstr "Tính chất:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, extraChannelResampling)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:225
+#, kde-format
+msgid ""
+"Sets resampling option. If enabled, the image's alpha channel is downsampled "
+"before compression, and upsampled to original size in the decoder."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblPhotonNoise)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:232
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Photon noise"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, photonNoise)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:247
+#, kde-format
+msgid ""
+"Adds noise to the image emulating photographic film noise, the higher the "
+"given number, the grainier the image will be.\n"
+"As an example, a value of 100 gives low noise whereas a value of 3200 gives "
+"a lot of noise.\n"
+"The default value is 0."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblDots)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:257
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Generate dots"
+msgstr "Chung "
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, dots)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:264
+#, kde-format
+msgid "Enables or disables dots generation."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:271
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Generate patches"
+msgstr "Đảo ngược các đường"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patches)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:278
+#, kde-format
+msgid "Enables or disables patches generation."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblEpf)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:285
+#, fuzzy, kde-format
+msgid "Edge preserving filter"
+msgstr "Hậu xử lí"
+
+#. i18n: ectx: property (text), widget (QLabel, lblMax)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:294
+#, fuzzy, kde-format
+msgid "Maximum strength"
+msgstr "Làm sáng"
+
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, epf)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:311
+#, kde-format
+msgid ""
+"Edge preserving filter level, -1 to 3. Use -1 for the default (encoder "
+"chooses), 0 to 3 to set a strength."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblGaborishFilter)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:326
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Gaborish filter"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, gaborish)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:333
+#, kde-format
+msgid "Enables or disables the gaborish filter."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbModularEncoding)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:340
+#, fuzzy, kde-format
+#| msgid "Average"
+msgctxt "JPEG-XL encoder options"
+msgid "Modular encoding"
+msgstr "Trung bình"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, modular)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:347
+#, fuzzy, kde-format
+msgid "Enables modular encoding."
+msgstr "Thiết lập Màu"
+
+#. i18n: ectx: property (text), widget (QLabel, lblKeepInvisible)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:354
+#, kde-format
+msgid "Keep color of invisible pixels"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, keepInvisible)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:361
+#, kde-format
+msgid "Enables or disables preserving color of invisible pixels."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblGroupOrder)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:368
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Group order"
+msgstr "Layer &trước..."
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, groupOrder)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:375
+#, kde-format
+msgid ""
+"Determines the order in which 256x256 regions are stored in the codestream "
+"for progressive rendering."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblJPEGReconCFL)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:382
+#, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Chroma-from-luma"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:389
+#, fuzzy, kde-format
+msgid "VarDCT parameters"
+msgstr "Thay đổi tham số"
+
+#. i18n: ectx: property (text), widget (QLabel, lblProgressiveAC)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:395
+#, fuzzy, kde-format
+msgid "Spectral progression"
+msgstr "Chọn Điểm ảnh"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, progressiveAC)
+#. i18n: ectx: property (toolTip), widget (QComboBox, qProgressiveAC)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:402
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:419
+#, kde-format
+msgid ""
+"Set the progressive mode for the AC coefficients of VarDCT, using spectral "
+"progression from the DCT coefficients."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblQProgressiveAC)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:412
+#, fuzzy, kde-format
+msgid "Quantization"
+msgstr "Hoạt cảnh"
+
+#. i18n: ectx: property (text), widget (QLabel, lblProgressiveDC)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:426
+#, fuzzy, kde-format
+#| msgid "X resolution:"
+msgid "Low resolution DC"
+msgstr "Độ phân giải X:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, progressiveDC)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:433
+#, kde-format
+msgid "Set the progressive mode using lower-resolution DC images for VarDCT."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, modularEncodingParameters)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:443
+#, fuzzy, kde-format
+msgid "Modular parameters"
+msgstr "Thay đổi tham số"
+
+#. i18n: ectx: property (text), widget (QLabel, lblChannelColorsGlobalPercent)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:449
+#, fuzzy, kde-format
+msgid "Global channel palette range"
+msgstr "&Trắng"
+
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, channelColorsGlobalPercent)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:460
+#, kde-format
+msgid ""
+"Use Global channel palette if the amount of colors is smaller than this "
+"percentage of range.\n"
+"Use 0-100 to set an explicit percentage, -1 to use the encoder default.\n"
+"Used for modular encoding."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblChannelColorsGroupPercent)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:501
+#, fuzzy, kde-format
+#| msgid "Add New Palette"
+msgid "Local channel palette range"
+msgstr "Thêm Bảng màu Mới"
+
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, channelColorsGroupPercent)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:512
+#, kde-format
+msgid ""
+"Use Local (per-group) channel palette if the amount of colors is smaller "
+"than this percentage of range.\n"
+"Use 0-100 to set an explicit percentage, -1 to use the encoder default.\n"
+"Used for modular encoding."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblPaletteColors)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:553
+#, kde-format
+msgid "Use color palette for ... colors or less"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, paletteColors)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:567
+#, kde-format
+msgid ""
+"Use color palette if amount of colors is smaller than or equal to this "
+"amount, or -1 to use the encoder default.\n"
+"Used for modular encoding."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblLossyPalette)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:589
+#, fuzzy, kde-format
+#| msgid "Add New Palette"
+msgctxt "JPEG-XL encoder options"
+msgid "Delta palette"
+msgstr "Thêm Bảng màu Mới"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, lossyPalette)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:596
+#, kde-format
+msgid "Enables or disables delta palette. Used in modular mode."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblModularGroupSize)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:603
+#, fuzzy, kde-format
+#| msgid "Drop size"
+msgctxt "JPEG-XL encoder options"
+msgid "Group size"
+msgstr "Cỡ giọt"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, modularGroupSize)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:610
+#, kde-format
+msgid "Group size for modular encoding."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblModularPredictor)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:617
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
+msgid "Predictor"
+msgstr "Bảo vệ:"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, modularPredictor)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:624
+#, kde-format
+msgid "Predictor for modular encoding."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblModularMATreeLearningPercent)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:631
+#, kde-format
+msgid "Pixels for MA tree learning"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, modularMATreeLearningPercent)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:659
+#, kde-format
+msgid ""
+"Fraction of pixels used to learn MA trees as a percentage.\n"
+"-1 = default, 0 = no MA and fast decode, 50 = default value, 100 = all.\n"
+"Higher values use more encoder memory."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, responsive)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:680
+#, kde-format
+msgid "Enables or disables progressive encoding for modular mode."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblResponsive)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:687
+#, fuzzy, kde-format
+msgid "Progressive encoding"
+msgstr "Áp lực"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:750
+#, fuzzy, kde-format
+#| msgid "Filters:"
+msgctxt "JPEG-XL metadata options"
+msgid "Filters:"
+msgstr "Các bộ lọc:"
+
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:139
 #, fuzzy, kde-format
 msgid "Could not load embedded reference image %1 "
@@ -44178,8 +44893,8 @@ msgid ""
 msgstr ""
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:149
-#: plugins/impex/libkra/kis_kra_loader.cpp:1011
-#: plugins/impex/libkra/kis_kra_loader.cpp:1380
+#: plugins/impex/libkra/kis_kra_loader.cpp:1012
+#: plugins/impex/libkra/kis_kra_loader.cpp:1381
 #, fuzzy, kde-format
 #| msgid "File not found"
 msgctxt "@title:window"
@@ -44279,22 +44994,22 @@ msgstr ""
 msgid "unknown keyframe channel type: %1 in %2"
 msgstr "Không thể thêm lớp vào ảnh."
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:207
+#: plugins/impex/libkra/kis_kra_loader.cpp:206
 #, kde-format
 msgid "Image does not have a name."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:212
+#: plugins/impex/libkra/kis_kra_loader.cpp:211
 #, kde-format
 msgid "Image does not specify a width."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:218
+#: plugins/impex/libkra/kis_kra_loader.cpp:217
 #, kde-format
 msgid "Image does not specify a height."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:268
+#: plugins/impex/libkra/kis_kra_loader.cpp:267
 #, fuzzy, kde-format
 msgid "Image specifies an unsupported color model: %1."
 msgstr "Cỡ Lớp"
@@ -44318,27 +45033,27 @@ msgctxt "Warning message on loading a .kra file"
 msgid "Embedded resource cannot be imported. The filename of the resource: %1"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:815
+#: plugins/impex/libkra/kis_kra_loader.cpp:816
 #, fuzzy, kde-format
 msgid "Layer %1 specifies an unsupported color model: %2."
 msgstr "Cỡ Lớp"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:843
+#: plugins/impex/libkra/kis_kra_loader.cpp:844
 #, fuzzy, kde-format
 msgid "Layer %1 has an unsupported type."
 msgstr "Cỡ Lớp"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:877
+#: plugins/impex/libkra/kis_kra_loader.cpp:878
 #, fuzzy, kde-format
 msgid "Layer %1 has an unsupported type: %2."
 msgstr "Cỡ Lớp"
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:884
+#: plugins/impex/libkra/kis_kra_loader.cpp:885
 #, kde-format
 msgid "Failure loading layer %1 of type: %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1006
+#: plugins/impex/libkra/kis_kra_loader.cpp:1007
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -44350,7 +45065,7 @@ msgid ""
 "Do you want to locate it manually?"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1375
+#: plugins/impex/libkra/kis_kra_loader.cpp:1376
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -44550,32 +45265,32 @@ msgctxt "Saving .kra file error message"
 msgid "Could not save assistants."
 msgstr "Chọn véctơ"
 
-#: plugins/impex/libkra/kra_converter.cpp:77
+#: plugins/impex/libkra/kra_converter.cpp:76
 #, fuzzy, kde-format
 msgid "Not a valid Krita file"
 msgstr "Cỡ Lớp"
 
-#: plugins/impex/libkra/kra_converter.cpp:95
+#: plugins/impex/libkra/kra_converter.cpp:94
 #, kde-format
 msgid "Invalid document: no file 'maindoc.xml'."
 msgstr "Tài liệu không hợp lệ: không có tệp 'maindoc.xml'."
 
-#: plugins/impex/libkra/kra_converter.cpp:151
+#: plugins/impex/libkra/kra_converter.cpp:150
 #, kde-format
 msgid "Could not create the file for saving"
 msgstr "Không thể tạo tệp để lưu"
 
-#: plugins/impex/libkra/kra_converter.cpp:224
+#: plugins/impex/libkra/kra_converter.cpp:223
 #, kde-format
 msgid "Not able to write '%1'. Partition full?"
 msgstr "Không thể ghi '%1'. Đĩa đầy?"
 
-#: plugins/impex/libkra/kra_converter.cpp:315
+#: plugins/impex/libkra/kra_converter.cpp:314
 #, fuzzy, kde-format
 msgid "Could not find %1"
 msgstr "Tạo layer mới"
 
-#: plugins/impex/libkra/kra_converter.cpp:327
+#: plugins/impex/libkra/kra_converter.cpp:326
 #, kde-format
 msgid ""
 "Parsing error in %1 at line %2, column %3\n"
@@ -44584,23 +45299,23 @@ msgstr ""
 "Lỗi đọc trong %1 trên dòng %2, cột %3\n"
 "Thông báo lỗi: %4"
 
-#: plugins/impex/libkra/kra_converter.cpp:345
+#: plugins/impex/libkra/kra_converter.cpp:344
 #, fuzzy, kde-format
 msgid "The format is not supported or the file is corrupted"
 msgstr "Cỡ Lớp"
 
-#: plugins/impex/libkra/kra_converter.cpp:356
+#: plugins/impex/libkra/kra_converter.cpp:355
 #, kde-format
 msgid "The file is too new for this version of Krita (%1)."
 msgstr ""
 
-#: plugins/impex/libkra/kra_converter.cpp:362
+#: plugins/impex/libkra/kra_converter.cpp:361
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "The file has no layers."
 msgstr "Tệp %1 không tồn tại."
 
-#: plugins/impex/libkra/kra_converter.cpp:395
+#: plugins/impex/libkra/kra_converter.cpp:394
 #, fuzzy, kde-format
 #| msgid "The file %1 does not exist."
 msgid "The file does not contain an image."
@@ -45743,6 +46458,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lblPredictor)
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:81
 #, fuzzy, kde-format
+msgctxt "TIFF encoder options"
 msgid "Predictor"
 msgstr "Bảo vệ:"
 
@@ -45997,24 +46713,6 @@ msgid ""
 "If Lossless is enabled: 0 = fastest but larger files, 100 = slower but "
 "better.\n"
 "If Lossless is disabled: 0 = smallest size, 100 = largest size."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lblTradeoff)
-#: plugins/impex/webp/dlg_webp_export.ui:92
-#, kde-format
-msgid "Tradeoff"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lblFaster)
-#: plugins/impex/webp/dlg_webp_export.ui:101
-#, fuzzy, kde-format
-msgid "Faster"
-msgstr "Ngày"
-
-#. i18n: ectx: property (text), widget (QLabel, lblSlowerBetter)
-#: plugins/impex/webp/dlg_webp_export.ui:108
-#, kde-format
-msgid "Slower/Better"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, tradeoff)
@@ -47038,6 +47736,11 @@ msgstr "Gradients"
 #, fuzzy, kde-format
 msgid "Hard Edge"
 msgstr "Gần mép:"
+
+#: plugins/paintops/experiment/kis_experimentop_option.cpp:38
+#, fuzzy, kde-format
+msgid "Experiment Option"
+msgstr "Bán kính"
 
 #: plugins/paintops/experiment/kis_experimentop_option.cpp:138
 #, fuzzy, kde-format
@@ -54224,7 +54927,7 @@ msgctxt "action"
 msgid "Similar Color Selection Tool"
 msgstr "Chọn Tương tự"
 
-#: plugins/tools/svgtexttool/SvgTextChangeCommand.cpp:28
+#: plugins/tools/svgtexttool/SvgTextChangeCommand.cpp:27
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change SvgTextTool"
@@ -54303,7 +55006,7 @@ msgid "Line height"
 msgstr "Chiều cao điểm ảnh"
 
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:1458
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:205
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:204
 #, fuzzy, kde-format
 msgid "Letter Spacing"
 msgstr "Khoảng cách Lưới"
@@ -54608,32 +55311,32 @@ msgctxt "action"
 msgid "Kerning"
 msgstr ""
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:134
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:133
 #, fuzzy, kde-format
 msgid "Create new texts with..."
 msgstr "Bắt đầu với tài liệu &rỗng"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:171
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:170
 #, fuzzy, kde-format
 msgid "Anchor text to the left."
 msgstr "Cho layer hiện tại lên trên"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:180
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:179
 #, fuzzy, kde-format
 msgid "Anchor text to the middle."
 msgstr "Cho layer hiện tại lên trên"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:189
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:188
 #, fuzzy, kde-format
 msgid "Anchor text to the right."
 msgstr "Cho layer hiện tại lên trên"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:219
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:218
 #, fuzzy, kde-format
 msgid "Edit Text"
 msgstr "Thêm text"
 
-#: plugins/tools/svgtexttool/SvgTextTool.cpp:255
+#: plugins/tools/svgtexttool/SvgTextTool.cpp:254
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita - Edit Text"
@@ -56195,6 +56898,10 @@ msgid "Reference Images Tool"
 msgstr "Ảnh tham chiếu:"
 
 #, fuzzy
+#~ msgid "Vector Libraries"
+#~ msgstr "Trộn Layer"
+
+#, fuzzy
 #~ msgid "Green-Red:"
 #~ msgstr "Xanh lá cây:"
 
@@ -56417,10 +57124,6 @@ msgstr "Ảnh tham chiếu:"
 #~ msgstr "Giá trị"
 
 #, fuzzy
-#~ msgid "Experiment option"
-#~ msgstr "Bán kính"
-
-#, fuzzy
 #~ msgctxt "action"
 #~ msgid "&Brightness/Contrast curve..."
 #~ msgstr "Đường cong độ &sáng/tương phản..."
@@ -56583,11 +57286,6 @@ msgstr "Ảnh tham chiếu:"
 #~ msgctxt "action"
 #~ msgid "Group"
 #~ msgstr "Nhóm:"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Group Layer"
-#~ msgstr "Layer &trước..."
 
 #, fuzzy
 #~ msgctxt "action"
@@ -56789,12 +57487,6 @@ msgstr "Ảnh tham chiếu:"
 #, fuzzy
 #~ msgid "Loading Plugins Exiv/IO..."
 #~ msgstr "Các bảng màu"
-
-#, fuzzy
-#~| msgid "Image"
-#~ msgctxt "description of a file type"
-#~ msgid "JP2 Image"
-#~ msgstr "Ảnh"
 
 #, fuzzy
 #~ msgid "No store backend"
@@ -57503,11 +58195,6 @@ msgstr "Ảnh tham chiếu:"
 #, fuzzy
 #~ msgctxt "action"
 #~ msgid "Gradient Editing Tool"
-#~ msgstr "Các đổ dốc màu"
-
-#, fuzzy
-#~ msgctxt "action"
-#~ msgid "Gradient editing"
 #~ msgstr "Các đổ dốc màu"
 
 #, fuzzy
