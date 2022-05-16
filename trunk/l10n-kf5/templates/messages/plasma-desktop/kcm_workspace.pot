@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-12 00:45+0000\n"
+"POT-Creation-Date: 2022-05-14 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -116,17 +116,52 @@ msgctxt ""
 msgid "Scrolls to the clicked location"
 msgstr ""
 
-#: workspaceoptions.cpp:31
+#: package/contents/ui/main.qml:207
+#, kde-format
+msgid "Tablet Mode:"
+msgstr ""
+
+#: package/contents/ui/main.qml:209
+#, kde-format
+msgid "Automatically enable as needed"
+msgstr ""
+
+#: package/contents/ui/main.qml:209 package/contents/ui/main.qml:238
+#, kde-format
+msgid "Never optimize for touch usage"
+msgstr ""
+
+#: package/contents/ui/main.qml:221
+#, kde-format
+msgid ""
+"Tablet Mode will be automatically activated whenever the system detects a "
+"touchscreen but no mouse or touchpad. For example: when a transformable "
+"laptop's keyboard is flipped around or detached."
+msgstr ""
+
+#: package/contents/ui/main.qml:226
+#, kde-format
+msgid "Always optimize for touch usage"
+msgstr ""
+
+#: package/contents/ui/main.qml:251
+#, kde-format
+msgid ""
+"In Tablet Mode, many elements of the user interface will become larger to "
+"more easily accommodate touch interaction."
+msgstr ""
+
+#: workspaceoptions.cpp:34
 #, kde-format
 msgid "General Behavior"
 msgstr ""
 
-#: workspaceoptions.cpp:33
+#: workspaceoptions.cpp:36
 #, kde-format
 msgid "System Settings module for configuring general workspace behavior."
 msgstr ""
 
-#: workspaceoptions.cpp:36
+#: workspaceoptions.cpp:39
 #, kde-format
 msgid "Furkan Tokac"
 msgstr ""
@@ -147,6 +182,12 @@ msgstr ""
 #: workspaceoptions_kdeglobalssettings.kcfg:17
 #, kde-format
 msgid "Left-click in scrollbar track moves scrollbar by one page"
+msgstr ""
+
+#. i18n: ectx: label, entry (tabletMode), group (Input)
+#: workspaceoptions_kwinsettings.kcfg:9
+#, kde-format
+msgid "Automatically switch to tablet mode"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (osdEnabled), group (OSD)

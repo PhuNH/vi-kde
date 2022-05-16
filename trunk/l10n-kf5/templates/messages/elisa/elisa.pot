@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-11 00:44+0000\n"
+"POT-Creation-Date: 2022-05-13 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -89,7 +89,7 @@ msgstr ""
 msgid "(c) 2015-2020, Elisa contributors"
 msgstr ""
 
-#: main.cpp:115
+#: main.cpp:115 models/lyricsmodel.cpp:162
 #, kde-format
 msgid "Creator"
 msgstr ""
@@ -134,6 +134,50 @@ msgstr ""
 #, kde-format
 msgctxt "Error message when track title is empty"
 msgid "Empty title."
+msgstr ""
+
+#: models/lyricsmodel.cpp:159 viewslistdata.cpp:64 viewslistdata.cpp:96
+#: viewslistdata.cpp:556
+#, kde-format
+msgid "Artist"
+msgstr ""
+
+#: models/lyricsmodel.cpp:160 viewslistdata.cpp:96
+#, kde-format
+msgid "Album"
+msgstr ""
+
+#: models/lyricsmodel.cpp:161 viewmanager.cpp:42 viewmanager.cpp:72
+#: viewslistdata.cpp:64 viewslistdata.cpp:96 viewslistdata.cpp:556
+#, kde-format
+msgid "Title"
+msgstr ""
+
+#: models/lyricsmodel.cpp:163
+#, kde-format
+msgid "Length"
+msgstr ""
+
+#: models/lyricsmodel.cpp:164
+#, kde-format
+msgctxt "as in `Created by: Joe`"
+msgid "Created by"
+msgstr ""
+
+#: models/lyricsmodel.cpp:165
+#, kde-format
+msgid "Editor"
+msgstr ""
+
+#: models/lyricsmodel.cpp:166
+#, kde-format
+msgid "Version"
+msgstr ""
+
+#: models/lyricsmodel.cpp:189
+#, kde-format
+msgctxt "this is a key => value map"
+msgid "%1: %2\n"
 msgstr ""
 
 #: models/trackmetadatamodel.cpp:444 models/trackmetadatamodel.cpp:491
@@ -342,30 +386,30 @@ msgctxt "One of the 'now playing' views"
 msgid "Metadata"
 msgstr ""
 
-#: qml/ContextView.qml:117
+#: qml/ContextView.qml:115
 #, kde-format
 msgctxt "One of the 'now playing' views"
 msgid "Lyrics"
 msgstr ""
 
-#: qml/ContextView.qml:124 qml/mobile/MobileTrackPlayer.qml:364
+#: qml/ContextView.qml:122 qml/mobile/MobileTrackPlayer.qml:364
 #: qml/NavigationActionBar.qml:165
 #, kde-format
 msgctxt "show the playlist"
 msgid "Show Playlist"
 msgstr ""
 
-#: qml/ContextView.qml:304
+#: qml/ContextView.qml:341
 #, kde-format
 msgid "No lyrics found"
 msgstr ""
 
-#: qml/ContextView.qml:322
+#: qml/ContextView.qml:359
 #, kde-format
 msgid "Nothing playing"
 msgstr ""
 
-#: qml/ContextView.qml:356
+#: qml/ContextView.qml:393
 #, kde-format
 msgid "Show In Folder"
 msgstr ""
@@ -1199,12 +1243,6 @@ msgctxt "disc header text when showing an album"
 msgid "Disc %1"
 msgstr ""
 
-#: viewmanager.cpp:42 viewmanager.cpp:72 viewslistdata.cpp:64
-#: viewslistdata.cpp:96 viewslistdata.cpp:556
-#, kde-format
-msgid "Title"
-msgstr ""
-
 #: viewmanager.cpp:44 viewmanager.cpp:59 viewmanager.cpp:74 viewmanager.cpp:89
 #: viewslistdata.cpp:66 viewslistdata.cpp:81 viewslistdata.cpp:99
 #: viewslistdata.cpp:100 viewslistdata.cpp:115 viewslistdata.cpp:142
@@ -1279,16 +1317,6 @@ msgstr ""
 #: viewslistdata.cpp:51
 #, kde-format
 msgid "Most Frequently Played First"
-msgstr ""
-
-#: viewslistdata.cpp:64 viewslistdata.cpp:96 viewslistdata.cpp:556
-#, kde-format
-msgid "Artist"
-msgstr ""
-
-#: viewslistdata.cpp:96
-#, kde-format
-msgid "Album"
 msgstr ""
 
 #: viewslistdata.cpp:97

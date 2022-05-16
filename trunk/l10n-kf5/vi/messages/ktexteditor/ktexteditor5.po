@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-09 00:41+0000\n"
+"POT-Creation-Date: 2022-05-15 00:42+0000\n"
 "PO-Revision-Date: 2022-05-12 12:08+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -170,7 +170,8 @@ msgid "Word Completion"
 msgstr "Hoàn tất từ"
 
 #. i18n: ectx: Menu (spelling)
-#: data/katepart5ui.rc:138 spellcheck/spellingmenu.cpp:82
+#: data/katepart5ui.rc:138 spellcheck/spellingmenu.cpp:69
+#: spellcheck/spellingmenu.cpp:189
 #, kde-format
 msgid "Spelling"
 msgstr "Đánh vần"
@@ -3375,7 +3376,7 @@ msgid "Reload all JavaScript files (indenters, command line scripts, etc)."
 msgstr ""
 "Tải lại tất cả các tệp JavaScript (bộ thụt lề, kịch bản dòng lệnh, v.v.)."
 
-#: script/katescriptview.cpp:139
+#: script/katescriptview.cpp:183
 #, kde-format
 msgid "Command not found: %1"
 msgstr "Không tìm thấy lệnh: %1"
@@ -4010,15 +4011,21 @@ msgstr "Đánh vần (từ con trỏ)..."
 msgid "Check the document's spelling from the cursor and forward"
 msgstr "Kiểm tra cách đánh vần trong tài liệu từ vị trí con trỏ trở đi"
 
-#: spellcheck/spellingmenu.cpp:87
+#: spellcheck/spellingmenu.cpp:74
 #, kde-format
 msgid "Ignore Word"
 msgstr "Bỏ qua từ"
 
-#: spellcheck/spellingmenu.cpp:90
+#: spellcheck/spellingmenu.cpp:77
 #, kde-format
 msgid "Add to Dictionary"
 msgstr "Thêm vào từ điển"
+
+#: spellcheck/spellingmenu.cpp:167
+#, fuzzy, kde-format
+#| msgid "Spelling"
+msgid "Spelling '%1'"
+msgstr "Đánh vần"
 
 #: swapfile/kateswapdiffcreator.cpp:93
 #, kde-format
@@ -7062,7 +7069,6 @@ msgstr ""
 
 #: view/kateview.cpp:898 view/kateview.cpp:899
 #, kde-format
-#| msgid "Move cursor to next matching indent"
 msgid "Remove cursors from empty lines"
 msgstr "Bỏ con trỏ khỏi các dòng trống"
 

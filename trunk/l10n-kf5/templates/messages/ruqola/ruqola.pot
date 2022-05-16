@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-12 00:44+0000\n"
+"POT-Creation-Date: 2022-05-16 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -772,7 +772,7 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:116 widgets/ruqolamainwindow.cpp:412
+#: core/model/adminusersmodel.cpp:116 widgets/ruqolamainwindow.cpp:421
 #, kde-format
 msgid "Status"
 msgstr ""
@@ -1306,7 +1306,7 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-#: core/user.cpp:201 widgets/ruqolamainwindow.cpp:367
+#: core/user.cpp:201 widgets/ruqolamainwindow.cpp:376
 #, kde-format
 msgid "Administrator"
 msgstr ""
@@ -2262,7 +2262,7 @@ msgstr ""
 #: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:28
 #: widgets/dialogs/directchannelinfowidget.cpp:51
 #: widgets/dialogs/modifystatuswidget.cpp:32
-#: widgets/ruqolamainwindow.cpp:419
+#: widgets/ruqolamainwindow.cpp:428
 #, kde-format
 msgid "Status:"
 msgstr ""
@@ -2970,21 +2970,26 @@ msgctxt "@title:window"
 msgid "Administrator Server Settings"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:35
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:38
 #, kde-format
 msgid "Accounts"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:36
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:39
 #, kde-format
 msgid "Encryption"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:37
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:40
 #: widgets/dialogs/createnewdiscussionwidget.cpp:54
-#: widgets/ruqolamainwindow.cpp:762
+#: widgets/ruqolamainwindow.cpp:771
 #, kde-format
 msgid "Message"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:41
+#, kde-format
+msgid "File Upload"
 msgstr ""
 
 #: widgets/administratorsettingsdialog/encryption/encryptionsettingswidget.cpp:16
@@ -3012,6 +3017,74 @@ msgstr ""
 msgid ""
 "Enable option to create encrypted groups and be able to change groups and "
 "direct messages to be encrypted."
+msgstr ""
+
+#: widgets/administratorsettingsdialog/encryption/encryptionsettingswidget.cpp:40
+#, kde-format
+msgid ""
+"Enable option to use off-the-record (OTR) messages in direct messages "
+"between 2 users. OTR messages are not recorded on the server and exchanged "
+"directly and encrypted between the 2 users."
+msgstr ""
+
+#: widgets/administratorsettingsdialog/fileupload/fileuploadsettingswidget.cpp:16
+#, kde-format
+msgid "Enabled File Upload"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/fileupload/fileuploadsettingswidget.cpp:17
+#, kde-format
+msgid "Protect Uploaded Files"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/fileupload/fileuploadsettingswidget.cpp:18
+#, kde-format
+msgid "Rotate images on upload"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/fileupload/fileuploadsettingswidget.cpp:29
+#, kde-format
+msgid "Only authenticated users will have access"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/fileupload/fileuploadsettingswidget.cpp:34
+#, kde-format
+msgid "Enabling this setting may cause image quality loss"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/message/messagesettingswidget.cpp:14
+#, kde-format
+msgid "Allow Message Editing"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/message/messagesettingswidget.cpp:15
+#, kde-format
+msgid "Allow Message Deleting"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/message/messagesettingswidget.cpp:16
+#, kde-format
+msgid "Show Edited Status"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/message/messagesettingswidget.cpp:17
+#, kde-format
+msgid "Show Deleted Status"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/message/messagesettingswidget.cpp:18
+#, kde-format
+msgid "Allow Message Pinning"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/message/messagesettingswidget.cpp:19
+#, kde-format
+msgid "Allow Message Snippeting"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/message/messagesettingswidget.cpp:20
+#, kde-format
+msgid "Allow converting long messages to attachment"
 msgstr ""
 
 #: widgets/channellist/channellistview.cpp:90
@@ -4035,19 +4108,19 @@ msgstr[1] ""
 msgid "Search Rooms..."
 msgstr ""
 
-#: widgets/discussions/discussion/listdiscussiondelegate.cpp:73
+#: widgets/discussions/discussion/listdiscussiondelegate.cpp:71
 #, kde-format
 msgid "%1 message"
 msgid_plural "%1 messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/discussions/discussion/listdiscussiondelegate.cpp:76
+#: widgets/discussions/discussion/listdiscussiondelegate.cpp:74
 #, kde-format
 msgid "Open Discussion"
 msgstr ""
 
-#: widgets/discussions/discussionlistview.cpp:62
+#: widgets/discussions/discussionlistview.cpp:60
 #: widgets/notificationhistory/notificationhistorywidget.cpp:95
 #: widgets/room/messagelistview.cpp:246
 #, kde-format
@@ -5115,142 +5188,142 @@ msgstr ""
 msgid "Login Failed: generic error"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:185
+#: widgets/ruqolamainwindow.cpp:194
 #, kde-format
 msgid "Show New Notifications"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:307
+#: widgets/ruqolamainwindow.cpp:316
 #, kde-format
 msgid "Add Server..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:312
+#: widgets/ruqolamainwindow.cpp:321
 #, kde-format
 msgid "Server Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:316
+#: widgets/ruqolamainwindow.cpp:325
 #, kde-format
 msgid "Logout Current Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:320
+#: widgets/ruqolamainwindow.cpp:329
 #, kde-format
 msgid "Jump to Next Unread Channel"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:325
+#: widgets/ruqolamainwindow.cpp:334
 #, kde-format
 msgid "Create New Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:329
+#: widgets/ruqolamainwindow.cpp:338
 #, kde-format
 msgid "Create Direct Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:333
+#: widgets/ruqolamainwindow.cpp:342
 #, kde-format
 msgid "Create Discussion..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:337
+#: widgets/ruqolamainwindow.cpp:346
 #, kde-format
 msgid "Create Team..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:345
+#: widgets/ruqolamainwindow.cpp:354
 #, kde-format
 msgid "Unread on Top"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:350
+#: widgets/ruqolamainwindow.cpp:359
 #, kde-format
 msgid "Show Channel Log"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:354
+#: widgets/ruqolamainwindow.cpp:363
 #, kde-format
 msgid "Mark All Channels as Read"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:359
+#: widgets/ruqolamainwindow.cpp:368
 #, kde-format
 msgid "Register a New User..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:363
+#: widgets/ruqolamainwindow.cpp:372
 #, kde-format
 msgid "My Account..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:368
+#: widgets/ruqolamainwindow.cpp:377
 #, kde-format
 msgid "Administrator..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:374
+#: widgets/ruqolamainwindow.cpp:383
 #, kde-format
 msgid "Server Settings..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:379
+#: widgets/ruqolamainwindow.cpp:388
 #, kde-format
 msgid "Directory..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:400
+#: widgets/ruqolamainwindow.cpp:409
 #, kde-format
 msgid "&Next Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:405
+#: widgets/ruqolamainwindow.cpp:414
 #, kde-format
 msgid "&Previous Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:435
+#: widgets/ruqolamainwindow.cpp:444
 #, kde-format
 msgid "Previous Selected Channel"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:442
+#: widgets/ruqolamainwindow.cpp:451
 #, kde-format
 msgid "Next Selected Channel"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:471
+#: widgets/ruqolamainwindow.cpp:480
 #, kde-format
 msgid "Show Notify History"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:496
+#: widgets/ruqolamainwindow.cpp:505
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Team"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:664
+#: widgets/ruqolamainwindow.cpp:673
 #, kde-format
 msgid ""
 "We have sent you an email to confirm your registration.\n"
 "If you do not receive an email shortly, please come back and try again."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:665
+#: widgets/ruqolamainwindow.cpp:674
 #, kde-format
 msgid "Register New User"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:789
+#: widgets/ruqolamainwindow.cpp:798
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:792
+#: widgets/ruqolamainwindow.cpp:801
 #, kde-format
 msgid "Hide menu bar"
 msgstr ""
