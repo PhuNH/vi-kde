@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-13 00:42+0000\n"
+"POT-Creation-Date: 2022-05-17 00:41+0000\n"
 "PO-Revision-Date: 2022-05-16 08:29+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -48,7 +48,7 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr "Không thể tạo io-slave: %1"
 
-#: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1289
+#: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1274
 #, kde-format
 msgctxt ""
 "The first arg is the path to the symlink that couldn't be created, the "
@@ -2089,7 +2089,7 @@ msgstr ""
 msgid "The server was too busy responding to other requests to respond."
 msgstr "Máy chủ quá bận với việc hồi đáp các yêu cầu khác, không hồi đáp được."
 
-#: core/job_error.cpp:1109 core/slavebase.cpp:1575
+#: core/job_error.cpp:1109 core/slavebase.cpp:1592
 #, kde-format
 msgid "Unknown Error"
 msgstr "Lỗi không rõ"
@@ -2382,128 +2382,128 @@ msgstr ""
 msgid "Unable to determine the type of file for %1"
 msgstr "Không thể xác định kiểu tệp cho %1"
 
-#: core/slave.cpp:408
-#, kde-format
-msgid "Can not create socket for launching io-slave for protocol '%1'."
-msgstr "Không thể tạo ổ cắm để khởi chạy io-slave cho giao thức '%1'."
-
-#: core/slave.cpp:416
+#: core/slave.cpp:421
 #, kde-format
 msgid "Unknown protocol '%1'."
 msgstr "Giao thức không rõ '%1'."
 
-#: core/slave.cpp:427
+#: core/slave.cpp:432
 #, kde-format
 msgid "Can not find io-slave for protocol '%1'."
 msgstr "Không thể tìm thấy io-slave cho giao thức '%1'."
 
-#: core/slave.cpp:447
+#: core/slave.cpp:440
+#, kde-format
+msgid "Can not create socket for launching io-slave for protocol '%1'."
+msgstr "Không thể tạo ổ cắm để khởi chạy io-slave cho giao thức '%1'."
+
+#: core/slave.cpp:480
 #, kde-format
 msgid "Can not find 'kioslave5' executable at '%1'"
 msgstr "Không thể tìm thấy tệp thực thi 'kioslave5' ở '%1'"
 
-#: core/slavebase.cpp:858
+#: core/slavebase.cpp:864
 #, kde-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr "Việc mở kết nối không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:860
+#: core/slavebase.cpp:866
 #, kde-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr "Việc đóng kết nối không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:862
+#: core/slavebase.cpp:868
 #, kde-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr "Việc truy cập tệp không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:864
+#: core/slavebase.cpp:870
 #, kde-format
 msgid "Writing to %1 is not supported."
 msgstr "Việc ghi vào %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:866
+#: core/slavebase.cpp:872
 #, kde-format
 msgid "There are no special actions available for protocol %1."
 msgstr "Không có hành động đặc biệt nào khả dụng cho giao thức %1."
 
-#: core/slavebase.cpp:868
+#: core/slavebase.cpp:874
 #, kde-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr "Việc liệt kê thư mục không được hỗ trợ cho giao thức %1."
 
-#: core/slavebase.cpp:870
+#: core/slavebase.cpp:876
 #, kde-format
 msgid "Retrieving data from %1 is not supported."
 msgstr "Việc lấy dữ liệu từ %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:872
+#: core/slavebase.cpp:878
 #, kde-format
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr "Việc lấy thông tin kiểu MIME từ %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:874
+#: core/slavebase.cpp:880
 #, kde-format
 msgid "Renaming or moving files within %1 is not supported."
 msgstr "Việc đổi tên hoặc chuyển tệp trong %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:876
+#: core/slavebase.cpp:882
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr "Việc tạo liên kết tượng trưng không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:878
+#: core/slavebase.cpp:884
 #, kde-format
 msgid "Copying files within %1 is not supported."
 msgstr "Việc chép tệp trong %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:880
+#: core/slavebase.cpp:886
 #, kde-format
 msgid "Deleting files from %1 is not supported."
 msgstr "Việc xoá tệp trong %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:882
+#: core/slavebase.cpp:888
 #, kde-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr "Việc tạo thư mục không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:884
+#: core/slavebase.cpp:890
 #, kde-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr "Việc thay đổi thuộc tính tệp không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:886
+#: core/slavebase.cpp:892
 #, kde-format
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr "Việc thay đổi quyền sở hữu tệp không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:888
+#: core/slavebase.cpp:894
 #, kde-format
 msgid "Using sub-URLs with %1 is not supported."
 msgstr "Việc dùng URL con với %1 không được hỗ trợ."
 
-#: core/slavebase.cpp:890
+#: core/slavebase.cpp:896
 #, kde-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr ""
 "Việc thực hiện đồng thời nhiều lệnh get không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:892
+#: core/slavebase.cpp:898
 #, kde-format
 msgid "Opening files is not supported with protocol %1."
 msgstr "Việc mở tệp không được hỗ trợ với giao thức %1."
 
-#: core/slavebase.cpp:894
+#: core/slavebase.cpp:900
 #, kde-format
 msgid "Protocol %1 does not support action %2."
 msgstr "Giao thức %1 không hỗ trợ hành động %2."
 
-#: core/slavebase.cpp:1056
+#: core/slavebase.cpp:1062
 #, kde-format
 msgid "&Yes"
 msgstr "&Có"
 
-#: core/slavebase.cpp:1057
+#: core/slavebase.cpp:1063
 #, kde-format
 msgid "&No"
 msgstr "&Không"
@@ -2675,7 +2675,6 @@ msgstr "Thư mục mới..."
 #: filewidgets/kdiroperator.cpp:2095 widgets/jobuidelegate.cpp:280
 #: widgets/jobuidelegate.cpp:281 widgets/jobuidelegate.cpp:290
 #: widgets/jobuidelegate.cpp:291 widgets/widgetsaskuseractionhandler.cpp:176
-#: widgets/widgetsaskuseractionhandler.cpp:177
 #, kde-format
 msgid "Move to Trash"
 msgstr "Chuyển vào thùng rác"
@@ -3976,12 +3975,12 @@ msgstr "Mở tệp thất bại."
 msgid "The program \"%1\" could not be launched."
 msgstr "Không khởi chạy được chương trình \"%1\"."
 
-#: ioslaves/file/file.cpp:165
+#: ioslaves/file/file.cpp:170
 #, kde-format
 msgid "Setting ACL for %1"
 msgstr "Đặt ACL cho %1"
 
-#: ioslaves/file/file.cpp:705
+#: ioslaves/file/file.cpp:710
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
@@ -3990,22 +3989,22 @@ msgstr ""
 "Không thay đổi được quyền truy cập cho\n"
 "%1"
 
-#: ioslaves/file/file.cpp:788
+#: ioslaves/file/file.cpp:793
 #, kde-format
 msgid "mounting is not supported by Windows CE."
 msgstr "Việc gắn kết không được Windows CE hỗ trợ."
 
-#: ioslaves/file/file.cpp:816
+#: ioslaves/file/file.cpp:821
 #, kde-format
 msgid "Could not find program \"mount\""
 msgstr "Không tìm được chương trình \"mount\""
 
-#: ioslaves/file/file.cpp:883
+#: ioslaves/file/file.cpp:888
 #, kde-format
 msgid "unmounting is not supported by Windows CE."
 msgstr "Việc bỏ gắn kết không được Windows CE hỗ trợ."
 
-#: ioslaves/file/file.cpp:898
+#: ioslaves/file/file.cpp:903
 #, kde-format
 msgid "Could not find program \"umount\""
 msgstr "Không tìm được chương trình \"unmount\""
@@ -4106,12 +4105,12 @@ msgstr "Không thể chép tệp từ %1 đến %2. (Lỗi: %3)"
 msgid "No media in device for %1"
 msgstr "Không có phương tiện trong thiết bị cho %1"
 
-#: ioslaves/file/file_unix.cpp:1374
+#: ioslaves/file/file_unix.cpp:1359
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr "Không lấy được mã định danh người dùng cho tên người dùng đã cho %1"
 
-#: ioslaves/file/file_unix.cpp:1386
+#: ioslaves/file/file_unix.cpp:1371
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr "Không lấy được mã định danh nhóm cho tên nhóm đã cho %1"

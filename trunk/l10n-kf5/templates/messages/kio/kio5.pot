@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-13 00:42+0000\n"
+"POT-Creation-Date: 2022-05-17 00:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -45,7 +45,7 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr ""
 
-#: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1289
+#: core/copyjob.cpp:165 ioslaves/file/file_unix.cpp:1274
 #, kde-format
 msgctxt ""
 "The first arg is the path to the symlink that couldn't be created, the "
@@ -1845,7 +1845,7 @@ msgstr ""
 msgid "The server was too busy responding to other requests to respond."
 msgstr ""
 
-#: core/job_error.cpp:1109 core/slavebase.cpp:1575
+#: core/job_error.cpp:1109 core/slavebase.cpp:1592
 #, kde-format
 msgid "Unknown Error"
 msgstr ""
@@ -2105,127 +2105,127 @@ msgstr ""
 msgid "Unable to determine the type of file for %1"
 msgstr ""
 
-#: core/slave.cpp:408
-#, kde-format
-msgid "Can not create socket for launching io-slave for protocol '%1'."
-msgstr ""
-
-#: core/slave.cpp:416
+#: core/slave.cpp:421
 #, kde-format
 msgid "Unknown protocol '%1'."
 msgstr ""
 
-#: core/slave.cpp:427
+#: core/slave.cpp:432
 #, kde-format
 msgid "Can not find io-slave for protocol '%1'."
 msgstr ""
 
-#: core/slave.cpp:447
+#: core/slave.cpp:440
+#, kde-format
+msgid "Can not create socket for launching io-slave for protocol '%1'."
+msgstr ""
+
+#: core/slave.cpp:480
 #, kde-format
 msgid "Can not find 'kioslave5' executable at '%1'"
 msgstr ""
 
-#: core/slavebase.cpp:858
+#: core/slavebase.cpp:864
 #, kde-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr ""
 
-#: core/slavebase.cpp:860
+#: core/slavebase.cpp:866
 #, kde-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr ""
 
-#: core/slavebase.cpp:862
+#: core/slavebase.cpp:868
 #, kde-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr ""
 
-#: core/slavebase.cpp:864
+#: core/slavebase.cpp:870
 #, kde-format
 msgid "Writing to %1 is not supported."
 msgstr ""
 
-#: core/slavebase.cpp:866
+#: core/slavebase.cpp:872
 #, kde-format
 msgid "There are no special actions available for protocol %1."
 msgstr ""
 
-#: core/slavebase.cpp:868
+#: core/slavebase.cpp:874
 #, kde-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr ""
 
-#: core/slavebase.cpp:870
+#: core/slavebase.cpp:876
 #, kde-format
 msgid "Retrieving data from %1 is not supported."
 msgstr ""
 
-#: core/slavebase.cpp:872
+#: core/slavebase.cpp:878
 #, kde-format
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr ""
 
-#: core/slavebase.cpp:874
+#: core/slavebase.cpp:880
 #, kde-format
 msgid "Renaming or moving files within %1 is not supported."
 msgstr ""
 
-#: core/slavebase.cpp:876
+#: core/slavebase.cpp:882
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr ""
 
-#: core/slavebase.cpp:878
+#: core/slavebase.cpp:884
 #, kde-format
 msgid "Copying files within %1 is not supported."
 msgstr ""
 
-#: core/slavebase.cpp:880
+#: core/slavebase.cpp:886
 #, kde-format
 msgid "Deleting files from %1 is not supported."
 msgstr ""
 
-#: core/slavebase.cpp:882
+#: core/slavebase.cpp:888
 #, kde-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr ""
 
-#: core/slavebase.cpp:884
+#: core/slavebase.cpp:890
 #, kde-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr ""
 
-#: core/slavebase.cpp:886
+#: core/slavebase.cpp:892
 #, kde-format
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr ""
 
-#: core/slavebase.cpp:888
+#: core/slavebase.cpp:894
 #, kde-format
 msgid "Using sub-URLs with %1 is not supported."
 msgstr ""
 
-#: core/slavebase.cpp:890
+#: core/slavebase.cpp:896
 #, kde-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr ""
 
-#: core/slavebase.cpp:892
+#: core/slavebase.cpp:898
 #, kde-format
 msgid "Opening files is not supported with protocol %1."
 msgstr ""
 
-#: core/slavebase.cpp:894
+#: core/slavebase.cpp:900
 #, kde-format
 msgid "Protocol %1 does not support action %2."
 msgstr ""
 
-#: core/slavebase.cpp:1056
+#: core/slavebase.cpp:1062
 #, kde-format
 msgid "&Yes"
 msgstr ""
 
-#: core/slavebase.cpp:1057
+#: core/slavebase.cpp:1063
 #, kde-format
 msgid "&No"
 msgstr ""
@@ -2391,7 +2391,6 @@ msgstr ""
 #: filewidgets/kdiroperator.cpp:2095 widgets/jobuidelegate.cpp:280
 #: widgets/jobuidelegate.cpp:281 widgets/jobuidelegate.cpp:290
 #: widgets/jobuidelegate.cpp:291 widgets/widgetsaskuseractionhandler.cpp:176
-#: widgets/widgetsaskuseractionhandler.cpp:177
 #, kde-format
 msgid "Move to Trash"
 msgstr ""
@@ -3611,34 +3610,34 @@ msgstr ""
 msgid "The program \"%1\" could not be launched."
 msgstr ""
 
-#: ioslaves/file/file.cpp:165
+#: ioslaves/file/file.cpp:170
 #, kde-format
 msgid "Setting ACL for %1"
 msgstr ""
 
-#: ioslaves/file/file.cpp:705
+#: ioslaves/file/file.cpp:710
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
 "%1"
 msgstr ""
 
-#: ioslaves/file/file.cpp:788
+#: ioslaves/file/file.cpp:793
 #, kde-format
 msgid "mounting is not supported by Windows CE."
 msgstr ""
 
-#: ioslaves/file/file.cpp:816
+#: ioslaves/file/file.cpp:821
 #, kde-format
 msgid "Could not find program \"mount\""
 msgstr ""
 
-#: ioslaves/file/file.cpp:883
+#: ioslaves/file/file.cpp:888
 #, kde-format
 msgid "unmounting is not supported by Windows CE."
 msgstr ""
 
-#: ioslaves/file/file.cpp:898
+#: ioslaves/file/file.cpp:903
 #, kde-format
 msgid "Could not find program \"umount\""
 msgstr ""
@@ -3736,12 +3735,12 @@ msgstr ""
 msgid "No media in device for %1"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:1374
+#: ioslaves/file/file_unix.cpp:1359
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr ""
 
-#: ioslaves/file/file_unix.cpp:1386
+#: ioslaves/file/file_unix.cpp:1371
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr ""
