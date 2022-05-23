@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-26 02:11+0000\n"
-"PO-Revision-Date: 2022-01-10 22:08+0100\n"
+"POT-Creation-Date: 2022-05-19 00:46+0000\n"
+"PO-Revision-Date: 2022-05-05 09:19+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 20.12.2\n"
+"X-Generator: Lokalize 21.12.2\n"
 
 #: contents/activitymanager/ActivityItem.qml:212
 msgid "Currently being used"
@@ -57,11 +57,6 @@ msgstr "Tạo Hoạt động…"
 msgid "Activities"
 msgstr "Hoạt động"
 
-#: contents/activitymanager/Heading.qml:78
-#: contents/explorer/WidgetExplorer.qml:214
-msgid "Search…"
-msgstr "Tìm kiếm…"
-
 #: contents/activitymanager/StoppedActivityItem.qml:133
 msgid "Configure activity"
 msgstr "Cấu hình Hoạt động"
@@ -82,8 +77,12 @@ msgstr "Chép vào bảng nháp"
 msgid "View Error Details…"
 msgstr "Xem chi tiết về lỗi…"
 
+#: contents/applet/CompactApplet.qml:107
+msgid "Open %1"
+msgstr "Mở %1"
+
 #: contents/configuration/AboutPlugin.qml:19
-#: contents/configuration/AppletConfiguration.qml:228
+#: contents/configuration/AppletConfiguration.qml:224
 msgid "About"
 msgstr "Thông tin"
 
@@ -111,15 +110,15 @@ msgstr "Ghi nhận"
 msgid "Translators"
 msgstr "Người dịch"
 
-#: contents/configuration/AppletConfiguration.qml:40
+#: contents/configuration/AppletConfiguration.qml:39
 msgid "Keyboard Shortcuts"
 msgstr "Phím tắt"
 
-#: contents/configuration/AppletConfiguration.qml:276
+#: contents/configuration/AppletConfiguration.qml:272
 msgid "Apply Settings"
 msgstr "Áp dụng thiết lập"
 
-#: contents/configuration/AppletConfiguration.qml:277
+#: contents/configuration/AppletConfiguration.qml:273
 msgid ""
 "The settings of the current module have changed. Do you want to apply the "
 "changes or discard them?"
@@ -127,20 +126,20 @@ msgstr ""
 "Thiết lập cho khối hiện tại đã thay đổi. Bạn muốn áp dụng hay loại bỏ các "
 "thay đổi?"
 
-#: contents/configuration/AppletConfiguration.qml:302
+#: contents/configuration/AppletConfiguration.qml:298
 msgid "OK"
 msgstr "OK"
 
-#: contents/configuration/AppletConfiguration.qml:310
+#: contents/configuration/AppletConfiguration.qml:306
 msgid "Apply"
 msgstr "Áp dụng"
 
-#: contents/configuration/AppletConfiguration.qml:316
-#: contents/explorer/AppletAlternatives.qml:175
+#: contents/configuration/AppletConfiguration.qml:312
+#: contents/explorer/AppletAlternatives.qml:176
 msgid "Cancel"
 msgstr "Huỷ"
 
-#: contents/configuration/ConfigCategoryDelegate.qml:29
+#: contents/configuration/ConfigCategoryDelegate.qml:28
 msgid "Open configuration page"
 msgstr "Mở trang cấu hình"
 
@@ -194,36 +193,32 @@ msgid "+"
 msgstr "+"
 
 #: contents/configuration/ConfigurationContainmentActions.qml:153
-#: contents/configuration/MouseEventInputButton.qml:15
+#: contents/configuration/MouseEventInputButton.qml:13
 msgid "Add Action"
 msgstr "Thêm hành động"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:26
-msgid "Appearance"
-msgstr "Diện mạo"
-
-#: contents/configuration/ConfigurationContainmentAppearance.qml:68
+#: contents/configuration/ConfigurationContainmentAppearance.qml:66
 msgid "Layout changes have been restricted by the system administrator"
 msgstr "Các thay đổi về bố cục đã bị giới hạn bởi quản trị viên hệ thống"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:83
+#: contents/configuration/ConfigurationContainmentAppearance.qml:81
 msgid "Layout:"
 msgstr "Bố cục:"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:98
+#: contents/configuration/ConfigurationContainmentAppearance.qml:95
 msgid "Wallpaper type:"
 msgstr "Kiểu phông nền:"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:115
+#: contents/configuration/ConfigurationContainmentAppearance.qml:111
 msgid "Get New Plugins…"
 msgstr "Lấy phần cài cắm mới…"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:127
+#: contents/configuration/ConfigurationContainmentAppearance.qml:123
 msgid "Layout changes must be applied before other changes can be made"
 msgstr ""
 "Thay đổi về bố cục phải được áp dụng trước khi tạo ra các thay đổi khác"
 
-#: contents/configuration/ConfigurationContainmentAppearance.qml:133
+#: contents/configuration/ConfigurationContainmentAppearance.qml:129
 msgid "Apply now"
 msgstr "Áp dụng ngay"
 
@@ -231,125 +226,162 @@ msgstr "Áp dụng ngay"
 msgid "Shortcuts"
 msgstr "Phím tắt"
 
-#: contents/configuration/ConfigurationShortcuts.qml:26
+#: contents/configuration/ConfigurationShortcuts.qml:28
 msgid "This shortcut will activate the applet as though it had been clicked."
 msgstr "Phím tắt này sẽ kích hoạt tiểu ứng dụng như thể nó được bấm vào."
 
-#: contents/configuration/ContainmentConfiguration.qml:31
+#: contents/configuration/ContainmentConfiguration.qml:29
 msgid "Wallpaper"
 msgstr "Phông nền"
 
-#: contents/configuration/ContainmentConfiguration.qml:36
+#: contents/configuration/ContainmentConfiguration.qml:34
 msgid "Mouse Actions"
 msgstr "Hành động chuột"
 
-#: contents/configuration/MouseEventInputButton.qml:22
+#: contents/configuration/MouseEventInputButton.qml:20
 msgid "Input Here"
 msgstr "Nhập vào đây"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:34
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:168
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:36
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:177
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:205
 msgid "Remove Panel"
 msgstr "Xoá bỏ bảng"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:41
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:43
 msgid "Panel Alignment"
 msgstr "Căn lề cho bảng"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:51
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:53
 msgid "Top"
 msgstr "Trên"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:51
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:53
 msgid "Left"
 msgstr "Trái"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:62
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:64
 msgid "Center"
 msgstr "Giữa"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:73
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:75
 msgid "Bottom"
 msgstr "Dưới"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:73
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:75
 msgid "Right"
 msgstr "Phải"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:83
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:85
 msgid "Visibility"
 msgstr "Khả kiến"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:91
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:93
 msgid "Always Visible"
 msgstr "Luôn hiện"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:99
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:101
 msgid "Auto Hide"
 msgstr "Tự động ẩn"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:107
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:109
 msgid "Windows Can Cover"
 msgstr "Cửa sổ có thể che"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:115
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:117
 msgid "Windows Go Below"
 msgstr "Cửa sổ đi xuống dưới"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:124
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:126
 msgid "Opacity"
 msgstr "Độ mờ đục"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:134
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:136
 msgid "Adaptive"
 msgstr "Thích ứng"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:142
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:144
 msgid "Opaque"
 msgstr "Đục"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:150
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:152
 msgid "Translucent"
 msgstr "Trong mờ"
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:159
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:161
 msgid "Maximize Panel"
 msgstr "Phóng to bảng"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:24
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:167
+msgid "Floating Panel"
+msgstr "Bảng trôi"
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:183
+msgid "Shortcut"
+msgstr "Phím tắt"
+
+#: contents/configuration/panelconfiguration/ToolBar.qml:22
 msgid "Add Widgets…"
 msgstr "Thêm phụ kiện…"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:25
+#: contents/configuration/panelconfiguration/ToolBar.qml:23
 msgid "Add Spacer"
 msgstr "Thêm khoảng trống"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:26
+#: contents/configuration/panelconfiguration/ToolBar.qml:24
 msgid "More Options…"
 msgstr "Lựa chọn thêm…"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:168
+#: contents/configuration/panelconfiguration/ToolBar.qml:218
 msgctxt "Minimize the length of this string as much as possible"
 msgid "Drag to move"
 msgstr "Kéo để di chuyển"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:179
+#: contents/configuration/panelconfiguration/ToolBar.qml:229
 msgid "Panel width:"
 msgstr "Độ rộng bảng:"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:179
+#: contents/configuration/panelconfiguration/ToolBar.qml:229
 msgid "Panel height:"
 msgstr "Độ cao bảng:"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:290
+#: contents/configuration/panelconfiguration/ToolBar.qml:344
+#: contents/configuration/ShellContainmentConfiguration.qml:43
 msgid "Close"
 msgstr "Đóng"
+
+#: contents/configuration/ShellContainmentConfiguration.qml:19
+msgid "Panels and Desktops Management"
+msgstr "Quản lí các bảng và bàn làm việc"
+
+#: contents/configuration/ShellContainmentConfiguration.qml:34
+msgid ""
+"You can drag Panels and Desktops around to move them to different screens."
+msgstr ""
+"Bạn có thể kéo các bảng và các bàn làm việc để di chuyển chúng sang các màn "
+"hình khác nhau."
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:36
+msgid "%1 (primary)"
+msgstr "%1 (chính)"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:39
+msgid "%1 (disabled)"
+msgstr "%1 (vô hiệu)"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:192
+msgid "Swap with Desktop on Screen %1"
+msgstr "Hoán đổi với bàn làm việc ở màn hình %1"
+
+#: contents/configuration/shellcontainmentconfiguration/Delegate.qml:193
+msgid "Move to Screen %1"
+msgstr "Chuyển đến màn hình %1"
 
 #: contents/explorer/AppletAlternatives.qml:72
 msgid "Alternative Widgets"
 msgstr "Phụ kiện thay thế"
 
-#: contents/explorer/AppletAlternatives.qml:165
+#: contents/explorer/AppletAlternatives.qml:166
 msgid "Switch"
 msgstr "Chuyển"
 
@@ -373,30 +405,36 @@ msgstr "Thư điện tử:"
 msgid "Uninstall"
 msgstr "Gỡ cài đặt"
 
-#: contents/explorer/WidgetExplorer.qml:123
-#: contents/explorer/WidgetExplorer.qml:228
+#: contents/explorer/WidgetExplorer.qml:134
+#: contents/explorer/WidgetExplorer.qml:235
 msgid "All Widgets"
 msgstr "Tất cả phụ kiện"
 
-#: contents/explorer/WidgetExplorer.qml:188
+#: contents/explorer/WidgetExplorer.qml:199
 msgid "Widgets"
 msgstr "Phụ kiện"
 
-#: contents/explorer/WidgetExplorer.qml:196
+#: contents/explorer/WidgetExplorer.qml:207
 msgid "Get New Widgets…"
 msgstr "Lấy phụ kiện mới…"
 
-#: contents/explorer/WidgetExplorer.qml:236
+#: contents/explorer/WidgetExplorer.qml:243
 msgid "Categories"
 msgstr "Các loại"
 
-#: contents/explorer/WidgetExplorer.qml:317
+#: contents/explorer/WidgetExplorer.qml:325
 msgid "No widgets matched the search terms"
 msgstr "Không có phụ kiện nào khớp với các từ khoá tìm kiếm"
 
-#: contents/explorer/WidgetExplorer.qml:317
+#: contents/explorer/WidgetExplorer.qml:325
 msgid "No widgets available"
 msgstr "Không có phụ kiện nào"
+
+#~ msgid "Appearance"
+#~ msgstr "Diện mạo"
+
+#~ msgid "Search…"
+#~ msgstr "Tìm kiếm…"
 
 #~ msgid "Screen Edge"
 #~ msgstr "Cạnh màn hình"

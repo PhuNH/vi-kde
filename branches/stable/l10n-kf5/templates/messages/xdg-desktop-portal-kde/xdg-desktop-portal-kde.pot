@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xdg-desktop-portal-kde\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-14 02:07+0000\n"
+"POT-Creation-Date: 2022-05-14 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -32,9 +32,9 @@ msgstr ""
 msgid "Request device access"
 msgstr ""
 
-#: src/appchooserdialog.cpp:38
+#: src/appchooserdialog.cpp:34
 #, kde-format
-msgid "Open with..."
+msgid "Select an application to open '%1'"
 msgstr ""
 
 #: src/background.cpp:85
@@ -76,7 +76,19 @@ msgstr ""
 msgid "Allow"
 msgstr ""
 
-#: src/filechooser.cpp:312
+#: src/dynamiclauncher.cpp:78
+#, kde-format
+msgctxt "@title"
+msgid "Add Web Application…"
+msgstr ""
+
+#: src/dynamiclauncher.cpp:83
+#, kde-format
+msgctxt "@title"
+msgid "Add Application…"
+msgstr ""
+
+#: src/filechooser.cpp:371
 #, kde-format
 msgid "Open"
 msgstr ""
@@ -96,14 +108,24 @@ msgstr ""
 msgid "Save File"
 msgstr ""
 
-#: src/outputsmodel.cpp:54 src/screencastwidget.cpp:24
+#: src/outputsmodel.cpp:18
+#, kde-format
+msgid "Full Workspace"
+msgstr ""
+
+#: src/outputsmodel.cpp:22
+#, kde-format
+msgid "New Virtual Output"
+msgstr ""
+
+#: src/outputsmodel.cpp:28 src/screencastwidget.cpp:24
 #, kde-format
 msgid ""
 "Laptop screen\n"
 "Model: %1"
 msgstr ""
 
-#: src/outputsmodel.cpp:56 src/screencastwidget.cpp:27
+#: src/outputsmodel.cpp:31 src/screencastwidget.cpp:27
 #: src/screencastwidget.cpp:30
 #, kde-format
 msgid ""
@@ -116,7 +138,7 @@ msgstr ""
 msgid "Select what to share with the requesting application"
 msgstr ""
 
-#: src/remotedesktopdialog.cpp:44 src/screenchooserdialog.cpp:140
+#: src/remotedesktopdialog.cpp:44
 #, kde-format
 msgid "Select what to share with %1"
 msgstr ""
@@ -151,7 +173,7 @@ msgstr ""
 msgid "Touch screen"
 msgstr ""
 
-#: src/screencast.cpp:172
+#: src/screencast.cpp:309
 #, kde-format
 msgctxt "Do not disturb mode is enabled because..."
 msgid "Screen sharing in progress"
@@ -162,9 +184,74 @@ msgstr ""
 msgid "Screen Sharing"
 msgstr ""
 
-#: src/screenchooserdialog.cpp:140
+#: src/screenchooserdialog.cpp:167
 #, kde-format
-msgid "Select screen to share with the requesting application"
+msgid "Choose what to share with the requesting application:"
+msgstr ""
+
+#: src/screenchooserdialog.cpp:169
+#, kde-format
+msgid "Choose what to share with %1:"
+msgstr ""
+
+#: src/screenchooserdialog.cpp:177
+#, kde-format
+msgid "Share this screen with the requesting application?"
+msgstr ""
+
+#: src/screenchooserdialog.cpp:179
+#, kde-format
+msgid "Share this screen with %1?"
+msgstr ""
+
+#: src/screenchooserdialog.cpp:184
+#, kde-format
+msgid "Choose screens to share with the requesting application:"
+msgstr ""
+
+#: src/screenchooserdialog.cpp:186
+#, kde-format
+msgid "Choose screens to share with %1:"
+msgstr ""
+
+#: src/screenchooserdialog.cpp:190
+#, kde-format
+msgid "Choose which screen to share with the requesting application:"
+msgstr ""
+
+#: src/screenchooserdialog.cpp:192
+#, kde-format
+msgid "Choose which screen to share with %1:"
+msgstr ""
+
+#: src/screenchooserdialog.cpp:202
+#, kde-format
+msgid "Share this window with the requesting application?"
+msgstr ""
+
+#: src/screenchooserdialog.cpp:204
+#, kde-format
+msgid "Share this window with %1?"
+msgstr ""
+
+#: src/screenchooserdialog.cpp:209
+#, kde-format
+msgid "Choose windows to share with the requesting application:"
+msgstr ""
+
+#: src/screenchooserdialog.cpp:211
+#, kde-format
+msgid "Choose windows to share with %1:"
+msgstr ""
+
+#: src/screenchooserdialog.cpp:215
+#, kde-format
+msgid "Choose which window to share with the requesting application:"
+msgstr ""
+
+#: src/screenchooserdialog.cpp:217
+#, kde-format
+msgid "Choose which window to share with %1:"
 msgstr ""
 
 #: src/screenshotdialog.cpp:90
@@ -192,37 +279,42 @@ msgstr ""
 msgid "Share your personal information with the requesting application?"
 msgstr ""
 
-#: src/waylandintegration.cpp:254
-#, kde-format
-msgid "Failed to start screencasting"
-msgstr ""
-
-#: src/waylandintegration.cpp:286
-#, kde-format
-msgid "Recording screen \"%1\"..."
-msgstr ""
-
-#: src/waylandintegration.cpp:291
+#: src/waylandintegration.cpp:255
 #, kde-format
 msgid "Recording window \"%1\"..."
 msgstr ""
 
-#: src/waylandintegration.cpp:294
+#: src/waylandintegration.cpp:265
+#, kde-format
+msgid "Recording screen \"%1\"..."
+msgstr ""
+
+#: src/waylandintegration.cpp:282
+#, kde-format
+msgid "Recording workspace..."
+msgstr ""
+
+#: src/waylandintegration.cpp:293
+#, kde-format
+msgid "Recording virtual output '%1'..."
+msgstr ""
+
+#: src/waylandintegration.cpp:312
+#, kde-format
+msgid "Failed to start screencasting"
+msgstr ""
+
+#: src/waylandintegration.cpp:339
 #, kde-format
 msgid "Press to cancel"
 msgstr ""
 
-#: src/waylandintegration.cpp:400
-#, kde-format
-msgid "xdg-desktop-portals-kde"
-msgstr ""
-
-#: src/waylandintegration.cpp:400
+#: src/waylandintegration.cpp:474
 #, kde-format
 msgid "Remote desktop"
 msgstr ""
 
-#: src/xdg-desktop-portal-kde.cpp:28
+#: src/xdg-desktop-portal-kde.cpp:30
 #, kde-format
 msgid "Portal"
 msgstr ""

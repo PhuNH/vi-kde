@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the kdeplasma-addons package.
 #
-# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2020, 2021.
+# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2020, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeplasma-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-13 00:44+0000\n"
-"PO-Revision-Date: 2021-12-14 09:52+0100\n"
+"POT-Creation-Date: 2022-05-11 00:46+0000\n"
+"PO-Revision-Date: 2022-05-12 11:44+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 20.12.2\n"
+"X-Generator: Lokalize 21.12.2\n"
 
 #: package/contents/config/config.qml:13
 #, kde-format
@@ -23,19 +23,28 @@ msgctxt "@title"
 msgid "Dictionaries"
 msgstr "Từ điển"
 
-#: package/contents/ui/ConfigDictionaries.qml:24
+#: package/contents/ui/ConfigDictionaries.qml:80
 #, kde-format
-msgctxt "@label:listbox"
-msgid "Available dictionaries:"
-msgstr "Các từ điển hiện có"
+msgid "Unable to load dictionary list"
+msgstr "Không thể tải danh sách từ điển"
 
-#: package/contents/ui/main.qml:20
+#: package/contents/ui/ConfigDictionaries.qml:81
+#: package/contents/ui/main.qml:113
 #, kde-format
-msgid "Looking up definition…"
-msgstr "Đang tra định nghĩa…"
+msgctxt "%2 human-readable error string"
+msgid "Error code: %1 (%2)"
+msgstr "Mã lỗi: %1 (%2)"
 
-#: package/contents/ui/main.qml:28
+#: package/contents/ui/main.qml:34
 #, kde-format
 msgctxt "@info:placeholder"
-msgid "Enter word to define here"
-msgstr "Nhập từ để định nghĩa vào đây"
+msgid "Enter word to define here…"
+msgstr "Nhập từ để định nghĩa vào đây…"
+
+#: package/contents/ui/main.qml:112
+#, kde-format
+msgid "Unable to load definition"
+msgstr "Không thể tải định nghĩa"
+
+#~ msgid "Looking up definition…"
+#~ msgstr "Đang tra định nghĩa…"

@@ -3,13 +3,13 @@
 #
 # Nguyễn Hưng Vũ <Vu.Hung@techviet.com>, 2002.
 # Phan Vĩnh Thịnh <teppi82@gmail.com>, 2006.
-# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2021.
+# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-26 00:19+0000\n"
-"PO-Revision-Date: 2021-05-28 20:47+0200\n"
+"POT-Creation-Date: 2022-04-12 00:46+0000\n"
+"PO-Revision-Date: 2022-04-08 01:02+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 20.08.1\n"
+"X-Generator: Lokalize 20.12.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -29,7 +29,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "phu.nguyen@kdemail.net"
 
-#: kcmsmserver.cpp:51
+#: kcmsmserver.cpp:50
 #, kde-format
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
@@ -43,27 +43,27 @@ msgstr ""
 "xác nhận hay không, phiên có cần được khôi phục lại khi đăng nhập hay không, "
 "và theo mặc định máy tính có tự động tắt sau khi thoát phiên hay không."
 
-#: kcmsmserver.cpp:62
+#: kcmsmserver.cpp:61
 #, kde-format
 msgid "Desktop Session"
 msgstr "Phiên bàn làm việc"
 
-#: kcmsmserver.cpp:64
+#: kcmsmserver.cpp:63
 #, kde-format
 msgid "Desktop Session Login and Logout"
 msgstr "Đăng nhập và đăng xuất phiên bàn làm việc"
 
-#: kcmsmserver.cpp:66
+#: kcmsmserver.cpp:65
 #, kde-format
 msgid "Copyright © 2000–2020 Desktop Session team"
 msgstr "Bản quyền © 2000–2020 đội ngũ \"Phiên bàn làm việc\""
 
-#: kcmsmserver.cpp:68
+#: kcmsmserver.cpp:67
 #, kde-format
 msgid "Oswald Buddenhagen"
 msgstr "Oswald Buddenhagen"
 
-#: kcmsmserver.cpp:69
+#: kcmsmserver.cpp:68
 #, kde-format
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
@@ -97,15 +97,15 @@ msgstr "Khởi động lại ngay"
 msgid "General:"
 msgstr "Chung:"
 
-#. i18n: ectx: label, entry (confirmLogout), group (General)
-#: package/contents/ui/main.qml:39 smserversettings.kcfg:9
+#: package/contents/ui/main.qml:39
 #, kde-format
+msgctxt "@option:check"
 msgid "Confirm logout"
 msgstr "Xác nhận khi đăng xuất"
 
-#. i18n: ectx: label, entry (offerShutdown), group (General)
-#: package/contents/ui/main.qml:48 smserversettings.kcfg:13
+#: package/contents/ui/main.qml:48
 #, kde-format
+msgctxt "@option:check"
 msgid "Offer shutdown options"
 msgstr "Đề xuất các lựa chọn tắt máy"
 
@@ -116,16 +116,22 @@ msgstr "Lựa chọn thoát mặc định:"
 
 #: package/contents/ui/main.qml:66
 #, kde-format
+msgctxt ""
+"@option:radio Here 'session' refers to the technical concept of session "
+"restoration, whereby the windows that were open on logout are re-opened on "
+"the next login"
 msgid "End current session"
 msgstr "Kết thúc phiên hiện tại"
 
 #: package/contents/ui/main.qml:76
 #, kde-format
+msgctxt "@option:radio"
 msgid "Restart computer"
-msgstr "Khởi động lại máy tínhtính"
+msgstr "Khởi động lại máy tính"
 
 #: package/contents/ui/main.qml:86
 #, kde-format
+msgctxt "@option:radio"
 msgid "Turn off computer"
 msgstr "Tắt máy tính"
 
@@ -136,25 +142,37 @@ msgstr "Khi đăng nhập:"
 
 #: package/contents/ui/main.qml:103
 #, kde-format
-msgid "Restore previous saved session"
-msgstr "Khôi phục phiên đã lưu lần trước"
+msgctxt ""
+"@option:radio Here 'session' refers to the technical concept of session "
+"restoration, whereby the windows that were open on logout are re-opened on "
+"the next login"
+msgid "Restore last session"
+msgstr "Khôi phục phiên gần nhất"
 
 #: package/contents/ui/main.qml:113
 #, kde-format
-msgid "Restore manually saved session"
-msgstr "Khôi phục phiên đã lưu thủ công"
+msgctxt ""
+"@option:radio Here 'session' refers to the technical concept of session "
+"restoration, whereby the windows that were open on logout are re-opened on "
+"the next login"
+msgid "Restore last manually saved session"
+msgstr "Khôi phục phiên đã lưu thủ công gần nhất"
 
 #: package/contents/ui/main.qml:123
 #, kde-format
+msgctxt ""
+"@option:radio Here 'session' refers to the technical concept of session "
+"restoration, whereby the windows that were open on logout are re-opened on "
+"the next login"
 msgid "Start with an empty session"
 msgstr "Bắt đầu một phiên mới"
 
-#: package/contents/ui/main.qml:136
+#: package/contents/ui/main.qml:135
 #, kde-format
 msgid "Don't restore these applications:"
 msgstr "Không khôi phục những ứng dụng này:"
 
-#: package/contents/ui/main.qml:142
+#: package/contents/ui/main.qml:152
 #, kde-format
 msgid ""
 "Here you can enter a colon or comma separated list of applications that "
@@ -166,10 +184,23 @@ msgstr ""
 "được khởi động khi khôi phục phiên. Ví dụ 'xterm:konsole' hoặc 'xterm,"
 "konsole'."
 
-#: package/contents/ui/main.qml:156
+#: package/contents/ui/main.qml:161
 #, kde-format
+msgctxt "@option:check"
 msgid "Enter firmware setup screen on next restart"
 msgstr "Đi vào màn hình cài đặt phần sụn ở lần khởi động lại tiếp theo"
+
+#. i18n: ectx: label, entry (confirmLogout), group (General)
+#: smserversettings.kcfg:9
+#, kde-format
+msgid "Confirm logout"
+msgstr "Xác nhận khi đăng xuất"
+
+#. i18n: ectx: label, entry (offerShutdown), group (General)
+#: smserversettings.kcfg:13
+#, kde-format
+msgid "Offer shutdown options"
+msgstr "Đề xuất các lựa chọn tắt máy"
 
 #. i18n: ectx: label, entry (shutdownType), group (General)
 #: smserversettings.kcfg:17
@@ -188,6 +219,9 @@ msgstr "Khi đăng nhập"
 #, kde-format
 msgid "Applications to be excluded from session"
 msgstr "Những ứng dụng sẽ bị loại trừ khỏi phiên"
+
+#~ msgid "Restore previous saved session"
+#~ msgstr "Khôi phục phiên đã lưu lần trước"
 
 #~ msgid ""
 #~ "Check this option if you want the session manager to display a logout "

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-18 00:47+0000\n"
+"POT-Creation-Date: 2022-05-20 00:46+0000\n"
 "PO-Revision-Date: 2022-05-06 06:16+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -21,62 +21,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 21.12.2\n"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: actionsconfig.ui:17
-#, kde-format
-msgid "Action list:"
-msgstr "Danh sách hành động"
-
-#. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
-#: actionsconfig.ui:28
-#, kde-format
-msgid "Regular Expression"
-msgstr "Biểu thức chính quy"
-
-#. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
-#: actionsconfig.ui:33 editactiondialog.cpp:211
-#, kde-format
-msgid "Description"
-msgstr "Mô tả"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbAddAction)
-#: actionsconfig.ui:43
-#, kde-format
-msgid "Add Action..."
-msgstr "Thêm hành động…"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbEditAction)
-#: actionsconfig.ui:50
-#, kde-format
-msgid "Edit Action..."
-msgstr "Sửa hành động…"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbDelAction)
-#: actionsconfig.ui:57
-#, kde-format
-msgid "Delete Action"
-msgstr "Xoá hành động"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: actionsconfig.ui:66
-#, no-c-format, kde-format
-msgid ""
-"Click on a highlighted item's column to change it. \"%s\" in a command will "
-"be replaced with the clipboard contents.<br>For more information about "
-"regular expressions, you could have a look at the <a href=\"https://en."
-"wikipedia.org/wiki/Regular_expression\">Wikipedia entry about this topic</a>."
-msgstr ""
-"Bấm vào cột của một mục được tô sáng để thay đổi nó. \"%s\" trong một lệnh "
-"sẽ được thay thế bằng nội dung bảng nháp.<br>Để biết thêm về biểu thức chính "
-"quy, bạn có thể xem <a href=\"https://en.wikipedia.org/wiki/"
-"Regular_expression\">bài này trên Wikipedia</a>."
-
-#: configdialog.cpp:68
+#: configdialog.cpp:80
 #, kde-format
 msgid "Selection and Clipboard:"
 msgstr "Phần bôi đen và bảng nháp:"
 
-#: configdialog.cpp:75
+#: configdialog.cpp:87
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -102,50 +52,50 @@ msgstr ""
 "được lưu trong lịch sử bảng nháp (tuỳ theo các lựa chọn ở dưới đây), nhưng "
 "chỉ có thể dán được bằng nút chuột giữa."
 
-#: configdialog.cpp:95
+#: configdialog.cpp:107
 #, kde-format
 msgid "Clipboard history:"
 msgstr "Lịch sử bảng nháp:"
 
-#: configdialog.cpp:102
+#: configdialog.cpp:114
 #, kde-format
 msgctxt "Number of entries"
 msgid " entry"
 msgid_plural " entries"
 msgstr[0] " mục"
 
-#: configdialog.cpp:119 configdialog.cpp:154
+#: configdialog.cpp:131 configdialog.cpp:166
 #, kde-format
 msgid "Always save in history"
 msgstr "Luôn lưu vào lịch sử"
 
-#: configdialog.cpp:122
+#: configdialog.cpp:134
 #, kde-format
 msgid "Text selection:"
 msgstr "Phần bôi đen văn bản:"
 
-#: configdialog.cpp:124 configdialog.cpp:159
+#: configdialog.cpp:136 configdialog.cpp:171
 #, kde-format
 msgid "Only when explicitly copied"
 msgstr "Chỉ khi được sao chép rõ ràng"
 
-#: configdialog.cpp:129
+#: configdialog.cpp:141
 #, kde-format
 msgid "Whether text selections are saved in the clipboard history."
 msgstr ""
 "Các phần bôi đen văn bản có được lưu trong lịch sử bảng nháp hay không."
 
-#: configdialog.cpp:157
+#: configdialog.cpp:169
 #, kde-format
 msgid "Non-text selection:"
 msgstr "Phần bôi đen phi văn bản:"
 
-#: configdialog.cpp:164
+#: configdialog.cpp:176
 #, kde-format
 msgid "Never save in history"
 msgstr "Không bao giờ lưu vào lịch sử"
 
-#: configdialog.cpp:169
+#: configdialog.cpp:181
 #, kde-format
 msgid ""
 "Whether non-text selections (such as images) are saved in the clipboard "
@@ -154,12 +104,12 @@ msgstr ""
 "Các phần bôi đen phi văn bản (chẳng hạn như ảnh) có được lưu trong lịch sử "
 "bảng nháp hay không."
 
-#: configdialog.cpp:235
+#: configdialog.cpp:247
 #, kde-format
 msgid "Show action popup menu:"
 msgstr "Hiện trình đơn bật lên cho hành động:"
 
-#: configdialog.cpp:247
+#: configdialog.cpp:258
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -175,30 +125,30 @@ msgstr ""
 "hiện ra cho một cửa sổ bị loại trừ, thì nó cũng có thể được hiển thị bằng "
 "cách dùng phím tắt <shortcut>%1</shortcut>."
 
-#: configdialog.cpp:254
+#: configdialog.cpp:267
 #, kde-format
 msgid "Exclude Windows..."
 msgstr "Loại trừ cửa sổ..."
 
-#: configdialog.cpp:269
+#: configdialog.cpp:282
 #, kde-format
 msgctxt "Unit of time"
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] " giây"
 
-#: configdialog.cpp:270
+#: configdialog.cpp:283
 #, kde-format
 msgctxt "No timeout"
 msgid "None"
 msgstr "Không"
 
-#: configdialog.cpp:280
+#: configdialog.cpp:293
 #, kde-format
 msgid "Options:"
 msgstr "Lựa chọn:"
 
-#: configdialog.cpp:295
+#: configdialog.cpp:307
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -208,65 +158,138 @@ msgstr ""
 "Các hành động hiện ra trong trình đơn bật lên có thể được cấu hình trong "
 "trang <interface>Cấu hình hành động</interface>."
 
-#: configdialog.cpp:323
+#: configdialog.cpp:335
 #, kde-format
 msgid "Exclude Windows"
 msgstr "Loại trừ cửa sổ"
 
-#: configdialog.cpp:548
+#: configdialog.cpp:376
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"When a <interface>match pattern</interface> matches the clipboard contents, "
+"its <interface>commands</interface> appear in the Klipper popup menu and can "
+"be executed."
+msgstr ""
+
+#: configdialog.cpp:385
+#, kde-format
+msgctxt "@title:column"
+msgid "Match pattern and commands"
+msgstr ""
+
+#: configdialog.cpp:385
+#, fuzzy, kde-format
+#| msgid "Description"
+msgctxt "@title:column"
+msgid "Description"
+msgstr "Mô tả"
+
+#: configdialog.cpp:391
+#, kde-format
+msgid "Add Action..."
+msgstr "Thêm hành động…"
+
+#: configdialog.cpp:395
+#, kde-format
+msgid "Edit Action..."
+msgstr "Sửa hành động…"
+
+#: configdialog.cpp:400
+#, kde-format
+msgid "Delete Action"
+msgstr "Xoá hành động"
+
+#: configdialog.cpp:407
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "The actions shown in the popup menu can be configured on the "
+#| "<interface>Actions Configuration</interface> page."
+msgctxt "@info"
+msgid ""
+"These actions appear in the popup menu which can be configured on the "
+"<interface>Action Menu</interface> page."
+msgstr ""
+"Các hành động hiện ra trong trình đơn bật lên có thể được cấu hình trong "
+"trang <interface>Cấu hình hành động</interface>."
+
+#: configdialog.cpp:589
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Delete the selected action <resource>%1</resource><nl/>and all of its "
+"commands?"
+msgstr ""
+
+#: configdialog.cpp:590
+#, fuzzy, kde-format
+#| msgid "Delete Action"
+msgid "Confirm Delete Action"
+msgstr "Xoá hành động"
+
+#: configdialog.cpp:613
 #, kde-format
 msgctxt "General Config"
 msgid "General"
 msgstr "Chung"
 
-#: configdialog.cpp:548
+#: configdialog.cpp:613
 #, kde-format
 msgid "General Configuration"
 msgstr "Cấu hình chung"
 
-#: configdialog.cpp:549
+#: configdialog.cpp:614
 #, kde-format
 msgctxt "Popup Menu Config"
 msgid "Action Menu"
 msgstr "Trình đơn hành động"
 
-#: configdialog.cpp:549
+#: configdialog.cpp:614
 #, kde-format
 msgid "Action Menu"
 msgstr "Trình đơn hành động"
 
-#: configdialog.cpp:550
+#: configdialog.cpp:615
 #, kde-format
 msgctxt "Actions Config"
 msgid "Actions Configuration"
 msgstr "Cấu hình hành động"
 
-#: configdialog.cpp:550
+#: configdialog.cpp:615
 #, kde-format
 msgid "Actions Configuration"
 msgstr "Cấu hình hành động"
 
-#: configdialog.cpp:553
+#: configdialog.cpp:618
 #, kde-format
 msgctxt "Shortcuts Config"
 msgid "Shortcuts"
 msgstr "Phím tắt"
 
-#: configdialog.cpp:553
+#: configdialog.cpp:618
 #, kde-format
 msgid "Shortcuts Configuration"
 msgstr "Cấu hình phím tắt"
 
-#: configdialog.cpp:622
-#, kde-kuit-format
+#: configdialog.cpp:687
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info"
+#| msgid ""
+#| "The action popup menu will not be shown automatically for these windows, "
+#| "even if it is enabled. This is because, for example, a web browser may "
+#| "highlight a URL in the address bar while typing, so the menu would show "
+#| "for every keystroke.<nl/><nl/>If the action menu appears unexpectedly "
+#| "when using a particular application, then add it to this list. <link>How "
+#| "to find the name to enter</link>."
 msgctxt "@info"
 msgid ""
-"The action popup menu will not be shown automatically for these windows, "
-"even if it is enabled. This is because, for example, a web browser may "
-"highlight a URL in the address bar while typing, so the menu would show for "
-"every keystroke.<nl/><nl/>If the action menu appears unexpectedly when using "
-"a particular application, then add it to this list. <link>How to find the "
-"name to enter</link>."
+"The action popup will not be shown automatically for these windows, even if "
+"it is enabled. This is because, for example, a web browser may highlight a "
+"URL in the address bar while typing, so the menu would show for every "
+"keystroke.<nl/><nl/>If the action menu appears unexpectedly when using a "
+"particular application, then add it to this list. <link>How to find the name "
+"to enter</link>."
 msgstr ""
 "Trình đơn bật lên cho hành động sẽ không tự động hiện ra cho các cửa sổ này, "
 "kể cả khi nó được bật. Đó là vì, ví dụ, một trình duyệt web có thể tô sáng "
@@ -275,7 +298,7 @@ msgstr ""
 "dùng một ứng dụng, hãy thêm nó vào danh sách này. <link>Cách tìm ra cái tên "
 "để thêm</link>."
 
-#: configdialog.cpp:635
+#: configdialog.cpp:700
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -291,160 +314,255 @@ msgstr ""
 "vào cửa sổ mà bạn muốn loại trừ. Cái tên đầu tiên mà nó hiển thị sau dấu "
 "bằng là cái mà bạn cần nhập vào."
 
-#: editactiondialog.cpp:27
+#: editactiondialog.cpp:34 editcommanddialog.cpp:90
 #, kde-format
 msgid "Ignore"
 msgstr "Bỏ qua"
 
-#: editactiondialog.cpp:29
+#: editactiondialog.cpp:36
 #, kde-format
 msgid "Replace Clipboard"
 msgstr "Thay trong bảng nháp"
 
-#: editactiondialog.cpp:31
+#: editactiondialog.cpp:38
 #, kde-format
 msgid "Add to Clipboard"
 msgstr "Thêm vào bảng nháp"
 
-#: editactiondialog.cpp:207
+#: editactiondialog.cpp:122
 #, kde-format
 msgid "Command"
 msgstr "Lệnh"
 
-#: editactiondialog.cpp:209
+#: editactiondialog.cpp:124
 #, kde-format
-msgid "Output Handling"
-msgstr "Xử lí đầu ra"
+msgid "Output"
+msgstr ""
 
-#: editactiondialog.cpp:251
+#: editactiondialog.cpp:126
+#, kde-format
+msgid "Description"
+msgstr "Mô tả"
+
+#: editactiondialog.cpp:179
 #, kde-format
 msgid "Action Properties"
 msgstr "Các thuộc tính của hành động"
 
-#: editactiondialog.cpp:356
-#, kde-format
-msgid "new command"
-msgstr "lệnh mới"
+#: editactiondialog.cpp:191
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"An action takes effect when its <interface>match pattern</interface> matches "
+"the clipboard contents. When this happens, the action's <interface>commands</"
+"interface> appear in the Klipper popup menu; if one of them is chosen, the "
+"command is executed."
+msgstr ""
 
-#: editactiondialog.cpp:356
+#: editactiondialog.cpp:203
 #, kde-format
-msgid "Command Description"
-msgstr "Mô tả lệnh"
+msgid "Enter a pattern to match against the clipboard"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: editactiondialog.ui:20
+#: editactiondialog.cpp:205
 #, kde-format
-msgid "Action properties:"
-msgstr "Các thuộc tính của hành động:"
+msgid "Match pattern:"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: editactiondialog.ui:42
+#: editactiondialog.cpp:208
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The match pattern is a regular expression. For more information see the "
+"<link url=\"https://en.wikipedia.org/wiki/Regular_expression\">Wikipedia "
+"entry</link> for this topic."
+msgstr ""
+
+#: editactiondialog.cpp:219
 #, kde-format
-msgid "Regular expression:"
-msgstr "Biểu thức chính quy:"
+msgid "Enter a description for the action"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: editactiondialog.ui:52
+#: editactiondialog.cpp:220 editcommanddialog.cpp:84
 #, kde-format
 msgid "Description:"
 msgstr "Mô tả:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: editactiondialog.ui:62
+#: editactiondialog.cpp:223
 #, kde-format
-msgid "Automatic:"
-msgstr "Tự động:"
+msgid "Include in automatic popup"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: editactiondialog.ui:87
-#, kde-format
-msgid "List of commands for this action:"
-msgstr "Danh sách lệnh cho hành động này:"
+#: editactiondialog.cpp:227
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The commands for this match will be included in the automatic action popup, "
+"if it is enabled in the <interface>Action Menu</interface> page. If this "
+"option is turned off, the commands for this match will not be included in "
+"the automatic popup but they will be included if the popup is activated "
+"manually with the <shortcut>%1</shortcut> key shortcut."
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, pbAddCommand)
-#: editactiondialog.ui:144
-#, kde-format
-msgid "Add Command"
+#: editactiondialog.cpp:262
+#, fuzzy, kde-format
+#| msgid "Add Command"
+msgid "Add Command..."
 msgstr "Thêm lệnh"
 
-#. i18n: ectx: property (text), widget (QPushButton, pbRemoveCommand)
-#: editactiondialog.ui:151
-#, kde-format
-msgid "Remove Command"
+#: editactiondialog.cpp:267
+#, fuzzy, kde-format
+#| msgid "Add Command"
+msgid "Edit Command..."
+msgstr "Thêm lệnh"
+
+#: editactiondialog.cpp:273
+#, fuzzy, kde-format
+#| msgid "Remove Command"
+msgid "Delete Command"
 msgstr "Xoá lệnh"
 
-#. i18n: ectx: property (toolTip), widget (QTableView, twCommandList)
-#: editactiondialog.ui:176
+#: editactiondialog.cpp:389
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Delete the selected command <resource>%1</resource>?"
+msgstr ""
+
+#: editactiondialog.cpp:390
 #, kde-format
-msgid "Double-click an item to edit"
-msgstr "Bấm đúp vào một mục để sửa"
+msgid "Confirm Delete Command"
+msgstr ""
+
+#: editcommanddialog.cpp:47
+#, fuzzy, kde-format
+#| msgid "Action Properties"
+msgid "Command Properties"
+msgstr "Các thuộc tính của hành động"
+
+#: editcommanddialog.cpp:60
+#, kde-format
+msgid "Enter the command and arguments"
+msgstr ""
+
+#: editcommanddialog.cpp:63
+#, fuzzy, kde-format
+#| msgid "Command"
+msgid "Command:"
+msgstr "Lệnh"
+
+#: editcommanddialog.cpp:72
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"A <placeholder>&#37;s</placeholder> in the command will be replaced by the "
+"complete clipboard contents. <placeholder>&#37;0</placeholder> through "
+"<placeholder>&#37;9</placeholder> will be replaced by the corresponding "
+"captured texts from the match pattern."
+msgstr ""
+
+#: editcommanddialog.cpp:82
+#, kde-format
+msgid "Enter a description for the command"
+msgstr ""
+
+#: editcommanddialog.cpp:92
+#, kde-format
+msgid "Output from command:"
+msgstr ""
+
+#: editcommanddialog.cpp:94
+#, fuzzy, kde-format
+#| msgid "Replace Clipboard"
+msgid "Replace current clipboard"
+msgstr "Thay trong bảng nháp"
+
+#: editcommanddialog.cpp:98
+#, fuzzy, kde-format
+#| msgid "Add to Clipboard"
+msgid "Append to clipboard"
+msgstr "Thêm vào bảng nháp"
+
+#: editcommanddialog.cpp:102
+#, kde-format
+msgid "What happens to the standard output of the command executed."
+msgstr ""
+
+#: editcommanddialog.cpp:116
+#, kde-format
+msgid "Reset the icon to the default for the command"
+msgstr ""
+
+#: editcommanddialog.cpp:122
+#, kde-format
+msgid "Icon:"
+msgstr ""
 
 #: historyimageitem.cpp:39
 #, kde-format
 msgid "%1x%2 %3bpp"
 msgstr "%1x%2 %3bpp"
 
-#: klipper.cpp:151
+#: klipper.cpp:156
 #, kde-format
 msgctxt "@action:inmenu Toggle automatic action"
 msgid "Automatic Action Popup Menu"
 msgstr "Trình đơn tự động bật lên cho hành động:"
 
-#: klipper.cpp:174
+#: klipper.cpp:179
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "C&lear Clipboard History"
 msgstr "&Xoá lịch sử bảng nháp"
 
-#: klipper.cpp:181
+#: klipper.cpp:186
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Configure Klipper…"
 msgstr "&Cấu hình Klipper…"
 
-#: klipper.cpp:187
+#: klipper.cpp:192
 #, kde-format
 msgctxt "@action:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr "Th&oát"
 
-#: klipper.cpp:192
+#: klipper.cpp:197
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr "Gọi hành động trên bảng nháp hiện tại một cách thủ công"
 
-#: klipper.cpp:199
+#: klipper.cpp:204
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Edit Contents…"
 msgstr "&Sửa nội dung…"
 
-#: klipper.cpp:207
+#: klipper.cpp:212
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Show Barcode…"
 msgstr "Hiện mã &vạch…"
 
-#: klipper.cpp:215
+#: klipper.cpp:220
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Next History Item"
 msgstr "Mục lịch sử sau"
 
-#: klipper.cpp:219
+#: klipper.cpp:224
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Previous History Item"
 msgstr "Mục lịch sử trước"
 
-#: klipper.cpp:225
+#: klipper.cpp:230
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Klipper at Mouse Position"
 msgstr "Mở Klipper tại vị trí con trỏ chuột"
 
-#: klipper.cpp:535
+#: klipper.cpp:542
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -454,62 +572,62 @@ msgstr ""
 "Bạn có thể bật các hành động cho URL về sau ở trong trang <interface>Hành "
 "động</interface> của cửa sổ cấu hình tiểu ứng dụng bảng nháp"
 
-#: klipper.cpp:575
+#: klipper.cpp:582
 #, kde-format
 msgid "Should Klipper start automatically when you login?"
 msgstr "Klipper tự động chạy khi bạn đăng nhập?"
 
-#: klipper.cpp:576
+#: klipper.cpp:583
 #, kde-format
 msgid "Automatically Start Klipper?"
 msgstr "Tự động chạy Klipper?"
 
-#: klipper.cpp:577
+#: klipper.cpp:584
 #, kde-format
 msgid "Start"
 msgstr "Chạy"
 
-#: klipper.cpp:578
+#: klipper.cpp:585
 #, kde-format
 msgid "Do Not Start"
 msgstr "Không chạy"
 
-#: klipper.cpp:925
+#: klipper.cpp:932
 #, kde-format
 msgid "Edit Contents"
 msgstr "Sửa nội dung"
 
-#: klipper.cpp:992
+#: klipper.cpp:999
 #, kde-format
 msgid "Mobile Barcode"
 msgstr "Mã vạch điện thoại"
 
-#: klipper.cpp:1039
+#: klipper.cpp:1046
 #, kde-format
 msgid "Really delete entire clipboard history?"
 msgstr "Thực sự xoá toàn bộ lịch sử bảng nháp?"
 
-#: klipper.cpp:1040
+#: klipper.cpp:1047
 #, kde-format
 msgid "Delete clipboard history?"
 msgstr "Xoá lịch sử bảng nháp?"
 
-#: klipper.cpp:1056 klipper.cpp:1065
+#: klipper.cpp:1063 klipper.cpp:1072
 #, kde-format
 msgid "Clipboard history"
 msgstr "Lịch sử bảng nháp"
 
-#: klipper.cpp:1082
+#: klipper.cpp:1089
 #, kde-format
 msgid "up"
 msgstr "lên"
 
-#: klipper.cpp:1089
+#: klipper.cpp:1096
 #, kde-format
 msgid "current"
 msgstr "hiện tại"
 
-#: klipper.cpp:1096
+#: klipper.cpp:1103
 #, kde-format
 msgid "down"
 msgstr "xuống"
@@ -673,13 +791,13 @@ msgstr ""
 "Mục nộm để biểu thị các thay đổi trong khiển tố dạng cây của một hành động"
 
 #. i18n: ectx: label, entry (StripWhiteSpace), group (Actions)
-#: klipper.kcfg:84
+#: klipper.kcfg:87
 #, kde-format
 msgid "Trim whitespace from selection"
 msgstr "Cắt bỏ khoảng trắng khỏi phần bôi đen"
 
 #. i18n: ectx: whatsthis, entry (StripWhiteSpace), group (Actions)
-#: klipper.kcfg:86
+#: klipper.kcfg:89
 #, kde-format
 msgid ""
 "Remove any whitespace from the start and end of selected text, before "
@@ -693,13 +811,13 @@ msgstr ""
 "hưởng."
 
 #. i18n: ectx: label, entry (ReplayActionInHistory), group (Actions)
-#: klipper.kcfg:89
+#: klipper.kcfg:92
 #, kde-format
 msgid "For an item chosen from history"
 msgstr "Với một mục được chọn trong lịch sử"
 
 #. i18n: ectx: tooltip, entry (ReplayActionInHistory), group (Actions)
-#: klipper.kcfg:91
+#: klipper.kcfg:94
 #, kde-format
 msgid ""
 "Show the popup menu of applicable actions if an entry is chosen from the "
@@ -709,13 +827,13 @@ msgstr ""
 "trong lịch sử bảng nháp."
 
 #. i18n: ectx: label, entry (EnableMagicMimeActions), group (Actions)
-#: klipper.kcfg:94
+#: klipper.kcfg:97
 #, kde-format
 msgid "Include MIME actions"
 msgstr "Dùng các hành động dựa trên MIME"
 
 #. i18n: ectx: whatsthis, entry (EnableMagicMimeActions), group (Actions)
-#: klipper.kcfg:96
+#: klipper.kcfg:99
 #, kde-format
 msgid ""
 "If a file name or URL is selected, include applications that can accept its "
@@ -856,6 +974,48 @@ msgstr "Tắt ô bật lên này"
 #, kde-format
 msgid "&Cancel"
 msgstr "H&uỷ"
+
+#~ msgid "Action list:"
+#~ msgstr "Danh sách hành động"
+
+#~ msgid "Regular Expression"
+#~ msgstr "Biểu thức chính quy"
+
+#~ msgid ""
+#~ "Click on a highlighted item's column to change it. \"%s\" in a command "
+#~ "will be replaced with the clipboard contents.<br>For more information "
+#~ "about regular expressions, you could have a look at the <a href=\"https://"
+#~ "en.wikipedia.org/wiki/Regular_expression\">Wikipedia entry about this "
+#~ "topic</a>."
+#~ msgstr ""
+#~ "Bấm vào cột của một mục được tô sáng để thay đổi nó. \"%s\" trong một "
+#~ "lệnh sẽ được thay thế bằng nội dung bảng nháp.<br>Để biết thêm về biểu "
+#~ "thức chính quy, bạn có thể xem <a href=\"https://en.wikipedia.org/wiki/"
+#~ "Regular_expression\">bài này trên Wikipedia</a>."
+
+#~ msgid "Output Handling"
+#~ msgstr "Xử lí đầu ra"
+
+#~ msgid "new command"
+#~ msgstr "lệnh mới"
+
+#~ msgid "Command Description"
+#~ msgstr "Mô tả lệnh"
+
+#~ msgid "Action properties:"
+#~ msgstr "Các thuộc tính của hành động:"
+
+#~ msgid "Regular expression:"
+#~ msgstr "Biểu thức chính quy:"
+
+#~ msgid "Automatic:"
+#~ msgstr "Tự động:"
+
+#~ msgid "List of commands for this action:"
+#~ msgstr "Danh sách lệnh cho hành động này:"
+
+#~ msgid "Double-click an item to edit"
+#~ msgstr "Bấm đúp vào một mục để sửa"
 
 #~ msgid "Remove whitespace when executing actions"
 #~ msgstr "Xoá bỏ khoảng trắng khi thực hiện hành động"

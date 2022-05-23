@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kscreenlocker\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-08 00:45+0000\n"
+"POT-Creation-Date: 2022-05-17 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -31,15 +31,15 @@ msgstr ""
 #, kde-format
 msgid ""
 "The screen locker is broken and unlocking is not possible anymore.\n"
-"In order to unlock it either ConsoleKit or LoginD is needed, none of\n"
-"which could be found on your system."
+"In order to unlock it either ConsoleKit or LoginD is needed, neither\n"
+"of which could be found on your system."
 msgstr ""
 
 #: abstractlocker.cpp:57
 #, kde-format
 msgid ""
 "The screen locker is broken and unlocking is not possible anymore.\n"
-"In order to unlock switch to a virtual terminal (e.g. Ctrl+Alt+F2),\n"
+"In order to unlock switch to a virtual terminal (e.g. Ctrl+Alt+F%1),\n"
 "log in as root and execute the command:\n"
 "\n"
 "# ck-unlock-session <session-name>\n"
@@ -50,36 +50,36 @@ msgstr ""
 #, kde-format
 msgid ""
 "The screen locker is broken and unlocking is not possible anymore.\n"
-"In order to unlock switch to a virtual terminal (e.g. Ctrl+Alt+F2),\n"
+"In order to unlock switch to a virtual terminal (e.g. Ctrl+Alt+F%1),\n"
 "log in and execute the command:\n"
 "\n"
-"loginctl unlock-session %1\n"
+"loginctl unlock-session %2\n"
 "\n"
 "Then log out of the virtual session by pressing Ctrl+D, and switch\n"
-"back to the running session (Ctrl+Alt+F%2)."
+"back to the running session (Ctrl+Alt+F%3)."
 msgstr ""
 
-#: ksldapp.cpp:172
+#: ksldapp.cpp:177
 #, kde-format
 msgid "Lock Session"
 msgstr ""
 
-#: ksldapp.cpp:399
+#: ksldapp.cpp:404
 #, kde-format
 msgid "Screen locked"
 msgstr ""
 
-#: ksldapp.cpp:558
+#: ksldapp.cpp:563
 #, kde-format
 msgid "Screen unlocked"
 msgstr ""
 
-#: logind.cpp:168
+#: logind.cpp:175
 #, kde-format
 msgid "Screen Locker"
 msgstr ""
 
-#: logind.cpp:168
+#: logind.cpp:175
 #, kde-format
 msgid "Ensuring that the screen gets locked before going to sleep"
 msgstr ""

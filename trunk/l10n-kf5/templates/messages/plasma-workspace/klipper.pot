@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-18 00:47+0000\n"
+"POT-Creation-Date: 2022-05-20 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -18,58 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: actionsconfig.ui:17
-#, kde-format
-msgid "Action list:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
-#: actionsconfig.ui:28
-#, kde-format
-msgid "Regular Expression"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
-#: actionsconfig.ui:33 editactiondialog.cpp:211
-#, kde-format
-msgid "Description"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, pbAddAction)
-#: actionsconfig.ui:43
-#, kde-format
-msgid "Add Action..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, pbEditAction)
-#: actionsconfig.ui:50
-#, kde-format
-msgid "Edit Action..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, pbDelAction)
-#: actionsconfig.ui:57
-#, kde-format
-msgid "Delete Action"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: actionsconfig.ui:66
-#, no-c-format, kde-format
-msgid ""
-"Click on a highlighted item's column to change it. \"%s\" in a command will "
-"be replaced with the clipboard contents.<br>For more information about "
-"regular expressions, you could have a look at the <a href=\"https://en."
-"wikipedia.org/wiki/Regular_expression\">Wikipedia entry about this topic</a>."
-msgstr ""
-
-#: configdialog.cpp:68
+#: configdialog.cpp:80
 #, kde-format
 msgid "Selection and Clipboard:"
 msgstr ""
 
-#: configdialog.cpp:75
+#: configdialog.cpp:87
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -85,12 +39,12 @@ msgid ""
 "options below), but it can only be pasted using the middle mouse button."
 msgstr ""
 
-#: configdialog.cpp:95
+#: configdialog.cpp:107
 #, kde-format
 msgid "Clipboard history:"
 msgstr ""
 
-#: configdialog.cpp:102
+#: configdialog.cpp:114
 #, kde-format
 msgctxt "Number of entries"
 msgid " entry"
@@ -98,49 +52,49 @@ msgid_plural " entries"
 msgstr[0] ""
 msgstr[1] ""
 
-#: configdialog.cpp:119 configdialog.cpp:154
+#: configdialog.cpp:131 configdialog.cpp:166
 #, kde-format
 msgid "Always save in history"
 msgstr ""
 
-#: configdialog.cpp:122
+#: configdialog.cpp:134
 #, kde-format
 msgid "Text selection:"
 msgstr ""
 
-#: configdialog.cpp:124 configdialog.cpp:159
+#: configdialog.cpp:136 configdialog.cpp:171
 #, kde-format
 msgid "Only when explicitly copied"
 msgstr ""
 
-#: configdialog.cpp:129
+#: configdialog.cpp:141
 #, kde-format
 msgid "Whether text selections are saved in the clipboard history."
 msgstr ""
 
-#: configdialog.cpp:157
+#: configdialog.cpp:169
 #, kde-format
 msgid "Non-text selection:"
 msgstr ""
 
-#: configdialog.cpp:164
+#: configdialog.cpp:176
 #, kde-format
 msgid "Never save in history"
 msgstr ""
 
-#: configdialog.cpp:169
+#: configdialog.cpp:181
 #, kde-format
 msgid ""
 "Whether non-text selections (such as images) are saved in the clipboard "
 "history."
 msgstr ""
 
-#: configdialog.cpp:235
+#: configdialog.cpp:247
 #, kde-format
 msgid "Show action popup menu:"
 msgstr ""
 
-#: configdialog.cpp:247
+#: configdialog.cpp:258
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -151,12 +105,12 @@ msgid ""
 "key shortcut."
 msgstr ""
 
-#: configdialog.cpp:254
+#: configdialog.cpp:267
 #, kde-format
 msgid "Exclude Windows..."
 msgstr ""
 
-#: configdialog.cpp:269
+#: configdialog.cpp:282
 #, kde-format
 msgctxt "Unit of time"
 msgid " second"
@@ -164,18 +118,18 @@ msgid_plural " seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: configdialog.cpp:270
+#: configdialog.cpp:283
 #, kde-format
 msgctxt "No timeout"
 msgid "None"
 msgstr ""
 
-#: configdialog.cpp:280
+#: configdialog.cpp:293
 #, kde-format
 msgid "Options:"
 msgstr ""
 
-#: configdialog.cpp:295
+#: configdialog.cpp:307
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -183,68 +137,125 @@ msgid ""
 "<interface>Actions Configuration</interface> page."
 msgstr ""
 
-#: configdialog.cpp:323
+#: configdialog.cpp:335
 #, kde-format
 msgid "Exclude Windows"
 msgstr ""
 
-#: configdialog.cpp:548
+#: configdialog.cpp:376
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"When a <interface>match pattern</interface> matches the clipboard contents, "
+"its <interface>commands</interface> appear in the Klipper popup menu and can "
+"be executed."
+msgstr ""
+
+#: configdialog.cpp:385
+#, kde-format
+msgctxt "@title:column"
+msgid "Match pattern and commands"
+msgstr ""
+
+#: configdialog.cpp:385
+#, kde-format
+msgctxt "@title:column"
+msgid "Description"
+msgstr ""
+
+#: configdialog.cpp:391
+#, kde-format
+msgid "Add Action..."
+msgstr ""
+
+#: configdialog.cpp:395
+#, kde-format
+msgid "Edit Action..."
+msgstr ""
+
+#: configdialog.cpp:400
+#, kde-format
+msgid "Delete Action"
+msgstr ""
+
+#: configdialog.cpp:407
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"These actions appear in the popup menu which can be configured on the "
+"<interface>Action Menu</interface> page."
+msgstr ""
+
+#: configdialog.cpp:589
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Delete the selected action <resource>%1</resource><nl/>and all of its "
+"commands?"
+msgstr ""
+
+#: configdialog.cpp:590
+#, kde-format
+msgid "Confirm Delete Action"
+msgstr ""
+
+#: configdialog.cpp:613
 #, kde-format
 msgctxt "General Config"
 msgid "General"
 msgstr ""
 
-#: configdialog.cpp:548
+#: configdialog.cpp:613
 #, kde-format
 msgid "General Configuration"
 msgstr ""
 
-#: configdialog.cpp:549
+#: configdialog.cpp:614
 #, kde-format
 msgctxt "Popup Menu Config"
 msgid "Action Menu"
 msgstr ""
 
-#: configdialog.cpp:549
+#: configdialog.cpp:614
 #, kde-format
 msgid "Action Menu"
 msgstr ""
 
-#: configdialog.cpp:550
+#: configdialog.cpp:615
 #, kde-format
 msgctxt "Actions Config"
 msgid "Actions Configuration"
 msgstr ""
 
-#: configdialog.cpp:550
+#: configdialog.cpp:615
 #, kde-format
 msgid "Actions Configuration"
 msgstr ""
 
-#: configdialog.cpp:553
+#: configdialog.cpp:618
 #, kde-format
 msgctxt "Shortcuts Config"
 msgid "Shortcuts"
 msgstr ""
 
-#: configdialog.cpp:553
+#: configdialog.cpp:618
 #, kde-format
 msgid "Shortcuts Configuration"
 msgstr ""
 
-#: configdialog.cpp:622
+#: configdialog.cpp:687
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"The action popup menu will not be shown automatically for these windows, "
-"even if it is enabled. This is because, for example, a web browser may "
-"highlight a URL in the address bar while typing, so the menu would show for "
-"every keystroke.<nl/><nl/>If the action menu appears unexpectedly when using "
-"a particular application, then add it to this list. <link>How to find the "
-"name to enter</link>."
+"The action popup will not be shown automatically for these windows, even if "
+"it is enabled. This is because, for example, a web browser may highlight a "
+"URL in the address bar while typing, so the menu would show for every "
+"keystroke.<nl/><nl/>If the action menu appears unexpectedly when using a "
+"particular application, then add it to this list. <link>How to find the name "
+"to enter</link>."
 msgstr ""
 
-#: configdialog.cpp:635
+#: configdialog.cpp:700
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -255,92 +266,180 @@ msgid ""
 "name that it displays after the equal sign is the one that you need to enter."
 msgstr ""
 
-#: editactiondialog.cpp:27
+#: editactiondialog.cpp:34 editcommanddialog.cpp:90
 #, kde-format
 msgid "Ignore"
 msgstr ""
 
-#: editactiondialog.cpp:29
+#: editactiondialog.cpp:36
 #, kde-format
 msgid "Replace Clipboard"
 msgstr ""
 
-#: editactiondialog.cpp:31
+#: editactiondialog.cpp:38
 #, kde-format
 msgid "Add to Clipboard"
 msgstr ""
 
-#: editactiondialog.cpp:207
+#: editactiondialog.cpp:122
 #, kde-format
 msgid "Command"
 msgstr ""
 
-#: editactiondialog.cpp:209
+#: editactiondialog.cpp:124
 #, kde-format
-msgid "Output Handling"
+msgid "Output"
 msgstr ""
 
-#: editactiondialog.cpp:251
+#: editactiondialog.cpp:126
+#, kde-format
+msgid "Description"
+msgstr ""
+
+#: editactiondialog.cpp:179
 #, kde-format
 msgid "Action Properties"
 msgstr ""
 
-#: editactiondialog.cpp:356
-#, kde-format
-msgid "new command"
+#: editactiondialog.cpp:191
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"An action takes effect when its <interface>match pattern</interface> matches "
+"the clipboard contents. When this happens, the action's <interface>commands</"
+"interface> appear in the Klipper popup menu; if one of them is chosen, the "
+"command is executed."
 msgstr ""
 
-#: editactiondialog.cpp:356
+#: editactiondialog.cpp:203
 #, kde-format
-msgid "Command Description"
+msgid "Enter a pattern to match against the clipboard"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: editactiondialog.ui:20
+#: editactiondialog.cpp:205
 #, kde-format
-msgid "Action properties:"
+msgid "Match pattern:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: editactiondialog.ui:42
-#, kde-format
-msgid "Regular expression:"
+#: editactiondialog.cpp:208
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The match pattern is a regular expression. For more information see the "
+"<link url=\"https://en.wikipedia.org/wiki/Regular_expression\">Wikipedia "
+"entry</link> for this topic."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: editactiondialog.ui:52
+#: editactiondialog.cpp:219
+#, kde-format
+msgid "Enter a description for the action"
+msgstr ""
+
+#: editactiondialog.cpp:220 editcommanddialog.cpp:84
 #, kde-format
 msgid "Description:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: editactiondialog.ui:62
+#: editactiondialog.cpp:223
 #, kde-format
-msgid "Automatic:"
+msgid "Include in automatic popup"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: editactiondialog.ui:87
-#, kde-format
-msgid "List of commands for this action:"
+#: editactiondialog.cpp:227
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"The commands for this match will be included in the automatic action popup, "
+"if it is enabled in the <interface>Action Menu</interface> page. If this "
+"option is turned off, the commands for this match will not be included in "
+"the automatic popup but they will be included if the popup is activated "
+"manually with the <shortcut>%1</shortcut> key shortcut."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, pbAddCommand)
-#: editactiondialog.ui:144
+#: editactiondialog.cpp:262
 #, kde-format
-msgid "Add Command"
+msgid "Add Command..."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, pbRemoveCommand)
-#: editactiondialog.ui:151
+#: editactiondialog.cpp:267
 #, kde-format
-msgid "Remove Command"
+msgid "Edit Command..."
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QTableView, twCommandList)
-#: editactiondialog.ui:176
+#: editactiondialog.cpp:273
 #, kde-format
-msgid "Double-click an item to edit"
+msgid "Delete Command"
+msgstr ""
+
+#: editactiondialog.cpp:389
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Delete the selected command <resource>%1</resource>?"
+msgstr ""
+
+#: editactiondialog.cpp:390
+#, kde-format
+msgid "Confirm Delete Command"
+msgstr ""
+
+#: editcommanddialog.cpp:47
+#, kde-format
+msgid "Command Properties"
+msgstr ""
+
+#: editcommanddialog.cpp:60
+#, kde-format
+msgid "Enter the command and arguments"
+msgstr ""
+
+#: editcommanddialog.cpp:63
+#, kde-format
+msgid "Command:"
+msgstr ""
+
+#: editcommanddialog.cpp:72
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"A <placeholder>&#37;s</placeholder> in the command will be replaced by the "
+"complete clipboard contents. <placeholder>&#37;0</placeholder> through "
+"<placeholder>&#37;9</placeholder> will be replaced by the corresponding "
+"captured texts from the match pattern."
+msgstr ""
+
+#: editcommanddialog.cpp:82
+#, kde-format
+msgid "Enter a description for the command"
+msgstr ""
+
+#: editcommanddialog.cpp:92
+#, kde-format
+msgid "Output from command:"
+msgstr ""
+
+#: editcommanddialog.cpp:94
+#, kde-format
+msgid "Replace current clipboard"
+msgstr ""
+
+#: editcommanddialog.cpp:98
+#, kde-format
+msgid "Append to clipboard"
+msgstr ""
+
+#: editcommanddialog.cpp:102
+#, kde-format
+msgid "What happens to the standard output of the command executed."
+msgstr ""
+
+#: editcommanddialog.cpp:116
+#, kde-format
+msgid "Reset the icon to the default for the command"
+msgstr ""
+
+#: editcommanddialog.cpp:122
+#, kde-format
+msgid "Icon:"
 msgstr ""
 
 #: historyimageitem.cpp:39
@@ -348,67 +447,67 @@ msgstr ""
 msgid "%1x%2 %3bpp"
 msgstr ""
 
-#: klipper.cpp:151
+#: klipper.cpp:156
 #, kde-format
 msgctxt "@action:inmenu Toggle automatic action"
 msgid "Automatic Action Popup Menu"
 msgstr ""
 
-#: klipper.cpp:174
+#: klipper.cpp:179
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "C&lear Clipboard History"
 msgstr ""
 
-#: klipper.cpp:181
+#: klipper.cpp:186
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Configure Klipper…"
 msgstr ""
 
-#: klipper.cpp:187
+#: klipper.cpp:192
 #, kde-format
 msgctxt "@action:inmenu Quit Klipper"
 msgid "&Quit"
 msgstr ""
 
-#: klipper.cpp:192
+#: klipper.cpp:197
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Manually Invoke Action on Current Clipboard"
 msgstr ""
 
-#: klipper.cpp:199
+#: klipper.cpp:204
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Edit Contents…"
 msgstr ""
 
-#: klipper.cpp:207
+#: klipper.cpp:212
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Show Barcode…"
 msgstr ""
 
-#: klipper.cpp:215
+#: klipper.cpp:220
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Next History Item"
 msgstr ""
 
-#: klipper.cpp:219
+#: klipper.cpp:224
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Previous History Item"
 msgstr ""
 
-#: klipper.cpp:225
+#: klipper.cpp:230
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Klipper at Mouse Position"
 msgstr ""
 
-#: klipper.cpp:535
+#: klipper.cpp:542
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -416,62 +515,62 @@ msgid ""
 "of the Clipboard applet's configuration window"
 msgstr ""
 
-#: klipper.cpp:575
+#: klipper.cpp:582
 #, kde-format
 msgid "Should Klipper start automatically when you login?"
 msgstr ""
 
-#: klipper.cpp:576
+#: klipper.cpp:583
 #, kde-format
 msgid "Automatically Start Klipper?"
 msgstr ""
 
-#: klipper.cpp:577
+#: klipper.cpp:584
 #, kde-format
 msgid "Start"
 msgstr ""
 
-#: klipper.cpp:578
+#: klipper.cpp:585
 #, kde-format
 msgid "Do Not Start"
 msgstr ""
 
-#: klipper.cpp:925
+#: klipper.cpp:932
 #, kde-format
 msgid "Edit Contents"
 msgstr ""
 
-#: klipper.cpp:992
+#: klipper.cpp:999
 #, kde-format
 msgid "Mobile Barcode"
 msgstr ""
 
-#: klipper.cpp:1039
+#: klipper.cpp:1046
 #, kde-format
 msgid "Really delete entire clipboard history?"
 msgstr ""
 
-#: klipper.cpp:1040
+#: klipper.cpp:1047
 #, kde-format
 msgid "Delete clipboard history?"
 msgstr ""
 
-#: klipper.cpp:1056 klipper.cpp:1065
+#: klipper.cpp:1063 klipper.cpp:1072
 #, kde-format
 msgid "Clipboard history"
 msgstr ""
 
-#: klipper.cpp:1082
+#: klipper.cpp:1089
 #, kde-format
 msgid "up"
 msgstr ""
 
-#: klipper.cpp:1089
+#: klipper.cpp:1096
 #, kde-format
 msgid "current"
 msgstr ""
 
-#: klipper.cpp:1096
+#: klipper.cpp:1103
 #, kde-format
 msgid "down"
 msgstr ""
@@ -623,13 +722,13 @@ msgid "Dummy entry for indicating changes in an action's tree widget"
 msgstr ""
 
 #. i18n: ectx: label, entry (StripWhiteSpace), group (Actions)
-#: klipper.kcfg:84
+#: klipper.kcfg:87
 #, kde-format
 msgid "Trim whitespace from selection"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (StripWhiteSpace), group (Actions)
-#: klipper.kcfg:86
+#: klipper.kcfg:89
 #, kde-format
 msgid ""
 "Remove any whitespace from the start and end of selected text, before "
@@ -639,13 +738,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (ReplayActionInHistory), group (Actions)
-#: klipper.kcfg:89
+#: klipper.kcfg:92
 #, kde-format
 msgid "For an item chosen from history"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (ReplayActionInHistory), group (Actions)
-#: klipper.kcfg:91
+#: klipper.kcfg:94
 #, kde-format
 msgid ""
 "Show the popup menu of applicable actions if an entry is chosen from the "
@@ -653,13 +752,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (EnableMagicMimeActions), group (Actions)
-#: klipper.kcfg:94
+#: klipper.kcfg:97
 #, kde-format
 msgid "Include MIME actions"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (EnableMagicMimeActions), group (Actions)
-#: klipper.kcfg:96
+#: klipper.kcfg:99
 #, kde-format
 msgid ""
 "If a file name or URL is selected, include applications that can accept its "

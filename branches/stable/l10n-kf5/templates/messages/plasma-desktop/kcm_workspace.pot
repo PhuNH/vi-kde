@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-26 00:19+0000\n"
+"POT-Creation-Date: 2022-05-18 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -74,28 +74,28 @@ msgctxt "part of a sentence: 'Clicking files or folders opens them'"
 msgid "Opens them"
 msgstr ""
 
-#: package/contents/ui/main.qml:126
+#: package/contents/ui/main.qml:125
+#, kde-format
+msgid "Select by clicking on item's selection marker"
+msgstr ""
+
+#: package/contents/ui/main.qml:136
 #, kde-format
 msgctxt "part of a sentence: 'Clicking files or folders selects them'"
 msgid "Selects them"
 msgstr ""
 
-#: package/contents/ui/main.qml:141
-#, kde-format
-msgid "Select by clicking on item's selection marker"
-msgstr ""
-
-#: package/contents/ui/main.qml:141
+#: package/contents/ui/main.qml:149
 #, kde-format
 msgid "Open by double-clicking instead"
 msgstr ""
 
-#: package/contents/ui/main.qml:156
+#: package/contents/ui/main.qml:164
 #, kde-format
 msgid "Clicking in scrollbar track:"
 msgstr ""
 
-#: package/contents/ui/main.qml:157
+#: package/contents/ui/main.qml:165
 #, kde-format
 msgctxt ""
 "@radio part of a complete sentence: 'Clicking in scrollbar track scrolls one "
@@ -103,7 +103,12 @@ msgctxt ""
 msgid "Scrolls one page up or down"
 msgstr ""
 
-#: package/contents/ui/main.qml:170
+#: package/contents/ui/main.qml:177
+#, kde-format
+msgid "Middle-click to scroll to clicked location"
+msgstr ""
+
+#: package/contents/ui/main.qml:188
 #, kde-format
 msgctxt ""
 "@radio part of a complete sentence: 'Clicking in scrollbar track scrolls to "
@@ -111,22 +116,55 @@ msgctxt ""
 msgid "Scrolls to the clicked location"
 msgstr ""
 
-#: package/contents/ui/main.qml:189
+#: package/contents/ui/main.qml:207
 #, kde-format
-msgid "Middle-click to scroll to clicked location"
+msgid "Touch Mode:"
 msgstr ""
 
-#: workspaceoptions.cpp:31
+#: package/contents/ui/main.qml:209
+#, kde-format
+msgctxt "As in: 'Touch Mode is automatically enabled as needed'"
+msgid "Automatically enable as needed"
+msgstr ""
+
+#: package/contents/ui/main.qml:209 package/contents/ui/main.qml:238
+#, kde-format
+msgctxt "As in: 'Touch Mode is never enabled'"
+msgid "Never enabled"
+msgstr ""
+
+#: package/contents/ui/main.qml:221
+#, kde-format
+msgid ""
+"Touch Mode will be automatically activated whenever the system detects a "
+"touchscreen but no mouse or touchpad. For example: when a transformable "
+"laptop's keyboard is flipped around or detached."
+msgstr ""
+
+#: package/contents/ui/main.qml:226
+#, kde-format
+msgctxt "As in: 'Touch Mode is always enabled'"
+msgid "Always enabled"
+msgstr ""
+
+#: package/contents/ui/main.qml:251
+#, kde-format
+msgid ""
+"In Touch Mode, many elements of the user interface will become larger to "
+"more easily accommodate touch interaction."
+msgstr ""
+
+#: workspaceoptions.cpp:34
 #, kde-format
 msgid "General Behavior"
 msgstr ""
 
-#: workspaceoptions.cpp:33
+#: workspaceoptions.cpp:36
 #, kde-format
 msgid "System Settings module for configuring general workspace behavior."
 msgstr ""
 
-#: workspaceoptions.cpp:36
+#: workspaceoptions.cpp:39
 #, kde-format
 msgid "Furkan Tokac"
 msgstr ""
@@ -147,6 +185,12 @@ msgstr ""
 #: workspaceoptions_kdeglobalssettings.kcfg:17
 #, kde-format
 msgid "Left-click in scrollbar track moves scrollbar by one page"
+msgstr ""
+
+#. i18n: ectx: label, entry (tabletMode), group (Input)
+#: workspaceoptions_kwinsettings.kcfg:9
+#, kde-format
+msgid "Automatically switch to touch-optimized mode"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (osdEnabled), group (OSD)

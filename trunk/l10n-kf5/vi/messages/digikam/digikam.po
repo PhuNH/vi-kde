@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: digikam KDE4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-18 00:42+0000\n"
+"POT-Creation-Date: 2022-05-23 00:42+0000\n"
 "PO-Revision-Date: 2007-07-06 22:27+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -2484,14 +2484,14 @@ msgid "Main Tools"
 msgstr "Thanh công cụ chính"
 
 #: core/app/main/digikamapp_tools.cpp:47
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2611
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2612
 #, fuzzy, kde-format
 msgctxt "@title Post Processing Tools"
 msgid "Post-Processing"
 msgstr "Thuộc tính"
 
 #: core/app/main/digikamapp_tools.cpp:59
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2628
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2629
 #, fuzzy, kde-format
 #| msgid "Export"
 msgctxt "@title Export Tools"
@@ -2499,7 +2499,7 @@ msgid "Export"
 msgstr "Xuất"
 
 #: core/app/main/digikamapp_tools.cpp:66
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2635
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2636
 #, fuzzy, kde-format
 #| msgid "Import"
 msgctxt "@title Import Tools"
@@ -3364,7 +3364,6 @@ msgid ""
 msgstr ""
 
 #: core/app/views/stack/welcomepageview.cpp:221
-#: core/libs/video/qtav/widgets/utils/QtAVWidgets_Global.cpp:204
 #, fuzzy, kde-format
 msgid "About"
 msgstr "Giới thiệu"
@@ -15624,7 +15623,7 @@ msgstr "Lỗi tạo thư mục"
 #. i18n: ectx: property (title), widget (QGroupBox, previewGroupBox)
 #: core/dplugins/generic/tools/calendar/ui/caltemplate.ui:26
 #: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:77
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:55
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:56
 #, kde-format
 msgid "Preview"
 msgstr "Xem thử"
@@ -25242,7 +25241,7 @@ msgstr ""
 "« %1 »"
 
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:181
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:94
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:95
 #, kde-format
 msgid "Abort"
 msgstr "Huỷ bỏ"
@@ -34599,6 +34598,18 @@ msgctxt "info"
 msgid "Binary data %1 bytes"
 msgstr ""
 
+#: core/libs/metadataengine/exiftool/exiftoolprocess.cpp:366
+#, fuzzy, kde-format
+#| msgid "File does not exist"
+msgid "ExifTool does not exists or exec permission is missing"
+msgstr "Tệp không tồn tại"
+
+#: core/libs/metadataengine/exiftool/exiftoolprocess.cpp:380
+#, fuzzy, kde-format
+#| msgid "File does not exist"
+msgid "Perl does not exists or exec permission is missing"
+msgstr "Tệp không tồn tại"
+
 #: core/libs/metadataengine/focuspoint/focuspoint.cpp:128
 #, kde-format
 msgctxt "Focus point type description"
@@ -38992,206 +39003,159 @@ msgstr "Hiển thị trong vòng lặp"
 msgid "No codec could be found for: "
 msgstr "Tệp âm thanh"
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:459
+#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:469
 #: core/libs/video/qtav/src/codec/video/VideoDecoderD3D.cpp:391
 #, fuzzy, kde-format
 msgid "Decoding surfaces"
 msgstr "Xem thử đồng bộ"
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:460
+#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:470
 #, kde-format
 msgid "Decoder flags"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:462
+#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:472
 #, kde-format
 msgid "Performance: ZeroCopy > DirectCopy > GenericCopy"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:463
+#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:473
 #, kde-format
 msgid ""
 "ZeroCopy: no copy back from GPU to System memory. Directly render the "
 "decoded data on GPU"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:464
+#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:474
 #, kde-format
 msgid ""
 "DirectCopy: copy back to host memory but video frames and map to GL texture"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:465
+#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:475
 #, kde-format
 msgid "GenericCopy: copy back to host memory and each video frame"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:468
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:352
+#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:478
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:361
 #, fuzzy, kde-format
 msgid "ZeroCopy"
 msgstr "&Tệp"
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:469
+#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:479
 #, fuzzy, kde-format
 msgid "DirectCopy"
 msgstr "Tên tệp ảnh mới"
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:470
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:354
+#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:480
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:363
 #, fuzzy, kde-format
 msgid "GenericCopy"
 msgstr "Giống loài"
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:471
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:355
+#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:481
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:364
 #, fuzzy, kde-format
 #| msgid "Model"
 msgid "copyMode"
 msgstr "Mô hình"
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:863
+#: core/libs/video/qtav/src/codec/video/VideoDecoderCUDA.cpp:876
 #, fuzzy, kde-format
 msgid "Codec %1 is not supported by CUDA"
 msgstr "Định dạng tệp ảnh đích « %1 » không được hỗ trợ."
 
 #: core/libs/video/qtav/src/codec/video/VideoDecoderD3D.cpp:392
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:362
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:349
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:385
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:358
 #: core/libs/video/qtav/widgets/config/AVFormatConfigPage.cpp:66
 #, fuzzy, kde-format
 msgid "0: auto"
 msgstr "Điều chỉnh cấp..."
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:353
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:376
 #, kde-format
 msgid ""
 "Skipping the loop filter (aka deblocking) usually has determinal effect on "
 "quality. However it provides a big speedup for hi definition streams"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:357
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:380
 #, kde-format
 msgid ""
 "Force skipping of idct to speed up decoding for frame types (-1=None, "
 "0=Default, 1=B-frames, 2=P-frames, 3=B+P frames, 4=all frames)"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:359
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:382
 #, kde-format
 msgid "Force skipping frames for speed up decoding."
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:361
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:347
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:384
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:356
 #, kde-format
 msgid ""
 "Number of decoding threads. Set before open. Maybe no effect for some "
 "decoders"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:363
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:350
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:386
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:359
 #, kde-format
 msgid "1: single thread decoding"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:515
-#, fuzzy, kde-format
-#| msgid "Name"
-msgid "codecName"
-msgstr "Tên"
-
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:516
-#, kde-format
-msgid "skip_loop_filter"
-msgstr ""
-
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:517
-#, kde-format
-msgid "skip_idct"
-msgstr ""
-
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:518
-#, fuzzy, kde-format
-#| msgid "Restoration"
-msgid "strict"
-msgstr "Phục hồi lại"
-
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:519
-#, kde-format
-msgid "skip_frame"
-msgstr ""
-
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:520
-#, kde-format
-msgid "threads"
-msgstr ""
-
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:521
-#, fuzzy, kde-format
-msgid "thread_type"
-msgstr "Tệp ảnh"
-
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:522
-#, kde-format
-msgid "vismv"
-msgstr ""
-
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpeg.cpp:523
-#, kde-format
-msgid "bug"
-msgstr ""
-
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:340
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:349
 #, kde-format
 msgid ""
 "ZeroCopy: fastest. Direct rendering without data copy between CPU and GPU"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:341
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:342
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:350
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:351
 #, kde-format
 msgid "Not implemented for all codecs"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:343
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:352
 #, kde-format
 msgid "OptimizedCopy: copy from USWC memory optimized by SSE4.1"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:344
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:353
 #, kde-format
 msgid "GenericCopy: slowest. Generic cpu copy"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:348
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:357
 #, kde-format
 msgid "Multithread decoding may crash"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:353
+#: core/libs/video/qtav/src/codec/video/VideoDecoderFFmpegHW.cpp:362
 #, fuzzy, kde-format
 #| msgid "<b>Dimensions</b>:"
 msgid "OptimizedCopy"
 msgstr "<b>Các chiều</b>:"
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderVAAPI.cpp:374
+#: core/libs/video/qtav/src/codec/video/VideoDecoderVAAPI.cpp:390
 #, kde-format
 msgid "Decoding surfaces 0: auto"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderVAAPI.cpp:375
+#: core/libs/video/qtav/src/codec/video/VideoDecoderVAAPI.cpp:391
 #, kde-format
 msgid "Maybe faster"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderVAAPI.cpp:694
+#: core/libs/video/qtav/src/codec/video/VideoDecoderVAAPI.cpp:732
 #, kde-format
 msgid "VA API version %1.%2; Vendor: %3;"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:226
+#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:225
 #, kde-format
 msgid ""
 "Output pixel format from decoder. Performance (better first): NV12 ; UYVY ; "
@@ -39199,69 +39163,69 @@ msgid ""
 "YUV420p"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:231
+#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:230
 #, kde-format
 msgid "Interop with OpenGL"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:232
+#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:231
 #, kde-format
 msgid "CVPixelBuffer: macOS+iOS"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:233
+#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:232
 #, kde-format
 msgid "CVOpenGLES: iOS, no copy, fast"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:234
+#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:233
 #, kde-format
 msgid "IOSurface: macOS, no copy, fast"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:235
+#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:234
 #, kde-format
 msgid "Auto: choose the fastest"
 msgstr ""
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:237
+#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:236
 #, fuzzy, kde-format
 #| msgid "Start Index:"
 msgid "interop"
 msgstr "Chỉ mục bắt đầu :"
 
-#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:238
+#: core/libs/video/qtav/src/codec/video/VideoDecoderVideoToolbox.cpp:237
 #, fuzzy, kde-format
 msgid "format"
 msgstr "Ngày ảnh"
 
-#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:667
-#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:706
+#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:672
+#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:712
 #, fuzzy, kde-format
 msgid "error reading stream data"
 msgstr "Siêu dữ liệu"
 
-#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:932
+#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:939
 #, fuzzy, kde-format
 msgid "seek error"
 msgstr "Xuất"
 
-#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:1245
+#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:1255
 #, fuzzy, kde-format
 msgid "failed to open media"
 msgstr "Lỗi nạp ảnh « %1 »"
 
-#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:1271
+#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:1281
 #, fuzzy, kde-format
 msgid "failed to find stream info"
 msgstr "Lỗi nạp ảnh « %1 »"
 
-#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:1776
+#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:1789
 #, kde-format
 msgid "interrupted by user"
 msgstr ""
 
-#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:1787
+#: core/libs/video/qtav/src/ffmpeg/AVDemuxer.cpp:1800
 #, fuzzy, kde-format
 msgid "timeout"
 msgstr "Mở bằng Konqueror"
@@ -39362,28 +39326,23 @@ msgstr "Xuất"
 msgid "Access denied"
 msgstr "Điều chỉnh cấp"
 
-#: core/libs/video/qtav/src/filter/LibAVFilter.cpp:343
+#: core/libs/video/qtav/src/filter/LibAVFilter.cpp:346
 #, fuzzy, kde-format
 msgid "Options:"
 msgstr "Tuy chọn giao diện"
 
-#: core/libs/video/qtav/src/output/audio/AudioOutputPulse.cpp:361
-#, kde-format
-msgid "PulseAudio %1, protocol: %2, server protocol: %3"
-msgstr ""
-
-#: core/libs/video/qtav/src/utils/QtAV_Global.cpp:225
+#: core/libs/video/qtav/src/utils/QtAV_Global.cpp:227
 #, fuzzy, kde-format
 #| msgid "Profile Version"
 msgid "Build version"
 msgstr "Phiên bản Hồ sơ"
 
-#: core/libs/video/qtav/src/utils/QtAV_Global.cpp:237
+#: core/libs/video/qtav/src/utils/QtAV_Global.cpp:239
 #, fuzzy, kde-format
 msgid "Runtime version"
 msgstr "Miền màu"
 
-#: core/libs/video/qtav/src/utils/QtAV_Global.cpp:259
+#: core/libs/video/qtav/src/utils/QtAV_Global.cpp:264
 #, kde-format
 msgid "Multimedia framework based on Qt and FFmpeg.\n"
 msgstr ""
@@ -39486,110 +39445,110 @@ msgstr "Chất lượng JPEG:"
 msgid "Capture"
 msgstr "Tự nhiên"
 
-#: core/libs/video/qtav/widgets/config/DecoderConfigPage.cpp:210
+#: core/libs/video/qtav/widgets/config/DecoderConfigPage.cpp:222
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Video decoder config page"
 msgstr "Tệp âm thanh"
 
-#: core/libs/video/qtav/widgets/config/DecoderConfigPage.cpp:222
+#: core/libs/video/qtav/widgets/config/DecoderConfigPage.cpp:234
 #, kde-format
 msgctxt "@label"
 msgid "Decoder Priorities (reopen is required)"
 msgstr ""
 
-#: core/libs/video/qtav/widgets/config/DecoderConfigPage.cpp:285
+#: core/libs/video/qtav/widgets/config/DecoderConfigPage.cpp:297
 #, kde-format
 msgctxt "@action: go up in the list"
 msgid "Up"
 msgstr ""
 
-#: core/libs/video/qtav/widgets/config/DecoderConfigPage.cpp:291
+#: core/libs/video/qtav/widgets/config/DecoderConfigPage.cpp:303
 #, fuzzy, kde-format
 msgctxt "@action: go down in the list"
 msgid "Down"
 msgstr "Tải về"
 
-#: core/libs/video/qtav/widgets/config/DecoderConfigPage.cpp:311
+#: core/libs/video/qtav/widgets/config/DecoderConfigPage.cpp:323
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Decoder"
 msgstr "Tệp âm thanh"
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:49
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:50
 #, fuzzy, kde-format
 msgid "Preview Over Time-Slider"
 msgstr "Tuy chọn giao diện"
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:55
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:56
 #, fuzzy, kde-format
 #| msgid "Resize"
 msgid "size"
 msgstr "Đổi cỡ"
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:71
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:72
 #, kde-format
 msgid "Force fps"
 msgstr ""
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:74
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:75
 #, fuzzy, kde-format
 msgid "Ignore"
 msgstr "Bộ trình bày:"
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:77
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:78
 #, fuzzy, kde-format
 msgid "Progress update interval"
 msgstr "Cái chỉ phơi nắng"
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:82
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:83
 #, fuzzy, kde-format
 #| msgctxt "NAME OF TRANSLATORS"
 #| msgid "Your names"
 msgid "Buffer frames"
 msgstr "Nhóm Việt hoá KDE"
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:88
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:89
 #, fuzzy, kde-format
 msgid "Timeout"
 msgstr "Mở bằng Konqueror"
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:88
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:89
 #, kde-format
 msgid "s"
 msgstr ""
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:100
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:101
 #, fuzzy, kde-format
 msgid "OpenGL type"
 msgstr "Xuất"
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:106
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:107
 #, kde-format
 msgid "Windows only"
 msgstr ""
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:107
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:108
 #, kde-format
 msgid "OpenGLES is Used by DXVA Zero Copy"
 msgstr ""
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:110
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:111
 #, kde-format
 msgid "D3D9 has performance if ZeroCopy is disabled or for software decoders"
 msgstr ""
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:111
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:112
 #, kde-format
 msgid "RESTART REQUIRED"
 msgstr ""
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:128
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:129
 #, kde-format
 msgid "Currently only works for Qt>=5.5 XCB build"
 msgstr ""
 
-#: core/libs/video/qtav/widgets/config/MiscPage.cpp:135
+#: core/libs/video/qtav/widgets/config/MiscPage.cpp:136
 #, kde-format
 msgid "Misc"
 msgstr ""
@@ -39675,15 +39634,16 @@ msgstr ""
 msgid "About Qt"
 msgstr "Giới thiệu"
 
-#: core/libs/video/qtav/widgets/utils/QtAVWidgets_Global.cpp:221
-#, kde-format
-msgid "About FFmpeg"
-msgstr ""
-
+#: core/libs/video/qtav/widgets/utils/QtAVWidgets_Global.cpp:204
 #: core/libs/video/qtav/widgets/utils/QtAVWidgets_Global.cpp:226
 #, fuzzy, kde-format
 msgid "About QtAV"
 msgstr "Giới thiệu"
+
+#: core/libs/video/qtav/widgets/utils/QtAVWidgets_Global.cpp:221
+#, kde-format
+msgid "About FFmpeg"
+msgstr ""
 
 #: core/libs/widgets/combo/dcombobox.cpp:70
 #: core/libs/widgets/range/dnuminput.cpp:80
@@ -50740,47 +50700,47 @@ msgstr ""
 "vào\n"
 "« %2 » ."
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1767
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1768
 #, fuzzy, kde-format
 #| msgid "Failed to list files in %1"
 msgctxt "@info"
 msgid "Could not open a temporary file in the folder \"%1\": %2 (%3)"
 msgstr "Lỗi liệt kê tệp nằm trong %1"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1817
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1818
 #, fuzzy, kde-format
 #| msgid "New Image File Name"
 msgctxt "@title"
 msgid "New Image File Name"
 msgstr "Tên tệp ảnh mới"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1963
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1964
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Unable to determine the format to save the target image with."
 msgstr "<p>Ở đây hãy đặt cách điều chỉnh lại độ tương phản của ảnh đích."
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:1970
+#: core/utilities/imageeditor/editor/editorwindow.cpp:1971
 #, kde-format
 msgctxt "@info"
 msgid "Cannot Save: Found file path \"%1\" is invalid."
 msgstr ""
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2217
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2218
 #, kde-format
 msgctxt "@info"
 msgid "Cannot save file \"%1\" to the suggested version file name \"%2\""
 msgstr ""
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2291
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2310
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2292
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2311
 #, fuzzy, kde-format
 #| msgid "Overwrite File?"
 msgctxt "@title"
 msgid "Overwrite File?"
 msgstr "Ghi đè tệp không?"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2292
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2293
 #, fuzzy, kde-format
 #| msgid ""
 #| "You do not have write permissions for the file named \"%1\". Are you sure "
@@ -50792,7 +50752,7 @@ msgid ""
 msgstr ""
 "Bạn không có quyền ghi tệp tên « %1 ». Bạn có chắc muốn ghi đè lên nó không?"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2311
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2312
 #, fuzzy, kde-format
 #| msgid ""
 #| "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
@@ -50801,33 +50761,33 @@ msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "Tệp tên « %1 » đã có. Bạn có chắc muốn ghi đè lên nó không?"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2337
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2338
 #, fuzzy, kde-format
 #| msgid "Error Saving File"
 msgctxt "@title"
 msgid "Error Saving File"
 msgstr "Gặp lỗi khi lưu tệp"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2338
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2339
 #, fuzzy, kde-format
 #| msgid "Failed to overwrite original file"
 msgctxt "@info"
 msgid "Failed to overwrite original file"
 msgstr "Lỗi ghi đè lên tệp gốc"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2417
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2418
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Color-Managed View is enabled."
 msgstr "Ô xem đả quản lí màu đã bật"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2421
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2422
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Color-Managed View is disabled."
 msgstr "Ô xem đả quản lí màu bị tắt"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2426
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2427
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
@@ -50836,79 +50796,79 @@ msgid ""
 msgstr ""
 "Chưa cấu hình khả năng Quản lí Màu, vì vậy không có sẵn Ô xem đã Quản lí Màu."
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2462
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2463
 #, fuzzy, kde-format
 #| msgid "Under-Exposure indicator is enabled"
 msgctxt "@info"
 msgid "Under-Exposure indicator is enabled"
 msgstr "Cái chỉ chụp non đã bật"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2463
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2464
 #, fuzzy, kde-format
 #| msgid "Under-Exposure indicator is disabled"
 msgctxt "@info"
 msgid "Under-Exposure indicator is disabled"
 msgstr "Cái chỉ chụp non bị tắt"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2477
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2478
 #, fuzzy, kde-format
 #| msgid "Over-Exposure indicator is enabled"
 msgctxt "@info"
 msgid "Over-Exposure indicator is enabled"
 msgstr "Cái chỉ phơi quá lâu đã bật"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2478
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2479
 #, fuzzy, kde-format
 #| msgid "Over-Exposure indicator is disabled"
 msgctxt "@info"
 msgid "Over-Exposure indicator is disabled"
 msgstr "Cái chỉ phơi quá lâu bị tắt"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2569
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2570
 #, fuzzy, kde-format
 msgctxt "@title Image Transform"
 msgid "Transform"
 msgstr "Chuyể&n dạng"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2583
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2584
 #, fuzzy, kde-format
 msgctxt "@title Image Decorate"
 msgid "Decorate"
 msgstr "T&rang trí"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2590
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2591
 #, fuzzy, kde-format
 msgctxt "@title Image Effect"
 msgid "Effects"
 msgstr "Hiệu ứng che mờ"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2597
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2598
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgctxt "@title Image Colors"
 msgid "Colors"
 msgstr "Màu sắc"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2604
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2605
 #, fuzzy, kde-format
 msgctxt "@title Image Enhance"
 msgid "Enhance"
 msgstr "&Tăng cường"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2767
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2768
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@action"
 msgid "Open With"
 msgstr "Mở bằng"
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2781
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2782
 #, fuzzy, kde-format
 msgctxt "@action: open with other application"
 msgid "Other..."
 msgstr "Kéo cắt..."
 
-#: core/utilities/imageeditor/editor/editorwindow.cpp:2790
+#: core/utilities/imageeditor/editor/editorwindow.cpp:2791
 #, fuzzy, kde-format
 msgctxt "@action: open with desktop application"
 msgid "Open With..."
@@ -53458,70 +53418,70 @@ msgstr "Tiến trình liệt kê các thư mục đã chạy xong."
 msgid "&Queues"
 msgstr "Quique"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:193
+#: core/utilities/queuemanager/manager/batchtool.cpp:192
 #, kde-format
 msgctxt "@title: tool group"
 msgid "Base"
 msgstr ""
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:196
+#: core/utilities/queuemanager/manager/batchtool.cpp:195
 #, fuzzy, kde-format
 msgctxt "@title: tool group"
 msgid "Custom"
 msgstr "Tự chọn"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:199
+#: core/utilities/queuemanager/manager/batchtool.cpp:198
 #, fuzzy, kde-format
 #| msgid "Colors"
 msgctxt "@title: tool group"
 msgid "Colors"
 msgstr "Màu sắc"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:202
+#: core/utilities/queuemanager/manager/batchtool.cpp:201
 #, fuzzy, kde-format
 msgctxt "@title: tool group"
 msgid "Enhance"
 msgstr "&Tăng cường"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:205
+#: core/utilities/queuemanager/manager/batchtool.cpp:204
 #, fuzzy, kde-format
 msgctxt "@title: tool group"
 msgid "Transform"
 msgstr "Chuyể&n dạng"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:208
+#: core/utilities/queuemanager/manager/batchtool.cpp:207
 #, fuzzy, kde-format
 msgctxt "@title: tool group"
 msgid "Decorate"
 msgstr "T&rang trí"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:211
+#: core/utilities/queuemanager/manager/batchtool.cpp:210
 #, fuzzy, kde-format
 msgctxt "@title: tool group"
 msgid "Filters"
 msgstr "Bộ &lọc"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:214
+#: core/utilities/queuemanager/manager/batchtool.cpp:213
 #, fuzzy, kde-format
 msgctxt "@title: tool group"
 msgid "Convert"
 msgstr "Chuyển đổi"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:217
+#: core/utilities/queuemanager/manager/batchtool.cpp:216
 #, fuzzy, kde-format
 #| msgid "Metadata"
 msgctxt "@title: tool group"
 msgid "Metadata"
 msgstr "Siêu dữ liệu"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:223
+#: core/utilities/queuemanager/manager/batchtool.cpp:222
 #, fuzzy, kde-format
 #| msgid "Invalid Profile"
 msgctxt "@title: tool group"
 msgid "Invalid"
 msgstr "Hồ sơ không hợp lệ"
 
-#: core/utilities/queuemanager/manager/batchtool.cpp:631
+#: core/utilities/queuemanager/manager/batchtool.cpp:629
 #, fuzzy, kde-format
 msgctxt "@label"
 msgid "No setting available"
@@ -57432,20 +57392,20 @@ msgctxt "@title:tab"
 msgid "Sidecars"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:144
+#: core/utilities/setup/setup.cpp:151
 #, fuzzy, kde-format
 #| msgid "Configure"
 msgctxt "@title"
 msgid "Configure"
 msgstr "Cấu hình"
 
-#: core/utilities/setup/setup.cpp:151
+#: core/utilities/setup/setup.cpp:158
 #, fuzzy, kde-format
 msgctxt "@title: settings section"
 msgid "Database"
 msgstr "Tạo thư mục ?"
 
-#: core/utilities/setup/setup.cpp:152
+#: core/utilities/setup/setup.cpp:159
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -57453,14 +57413,14 @@ msgid ""
 "Customize database settings"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:156
+#: core/utilities/setup/setup.cpp:163
 #, fuzzy, kde-format
 #| msgid "Collections"
 msgctxt "@title: settings section"
 msgid "Collections"
 msgstr "Tập hợp"
 
-#: core/utilities/setup/setup.cpp:157
+#: core/utilities/setup/setup.cpp:164
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -57468,13 +57428,13 @@ msgid ""
 "Set root albums locations"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:161
+#: core/utilities/setup/setup.cpp:168
 #, fuzzy, kde-format
 msgctxt "@title: settings section"
 msgid "Views"
 msgstr "&Xem"
 
-#: core/utilities/setup/setup.cpp:162
+#: core/utilities/setup/setup.cpp:169
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -57482,13 +57442,13 @@ msgid ""
 "Customize the look of the views"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:166
+#: core/utilities/setup/setup.cpp:173
 #, fuzzy, kde-format
 msgctxt "@title: settings section"
 msgid "Tool-Tip"
 msgstr "Mẹo công cụ"
 
-#: core/utilities/setup/setup.cpp:167
+#: core/utilities/setup/setup.cpp:174
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -57496,13 +57456,13 @@ msgid ""
 "Customize information in item tool-tips"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:171
+#: core/utilities/setup/setup.cpp:179
 #, fuzzy, kde-format
 msgctxt "@title: settings section"
 msgid "Video"
 msgstr "&Xem"
 
-#: core/utilities/setup/setup.cpp:172
+#: core/utilities/setup/setup.cpp:180
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -57510,14 +57470,14 @@ msgid ""
 "Customize settings to play video media"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:176
+#: core/utilities/setup/setup.cpp:185
 #, fuzzy, kde-format
 #| msgid "Metadata"
 msgctxt "@title: settings section"
 msgid "Metadata"
 msgstr "Siêu dữ liệu"
 
-#: core/utilities/setup/setup.cpp:177
+#: core/utilities/setup/setup.cpp:186
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -57525,13 +57485,13 @@ msgid ""
 "Setup relations between images and metadata"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:181
+#: core/utilities/setup/setup.cpp:190
 #, fuzzy, kde-format
 msgctxt "@title: settings section"
 msgid "Templates"
 msgstr "Tương đối"
 
-#: core/utilities/setup/setup.cpp:182
+#: core/utilities/setup/setup.cpp:191
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -57539,14 +57499,14 @@ msgid ""
 "Manage your collection of metadata templates"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:186
+#: core/utilities/setup/setup.cpp:195
 #, fuzzy, kde-format
 #| msgid "Image Editor"
 msgctxt "@title: settings section"
 msgid "Image Editor"
 msgstr "Bộ sửa ảnh"
 
-#: core/utilities/setup/setup.cpp:187
+#: core/utilities/setup/setup.cpp:196
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -57554,14 +57514,14 @@ msgid ""
 "Customize the image editor settings"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:191
+#: core/utilities/setup/setup.cpp:200
 #, fuzzy, kde-format
 #| msgid "Color Management"
 msgctxt "@title: settings section"
 msgid "Color Management"
 msgstr "Quản lí màu"
 
-#: core/utilities/setup/setup.cpp:192
+#: core/utilities/setup/setup.cpp:201
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -57569,14 +57529,14 @@ msgid ""
 "Customize the color management settings"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:196
+#: core/utilities/setup/setup.cpp:205
 #, fuzzy, kde-format
 #| msgid "Light Table"
 msgctxt "@title: settings section"
 msgid "Light Table"
 msgstr "Bảng ánh sáng"
 
-#: core/utilities/setup/setup.cpp:197
+#: core/utilities/setup/setup.cpp:206
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -57584,13 +57544,13 @@ msgid ""
 "Customize tool used to compare images"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:201
+#: core/utilities/setup/setup.cpp:210
 #, fuzzy, kde-format
 msgctxt "@title: settings section"
 msgid "Image Quality Sorter"
 msgstr "Bộ sửa ảnh"
 
-#: core/utilities/setup/setup.cpp:202
+#: core/utilities/setup/setup.cpp:211
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -57598,14 +57558,14 @@ msgid ""
 "Customize settings to perform image triaging by quality"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:206
+#: core/utilities/setup/setup.cpp:215
 #, fuzzy, kde-format
 #| msgid "Cameras"
 msgctxt "@title: settings section"
 msgid "Cameras"
 msgstr "Máy ảnh"
 
-#: core/utilities/setup/setup.cpp:207
+#: core/utilities/setup/setup.cpp:216
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -57613,13 +57573,13 @@ msgid ""
 "Manage your camera devices"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:214
+#: core/utilities/setup/setup.cpp:223
 #, fuzzy, kde-format
 msgctxt "@title: settings section"
 msgid "Plugins"
 msgstr "Phần bổ sung Kipi"
 
-#: core/utilities/setup/setup.cpp:215
+#: core/utilities/setup/setup.cpp:224
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -57627,14 +57587,14 @@ msgid ""
 "Set which plugins will be accessible from application"
 msgstr ""
 
-#: core/utilities/setup/setup.cpp:219
+#: core/utilities/setup/setup.cpp:228
 #, fuzzy, kde-format
 #| msgid "Miscellaneous"
 msgctxt "@title: settings section"
 msgid "Miscellaneous"
 msgstr "Lặt vặt"
 
-#: core/utilities/setup/setup.cpp:220
+#: core/utilities/setup/setup.cpp:229
 #, kde-format
 msgctxt "@title"
 msgid ""
@@ -58782,6 +58742,20 @@ msgid ""
 "<b>Note: All changes to these settings only take effect after the restart. "
 "Some settings are hardware dependent and may have no effect.</b>"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "codecName"
+#~ msgstr "Tên"
+
+#, fuzzy
+#~| msgid "Restoration"
+#~ msgid "strict"
+#~ msgstr "Phục hồi lại"
+
+#, fuzzy
+#~ msgid "thread_type"
+#~ msgstr "Tệp ảnh"
 
 #, fuzzy
 #~ msgctxt "@title"
