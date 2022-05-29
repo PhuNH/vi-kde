@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: audiotube\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-24 00:46+0000\n"
+"POT-Creation-Date: 2022-05-26 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -32,14 +32,20 @@ msgstr ""
 msgid "Play"
 msgstr ""
 
-#: contents/ui/AlbumPage.qml:61 contents/ui/ArtistPage.qml:101
-#: contents/ui/PlaylistPage.qml:67
+#: contents/ui/AlbumPage.qml:26 contents/ui/PlaylistPage.qml:26
+#, kde-format
+msgid "Shuffle"
+msgstr ""
+
+#: contents/ui/AlbumPage.qml:68 contents/ui/ArtistPage.qml:101
+#: contents/ui/PlaybackHistory.qml:73 contents/ui/PlaylistPage.qml:67
 #, kde-format
 msgid "Play Next"
 msgstr ""
 
-#: contents/ui/AlbumPage.qml:66 contents/ui/ArtistPage.qml:107
-#: contents/ui/PlaylistPage.qml:72 contents/ui/SearchPage.qml:123
+#: contents/ui/AlbumPage.qml:73 contents/ui/ArtistPage.qml:107
+#: contents/ui/PlaybackHistory.qml:78 contents/ui/PlaylistPage.qml:72
+#: contents/ui/SearchPage.qml:123
 #, kde-format
 msgid "Add to Playlist"
 msgstr ""
@@ -81,17 +87,42 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: contents/ui/LibraryPage.qml:15
+#: contents/ui/LibraryPage.qml:27
 #, kde-format
 msgid "Favourites"
 msgstr ""
 
-#: contents/ui/LibraryPage.qml:67
+#: contents/ui/LibraryPage.qml:37 contents/ui/LibraryPage.qml:108
+#, kde-format
+msgid "Show All"
+msgstr ""
+
+#: contents/ui/LibraryPage.qml:42
+#, kde-format
+msgid "Favourite Songs"
+msgstr ""
+
+#: contents/ui/LibraryPage.qml:98
 #, kde-format
 msgid "Most played"
 msgstr ""
 
-#: contents/ui/main.qml:93
+#: contents/ui/LibraryPage.qml:113
+#, kde-format
+msgid "Played Songs"
+msgstr ""
+
+#: contents/ui/main.qml:39
+#, kde-format
+msgid "Back"
+msgstr ""
+
+#: contents/ui/main.qml:73 contents/ui/SearchPage.qml:150
+#, kde-format
+msgid "Search"
+msgstr ""
+
+#: contents/ui/main.qml:85
 #, kde-format
 msgid "AudioTube"
 msgstr ""
@@ -112,14 +143,19 @@ msgid "Remove Track"
 msgstr ""
 
 #: contents/ui/MaximizedPlayerPage.qml:244
-#: contents/ui/MinimizedPlayerControls.qml:86
+#: contents/ui/MinimizedPlayerControls.qml:96
 #, kde-format
 msgid "No media playing"
 msgstr ""
 
-#: contents/ui/PlaylistPage.qml:26
+#: contents/ui/PlaybackHistory.qml:15
 #, kde-format
-msgid "Shuffle"
+msgid "Unknown list of songs"
+msgstr ""
+
+#: contents/ui/PlaybackHistory.qml:25
+#, kde-format
+msgid "No songs here yet"
 msgstr ""
 
 #: contents/ui/SearchPage.qml:27
@@ -150,9 +186,4 @@ msgstr ""
 #: contents/ui/SearchPage.qml:147
 #, kde-format
 msgid "Find music on YouTube Music"
-msgstr ""
-
-#: contents/ui/SearchPage.qml:150
-#, kde-format
-msgid "Search"
 msgstr ""
