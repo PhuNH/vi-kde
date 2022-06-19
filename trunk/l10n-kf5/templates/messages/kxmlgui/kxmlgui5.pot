@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-22 00:42+0000\n"
+"POT-Creation-Date: 2022-06-16 00:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -476,18 +476,22 @@ msgstr ""
 
 #: kbugreport.cpp:380
 #, kde-format
-msgctxt "The arg is the command kcmshell5"
-msgid "Could not find '%1' executable in PATH."
+msgctxt ""
+"The second arg is 'kde-cli-tools' which is the package that contains "
+"kcmshell5 (the first arg)"
+msgid ""
+"Could not find <application>%1</application> executable (usually it's part "
+"of the \"%2\" package)."
 msgstr ""
 
-#: kbugreport.cpp:430
+#: kbugreport.cpp:432
 #, kde-format
 msgid ""
 "You must specify both a subject and a description before the report can be "
 "sent."
 msgstr ""
 
-#: kbugreport.cpp:439
+#: kbugreport.cpp:441
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
@@ -499,7 +503,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:455
+#: kbugreport.cpp:457
 #, kde-format
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
@@ -511,7 +515,7 @@ msgid ""
 "not, please select a lower severity. Thank you.</p>"
 msgstr ""
 
-#: kbugreport.cpp:474
+#: kbugreport.cpp:476
 #, kde-format
 msgid ""
 "Unable to send the bug report.\n"
@@ -519,19 +523,19 @@ msgid ""
 "See https://bugs.kde.org/ for instructions."
 msgstr ""
 
-#: kbugreport.cpp:481
+#: kbugreport.cpp:483
 #, kde-format
 msgid "Bug report sent, thank you for your input."
 msgstr ""
 
-#: kbugreport.cpp:489
+#: kbugreport.cpp:491
 #, kde-format
 msgid ""
 "Close and discard\n"
 "edited message?"
 msgstr ""
 
-#: kbugreport.cpp:490
+#: kbugreport.cpp:492
 #, kde-format
 msgctxt "@title:window"
 msgid "Close Message"
@@ -1097,45 +1101,45 @@ msgstr ""
 msgid "Mouse Shape Gesture"
 msgstr ""
 
-#: kshortcutseditor.cpp:547
+#: kshortcutseditor.cpp:557
 #, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: kshortcutseditor.cpp:563 kshortcutwidget.ui:22
+#: kshortcutseditor.cpp:573 kshortcutwidget.ui:22
 #, kde-format
 msgid "Main:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: kshortcutseditor.cpp:564 kshortcutwidget.ui:52
+#: kshortcutseditor.cpp:574 kshortcutwidget.ui:52
 #, kde-format
 msgid "Alternate:"
 msgstr ""
 
-#: kshortcutseditor.cpp:565
+#: kshortcutseditor.cpp:575
 #, kde-format
 msgid "Global:"
 msgstr ""
 
-#: kshortcutseditor.cpp:566
+#: kshortcutseditor.cpp:576
 #, kde-format
 msgid "Global alternate:"
 msgstr ""
 
-#: kshortcutseditor.cpp:582
+#: kshortcutseditor.cpp:592
 #, kde-format
 msgid "Action Name"
 msgstr ""
 
-#: kshortcutseditor.cpp:586
+#: kshortcutseditor.cpp:596
 #, kde-format
 msgid "Shortcuts"
 msgstr ""
 
-#: kshortcutseditor.cpp:590
+#: kshortcutseditor.cpp:600
 #, kde-format
 msgid "Description"
 msgstr ""
@@ -1333,7 +1337,7 @@ msgstr ""
 msgid "Toolbars Shown"
 msgstr ""
 
-#: ktooltiphelper.cpp:195
+#: ktooltiphelper.cpp:196
 #, kde-format
 msgctxt ""
 "@info:tooltip %1 is the tooltip of an action, %2 is its keyboard shorcut"
@@ -1344,7 +1348,7 @@ msgstr ""
 #. about the thing the tooltip was invoked for. If there is no good way to translate
 #. the message, translating "Press Shift to learn more." would also mostly fit what
 #. is supposed to be expressed here.
-#: ktooltiphelper.cpp:259
+#: ktooltiphelper.cpp:260
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -1361,7 +1365,7 @@ msgstr ""
 #.
 #. %1 can be any tooltip. <br/> produces a linebreak. The other things between < and > are
 #. styling information. The word "more" refers to "information".
-#: ktooltiphelper.cpp:273
+#: ktooltiphelper.cpp:274
 #, kde-format
 msgctxt "@info:tooltip keep short"
 msgid ""

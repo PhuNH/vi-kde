@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kscreen\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-07 00:46+0000\n"
+"POT-Creation-Date: 2022-06-16 00:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -66,39 +66,44 @@ msgstr ""
 msgid "New global scale applied. Change will come into effect after restart."
 msgstr ""
 
-#: package/contents/ui/main.qml:83
+#: package/contents/ui/main.qml:74
 #, kde-format
-msgid "Display configuration reverted."
+msgid "Restart"
 msgstr ""
 
 #: package/contents/ui/main.qml:90
 #, kde-format
+msgid "Display configuration reverted."
+msgstr ""
+
+#: package/contents/ui/main.qml:97
+#, kde-format
 msgid "Keep display configuration?"
 msgstr ""
 
-#: package/contents/ui/main.qml:107
+#: package/contents/ui/main.qml:114
 #, kde-format
 msgid "Will revert to previous configuration in %1 second."
 msgid_plural "Will revert to previous configuration in %1 seconds."
 msgstr[0] ""
 msgstr[1] ""
 
-#: package/contents/ui/main.qml:126
+#: package/contents/ui/main.qml:133
 #, kde-format
 msgid "&Keep"
 msgstr ""
 
-#: package/contents/ui/main.qml:144
+#: package/contents/ui/main.qml:151
 #, kde-format
 msgid "&Revert"
 msgstr ""
 
-#: package/contents/ui/main.qml:171
+#: package/contents/ui/main.qml:178
 #, kde-format
 msgid "A new output has been added. Settings have been reloaded."
 msgstr ""
 
-#: package/contents/ui/main.qml:173
+#: package/contents/ui/main.qml:180
 #, kde-format
 msgid "An output has been removed. Settings have been reloaded."
 msgstr ""
@@ -250,24 +255,55 @@ msgstr ""
 msgid "Global scale:"
 msgstr ""
 
-#: package/contents/ui/Panel.qml:129
+#: package/contents/ui/Panel.qml:130
+#, kde-format
+msgid "Legacy Applications (X11):"
+msgstr ""
+
+#: package/contents/ui/Panel.qml:132
+#, kde-format
+msgctxt "The system will perform the x11 apps scaling"
+msgid "Scaled by the system"
+msgstr ""
+
+#: package/contents/ui/Panel.qml:141
+#, kde-format
+msgid ""
+"All legacy applications will be scaled by the system to the correct size, "
+"however they will always look slightly blurry."
+msgstr ""
+
+#: package/contents/ui/Panel.qml:155
+#, kde-format
+msgctxt "The apps themselves should scale to fit the displays"
+msgid "Apply scaling themselves"
+msgstr ""
+
+#: package/contents/ui/Panel.qml:164
+#, kde-format
+msgid ""
+"Legacy applications that support scaling will use it and look crisp, however "
+"those that don't will not be scaled at all."
+msgstr ""
+
+#: package/contents/ui/Panel.qml:180
 #, kde-format
 msgid ""
 "The global scale factor is limited to multiples of 6.25% to minimize visual "
 "glitches in applications using the X11 windowing system."
 msgstr ""
 
-#: package/contents/ui/Panel.qml:141
+#: package/contents/ui/Panel.qml:192
 #, kde-format
 msgid "Save displays' properties:"
 msgstr ""
 
-#: package/contents/ui/Panel.qml:147
+#: package/contents/ui/Panel.qml:198
 #, kde-format
 msgid "For any display arrangement"
 msgstr ""
 
-#: package/contents/ui/Panel.qml:154
+#: package/contents/ui/Panel.qml:205
 #, kde-format
 msgid "For only this specific display arrangement"
 msgstr ""

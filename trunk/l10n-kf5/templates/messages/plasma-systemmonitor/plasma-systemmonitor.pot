@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-systemmonitor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-14 00:46+0000\n"
+"POT-Creation-Date: 2022-06-15 00:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -276,25 +276,25 @@ msgid ""
 "your graphics drivers."
 msgstr ""
 
-#: src/page/ColumnControl.qml:109
+#: src/page/ColumnControl.qml:117
 #, kde-format
 msgctxt "@action"
 msgid "Add Section"
 msgstr ""
 
-#: src/page/ColumnControl.qml:113
+#: src/page/ColumnControl.qml:121
 #, kde-format
 msgctxt "@action"
 msgid "Add Separator"
 msgstr ""
 
-#: src/page/ColumnControl.qml:122
+#: src/page/ColumnControl.qml:130
 #, kde-format
 msgctxt "@action"
 msgid "Show Background"
 msgstr ""
 
-#: src/page/ColumnControl.qml:129
+#: src/page/ColumnControl.qml:137
 #, kde-format
 msgctxt "@action"
 msgid "Remove Background Margins"
@@ -342,7 +342,7 @@ msgctxt "@title:window %1 is page title"
 msgid "Configure Page \"%1\""
 msgstr ""
 
-#: src/page/EditablePage.qml:203
+#: src/page/EditablePage.qml:203 src/page/MissingSensorsDialog.qml:123
 #, kde-format
 msgctxt "@action:button"
 msgid "Save"
@@ -396,7 +396,7 @@ msgctxt "@info:status %1 is preset name"
 msgid "Saved settings as preset %1."
 msgstr ""
 
-#: src/page/FaceConfigurationPage.qml:58 src/page/PageContents.qml:234
+#: src/page/FaceConfigurationPage.qml:58 src/page/PageContents.qml:298
 #, kde-format
 msgctxt "@action"
 msgid "Add Chart as Desktop Widget"
@@ -472,17 +472,34 @@ msgctxt "@action:button"
 msgid "Load"
 msgstr ""
 
-#: src/page/LoadPresetDialog.qml:95 src/page/PageDialog.qml:176
-#: src/table/KillDialog.qml:102
+#: src/page/LoadPresetDialog.qml:95 src/page/MissingSensorsDialog.qml:128
+#: src/page/PageDialog.qml:176 src/table/KillDialog.qml:102
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel"
+msgstr ""
+
+#: src/page/MissingSensorsDialog.qml:35
+#, kde-format
+msgctxt "@title"
+msgid "Replace Missing Sensors"
 msgstr ""
 
 #: src/page/MoveButton.qml:23
 #, kde-format
 msgctxt "@action"
 msgid "Move"
+msgstr ""
+
+#: src/page/PageContents.qml:100 src/page/PageEditor.qml:131
+#, kde-format
+msgid "This page is missing some sensors and will not display correctly."
+msgstr ""
+
+#: src/page/PageContents.qml:104 src/page/PageEditor.qml:135
+#, kde-format
+msgctxt "@action:button"
+msgid "Fix…"
 msgstr ""
 
 #: src/page/PageDialog.qml:20
@@ -563,7 +580,7 @@ msgctxt "@item:inlistbox"
 msgid "During application startup"
 msgstr ""
 
-#: src/page/PageEditor.qml:137
+#: src/page/PageEditor.qml:181
 #, kde-format
 msgid "New Title"
 msgstr ""
@@ -627,49 +644,49 @@ msgstr ""
 msgid "Last Visited Page"
 msgstr ""
 
-#: src/page/RowControl.qml:120
+#: src/page/RowControl.qml:128
 #, kde-format
 msgctxt "@action"
 msgid "Add Column"
 msgstr ""
 
-#: src/page/RowControl.qml:129
+#: src/page/RowControl.qml:137
 #, kde-format
 msgctxt "@action"
 msgid "Height"
 msgstr ""
 
-#: src/page/RowControl.qml:133
+#: src/page/RowControl.qml:141
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Balanced"
 msgstr ""
 
-#: src/page/RowControl.qml:134
+#: src/page/RowControl.qml:142
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Try and use the same height across different rows."
 msgstr ""
 
-#: src/page/RowControl.qml:142
+#: src/page/RowControl.qml:150
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Minimum"
 msgstr ""
 
-#: src/page/RowControl.qml:143
+#: src/page/RowControl.qml:151
 #, kde-format
 msgctxt "@info:tooltop"
 msgid "Use the minimum amount of height needed to display contents correctly."
 msgstr ""
 
-#: src/page/RowControl.qml:151
+#: src/page/RowControl.qml:159
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Maximum"
 msgstr ""
 
-#: src/page/RowControl.qml:152
+#: src/page/RowControl.qml:160
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Try to use as much height as possible."
