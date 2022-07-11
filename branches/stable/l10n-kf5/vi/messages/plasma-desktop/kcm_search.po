@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-18 00:47+0000\n"
+"POT-Creation-Date: 2022-07-04 02:16+0000\n"
 "PO-Revision-Date: 2022-04-08 00:54+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -47,6 +47,11 @@ msgstr ""
 "Bật hoặc tắt các phần cài cắm (dùng trong KRunner, Trình khởi chạy ứng dụng, "
 "và hiệu ứng Tổng quan)"
 
+#: kcm.cpp:80
+#, kde-format
+msgid "Configure KRunner…"
+msgstr ""
+
 #: kcm.cpp:91
 #, kde-format
 msgid "Get New Plugins…"
@@ -56,95 +61,6 @@ msgstr "Lấy phần cài cắm mới…"
 #, kde-format
 msgid "Available Plugins"
 msgstr "Phần cài cắm khả dụng"
-
-#: package/contents/ui/main.qml:29
-#, kde-format
-msgid "Position on screen:"
-msgstr "Vị trí trên màn hình:"
-
-#: package/contents/ui/main.qml:33
-#, kde-format
-msgid "Top"
-msgstr "Trên"
-
-#: package/contents/ui/main.qml:40
-#, kde-format
-msgid "Center"
-msgstr "Giữa"
-
-#: package/contents/ui/main.qml:53
-#, kde-format
-msgid "Activation:"
-msgstr "Kích hoạt:"
-
-#: package/contents/ui/main.qml:56
-#, kde-format
-msgctxt "@option:check"
-msgid "Activate when pressing any key on the desktop"
-msgstr "Kích hoạt khi đang ở bàn làm việc và nhấn phím bất kì"
-
-#: package/contents/ui/main.qml:69
-#, kde-format
-msgid "History:"
-msgstr "Lịch sử:"
-
-#: package/contents/ui/main.qml:72
-#, kde-format
-msgctxt "@option:check"
-msgid "Remember past searches"
-msgstr "Nhớ các tìm kiếm"
-
-#: package/contents/ui/main.qml:83
-#, kde-format
-msgctxt "@option:check"
-msgid "Retain last search when re-opening"
-msgstr "Giữ lại tìm kiếm cuối cho lần mở tiếp theo"
-
-#: package/contents/ui/main.qml:94
-#, kde-format
-msgctxt "@option:check"
-msgid "Activity-aware (last search and history)"
-msgstr "Đi theo Hoạt động (tìm kiếm cuối và lịch sử)"
-
-#: package/contents/ui/main.qml:109
-#, kde-format
-msgid "Clear History"
-msgstr "Xoá lịch sử"
-
-#: package/contents/ui/main.qml:110
-#, kde-format
-msgctxt "@action:button %1 activity name"
-msgid "Clear History for Activity \"%1\""
-msgstr "Xoá lịch sử cho Hoạt động \"%1\""
-
-#: package/contents/ui/main.qml:111
-#, kde-format
-msgid "Clear History…"
-msgstr "Xoá lịch sử…"
-
-#: package/contents/ui/main.qml:140
-#, kde-format
-msgctxt "@item:inmenu delete krunner history for all activities"
-msgid "For all activities"
-msgstr "Cho tất cả các Hoạt động"
-
-#: package/contents/ui/main.qml:153
-#, kde-format
-msgctxt "@item:inmenu delete krunner history for this activity"
-msgid "For activity \"%1\""
-msgstr "Cho Hoạt động \"%1\""
-
-#: package/contents/ui/main.qml:170
-#, kde-format
-msgctxt "@label"
-msgid "Plugins:"
-msgstr "Phần cài cắm:"
-
-#: package/contents/ui/main.qml:174
-#, kde-format
-msgctxt "@action:button"
-msgid "Configure Enabled Search Plugins…"
-msgstr "Cấu hình các phần cài cắm tìm kiếm được bật…"
 
 #: plugininstaller/AbstractJob.cpp:18
 #, kde-kuit-format
@@ -349,6 +265,63 @@ msgstr "Không phân giải được tên gói của %1"
 msgctxt "@info"
 msgid "Failed to run install command: <message>%1</message>"
 msgstr "Chạy lệnh cài đặt thất bại: <message>%1</message>"
+
+#~ msgid "Position on screen:"
+#~ msgstr "Vị trí trên màn hình:"
+
+#~ msgid "Top"
+#~ msgstr "Trên"
+
+#~ msgid "Center"
+#~ msgstr "Giữa"
+
+#~ msgid "Activation:"
+#~ msgstr "Kích hoạt:"
+
+#~ msgctxt "@option:check"
+#~ msgid "Activate when pressing any key on the desktop"
+#~ msgstr "Kích hoạt khi đang ở bàn làm việc và nhấn phím bất kì"
+
+#~ msgid "History:"
+#~ msgstr "Lịch sử:"
+
+#~ msgctxt "@option:check"
+#~ msgid "Remember past searches"
+#~ msgstr "Nhớ các tìm kiếm"
+
+#~ msgctxt "@option:check"
+#~ msgid "Retain last search when re-opening"
+#~ msgstr "Giữ lại tìm kiếm cuối cho lần mở tiếp theo"
+
+#~ msgctxt "@option:check"
+#~ msgid "Activity-aware (last search and history)"
+#~ msgstr "Đi theo Hoạt động (tìm kiếm cuối và lịch sử)"
+
+#~ msgid "Clear History"
+#~ msgstr "Xoá lịch sử"
+
+#~ msgctxt "@action:button %1 activity name"
+#~ msgid "Clear History for Activity \"%1\""
+#~ msgstr "Xoá lịch sử cho Hoạt động \"%1\""
+
+#~ msgid "Clear History…"
+#~ msgstr "Xoá lịch sử…"
+
+#~ msgctxt "@item:inmenu delete krunner history for all activities"
+#~ msgid "For all activities"
+#~ msgstr "Cho tất cả các Hoạt động"
+
+#~ msgctxt "@item:inmenu delete krunner history for this activity"
+#~ msgid "For activity \"%1\""
+#~ msgstr "Cho Hoạt động \"%1\""
+
+#~ msgctxt "@label"
+#~ msgid "Plugins:"
+#~ msgstr "Phần cài cắm:"
+
+#~ msgctxt "@action:button"
+#~ msgid "Configure Enabled Search Plugins…"
+#~ msgstr "Cấu hình các phần cài cắm tìm kiếm được bật…"
 
 #~ msgid "KRunner position:"
 #~ msgstr "Vị trí KRunner:"

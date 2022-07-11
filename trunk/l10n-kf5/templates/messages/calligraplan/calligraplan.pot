@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligraplan\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-17 00:44+0000\n"
+"POT-Creation-Date: 2022-07-08 00:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -533,42 +533,42 @@ msgstr ""
 msgid "Create a backup file"
 msgstr ""
 
-#: config/ConfigDialog.cpp:37
+#: config/ConfigDialog.cpp:35
 #, kde-format
 msgid "Project Defaults"
 msgstr ""
 
-#: config/ConfigDialog.cpp:38 kptview.cpp:628
+#: config/ConfigDialog.cpp:36 kptview.cpp:628
 #, kde-format
 msgid "Work & Vacation"
 msgstr ""
 
-#: config/ConfigDialog.cpp:39
+#: config/ConfigDialog.cpp:37
 #, kde-format
 msgid "Task Defaults"
 msgstr ""
 
-#: config/ConfigDialog.cpp:40
+#: config/ConfigDialog.cpp:38
 #, kde-format
 msgid "Task Colors"
 msgstr ""
 
-#: config/ConfigDialog.cpp:42
+#: config/ConfigDialog.cpp:40
 #, kde-format
 msgid "Task Modules"
 msgstr ""
 
-#: config/ConfigDialog.cpp:46
+#: config/ConfigDialog.cpp:44
 #, kde-format
 msgid "Work Package"
 msgstr ""
 
-#: config/ConfigDialog.cpp:49
+#: config/ConfigDialog.cpp:47
 #, kde-format
 msgid "Project Templates"
 msgstr ""
 
-#: config/ConfigDialog.cpp:55
+#: config/ConfigDialog.cpp:53
 #, kde-format
 msgctxt "@title:tab Document settings page"
 msgid "Document"
@@ -629,7 +629,7 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: config/ConfigProjectTemplatesPanel.cpp:49
+#: config/ConfigProjectTemplatesPanel.cpp:48
 #, kde-format
 msgid "Project Templates Path"
 msgstr ""
@@ -650,7 +650,7 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: config/ConfigTaskModulesPanel.cpp:49
+#: config/ConfigTaskModulesPanel.cpp:48
 #, kde-format
 msgid "Task Modules Path"
 msgstr ""
@@ -661,7 +661,7 @@ msgstr ""
 msgid "Use local task modules"
 msgstr ""
 
-#: config/ConfigWorkVacationPanel.cpp:39
+#: config/ConfigWorkVacationPanel.cpp:38
 #, kde-format
 msgid "Default"
 msgstr ""
@@ -705,8 +705,8 @@ msgid "Week"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_GenerateHolidays)
-#: config/ConfigWorkVacationPanel.ui:73 kptmaindocument.cpp:1727
-#: kptmaindocument.cpp:1731
+#: config/ConfigWorkVacationPanel.ui:73 kptmaindocument.cpp:1745
+#: kptmaindocument.cpp:1749
 #, kde-format
 msgid "Holidays"
 msgstr ""
@@ -1131,7 +1131,7 @@ msgid ""
 msgstr ""
 
 #: KPlatoXmlLoader.cpp:58 KPlatoXmlLoader.cpp:70 KPlatoXmlLoader.cpp:112
-#: kptmaindocument.cpp:369 kptmaindocument.cpp:694
+#: kptmaindocument.cpp:369 kptmaindocument.cpp:693
 #, kde-format
 msgid "Continue"
 msgstr ""
@@ -1151,7 +1151,7 @@ msgid ""
 msgstr ""
 
 #: KPlatoXmlLoader.cpp:70 KPlatoXmlLoader.cpp:112 kptmaindocument.cpp:369
-#: kptmaindocument.cpp:694
+#: kptmaindocument.cpp:693
 #, kde-format
 msgid "File-Format Mismatch"
 msgstr ""
@@ -1290,7 +1290,7 @@ msgstr ""
 msgid "Insert after current node"
 msgstr ""
 
-#: kptmaindocument.cpp:316 kptmaindocument.cpp:664
+#: kptmaindocument.cpp:316 kptmaindocument.cpp:663
 #, kde-format
 msgid "Invalid document. No mimetype specified."
 msgstr ""
@@ -1338,12 +1338,12 @@ msgstr ""
 msgid "Saving..."
 msgstr ""
 
-#: kptmaindocument.cpp:681
+#: kptmaindocument.cpp:680
 #, kde-format
 msgid "Invalid document. Expected mimetype %2, got %1"
 msgstr ""
 
-#: kptmaindocument.cpp:692
+#: kptmaindocument.cpp:691
 #, kde-format
 msgid ""
 "This document was created with a newer version of PlanWork (syntax version: "
@@ -1351,12 +1351,12 @@ msgid ""
 "Opening it in this version of PlanWork will lose some information."
 msgstr ""
 
-#: kptmaindocument.cpp:1108 kptmaindocument.cpp:1319
+#: kptmaindocument.cpp:1107 kptmaindocument.cpp:1318
 #, kde-format
 msgid "Internal error, failed to insert file."
 msgstr ""
 
-#: kptmaindocument.cpp:1170
+#: kptmaindocument.cpp:1169
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1364,62 +1364,81 @@ msgid ""
 "to insert file."
 msgstr ""
 
-#: kptmaindocument.cpp:1180
+#: kptmaindocument.cpp:1179
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Failed to load shared resources into project %1:<nl/>%2"
 msgstr ""
 
-#: kptmaindocument.cpp:1350
+#: kptmaindocument.cpp:1349
 msgctxt "(qtundo-format)"
 msgid "Insert project"
 msgstr ""
 
-#: kptmaindocument.cpp:1430
+#: kptmaindocument.cpp:1429
 #, kde-format
 msgid "Group: %1"
 msgstr ""
 
-#: kptmaindocument.cpp:1437
+#: kptmaindocument.cpp:1436
 #, kde-format
 msgid "Resource: %1"
 msgstr ""
 
-#: kptmaindocument.cpp:1442
+#: kptmaindocument.cpp:1441
 #, kde-format
 msgid "Calendar: %1"
 msgstr ""
 
-#: kptmaindocument.cpp:1449
+#: kptmaindocument.cpp:1452
 #, kde-format
-msgid ""
-"Shared resources has been removed from the shared resources file.\n"
-"Select how they shall be treated in this project."
+msgctxt "@info:tooltip"
+msgid "Remove resources from your project"
 msgstr ""
 
-#: kptmaindocument.cpp:1452
+#: kptmaindocument.cpp:1455
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Shared resources have been removed from the shared resources file.<nl/"
+">Select how they shall be treated in this project."
+msgstr ""
+
+#: kptmaindocument.cpp:1458
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Shared resources"
 msgstr ""
 
-#: kptmaindocument.cpp:1454
+#: kptmaindocument.cpp:1460
 #, kde-format
 msgid "Convert"
 msgstr ""
 
-#: kptmaindocument.cpp:1455
+#: kptmaindocument.cpp:1460
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Convert shared resources to local"
+msgstr ""
+
+#: kptmaindocument.cpp:1461
 #, kde-format
 msgid "Keep"
 msgstr ""
 
-#: kptmaindocument.cpp:1697
+#: kptmaindocument.cpp:1461
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Keep as shared resources"
+msgstr ""
+
+#: kptmaindocument.cpp:1715
 #, kde-format
 msgctxt "Base calendar name"
 msgid "Base"
 msgstr ""
 
-#: kptpart.cpp:92
+#: kptpart.cpp:95
 #, kde-format
 msgid "Configure Plan..."
 msgstr ""

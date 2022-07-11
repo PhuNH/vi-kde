@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-08 00:47+0000\n"
+"POT-Creation-Date: 2022-06-22 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -484,25 +484,55 @@ msgstr ""
 msgid "Fetch Contacts"
 msgstr ""
 
-#: src/importexport/exportselectionwidget.cpp:24
-#, kde-format
-msgctxt "@title:group"
-msgid "Fields to be exported"
-msgstr ""
-
-#: src/importexport/exportselectionwidget.cpp:30
+#: src/importexport/exportselectionwidget.cpp:21
 #, kde-format
 msgctxt "@option:check"
 msgid "Private fields"
 msgstr ""
 
-#: src/importexport/exportselectionwidget.cpp:31
+#: src/importexport/exportselectionwidget.cpp:22
+#, kde-format
+msgctxt "@option:check"
+msgid "Business fields"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:23
+#, kde-format
+msgctxt "@option:check"
+msgid "Other fields"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:24
+#, kde-format
+msgctxt "@option:check"
+msgid "Encryption keys"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:25
+#, kde-format
+msgctxt "@option:check"
+msgid "Pictures"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:26
+#, kde-format
+msgctxt "@option:check"
+msgid "Display name as full name"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:30
+#, kde-format
+msgctxt "@title:group"
+msgid "Fields to be exported"
+msgstr ""
+
+#: src/importexport/exportselectionwidget.cpp:36
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Export private fields"
 msgstr ""
 
-#: src/importexport/exportselectionwidget.cpp:33
+#: src/importexport/exportselectionwidget.cpp:38
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -510,19 +540,13 @@ msgid ""
 "vCard output file."
 msgstr ""
 
-#: src/importexport/exportselectionwidget.cpp:37
-#, kde-format
-msgctxt "@option:check"
-msgid "Business fields"
-msgstr ""
-
-#: src/importexport/exportselectionwidget.cpp:38
+#: src/importexport/exportselectionwidget.cpp:42
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Export business fields"
 msgstr ""
 
-#: src/importexport/exportselectionwidget.cpp:40
+#: src/importexport/exportselectionwidget.cpp:44
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -530,19 +554,13 @@ msgid ""
 "vCard output file."
 msgstr ""
 
-#: src/importexport/exportselectionwidget.cpp:44
-#, kde-format
-msgctxt "@option:check"
-msgid "Other fields"
-msgstr ""
-
-#: src/importexport/exportselectionwidget.cpp:45
+#: src/importexport/exportselectionwidget.cpp:48
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Export other fields"
 msgstr ""
 
-#: src/importexport/exportselectionwidget.cpp:47
+#: src/importexport/exportselectionwidget.cpp:50
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -550,19 +568,13 @@ msgid ""
 "output file."
 msgstr ""
 
-#: src/importexport/exportselectionwidget.cpp:51
-#, kde-format
-msgctxt "@option:check"
-msgid "Encryption keys"
-msgstr ""
-
-#: src/importexport/exportselectionwidget.cpp:52
+#: src/importexport/exportselectionwidget.cpp:54
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Export encryption keys"
 msgstr ""
 
-#: src/importexport/exportselectionwidget.cpp:54
+#: src/importexport/exportselectionwidget.cpp:56
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -570,19 +582,13 @@ msgid ""
 "vCard output file."
 msgstr ""
 
-#: src/importexport/exportselectionwidget.cpp:58
-#, kde-format
-msgctxt "@option:check"
-msgid "Pictures"
-msgstr ""
-
-#: src/importexport/exportselectionwidget.cpp:59
+#: src/importexport/exportselectionwidget.cpp:60
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Export pictures"
 msgstr ""
 
-#: src/importexport/exportselectionwidget.cpp:61
+#: src/importexport/exportselectionwidget.cpp:62
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -590,16 +596,10 @@ msgid ""
 "output file."
 msgstr ""
 
-#: src/importexport/exportselectionwidget.cpp:65
+#: src/importexport/exportselectionwidget.cpp:66
 #, kde-format
 msgctxt "@title:group"
 msgid "Export options"
-msgstr ""
-
-#: src/importexport/exportselectionwidget.cpp:71
-#, kde-format
-msgctxt "@option:check"
-msgid "Display name as full name"
 msgstr ""
 
 #: src/importexport/exportselectionwidget.cpp:72
@@ -815,7 +815,7 @@ msgstr ""
 msgid "Serverside Subscription..."
 msgstr ""
 
-#: src/mainwidget.cpp:751 src/printing/printingwizard.cpp:43
+#: src/mainwidget.cpp:751 src/printing/printingwizard.cpp:42
 #, kde-format
 msgctxt "@title:window"
 msgid "Print Contacts"
@@ -1173,27 +1173,27 @@ msgstr ""
 msgid "Mike's Printing Style"
 msgstr ""
 
-#: src/printing/printingwizard.cpp:46
+#: src/printing/printingwizard.cpp:45
 #, kde-format
 msgid "Which contacts do you want to print?"
 msgstr ""
 
-#: src/printing/printingwizard.cpp:48
+#: src/printing/printingwizard.cpp:47
 #, kde-format
 msgid "Choose Contacts to Print"
 msgstr ""
 
-#: src/printing/printingwizard.cpp:54
+#: src/printing/printingwizard.cpp:53
 #, kde-format
 msgid "Choose Printing Style"
 msgstr ""
 
-#: src/printing/printingwizard.cpp:201
+#: src/printing/printingwizard.cpp:200
 #, kde-format
 msgid "Print Progress"
 msgstr ""
 
-#: src/printing/printprogress.cpp:22
+#: src/printing/printprogress.cpp:24
 #, kde-format
 msgctxt "@title:window"
 msgid "Printing: Progress"

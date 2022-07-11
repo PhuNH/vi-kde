@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skanpage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-30 00:49+0000\n"
+"POT-Creation-Date: 2022-06-27 00:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,7 +28,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: DocumentModel.cpp:38 DocumentModel.cpp:70
+#: DocumentModel.cpp:38 DocumentModel.cpp:70 DocumentModel.cpp:81
 #, kde-format
 msgid "New document"
 msgstr ""
@@ -89,32 +89,32 @@ msgstr ""
 msgid "Failed to save image"
 msgstr ""
 
-#: main.cpp:57
+#: main.cpp:61
 #, kde-format
 msgid "Skanpage"
 msgstr ""
 
-#: main.cpp:59
+#: main.cpp:63
 #, kde-format
-msgid "Page-scanning application by KDE based on libksane."
+msgid "Multi-page scanning application by KDE."
 msgstr ""
 
-#: main.cpp:61
+#: main.cpp:65
 #, kde-format
 msgid "© 2015-2022 Kåre Särs, Alexander Stippich"
 msgstr ""
 
-#: main.cpp:64 main.cpp:65
+#: main.cpp:68 main.cpp:69
 #, kde-format
 msgid "developer"
 msgstr ""
 
-#: main.cpp:76
+#: main.cpp:80
 #, kde-format
 msgid "Sane scanner device name. Use 'test' for test device."
 msgstr ""
 
-#: main.cpp:76
+#: main.cpp:80
 #, kde-format
 msgid "device"
 msgstr ""
@@ -203,12 +203,34 @@ msgstr ""
 msgid "Delete Page"
 msgstr ""
 
-#: qml/DocumentList.qml:268
+#: qml/DocumentList.qml:265
 #, kde-format
 msgid "%1 page"
 msgid_plural "%1 pages"
 msgstr[0] ""
 msgstr[1] ""
+
+#: qml/DocumentList.qml:276
+#, kde-format
+msgid "Reorder Pages"
+msgstr ""
+
+#: qml/DocumentList.qml:281
+#, kde-format
+msgctxt "Indicates how pages are going to be reordered"
+msgid "13 24 → 1234"
+msgstr ""
+
+#: qml/DocumentList.qml:288
+#, kde-format
+msgctxt "Indicates how pages are going to be reordered"
+msgid "13 42 → 1234"
+msgstr ""
+
+#: qml/DocumentList.qml:295
+#, kde-format
+msgid "Reverse Order"
+msgstr ""
 
 #: qml/DocumentPage.qml:38
 #, kde-kuit-format
@@ -236,7 +258,7 @@ msgstr ""
 msgid "Zoom 100%"
 msgstr ""
 
-#: qml/ExportWindow.qml:21 qml/MainWindow.qml:116
+#: qml/ExportWindow.qml:21 qml/MainWindow.qml:101
 #, kde-format
 msgid "Export PDF"
 msgstr ""
@@ -278,7 +300,7 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: qml/ExportWindow.qml:184 qml/MainWindow.qml:133
+#: qml/ExportWindow.qml:184 qml/MainWindow.qml:118
 #, kde-format
 msgid "Cancel"
 msgstr ""
@@ -313,48 +335,53 @@ msgctxt "@info"
 msgid "Scan in progress."
 msgstr ""
 
-#: qml/MainWindow.qml:23
+#: qml/MainWindow.qml:22
 #, kde-format
 msgctxt "document title: app title"
 msgid "%1 ― Skanpage"
 msgstr ""
 
-#: qml/MainWindow.qml:98
+#: qml/MainWindow.qml:83
 #, kde-format
 msgid "Discard All"
 msgstr ""
 
-#: qml/MainWindow.qml:107
+#: qml/MainWindow.qml:92
 #, kde-format
 msgid "Save All"
 msgstr ""
 
-#: qml/MainWindow.qml:124
+#: qml/MainWindow.qml:109
 #, kde-format
 msgid "Scan"
 msgstr ""
 
-#: qml/MainWindow.qml:142
+#: qml/MainWindow.qml:127
 #, kde-format
 msgid "Show Scanner Options"
 msgstr ""
 
-#: qml/MainWindow.qml:149 qml/ShareWindow.qml:19
+#: qml/MainWindow.qml:137 qml/ShareWindow.qml:19
 #, kde-format
 msgid "Share"
 msgstr ""
 
-#: qml/MainWindow.qml:157
+#: qml/MainWindow.qml:145
 #, kde-format
 msgid "Print"
 msgstr ""
 
-#: qml/MainWindow.qml:166 qml/MainWindow.qml:332
+#: qml/MainWindow.qml:166 qml/MainWindow.qml:346
 #, kde-format
 msgid "About Skanpage"
 msgstr ""
 
 #: qml/MainWindow.qml:173
+#, kde-format
+msgid "Settings"
+msgstr ""
+
+#: qml/MainWindow.qml:181
 #, kde-format
 msgid "Quit"
 msgstr ""
@@ -436,6 +463,31 @@ msgstr ""
 #: qml/OptionsPanel.qml:103
 #, kde-format
 msgid "Reselect Scanner"
+msgstr ""
+
+#: qml/SettingsWindow.qml:19
+#, kde-format
+msgid "Skanpage Settings"
+msgstr ""
+
+#: qml/SettingsWindow.qml:34
+#, kde-format
+msgid "Show all devices including virtual and cameras"
+msgstr ""
+
+#: qml/SettingsWindow.qml:43
+#, kde-format
+msgid "Default file format:"
+msgstr ""
+
+#: qml/SettingsWindow.qml:70
+#, kde-format
+msgid "Default save location:"
+msgstr ""
+
+#: qml/SettingsWindow.qml:106
+#, kde-format
+msgid "Close"
 msgstr ""
 
 #: qml/ShareWindow.qml:41

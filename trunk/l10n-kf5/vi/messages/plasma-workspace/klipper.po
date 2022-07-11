@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-05 00:49+0000\n"
+"POT-Creation-Date: 2022-06-30 00:47+0000\n"
 "PO-Revision-Date: 2022-05-29 11:32+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -841,30 +841,36 @@ msgstr ""
 "Nếu một tên tệp hoặc URL được bôi đen, thì sẽ thêm các ứng dụng có thể chấp "
 "nhận kiểu MIME của nó vào trình đơn hành động."
 
-#: klipperpopup.cpp:59 tray.cpp:25 tray.cpp:53
-#, kde-format
-msgid "Clipboard is empty"
-msgstr "Bảng nháp trống"
-
-#: klipperpopup.cpp:60
-#, kde-format
-msgid "No matches"
-msgstr "Không mục nào khớp"
-
-#: klipperpopup.cpp:111
+#: klipperpopup.cpp:110
 #, kde-format
 msgid "Klipper - Clipboard Tool"
 msgstr "Klipper - công cụ bảng nháp"
 
-#: klipperpopup.cpp:115
+#: klipperpopup.cpp:114
 #, kde-format
 msgid "Search…"
 msgstr "Tìm kiếm…"
 
-#: klipperpopup.cpp:124 main.cpp:30
+#: klipperpopup.cpp:123 main.cpp:30
 #, kde-format
 msgid "KDE cut & paste history utility"
 msgstr "Tiện ích lịch sử cắt & dán của KDE"
+
+#: klipperpopup.cpp:187
+#, fuzzy, kde-format
+#| msgid "Regular expression:"
+msgid "Invalid regular expression, %1"
+msgstr "Biểu thức chính quy:"
+
+#: klipperpopup.cpp:193 tray.cpp:25 tray.cpp:53
+#, kde-format
+msgid "Clipboard is empty"
+msgstr "Bảng nháp trống"
+
+#: klipperpopup.cpp:195
+#, kde-format
+msgid "No matches"
+msgstr "Không mục nào khớp"
 
 #: main.cpp:28 tray.cpp:22
 #, kde-format
@@ -1006,9 +1012,6 @@ msgstr "H&uỷ"
 
 #~ msgid "Action properties:"
 #~ msgstr "Các thuộc tính của hành động:"
-
-#~ msgid "Regular expression:"
-#~ msgstr "Biểu thức chính quy:"
 
 #~ msgid "Automatic:"
 #~ msgstr "Tự động:"

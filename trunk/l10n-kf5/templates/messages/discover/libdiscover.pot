@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-17 00:45+0000\n"
+"POT-Creation-Date: 2022-06-23 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -507,8 +507,8 @@ msgstr ""
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:107
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:237
 #: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:326
-#: libdiscover/UpdateModel/UpdateModel.cpp:116
-#: libdiscover/UpdateModel/UpdateModel.cpp:314
+#: libdiscover/UpdateModel/UpdateModel.cpp:117
+#: libdiscover/UpdateModel/UpdateModel.cpp:323
 #, kde-format
 msgid "Unknown"
 msgstr ""
@@ -743,51 +743,63 @@ msgid ""
 "following communication protocols: %1"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:83
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:88
 #, kde-format
 msgid "Add Flathub"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:87
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:89
+#, kde-format
+msgid "Apply Changes"
+msgstr ""
+
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:93
+#, kde-format
+msgid ""
+"Changes to the priority of Flatpak sources must be applied before they will "
+"take effect."
+msgstr ""
+
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:97
 #, kde-format
 msgid ""
 "Makes it possible to easily install the applications listed in https://"
 "flathub.org"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:131
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:163
 #, kde-format
 msgid "Could not add the source %1"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:247
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:279
 #, kde-format
 msgid "Removing '%1'"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:248
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:280
 #, kde-format
 msgid ""
 "To remove this repository, the following applications must be uninstalled:"
 "<ul><li>%1</li></ul>"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:265
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:297
 #, kde-format
 msgid "Failed to remove %1 remote repository: %2"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:269
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:301
 #, kde-format
 msgid "Could not find %1"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:301
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:333
 #, kde-format
 msgid "%1 (user)"
 msgstr ""
 
-#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:357
+#: libdiscover/backends/FlatpakBackend/FlatpakSourcesBackend.cpp:389
 #, kde-format
 msgid "Enter a Flatpak repository URI (*.flatpakrepo):"
 msgstr ""
@@ -2061,19 +2073,19 @@ msgctxt "@info:status"
 msgid "Cancelled"
 msgstr ""
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:126
+#: libdiscover/UpdateModel/UpdateModel.cpp:129
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Applications"
 msgstr ""
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:127
+#: libdiscover/UpdateModel/UpdateModel.cpp:130
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "System Software"
 msgstr ""
 
-#: libdiscover/UpdateModel/UpdateModel.cpp:128
+#: libdiscover/UpdateModel/UpdateModel.cpp:131
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Addons"

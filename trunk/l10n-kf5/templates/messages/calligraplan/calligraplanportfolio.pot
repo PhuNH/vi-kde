@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligraplan\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-18 00:44+0000\n"
+"POT-Creation-Date: 2022-07-06 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -107,52 +107,63 @@ msgstr ""
 msgid "Create a backup file"
 msgstr ""
 
-#: DocumentsSaveDialog.cpp:23 PortfolioModel.cpp:21
+#: DocumentsSaveDialog.cpp:26 PortfolioModel.cpp:21
 #, kde-format, kde-kuit-format
 msgctxt "@title:column"
 msgid "Portfolio"
 msgstr ""
 
-#: DocumentsSaveDialog.cpp:24
+#: DocumentsSaveDialog.cpp:27
 #, kde-format
 msgctxt "@title:column"
 msgid "Modified"
 msgstr ""
 
-#: DocumentsSaveDialog.cpp:25
+#: DocumentsSaveDialog.cpp:28
 #, kde-format
 msgctxt "@title:column"
 msgid "Save"
 msgstr ""
 
-#: DocumentsSaveDialog.cpp:26
+#: DocumentsSaveDialog.cpp:29
 #, kde-format
 msgctxt "@title:column"
 msgid "Internal"
 msgstr ""
 
-#: DocumentsSaveDialog.cpp:27
+#: DocumentsSaveDialog.cpp:30
 #, kde-format
 msgctxt "@title:column"
 msgid "Url"
 msgstr ""
 
-#: DocumentsSaveDialog.cpp:53 DocumentsSaveDialog.cpp:59
+#: DocumentsSaveDialog.cpp:56 DocumentsSaveDialog.cpp:62
 #: PortfolioModel.cpp:93 PortfolioModel.cpp:104
 #, kde-format
 msgid "Yes"
 msgstr ""
 
-#: DocumentsSaveDialog.cpp:53 DocumentsSaveDialog.cpp:59
+#: DocumentsSaveDialog.cpp:56 DocumentsSaveDialog.cpp:62
 #: PortfolioModel.cpp:93 PortfolioModel.cpp:104
 #, kde-format
 msgid "No"
 msgstr ""
 
-#: DocumentsSaveDialog.cpp:83
+#: DocumentsSaveDialog.cpp:86
 #, kde-format
 msgctxt "@title:window"
 msgid "Save Documents"
+msgstr ""
+
+#: DocumentsSaveDialog.cpp:134
+#, kde-format
+msgid "The file already exists. Do you want to overwrite?"
+msgstr ""
+
+#: DocumentsSaveDialog.cpp:134
+#, kde-format
+msgctxt "@title:window"
+msgid "Overwrite file?"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, saveMain)
@@ -161,7 +172,17 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: GanttView.cpp:88
+#: GanttView.cpp:82
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Gantt Summary</title><para>Shows a gantt chart of all projects in "
+"your portfolio.</para><para>A gantt view for a project can be shown by "
+"selecting <interface>Context Menu->Open Project</interface>.<nl/><link "
+"url='%1'>More...</link></para>"
+msgstr ""
+
+#: GanttView.cpp:99
 #, kde-format
 msgid "Open Project"
 msgstr ""
@@ -199,14 +220,14 @@ msgctxt "@info"
 msgid "The project already exists.<nl/>Project: %1<nl/>Document: %2"
 msgstr ""
 
-#: MainDocument.cpp:160 PortfolioView.cpp:255 PortfolioView.cpp:260
-#: PortfolioView.cpp:319 PortfolioView.cpp:323
+#: MainDocument.cpp:160 PortfolioView.cpp:259 PortfolioView.cpp:264
+#: PortfolioView.cpp:323 PortfolioView.cpp:327
 #, kde-format
 msgctxt "@title:window"
 msgid "Could not add project"
 msgstr ""
 
-#: MainWindow.cpp:140
+#: MainWindow.cpp:147
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -214,18 +235,18 @@ msgid ""
 "p><p>Do you want to save it?</p>"
 msgstr ""
 
-#: Part.cpp:59
+#: Part.cpp:61
 #, kde-format
 msgid "Configure Portfolio..."
 msgstr ""
 
-#: Part.cpp:72
+#: Part.cpp:74
 #, kde-kuit-format
 msgctxt "title:window"
 msgid "Portfolio Settings"
 msgstr ""
 
-#: Part.cpp:75
+#: Part.cpp:77
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "Portfolio Settings"
@@ -358,7 +379,7 @@ msgctxt "@info:tooltip"
 msgid "The external url of the project file"
 msgstr ""
 
-#: PortfolioModel.cpp:91 SchedulingModel.cpp:127
+#: PortfolioModel.cpp:91 SchedulingModel.cpp:130
 #, kde-format
 msgid "Error"
 msgstr ""
@@ -379,13 +400,13 @@ msgstr ""
 msgid "External"
 msgstr ""
 
-#: PortfolioView.cpp:78
+#: PortfolioView.cpp:77
 #, kde-format
 msgctxt "@title:column"
 msgid "Recent Portfolios"
 msgstr ""
 
-#: PortfolioView.cpp:133
+#: PortfolioView.cpp:135
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -394,13 +415,15 @@ msgid ""
 "Add</interface> or press <interface>Add...</interface> to add projects to "
 "your portfolio.<nl/>Select <interface>Edit|Remove</interface> or press "
 "<interface>Remove</interface> to remove selected projects.</para><para>Add "
-"the projects you are managing and set Portfolio = Yes. If you have resources "
-"that is shared between multiple projects and you want to re-schedule, you "
-"need to add all relevant projects and then set Portfolio = No for these "
-"projects.<nl/><link url='%1'>More...</link></para>"
+"the projects you are managing and set <emphasis>Portfolio</emphasis> = "
+"<emphasis>Yes</emphasis>.</para><para><note>If you have resources that are "
+"shared between multiple projects and you want to re-schedule or inspect "
+"resource usage, you need to add all relevant projects and then set "
+"<emphasis>Portfolio</emphasis> = <emphasis>No</emphasis> for these projects."
+"</note></para><para><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: PortfolioView.cpp:150
+#: PortfolioView.cpp:154
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -411,13 +434,13 @@ msgid ""
 "para><para>Try it on this text!</para>"
 msgstr ""
 
-#: PortfolioView.cpp:159
+#: PortfolioView.cpp:163
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<subtitle>Online Resources</subtitle>"
 msgstr ""
 
-#: PortfolioView.cpp:163
+#: PortfolioView.cpp:167
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -430,34 +453,34 @@ msgid ""
 "information from the documentation.</para>"
 msgstr ""
 
-#: PortfolioView.cpp:182
+#: PortfolioView.cpp:186
 #, kde-format
 msgid "Add"
 msgstr ""
 
-#: PortfolioView.cpp:187
+#: PortfolioView.cpp:191
 #, kde-format
 msgid "Remove"
 msgstr ""
 
-#: PortfolioView.cpp:208
+#: PortfolioView.cpp:212
 #, kde-format
 msgid "Add Project"
 msgstr ""
 
-#: PortfolioView.cpp:254 PortfolioView.cpp:318
+#: PortfolioView.cpp:258 PortfolioView.cpp:322
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Failed to load the project. Not a valid Plan file:<nl/>%1"
 msgstr ""
 
-#: PortfolioView.cpp:259
+#: PortfolioView.cpp:263
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Failed to open the project. This seems to be a portfolio file:<nl/>%1"
 msgstr ""
 
-#: PortfolioView.cpp:322
+#: PortfolioView.cpp:326
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -532,6 +555,22 @@ msgctxt "@action:button"
 msgid "<a href=\"https://userbase.kde.org/Plan\">Community</a>"
 msgstr ""
 
+#: ProgressView.cpp:69
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Progress</title><para>This view is used to inspect and edit task "
+"progress information for the selected project.<nl/>The tasks are divided "
+"into groups dependent on the task status:<list><item><emphasis>Not Started:</"
+"emphasis> Tasks that should have been started by now.</"
+"item><item><emphasis>Running:</emphasis> Tasks that has been started, but "
+"not yet finished.</item><item><emphasis>Finished:</emphasis> Tasks that "
+"where finished in this period.</item><item><emphasis>Next Period:</emphasis> "
+"Tasks that is scheduled to be started in the next period.</item></list>The "
+"time period is configurable.</para><para>This view supports configuration "
+"and printing using the context menu.<nl/><link url='%1'>More...</link></para>"
+msgstr ""
+
 #: ProjectsDashboard.cpp:79
 #, kde-format
 msgid "Projects"
@@ -571,18 +610,18 @@ msgctxt "@info:tooltip"
 msgid "Project description"
 msgstr ""
 
-#: ProjectsModel.cpp:174 SchedulingModel.cpp:26
+#: ProjectsModel.cpp:175 SchedulingModel.cpp:26
 #, kde-format
 msgid "Schedule"
 msgstr ""
 
-#: ProjectsModel.cpp:177
+#: ProjectsModel.cpp:178
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select schedule"
 msgstr ""
 
-#: ProjectsModel.cpp:218
+#: ProjectsModel.cpp:219
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -591,7 +630,7 @@ msgid ""
 "item></list></para>"
 msgstr ""
 
-#: ProjectsModel.cpp:232
+#: ProjectsModel.cpp:233
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -600,7 +639,7 @@ msgid ""
 "item></list></para>"
 msgstr ""
 
-#: ProjectsModel.cpp:246
+#: ProjectsModel.cpp:247
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -609,75 +648,85 @@ msgid ""
 "item><item>Target finish:\t%5</item></list></para>"
 msgstr ""
 
-#: ProjectsModel.cpp:279 ProjectsModel.cpp:299 ProjectsModel.cpp:329
+#: ProjectsModel.cpp:280 ProjectsModel.cpp:301 ProjectsModel.cpp:331
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Not scheduled"
 msgstr ""
 
-#: ProjectsModel.cpp:282 ProjectsModel.cpp:302
+#: ProjectsModel.cpp:283 ProjectsModel.cpp:304
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Schedule: %1 is not scheduled"
 msgstr ""
 
-#: ProjectsModel.cpp:284
+#: ProjectsModel.cpp:285
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Schedule %1: Scheduled to start: %1"
 msgstr ""
 
-#: ProjectsModel.cpp:304
+#: ProjectsModel.cpp:306
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Schedule %1: Scheduled to finish: %1"
 msgstr ""
 
-#: ProjectsModel.cpp:323
+#: ProjectsModel.cpp:325
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Schedule is baselined"
 msgstr ""
 
-#: ProjectsModel.cpp:326
+#: ProjectsModel.cpp:328
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scheduled but not baselined"
 msgstr ""
 
-#: ResourceUsageModel.cpp:71
+#: ResourceUsageModel.cpp:135
 #, kde-format
 msgid "No task"
 msgstr ""
 
-#: ResourceUsageView.cpp:53
+#: ResourceUsageModel.cpp:137
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "WBS: %1<nl/>Task: %2<nl/>Project: %3"
+msgstr ""
+
+#: ResourceUsageView.cpp:55
 #, kde-format
 msgid "Tasks"
 msgstr ""
 
-#: ResourceUsageView.cpp:92
+#: ResourceUsageView.cpp:93
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Resource Usage</title><para>This view shows the resources task "
+"assignments for each day.</para><para><nl/><link url='%1'>More...</link></"
+"para>"
+msgstr ""
+
+#: ResourceUsageView.cpp:107
 #, kde-format
 msgid "Diagram Types"
 msgstr ""
 
-#: ResourceUsageView.cpp:96
+#: ResourceUsageView.cpp:111
 #, kde-format
 msgid "Normal"
 msgstr ""
 
-#: ResourceUsageView.cpp:100
+#: ResourceUsageView.cpp:115
 #, kde-format
 msgid "Stacked"
 msgstr ""
 
-#: ResourceUsageView.cpp:108
+#: ResourceUsageView.cpp:123
 #, kde-format
 msgid "Range"
-msgstr ""
-
-#: ResourceUsageView.cpp:113
-#, kde-format
-msgid "All"
 msgstr ""
 
 #: SchedulingLogModel.cpp:54
@@ -732,61 +781,78 @@ msgstr ""
 msgid "Exclude"
 msgstr ""
 
-#: SchedulingModel.cpp:131
+#: SchedulingModel.cpp:134
 #, kde-format
 msgid "Scheduling..."
 msgstr ""
 
-#: SchedulingModel.cpp:133
+#: SchedulingModel.cpp:136
 #, kde-format
 msgid "Not scheduled"
 msgstr ""
 
-#: SchedulingModel.cpp:135
+#: SchedulingModel.cpp:138
 #, kde-format
 msgid "Finished"
 msgstr ""
 
-#: SchedulingModel.cpp:137
+#: SchedulingModel.cpp:140
 #, kde-format
 msgid "Started"
 msgstr ""
 
-#: SchedulingModel.cpp:139
+#: SchedulingModel.cpp:142
 #, kde-format
 msgid "Baselined"
 msgstr ""
 
-#: SchedulingModel.cpp:141
+#: SchedulingModel.cpp:144
 #, kde-format
 msgid "Scheduled"
-msgstr ""
-
-#: SchedulingModel.cpp:162
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid "Schedule this project"
 msgstr ""
 
 #: SchedulingModel.cpp:165
 #, kde-kuit-format
 msgctxt "@info:tooltip"
+msgid "Schedule this project"
+msgstr ""
+
+#: SchedulingModel.cpp:168
+#, kde-kuit-format
+msgctxt "@info:tooltip"
 msgid "Include resource bookings from this project"
 msgstr ""
 
-#: SchedulingModel.cpp:168 SchedulingModel.cpp:171
+#: SchedulingModel.cpp:171 SchedulingModel.cpp:174
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Exclude this project"
 msgstr ""
 
-#: SchedulingModel.cpp:184
+#: SchedulingModel.cpp:187
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "Highest priority is scheduled first"
 msgstr ""
 
-#: SchedulingView.cpp:210 SummaryView.cpp:97
+#: SchedulingView.cpp:110
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Scheduling</title><para>The Scheduling view lets you schedule the "
+"projects in your portfolio. The projects are scheduled according to their "
+"priority.</para><para>Set <emphasis>Control</emphasis> to "
+"<emphasis>Schedule</emphasis> for the project or projects you want to "
+"schedule.<nl/>Set <emphasis>Control</emphasis> to <emphasis>Include</"
+"emphasis> to have resource assignments included in resource leveling.<nl/"
+">Set <emphasis>Control</emphasis> to <emphasis>Exclude</emphasis> if you "
+"want to exclude the project.</para><para><note>If your projects share "
+"resources with projects that are not part of your portfolio, these projects "
+"needs to be included for resource leveling to work properly.</note></"
+"para><para><link url='%1'>More...</link></para>"
+msgstr ""
+
+#: SchedulingView.cpp:224 SummaryView.cpp:97
 #, kde-format
 msgid "Description..."
 msgstr ""

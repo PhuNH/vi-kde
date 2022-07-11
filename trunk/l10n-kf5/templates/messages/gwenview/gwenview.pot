@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gwenview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-13 00:43+0000\n"
+"POT-Creation-Date: 2022-07-08 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -417,7 +417,7 @@ msgstr ""
 msgid "Open Containing Folder"
 msgstr ""
 
-#: app/fileopscontextmanageritem.cpp:371
+#: app/fileopscontextmanageritem.cpp:375
 #, kde-format
 msgid "Other Application..."
 msgstr ""
@@ -744,13 +744,13 @@ msgid "&Rating"
 msgstr ""
 
 #. i18n: ectx: Menu (settings)
-#: app/gwenviewui.rc:83
+#: app/gwenviewui.rc:84
 #, kde-format
 msgid "&Settings"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: app/gwenviewui.rc:99 part/gvpart.rc:16
+#: app/gwenviewui.rc:100 part/gvpart.rc:16
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
@@ -761,71 +761,84 @@ msgctxt "@title:window"
 msgid "Image Information"
 msgstr ""
 
-#: app/imageopscontextmanageritem.cpp:83
+#: app/imageopscontextmanageritem.cpp:84
 #, kde-format
 msgctxt "@title actions category - means actions changing image"
 msgid "Edit"
 msgstr ""
 
-#: app/imageopscontextmanageritem.cpp:86
+#: app/imageopscontextmanageritem.cpp:87
 #, kde-format
 msgid "Rotate Left"
 msgstr ""
 
-#: app/imageopscontextmanageritem.cpp:87
+#: app/imageopscontextmanageritem.cpp:88
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Rotate image to the left"
 msgstr ""
 
-#: app/imageopscontextmanageritem.cpp:92
+#: app/imageopscontextmanageritem.cpp:93
 #, kde-format
 msgid "Rotate Right"
 msgstr ""
 
-#: app/imageopscontextmanageritem.cpp:93
+#: app/imageopscontextmanageritem.cpp:94
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Rotate image to the right"
 msgstr ""
 
-#: app/imageopscontextmanageritem.cpp:98
+#: app/imageopscontextmanageritem.cpp:99
 #, kde-format
 msgid "Mirror"
 msgstr ""
 
-#: app/imageopscontextmanageritem.cpp:102
+#: app/imageopscontextmanageritem.cpp:103
 #, kde-format
 msgid "Flip"
 msgstr ""
 
-#: app/imageopscontextmanageritem.cpp:106
+#: app/imageopscontextmanageritem.cpp:107
 #: lib/resize/resizeimagedialog.cpp:71
 #, kde-format
 msgid "Resize"
 msgstr ""
 
-#: app/imageopscontextmanageritem.cpp:111
+#: app/imageopscontextmanageritem.cpp:112
 #: lib/crop/cropimageoperation.cpp:70 lib/crop/cropwidget.cpp:263
 #, kde-format
 msgid "Crop"
 msgstr ""
 
-#: app/imageopscontextmanageritem.cpp:116
+#: app/imageopscontextmanageritem.cpp:117
 #: lib/redeyereduction/redeyereductionimageoperation.cpp:76
 #: lib/redeyereduction/redeyereductiontool.cpp:49
 #, kde-format
 msgid "Reduce Red Eye"
 msgstr ""
 
-#: app/imageopscontextmanageritem.cpp:132
+#: app/imageopscontextmanageritem.cpp:122
+#: lib/annotate/annotateoperation.cpp:52
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Annotate"
+msgstr ""
+
+#: app/imageopscontextmanageritem.cpp:130
+#, kde-format
+msgctxt "@title:window Annotate [filename]"
+msgid "Annotate %1"
+msgstr ""
+
+#: app/imageopscontextmanageritem.cpp:150
 #: lib/document/documentjob.cpp:77
 #, kde-format
 msgctxt "@info"
 msgid "Gwenview cannot edit this kind of image."
 msgstr ""
 
-#: app/imageopscontextmanageritem.cpp:143
+#: app/imageopscontextmanageritem.cpp:161
 #, kde-format
 msgid "Image Operations"
 msgstr ""
@@ -1021,27 +1034,27 @@ msgid_plural "%1 files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/main.cpp:174
+#: app/main.cpp:178
 #, kde-format
 msgid "Gwenview"
 msgstr ""
 
-#: app/main.cpp:176
+#: app/main.cpp:180
 #, kde-format
 msgid "An Image Viewer"
 msgstr ""
 
-#: app/main.cpp:184
+#: app/main.cpp:188
 #, kde-format
 msgid "Start in fullscreen mode"
 msgstr ""
 
-#: app/main.cpp:185
+#: app/main.cpp:189
 #, kde-format
 msgid "Start in slideshow mode"
 msgstr ""
 
-#: app/main.cpp:186
+#: app/main.cpp:190
 #, kde-format
 msgid "A starting file or folders"
 msgstr ""
@@ -1844,38 +1857,38 @@ msgstr ""
 msgid "Importing documents..."
 msgstr ""
 
-#: importer/thumbnailpage.cpp:230
+#: importer/thumbnailpage.cpp:235
 #, kde-format
 msgctxt "@info above install button when Kamera is not installed"
 msgid "Support for your camera is not installed."
 msgstr ""
 
-#: importer/thumbnailpage.cpp:232
+#: importer/thumbnailpage.cpp:237
 #, kde-format
 msgctxt "@info above install button, %1 protocol name"
 msgid "The protocol support library for \"%1\" is not installed."
 msgstr ""
 
-#: importer/thumbnailpage.cpp:244
+#: importer/thumbnailpage.cpp:249
 #, kde-format
 msgctxt "@info:usagetip above install button"
 msgid ""
 "After finishing the installation process, restart this Importer to continue."
 msgstr ""
 
-#: importer/thumbnailpage.cpp:251
+#: importer/thumbnailpage.cpp:256
 #, kde-format
 msgctxt "@info:tooltip for a button, %1 protocol name"
 msgid "Launch Discover to install the protocol support library for \"%1\""
 msgstr ""
 
-#: importer/thumbnailpage.cpp:253
+#: importer/thumbnailpage.cpp:258
 #, kde-format
 msgctxt "@action:button"
 msgid "Install Support for this Camera…"
 msgstr ""
 
-#: importer/thumbnailpage.cpp:254
+#: importer/thumbnailpage.cpp:259
 #, kde-format
 msgctxt "@info:whatsthis for a button when Kamera is not installed"
 msgid ""
@@ -1884,13 +1897,13 @@ msgid ""
 "\"camera:/\" on your system."
 msgstr ""
 
-#: importer/thumbnailpage.cpp:257
+#: importer/thumbnailpage.cpp:262
 #, kde-format
 msgctxt "@action:button %1 protocol name"
 msgid "Install Protocol Support for \"%1\"…"
 msgstr ""
 
-#: importer/thumbnailpage.cpp:258
+#: importer/thumbnailpage.cpp:263
 #, kde-format
 msgctxt "@info:whatsthis for a button, %1 protocol name"
 msgid ""
@@ -1898,13 +1911,13 @@ msgid ""
 "library to enable the protocol support for \"%1:/\" on your system."
 msgstr ""
 
-#: importer/thumbnailpage.cpp:262
+#: importer/thumbnailpage.cpp:267
 #, kde-format
 msgctxt "@action:button %1 protocol name"
 msgid "Search the Web for How to Install Protocol Support for \"%1\"…"
 msgstr ""
 
-#: importer/thumbnailpage.cpp:278
+#: importer/thumbnailpage.cpp:283
 #, kde-format
 msgctxt ""
 "@info this text will be used as a search term in an online search engine, %1 "
@@ -1912,7 +1925,7 @@ msgctxt ""
 msgid "How to install protocol support for \"%1\" on Linux"
 msgstr ""
 
-#: importer/thumbnailpage.cpp:279
+#: importer/thumbnailpage.cpp:284
 #, kde-format
 msgctxt ""
 "search engine URL, %1 search keyword, and translators can replace duckduckgo "
@@ -1920,17 +1933,17 @@ msgctxt ""
 msgid "https://duckduckgo.com/?q=%1"
 msgstr ""
 
-#: importer/thumbnailpage.cpp:320
+#: importer/thumbnailpage.cpp:325
 #, kde-format
 msgid "Import Selected"
 msgstr ""
 
-#: importer/thumbnailpage.cpp:323
+#: importer/thumbnailpage.cpp:328
 #, kde-format
 msgid "Import All"
 msgstr ""
 
-#: importer/thumbnailpage.cpp:485
+#: importer/thumbnailpage.cpp:490
 #, kde-kuit-format
 msgctxt "@info when failing to open the appstream URL"
 msgid ""
@@ -1938,7 +1951,7 @@ msgid ""
 "system, or use your system's package manager to install \"Kamera\" package."
 msgstr ""
 
-#: importer/thumbnailpage.cpp:489
+#: importer/thumbnailpage.cpp:494
 #, kde-kuit-format
 msgctxt "@info when failing to launch plasma-discover, %1 protocol name"
 msgid ""

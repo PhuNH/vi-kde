@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: smb4k\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-17 00:44+0000\n"
+"POT-Creation-Date: 2022-07-09 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -43,37 +43,37 @@ msgstr ""
 msgid "The unmount process could not be started."
 msgstr ""
 
-#: smb4k/main.cpp:112 smb4k/smb4ksystemtray.cpp:55
+#: smb4k/main.cpp:43 smb4k/smb4ksystemtray.cpp:55
 #, kde-format
 msgid "Smb4K"
 msgstr ""
 
-#: smb4k/main.cpp:114
+#: smb4k/main.cpp:45
 #, kde-format
 msgid "Advanced network neighborhood browser and Samba share mounting utility"
 msgstr ""
 
-#: smb4k/main.cpp:116
+#: smb4k/main.cpp:47
 #, kde-format
-msgid "© 2003-2021 Alexander Reinholdt"
+msgid "© 2003-2022 Alexander Reinholdt"
 msgstr ""
 
-#: smb4k/main.cpp:125
+#: smb4k/main.cpp:56
 #, kde-format
 msgid "Alexander Reinholdt"
 msgstr ""
 
-#: smb4k/main.cpp:125
+#: smb4k/main.cpp:56
 #, kde-format
 msgid "Developer"
 msgstr ""
 
-#: smb4k/main.cpp:130
+#: smb4k/main.cpp:61
 #, kde-format
 msgid "Wolfgang Geisendörfer"
 msgstr ""
 
-#: smb4k/main.cpp:130
+#: smb4k/main.cpp:61
 #, kde-format
 msgid "Donator"
 msgstr ""
@@ -185,102 +185,58 @@ msgstr ""
 msgid "Enter the default login information."
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:44
+#: smb4k/smb4kconfigpageauthentication.cpp:43
 #: smb4k/smb4kconfigpageprofiles.cpp:34
 #, kde-format
 msgid "Settings"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:66
+#: smb4k/smb4kconfigpageauthentication.cpp:65
 #, kde-format
 msgid "Wallet Entries"
 msgstr ""
 
-#. i18n("Add"), walletEntriesWidget);
-#. addAction->setObjectName("AddAction");
-#. addAction->setEnabled(false);
-#. // FIXME: Connection
-#. qDebug() << "Make add action work";
-#. walletEntriesWidget->addAction(addAction);
-#.
-#. // Add Default action
-#. QAction *addDefaultAction = new QAction(KDE::icon("list-add"), i18n("Add Default"), walletEntriesWidget);
-#. addDefaultAction->setObjectName("AddDefaultAction");
-#. addDefaultAction->setEnabled(false);
-#. // FIXME: Connection
-#. qDebug() << "Make add default action work";
-#. walletEntriesWidget->addAction(addDefaultAction);
-#. Edit action
-#: smb4k/smb4kconfigpageauthentication.cpp:104
+#: smb4k/smb4kconfigpageauthentication.cpp:96
+#, kde-format
+msgid "Load"
+msgstr ""
+
+#: smb4k/smb4kconfigpageauthentication.cpp:106
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: smb4k/smb4kconfigpageauthentication.cpp:117
 #: smb4k/smb4kconfigpagecustomoptions.cpp:82
 #, kde-format
 msgid "Edit"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:111
+#: smb4k/smb4kconfigpageauthentication.cpp:127
 #: smb4k/smb4kconfigpagecustomoptions.cpp:87
 #, kde-format
 msgid "Remove"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:118
+#: smb4k/smb4kconfigpageauthentication.cpp:137
 #: smb4k/smb4knetworksearchtoolbar.cpp:108
 #, kde-format
 msgid "Clear"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:133
-#, kde-format
-msgid "Load"
-msgstr ""
-
-#: smb4k/smb4kconfigpageauthentication.cpp:135
-#, kde-format
-msgid ""
-"The login information that was stored by Smb4K will be loaded from the "
-"wallet."
-msgstr ""
-
-#: smb4k/smb4kconfigpageauthentication.cpp:146
-#, kde-format
-msgid "Save"
-msgstr ""
-
-#: smb4k/smb4kconfigpageauthentication.cpp:148
-#, kde-format
-msgid "All modifications you applied are saved to the wallet."
-msgstr ""
-
-#: smb4k/smb4kconfigpageauthentication.cpp:162
-#, kde-format
-msgid "Details"
-msgstr ""
-
-#: smb4k/smb4kconfigpageauthentication.cpp:229
-#: smb4k/smb4kconfigpageauthentication.cpp:354
-#: smb4k/smb4kconfigpageauthentication.cpp:454
-#: smb4k/smb4kconfigpageauthentication.cpp:478
-#: smb4k/smb4kconfigpageauthentication.cpp:573
+#: smb4k/smb4kconfigpageauthentication.cpp:205
 #, kde-format
 msgid "Default Login"
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:321
-#: smb4k/smb4kconfigpageauthentication.cpp:350
+#: smb4k/smb4kconfigpageauthentication.cpp:353
 #, kde-format
-msgid "Entry"
+msgid "Set the username and password for wallet entry %1."
 msgstr ""
 
-#: smb4k/smb4kconfigpageauthentication.cpp:329
-#: smb4k/smb4kconfigpageauthentication.cpp:358
+#: smb4k/smb4kconfigpageauthentication.cpp:355
 #, kde-format
-msgid "Username"
-msgstr ""
-
-#: smb4k/smb4kconfigpageauthentication.cpp:333
-#: smb4k/smb4kconfigpageauthentication.cpp:362
-#, kde-format
-msgid "Password"
+msgid "Set the username and password for the default login."
 msgstr ""
 
 #: smb4k/smb4kconfigpagecustomoptions.cpp:65

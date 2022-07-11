@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligraplan\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-17 00:44+0000\n"
+"POT-Creation-Date: 2022-07-08 00:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -29,12 +29,12 @@ msgid "Your emails"
 msgstr ""
 
 #: kernel/KPlatoXmlLoaderBase.cpp:1055 kernel/kptdocuments.cpp:279
-#: kernel/ProjectLoader_v0.cpp:1496
+#: kernel/ProjectLoader_v0.cpp:1474
 #, kde-format
 msgid "Document loaded, URL=%1"
 msgstr ""
 
-#: kernel/kptaccount.cpp:899 models/ResourceModel.cpp:408
+#: kernel/kptaccount.cpp:899 models/ResourceModel.cpp:429
 #, kde-format
 msgid "Account"
 msgstr ""
@@ -245,9 +245,9 @@ msgstr ""
 #: models/kptnodeitemmodel.cpp:777 models/kptresourceallocationmodel.cpp:878
 #: models/kptresourceallocationmodel.cpp:954
 #: models/kptschedulemodel.cpp:605 models/kpttreecombobox.cpp:110
-#: models/ResourceModel.cpp:187 models/ResourceModel.cpp:219
-#: models/ResourceModel.cpp:340 models/ResourceModel.cpp:344
-#: models/ResourceModel.cpp:353 ui/kptpertresult.cpp:130
+#: models/ResourceModel.cpp:208 models/ResourceModel.cpp:240
+#: models/ResourceModel.cpp:361 models/ResourceModel.cpp:365
+#: models/ResourceModel.cpp:374 ui/kptpertresult.cpp:130
 #: ui/kptpertresult.cpp:547 ui/kptresourcedialog.cpp:272
 #: ui/kptresourcedialog.cpp:299 ui/kpttaskcostpanel.cpp:36
 #: ui/kpttaskgeneralpanel.cpp:59 ui/kpttaskgeneralpanelbase.ui:386
@@ -258,7 +258,7 @@ msgid "None"
 msgstr ""
 
 #: kernel/kptnode.cpp:143 models/kptpertcpmmodel.cpp:421
-#: models/kptresourceappointmentsmodel.cpp:364
+#: models/kptresourceappointmentsmodel.cpp:375
 #: models/reportgenerator/ReportGeneratorOdt.cpp:159
 #: ui/reports/reportdata.cpp:941
 #, kde-format
@@ -598,7 +598,7 @@ msgstr ""
 msgid "Info"
 msgstr ""
 
-#: kernel/kptschedule.cpp:1573 main/KoMainWindow.cpp:1745
+#: kernel/kptschedule.cpp:1573 main/KoMainWindow.cpp:1757
 #, kde-format
 msgid "Warning"
 msgstr ""
@@ -795,28 +795,28 @@ msgctxt "@item:inlistbox resource type"
 msgid "Team"
 msgstr ""
 
-#: kernel/Resource.cpp:639
+#: kernel/Resource.cpp:651
 #, kde-format
 msgid "Make appointments: Invalid time"
 msgstr ""
 
-#: kernel/Resource.cpp:644 kernel/Resource.cpp:705 kernel/Resource.cpp:955
-#: kernel/Resource.cpp:1030
+#: kernel/Resource.cpp:656 kernel/Resource.cpp:717 kernel/Resource.cpp:967
+#: kernel/Resource.cpp:1042
 #, kde-format
 msgid "Resource %1 has no calendar defined"
 msgstr ""
 
-#: kernel/Resource.cpp:668
+#: kernel/Resource.cpp:680
 #, kde-format
 msgid "Make appointments: Node start time is not valid"
 msgstr ""
 
-#: kernel/Resource.cpp:672
+#: kernel/Resource.cpp:684
 #, kde-format
 msgid "Make appointments: Node end time is not valid"
 msgstr ""
 
-#: kernel/Resource.cpp:719 kernel/Resource.cpp:736
+#: kernel/Resource.cpp:731 kernel/Resource.cpp:748
 #, kde-format
 msgid "Resource %1 not available in interval: %2 to %3"
 msgstr ""
@@ -865,13 +865,13 @@ msgstr ""
 msgid "<empty>"
 msgstr ""
 
-#: kundo2/kundo2stack.cpp:1347 main/KoMainWindow.cpp:1561
+#: kundo2/kundo2stack.cpp:1347 main/KoMainWindow.cpp:1573
 #: main/KoUndoStackAction.cpp:34
 #, kde-format
 msgid "Redo"
 msgstr ""
 
-#: kundo2/kundo2stack.cpp:1366 main/KoMainWindow.cpp:1560
+#: kundo2/kundo2stack.cpp:1366 main/KoMainWindow.cpp:1572
 #: main/KoUndoStackAction.cpp:26
 #, kde-format
 msgid "Undo"
@@ -1376,12 +1376,12 @@ msgid ""
 "an old version."
 msgstr ""
 
-#: main/KoDocument.cpp:2039 main/KoDocument.cpp:2532 main/KoMainWindow.cpp:1230
+#: main/KoDocument.cpp:2039 main/KoDocument.cpp:2532 main/KoMainWindow.cpp:1242
 #, kde-format
 msgid "Untitled"
 msgstr ""
 
-#: main/KoDocument.cpp:2042 main/KoMainWindow.cpp:1233
+#: main/KoDocument.cpp:2042 main/KoMainWindow.cpp:1245
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
@@ -1552,7 +1552,7 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: main/KoMainWindow.cpp:706 main/KoMainWindow.cpp:723
+#: main/KoMainWindow.cpp:706 main/KoMainWindow.cpp:734
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1561,90 +1561,90 @@ msgid ""
 "Project Template...</interface>."
 msgstr ""
 
-#: main/KoMainWindow.cpp:869 widgets/KoDocumentInfoDlg.cpp:395
+#: main/KoMainWindow.cpp:880 widgets/KoDocumentInfoDlg.cpp:395
 #: widgets/KoDocumentInfoDlg.cpp:439
 #, kde-format
 msgid "%1 (unknown file type)"
 msgstr ""
 
-#: main/KoMainWindow.cpp:877
+#: main/KoMainWindow.cpp:888
 #, kde-format
 msgid ""
 "<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still "
 "want to save in this format?</qt>"
 msgstr ""
 
-#: main/KoMainWindow.cpp:880
+#: main/KoMainWindow.cpp:891
 #, kde-format
 msgid "Confirm Save"
 msgstr ""
 
-#: main/KoMainWindow.cpp:889
+#: main/KoMainWindow.cpp:900
 #, kde-format
 msgid ""
 "<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you still "
 "want to export to this format?</qt>"
 msgstr ""
 
-#: main/KoMainWindow.cpp:892
+#: main/KoMainWindow.cpp:903
 #, kde-format
 msgid "Confirm Export"
 msgstr ""
 
-#: main/KoMainWindow.cpp:893 ui/reports/reportview.cpp:381
+#: main/KoMainWindow.cpp:904 ui/reports/reportview.cpp:381
 #: ui/reports/reportview.cpp:401 ui/reports/reportview.cpp:423
 #, kde-format
 msgid "Export"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1010
+#: main/KoMainWindow.cpp:1022
 #, kde-format
 msgid "untitled"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1302 main/WelcomeView.cpp:274
+#: main/KoMainWindow.cpp:1314 main/WelcomeView.cpp:274
 #, kde-format
 msgid "Open Document"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1311
+#: main/KoMainWindow.cpp:1323
 #, kde-format
 msgid "Import Document"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1501
+#: main/KoMainWindow.cpp:1513
 #, kde-format
 msgid "Export as PDF"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1538
+#: main/KoMainWindow.cpp:1550
 #, kde-format
 msgid "Cannot export to the specified file"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1714
+#: main/KoMainWindow.cpp:1726
 #, kde-format
 msgid "Document"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1722
+#: main/KoMainWindow.cpp:1734
 #, kde-format
 msgid "Document - %1"
 msgstr ""
 
-#: main/KoMainWindow.cpp:1743
+#: main/KoMainWindow.cpp:1755
 #, kde-format
 msgid ""
 "You will lose all changes made since your last save\n"
 "Do you want to continue?"
 msgstr ""
 
-#: main/KoMainWindow.cpp:2103
+#: main/KoMainWindow.cpp:2115
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr ""
 
-#: main/KoMainWindow.cpp:2105
+#: main/KoMainWindow.cpp:2117
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr ""
@@ -1917,12 +1917,12 @@ msgstr[1] ""
 #: models/GroupAllocationItemModel.cpp:171
 #: models/kptaccountsmodel.cpp:112 models/kptaccountsmodel.cpp:1054
 #: models/kptdocumentmodel.cpp:187 models/kptresourceallocationmodel.cpp:526
-#: models/kptresourceappointmentsmodel.cpp:742
-#: models/kptresourceappointmentsmodel.cpp:757
-#: models/kptresourceappointmentsmodel.cpp:1171
+#: models/kptresourceappointmentsmodel.cpp:753
+#: models/kptresourceappointmentsmodel.cpp:768
+#: models/kptresourceappointmentsmodel.cpp:1167
 #: models/kptschedulemodel.cpp:978 models/kptschedulemodel.cpp:1301
 #: models/reportgenerator/ReportGeneratorOdt.cpp:179
-#: models/ResourceGroupModel.cpp:190 models/ResourceModel.cpp:397
+#: models/ResourceGroupModel.cpp:190 models/ResourceModel.cpp:418
 #: ui/projectview/ProjectView.cpp:40 ui/reportsgenerator/ReportsGeneratorView.cpp:208
 #, kde-format
 msgid "Name"
@@ -1931,8 +1931,8 @@ msgstr ""
 #: models/GroupAllocationItemModel.cpp:172
 #: models/kptdocumentmodel.cpp:188 models/kptrelationmodel.cpp:125
 #: models/kptresourceallocationmodel.cpp:527
-#: models/kptresourceappointmentsmodel.cpp:1172
-#: models/ResourceGroupModel.cpp:192 models/ResourceModel.cpp:399
+#: models/kptresourceappointmentsmodel.cpp:1168
+#: models/ResourceGroupModel.cpp:192 models/ResourceModel.cpp:420
 #, kde-format
 msgid "Type"
 msgstr ""
@@ -2104,7 +2104,7 @@ msgstr[1] ""
 msgid "Actual total cost: %1, planned total cost: %2"
 msgstr ""
 
-#: models/kptaccountsmodel.cpp:1056 models/kptresourceappointmentsmodel.cpp:743
+#: models/kptaccountsmodel.cpp:1056 models/kptresourceappointmentsmodel.cpp:754
 #, kde-format
 msgid "Total"
 msgstr ""
@@ -2119,9 +2119,21 @@ msgstr ""
 msgid "Actual"
 msgstr ""
 
-#: models/kptaccountsmodel.cpp:1120
+#: models/kptaccountsmodel.cpp:1070
+#, kde-format
+msgctxt "@title:column week-year"
+msgid "%1-%2"
+msgstr ""
+
+#: models/kptaccountsmodel.cpp:1123
 #, kde-format
 msgid "The total cost for the account shown as: Actual cost [ Planned cost ]"
+msgstr ""
+
+#: models/kptaccountsmodel.cpp:1136
+#, kde-format
+msgctxt "@info:tooltip week-year"
+msgid "Week %1-%2"
 msgstr ""
 
 #: models/kptcalendarmodel.cpp:289
@@ -4491,60 +4503,60 @@ msgctxt "@info:tooltip"
 msgid "Team resources cannot have required resources"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:578
+#: models/kptresourceappointmentsmodel.cpp:589
 #, kde-format
 msgid "The total booking on %1, along with the maximum hours for the resource"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:612
+#: models/kptresourceappointmentsmodel.cpp:623
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1: %2<nl/>%3: %4<nl/>Timezone: %5<nl/>Available: %6"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:663
+#: models/kptresourceappointmentsmodel.cpp:674
 #, kde-format
 msgid "Booking by this task on %1"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:758
+#: models/kptresourceappointmentsmodel.cpp:769
 #, kde-format
 msgid "The total hours booked"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:762
+#: models/kptresourceappointmentsmodel.cpp:773
 #, kde-format
 msgid "Bookings on %1"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:924
+#: models/kptresourceappointmentsmodel.cpp:920
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1: %2<nl/>%3: %4<nl/>Timezone: %5"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:958
+#: models/kptresourceappointmentsmodel.cpp:954
 #, kde-format
 msgid "Interval"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:969
+#: models/kptresourceappointmentsmodel.cpp:965
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "%1: %2<nl/>%3: %4<nl/>Timezone: %5<nl/>Assigned: %6<nl/>Available: %7"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:1173
+#: models/kptresourceappointmentsmodel.cpp:1169
 #, kde-format
 msgid "Start Time"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:1174
+#: models/kptresourceappointmentsmodel.cpp:1170
 #, kde-format
 msgid "End Time"
 msgstr ""
 
-#: models/kptresourceappointmentsmodel.cpp:1175
+#: models/kptresourceappointmentsmodel.cpp:1171
 #, kde-kuit-format
 msgctxt "@title:column noun"
 msgid "Load"
@@ -5047,7 +5059,7 @@ msgctxt "(qtundo-format)"
 msgid "Modify resourcegroup coordinator"
 msgstr ""
 
-#: models/ResourceGroupItemModel.cpp:604 models/ResourceItemModel.cpp:854
+#: models/ResourceGroupItemModel.cpp:604 models/ResourceItemModel.cpp:885
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Add resource from address book"
@@ -5055,7 +5067,7 @@ msgid_plural "Add %1 resources from address book"
 msgstr[0] ""
 msgstr[1] ""
 
-#: models/ResourceGroupItemModel.cpp:666 models/ResourceItemModel.cpp:917
+#: models/ResourceGroupItemModel.cpp:666 models/ResourceItemModel.cpp:948
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Move resource"
@@ -5063,7 +5075,7 @@ msgid_plural "Move %1 resources"
 msgstr[0] ""
 msgstr[1] ""
 
-#: models/ResourceGroupItemModel.cpp:686 models/ResourceItemModel.cpp:937
+#: models/ResourceGroupItemModel.cpp:686 models/ResourceItemModel.cpp:968
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Copy resource"
@@ -5076,7 +5088,7 @@ msgctxt "(qtundo-format)"
 msgid "Add resource group"
 msgstr ""
 
-#: models/ResourceGroupItemModel.cpp:798 models/ResourceItemModel.cpp:1035
+#: models/ResourceGroupItemModel.cpp:798 models/ResourceItemModel.cpp:1066
 msgctxt "(qtundo-format)"
 msgid "Add resource"
 msgstr ""
@@ -5107,7 +5119,7 @@ msgid ""
 "this project"
 msgstr ""
 
-#: models/ResourceGroupModel.cpp:191 models/ResourceModel.cpp:398
+#: models/ResourceGroupModel.cpp:191 models/ResourceModel.cpp:419
 #, kde-format
 msgid "Origin"
 msgstr ""
@@ -5122,62 +5134,62 @@ msgstr ""
 msgid "Coordinator"
 msgstr ""
 
-#: models/ResourceItemModel.cpp:407
+#: models/ResourceItemModel.cpp:422
 msgctxt "(qtundo-format)"
 msgid "Modify resource name"
 msgstr ""
 
-#: models/ResourceItemModel.cpp:410
+#: models/ResourceItemModel.cpp:425
 msgctxt "(qtundo-format)"
 msgid "Modify resource auto allocate"
 msgstr ""
 
-#: models/ResourceItemModel.cpp:430
+#: models/ResourceItemModel.cpp:445
 msgctxt "(qtundo-format)"
 msgid "Modify resource type"
 msgstr ""
 
-#: models/ResourceItemModel.cpp:444
+#: models/ResourceItemModel.cpp:459
 msgctxt "(qtundo-format)"
 msgid "Modify resource initials"
 msgstr ""
 
-#: models/ResourceItemModel.cpp:457
+#: models/ResourceItemModel.cpp:472
 msgctxt "(qtundo-format)"
 msgid "Modify resource email"
 msgstr ""
 
-#: models/ResourceItemModel.cpp:478
+#: models/ResourceItemModel.cpp:493
 msgctxt "(qtundo-format)"
 msgid "Modify resource calendar"
 msgstr ""
 
-#: models/ResourceItemModel.cpp:493
+#: models/ResourceItemModel.cpp:508
 msgctxt "(qtundo-format)"
 msgid "Modify resource available units"
 msgstr ""
 
-#: models/ResourceItemModel.cpp:506
+#: models/ResourceItemModel.cpp:521
 msgctxt "(qtundo-format)"
 msgid "Modify resource available from"
 msgstr ""
 
-#: models/ResourceItemModel.cpp:519
+#: models/ResourceItemModel.cpp:534
 msgctxt "(qtundo-format)"
 msgid "Modify resource available until"
 msgstr ""
 
-#: models/ResourceItemModel.cpp:532
+#: models/ResourceItemModel.cpp:547
 msgctxt "(qtundo-format)"
 msgid "Modify resource normal rate"
 msgstr ""
 
-#: models/ResourceItemModel.cpp:545
+#: models/ResourceItemModel.cpp:560
 msgctxt "(qtundo-format)"
 msgid "Modify resource overtime rate"
 msgstr ""
 
-#: models/ResourceItemModel.cpp:567
+#: models/ResourceItemModel.cpp:582
 msgctxt "(qtundo-format)"
 msgid "Modify resource account"
 msgstr ""
@@ -5204,105 +5216,123 @@ msgid ""
 "project"
 msgstr ""
 
-#: models/ResourceModel.cpp:195 models/ResourceModel.cpp:221
+#: models/ResourceModel.cpp:140
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Team: No team members"
+msgstr ""
+
+#: models/ResourceModel.cpp:142
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Team: %1"
+msgstr ""
+
+#: models/ResourceModel.cpp:150
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Required: %1"
+msgstr ""
+
+#: models/ResourceModel.cpp:216 models/ResourceModel.cpp:242
 #, kde-format
 msgctxt "Default (calendar name)"
 msgid "Default (%1)"
 msgstr ""
 
-#: models/ResourceModel.cpp:202
+#: models/ResourceModel.cpp:223
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "A team resource does not have a calendar"
 msgstr ""
 
-#: models/ResourceModel.cpp:204
+#: models/ResourceModel.cpp:225
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid "No calendar"
 msgstr ""
 
-#: models/ResourceModel.cpp:212
+#: models/ResourceModel.cpp:233
 #, kde-kuit-format
 msgctxt "@info:tooltip 1=calendar name"
 msgid "Using default calendar: %1"
 msgstr ""
 
-#: models/ResourceModel.cpp:266
+#: models/ResourceModel.cpp:287
 #, kde-kuit-format
 msgctxt "infor:tooltip"
 msgid "Available from: %1"
 msgstr ""
 
-#: models/ResourceModel.cpp:268
+#: models/ResourceModel.cpp:289
 #, kde-kuit-format
 msgctxt "infor:tooltip"
 msgid "Available from project target start time: %1"
 msgstr ""
 
-#: models/ResourceModel.cpp:288
+#: models/ResourceModel.cpp:309
 #, kde-kuit-format
 msgctxt "infor:tooltip"
 msgid "Available until: %1"
 msgstr ""
 
-#: models/ResourceModel.cpp:290
+#: models/ResourceModel.cpp:311
 #, kde-kuit-format
 msgctxt "infor:tooltip"
 msgid "Available until project target finish time: %1"
 msgstr ""
 
-#: models/ResourceModel.cpp:309
+#: models/ResourceModel.cpp:330
 #, kde-format
 msgid "Cost per hour, normal time: %1"
 msgstr ""
 
-#: models/ResourceModel.cpp:327
+#: models/ResourceModel.cpp:348
 #, kde-format
 msgid "Cost per hour, overtime: %1"
 msgstr ""
 
-#: models/ResourceModel.cpp:344
+#: models/ResourceModel.cpp:365
 #, kde-format
 msgid "Account: %1"
 msgstr ""
 
-#: models/ResourceModel.cpp:400
+#: models/ResourceModel.cpp:421
 #, kde-format
 msgid "Initials"
 msgstr ""
 
-#: models/ResourceModel.cpp:401
+#: models/ResourceModel.cpp:422
 #, kde-format
 msgid "Email"
 msgstr ""
 
-#: models/ResourceModel.cpp:402
+#: models/ResourceModel.cpp:423
 #, kde-format
 msgid "Calendar"
 msgstr ""
 
-#: models/ResourceModel.cpp:403
+#: models/ResourceModel.cpp:424
 #, kde-format
 msgid "Limit (%)"
 msgstr ""
 
-#: models/ResourceModel.cpp:404
+#: models/ResourceModel.cpp:425
 #, kde-format
 msgid "Available From"
 msgstr ""
 
-#: models/ResourceModel.cpp:405
+#: models/ResourceModel.cpp:426
 #, kde-format
 msgid "Available Until"
 msgstr ""
 
-#: models/ResourceModel.cpp:406
+#: models/ResourceModel.cpp:427
 #, kde-format
 msgid "Normal Rate"
 msgstr ""
 
-#: models/ResourceModel.cpp:407
+#: models/ResourceModel.cpp:428
 #, kde-format
 msgid "Overtime Rate"
 msgstr ""
@@ -6155,7 +6185,7 @@ msgid "Add Subcalendar"
 msgstr ""
 
 #: ui/kptcalendareditor.cpp:595 ui/kptdependencyeditor.cpp:2408
-#: ui/kptresourceeditor.cpp:298 ui/kptscheduleeditor.cpp:304
+#: ui/kptresourceeditor.cpp:302 ui/kptscheduleeditor.cpp:304
 #: ui/kpttaskeditor.cpp:922 ui/ResourceGroupEditor.cpp:291
 #, kde-kuit-format
 msgctxt "@action"
@@ -7063,7 +7093,7 @@ msgctxt "(qtundo-format)"
 msgid "Modify Resource"
 msgstr ""
 
-#: ui/kptresourceeditor.cpp:140
+#: ui/kptresourceeditor.cpp:139
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -7076,36 +7106,54 @@ msgid ""
 "Vacation Editor</emphasis>.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptresourceeditor.cpp:293
+#: ui/kptresourceeditor.cpp:297
 #, kde-format
 msgid "Add Resource"
 msgstr ""
 
-#: ui/kptresourceeditor.cpp:303
+#: ui/kptresourceeditor.cpp:307
 #, kde-format
 msgid "Edit Resource..."
 msgstr ""
 
-#: ui/kptresourceeditor.cpp:370
+#: ui/kptresourceeditor.cpp:311
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Resource Groups"
+msgstr ""
+
+#: ui/kptresourceeditor.cpp:317
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Team Members"
+msgstr ""
+
+#: ui/kptresourceeditor.cpp:325
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Required Resources"
+msgstr ""
+
+#: ui/kptresourceeditor.cpp:396
 #, kde-format
 msgid ""
 "A resource that has been scheduled will be deleted. This will invalidate the "
 "schedule."
 msgstr ""
 
-#: ui/kptresourceeditor.cpp:390
+#: ui/kptresourceeditor.cpp:416
 msgctxt "(qtundo-format)"
 msgid "Delete resource"
 msgid_plural "Delete resources"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/kptresourceeditor.cpp:397
+#: ui/kptresourceeditor.cpp:423
 msgctxt "(qtundo-format) @action"
 msgid "Delete resource"
 msgstr ""
 
-#: ui/kptresourceeditor.cpp:460
+#: ui/kptresourceeditor.cpp:486
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Resource Groups"

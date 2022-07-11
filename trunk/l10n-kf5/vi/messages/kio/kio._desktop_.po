@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-30 00:55+0000\n"
+"POT-Creation-Date: 2022-07-11 00:56+0000\n"
 "PO-Revision-Date: 2022-05-23 09:52+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -26,7 +26,7 @@ msgctxt "Name"
 msgid "Execute action as root."
 msgstr "Thực thi hành động với vai trò người dùng gốc."
 
-#: src/ioslaves/file/kauth/file.actions:49
+#: src/ioslaves/file/kauth/file.actions:51
 msgctxt "Description"
 msgid "Root privileges are required to complete the action."
 msgstr "Cần có đặc quyền gốc để hoàn tất hành động."
@@ -36,7 +36,7 @@ msgctxt "Name"
 msgid "HTTP Cache Cleaner"
 msgstr "Trình làm sạch bộ nhớ sẵn HTTP"
 
-#: src/ioslaves/http/http_cache_cleaner.desktop:66
+#: src/ioslaves/http/http_cache_cleaner.desktop:67
 msgctxt "Comment"
 msgid "Cleans up old entries from the HTTP cache"
 msgstr "Dọn dẹp các mục cũ khỏi bộ nhớ sẵn HTTP"
@@ -82,12 +82,12 @@ msgctxt "Name"
 msgid "Cookies"
 msgstr "Bánh quy"
 
-#: src/kcms/cookies/cookies.desktop:69
+#: src/kcms/cookies/cookies.desktop:71
 msgctxt "Comment"
 msgid "Configure the way cookies work"
 msgstr "Cấu hình cách bánh quy hoạt động"
 
-#: src/kcms/cookies/cookies.desktop:161
+#: src/kcms/cookies/cookies.desktop:163
 msgctxt "X-KDE-Keywords"
 msgid "Cookies,Browsing,Internet,WWW,Network,Policy,Domains"
 msgstr ""
@@ -135,7 +135,7 @@ msgctxt "Comment"
 msgid "Credentials used to access SMB shares"
 msgstr "Thông tin dùng để truy cập các chia sẻ bằng SMB"
 
-#: src/kcms/smb/smb.desktop:154
+#: src/kcms/smb/smb.desktop:155
 msgctxt "X-KDE-Keywords"
 msgid ""
 "SMB,SAMBA,SMB client,Windows network,LAN,Network,neighborhood,Server,"
@@ -150,12 +150,12 @@ msgctxt "Name"
 msgid "Web Search Keywords"
 msgstr "Từ khoá tìm kiếm web"
 
-#: src/kcms/webshortcuts/webshortcuts.desktop:58
+#: src/kcms/webshortcuts/webshortcuts.desktop:60
 msgctxt "Comment"
 msgid "Configure web search keywords"
 msgstr "Cấu hình từ khoá tìm kiếm web"
 
-#: src/kcms/webshortcuts/webshortcuts.desktop:102
+#: src/kcms/webshortcuts/webshortcuts.desktop:106
 msgctxt "X-KDE-Keywords"
 msgid ""
 "Web Search Keywords,Web Search,Search,Keyword,Web Shortcuts,Browsing,WWW,"
@@ -171,32 +171,32 @@ msgctxt "Comment"
 msgid "Network Proxy Configuration"
 msgstr "Cấu hình uỷ nhiệm mạng"
 
-#: src/kpac/proxyscout.notifyrc:63
+#: src/kpac/proxyscout.notifyrc:64
 msgctxt "Name"
 msgid "Invalid Proxy Script"
 msgstr "Kịch bản uỷ nhiệm không hợp lệ"
 
-#: src/kpac/proxyscout.notifyrc:122
+#: src/kpac/proxyscout.notifyrc:124
 msgctxt "Comment"
 msgid "The downloaded proxy configuration script is invalid"
 msgstr "Kịch bản cấu hình uỷ nhiệm đã tải về không hợp lệ"
 
-#: src/kpac/proxyscout.notifyrc:185
+#: src/kpac/proxyscout.notifyrc:188
 msgctxt "Name"
 msgid "Script Download Error"
 msgstr "Lỗi tải về kịch bản"
 
-#: src/kpac/proxyscout.notifyrc:244
+#: src/kpac/proxyscout.notifyrc:248
 msgctxt "Comment"
 msgid "The proxy configuration script could not be downloaded"
 msgstr "Không tải về được kịch bản cấu hình uỷ nhiệm"
 
-#: src/kpac/proxyscout.notifyrc:308
+#: src/kpac/proxyscout.notifyrc:313
 msgctxt "Name"
 msgid "Script Evaluation Error"
 msgstr "Lỗi đánh giá kịch bản"
 
-#: src/kpac/proxyscout.notifyrc:366
+#: src/kpac/proxyscout.notifyrc:372
 msgctxt "Comment"
 msgid "There was an error executing the proxy configuration script"
 msgstr "Có một lỗi khi thực thi kịch bản cấu hình uỷ nhiệm"
@@ -210,6 +210,20 @@ msgstr "Thư mục..."
 msgctxt "Comment"
 msgid "Enter folder name:"
 msgstr "Nhập tên thư mục:"
+
+#: src/new_file_templates/EmptyFile.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Text File..."
+msgctxt "Name"
+msgid "Empty File..."
+msgstr "Tệp văn bản..."
+
+#: src/new_file_templates/EmptyFile.desktop:21
+#: src/new_file_templates/TextFile.desktop:92
+msgctxt "Comment"
+msgid "Enter text filename:"
+msgstr "Nhập tên tệp văn bản:"
 
 #: src/new_file_templates/HTMLFile.desktop:2
 msgctxt "Name"
@@ -226,7 +240,7 @@ msgctxt "Name"
 msgid "Link to File or Directory..."
 msgstr "Liên kết đến tệp hoặc thư mục..."
 
-#: src/new_file_templates/linkPath.desktop:43
+#: src/new_file_templates/linkPath.desktop:45
 msgctxt "Comment"
 msgid "File or directory to link to:"
 msgstr "Tệp hoặc thư mục để liên kết đến:"
@@ -255,11 +269,6 @@ msgstr "Địa điểm URL để liên kết đến:"
 msgctxt "Name"
 msgid "Text File..."
 msgstr "Tệp văn bản..."
-
-#: src/new_file_templates/TextFile.desktop:92
-msgctxt "Comment"
-msgid "Enter text filename:"
-msgstr "Nhập tên tệp văn bản:"
 
 #: src/urifilters/ikws/searchprovider.desktop:4
 msgctxt "Comment"
@@ -331,7 +340,7 @@ msgctxt "Name"
 msgid "Arch Linux Package Search"
 msgstr "Tìm kiếm gói Arch Linux"
 
-#: src/urifilters/ikws/searchproviders/archpkg.desktop:54
+#: src/urifilters/ikws/searchproviders/archpkg.desktop:56
 msgctxt "Query"
 msgid "https://www.archlinux.org/packages/?q=\\\\{@}"
 msgstr "https://www.archlinux.org/packages/?q=\\\\{@}"
@@ -341,7 +350,7 @@ msgctxt "Name"
 msgid "ArchWiki"
 msgstr "ArchWiki"
 
-#: src/urifilters/ikws/searchproviders/archwiki.desktop:46
+#: src/urifilters/ikws/searchproviders/archwiki.desktop:48
 msgctxt "Query"
 msgid "https://wiki.archlinux.org/index.php?search=\\\\{@}"
 msgstr "https://wiki.archlinux.org/index.php?search=\\\\{@}"
@@ -401,7 +410,7 @@ msgctxt "Name"
 msgid "KDE Bugs"
 msgstr "Lỗi KDE"
 
-#: src/urifilters/ikws/searchproviders/bug.desktop:45
+#: src/urifilters/ikws/searchproviders/bug.desktop:47
 msgctxt "Query"
 msgid "https://bugs.kde.org/buglist.cgi?quicksearch=\\\\{@}"
 msgstr "https://bugs.kde.org/buglist.cgi?quicksearch=\\\\{@}"
@@ -461,7 +470,7 @@ msgctxt "Name"
 msgid "CPlusPlus"
 msgstr "CPlusPlus"
 
-#: src/urifilters/ikws/searchproviders/cplusplus.desktop:32
+#: src/urifilters/ikws/searchproviders/cplusplus.desktop:36
 msgctxt "Query"
 msgid "http://cplusplus.com/search.do?q=\\\\{@}"
 msgstr "http://cplusplus.com/search.do?q=\\\\{@}"
@@ -471,7 +480,7 @@ msgctxt "Name"
 msgid "CPP Reference"
 msgstr "CPP Reference"
 
-#: src/urifilters/ikws/searchproviders/cppreference.desktop:32
+#: src/urifilters/ikws/searchproviders/cppreference.desktop:36
 msgctxt "Query"
 msgid "https://cppreference.com/w/?search=\\\\{@}"
 msgstr "https://cppreference.com/w/?search=\\\\{@}"
@@ -547,7 +556,7 @@ msgctxt "Name"
 msgid "DeepL"
 msgstr "DeepL"
 
-#: src/urifilters/ikws/searchproviders/deepl.desktop:46
+#: src/urifilters/ikws/searchproviders/deepl.desktop:48
 msgctxt "Query"
 msgid "https://www.deepl.com/translator#any/any/\\\\{@}"
 msgstr "https://www.deepl.com/translator#any/any/\\\\{@}"
@@ -694,7 +703,7 @@ msgctxt "Name"
 msgid "Flatpak Documentation"
 msgstr "Tài liệu Flatpak"
 
-#: src/urifilters/ikws/searchproviders/flatpak.desktop:31
+#: src/urifilters/ikws/searchproviders/flatpak.desktop:35
 msgctxt "Query"
 msgid ""
 "https://docs.flatpak.org/en/latest/search.html?q=\\\\{@}"
@@ -793,7 +802,7 @@ msgctxt "Name"
 msgid "GitLab"
 msgstr "GitLab"
 
-#: src/urifilters/ikws/searchproviders/gitlab.desktop:51
+#: src/urifilters/ikws/searchproviders/gitlab.desktop:53
 msgctxt "Query"
 msgid "https://gitlab.com/search?search=\\\\{@}"
 msgstr "https://gitlab.com/search?search=\\\\{@}"
@@ -919,7 +928,7 @@ msgctxt "Name"
 msgid "Great Dictionary of the Catalan Language (GRan Enciclopèdia Catalana)"
 msgstr "Đại từ điển tiếng Catalan (GRan Enciclopèdia Catalana)"
 
-#: src/urifilters/ikws/searchproviders/grec.desktop:54
+#: src/urifilters/ikws/searchproviders/grec.desktop:55
 msgctxt "Query"
 msgid "http://ec.grec.net/cgi-bin/AppDLC3.exe?APP=CERCADLC&GECART=\\\\{@}"
 msgstr "http://ec.grec.net/cgi-bin/AppDLC3.exe?APP=CERCADLC&GECART=\\\\{@}"
@@ -989,7 +998,7 @@ msgctxt "Name"
 msgid "KDE Invent"
 msgstr "Invent KDE"
 
-#: src/urifilters/ikws/searchproviders/invent.desktop:39
+#: src/urifilters/ikws/searchproviders/invent.desktop:42
 msgctxt "Query"
 msgid "https://invent.kde.org/search?search=\\\\{@}"
 msgstr "https://invent.kde.org/search?search=\\\\{@}"
@@ -999,7 +1008,7 @@ msgctxt "Name"
 msgid "KDE Invent Issues"
 msgstr "Các vấn đề ở Invent KDE"
 
-#: src/urifilters/ikws/searchproviders/invent_issues.desktop:31
+#: src/urifilters/ikws/searchproviders/invent_issues.desktop:34
 msgctxt "Query"
 msgid "https://invent.kde.org/search?scope=issues&search=\\\\{@}"
 msgstr "https://invent.kde.org/search?scope=issues&search=\\\\{@}"
@@ -1009,7 +1018,7 @@ msgctxt "Name"
 msgid "KDE Invent Merge Requests"
 msgstr "Các đề nghị hoà trộn ở Invent KDE"
 
-#: src/urifilters/ikws/searchproviders/invent_mr.desktop:29
+#: src/urifilters/ikws/searchproviders/invent_mr.desktop:31
 msgctxt "Query"
 msgid "https://invent.kde.org/search?scope=merge_requests&search=\\\\{@}"
 msgstr "https://invent.kde.org/search?scope=merge_requests&search=\\\\{@}"
@@ -1019,7 +1028,7 @@ msgctxt "Name"
 msgid "KDE Invent Repositories"
 msgstr "Các kho ở Invent KDE"
 
-#: src/urifilters/ikws/searchproviders/invent_repo.desktop:38
+#: src/urifilters/ikws/searchproviders/invent_repo.desktop:39
 msgctxt "Query"
 msgid "https://invent.kde.org/explore/projects/starred?name=\\\\{@}"
 msgstr "https://invent.kde.org/explore/projects/starred?name=\\\\{@}"
@@ -1097,7 +1106,7 @@ msgctxt "Name"
 msgid "KDE Store"
 msgstr "Cửa hàng KDE"
 
-#: src/urifilters/ikws/searchproviders/kde_store.desktop:32
+#: src/urifilters/ikws/searchproviders/kde_store.desktop:35
 msgctxt "Query"
 msgid "https://store.kde.org/content/search.php?search=Search&name=\\\\{@}"
 msgstr "https://store.kde.org/content/search.php?search=Search&name=\\\\{@}"
@@ -1127,7 +1136,7 @@ msgctxt "Name"
 msgid "KDE Reddit"
 msgstr "Reddit KDE"
 
-#: src/urifilters/ikws/searchproviders/kreddit.desktop:31
+#: src/urifilters/ikws/searchproviders/kreddit.desktop:34
 msgctxt "Query"
 msgid "https://www.reddit.com/r/kde/search/?q=\\\\{@}&restrict_sr=1"
 msgstr "https://www.reddit.com/r/kde/search/?q=\\\\{@}&restrict_sr=1"
@@ -1137,7 +1146,7 @@ msgctxt "Name"
 msgid "Krita Manual"
 msgstr "Sổ tay Krita"
 
-#: src/urifilters/ikws/searchproviders/krita.desktop:31
+#: src/urifilters/ikws/searchproviders/krita.desktop:33
 msgctxt "Query"
 msgid "https://docs.krita.org/en/search.html?q=\\\\{@}"
 msgstr "https://docs.krita.org/en/search.html?q=\\\\{@}"
@@ -1147,7 +1156,7 @@ msgctxt "Name"
 msgid "Learn CPP"
 msgstr "Learn CPP"
 
-#: src/urifilters/ikws/searchproviders/learncpp.desktop:31
+#: src/urifilters/ikws/searchproviders/learncpp.desktop:34
 msgctxt "Query"
 msgid "https://www.learncpp.com/gsearch/?q=\\\\{@}"
 msgstr "https://www.learncpp.com/gsearch/?q=\\\\{@}"
@@ -1167,7 +1176,7 @@ msgctxt "Name"
 msgid "Linguee"
 msgstr "Linguee"
 
-#: src/urifilters/ikws/searchproviders/linguee.desktop:31
+#: src/urifilters/ikws/searchproviders/linguee.desktop:33
 msgctxt "Query"
 msgid "https://www.linguee.com/search?source=auto&query=\\\\{@}"
 msgstr "https://www.linguee.com/search?source=auto&query=\\\\{@}"
@@ -1198,7 +1207,7 @@ msgctxt "Name"
 msgid "Microsoft C++ Documentation"
 msgstr "Tài liệu C++ Microsoft"
 
-#: src/urifilters/ikws/searchproviders/microsoft_cpp.desktop:31
+#: src/urifilters/ikws/searchproviders/microsoft_cpp.desktop:34
 msgctxt "Query"
 msgid "https://docs.microsoft.com/search/?terms=\\\\{@}&scope=C%2B%2B"
 msgstr "https://docs.microsoft.com/search/?terms=\\\\{@}&scope=C%2B%2B"
@@ -1324,7 +1333,7 @@ msgctxt "Name"
 msgid "openSUSE Software"
 msgstr "Phần mềm openSUSE"
 
-#: src/urifilters/ikws/searchproviders/opensuse.desktop:30
+#: src/urifilters/ikws/searchproviders/opensuse.desktop:34
 msgctxt "Query"
 msgid "https://software.opensuse.org/search?utf8=%E2%9C%93&q=\\\\{@}"
 msgstr "https://software.opensuse.org/search?utf8=%E2%9C%93&q=\\\\{@}"
@@ -1354,7 +1363,7 @@ msgctxt "Name"
 msgid "ProtonDB"
 msgstr "ProtonDB"
 
-#: src/urifilters/ikws/searchproviders/protondb.desktop:31
+#: src/urifilters/ikws/searchproviders/protondb.desktop:35
 msgctxt "Query"
 msgid "https://www.protondb.com/search?q=\\\\{@}"
 msgstr "https://www.protondb.com/search?q=\\\\{@}"
@@ -1378,7 +1387,7 @@ msgctxt "Name"
 msgid "Qt5 Online Documentation"
 msgstr "Tài liệu trực tuyến Qt5"
 
-#: src/urifilters/ikws/searchproviders/qt5.desktop:32
+#: src/urifilters/ikws/searchproviders/qt5.desktop:36
 msgctxt "Query"
 msgid "https://doc.qt.io/qt-5/search-results.html?q=\\\\{@}"
 msgstr "https://doc.qt.io/qt-5/search-results.html?q=\\\\{@}"
@@ -1388,7 +1397,7 @@ msgctxt "Name"
 msgid "Qt6 Online Documentation"
 msgstr "Tài liệu trực tuyến Qt6"
 
-#: src/urifilters/ikws/searchproviders/qt6.desktop:32
+#: src/urifilters/ikws/searchproviders/qt6.desktop:36
 msgctxt "Query"
 msgid "https://doc.qt.io/qt-6/search-results.html?q=\\\\{@}"
 msgstr "https://doc.qt.io/qt-6/search-results.html?q=\\\\{@}"
@@ -1398,7 +1407,7 @@ msgctxt "Name"
 msgid "Qwant"
 msgstr "Qwant"
 
-#: src/urifilters/ikws/searchproviders/qwant.desktop:57
+#: src/urifilters/ikws/searchproviders/qwant.desktop:58
 msgctxt "Query"
 msgid "https://www.qwant.com/?q=\\\\{@}&client=kde&t=web"
 msgstr "https://www.qwant.com/?q=\\\\{@}&client=kde&t=web"
@@ -1408,7 +1417,7 @@ msgctxt "Name"
 msgid "Qwant Images"
 msgstr "Qwant Ảnh"
 
-#: src/urifilters/ikws/searchproviders/qwant_images.desktop:55
+#: src/urifilters/ikws/searchproviders/qwant_images.desktop:56
 msgctxt "Query"
 msgid "https://www.qwant.com/?q=\\\\{@}&client=kde&t=images"
 msgstr "https://www.qwant.com/?q=\\\\{@}&client=kde&t=images"
@@ -1418,7 +1427,7 @@ msgctxt "Name"
 msgid "Qwant News"
 msgstr "Qwant Tin tức"
 
-#: src/urifilters/ikws/searchproviders/qwant_news.desktop:56
+#: src/urifilters/ikws/searchproviders/qwant_news.desktop:57
 msgctxt "Query"
 msgid "https://www.qwant.com/?q=\\\\{@}&client=kde&t=news"
 msgstr "https://www.qwant.com/?q=\\\\{@}&client=kde&t=news"
@@ -1428,7 +1437,7 @@ msgctxt "Name"
 msgid "Qwant Shopping"
 msgstr "Qwant Mua sắm"
 
-#: src/urifilters/ikws/searchproviders/qwant_shopping.desktop:55
+#: src/urifilters/ikws/searchproviders/qwant_shopping.desktop:56
 msgctxt "Query"
 msgid "https://www.qwant.com/?q=\\\\{@}&client=kde&t=shopping"
 msgstr "https://www.qwant.com/?q=\\\\{@}&client=kde&t=shopping"
@@ -1438,7 +1447,7 @@ msgctxt "Name"
 msgid "Qwant Social"
 msgstr "Qwant Xã hội"
 
-#: src/urifilters/ikws/searchproviders/qwant_social.desktop:56
+#: src/urifilters/ikws/searchproviders/qwant_social.desktop:57
 msgctxt "Query"
 msgid "https://www.qwant.com/?q=\\\\{@}&client=kde&t=social"
 msgstr "https://www.qwant.com/?q=\\\\{@}&client=kde&t=social"
@@ -1448,7 +1457,7 @@ msgctxt "Name"
 msgid "Qwant Videos"
 msgstr "Qwant Phim"
 
-#: src/urifilters/ikws/searchproviders/qwant_videos.desktop:56
+#: src/urifilters/ikws/searchproviders/qwant_videos.desktop:57
 msgctxt "Query"
 msgid "https://www.qwant.com/?q=\\\\{@}&client=kde&t=videos"
 msgstr "https://www.qwant.com/?q=\\\\{@}&client=kde&t=videos"
@@ -1478,7 +1487,7 @@ msgctxt "Name"
 msgid "Reddit"
 msgstr "Reddit"
 
-#: src/urifilters/ikws/searchproviders/reddit.desktop:31
+#: src/urifilters/ikws/searchproviders/reddit.desktop:35
 msgctxt "Query"
 msgid "https://www.reddit.com/search/?q=\\\\{@}"
 msgstr "https://www.reddit.com/search/?q=\\\\{@}"
@@ -1518,7 +1527,7 @@ msgctxt "Name"
 msgid "Rust STD Documentation"
 msgstr "Tài liệu std Rust"
 
-#: src/urifilters/ikws/searchproviders/rust.desktop:31
+#: src/urifilters/ikws/searchproviders/rust.desktop:33
 msgctxt "Query"
 msgid "https://doc.rust-lang.org/std/index.html?search=\\\\{@}"
 msgstr "https://doc.rust-lang.org/std/index.html?search=\\\\{@}"
@@ -1528,7 +1537,7 @@ msgctxt "Name"
 msgid "Soundcloud"
 msgstr "Soundcloud"
 
-#: src/urifilters/ikws/searchproviders/soundcloud.desktop:53
+#: src/urifilters/ikws/searchproviders/soundcloud.desktop:55
 msgctxt "Query"
 msgid "https://soundcloud.com/search?q=\\\\{@}"
 msgstr "https://soundcloud.com/search?q=\\\\{@}"
@@ -1592,7 +1601,7 @@ msgctxt "Name"
 msgid "Ubuntu Package Search"
 msgstr "Tìm kiếm gói Ubuntu"
 
-#: src/urifilters/ikws/searchproviders/ubuntu.desktop:31
+#: src/urifilters/ikws/searchproviders/ubuntu.desktop:35
 msgctxt "Query"
 msgid "https://packages.ubuntu.com/\\\\{@}"
 msgstr "https://packages.ubuntu.com/\\\\{@}"
@@ -1690,7 +1699,7 @@ msgctxt "Name"
 msgid "WineHQ Database"
 msgstr "Cơ sở dữ liệu WineHQ"
 
-#: src/urifilters/ikws/searchproviders/wine.desktop:31
+#: src/urifilters/ikws/searchproviders/wine.desktop:34
 msgctxt "Query"
 msgid "https://www.winehq.org/search?q=\\\\{@}"
 msgstr "https://www.winehq.org/search?q=\\\\{@}"
@@ -1790,7 +1799,7 @@ msgctxt "Name"
 msgid "Yandex"
 msgstr "Yandex"
 
-#: src/urifilters/ikws/searchproviders/yandex.desktop:28
+#: src/urifilters/ikws/searchproviders/yandex.desktop:32
 msgctxt "Query"
 msgid "https://yandex.ru/search/?text=\\\\{@}"
 msgstr "https://yandex.ru/search/?text=\\\\{@}"
