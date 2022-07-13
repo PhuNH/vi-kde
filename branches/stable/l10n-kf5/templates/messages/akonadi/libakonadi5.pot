@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-11 00:46+0000\n"
+"POT-Creation-Date: 2022-07-09 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -38,23 +38,23 @@ msgstr ""
 msgid "Accounts integration is not supported"
 msgstr ""
 
-#: agentbase/agentbase.cpp:359 agentbase/preprocessorbase_p.cpp:26
+#: agentbase/agentbase.cpp:365 agentbase/preprocessorbase_p.cpp:26
 #, kde-format
 msgid "Unable to register object at dbus: %1"
 msgstr ""
 
-#: agentbase/agentbase.cpp:448
+#: agentbase/agentbase.cpp:454
 #, kde-format
 msgctxt "Name and type of Akonadi resource"
 msgid "%1 of type %2"
 msgstr ""
 
-#: agentbase/agentbase.cpp:894
+#: agentbase/agentbase.cpp:904
 #, kde-format
 msgid "Agent identifier"
 msgstr ""
 
-#: agentbase/agentbase.cpp:900
+#: agentbase/agentbase.cpp:910
 #, kde-format
 msgid "Akonadi Agent"
 msgstr ""
@@ -456,29 +456,29 @@ msgstr ""
 msgid "Quota"
 msgstr ""
 
-#: core/models/statisticsproxymodel.cpp:105
+#: core/models/statisticsproxymodel.cpp:104
 #, kde-format
 msgid "Storage Size"
 msgstr ""
 
-#: core/models/statisticsproxymodel.cpp:111
+#: core/models/statisticsproxymodel.cpp:110
 #, kde-format
 msgid "Subfolder Storage Size"
 msgstr ""
 
-#: core/models/statisticsproxymodel.cpp:225
+#: core/models/statisticsproxymodel.cpp:224
 #, kde-format
 msgctxt "number of unread entities in the collection"
 msgid "Unread"
 msgstr ""
 
-#: core/models/statisticsproxymodel.cpp:226
+#: core/models/statisticsproxymodel.cpp:225
 #, kde-format
 msgctxt "number of entities in the collection"
 msgid "Total"
 msgstr ""
 
-#: core/models/statisticsproxymodel.cpp:227
+#: core/models/statisticsproxymodel.cpp:226
 #, kde-format
 msgctxt "collection size"
 msgid "Size"
@@ -614,12 +614,12 @@ msgctxt "%1 = agent name"
 msgid "%1 Configuration"
 msgstr ""
 
-#: widgets/agentconfigurationdialog.cpp:85
+#: widgets/agentconfigurationdialog.cpp:89
 #, kde-format
 msgid "%1 Handbook"
 msgstr ""
 
-#: widgets/agentconfigurationdialog.cpp:86
+#: widgets/agentconfigurationdialog.cpp:90
 #, kde-format
 msgid "About %1"
 msgstr ""
@@ -716,7 +716,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: widgets/cachepolicypage.ui:118
 #, kde-format
-msgid "Store emails locally:"
+msgid "Keep message bodies locally for:"
 msgstr ""
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, localCacheTimeout)
@@ -724,6 +724,19 @@ msgstr ""
 #, kde-format
 msgctxt "no cache timeout"
 msgid "Forever"
+msgstr ""
+
+#: widgets/clearcachejob.cpp:54
+#, kde-format
+msgid ""
+"The collection '%1' contains %2 items without Remote ID. Those items were "
+"likely never uploaded to the destination server, so clearing this collection "
+"means that those <b>data will be lost</b>. Are you sure you want to proceed?"
+msgstr ""
+
+#: widgets/clearcachejob.cpp:83
+#, kde-format
+msgid "Collection cache cleared. You should restart Akonadi now."
 msgstr ""
 
 #: widgets/collectiondialog.cpp:56
@@ -832,29 +845,29 @@ msgstr ""
 msgid "0 Byte"
 msgstr ""
 
-#: widgets/collectionmaintenancepage.cpp:45
+#: widgets/collectionmaintenancepage.cpp:46
 #, kde-format
 msgid "Remember that indexing can take some minutes."
 msgstr ""
 
-#: widgets/collectionmaintenancepage.cpp:70
+#: widgets/collectionmaintenancepage.cpp:71
 #, kde-format
 msgid "Maintenance"
 msgstr ""
 
-#: widgets/collectionmaintenancepage.cpp:129
+#: widgets/collectionmaintenancepage.cpp:130
 #, kde-format
 msgid "Error while retrieving indexed items count"
 msgstr ""
 
-#: widgets/collectionmaintenancepage.cpp:132
+#: widgets/collectionmaintenancepage.cpp:133
 #, kde-format
 msgid "Indexed %1 item in this folder"
 msgid_plural "Indexed %1 items in this folder"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/collectionmaintenancepage.cpp:136
+#: widgets/collectionmaintenancepage.cpp:137
 #, kde-format
 msgid "Calculating indexed items..."
 msgstr ""
@@ -2370,37 +2383,37 @@ msgstr ""
 msgid "Unable to parse data file '%1'."
 msgstr ""
 
-#: xml/xmldocument.cpp:148
+#: xml/xmldocument.cpp:149
 #, kde-format
 msgid "Schema definition could not be loaded and parsed."
 msgstr ""
 
-#: xml/xmldocument.cpp:153
+#: xml/xmldocument.cpp:154
 #, kde-format
 msgid "Unable to create schema parser context."
 msgstr ""
 
-#: xml/xmldocument.cpp:158
+#: xml/xmldocument.cpp:159
 #, kde-format
 msgid "Unable to create schema."
 msgstr ""
 
-#: xml/xmldocument.cpp:163
+#: xml/xmldocument.cpp:164
 #, kde-format
 msgid "Unable to create schema validation context."
 msgstr ""
 
-#: xml/xmldocument.cpp:168
+#: xml/xmldocument.cpp:169
 #, kde-format
 msgid "Invalid file format."
 msgstr ""
 
-#: xml/xmldocument.cpp:176
+#: xml/xmldocument.cpp:177
 #, kde-format
 msgid "Unable to parse data file: %1"
 msgstr ""
 
-#: xml/xmldocument.cpp:301
+#: xml/xmldocument.cpp:302
 #, kde-format
 msgid "Unable to find collection %1"
 msgstr ""

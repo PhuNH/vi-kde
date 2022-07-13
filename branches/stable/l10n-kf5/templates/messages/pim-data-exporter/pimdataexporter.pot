@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pim-data-exporter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-01 02:33+0000\n"
+"POT-Creation-Date: 2022-06-01 00:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -37,12 +37,12 @@ msgstr ""
 msgid "Copyright © 2015-%1 pimdataexporter authors"
 msgstr ""
 
-#: console/main.cpp:30 gui/pimdatacommandlineoption.cpp:44
+#: console/main.cpp:30 gui/pimdatacommandlineoption.cpp:42
 #, kde-format
 msgid "Laurent Montel"
 msgstr ""
 
-#: console/main.cpp:30 gui/pimdatacommandlineoption.cpp:44
+#: console/main.cpp:30 gui/pimdatacommandlineoption.cpp:42
 #, kde-format
 msgid "Maintainer"
 msgstr ""
@@ -92,227 +92,232 @@ msgstr ""
 msgid "\"%1\" was copied."
 msgstr ""
 
-#: core/abstractimportexportjob.cpp:298
+#: core/abstractimportexportjob.cpp:274
+#, kde-format
+msgid "Restoring \"%1\"..."
+msgstr ""
+
+#: core/abstractimportexportjob.cpp:299
 #, kde-format
 msgid "File \"%1\" cannot be copied to \"%2\"."
 msgstr ""
 
-#: core/abstractimportexportjob.cpp:298
+#: core/abstractimportexportjob.cpp:299
 #, kde-format
 msgid "Copy file"
 msgstr ""
 
-#: core/abstractimportexportjob.cpp:300
+#: core/abstractimportexportjob.cpp:301
 #, kde-format
 msgid "\"%1\" was restored."
 msgstr ""
 
-#: core/abstractimportexportjob.cpp:385 core/addressbook/importaddressbookjobinterface.cpp:233
-#: core/mail/importmailjobinterface.cpp:421
+#: core/abstractimportexportjob.cpp:386 core/addressbook/importaddressbookjobinterface.cpp:231
+#: core/mail/importmailjobinterface.cpp:424
 #, kde-format
 msgid "Resources restored."
 msgstr ""
 
-#: core/abstractimportexportjob.cpp:387
+#: core/abstractimportexportjob.cpp:388
 #, kde-format
 msgid "No resources files found."
 msgstr ""
 
-#: core/abstractimportexportjob.cpp:444
+#: core/abstractimportexportjob.cpp:449
 #, kde-format
 msgid "Unable to copy file %1"
 msgstr ""
 
-#: core/abstractimportexportjob.cpp:485
+#: core/abstractimportexportjob.cpp:490
 #, kde-format
 msgid "Resource '%1' created."
 msgstr ""
 
-#: core/abstractimportexportjob.cpp:500
-#, kde-format
-msgid "Failed to synchronize %1."
-msgstr ""
-
 #: core/abstractimportexportjob.cpp:505
 #, kde-format
-msgid "Resource %1 synchronized."
+msgid "Failed to synchronize '%1'."
 msgstr ""
 
-#: core/abstractimportexportjob.cpp:511
+#: core/abstractimportexportjob.cpp:510
+#, kde-format
+msgid "Resource '%1' synchronized."
+msgstr ""
+
+#: core/abstractimportexportjob.cpp:516
 #, kde-format
 msgid "All resources synchronized."
 msgstr ""
 
-#: core/abstractimportexportjob.cpp:522
+#: core/abstractimportexportjob.cpp:542
 #, kde-format
 msgid "Start synchronizing..."
 msgstr ""
 
-#: core/abstractimportexportjob.cpp:559
+#: core/abstractimportexportjob.cpp:579
 #, kde-format
 msgid "Directory \"%1\" added to backup file."
 msgstr ""
 
-#: core/abstractimportexportjob.cpp:561
+#: core/abstractimportexportjob.cpp:581
 #, kde-format
 msgid "Directory \"%1\" cannot be added to backup file."
 msgstr ""
 
-#: core/addressbook/exportaddressbookjobinterface.cpp:30
+#: core/addressbook/exportaddressbookjobinterface.cpp:28
 #, kde-format
 msgid "Start export KAddressBook settings..."
 msgstr ""
 
-#: core/addressbook/exportaddressbookjobinterface.cpp:31
+#: core/addressbook/exportaddressbookjobinterface.cpp:29
 #, kde-format
 msgid "Export KAddressBook settings"
 msgstr ""
 
-#: core/addressbook/exportaddressbookjobinterface.cpp:44
-#: core/alarm/exportalarmjobinterface.cpp:87
-#: core/calendar/exportcalendarjobinterface.cpp:98
-#: core/mail/exportmailjobinterface.cpp:641
-#: core/notes/exportnotesjobinterface.cpp:55
+#: core/addressbook/exportaddressbookjobinterface.cpp:42
+#: core/alarm/exportalarmjobinterface.cpp:85
+#: core/calendar/exportcalendarjobinterface.cpp:96
+#: core/mail/exportmailjobinterface.cpp:670
+#: core/notes/exportnotesjobinterface.cpp:53
 #, kde-format
 msgid "Backing up resources..."
 msgstr ""
 
-#: core/addressbook/exportaddressbookjobinterface.cpp:99
-#: core/alarm/exportalarmjobinterface.cpp:79
-#: core/calendar/exportcalendarjobinterface.cpp:77
-#: core/mail/exportmailjobinterface.cpp:663
-#: core/notes/exportnotesjobinterface.cpp:147
+#: core/addressbook/exportaddressbookjobinterface.cpp:102
+#: core/alarm/exportalarmjobinterface.cpp:77
+#: core/calendar/exportcalendarjobinterface.cpp:75
+#: core/mail/exportmailjobinterface.cpp:692
+#: core/notes/exportnotesjobinterface.cpp:150
 #, kde-format
 msgid "Resources backup done."
 msgstr ""
 
-#: core/addressbook/exportaddressbookjobinterface.cpp:106
-#: core/akregator/exportakregatorjobinterface.cpp:69
-#: core/alarm/exportalarmjobinterface.cpp:107
-#: core/calendar/exportcalendarjobinterface.cpp:225
-#: core/mail/exportmailjobinterface.cpp:156
-#: core/notes/exportnotesjobinterface.cpp:77
+#: core/addressbook/exportaddressbookjobinterface.cpp:109
+#: core/akregator/exportakregatorjobinterface.cpp:72
+#: core/alarm/exportalarmjobinterface.cpp:110
+#: core/calendar/exportcalendarjobinterface.cpp:228
+#: core/mail/exportmailjobinterface.cpp:169
+#: core/notes/exportnotesjobinterface.cpp:75
 #, kde-format
 msgid "Backing up config..."
 msgstr ""
 
-#: core/addressbook/exportaddressbookjobinterface.cpp:147
-#: core/akregator/exportakregatorjobinterface.cpp:76
-#: core/alarm/exportalarmjobinterface.cpp:133
-#: core/calendar/exportcalendarjobinterface.cpp:245
-#: core/mail/exportmailjobinterface.cpp:525
-#: core/notes/exportnotesjobinterface.cpp:110
+#: core/addressbook/exportaddressbookjobinterface.cpp:150
+#: core/akregator/exportakregatorjobinterface.cpp:79
+#: core/alarm/exportalarmjobinterface.cpp:136
+#: core/calendar/exportcalendarjobinterface.cpp:248
+#: core/mail/exportmailjobinterface.cpp:554
+#: core/notes/exportnotesjobinterface.cpp:108
 #, kde-format
 msgid "Config backup done."
 msgstr ""
 
-#: core/addressbook/importaddressbookjobinterface.cpp:43
+#: core/addressbook/importaddressbookjobinterface.cpp:41
 #, kde-format
 msgid "Starting to import KAddressBook settings..."
 msgstr ""
 
-#: core/addressbook/importaddressbookjobinterface.cpp:45
+#: core/addressbook/importaddressbookjobinterface.cpp:43
 #, kde-format
 msgid "Import KAddressBook settings"
 msgstr ""
 
-#: core/addressbook/importaddressbookjobinterface.cpp:94
-#: core/akregator/importakregatorjobinterface.cpp:90
-#: core/alarm/importalarmjobinterface.cpp:79
-#: core/calendar/importcalendarjobinterface.cpp:92
-#: core/notes/importnotesjobinterface.cpp:77
+#: core/addressbook/importaddressbookjobinterface.cpp:92
+#: core/akregator/importakregatorjobinterface.cpp:93
+#: core/alarm/importalarmjobinterface.cpp:82
+#: core/calendar/importcalendarjobinterface.cpp:90
+#: core/notes/importnotesjobinterface.cpp:80
 #, kde-format
 msgid "Restore configs..."
 msgstr ""
 
-#: core/addressbook/importaddressbookjobinterface.cpp:111
-#: core/akregator/importakregatorjobinterface.cpp:96
-#: core/alarm/importalarmjobinterface.cpp:95
-#: core/calendar/importcalendarjobinterface.cpp:230
-#: core/mail/importmailjobinterface.cpp:856
-#: core/notes/importnotesjobinterface.cpp:106
+#: core/addressbook/importaddressbookjobinterface.cpp:109
+#: core/akregator/importakregatorjobinterface.cpp:99
+#: core/alarm/importalarmjobinterface.cpp:98
+#: core/calendar/importcalendarjobinterface.cpp:228
+#: core/mail/importmailjobinterface.cpp:866
+#: core/notes/importnotesjobinterface.cpp:109
 #, kde-format
 msgid "Config restored."
 msgstr ""
 
-#: core/addressbook/importaddressbookjobinterface.cpp:164
-#: core/addressbook/importaddressbookjobinterface.cpp:165
-#: core/alarm/importalarmjobinterface.cpp:111
-#: core/alarm/importalarmjobinterface.cpp:112
-#: core/calendar/importcalendarjobinterface.cpp:283
-#: core/calendar/importcalendarjobinterface.cpp:284
-#: core/mail/importmailjobinterface.cpp:196
-#: core/mail/importmailjobinterface.cpp:197
-#: core/notes/importnotesjobinterface.cpp:145
-#: core/notes/importnotesjobinterface.cpp:146
+#: core/addressbook/importaddressbookjobinterface.cpp:162
+#: core/addressbook/importaddressbookjobinterface.cpp:163
+#: core/alarm/importalarmjobinterface.cpp:114
+#: core/alarm/importalarmjobinterface.cpp:115
+#: core/calendar/importcalendarjobinterface.cpp:281
+#: core/calendar/importcalendarjobinterface.cpp:282
+#: core/mail/importmailjobinterface.cpp:199
+#: core/mail/importmailjobinterface.cpp:200
+#: core/notes/importnotesjobinterface.cpp:148
+#: core/notes/importnotesjobinterface.cpp:149
 #, kde-format
 msgid "Restore resources..."
 msgstr ""
 
-#: core/akregator/exportakregatorjobinterface.cpp:26
+#: core/akregator/exportakregatorjobinterface.cpp:24
 #, kde-format
 msgid "Start export Akregator settings..."
 msgstr ""
 
-#: core/akregator/exportakregatorjobinterface.cpp:27
+#: core/akregator/exportakregatorjobinterface.cpp:25
 #, kde-format
 msgid "Export Akregator settings"
 msgstr ""
 
-#: core/akregator/exportakregatorjobinterface.cpp:84
+#: core/akregator/exportakregatorjobinterface.cpp:87
 #, kde-format
 msgid "Backing up data..."
 msgstr ""
 
-#: core/akregator/exportakregatorjobinterface.cpp:91
-#: core/notes/exportnotesjobinterface.cpp:48
+#: core/akregator/exportakregatorjobinterface.cpp:94
+#: core/notes/exportnotesjobinterface.cpp:46
 #, kde-format
 msgid "\"%1\" directory cannot be added to backup file."
 msgstr ""
 
-#: core/akregator/exportakregatorjobinterface.cpp:94
+#: core/akregator/exportakregatorjobinterface.cpp:97
 #, kde-format
 msgid "Data backup done."
 msgstr ""
 
-#: core/akregator/importakregatorjobinterface.cpp:31
+#: core/akregator/importakregatorjobinterface.cpp:29
 #, kde-format
 msgid "Starting to import Akregator settings..."
 msgstr ""
 
-#: core/akregator/importakregatorjobinterface.cpp:34
+#: core/akregator/importakregatorjobinterface.cpp:32
 #, kde-format
 msgid "Import Akregator settings"
 msgstr ""
 
-#: core/akregator/importakregatorjobinterface.cpp:103
-#: core/notes/importnotesjobinterface.cpp:113
+#: core/akregator/importakregatorjobinterface.cpp:106
+#: core/notes/importnotesjobinterface.cpp:116
 #, kde-format
 msgid "Restore data..."
 msgstr ""
 
-#: core/akregator/importakregatorjobinterface.cpp:109
-#: core/notes/importnotesjobinterface.cpp:126
+#: core/akregator/importakregatorjobinterface.cpp:112
+#: core/notes/importnotesjobinterface.cpp:129
 #, kde-format
 msgid "Data restored."
 msgstr ""
 
-#: core/alarm/exportalarmjobinterface.cpp:31
+#: core/alarm/exportalarmjobinterface.cpp:29
 #, kde-format
 msgid "Start export KAlarm settings..."
 msgstr ""
 
-#: core/alarm/exportalarmjobinterface.cpp:32
+#: core/alarm/exportalarmjobinterface.cpp:30
 #, kde-format
 msgid "Export KAlarm settings"
 msgstr ""
 
-#: core/alarm/importalarmjobinterface.cpp:34
+#: core/alarm/importalarmjobinterface.cpp:32
 #, kde-format
 msgid "Starting to import KAlarm settings..."
 msgstr ""
 
-#: core/alarm/importalarmjobinterface.cpp:35
+#: core/alarm/importalarmjobinterface.cpp:33
 #, kde-format
 msgid "Import KAlarm settings"
 msgstr ""
@@ -327,193 +332,243 @@ msgstr ""
 msgid "Archive cannot be opened in read mode."
 msgstr ""
 
-#: core/backupresourcefilejobbase.cpp:49
+#: core/backupresourcefilejobbase.cpp:47
 #, kde-format
 msgid "\"%1\" is not a file."
 msgstr ""
 
-#: core/backupresourcefilejobbase.cpp:55 core/backupresourcefilejobbase.cpp:62
-#: core/pimdatabackupthread.cpp:54 core/storeresourcejob.cpp:60
+#: core/backupresourcefilejobbase.cpp:53 core/backupresourcefilejobbase.cpp:60
+#: core/pimdatabackupthread.cpp:54 core/storeresourcejob.cpp:58
 #, kde-format
 msgid "\"%1\" was backed up."
 msgstr ""
 
-#: core/backupresourcefilejobbase.cpp:57 core/pimdatabackupthread.cpp:56
-#: core/storeresourcejob.cpp:62
+#: core/backupresourcefilejobbase.cpp:55 core/pimdatabackupthread.cpp:56
+#: core/storeresourcejob.cpp:60
 #, kde-format
 msgid "\"%1\" file cannot be added to backup file."
 msgstr ""
 
-#: core/calendar/exportcalendarjobinterface.cpp:84
+#: core/calendar/exportcalendarjobinterface.cpp:82
 #, kde-format
 msgid "Start export KOrganizer settings..."
 msgstr ""
 
-#: core/calendar/exportcalendarjobinterface.cpp:85
+#: core/calendar/exportcalendarjobinterface.cpp:83
 #, kde-format
 msgid "Export KOrganizer settings"
 msgstr ""
 
-#: core/calendar/importcalendarjobinterface.cpp:37
+#: core/calendar/importcalendarjobinterface.cpp:35
 #, kde-format
 msgid "Starting to import KOrganizer settings..."
 msgstr ""
 
-#: core/calendar/importcalendarjobinterface.cpp:39
+#: core/calendar/importcalendarjobinterface.cpp:37
 #, kde-format
 msgid "Import KOrganizer settings"
 msgstr ""
 
-#: core/mail/exportmailjobinterface.cpp:47
+#: core/mail/exportmailjobinterface.cpp:45
 #, kde-format
 msgid "Start export KMail settings..."
 msgstr ""
 
-#: core/mail/exportmailjobinterface.cpp:48
+#: core/mail/exportmailjobinterface.cpp:46
 #, kde-format
 msgid "Export KMail settings"
 msgstr ""
 
-#: core/mail/exportmailjobinterface.cpp:108
+#: core/mail/exportmailjobinterface.cpp:114
+#, kde-format
+msgid "Backing up Folder Attributes..."
+msgstr ""
+
+#: core/mail/exportmailjobinterface.cpp:116
 #, kde-format
 msgid "Backing up Mails..."
 msgstr ""
 
 #: core/mail/exportmailjobinterface.cpp:117
 #, kde-format
+msgid "Start export resource..."
+msgstr ""
+
+#: core/mail/exportmailjobinterface.cpp:125
+#, kde-format
 msgid "Backing up transports..."
 msgstr ""
 
-#: core/mail/exportmailjobinterface.cpp:122
-#: core/mail/exportmailjobinterface.cpp:134
+#: core/mail/exportmailjobinterface.cpp:130
+#: core/mail/exportmailjobinterface.cpp:142
 #, kde-format
 msgid "Transports backup done."
 msgstr ""
 
-#: core/mail/exportmailjobinterface.cpp:136
+#: core/mail/exportmailjobinterface.cpp:144
 #, kde-format
 msgid "Transport file cannot be added to backup file."
 msgstr ""
 
-#: core/mail/exportmailjobinterface.cpp:530
+#: core/mail/exportmailjobinterface.cpp:559
 #, kde-format
 msgid "Backing up identity..."
 msgstr ""
 
-#: core/mail/exportmailjobinterface.cpp:569
+#: core/mail/exportmailjobinterface.cpp:598
 #, kde-format
 msgid "vCard file \"%1\" cannot be saved."
 msgstr ""
 
-#: core/mail/exportmailjobinterface.cpp:582
+#: core/mail/exportmailjobinterface.cpp:611
 #, kde-format
 msgid "Identity backup done."
 msgstr ""
 
-#: core/mail/exportmailjobinterface.cpp:584
+#: core/mail/exportmailjobinterface.cpp:613
 #, kde-format
 msgid "Identity file cannot be added to backup file."
 msgstr ""
 
-#: core/mail/exportmailjobinterfaceimpl.cpp:146
+#: core/mail/exportmailjobinterfaceimpl.cpp:145
 #, kde-format
 msgid "Filters backup done."
 msgstr ""
 
-#: core/mail/exportmailjobinterfaceimpl.cpp:148
+#: core/mail/exportmailjobinterfaceimpl.cpp:147
 #, kde-format
 msgid "Filters cannot be exported."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:45
+#: core/mail/exportmailjobinterfaceimpl.cpp:169
+#, kde-format
+msgid "Backing up Folder Attributes done."
+msgstr ""
+
+#: core/mail/exportmailjobinterfaceimpl.cpp:173
+#, kde-format
+msgid "Folder Attributes cannot be exported."
+msgstr ""
+
+#: core/mail/importmailjobinterface.cpp:43
 #, kde-format
 msgid "Starting to import KMail settings..."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:46
+#: core/mail/importmailjobinterface.cpp:44
 #, kde-format
 msgid "Import KMail settings"
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:166
-#: core/mail/importmailjobinterface.cpp:172
+#: core/mail/importmailjobinterface.cpp:169
+#: core/mail/importmailjobinterface.cpp:175
 #, kde-format
 msgid "Restore transports..."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:170
+#: core/mail/importmailjobinterface.cpp:173
 #, kde-format
 msgid "mailtransports file could not be found in the archive."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:185
+#: core/mail/importmailjobinterface.cpp:188
 #, kde-format
 msgid "Transports restored."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:187
+#: core/mail/importmailjobinterface.cpp:190
 #, kde-format
 msgid "Failed to restore transports file."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:428
-#: core/mail/importmailjobinterface.cpp:430
+#: core/mail/importmailjobinterface.cpp:436
+#: core/mail/importmailjobinterface.cpp:438
 #, kde-format
 msgid "Restore mails..."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:547
+#: core/mail/importmailjobinterface.cpp:555
 #, kde-format
 msgid "Mails restored."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:554
+#: core/mail/importmailjobinterface.cpp:562
 #, kde-format
 msgid "Restore config..."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:557
+#: core/mail/importmailjobinterface.cpp:565
 #, kde-format
 msgid "filters file could not be found in the archive."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:889
-#: core/mail/importmailjobinterface.cpp:894
+#: core/mail/importmailjobinterface.cpp:569
+#, kde-format
+msgid "Restore filters..."
+msgstr ""
+
+#: core/mail/importmailjobinterface.cpp:618
+#, kde-format
+msgid "Filters restored."
+msgstr ""
+
+#: core/mail/importmailjobinterface.cpp:899
+#: core/mail/importmailjobinterface.cpp:904
 #, kde-format
 msgid "Restoring identities..."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:892
+#: core/mail/importmailjobinterface.cpp:902
 #, kde-format
 msgid "emailidentities file could not be found in the archive."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:953
+#: core/mail/importmailjobinterface.cpp:963
 #, kde-format
 msgid "Identities restored."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:955
+#: core/mail/importmailjobinterface.cpp:965
 #, kde-format
 msgid "Failed to restore identity file."
 msgstr ""
 
-#: core/notes/exportnotesjobinterface.cpp:30
+#: core/mail/importmailjobinterface.cpp:1287
+#, kde-format
+msgid "\"%1\" migration done."
+msgstr ""
+
+#: core/mail/importmailjobinterfaceimpl.cpp:35
+#, kde-format
+msgid "Restoring folder attributes..."
+msgstr ""
+
+#: core/mail/importmailjobinterfaceimpl.cpp:41
+#, kde-format
+msgid "Restoring Folder Attributes done."
+msgstr ""
+
+#: core/mail/importmailjobinterfaceimpl.cpp:45
+#, kde-format
+msgid "Folder Attributes cannot be restored."
+msgstr ""
+
+#: core/notes/exportnotesjobinterface.cpp:28
 #, kde-format
 msgid "Start export KNotes settings..."
 msgstr ""
 
-#: core/notes/exportnotesjobinterface.cpp:31
+#: core/notes/exportnotesjobinterface.cpp:29
 #, kde-format
 msgid "Export KNotes settings"
 msgstr ""
 
-#: core/notes/importnotesjobinterface.cpp:51
+#: core/notes/importnotesjobinterface.cpp:49
 #, kde-format
 msgid "Starting to import KNotes settings..."
 msgstr ""
 
-#: core/notes/importnotesjobinterface.cpp:54
+#: core/notes/importnotesjobinterface.cpp:52
 #, kde-format
 msgid "Import KNotes settings"
 msgstr ""
@@ -558,12 +613,12 @@ msgstr ""
 msgid "Impossible to backup \"%1\"."
 msgstr ""
 
-#: core/resourceconverterbase.cpp:199 core/resourceconverterbase.cpp:207
+#: core/resourceconverterbase.cpp:195 core/resourceconverterbase.cpp:203
 #, kde-format
 msgid "Resource file \"%1\" cannot be added to backup file."
 msgstr ""
 
-#: core/resourceconverterbase.cpp:210
+#: core/resourceconverterbase.cpp:206
 #, kde-format
 msgid "Resource config file \"%1\" doesn't exist."
 msgstr ""
@@ -660,35 +715,35 @@ msgstr ""
 msgid "User Feedback"
 msgstr ""
 
+#: gui/dialog/selectiontypedialog.cpp:22
+#, kde-format
+msgid "Use this template by default"
+msgstr ""
+
 #: gui/dialog/selectiontypedialog.cpp:23
+#, kde-format
+msgid "Save as Template..."
+msgstr ""
+
+#: gui/dialog/selectiontypedialog.cpp:24
+#, kde-format
+msgid "Load Template..."
+msgstr ""
+
+#: gui/dialog/selectiontypedialog.cpp:26
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Type"
 msgstr ""
 
-#: gui/dialog/selectiontypedialog.cpp:40
-#, kde-format
-msgid "Use this template by default"
-msgstr ""
-
-#: gui/dialog/selectiontypedialog.cpp:45 gui/dialog/synchronizeresourcedialog.cpp:40
+#: gui/dialog/selectiontypedialog.cpp:47 gui/dialog/synchronizeresourcedialog.cpp:40
 #, kde-format
 msgid "Select All"
 msgstr ""
 
-#: gui/dialog/selectiontypedialog.cpp:50 gui/dialog/synchronizeresourcedialog.cpp:45
+#: gui/dialog/selectiontypedialog.cpp:52 gui/dialog/synchronizeresourcedialog.cpp:45
 #, kde-format
 msgid "Unselect All"
-msgstr ""
-
-#: gui/dialog/selectiontypedialog.cpp:55
-#, kde-format
-msgid "Save as Template..."
-msgstr ""
-
-#: gui/dialog/selectiontypedialog.cpp:60
-#, kde-format
-msgid "Load Template..."
 msgstr ""
 
 #: gui/dialog/showarchivestructuredialog.cpp:33
@@ -783,7 +838,7 @@ msgid ""
 msgstr ""
 
 #: gui/importexportprogressindicatorgui.cpp:35
-#: gui/job/fullsynchronizeresourcesjob.cpp:41
+#: gui/job/fullsynchronizeresourcesjob.cpp:39
 #, kde-format
 msgid "Cancel"
 msgstr ""
@@ -815,18 +870,18 @@ msgstr ""
 msgid "Directory \"%1\" already exists. Do you want to overwrite it?"
 msgstr ""
 
-#: gui/job/fullsynchronizeresourcesjob.cpp:43
+#: gui/job/fullsynchronizeresourcesjob.cpp:41
 #, kde-format
 msgctxt "@title:window"
 msgid "Synchronize resources"
 msgstr ""
 
-#: gui/job/fullsynchronizeresourcesjob.cpp:44
+#: gui/job/fullsynchronizeresourcesjob.cpp:42
 #, kde-format
 msgid "Synchronize resources... It can take some time."
 msgstr ""
 
-#: gui/pimdatabackuprestoreui.cpp:26
+#: gui/pimdatabackuprestoreui.cpp:24
 #, kde-format
 msgid ""
 "The archive was created by a newer version of this program. It might contain "
@@ -834,48 +889,48 @@ msgid ""
 "it?"
 msgstr ""
 
-#: gui/pimdatabackuprestoreui.cpp:28
+#: gui/pimdatabackuprestoreui.cpp:26
 #, kde-format
 msgid "Not correct version"
 msgstr ""
 
-#: gui/pimdatabackuprestoreui.cpp:29
+#: gui/pimdatabackuprestoreui.cpp:27
 #, kde-format
 msgctxt "@action:button"
 msgid "Import"
 msgstr ""
 
-#: gui/pimdatacommandlineoption.cpp:39 gui/pimdatacommandlineoption.cpp:41
+#: gui/pimdatacommandlineoption.cpp:37 gui/pimdatacommandlineoption.cpp:39
 #, kde-format
 msgid "PIM Data Exporter"
 msgstr ""
 
-#: gui/pimdatacommandlineoption.cpp:43
+#: gui/pimdatacommandlineoption.cpp:41
 #, kde-format
 msgid "Copyright © 2012-%1 pimdataexporter authors"
 msgstr ""
 
-#: gui/pimdatacommandlineoption.cpp:48
+#: gui/pimdatacommandlineoption.cpp:46
 #, kde-format
 msgid "Template file uses to define what data, settings to import or export"
 msgstr ""
 
-#: gui/pimdatacommandlineoption.cpp:50
+#: gui/pimdatacommandlineoption.cpp:48
 #, kde-format
 msgid "Import the given file"
 msgstr ""
 
-#: gui/pimdatacommandlineoption.cpp:51
+#: gui/pimdatacommandlineoption.cpp:49
 #, kde-format
 msgid "Export the given file"
 msgstr ""
 
-#: gui/pimdatacommandlineoption.cpp:52
+#: gui/pimdatacommandlineoption.cpp:50
 #, kde-format
 msgid "File or url. The user will be asked whether to import or export."
 msgstr ""
 
-#: gui/pimdatacommandlineoption.cpp:54
+#: gui/pimdatacommandlineoption.cpp:52
 #, kde-format
 msgid "Lists the available options for user feedback"
 msgstr ""
@@ -1053,7 +1108,7 @@ msgstr ""
 msgid "Import"
 msgstr ""
 
-#: gui/widgets/selectiontypetreewidget.cpp:348
+#: gui/widgets/selectiontypetreewidget.cpp:351
 #, kde-format
 msgid "Template Files (*.xml)"
 msgstr ""

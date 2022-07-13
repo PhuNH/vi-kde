@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: skanpage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-06 00:48+0000\n"
+"POT-Creation-Date: 2022-06-27 00:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,12 +28,12 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: DocumentModel.cpp:41 DocumentModel.cpp:75
+#: DocumentModel.cpp:38 DocumentModel.cpp:70 DocumentModel.cpp:81
 #, kde-format
 msgid "New document"
 msgstr ""
 
-#: DocumentModel.cpp:78
+#: DocumentModel.cpp:73
 #, kde-format
 msgctxt "for file names, indicates a range: from file0000.png to file0014.png"
 msgid "%1 ... %2"
@@ -54,57 +54,67 @@ msgstr ""
 msgid "Document sent to printer."
 msgstr ""
 
-#: DocumentSaver.cpp:29
+#: DocumentSaver.cpp:33
+#, kde-format
+msgid "No file path given."
+msgstr ""
+
+#: DocumentSaver.cpp:37
 #, kde-format
 msgid "Nothing to save."
 msgstr ""
 
-#: DocumentSaver.cpp:85
+#: DocumentSaver.cpp:68
 #, kde-format
 msgid "Document saved as PDF."
 msgstr ""
 
-#: DocumentSaver.cpp:130
+#: DocumentSaver.cpp:94
+#, kde-format
+msgid "Document saved with OCR as PDF."
+msgstr ""
+
+#: DocumentSaver.cpp:166
 #, kde-format
 msgid "Document saved as image."
 msgstr ""
 
-#: DocumentSaver.cpp:139
+#: DocumentSaver.cpp:175
 #, kde-format
 msgid "Failed to save document as image."
 msgstr ""
 
-#: DocumentSaver.cpp:154
+#: DocumentSaver.cpp:190
 #, kde-format
 msgid "Failed to save image"
 msgstr ""
 
-#: main.cpp:54
+#: main.cpp:61
 #, kde-format
 msgid "Skanpage"
 msgstr ""
 
-#: main.cpp:56
+#: main.cpp:63
 #, kde-format
-msgid "Page-scanning application by KDE based on libksane."
+msgid "Multi-page scanning application by KDE."
 msgstr ""
 
-#: main.cpp:58
+#: main.cpp:65
 #, kde-format
-msgid "© 2015-2021 Kåre Särs, Alexander Stippich"
+msgid "© 2015-2022 Kåre Särs, Alexander Stippich"
 msgstr ""
 
-#: main.cpp:61 main.cpp:62
+#: main.cpp:68 main.cpp:69
 #, kde-format
 msgid "developer"
 msgstr ""
 
-#: main.cpp:73
+#: main.cpp:80
 #, kde-format
 msgid "Sane scanner device name. Use 'test' for test device."
 msgstr ""
 
-#: main.cpp:73
+#: main.cpp:80
 #, kde-format
 msgid "device"
 msgstr ""
@@ -193,12 +203,34 @@ msgstr ""
 msgid "Delete Page"
 msgstr ""
 
-#: qml/DocumentList.qml:268
+#: qml/DocumentList.qml:265
 #, kde-format
 msgid "%1 page"
 msgid_plural "%1 pages"
 msgstr[0] ""
 msgstr[1] ""
+
+#: qml/DocumentList.qml:276
+#, kde-format
+msgid "Reorder Pages"
+msgstr ""
+
+#: qml/DocumentList.qml:281
+#, kde-format
+msgctxt "Indicates how pages are going to be reordered"
+msgid "13 24 → 1234"
+msgstr ""
+
+#: qml/DocumentList.qml:288
+#, kde-format
+msgctxt "Indicates how pages are going to be reordered"
+msgid "13 42 → 1234"
+msgstr ""
+
+#: qml/DocumentList.qml:295
+#, kde-format
+msgid "Reverse Order"
+msgstr ""
 
 #: qml/DocumentPage.qml:38
 #, kde-kuit-format
@@ -224,6 +256,53 @@ msgstr ""
 #: qml/DocumentPage.qml:130
 #, kde-format
 msgid "Zoom 100%"
+msgstr ""
+
+#: qml/ExportWindow.qml:21 qml/MainWindow.qml:101
+#, kde-format
+msgid "Export PDF"
+msgstr ""
+
+#: qml/ExportWindow.qml:38
+#, kde-format
+msgid "Title:"
+msgstr ""
+
+#: qml/ExportWindow.qml:54
+#, kde-format
+msgid "File:"
+msgstr ""
+
+#: qml/ExportWindow.qml:79
+#, kde-format
+msgid "Enable optical character recognition (OCR)"
+msgstr ""
+
+#: qml/ExportWindow.qml:97
+#, kde-format
+msgid "Languages:"
+msgstr ""
+
+#: qml/ExportWindow.qml:119
+#, kde-format
+msgid "%1 [%2]"
+msgstr ""
+
+#: qml/ExportWindow.qml:138
+#, kde-format
+msgid ""
+"If your required language is not listed, please install Tesseract's language "
+"file with your package manager."
+msgstr ""
+
+#: qml/ExportWindow.qml:169
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: qml/ExportWindow.qml:184 qml/MainWindow.qml:118
+#, kde-format
+msgid "Cancel"
 msgstr ""
 
 #: qml/GlobalMenu.qml:25
@@ -256,33 +335,28 @@ msgctxt "@info"
 msgid "Scan in progress."
 msgstr ""
 
-#: qml/MainWindow.qml:23
+#: qml/MainWindow.qml:22
 #, kde-format
 msgctxt "document title: app title"
 msgid "%1 ― Skanpage"
 msgstr ""
 
-#: qml/MainWindow.qml:94
+#: qml/MainWindow.qml:83
 #, kde-format
 msgid "Discard All"
 msgstr ""
 
-#: qml/MainWindow.qml:103
+#: qml/MainWindow.qml:92
 #, kde-format
 msgid "Save All"
 msgstr ""
 
-#: qml/MainWindow.qml:112
+#: qml/MainWindow.qml:109
 #, kde-format
 msgid "Scan"
 msgstr ""
 
-#: qml/MainWindow.qml:121
-#, kde-format
-msgid "Cancel"
-msgstr ""
-
-#: qml/MainWindow.qml:130
+#: qml/MainWindow.qml:127
 #, kde-format
 msgid "Show Scanner Options"
 msgstr ""
@@ -297,12 +371,17 @@ msgstr ""
 msgid "Print"
 msgstr ""
 
-#: qml/MainWindow.qml:154 qml/MainWindow.qml:316
+#: qml/MainWindow.qml:166 qml/MainWindow.qml:346
 #, kde-format
 msgid "About Skanpage"
 msgstr ""
 
-#: qml/MainWindow.qml:161
+#: qml/MainWindow.qml:173
+#, kde-format
+msgid "Settings"
+msgstr ""
+
+#: qml/MainWindow.qml:181
 #, kde-format
 msgid "Quit"
 msgstr ""
@@ -384,6 +463,31 @@ msgstr ""
 #: qml/OptionsPanel.qml:103
 #, kde-format
 msgid "Reselect Scanner"
+msgstr ""
+
+#: qml/SettingsWindow.qml:19
+#, kde-format
+msgid "Skanpage Settings"
+msgstr ""
+
+#: qml/SettingsWindow.qml:34
+#, kde-format
+msgid "Show all devices including virtual and cameras"
+msgstr ""
+
+#: qml/SettingsWindow.qml:43
+#, kde-format
+msgid "Default file format:"
+msgstr ""
+
+#: qml/SettingsWindow.qml:70
+#, kde-format
+msgid "Default save location:"
+msgstr ""
+
+#: qml/SettingsWindow.qml:106
+#, kde-format
+msgid "Close"
 msgstr ""
 
 #: qml/ShareWindow.qml:41

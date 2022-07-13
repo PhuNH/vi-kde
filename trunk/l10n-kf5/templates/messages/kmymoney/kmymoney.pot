@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmymoney\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-11 00:45+0000\n"
+"POT-Creation-Date: 2022-07-12 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -19120,25 +19120,7 @@ msgctxt "@title:window"
 msgid "Enter overdue schedule"
 msgstr ""
 
-#: kmymoney/views/ledgerview.cpp:786
-#, kde-format
-msgctxt "@info:tooltip Accept button"
-msgid "Accept the transaction and mark it cleared."
-msgstr ""
-
-#: kmymoney/views/ledgerview.cpp:789
-#, kde-format
-msgctxt "Question about the accept action"
-msgid "Do you want to accept the imported transaction now?"
-msgstr ""
-
-#: kmymoney/views/ledgerview.cpp:790
-#, kde-format
-msgctxt "@title:window"
-msgid "Accept transaction"
-msgstr ""
-
-#: kmymoney/views/ledgerview.cpp:806
+#: kmymoney/views/ledgerview.cpp:796
 #, kde-format
 msgctxt "@info:tooltip Unmatch button"
 msgid ""
@@ -19146,7 +19128,7 @@ msgid ""
 "the ledger again."
 msgstr ""
 
-#: kmymoney/views/ledgerview.cpp:808
+#: kmymoney/views/ledgerview.cpp:798
 #, kde-format
 msgctxt "@info:tooltip Accept button"
 msgid ""
@@ -19154,13 +19136,13 @@ msgid ""
 "transaction."
 msgstr ""
 
-#: kmymoney/views/ledgerview.cpp:812
+#: kmymoney/views/ledgerview.cpp:802
 #, kde-format
 msgctxt "Question about the accept or unmatch action"
 msgid "Do you want to accept or unmatch the matched transaction now?"
 msgstr ""
 
-#: kmymoney/views/ledgerview.cpp:813
+#: kmymoney/views/ledgerview.cpp:803
 #, kde-format
 msgctxt "@title:window"
 msgid "Accept or unmatch transaction"
@@ -19342,7 +19324,7 @@ msgctxt "@label:textbox Difference to statement"
 msgid "Difference: %1"
 msgstr ""
 
-#: kmymoney/views/simpleledgerview.cpp:321
+#: kmymoney/views/simpleledgerview.cpp:322
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -19350,34 +19332,55 @@ msgid ""
 "reconciling it. Finish, cancel or postpone the reconciliation to get it back."
 msgstr ""
 
-#: kmymoney/views/simpleledgerview.cpp:625
+#: kmymoney/views/simpleledgerview.cpp:429
+#, kde-format
+msgctxt "@label displayed when no ledger is open"
+msgid ""
+"This page shows the accounts ledger. Currently, no accounts exist so this "
+"text is shown instead."
+msgstr ""
+
+#: kmymoney/views/simpleledgerview.cpp:432
+#, kde-format
+msgctxt "@label displayed when no ledger is open"
+msgid ""
+"This page shows the accounts ledger. Currently, no accounts are selected so "
+"this text is shown instead."
+msgstr ""
+
+#: kmymoney/views/simpleledgerview.cpp:644
 #, kde-format
 msgid "Open website of <b>%1</b> in your browser."
 msgstr ""
 
-#: kmymoney/views/simpleledgerview.cpp:790
+#: kmymoney/views/simpleledgerview.cpp:812
 #, kde-format
 msgid ""
 "You cannot close this view because you are reconciling the account. Finish, "
 "cancel or postpone the reconciliation first."
 msgstr ""
 
-#: kmymoney/views/simpleledgerview.cpp:791
+#: kmymoney/views/simpleledgerview.cpp:813
 #, kde-format
 msgctxt "@title:info In reconciliation"
 msgid "View cannot be closed"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: kmymoney/views/simpleledgerview.ui:59
+#. i18n: ectx: property (text), widget (QLabel, l2)
+#: kmymoney/views/simpleledgerview.ui:72
 #, kde-format
 msgid ""
-"<html><head/><body><p>This page shows the accounts ledger. Currently, no "
-"account exist so this text is shown instead.</p><p>Once you created the "
-"first asset or liability account its transactions will be presented here.</"
-"p><p>Accounts marked as favorites will be opened automatically after "
-"KMyMoney opened the file or database. Use the + button on the tabbar above "
-"to add accounts.</p></body></html>"
+"<html><head/><body><p>Once an account or category is selected its "
+"transactions will be presented here.</p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l3)
+#: kmymoney/views/simpleledgerview.ui:85
+#, kde-format
+msgid ""
+"<html><head/><body><p>Accounts marked as favorites will be opened "
+"automatically after KMyMoney opened the file or database. Use the + button "
+"on the tabbar above to select an account.</p></body></html>"
 msgstr ""
 
 #: kmymoney/views/splitdialog.cpp:291

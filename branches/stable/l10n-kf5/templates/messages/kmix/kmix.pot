@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-17 00:26+0000\n"
+"POT-Creation-Date: 2022-05-16 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -57,114 +57,114 @@ msgstr ""
 msgid "Restore default volumes"
 msgstr ""
 
-#: apps/kmixd.cpp:169 apps/kmixwindow.cpp:903
+#: apps/kmixd.cpp:169 apps/kmixwindow.cpp:897
 #, kde-format
 msgid ""
 "The soundcard containing the master device was unplugged. Changing to "
 "control %1 on card %2."
 msgstr ""
 
-#: apps/kmixd.cpp:179 apps/kmixwindow.cpp:912
+#: apps/kmixd.cpp:179 apps/kmixwindow.cpp:906
 #, kde-format
 msgid "The last soundcard was unplugged."
 msgstr ""
 
-#: apps/kmixwindow.cpp:179
+#: apps/kmixwindow.cpp:173
 #, kde-format
 msgid "Audio Setup..."
 msgstr ""
 
-#: apps/kmixwindow.cpp:183
+#: apps/kmixwindow.cpp:177
 #, kde-format
 msgid "Hide Mixer Window"
 msgstr ""
 
-#: apps/kmixwindow.cpp:188
+#: apps/kmixwindow.cpp:182
 #, kde-format
 msgid "Configure &Channels..."
 msgstr ""
 
-#: apps/kmixwindow.cpp:192
+#: apps/kmixwindow.cpp:186
 #, kde-format
 msgid "Select Master Channel..."
 msgstr ""
 
-#: apps/kmixwindow.cpp:197
+#: apps/kmixwindow.cpp:191
 #, kde-format
 msgid "Save volume profile 1"
 msgstr ""
 
-#: apps/kmixwindow.cpp:202
+#: apps/kmixwindow.cpp:196
 #, kde-format
 msgid "Save volume profile 2"
 msgstr ""
 
-#: apps/kmixwindow.cpp:207
+#: apps/kmixwindow.cpp:201
 #, kde-format
 msgid "Save volume profile 3"
 msgstr ""
 
-#: apps/kmixwindow.cpp:212
+#: apps/kmixwindow.cpp:206
 #, kde-format
 msgid "Save volume profile 4"
 msgstr ""
 
-#: apps/kmixwindow.cpp:217
+#: apps/kmixwindow.cpp:211
 #, kde-format
 msgid "Load volume profile 1"
 msgstr ""
 
-#: apps/kmixwindow.cpp:222
+#: apps/kmixwindow.cpp:216
 #, kde-format
 msgid "Load volume profile 2"
 msgstr ""
 
-#: apps/kmixwindow.cpp:227
+#: apps/kmixwindow.cpp:221
 #, kde-format
 msgid "Load volume profile 3"
 msgstr ""
 
-#: apps/kmixwindow.cpp:232
+#: apps/kmixwindow.cpp:226
 #, kde-format
 msgid "Load volume profile 4"
 msgstr ""
 
-#: apps/kmixwindow.cpp:243
+#: apps/kmixwindow.cpp:237
 #, kde-format
 msgid "Increase Volume"
 msgstr ""
 
-#: apps/kmixwindow.cpp:250
+#: apps/kmixwindow.cpp:244
 #, kde-format
 msgid "Decrease Volume"
 msgstr ""
 
-#: apps/kmixwindow.cpp:255 gui/mdwslider.cpp:103
+#: apps/kmixwindow.cpp:249 gui/mdwslider.cpp:102
 #, kde-format
 msgid "Mute"
 msgstr ""
 
-#: apps/kmixwindow.cpp:269
+#: apps/kmixwindow.cpp:263
 #, kde-format
 msgid "Add new view"
 msgstr ""
 
-#: apps/kmixwindow.cpp:778
+#: apps/kmixwindow.cpp:772
 #, kde-format
 msgid "Cannot add view - GUIProfile is invalid."
 msgstr ""
 
-#: apps/kmixwindow.cpp:778 apps/kmixwindow.cpp:785
+#: apps/kmixwindow.cpp:772 apps/kmixwindow.cpp:779
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: apps/kmixwindow.cpp:785
+#: apps/kmixwindow.cpp:779
 #, kde-format
 msgid "Cannot add view - View already exists."
 msgstr ""
 
-#: apps/kmixwindow.cpp:1174
+#: apps/kmixwindow.cpp:1168
 #, kde-format
 msgid ""
 "The helper application is either not installed or not working.\n"
@@ -172,7 +172,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: apps/kmixwindow.cpp:1225
+#: apps/kmixwindow.cpp:1219
 #, kde-format
 msgid "Mixer (%1)"
 msgstr ""
@@ -327,24 +327,24 @@ msgid ""
 "soundcard driver is loaded.\n"
 msgstr ""
 
-#: backends/mixer_backend.cpp:324
+#: backends/mixer_backend.cpp:323
 #, kde-format
 msgid ""
 "kmix:You do not have permission to access the mixer device.\n"
 "Please check your operating systems manual to allow the access."
 msgstr ""
 
-#: backends/mixer_backend.cpp:328
+#: backends/mixer_backend.cpp:327
 #, kde-format
 msgid "kmix: Could not write to mixer."
 msgstr ""
 
-#: backends/mixer_backend.cpp:331
+#: backends/mixer_backend.cpp:330
 #, kde-format
 msgid "kmix: Could not read from mixer."
 msgstr ""
 
-#: backends/mixer_backend.cpp:334
+#: backends/mixer_backend.cpp:333
 #, kde-format
 msgid ""
 "kmix: Mixer cannot be found.\n"
@@ -352,7 +352,7 @@ msgid ""
 "the soundcard driver is loaded.\n"
 msgstr ""
 
-#: backends/mixer_backend.cpp:339
+#: backends/mixer_backend.cpp:338
 #, kde-format
 msgid "kmix: Unknown error. Please report how you produced this error."
 msgstr ""
@@ -397,32 +397,26 @@ msgid "Playback Streams"
 msgstr ""
 
 #: backends/mixer_oss.cpp:68
-#, kde-format
 msgid "Volume"
 msgstr ""
 
 #: backends/mixer_oss.cpp:68
-#, kde-format
 msgid "Bass"
 msgstr ""
 
 #: backends/mixer_oss.cpp:68
-#, kde-format
 msgid "Treble"
 msgstr ""
 
 #: backends/mixer_oss.cpp:69
-#, kde-format
 msgid "Synth"
 msgstr ""
 
 #: backends/mixer_oss.cpp:69
-#, kde-format
 msgid "Pcm"
 msgstr ""
 
 #: backends/mixer_oss.cpp:69
-#, kde-format
 msgid "Speaker"
 msgstr ""
 
@@ -437,108 +431,88 @@ msgid "CD"
 msgstr ""
 
 #: backends/mixer_oss.cpp:70
-#, kde-format
 msgid "Line"
 msgstr ""
 
 #: backends/mixer_oss.cpp:71
-#, kde-format
 msgid "Mix"
 msgstr ""
 
 #: backends/mixer_oss.cpp:71
-#, kde-format
 msgid "Pcm2"
 msgstr ""
 
 #: backends/mixer_oss.cpp:71
-#, kde-format
 msgid "RecMon"
 msgstr ""
 
 #: backends/mixer_oss.cpp:72
-#, kde-format
 msgid "IGain"
 msgstr ""
 
 #: backends/mixer_oss.cpp:72
-#, kde-format
 msgid "OGain"
 msgstr ""
 
 #: backends/mixer_oss.cpp:72
-#, kde-format
 msgid "Line1"
 msgstr ""
 
 #: backends/mixer_oss.cpp:73
-#, kde-format
 msgid "Line2"
 msgstr ""
 
 #: backends/mixer_oss.cpp:73
-#, kde-format
 msgid "Line3"
 msgstr ""
 
 #: backends/mixer_oss.cpp:73
-#, kde-format
 msgid "Digital1"
 msgstr ""
 
 #: backends/mixer_oss.cpp:74
-#, kde-format
 msgid "Digital2"
 msgstr ""
 
 #: backends/mixer_oss.cpp:74
-#, kde-format
 msgid "Digital3"
 msgstr ""
 
 #: backends/mixer_oss.cpp:74
-#, kde-format
 msgid "PhoneIn"
 msgstr ""
 
 #: backends/mixer_oss.cpp:75
-#, kde-format
 msgid "PhoneOut"
 msgstr ""
 
 #: backends/mixer_oss.cpp:75
-#, kde-format
 msgid "Video"
 msgstr ""
 
 #: backends/mixer_oss.cpp:75
-#, kde-format
 msgid "Radio"
 msgstr ""
 
 #: backends/mixer_oss.cpp:76
-#, kde-format
 msgid "Monitor"
 msgstr ""
 
 #: backends/mixer_oss.cpp:79
-#, kde-format
 msgid "3D-depth"
 msgstr ""
 
 #: backends/mixer_oss.cpp:79
-#, kde-format
 msgid "3D-center"
 msgstr ""
 
 #: backends/mixer_oss.cpp:80 backends/mixer_oss.cpp:81
-#: core/mixdevice.cpp:125
+#: core/mixdevice.cpp:124
 #, kde-format
 msgid "unknown"
 msgstr ""
 
 #: backends/mixer_oss.cpp:81
-#, kde-format
 msgid "unused"
 msgstr ""
 
@@ -768,82 +742,82 @@ msgstr ""
 msgid "Automatic (%1 recommendation)"
 msgstr ""
 
-#: gui/dialogviewconfiguration.cpp:138
+#: gui/dialogviewconfiguration.cpp:136
 #, kde-format
 msgid "Configure Channels"
 msgstr ""
 
-#: gui/dialogviewconfiguration.cpp:149
+#: gui/dialogviewconfiguration.cpp:147
 #, kde-format
 msgid "Configure the visible channels. Drag icons between the lists to update."
 msgstr ""
 
-#: gui/dialogviewconfiguration.cpp:219
+#: gui/dialogviewconfiguration.cpp:217
 #, kde-format
 msgid "Visible channels:"
 msgstr ""
 
-#: gui/dialogviewconfiguration.cpp:222
+#: gui/dialogviewconfiguration.cpp:220
 #, kde-format
 msgid "Available channels:"
 msgstr ""
 
-#: gui/dialogviewconfiguration.cpp:236
+#: gui/dialogviewconfiguration.cpp:234
 #, kde-format
 msgid "Move the selected channel to the visible list"
 msgstr ""
 
-#: gui/dialogviewconfiguration.cpp:244
+#: gui/dialogviewconfiguration.cpp:242
 #, kde-format
 msgid "Move the selected channel to the available (hidden) list"
 msgstr ""
 
-#: gui/dialogviewconfiguration.cpp:284
+#: gui/dialogviewconfiguration.cpp:282
 #, kde-format
 msgid "Show the selected channel"
 msgstr ""
 
-#: gui/dialogviewconfiguration.cpp:285
+#: gui/dialogviewconfiguration.cpp:283
 #, kde-format
 msgid "Hide the selected channel"
 msgstr ""
 
-#: gui/dialogviewconfiguration.cpp:286
+#: gui/dialogviewconfiguration.cpp:284
 #, kde-format
 msgid "Visible channels"
 msgstr ""
 
-#: gui/dialogviewconfiguration.cpp:287
+#: gui/dialogviewconfiguration.cpp:285
 #, kde-format
 msgid "Available channels"
 msgstr ""
 
-#: gui/kmixdockwidget.cpp:62 gui/kmixprefdlg.cpp:68
+#: gui/kmixdockwidget.cpp:61 gui/kmixprefdlg.cpp:68
 #, kde-format
 msgid "Volume Control"
 msgstr ""
 
-#: gui/kmixdockwidget.cpp:175
+#: gui/kmixdockwidget.cpp:174
 #, kde-format
 msgid "M&ute"
 msgstr ""
 
-#: gui/kmixdockwidget.cpp:199
+#: gui/kmixdockwidget.cpp:198
 #, kde-format
 msgid "No mixer devices available"
 msgstr ""
 
-#: gui/kmixdockwidget.cpp:207
+#: gui/kmixdockwidget.cpp:206
 #, kde-format
 msgid "Volume muted"
 msgstr ""
 
-#: gui/kmixdockwidget.cpp:208
+#: gui/kmixdockwidget.cpp:207
 #, kde-format
 msgid "Volume at %1%"
 msgstr ""
 
-#: gui/kmixdockwidget.cpp:210
+#: gui/kmixdockwidget.cpp:209
 #, kde-format
 msgid "%1 - %2"
 msgstr ""
@@ -1045,52 +1019,52 @@ msgstr ""
 msgid "No sound devices are installed or are currently available."
 msgstr ""
 
-#: gui/mdwslider.cpp:97
+#: gui/mdwslider.cpp:96
 #, kde-format
 msgid "Split Channels"
 msgstr ""
 
-#: gui/mdwslider.cpp:109 gui/mdwslider.cpp:629
+#: gui/mdwslider.cpp:108 gui/mdwslider.cpp:628
 #, kde-format
 msgid "Capture"
 msgstr ""
 
-#: gui/mdwslider.cpp:114
+#: gui/mdwslider.cpp:113
 #, kde-format
 msgid "Use Device"
 msgstr ""
 
-#: gui/mdwslider.cpp:159
+#: gui/mdwslider.cpp:158
 #, kde-format
 msgctxt "1=device name, 2=control name"
 msgid "Mute %2 on %1"
 msgstr ""
 
-#: gui/mdwslider.cpp:171
+#: gui/mdwslider.cpp:170
 #, kde-format
 msgctxt "1=device name, 2=control name"
 msgid "Increase volume of %2 on %1"
 msgstr ""
 
-#: gui/mdwslider.cpp:179
+#: gui/mdwslider.cpp:178
 #, kde-format
 msgctxt "1=device name, 2=control name"
 msgid "Decrease volume of %2 on %1"
 msgstr ""
 
-#: gui/mdwslider.cpp:329
+#: gui/mdwslider.cpp:328
 #, kde-format
 msgctxt "%1=channel"
 msgid "Capture/Uncapture %1"
 msgstr ""
 
-#: gui/mdwslider.cpp:330
+#: gui/mdwslider.cpp:329
 #, kde-format
 msgctxt "%1=channel"
 msgid "Mute/Unmute %1"
 msgstr ""
 
-#: gui/mdwslider.cpp:334 gui/mdwslider.cpp:335 gui/mdwslider.cpp:336
+#: gui/mdwslider.cpp:333 gui/mdwslider.cpp:334 gui/mdwslider.cpp:335
 #, kde-format
 msgctxt "%1=device %2=channel"
 msgid ""
@@ -1098,12 +1072,12 @@ msgid ""
 "%2"
 msgstr ""
 
-#: gui/mdwslider.cpp:681
+#: gui/mdwslider.cpp:680
 #, kde-format
 msgid "%1 (capture)"
 msgstr ""
 
-#: gui/mdwslider.cpp:1119
+#: gui/mdwslider.cpp:1118
 #, kde-format
 msgid "Automatic (according to category)"
 msgstr ""
@@ -1113,47 +1087,47 @@ msgstr ""
 msgid "Channel Shortcuts..."
 msgstr ""
 
-#: gui/viewbase.cpp:97
+#: gui/viewbase.cpp:96
 #, kde-format
 msgid "Configure this view"
 msgstr ""
 
-#: gui/viewbase.cpp:167
+#: gui/viewbase.cpp:166
 #, kde-format
 msgid "Configure Channels..."
 msgstr ""
 
-#: gui/viewbase.cpp:271
+#: gui/viewbase.cpp:270
 #, kde-format
 msgid "Device Settings"
 msgstr ""
 
-#: gui/viewdockareapopup.cpp:443
+#: gui/viewdockareapopup.cpp:440
 #, kde-format
 msgid "Show the full mixer window"
 msgstr ""
 
-#: gui/viewdockareapopup.cpp:475
+#: gui/viewdockareapopup.cpp:472
 #, kde-format
 msgid "Load volume profile %1"
 msgstr ""
 
-#: gui/viewsliders.cpp:181
+#: gui/viewsliders.cpp:180
 #, kde-format
 msgid "Nothing is playing audio."
 msgstr ""
 
-#: gui/viewsliders.cpp:184
+#: gui/viewsliders.cpp:183
 #, kde-format
 msgid "Nothing is capturing audio."
 msgstr ""
 
-#: gui/viewsliders.cpp:185
+#: gui/viewsliders.cpp:184
 #, kde-format
 msgid "There are no capture devices."
 msgstr ""
 
-#: gui/viewsliders.cpp:186
+#: gui/viewsliders.cpp:185
 #, kde-format
 msgid "There are no playback devices."
 msgstr ""

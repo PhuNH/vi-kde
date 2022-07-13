@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-10 00:47+0000\n"
+"POT-Creation-Date: 2022-07-13 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -101,19 +101,19 @@ msgctxt "to travel destination"
 msgid "To %1"
 msgstr ""
 
-#: app/AlternativeJourneyPage.qml:60
+#: app/AlternativeJourneyPage.qml:59
 #, kde-format
 msgid "Replace Journey"
 msgstr ""
 
-#: app/AlternativeJourneyPage.qml:64
+#: app/AlternativeJourneyPage.qml:60
 #, kde-format
 msgid ""
 "Do you really want to replace your existing reservation with the newly "
 "selected journey?"
 msgstr ""
 
-#: app/AlternativeJourneyPage.qml:71
+#: app/AlternativeJourneyPage.qml:64
 #, kde-format
 msgid "Replace"
 msgstr ""
@@ -213,8 +213,8 @@ msgid "Bus Ticket"
 msgstr ""
 
 #: app/BusPage.qml:29 app/EventPage.qml:26 app/FlightPage.qml:35
-#: app/HealthCertificatePage.qml:42 app/PkPassPage.qml:26 app/ProgramMembershipPage.qml:51
-#: app/TicketPage.qml:51 app/TrainPage.qml:27
+#: app/HealthCertificatePage.qml:42 app/PkPassPage.qml:26 app/ProgramMembershipPage.qml:47
+#: app/TicketPage.qml:47 app/TrainPage.qml:27
 #, kde-format
 msgid "Barcode Scan Mode"
 msgstr ""
@@ -395,19 +395,24 @@ msgstr ""
 
 #: app/DetailsPage.qml:45
 #, kde-format
+msgid "Delete Event"
+msgstr ""
+
+#: app/DetailsPage.qml:46
+#, kde-format
 msgid "Do you really want to delete this event?"
 msgstr ""
 
-#: app/DetailsPage.qml:52 app/DetailsPage.qml:181 app/DocumentsPage.qml:81
-#: app/GenericPkPassPage.qml:30 app/GenericPkPassPage.qml:43
-#: app/HealthCertificatePage.qml:57 app/HealthCertificatePage.qml:74
-#: app/ProgramMembershipPage.qml:39 app/ProgramMembershipPage.qml:61
-#: app/TicketPage.qml:39 app/TicketPage.qml:61 app/TimelinePage.qml:112
+#: app/DetailsPage.qml:52 app/DetailsPage.qml:181 app/DocumentsPage.qml:80
+#: app/GenericPkPassPage.qml:25 app/GenericPkPassPage.qml:38
+#: app/HealthCertificatePage.qml:57 app/HealthCertificatePage.qml:72
+#: app/ProgramMembershipPage.qml:35 app/ProgramMembershipPage.qml:57
+#: app/TicketPage.qml:35 app/TicketPage.qml:57 app/TimelinePage.qml:111
 #, kde-format
 msgid "Delete"
 msgstr ""
 
-#: app/DetailsPage.qml:74 app/TimelinePage.qml:143
+#: app/DetailsPage.qml:74 app/TimelinePage.qml:142
 #, kde-format
 msgid "Select Calendar"
 msgstr ""
@@ -493,7 +498,7 @@ msgstr ""
 msgid "Open Document"
 msgstr ""
 
-#: app/DocumentsPage.qml:59
+#: app/DocumentsPage.qml:59 app/DocumentsPage.qml:73
 #, kde-format
 msgid "Delete Document"
 msgstr ""
@@ -503,25 +508,14 @@ msgstr ""
 msgid "Do you really want to delete this document?"
 msgstr ""
 
-#: app/DocumentsPage.qml:95
+#: app/DocumentsPage.qml:94
 #, kde-format
 msgid "Add Document..."
 msgstr ""
 
-#: app/DocumentsPage.qml:106
+#: app/DocumentsPage.qml:105
 #, kde-format
 msgid "No documents attached to this reservation."
-msgstr ""
-
-#: app/EditorPage.qml:48
-#, kde-format
-msgctxt "@title:window"
-msgid "Edit date/time"
-msgstr ""
-
-#: app/EditorPage.qml:62
-#, kde-format
-msgid "Ok"
 msgstr ""
 
 #: app/EventDelegate.qml:21 app/TripGroupDelegate.qml:55
@@ -598,7 +592,7 @@ msgid "Export Favorite Locations"
 msgstr ""
 
 #: app/FavoriteLocationPage.qml:43 app/FavoriteLocationPage.qml:51
-#: app/TimelinePage.qml:128
+#: app/TimelinePage.qml:127
 #, kde-format
 msgid "GPX Files (*.gpx)"
 msgstr ""
@@ -762,8 +756,8 @@ msgctxt "name of a frequent flyer program"
 msgid "Program:"
 msgstr ""
 
-#: app/FlightPage.qml:195 app/ProgramMembershipPage.qml:102
-#: app/TicketPage.qml:111 app/TrainPage.qml:280
+#: app/FlightPage.qml:195 app/ProgramMembershipPage.qml:98
+#: app/TicketPage.qml:107 app/TrainPage.qml:280
 #, kde-format
 msgid "Number:"
 msgstr ""
@@ -773,7 +767,7 @@ msgstr ""
 msgid "Delete Pass"
 msgstr ""
 
-#: app/GenericPkPassPage.qml:23 app/ProgramMembershipPage.qml:32
+#: app/GenericPkPassPage.qml:20 app/ProgramMembershipPage.qml:29
 #, kde-format
 msgid "Do you really want to delete this pass?"
 msgstr ""
@@ -840,10 +834,15 @@ msgstr ""
 
 #: app/HealthCertificatePage.qml:67
 #, kde-format
+msgid "Delete Certificate"
+msgstr ""
+
+#: app/HealthCertificatePage.qml:68
+#, kde-format
 msgid "Do you really want to delete this certificate?"
 msgstr ""
 
-#: app/HealthCertificatePage.qml:140
+#: app/HealthCertificatePage.qml:138
 #, kde-format
 msgid ""
 "<p>You can import the following health certificates by scanning them with a "
@@ -861,8 +860,8 @@ msgstr ""
 
 #: app/HealthCertificateRecovery.qml:34 app/HealthCertificateTest.qml:35
 #: app/HealthCertificateVaccination.qml:38
-#: app/PlaceEditor.qml:23 app/ProgramMembershipPage.qml:96
-#: app/TicketPage.qml:95 app/TrainPage.qml:274
+#: app/PlaceEditor.qml:23 app/ProgramMembershipPage.qml:92
+#: app/TicketPage.qml:91 app/TrainPage.qml:274
 #, kde-format
 msgid "Name:"
 msgstr ""
@@ -889,14 +888,14 @@ msgstr ""
 msgid "Disease:"
 msgstr ""
 
-#: app/HealthCertificateRecovery.qml:57 app/ProgramMembershipPage.qml:107
-#: app/TicketPage.qml:100
+#: app/HealthCertificateRecovery.qml:57 app/ProgramMembershipPage.qml:103
+#: app/TicketPage.qml:96
 #, kde-format
 msgid "Valid from:"
 msgstr ""
 
-#: app/HealthCertificateRecovery.qml:61 app/ProgramMembershipPage.qml:112
-#: app/TicketPage.qml:105
+#: app/HealthCertificateRecovery.qml:61 app/ProgramMembershipPage.qml:108
+#: app/TicketPage.qml:101
 #, kde-format
 msgid "Valid until:"
 msgstr ""
@@ -1683,7 +1682,7 @@ msgstr ""
 msgid "Program Membership"
 msgstr ""
 
-#: app/ProgramMembershipPage.qml:90
+#: app/ProgramMembershipPage.qml:86
 #, kde-format
 msgid "Member"
 msgstr ""
@@ -1970,7 +1969,7 @@ msgstr ""
 msgid "No locations found"
 msgstr ""
 
-#: app/TicketPage.qml:16 app/TicketPage.qml:90
+#: app/TicketPage.qml:16 app/TicketPage.qml:86
 #, kde-format
 msgid "Ticket"
 msgstr ""
@@ -1980,12 +1979,12 @@ msgstr ""
 msgid "Delete Ticket"
 msgstr ""
 
-#: app/TicketPage.qml:32
+#: app/TicketPage.qml:29
 #, kde-format
 msgid "Do you really want to delete this ticket?"
 msgstr ""
 
-#: app/TicketPage.qml:117 app/TrainEditor.qml:175 app/TrainPage.qml:261
+#: app/TicketPage.qml:113 app/TrainEditor.qml:175 app/TrainPage.qml:261
 #, kde-format
 msgid "Class:"
 msgstr ""
@@ -2025,17 +2024,22 @@ msgstr ""
 msgid "Add from calendar..."
 msgstr ""
 
+#: app/TimelinePage.qml:104
+#, kde-format
+msgid "Delete Trip"
+msgstr ""
+
 #: app/TimelinePage.qml:105
 #, kde-format
 msgid "Do you really want to delete this trip?"
 msgstr ""
 
-#: app/TimelinePage.qml:126
+#: app/TimelinePage.qml:125
 #, kde-format
 msgid "Export Trip"
 msgstr ""
 
-#: app/TimelinePage.qml:287
+#: app/TimelinePage.qml:286
 #, kde-format
 msgid "Nothing on the itinerary for today."
 msgstr ""

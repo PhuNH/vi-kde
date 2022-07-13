@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalendar\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-16 02:14+0000\n"
+"POT-Creation-Date: 2022-07-06 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,201 +28,832 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: calendarmanager.cpp:249
-#, kde-format
-msgctxt "@item this is the default calendar"
-msgid "%1 (Offline)"
-msgstr ""
-
-#: calendarmanager.cpp:252
-#, kde-format
-msgctxt "@item this is the default calendar"
-msgid "%1 (Default)"
-msgstr ""
-
-#: calendarmanager.cpp:769
+#: calendarmanager.cpp:541
 #, kde-format
 msgid "Move occurrence(s)"
 msgstr ""
 
-#: calendarmanager.cpp:774
+#: calendarmanager.cpp:546
 #, kde-format
 msgid ""
 "Unable to add the exception item to the calendar. No change will be done."
 msgstr ""
 
-#: calendarmanager.cpp:814
+#: calendarmanager.cpp:586
 #, kde-format
 msgid "Delete task and its sub-tasks"
 msgstr ""
 
-#: calendarmanager.cpp:817
+#: calendarmanager.cpp:589
 #, kde-format
 msgid "Delete task and make sub-tasks independent"
 msgstr ""
 
-#: calendarmanager.cpp:980
+#: calendarmanager.cpp:752
 #, kde-format
 msgctxt "@title:window"
 msgid "Properties of Calendar %1"
 msgstr ""
 
-#: contents/ui/CalendarItemMenu.qml:20
+#: contacts/autotests/emailmodeltest.cpp:36
+#: contacts/emailmodel.cpp:44 contacts/qml/private/ContactPage.qml:275
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "Edit calendar…"
+msgid "Home:"
 msgstr ""
 
-#: contents/ui/CalendarItemMenu.qml:25
+#: contacts/contactgroupeditor.cpp:236
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "Update calendar"
+msgid "No address book selected"
 msgstr ""
 
-#: contents/ui/CalendarItemMenu.qml:30
+#: contacts/contactgroupmodel.cpp:185
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "Delete calendar"
+msgid "The member with name <b>%1</b> is missing an email address"
 msgstr ""
 
-#: contents/ui/CalendarItemMenu.qml:38
+#: contacts/contactgroupmodel.cpp:228
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "Set calendar colour…"
+msgid "Contact does not exist any more"
 msgstr ""
 
-#: contents/ui/CalendarItemMenu.qml:50
+#: contacts/contactgroupmodel.cpp:347
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "Calendar source settings…"
+msgctxt "contact's name"
+msgid "Name"
 msgstr ""
 
-#: contents/ui/CalendarItemMenu.qml:56
+#: contacts/contactgroupmodel.cpp:349
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "Update calendar source"
+msgctxt "contact's email address"
+msgid "EMail"
 msgstr ""
 
-#: contents/ui/CalendarItemMenu.qml:62
+#: contacts/contactmanager.cpp:193
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "Delete calendar source"
+msgctxt "@title:window"
+msgid "Properties of Address Book %1"
 msgstr ""
 
-#: contents/ui/CalendarItemMouseArea.qml:42
+#: contacts/emailmodel.cpp:38
+#, kde-format
+msgid "Both:"
+msgstr ""
+
+#: contacts/emailmodel.cpp:41
+#, kde-format
+msgid "Work:"
+msgstr ""
+
+#: contacts/emailmodel.cpp:46
+#, kde-format
+msgid "Other:"
+msgstr ""
+
+#: contacts/qml/AddressBookCollectionHandler.qml:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Address Book Color"
+msgstr ""
+
+#: contacts/qml/ContactChooserPage.qml:22
+#, kde-format
+msgid "Done"
+msgstr ""
+
+#: contacts/qml/ContactChooserPage.qml:52
+#, kde-format
+msgid "Select Email Address"
+msgstr ""
+
+#: contacts/qml/ContactView.qml:17 contacts/qml/private/ContactsPage.qml:21
+#: contents/ui/Drawers/MainDrawer.qml:433
+#, kde-format
+msgid "Contacts"
+msgstr ""
+
+#: contacts/qml/ContactView.qml:74
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit contact…"
+msgstr ""
+
+#: contacts/qml/ContactView.qml:89 contacts/qml/private/DeleteContactAction.qml:16
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete contact"
+msgstr ""
+
+#: contacts/qml/ContactView.qml:107 contacts/qml/private/ContactsPage.qml:48
+#, kde-format
+msgid "No contacts"
+msgstr ""
+
+#: contacts/qml/private/AddressBookMenu.qml:22
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit address book…"
+msgstr ""
+
+#: contacts/qml/private/AddressBookMenu.qml:27
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Update address book"
+msgstr ""
+
+#: contacts/qml/private/AddressBookMenu.qml:32
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete address book"
+msgstr ""
+
+#: contacts/qml/private/AddressBookMenu.qml:40
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Set address book colour…"
+msgstr ""
+
+#: contacts/qml/private/AddressBookMenu.qml:52
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Address book source settings…"
+msgstr ""
+
+#: contacts/qml/private/AddressBookMenu.qml:58
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Update address book source"
+msgstr ""
+
+#: contacts/qml/private/AddressBookMenu.qml:64
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete address source"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:53
+#, kde-format
+msgid "Add Contact"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:55
+#, kde-format
+msgid "Edit Contact"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:93
+#: contacts/qml/private/ContactGroupEditorPage.qml:62
+#, kde-format
+msgid "Address Book:"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:144
+#: contacts/qml/private/ContactGroupEditorPage.qml:78
+#: contacts/qml/private/ContactPage.qml:163
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:934
+#, kde-format
+msgid "Name:"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:162
+#, kde-format
+msgid "Honorific prefixes:"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:164
+#, kde-format
+msgid "Miss"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:164
+#, kde-format
+msgid "Mr."
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:164
+#, kde-format
+msgid "Mrs."
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:164
+#, kde-format
+msgid "Ms."
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:164
+#, kde-format
+msgid "Prof."
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:172
+#, kde-format
+msgid "Given names:"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:179
+#, kde-format
+msgid "Additional names:"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:186
+#, kde-format
+msgid "Family names:"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:193
+#, kde-format
+msgid "Honorific suffixes:"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:197
+#, kde-format
+msgid "II"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:197
+#, kde-format
+msgid "III"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:197
+#, kde-format
+msgid "Jr."
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:197
+#, kde-format
+msgid "Sr."
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:204
+#, kde-format
+msgid "Phone:"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:215
+#: contacts/qml/private/ContactEditorPage.qml:259
+#: contacts/qml/private/ContactEditorPage.qml:320
+#: contacts/qml/private/ContactEditorPage.qml:359
+#, kde-format
+msgid "Home"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:216
+#: contacts/qml/private/ContactEditorPage.qml:260
+#: contacts/qml/private/ContactEditorPage.qml:321
+#: contacts/qml/private/ContactEditorPage.qml:360
+#, kde-format
+msgid "Work"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:217
+#: contacts/qml/private/ContactEditorPage.qml:261
+#, kde-format
+msgid "Messaging"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:218
+#: contacts/qml/private/ContactEditorPage.qml:262
+#, kde-format
+msgid "Voice"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:219
+#: contacts/qml/private/ContactEditorPage.qml:263
+#, kde-format
+msgid "Fax"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:220
+#: contacts/qml/private/ContactEditorPage.qml:264
+#, kde-format
+msgid "Cell"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:221
+#: contacts/qml/private/ContactEditorPage.qml:265
+#, kde-format
+msgid "Video"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:222
+#: contacts/qml/private/ContactEditorPage.qml:266
+#, kde-format
+msgid "Mailbox"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:223
+#: contacts/qml/private/ContactEditorPage.qml:267
+#, kde-format
+msgid "Modem"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:224
+#: contacts/qml/private/ContactEditorPage.qml:268
+#, kde-format
+msgid "Car"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:225
+#: contacts/qml/private/ContactEditorPage.qml:269
+#, kde-format
+msgid "ISDN"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:226
+#: contacts/qml/private/ContactEditorPage.qml:270
+#, kde-format
+msgid "PCS"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:227
+#: contacts/qml/private/ContactEditorPage.qml:271
+#, kde-format
+msgid "Pager"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:228
+#, kde-format
+msgid "Undefined"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:283
+#, kde-format
+msgid "+33 7 55 23 68 67"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:304
+#, kde-format
+msgid "E-mail:"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:322
+#, kde-format
+msgid "Other"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:343
+#, kde-format
+msgid "Remove email"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:361
+#, kde-format
+msgid "Both"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:362
+#, kde-format
+msgid "Other…"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:371
+#, kde-format
+msgid "user@example.org"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:380
+#, kde-format
+msgid "Add email"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:484
+#: contacts/qml/private/ContactGroupEditorPage.qml:154
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:52
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:484
+#: contacts/qml/private/ContactGroupEditorPage.qml:154
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:52
+#, kde-format
+msgid "Add"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:528
+#: contacts/qml/private/ContactGroupEditorPage.qml:198
+#, kde-format
+msgid "Current changes"
+msgstr ""
+
+#: contacts/qml/private/ContactEditorPage.qml:533
+#: contacts/qml/private/ContactGroupEditorPage.qml:203
+#, kde-format
+msgid "External changes"
+msgstr ""
+
+#: contacts/qml/private/ContactGroupEditorPage.qml:84
+#: contacts/qml/private/ContactGroupEditorPage.qml:108
+#, kde-format
+msgid "Members:"
+msgstr ""
+
+#: contacts/qml/private/ContactGroupPage.qml:36
+#: contents/ui/Controls/IncidenceMouseArea.qml:66
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:125
+#: contents/ui/Settings/SourceSettingsPage.qml:115
+#, kde-format
+msgid "Edit"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:35
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:45
+#: contacts/qml/private/DeleteContactAction.qml:59
+#: contents/ui/Dialogs/DeleteCalendarPage.qml:71
+#: contents/ui/Dialogs/DeleteIncidencePage.qml:114
+#: contents/ui/Dialogs/RecurringIncidenceChangePage.qml:86
+#: contents/ui/main.qml:815
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:95
+#, kde-format
+msgid "Call"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:106
+#, kde-format
+msgid "Select number to call"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:114
+#, kde-format
+msgid "Send SMS"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:125
+#, kde-format
+msgid "Select number to send message to"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:133
+#, kde-format
+msgid "Send email"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:139
+#, kde-format
+msgid "Show QR Code"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:157
+#, kde-format
+msgid "Contact information"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:169
+#, kde-format
+msgid "Nickname:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:177
+#, kde-format
+msgid "Blog Feed:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:191
+#, kde-format
+msgid "Personal information"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:203
+#, kde-format
+msgid "Birthday:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:215
+#, kde-format
+msgid "Anniversary:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:222
+#, kde-format
+msgid "Partner's name:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:234
+#, kde-format
+msgid "Phone Number"
+msgid_plural "Phone Numbers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contacts/qml/private/ContactPage.qml:244
+#, kde-format
+msgctxt "Label for a phone number type"
+msgid "%1:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:266
+#, kde-format
+msgid "Address"
+msgid_plural "Addresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contacts/qml/private/ContactPage.qml:275
+#, kde-format
+msgctxt "%1 is the type of the address, e.g. home, work, ..."
+msgid "%1:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:289
+#, kde-format
+msgid "Business Information"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:296
+#, kde-format
+msgid "Organization:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:303
+#, kde-format
+msgid "Profession:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:310
+#, kde-format
+msgid "Title:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:317
+#, kde-format
+msgid "Department:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:324
+#, kde-format
+msgid "Office:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:331
+#, kde-format
+msgid "Manager's name:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:338
+#, kde-format
+msgid "Assistants's name:"
+msgstr ""
+
+#: contacts/qml/private/ContactPage.qml:350
+#, kde-format
+msgid "Email Address"
+msgid_plural "Email Addresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contacts/qml/private/DeleteContactAction.qml:42
+#, kde-format
+msgid "You won't be able to revert this action"
+msgstr ""
+
+#: contacts/qml/private/DeleteContactAction.qml:63
+#, kde-format
+msgid "Delete contact"
+msgstr ""
+
+#: contacts/qml/private/QrCodePage.qml:15
+#, kde-format
+msgid "QR Code"
+msgstr ""
+
+#: contacts/qml/private/QrCodePage.qml:27
+#, kde-format
+msgid "Creating QR code failed"
+msgstr ""
+
+#: contents/ui/Bars/FilterHeaderBar.qml:49
+#, kde-format
+msgid "Filtering by tags"
+msgstr ""
+
+#: contents/ui/Bars/FilterHeaderBar.qml:50
+#, kde-format
+msgid "All Tasks"
+msgstr ""
+
+#: contents/ui/Bars/FilterHeaderBar.qml:94
+#, kde-format
+msgid "Remove filtering tag"
+msgstr ""
+
+#: contents/ui/Controls/CalendarItemMouseArea.qml:42
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose Calendar Color"
 msgstr ""
 
-#: contents/ui/CollectionPickerPage.qml:17
-#, kde-format
-msgid "Choose a Task Calendar"
-msgstr ""
-
-#: contents/ui/CollectionPickerPage.qml:17
-#, kde-format
-msgid "Choose a Calendar"
-msgstr ""
-
-#: contents/ui/ContactsPage.qml:20
-#, kde-format
-msgid "Contacts"
-msgstr ""
-
-#: contents/ui/ContactsPage.qml:44
-#, kde-format
-msgid "Select Email Address"
-msgstr ""
-
-#: contents/ui/ContactsPage.qml:66
-#, kde-format
-msgid "Done"
-msgstr ""
-
-#: contents/ui/ContactsPage.qml:95
-#, kde-format
-msgid "No contacts"
-msgstr ""
-
-#: contents/ui/DatePicker.qml:138
+#: contents/ui/Controls/DateControls/DatePicker.qml:138
 #, kde-format
 msgctxt "%1 is month name, %2 is year"
 msgid "%1 %2"
 msgstr ""
 
-#: contents/ui/DatePicker.qml:179
+#: contents/ui/Controls/DateControls/DatePicker.qml:179
 #, kde-format
 msgid "Days"
 msgstr ""
 
-#: contents/ui/DatePicker.qml:187
+#: contents/ui/Controls/DateControls/DatePicker.qml:187
 #, kde-format
 msgid "Months"
 msgstr ""
 
-#: contents/ui/DatePicker.qml:193
+#: contents/ui/Controls/DateControls/DatePicker.qml:193
 #, kde-format
 msgid "Years"
 msgstr ""
 
-#: contents/ui/DayMouseArea.qml:50 contents/ui/main.qml:413
-#: kalendarapplication.cpp:248
+#: contents/ui/Controls/DateControls/TimePicker.qml:50
+#, kde-format
+msgid "Min. Interval:"
+msgstr ""
+
+#: contents/ui/Controls/DayMouseArea.qml:50
+#: contents/ui/main.qml:407 kalendarapplication.cpp:263
 #, kde-format
 msgid "New Event…"
 msgstr ""
 
-#: contents/ui/DayMouseArea.qml:55 contents/ui/main.qml:419
-#: kalendarapplication.cpp:255
+#: contents/ui/Controls/DayMouseArea.qml:55
+#: contents/ui/main.qml:413 kalendarapplication.cpp:270
 #, kde-format
 msgid "New Task…"
 msgstr ""
 
-#: contents/ui/DeleteCalendarSheet.qml:22
-#: contents/ui/DeleteCalendarSheet.qml:65
-#: contents/ui/DeleteIncidenceSheet.qml:28
-#: contents/ui/DeleteIncidenceSheet.qml:108
-#: contents/ui/IncidenceInfo.qml:129 contents/ui/IncidenceMouseArea.qml:70
+#: contents/ui/Controls/IncidenceMouseArea.qml:61
+#, kde-format
+msgid "View"
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:72
+#: contents/ui/Dialogs/DeleteCalendarPage.qml:22
+#: contents/ui/Dialogs/DeleteCalendarPage.qml:65
+#: contents/ui/Dialogs/DeleteIncidencePage.qml:28
+#: contents/ui/Dialogs/DeleteIncidencePage.qml:108
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:131
 #, kde-format
 msgid "Delete"
 msgstr ""
 
-#: contents/ui/DeleteCalendarSheet.qml:22
+#: contents/ui/Controls/IncidenceMouseArea.qml:81
+#, kde-format
+msgid "Mark Task as Incomplete"
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:81
+#, kde-format
+msgid "Mark Task as Complete"
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:88
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:107
+#, kde-format
+msgid "Add Sub-Task"
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:99
+#, kde-format
+msgid "Set priority..."
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:112
+#, kde-format
+msgid "None"
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:117
+#, kde-format
+msgid "1 (highest priority)"
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:122
+#, kde-format
+msgid "2 (mid-high priority)"
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:127
+#, kde-format
+msgid "3 (mid-high priority)"
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:132
+#, kde-format
+msgid "4 (mid-high priority)"
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:137
+#, kde-format
+msgid "5 (medium priority)"
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:142
+#, kde-format
+msgid "6 (mid-low priority)"
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:147
+#, kde-format
+msgid "7 (mid-low priority)"
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:152
+#, kde-format
+msgid "8 (mid-low priority)"
+msgstr ""
+
+#: contents/ui/Controls/IncidenceMouseArea.qml:157
+#, kde-format
+msgid "9 (lowest priority)"
+msgstr ""
+
+#: contents/ui/Controls/Tag.qml:111
+#, kde-format
+msgid "Remove Tag"
+msgstr ""
+
+#: contents/ui/Controls/TitleDateButton.qml:27
+#: contents/ui/Controls/TitleDateButton.qml:32
+#, kde-format
+msgctxt "%1 is month name, %2 is year"
+msgid "<b>%1</b> %2"
+msgstr ""
+
+#: contents/ui/Controls/TitleDateButton.qml:35
+#, kde-format
+msgctxt ""
+"%1 is the month and year of the range start, %2 is the same for range end"
+msgid "%1 - %2"
+msgstr ""
+
+#: contents/ui/Controls/TitleDateButton.qml:37
+#, kde-format
+msgctxt "%1 is month of range start, %2 is month + year of range end"
+msgid "<b>%1</b> - %2"
+msgstr ""
+
+#: contents/ui/Delegates/ViewTitleDelegate.qml:31
+#, kde-format
+msgid "Expand Main Drawer"
+msgstr ""
+
+#: contents/ui/Delegates/ViewTitleDelegate.qml:31
+#, kde-format
+msgid "Collapse Main Drawer"
+msgstr ""
+
+#: contents/ui/Dialogs/CollectionPickerPage.qml:20
+#, kde-format
+msgid "Choose a Task Calendar"
+msgstr ""
+
+#: contents/ui/Dialogs/CollectionPickerPage.qml:22
+#, kde-format
+msgid "Choose a Calendar"
+msgstr ""
+
+#: contents/ui/Dialogs/CollectionPickerPage.qml:24
+#, kde-format
+msgid "Choose an Address Book"
+msgstr ""
+
+#: contents/ui/Dialogs/DeleteCalendarPage.qml:22
 #, kde-format
 msgid "Delete calendar"
 msgstr ""
 
-#: contents/ui/DeleteCalendarSheet.qml:49
+#: contents/ui/Dialogs/DeleteCalendarPage.qml:49
 #, kde-format
 msgid "Do you want to delete calendar: \"%1\"?"
 msgstr ""
 
-#: contents/ui/DeleteCalendarSheet.qml:71
-#: contents/ui/DeleteIncidenceSheet.qml:114
-#: contents/ui/main.qml:816 contents/ui/RecurringIncidenceChangeSheet.qml:86
-#, kde-format
-msgid "Cancel"
-msgstr ""
-
-#: contents/ui/DeleteIncidenceSheet.qml:27
+#: contents/ui/Dialogs/DeleteIncidencePage.qml:27
 #, kde-format
 msgctxt "%1 is the type of the incidence (e.g event, todo, journal entry)"
 msgid "Delete %1"
 msgstr ""
 
-#: contents/ui/DeleteIncidenceSheet.qml:58
+#: contents/ui/Dialogs/DeleteIncidencePage.qml:58
 #, kde-format
 msgid "Do you want to delete item: \"%1\"?"
 msgstr ""
 
-#: contents/ui/DeleteIncidenceSheet.qml:60
+#: contents/ui/Dialogs/DeleteIncidencePage.qml:60
 #, kde-format
 msgid ""
 "Item \"%1\" has sub-items. Do you want to delete all related items, or just "
 "the currently selected item?"
 msgstr ""
 
-#: contents/ui/DeleteIncidenceSheet.qml:62
+#: contents/ui/Dialogs/DeleteIncidencePage.qml:62
 #, kde-format
 msgid ""
 "The calendar item \"%1\" recurs over multiple dates. This item also has sub-"
@@ -234,7 +865,7 @@ msgid ""
 "Deleting all will also delete sub-items!"
 msgstr ""
 
-#: contents/ui/DeleteIncidenceSheet.qml:64
+#: contents/ui/Dialogs/DeleteIncidencePage.qml:64
 #, kde-format
 msgid ""
 "The calendar item \"%1\" recurs over multiple dates. Do you want to delete "
@@ -242,852 +873,720 @@ msgid ""
 "occurrences?"
 msgstr ""
 
-#: contents/ui/DeleteIncidenceSheet.qml:80
+#: contents/ui/Dialogs/DeleteIncidencePage.qml:80
 #, kde-format
 msgid "Only Delete Current"
 msgstr ""
 
-#: contents/ui/DeleteIncidenceSheet.qml:87
+#: contents/ui/Dialogs/DeleteIncidencePage.qml:87
 #, kde-format
 msgid "Also Delete Future"
 msgstr ""
 
-#: contents/ui/DeleteIncidenceSheet.qml:101
+#: contents/ui/Dialogs/DeleteIncidencePage.qml:101
 #, kde-format
 msgid "Delete Only This"
 msgstr ""
 
-#: contents/ui/DeleteIncidenceSheet.qml:108
+#: contents/ui/Dialogs/DeleteIncidencePage.qml:108
 #, kde-format
 msgid "Delete All"
 msgstr ""
 
-#: contents/ui/EditMenu.qml:28
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Undo"
-msgstr ""
-
-#: contents/ui/EditMenu.qml:38
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Redo"
-msgstr ""
-
-#: contents/ui/EditMenu.qml:51 contents/ui/WindowMenu.qml:79
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Cut"
-msgstr ""
-
-#: contents/ui/EditMenu.qml:61 contents/ui/WindowMenu.qml:88
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Copy"
-msgstr ""
-
-#: contents/ui/EditMenu.qml:71 contents/ui/WindowMenu.qml:97
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Paste"
-msgstr ""
-
-#: contents/ui/EditMenu.qml:81 contents/ui/WindowMenu.qml:106
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Delete"
-msgstr ""
-
-#: contents/ui/EditMenu.qml:94 contents/ui/WindowMenu.qml:118
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Select All"
-msgstr ""
-
-#: contents/ui/FilterHeader.qml:49
-#, kde-format
-msgid "Filtering by tags"
-msgstr ""
-
-#: contents/ui/FilterHeader.qml:50
-#, kde-format
-msgid "All Tasks"
-msgstr ""
-
-#: contents/ui/FilterHeader.qml:94
-#, kde-format
-msgid "Remove filtering tag"
-msgstr ""
-
-#: contents/ui/GlobalMenu.qml:18 contents/ui/WindowMenu.qml:17
-#, kde-format
-msgctxt "@action:menu"
-msgid "File"
-msgstr ""
-
-#: contents/ui/GlobalMenu.qml:25 contents/ui/WindowMenu.qml:24
-#, kde-format
-msgctxt "@action:menu"
-msgid "Quit Kalendar"
-msgstr ""
-
-#: contents/ui/GlobalMenu.qml:33 contents/ui/WindowMenu.qml:32
-#, kde-format
-msgctxt "@action:menu"
-msgid "Edit"
-msgstr ""
-
-#: contents/ui/GlobalMenu.qml:45 contents/ui/WindowMenu.qml:126
-#, kde-format
-msgctxt "@action:menu"
-msgid "View"
-msgstr ""
-
-#: contents/ui/GlobalMenu.qml:79
-#, kde-format
-msgctxt "@action:menu"
-msgid "Sort Tasks"
-msgstr ""
-
-#: contents/ui/GlobalMenu.qml:118 contents/ui/WindowMenu.qml:192
-#, kde-format
-msgctxt "@action:menu"
-msgid "Go"
-msgstr ""
-
-#: contents/ui/GlobalMenu.qml:138 contents/ui/WindowMenu.qml:212
-#, kde-format
-msgctxt "@action:menu"
-msgid "Create"
-msgstr ""
-
-#: contents/ui/GlobalMenu.qml:149 contents/ui/WindowMenu.qml:222
-#, kde-format
-msgctxt "@action:menu"
-msgid "Window"
-msgstr ""
-
-#: contents/ui/GlobalMenu.qml:152 contents/ui/WindowMenu.qml:225
-#, kde-format
-msgctxt "@action:menu"
-msgid "Exit Full Screen"
-msgstr ""
-
-#: contents/ui/GlobalMenu.qml:152 contents/ui/WindowMenu.qml:225
-#, kde-format
-msgctxt "@action:menu"
-msgid "Enter Full Screen"
-msgstr ""
-
-#: contents/ui/GlobalMenu.qml:159 contents/ui/WindowMenu.qml:232
-#, kde-format
-msgctxt "@action:menu"
-msgid "Settings"
-msgstr ""
-
-#: contents/ui/GlobalMenu.qml:178 contents/ui/WindowMenu.qml:254
-#, kde-format
-msgctxt "@action:menu"
-msgid "Help"
-msgstr ""
-
-#: contents/ui/GlobalMenu.qml:186 contents/ui/WindowMenu.qml:262
-#, kde-format
-msgctxt "@action:menu"
-msgid "Kalendar Handbook"
-msgstr ""
-
-#: contents/ui/HourlyView.qml:110
-#, kde-format
-msgid "Previous Week"
-msgstr ""
-
-#: contents/ui/HourlyView.qml:117
-#, kde-format
-msgid "Next Week"
-msgstr ""
-
-#: contents/ui/HourlyView.qml:124
-#, kde-format
-msgid "Now"
-msgstr ""
-
-#: contents/ui/HourlyView.qml:382
-#, kde-format
-msgctxt "@action:button"
-msgid "Reset"
-msgstr ""
-
-#: contents/ui/HourlyView.qml:395
-#, kde-format
-msgid "All day or Multi day"
-msgstr ""
-
-#: contents/ui/IncidenceEditor.qml:39
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:41
 #, kde-format
 msgctxt "%1 is incidence type"
 msgid "Edit %1"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:40
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:42
 #, kde-format
 msgctxt "%1 is incidence type"
 msgid "Add %1"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:50
-#, kde-format
-msgid "Save"
-msgstr ""
-
-#: contents/ui/IncidenceEditor.qml:50
-#, kde-format
-msgid "Add"
-msgstr ""
-
-#: contents/ui/IncidenceEditor.qml:124
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:126
 #, kde-format
 msgid "Invalid dates provided."
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:124
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:126
 #, kde-format
 msgid "End date cannot be before start date."
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:137
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:139
 #, kde-format
 msgid "Calendar:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:197
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:160
 #, kde-format
 msgid "Summary:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:208
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:171
 #, kde-format
 msgid "Completion:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:227
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:190
 #, kde-format
 msgid "Priority:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:235
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:198
 #, kde-format
 msgid "Unassigned"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:236
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:199
 #, kde-format
 msgid "1 (Highest Priority)"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:237
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:200
 #, kde-format
 msgid "2"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:238
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:201
 #, kde-format
 msgid "3"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:239
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:202
 #, kde-format
 msgid "4"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:240
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:203
 #, kde-format
 msgid "5 (Medium Priority)"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:241
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:204
 #, kde-format
 msgid "6"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:242
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:205
 #, kde-format
 msgid "7"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:243
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:206
 #, kde-format
 msgid "8"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:244
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:207
 #, kde-format
 msgid "9 (Lowest Priority)"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:257
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:220
 #, kde-format
 msgid "All day"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:289
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:252
 #, kde-format
 msgid "Start:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:336
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:299
 #, kde-format
 msgid "Due:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:336
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:299
 #, kde-format
 msgid "End:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:383
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:346
 #, kde-format
 msgid "Timezone:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:402
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:365
 #, kde-format
 msgid "Repeat:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:432 contents/ui/IncidenceEditor.qml:633
-#: contents/ui/labelutils.js:106
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:395
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:596
+#: contents/ui/KalendarUtils/labelutils.js:106
 #, kde-format
 msgid "Never"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:433
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:396
 #, kde-format
 msgid "Daily"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:434
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:397
 #, kde-format
 msgid "Weekly"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:435
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:398
 #, kde-format
 msgid "Monthly"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:436
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:399
 #, kde-format
 msgid "Yearly"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:437
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:400
 #, kde-format
 msgid "Custom"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:468
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:431
 #, kde-format
 msgid "Every:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:515
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:478
 #, kde-format
 msgid "day"
 msgid_plural "days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/IncidenceEditor.qml:516
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:479
 #, kde-format
 msgid "week"
 msgid_plural "weeks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/IncidenceEditor.qml:517
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:480
 #, kde-format
 msgid "month"
 msgid_plural "months"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/IncidenceEditor.qml:518
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:481
 #, kde-format
 msgid "year"
 msgid_plural "years"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/IncidenceEditor.qml:588
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:551
 #, kde-format
 msgid "On:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:596
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:559
 #, kde-format
 msgctxt "%1 is the day number of month"
 msgid "The %1 of each month"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:608
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:571
 #, kde-format
 msgctxt "the weekOfMonth dayOfWeekString of each month"
 msgid "The %1 %2 of each month"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:619
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:582
 #, kde-format
 msgid "Ends:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:634
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:597
 #, kde-format
 msgid "On"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:635
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:598
 #, kde-format
 msgid "After"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:671
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:634
 #, kde-format
 msgid "occurrence"
 msgid_plural "occurrences"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/IncidenceEditor.qml:677
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:640
 #, kde-format
 msgid "Exceptions:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:683
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:646
 #, kde-format
 msgid "Add Recurrence Exception"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:726
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:689
 #, kde-format
 msgid "Location:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:735 contents/ui/IncidenceEditor.qml:811
-#: contents/ui/IncidenceEditor.qml:978
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:698
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:774
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:941
 #, kde-format
 msgid "Optional"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:774
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:737
 #, kde-format
 msgid "Show map"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:805
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:768
 #, kde-format
 msgid "Description:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:826
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:789
 #, kde-format
 msgid "Tags:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:835 models/todosortfilterproxymodel.cpp:146
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:798
+#: models/todosortfilterproxymodel.cpp:157
 #, kde-format
 msgctxt "List separator"
 msgid ", "
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:836
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:799
 #, kde-format
 msgid "Tap to set tags…"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:836
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:799
 #, kde-format
 msgid "Click to set tags…"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:853
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:816
 #, kde-format
 msgid "Manage tags…"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:864
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:827
 #, kde-format
 msgid "Reminders:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:922
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:885
 #, kde-format
 msgid "Add Reminder"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:936
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:899
 #, kde-format
 msgid "Attendees:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:971
-#, kde-format
-msgid "Name:"
-msgstr ""
-
-#: contents/ui/IncidenceEditor.qml:996
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:959
 #, kde-format
 msgid "Email:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:1003
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:966
 #, kde-format
 msgid "Required"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:1012
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:975
 #, kde-format
 msgid "Status:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:1036
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:999
 #, kde-format
 msgid "Request RSVP"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:1050
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:1013
 #, kde-format
 msgid "Add Attendee"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:1061
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:1024
 #, kde-format
 msgid "Choose from Contacts"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:1065
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:1028
 #, kde-format
 msgid "Fill in Manually"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:1079
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:1042
 #, kde-format
 msgid "Attachments:"
 msgstr ""
 
-#: contents/ui/IncidenceEditor.qml:1102
+#: contents/ui/Dialogs/IncidenceEditorPage.qml:1065
 #, kde-format
 msgid "Add Attachment"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:105 contents/ui/IncidenceMouseArea.qml:86
+#: contents/ui/Dialogs/RecurringIncidenceChangePage.qml:29
 #, kde-format
-msgid "Add Sub-Task"
+msgid "Change incidence date"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:114
+#: contents/ui/Dialogs/RecurringIncidenceChangePage.qml:47
+#, kde-format
+msgid ""
+"The item you are trying to change is a recurring item. Should the changes be "
+"applied only to this single occurrence, also to future items, or to all "
+"items in the recurrence?"
+msgstr ""
+
+#: contents/ui/Dialogs/RecurringIncidenceChangePage.qml:62
+#, kde-format
+msgid "Only This Item"
+msgstr ""
+
+#: contents/ui/Dialogs/RecurringIncidenceChangePage.qml:70
+#, kde-format
+msgid "Also Future Items"
+msgstr ""
+
+#: contents/ui/Dialogs/RecurringIncidenceChangePage.qml:78
+#, kde-format
+msgid "All Occurrences"
+msgstr ""
+
+#: contents/ui/Dialogs/TagManagerPage.qml:13
+#, kde-format
+msgid "Manage Tags"
+msgstr ""
+
+#: contents/ui/Dialogs/TagManagerPage.qml:17
+#, kde-format
+msgid "Delete Tag"
+msgstr ""
+
+#: contents/ui/Dialogs/TagManagerPage.qml:25
+#, kde-format
+msgid "Are you sure you want to delete tag \"%1\"?"
+msgstr ""
+
+#: contents/ui/Dialogs/TagManagerPage.qml:110
+#, kde-format
+msgid "Create a New Tag…"
+msgstr ""
+
+#: contents/ui/Dialogs/TagManagerPage.qml:134
+#, kde-format
+msgid "Quickly Add a New Tag."
+msgstr ""
+
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:116
 #, kde-format
 msgid "Mark Incomplete"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:114
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:116
 #, kde-format
 msgid "Mark Complete"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:123 contents/ui/IncidenceMouseArea.qml:64
-#: contents/ui/Settings/SourceSettingsPage.qml:108
-#, kde-format
-msgid "Edit"
-msgstr ""
-
-#: contents/ui/IncidenceInfo.qml:196
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:198
 #, kde-format
 msgctxt "%1 is a percentage number"
 msgid "<b>%1%</b> Complete"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:226
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:230
 #, kde-format
 msgid "<b>Calendar:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:238
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:242
 #, kde-format
 msgid "<b>Tags:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:251
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:255
 #, kde-format
 msgid "Remove %1 tag"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:263
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:267
 #, kde-format
 msgid "<b>Date:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:285
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:289
 #, kde-format
 msgid "<b>Time:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:309
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:313
 #, kde-format
 msgid "<b>Duration:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:325
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:329
 #, kde-format
 msgid "<b>Priority level:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:337
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:341
 #, kde-format
 msgid "<b>Completed:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:356
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:360
 #, kde-format
 msgid "<b>Recurrence:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:379
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:383
 #, kde-format
 msgid "Except on:"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:408
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:412
 #, kde-format
 msgid "<b>Location:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:465
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:469
 #, kde-format
 msgid "Unable to find location."
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:503
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:507
 #, kde-format
 msgid "<b>Description:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:519
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:523
 #, kde-format
 msgid "<b>Attachment:</b>"
 msgid_plural "<b>Attachments:</b>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/IncidenceInfo.qml:544
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:548
 #, kde-format
 msgid "<b>Reminders:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:569
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:573
 #, kde-format
 msgid "<b>Organizer:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceInfo.qml:586
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:590
 #, kde-format
 msgid "<b>Guests:</b>"
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:59
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:624
 #, kde-format
-msgid "View"
+msgid "Super-task"
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:79
+#: contents/ui/Drawers/IncidenceInfoDrawer.qml:648
 #, kde-format
-msgid "Mark Task as Incomplete"
+msgid "Sub-task"
+msgid_plural "Sub-tasks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: contents/ui/Drawers/MainDrawer.qml:86
+#, kde-format
+msgid "Kalendar"
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:79
+#: contents/ui/Drawers/MainDrawer.qml:129
+#: contents/ui/Drawers/MainDrawer.qml:258
 #, kde-format
-msgid "Mark Task as Complete"
+msgid "Undo: "
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:97
+#: contents/ui/Drawers/MainDrawer.qml:137
+#: contents/ui/Drawers/MainDrawer.qml:263
 #, kde-format
-msgid "Set priority..."
+msgid "Redo: "
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:110
+#: contents/ui/Drawers/MainDrawer.qml:146
+#: contents/ui/main.qml:340
 #, kde-format
-msgid "None"
+msgid "Configure"
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:115
+#: contents/ui/Drawers/MainDrawer.qml:258
 #, kde-format
-msgid "1 (highest priority)"
+msgid "Undo"
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:120
+#: contents/ui/Drawers/MainDrawer.qml:263
 #, kde-format
-msgid "2 (mid-high priority)"
+msgid "Redo"
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:125
+#: contents/ui/Drawers/MainDrawer.qml:274
 #, kde-format
-msgid "3 (mid-high priority)"
+msgid "Settings"
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:130
+#: contents/ui/Drawers/MainDrawer.qml:368
 #, kde-format
-msgid "4 (mid-high priority)"
+msgid "Tags"
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:135
+#: contents/ui/Drawers/MainDrawer.qml:431
+#: contents/ui/Settings/CalendarSettingsPage.qml:14
+#: contents/ui/Settings/SettingsPage.qml:36
 #, kde-format
-msgid "5 (medium priority)"
+msgid "Calendars"
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:140
+#: contents/ui/Drawers/MainDrawer.qml:665
 #, kde-format
-msgid "6 (mid-low priority)"
+msgid "View all tasks"
 msgstr ""
 
-#: contents/ui/IncidenceMouseArea.qml:145
-#, kde-format
-msgid "7 (mid-low priority)"
-msgstr ""
-
-#: contents/ui/IncidenceMouseArea.qml:150
-#, kde-format
-msgid "8 (mid-low priority)"
-msgstr ""
-
-#: contents/ui/IncidenceMouseArea.qml:155
-#, kde-format
-msgid "9 (lowest priority)"
-msgstr ""
-
-#: contents/ui/labelutils.js:33
+#: contents/ui/KalendarUtils/labelutils.js:33
 #, kde-format
 msgctxt "%1 is 2 or more"
 msgid "%1 days"
 msgstr ""
 
-#: contents/ui/labelutils.js:35
+#: contents/ui/KalendarUtils/labelutils.js:35
 #, kde-format
 msgid "1 day"
 msgstr ""
 
-#: contents/ui/labelutils.js:37
+#: contents/ui/KalendarUtils/labelutils.js:37
 #, kde-format
 msgctxt "%1 is 2 or mores"
 msgid "%1 hours"
 msgstr ""
 
-#: contents/ui/labelutils.js:39
+#: contents/ui/KalendarUtils/labelutils.js:39
 #, kde-format
 msgid "1 hour"
 msgstr ""
 
-#: contents/ui/labelutils.js:41
+#: contents/ui/KalendarUtils/labelutils.js:41
 #, kde-format
 msgid "%1 minutes"
 msgstr ""
 
-#: contents/ui/labelutils.js:45
+#: contents/ui/KalendarUtils/labelutils.js:45
 #, kde-format
 msgid "%1 before start of event"
 msgstr ""
 
-#: contents/ui/labelutils.js:47
+#: contents/ui/KalendarUtils/labelutils.js:47
 #, kde-format
 msgid "%1 after start of event"
 msgstr ""
 
-#: contents/ui/labelutils.js:49
+#: contents/ui/KalendarUtils/labelutils.js:49
 #, kde-format
 msgid "On event start"
 msgstr ""
 
-#: contents/ui/labelutils.js:54
+#: contents/ui/KalendarUtils/labelutils.js:54
 #, kde-format
 msgid "Every week"
 msgid_plural "Every %1 weeks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/labelutils.js:57
+#: contents/ui/KalendarUtils/labelutils.js:57
 #, kde-format
 msgid "Every week on"
 msgid_plural "Every %1 weeks on"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/labelutils.js:90 contents/ui/labelutils.js:129
+#: contents/ui/KalendarUtils/labelutils.js:90
+#: contents/ui/KalendarUtils/labelutils.js:129
 #, kde-format
 msgid "Every year on the %2 of %3"
 msgid_plural "Every %1 years on the %2 of %3"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/labelutils.js:109
+#: contents/ui/KalendarUtils/labelutils.js:109
 #, kde-format
 msgid "Every minute"
 msgid_plural "Every %1 minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/labelutils.js:112
+#: contents/ui/KalendarUtils/labelutils.js:112
 #, kde-format
 msgid "Every hour"
 msgid_plural "Every %1 hours"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/labelutils.js:115
+#: contents/ui/KalendarUtils/labelutils.js:115
 #, kde-format
 msgid "Every day"
 msgid_plural "Every %1 days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/labelutils.js:121 contents/ui/labelutils.js:125
+#: contents/ui/KalendarUtils/labelutils.js:121
+#: contents/ui/KalendarUtils/labelutils.js:125
 #, kde-format
 msgid "Every month on the %2"
 msgid_plural "Every %1 months on the %2"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/labelutils.js:133
+#: contents/ui/KalendarUtils/labelutils.js:133
 #, kde-format
 msgid "Every year on the %2 day of the year"
 msgid_plural "Every %1 years on the %2 day of the year"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/ui/labelutils.js:139
+#: contents/ui/KalendarUtils/labelutils.js:139
 #, kde-format
 msgid "Complex recurrence rule"
 msgstr ""
 
-#: contents/ui/labelutils.js:142
+#: contents/ui/KalendarUtils/labelutils.js:142
 #, kde-format
 msgid "Unknown"
 msgstr ""
 
-#: contents/ui/labelutils.js:150
+#: contents/ui/KalendarUtils/labelutils.js:150
 #, kde-format
 msgid "Never ends"
 msgstr ""
 
-#: contents/ui/labelutils.js:152
+#: contents/ui/KalendarUtils/labelutils.js:152
 #, kde-format
 msgid "Ends on %1"
 msgstr ""
 
-#: contents/ui/labelutils.js:154
+#: contents/ui/KalendarUtils/labelutils.js:154
 #, kde-format
 msgid "Ends after %1 occurrences"
 msgstr ""
 
-#: contents/ui/labelutils.js:211
+#: contents/ui/KalendarUtils/labelutils.js:218
 #, kde-format
 msgctxt ""
 "%1 is the time, spaces included to allow use of 'empty' string when an event "
@@ -1095,7 +1594,7 @@ msgctxt ""
 msgid " at %1 "
 msgstr ""
 
-#: contents/ui/labelutils.js:215
+#: contents/ui/KalendarUtils/labelutils.js:222
 #, kde-format
 msgctxt ""
 "No space since the %1 string, which includes the time (or not), includes "
@@ -1103,7 +1602,7 @@ msgctxt ""
 msgid "Today%1(overdue)"
 msgstr ""
 
-#: contents/ui/labelutils.js:216
+#: contents/ui/KalendarUtils/labelutils.js:223
 #, kde-format
 msgctxt ""
 "No space since the %1 string, which includes the time (or not), includes "
@@ -1111,7 +1610,7 @@ msgctxt ""
 msgid "Today%1"
 msgstr ""
 
-#: contents/ui/labelutils.js:218
+#: contents/ui/KalendarUtils/labelutils.js:225
 #, kde-format
 msgctxt ""
 "No space since the %1 string, which includes the time (or not), includes "
@@ -1119,7 +1618,7 @@ msgctxt ""
 msgid "Tomorrow%1"
 msgstr ""
 
-#: contents/ui/labelutils.js:221
+#: contents/ui/KalendarUtils/labelutils.js:228
 #, kde-format
 msgctxt ""
 "No space since the %1 string, which includes the time (or not), includes "
@@ -1127,7 +1626,7 @@ msgctxt ""
 msgid "Yesterday%1(overdue)"
 msgstr ""
 
-#: contents/ui/labelutils.js:222
+#: contents/ui/KalendarUtils/labelutils.js:229
 #, kde-format
 msgctxt ""
 "No space since the %1 string, which includes the time (or not), includes "
@@ -1135,125 +1634,125 @@ msgctxt ""
 msgid "Yesterday"
 msgstr ""
 
-#: contents/ui/labelutils.js:225
+#: contents/ui/KalendarUtils/labelutils.js:232
 #, kde-format
 msgid "(overdue)"
 msgstr ""
 
-#: contents/ui/labelutils.js:233
+#: contents/ui/KalendarUtils/labelutils.js:240
 #, kde-format
 msgctxt "%1 is the priority level number"
 msgid "%1 (Highest priority)"
 msgstr ""
 
-#: contents/ui/labelutils.js:235
+#: contents/ui/KalendarUtils/labelutils.js:242
 #, kde-format
 msgctxt "%1 is the priority level number"
 msgid "%1 (Mid-high priority)"
 msgstr ""
 
-#: contents/ui/labelutils.js:237
+#: contents/ui/KalendarUtils/labelutils.js:244
 #, kde-format
 msgctxt "%1 is the priority level number"
 msgid "%1 (Medium priority)"
 msgstr ""
 
-#: contents/ui/labelutils.js:239
+#: contents/ui/KalendarUtils/labelutils.js:246
 #, kde-format
 msgctxt "%1 is the priority level number"
 msgid "%1 (Mid-low priority)"
 msgstr ""
 
-#: contents/ui/labelutils.js:241
+#: contents/ui/KalendarUtils/labelutils.js:248
 #, kde-format
 msgctxt "%1 is the priority level number"
 msgid "%1 (Lowest priority)"
 msgstr ""
 
-#: contents/ui/labelutils.js:243
+#: contents/ui/KalendarUtils/labelutils.js:250
 #, kde-format
 msgid "No set priority level"
 msgstr ""
 
-#: contents/ui/LocationMap.qml:51
+#: contents/ui/Location/LocationMap.qml:51
 #, kde-format
 msgid "Return to Location"
 msgstr ""
 
-#: contents/ui/main.qml:318
+#: contents/ui/main.qml:308
 #, kde-format
 msgctxt "%1 is a number"
 msgid "%1 incidences were imported successfully."
 msgstr ""
 
-#: contents/ui/main.qml:321 contents/ui/main.qml:336
+#: contents/ui/main.qml:311 contents/ui/main.qml:326
 #, kde-format
 msgctxt "%1 is the error message"
 msgid "An error occurred importing incidences: %1"
 msgstr ""
 
-#: contents/ui/main.qml:333
+#: contents/ui/main.qml:323
 #, kde-format
 msgid "New calendar  created from imported file successfully."
 msgstr ""
 
-#: contents/ui/main.qml:350 contents/ui/Sidebar.qml:142
-#, kde-format
-msgid "Configure"
-msgstr ""
-
-#: contents/ui/main.qml:408 contents/ui/TodoPage.qml:80
-#: contents/ui/TodoTreeView.qml:117
+#: contents/ui/main.qml:402 contents/ui/MainViews/TodoTreeView.qml:126
+#: contents/ui/MainViews/TodoView.qml:58
 #, kde-format
 msgid "Create"
 msgstr ""
 
-#: contents/ui/main.qml:428 kalendarapplication.cpp:163
+#: contents/ui/main.qml:422 kalendarapplication.cpp:178
 #, kde-format
 msgid "Month View"
 msgstr ""
 
-#: contents/ui/main.qml:431 kalendarapplication.cpp:99
+#: contents/ui/main.qml:425 kalendarapplication.cpp:98
 #, kde-format
 msgid "Week View"
 msgstr ""
 
-#: contents/ui/main.qml:434 kalendarapplication.cpp:115
+#: contents/ui/main.qml:428 kalendarapplication.cpp:114
 #, kde-format
 msgid "3 Day View"
 msgstr ""
 
-#: contents/ui/main.qml:437 kalendarapplication.cpp:131
+#: contents/ui/main.qml:431 kalendarapplication.cpp:130
 #, kde-format
 msgid "Day View"
 msgstr ""
 
-#: contents/ui/main.qml:440 kalendarapplication.cpp:147
+#: contents/ui/main.qml:434 kalendarapplication.cpp:146
 #, kde-format
 msgid "Schedule View"
 msgstr ""
 
-#: contents/ui/main.qml:443 kalendarapplication.cpp:83
+#: contents/ui/main.qml:437 kalendarapplication.cpp:82
 #, kde-format
 msgid "Tasks View"
 msgstr ""
 
-#: contents/ui/main.qml:446 contents/ui/main.qml:449
+#: contents/ui/main.qml:440 kalendarapplication.cpp:162
+#, kde-format
+msgid "Contacts View"
+msgstr ""
+
+#: contents/ui/main.qml:443 contents/ui/main.qml:446
 #, kde-format
 msgid "Calendar"
 msgstr ""
 
-#: contents/ui/main.qml:755
+#: contents/ui/main.qml:754
 #, kde-format
 msgid "Import a calendar"
 msgstr ""
 
-#: contents/ui/main.qml:775
+#: contents/ui/main.qml:774
 #, kde-format
 msgid "Import Calendar"
 msgstr ""
 
-#: contents/ui/main.qml:783
+#: contents/ui/main.qml:782
 #, kde-format
 msgid ""
 "Would you like to merge this calendar file's events and tasks into one of "
@@ -1262,136 +1761,383 @@ msgid ""
 " "
 msgstr ""
 
-#: contents/ui/main.qml:791
+#: contents/ui/main.qml:790
 #, kde-format
 msgid "Merge with existing calendar"
 msgstr ""
 
-#: contents/ui/main.qml:807
+#: contents/ui/main.qml:806
 #, kde-format
 msgid "Create new calendar"
 msgstr ""
 
-#: contents/ui/main.qml:1296 contents/ui/ViewTitleDelegate.qml:31
+#: contents/ui/main.qml:1086
 #, kde-format
-msgid "Expand Sidebar"
+msgid "Expand MainDrawer"
 msgstr ""
 
-#: contents/ui/main.qml:1296 contents/ui/ViewTitleDelegate.qml:31
+#: contents/ui/main.qml:1086
 #, kde-format
-msgid "Collapse Sidebar"
+msgid "Collapse MainDrawer"
 msgstr ""
 
-#: contents/ui/main.qml:1301
+#: contents/ui/main.qml:1091
 #, kde-format
 msgid "Tasks"
 msgstr ""
 
-#: contents/ui/MonthView.qml:74 contents/ui/ScheduleView.qml:106
-#, kde-format
-msgid "Previous Month"
-msgstr ""
-
-#: contents/ui/MonthView.qml:81 contents/ui/ScheduleView.qml:113
-#, kde-format
-msgid "Next Month"
-msgstr ""
-
-#: contents/ui/MonthView.qml:88 contents/ui/ScheduleView.qml:120
-#, kde-format
-msgid "Today"
-msgstr ""
-
-#: contents/ui/MultiDayView.qml:202
+#: contents/ui/MainViews/DayGridView.qml:194
 #, kde-format
 msgid "<b>Today</b>"
 msgstr ""
 
-#: contents/ui/RecurringIncidenceChangeSheet.qml:29
+#: contents/ui/MainViews/HourlyView.qml:101
 #, kde-format
-msgid "Change incidence date"
+msgid "Previous Week"
 msgstr ""
 
-#: contents/ui/RecurringIncidenceChangeSheet.qml:47
+#: contents/ui/MainViews/HourlyView.qml:108
 #, kde-format
-msgid ""
-"The item you are trying to change is a recurring item. Should the changes be "
-"applied only to this single occurrence, also to future items, or to all "
-"items in the recurrence?"
+msgid "Next Week"
 msgstr ""
 
-#: contents/ui/RecurringIncidenceChangeSheet.qml:62
+#: contents/ui/MainViews/HourlyView.qml:115
 #, kde-format
-msgid "Only This Item"
+msgid "Now"
 msgstr ""
 
-#: contents/ui/RecurringIncidenceChangeSheet.qml:70
+#: contents/ui/MainViews/HourlyView.qml:398
 #, kde-format
-msgid "Also Future Items"
+msgctxt "@action:button"
+msgid "Reset"
 msgstr ""
 
-#: contents/ui/RecurringIncidenceChangeSheet.qml:78
+#: contents/ui/MainViews/HourlyView.qml:411
 #, kde-format
-msgid "All Occurrences"
+msgid "All day or Multi day"
 msgstr ""
 
-#: contents/ui/ScheduleView.qml:357
+#: contents/ui/MainViews/MonthView.qml:65
+#: contents/ui/MainViews/ScheduleView.qml:125
+#, kde-format
+msgid "Previous Month"
+msgstr ""
+
+#: contents/ui/MainViews/MonthView.qml:72
+#: contents/ui/MainViews/ScheduleView.qml:132
+#, kde-format
+msgid "Next Month"
+msgstr ""
+
+#: contents/ui/MainViews/MonthView.qml:79
+#: contents/ui/MainViews/ScheduleView.qml:139
+#, kde-format
+msgid "Today"
+msgstr ""
+
+#: contents/ui/MainViews/ScheduleView.qml:388
 #, kde-format
 msgctxt "Date has no events or tasks set"
 msgid "Clear day."
 msgstr ""
 
-#: contents/ui/ScheduleView.qml:376
+#: contents/ui/MainViews/ScheduleView.qml:407
 #, kde-format
 msgid "Tap"
 msgstr ""
 
-#: contents/ui/ScheduleView.qml:376
+#: contents/ui/MainViews/ScheduleView.qml:407
 #, kde-format
 msgid "Click"
 msgstr ""
 
-#: contents/ui/ScheduleView.qml:377
+#: contents/ui/MainViews/ScheduleView.qml:408
 #, kde-format
 msgid "Nothing on the books today. %1 to add something."
 msgstr ""
 
-#: contents/ui/ScheduleView.qml:495
+#: contents/ui/MainViews/ScheduleView.qml:526
 #, kde-format
 msgctxt "%1 is the name of the event"
 msgid "%1 (Day %2 of %3)"
 msgstr ""
 
-#: contents/ui/ScheduleView.qml:551
+#: contents/ui/MainViews/ScheduleView.qml:582
 #, kde-format
 msgid "Runs all day"
 msgstr ""
 
-#: contents/ui/ScheduleView.qml:555
+#: contents/ui/MainViews/ScheduleView.qml:586
 #, kde-format
 msgctxt "Displays times between incidence start and end"
 msgid "%1 - %2"
 msgstr ""
 
-#: contents/ui/ScheduleView.qml:558
+#: contents/ui/MainViews/ScheduleView.qml:589
 #, kde-format
 msgid "Starts at %1"
 msgstr ""
 
-#: contents/ui/ScheduleView.qml:560
+#: contents/ui/MainViews/ScheduleView.qml:591
 #, kde-format
 msgid "Ends at %1"
 msgstr ""
 
-#: contents/ui/ScheduleView.qml:562
+#: contents/ui/MainViews/ScheduleView.qml:593
 #, kde-format
 msgid "Runs All Day"
 msgstr ""
 
-#: contents/ui/Settings/CalendarSettingsPage.qml:14
-#: contents/ui/SettingsPage.qml:28 contents/ui/Sidebar.qml:417
+#: contents/ui/MainViews/TodoTreeView.qml:73
 #, kde-format
-msgid "Calendars"
+msgid "Priority %1"
+msgstr ""
+
+#: contents/ui/MainViews/TodoTreeView.qml:73
+#, kde-format
+msgid "No set priority"
+msgstr ""
+
+#: contents/ui/MainViews/TodoTreeView.qml:83
+#: models/todosortfilterproxymodel.cpp:176
+#, kde-format
+msgid "Overdue"
+msgstr ""
+
+#: contents/ui/MainViews/TodoTreeView.qml:105
+#, kde-format
+msgid "No task calendars enabled."
+msgstr ""
+
+#: contents/ui/MainViews/TodoTreeView.qml:112
+#, kde-format
+msgid "Calendar is not enabled"
+msgstr ""
+
+#: contents/ui/MainViews/TodoTreeView.qml:115
+#, kde-format
+msgid "Enable"
+msgstr ""
+
+#: contents/ui/MainViews/TodoTreeView.qml:124
+#, kde-format
+msgid "No tasks completed"
+msgstr ""
+
+#: contents/ui/MainViews/TodoTreeView.qml:124
+#, kde-format
+msgid "No tasks left to complete"
+msgstr ""
+
+#: contents/ui/MainViews/TodoView.qml:63 kalendarapplication.cpp:30
+#: kalendarapplication.cpp:33
+#, kde-format
+msgid "Sort"
+msgstr ""
+
+#: contents/ui/MainViews/TodoView.qml:97
+#, kde-format
+msgid "Show Completed"
+msgstr ""
+
+#: contents/ui/MainViews/TodoView.qml:105
+#, kde-format
+msgid "Completed Tasks in %1"
+msgstr ""
+
+#: contents/ui/MainViews/TodoView.qml:105
+#, kde-format
+msgid "Completed Tasks"
+msgstr ""
+
+#: contents/ui/MainViews/TodoView.qml:155
+#, kde-format
+msgid "Create a New Task…"
+msgstr ""
+
+#: contents/ui/MainViews/TodoView.qml:196
+#: contents/ui/MainViews/TodoView.qml:197
+#, kde-format
+msgid "Quickly Add a New Task."
+msgstr ""
+
+#: contents/ui/Menus/CalendarItemMenu.qml:20
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit calendar…"
+msgstr ""
+
+#: contents/ui/Menus/CalendarItemMenu.qml:25
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Update calendar"
+msgstr ""
+
+#: contents/ui/Menus/CalendarItemMenu.qml:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete calendar"
+msgstr ""
+
+#: contents/ui/Menus/CalendarItemMenu.qml:38
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Set calendar colour…"
+msgstr ""
+
+#: contents/ui/Menus/CalendarItemMenu.qml:50
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Calendar source settings…"
+msgstr ""
+
+#: contents/ui/Menus/CalendarItemMenu.qml:56
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Update calendar source"
+msgstr ""
+
+#: contents/ui/Menus/CalendarItemMenu.qml:62
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete calendar source"
+msgstr ""
+
+#: contents/ui/Menus/EditMenu.qml:28
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Undo"
+msgstr ""
+
+#: contents/ui/Menus/EditMenu.qml:38
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Redo"
+msgstr ""
+
+#: contents/ui/Menus/EditMenu.qml:51 contents/ui/Menus/WindowMenu.qml:79
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Cut"
+msgstr ""
+
+#: contents/ui/Menus/EditMenu.qml:61 contents/ui/Menus/WindowMenu.qml:88
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Copy"
+msgstr ""
+
+#: contents/ui/Menus/EditMenu.qml:71 contents/ui/Menus/WindowMenu.qml:97
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Paste"
+msgstr ""
+
+#: contents/ui/Menus/EditMenu.qml:81 contents/ui/Menus/WindowMenu.qml:106
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Delete"
+msgstr ""
+
+#: contents/ui/Menus/EditMenu.qml:94 contents/ui/Menus/WindowMenu.qml:118
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Select All"
+msgstr ""
+
+#: contents/ui/Menus/GlobalMenu.qml:19 contents/ui/Menus/WindowMenu.qml:17
+#, kde-format
+msgctxt "@action:menu"
+msgid "File"
+msgstr ""
+
+#: contents/ui/Menus/GlobalMenu.qml:26 contents/ui/Menus/WindowMenu.qml:24
+#, kde-format
+msgctxt "@action:menu"
+msgid "Quit Kalendar"
+msgstr ""
+
+#: contents/ui/Menus/GlobalMenu.qml:34 contents/ui/Menus/WindowMenu.qml:32
+#, kde-format
+msgctxt "@action:menu"
+msgid "Edit"
+msgstr ""
+
+#: contents/ui/Menus/GlobalMenu.qml:46 contents/ui/Menus/WindowMenu.qml:126
+#, kde-format
+msgctxt "@action:menu"
+msgid "View"
+msgstr ""
+
+#: contents/ui/Menus/GlobalMenu.qml:84
+#, kde-format
+msgctxt "@action:menu"
+msgid "Sort Tasks"
+msgstr ""
+
+#: contents/ui/Menus/GlobalMenu.qml:131 contents/ui/Menus/WindowMenu.qml:202
+#, kde-format
+msgctxt "@action:menu"
+msgid "Go"
+msgstr ""
+
+#: contents/ui/Menus/GlobalMenu.qml:155 contents/ui/Menus/WindowMenu.qml:226
+#, kde-format
+msgctxt "@action:menu"
+msgid "Create"
+msgstr ""
+
+#: contents/ui/Menus/GlobalMenu.qml:166 contents/ui/Menus/WindowMenu.qml:236
+#, kde-format
+msgctxt "@action:menu"
+msgid "Window"
+msgstr ""
+
+#: contents/ui/Menus/GlobalMenu.qml:169 contents/ui/Menus/WindowMenu.qml:239
+#, kde-format
+msgctxt "@action:menu"
+msgid "Exit Full Screen"
+msgstr ""
+
+#: contents/ui/Menus/GlobalMenu.qml:169 contents/ui/Menus/WindowMenu.qml:239
+#, kde-format
+msgctxt "@action:menu"
+msgid "Enter Full Screen"
+msgstr ""
+
+#: contents/ui/Menus/GlobalMenu.qml:176 contents/ui/Menus/WindowMenu.qml:246
+#, kde-format
+msgctxt "@action:menu"
+msgid "Settings"
+msgstr ""
+
+#: contents/ui/Menus/GlobalMenu.qml:195 contents/ui/Menus/WindowMenu.qml:268
+#, kde-format
+msgctxt "@action:menu"
+msgid "Help"
+msgstr ""
+
+#: contents/ui/Menus/GlobalMenu.qml:203 contents/ui/Menus/WindowMenu.qml:276
+#, kde-format
+msgctxt "@action:menu"
+msgid "Kalendar Handbook"
+msgstr ""
+
+#: contents/ui/Menus/WindowMenu.qml:58
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Undo Text"
+msgstr ""
+
+#: contents/ui/Menus/WindowMenu.qml:67
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Redo Text"
+msgstr ""
+
+#: contents/ui/Menus/WindowMenu.qml:158
+#, kde-format
+msgid "Sort Tasks"
 msgstr ""
 
 #: contents/ui/Settings/CalendarSettingsPage.qml:144
@@ -1405,7 +2151,7 @@ msgid "Choose Calendar Color"
 msgstr ""
 
 #: contents/ui/Settings/GeneralSettingsPage.qml:11
-#: contents/ui/SettingsPage.qml:13
+#: contents/ui/Settings/SettingsPage.qml:14
 #, kde-format
 msgid "General"
 msgstr ""
@@ -1440,36 +2186,50 @@ msgstr ""
 msgid "Pin (shows exact location)"
 msgstr ""
 
-#: contents/ui/Settings/SourceSettingsPage.qml:12
-#: contents/ui/SettingsPage.qml:23
+#: contents/ui/Settings/SettingsPage.qml:19
+#: contents/ui/Settings/ViewSettingsPage.qml:11
+#, kde-format
+msgid "Views"
+msgstr ""
+
+#: contents/ui/Settings/SettingsPage.qml:24
+#: contents/ui/Settings/SourceSettingsPage.qml:16
 #, kde-format
 msgid "Calendar Sources"
 msgstr ""
 
-#: contents/ui/Settings/SourceSettingsPage.qml:101
+#: contents/ui/Settings/SettingsPage.qml:30
+#: contents/ui/Settings/SourceSettingsPage.qml:14
+#, kde-format
+msgid "Address Book Sources"
+msgstr ""
+
+#: contents/ui/Settings/SettingsPage.qml:41
+#: kalendarapplication.cpp:194
+#, kde-format
+msgid "About Kalendar"
+msgstr ""
+
+#: contents/ui/Settings/SourceSettingsPage.qml:108
 #, kde-format
 msgid "Restart"
 msgstr ""
 
-#: contents/ui/Settings/SourceSettingsPage.qml:115
+#: contents/ui/Settings/SourceSettingsPage.qml:122
 #, kde-format
 msgid "Remove"
 msgstr ""
 
-#: contents/ui/Settings/SourceSettingsPage.qml:131
+#: contents/ui/Settings/SourceSettingsPage.qml:138
+#: contents/ui/Settings/SourceSettingsPage.qml:173
+#, kde-format
+msgid "Add New Address Book Source…"
+msgstr ""
+
+#: contents/ui/Settings/SourceSettingsPage.qml:138
+#: contents/ui/Settings/SourceSettingsPage.qml:173
 #, kde-format
 msgid "Add New Calendar Source"
-msgstr ""
-
-#: contents/ui/Settings/SourceSettingsPage.qml:166
-#, kde-format
-msgid "Add New Calendar Source…"
-msgstr ""
-
-#: contents/ui/Settings/ViewSettingsPage.qml:11
-#: contents/ui/SettingsPage.qml:18
-#, kde-format
-msgid "Views"
 msgstr ""
 
 #: contents/ui/Settings/ViewSettingsPage.qml:16
@@ -1482,441 +2242,271 @@ msgstr ""
 msgid "Show sub-tasks in calendar views"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:29
+#: contents/ui/Settings/ViewSettingsPage.qml:28
+#, kde-format
+msgid "Past event transparency:"
+msgstr ""
+
+#: contents/ui/Settings/ViewSettingsPage.qml:44
 #, kde-format
 msgid "Month View settings"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:41
+#: contents/ui/Settings/ViewSettingsPage.qml:56
 #, kde-format
 msgid "Weekday label alignment:"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:46
+#: contents/ui/Settings/ViewSettingsPage.qml:61
 #, kde-format
 msgid "Left"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:52
+#: contents/ui/Settings/ViewSettingsPage.qml:67
 #, kde-format
 msgid "Center"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:58
+#: contents/ui/Settings/ViewSettingsPage.qml:73
 #, kde-format
 msgid "Right"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:73
+#: contents/ui/Settings/ViewSettingsPage.qml:88
 #, kde-format
 msgid "Weekday label length:"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:78
+#: contents/ui/Settings/ViewSettingsPage.qml:93
 #, kde-format
 msgid "Full name (Monday)"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:84
+#: contents/ui/Settings/ViewSettingsPage.qml:99
 #, kde-format
 msgid "Abbreviated (Mon)"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:90
+#: contents/ui/Settings/ViewSettingsPage.qml:105
 #, kde-format
 msgid "Letter only (M)"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:96
+#: contents/ui/Settings/ViewSettingsPage.qml:111
 #, kde-format
 msgid "Show week numbers"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:105
+#: contents/ui/Settings/ViewSettingsPage.qml:120
 #, kde-format
 msgid "Grid border width (pixels):"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:128
+#: contents/ui/Settings/ViewSettingsPage.qml:143
 #, kde-format
 msgid "Schedule View settings"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:131
+#: contents/ui/Settings/ViewSettingsPage.qml:146
 #, kde-format
 msgid "Headers:"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:135
+#: contents/ui/Settings/ViewSettingsPage.qml:150
 #, kde-format
 msgid "Show week headers"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:147
+#: contents/ui/Settings/ViewSettingsPage.qml:162
 #, kde-format
 msgid "Tasks View settings"
 msgstr ""
 
-#: contents/ui/Settings/ViewSettingsPage.qml:150
+#: contents/ui/Settings/ViewSettingsPage.qml:165
 #, kde-format
 msgid "Show completed sub-tasks"
 msgstr ""
 
-#: contents/ui/SettingsPage.qml:33 kalendarapplication.cpp:179
-#, kde-format
-msgid "About Kalendar"
-msgstr ""
-
-#: contents/ui/Sidebar.qml:82
-#, kde-format
-msgid "Kalendar"
-msgstr ""
-
-#: contents/ui/Sidebar.qml:125 contents/ui/Sidebar.qml:247
-#, kde-format
-msgid "Undo: "
-msgstr ""
-
-#: contents/ui/Sidebar.qml:133 contents/ui/Sidebar.qml:252
-#, kde-format
-msgid "Redo: "
-msgstr ""
-
-#: contents/ui/Sidebar.qml:247
-#, kde-format
-msgid "Undo"
-msgstr ""
-
-#: contents/ui/Sidebar.qml:252
-#, kde-format
-msgid "Redo"
-msgstr ""
-
-#: contents/ui/Sidebar.qml:263
-#, kde-format
-msgid "Settings"
-msgstr ""
-
-#: contents/ui/Sidebar.qml:357
-#, kde-format
-msgid "Tags"
-msgstr ""
-
-#: contents/ui/Sidebar.qml:625
-#, kde-format
-msgid "View all tasks"
-msgstr ""
-
-#: contents/ui/Tag.qml:111
-#, kde-format
-msgid "Remove Tag"
-msgstr ""
-
-#: contents/ui/TagManagerPage.qml:13
-#, kde-format
-msgid "Manage Tags"
-msgstr ""
-
-#: contents/ui/TagManagerPage.qml:17
-#, kde-format
-msgid "Delete Tag"
-msgstr ""
-
-#: contents/ui/TagManagerPage.qml:25
-#, kde-format
-msgid "Are you sure you want to delete tag \"%1\"?"
-msgstr ""
-
-#: contents/ui/TagManagerPage.qml:110
-#, kde-format
-msgid "Create a New Tag…"
-msgstr ""
-
-#: contents/ui/TagManagerPage.qml:134
-#, kde-format
-msgid "Quickly Add a New Tag."
-msgstr ""
-
-#: contents/ui/TimePicker.qml:50
-#, kde-format
-msgid "Min. Interval:"
-msgstr ""
-
-#: contents/ui/TitleDateButton.qml:27 contents/ui/TitleDateButton.qml:32
-#, kde-format
-msgctxt "%1 is month name, %2 is year"
-msgid "<b>%1</b> %2"
-msgstr ""
-
-#: contents/ui/TitleDateButton.qml:35
-#, kde-format
-msgctxt ""
-"%1 is the month and year of the range start, %2 is the same for range end"
-msgid "%1 - %2"
-msgstr ""
-
-#: contents/ui/TitleDateButton.qml:37
-#, kde-format
-msgctxt "%1 is month of range start, %2 is month + year of range end"
-msgid "<b>%1</b> - %2"
-msgstr ""
-
-#: contents/ui/TodoPage.qml:85 kalendarapplication.cpp:31
-#: kalendarapplication.cpp:34
-#, kde-format
-msgid "Sort"
-msgstr ""
-
-#: contents/ui/TodoPage.qml:119
-#, kde-format
-msgid "Show Completed"
-msgstr ""
-
-#: contents/ui/TodoPage.qml:127
-#, kde-format
-msgid "Completed Tasks in %1"
-msgstr ""
-
-#: contents/ui/TodoPage.qml:127
-#, kde-format
-msgid "Completed Tasks"
-msgstr ""
-
-#: contents/ui/TodoPage.qml:203
-#, kde-format
-msgid "Create a New Task…"
-msgstr ""
-
-#: contents/ui/TodoPage.qml:244 contents/ui/TodoPage.qml:245
-#, kde-format
-msgid "Quickly Add a New Task."
-msgstr ""
-
-#: contents/ui/TodoTreeView.qml:63
-#, kde-format
-msgid "Priority %1"
-msgstr ""
-
-#: contents/ui/TodoTreeView.qml:63
-#, kde-format
-msgid "No set priority"
-msgstr ""
-
-#: contents/ui/TodoTreeView.qml:73 models/todosortfilterproxymodel.cpp:165
-#, kde-format
-msgid "Overdue"
-msgstr ""
-
-#: contents/ui/TodoTreeView.qml:95
-#, kde-format
-msgid "No task calendars enabled."
-msgstr ""
-
-#: contents/ui/TodoTreeView.qml:102
-#, kde-format
-msgid "Calendar is not enabled"
-msgstr ""
-
-#: contents/ui/TodoTreeView.qml:105
-#, kde-format
-msgid "Enable"
-msgstr ""
-
-#: contents/ui/TodoTreeView.qml:115
-#, kde-format
-msgid "No tasks completed"
-msgstr ""
-
-#: contents/ui/TodoTreeView.qml:115
-#, kde-format
-msgid "No tasks left to complete"
-msgstr ""
-
-#: contents/ui/WindowMenu.qml:58
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Undo Text"
-msgstr ""
-
-#: contents/ui/WindowMenu.qml:67
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Redo Text"
-msgstr ""
-
-#: contents/ui/WindowMenu.qml:155
-#, kde-format
-msgid "Sort Tasks"
-msgstr ""
-
-#: incidencewrapper.cpp:118 models/incidenceoccurrencemodel.cpp:272
-#: models/todosortfilterproxymodel.cpp:134
+#: incidencewrapper.cpp:139 models/incidenceoccurrencemodel.cpp:270
+#: models/todosortfilterproxymodel.cpp:141
 #, kde-format
 msgid "Task"
 msgstr ""
 
-#: kalendarapplication.cpp:93
+#: kalendarapplication.cpp:92
 #, kde-format
 msgid "Ctrl+6"
 msgstr ""
 
-#: kalendarapplication.cpp:109
+#: kalendarapplication.cpp:108
 #, kde-format
 msgid "Ctrl+2"
 msgstr ""
 
-#: kalendarapplication.cpp:125
+#: kalendarapplication.cpp:124
 #, kde-format
 msgid "Ctrl+3"
 msgstr ""
 
-#: kalendarapplication.cpp:141
+#: kalendarapplication.cpp:140
 #, kde-format
 msgid "Ctrl+4"
 msgstr ""
 
-#: kalendarapplication.cpp:157
+#: kalendarapplication.cpp:156 kalendarapplication.cpp:172
 #, kde-format
 msgid "Ctrl+5"
 msgstr ""
 
-#: kalendarapplication.cpp:173
+#: kalendarapplication.cpp:188
 #, kde-format
 msgid "Ctrl+1"
 msgstr ""
 
-#: kalendarapplication.cpp:186
+#: kalendarapplication.cpp:201
 #, kde-format
 msgid "Backwards"
 msgstr ""
 
-#: kalendarapplication.cpp:199
+#: kalendarapplication.cpp:214
 #, kde-format
 msgid "Forwards"
 msgstr ""
 
-#: kalendarapplication.cpp:212
+#: kalendarapplication.cpp:227
 #, kde-format
 msgid "To Today"
 msgstr ""
 
-#: kalendarapplication.cpp:225
+#: kalendarapplication.cpp:240
 #, kde-format
 msgid "To Date…"
 msgstr ""
 
-#: kalendarapplication.cpp:238
+#: kalendarapplication.cpp:253
 #, kde-format
 msgid "Show Menubar"
 msgstr ""
 
-#: kalendarapplication.cpp:242
+#: kalendarapplication.cpp:257
 #, kde-format
 msgid "Ctrl+M"
 msgstr ""
 
-#: kalendarapplication.cpp:268
+#: kalendarapplication.cpp:283
 #, kde-format
 msgid "Manage Tags…"
 msgstr ""
 
-#: kalendarapplication.cpp:281
+#: kalendarapplication.cpp:296
 #, kde-format
 msgid "Import Calendar…"
 msgstr ""
 
-#: kalendarapplication.cpp:313
+#: kalendarapplication.cpp:328
 #, kde-format
 msgid "Alphabetically"
 msgstr ""
 
-#: kalendarapplication.cpp:329
+#: kalendarapplication.cpp:344
 #, kde-format
 msgid "By Due Date"
 msgstr ""
 
-#: kalendarapplication.cpp:345
+#: kalendarapplication.cpp:360
 #, kde-format
 msgid "By Priority Level"
 msgstr ""
 
-#: kalendarapplication.cpp:361
+#: kalendarapplication.cpp:376
 #, kde-format
 msgid "Ascending order"
 msgstr ""
 
-#: kalendarapplication.cpp:377
+#: kalendarapplication.cpp:392
 #, kde-format
 msgid "Descending Order"
 msgstr ""
 
-#: kalendarapplication.cpp:393
+#: kalendarapplication.cpp:408
 #, kde-format
 msgid "Show Completed Tasks"
 msgstr ""
 
-#: kalendarapplication.cpp:407
+#: kalendarapplication.cpp:422
 #, kde-format
 msgid "Open Command Bar"
 msgstr ""
 
-#: kalendarapplication.cpp:417
+#: kalendarapplication.cpp:432
 #, kde-format
-msgid "Refresh All Calendars"
+msgid "Refresh All"
 msgstr ""
 
-#: kalendarapplication.cpp:566
+#: kalendarapplication.cpp:581
 #, kde-format
 msgid "An error occurred: %1"
 msgstr ""
 
-#: main.cpp:76
+#: lib/colorproxymodel.cpp:114
+#, kde-format
+msgctxt "@item this is the default calendar"
+msgid "%1 (Offline)"
+msgstr ""
+
+#: lib/colorproxymodel.cpp:117
+#, kde-format
+msgctxt "@item this is the default calendar"
+msgid "%1 (Default)"
+msgstr ""
+
+#: main.cpp:73
 #, kde-format
 msgctxt "@title"
 msgid "Kalendar"
 msgstr ""
 
-#: main.cpp:79
+#: main.cpp:76
 #, kde-format
 msgid "Calendar Application"
 msgstr ""
 
-#: main.cpp:83
+#: main.cpp:80
 #, kde-format
 msgid "(c) KDE Community 2021"
 msgstr ""
 
-#: main.cpp:84
+#: main.cpp:81
 #, kde-format
 msgctxt "@info:credit"
 msgid "Carl Schwan"
 msgstr ""
 
-#: main.cpp:85 main.cpp:89
+#: main.cpp:82 main.cpp:86
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr ""
 
-#: main.cpp:88
+#: main.cpp:85
 #, kde-format
 msgctxt "@info:credit"
 msgid "Clau Cambra"
 msgstr ""
 
-#: main.cpp:92
+#: main.cpp:89
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr ""
 
-#: main.cpp:93
+#: main.cpp:90
 #, kde-format
 msgctxt "@info:credit"
 msgid "Developer"
 msgstr ""
 
-#: models/todosortfilterproxymodel.cpp:165
+#: models/todosortfilterproxymodel.cpp:176
 #, kde-format
 msgid "No set date"
 msgstr ""

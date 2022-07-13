@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kbattleship.pot \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-22 00:41+0000\n"
+"POT-Creation-Date: 2022-07-08 00:43+0000\n"
 "PO-Revision-Date: 2012-01-09 22:04+0700\n"
 "Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -401,12 +401,12 @@ msgstr "Bạn không thể đặt tàu ở đây."
 msgid "You must leave a space between ships"
 msgstr ""
 
-#: playerentity.cpp:200
+#: playerentity.cpp:199
 #, kde-format
 msgid "Your opponent is now known as %1"
 msgstr ""
 
-#: playerentity.cpp:205
+#: playerentity.cpp:204
 #, kde-format
 msgid "Your opponent disconnected from the game"
 msgstr ""
@@ -467,7 +467,19 @@ msgstr "Bắt đầu trò chơi"
 msgid "Your opponent has requested to restart the game. Do you accept?"
 msgstr "Máy khách yêu cầu chơi lại. Bạn chấp nhận không?"
 
-#: playfield.cpp:244
+#: playfield.cpp:236
+#, kde-format
+msgctxt "@action:button"
+msgid "Accept"
+msgstr ""
+
+#: playfield.cpp:237
+#, kde-format
+msgctxt "@action:button"
+msgid "Reject"
+msgstr ""
+
+#: playfield.cpp:246
 #, kde-format
 msgid ""
 "Your opponent is using a pre-KDE4 version of Naval Battle. Note that, "
@@ -475,34 +487,34 @@ msgid ""
 "adjacent to one another and only one ship of each size is allowed."
 msgstr ""
 
-#: playfield.cpp:257
+#: playfield.cpp:259
 #, fuzzy, kde-format
 msgid "Enemy has shot. Shoot now!"
 msgstr "Đối phương đã bắn. Bây giờ bạn hãy bắn "
 
-#: playfield.cpp:261
+#: playfield.cpp:263
 #, fuzzy, kde-format
 #| msgid "Waiting for enemy to shoot.."
 msgid "Waiting for enemy to shoot..."
 msgstr "Đang đợi địch bắn..."
 
-#: playfield.cpp:270
+#: playfield.cpp:272
 #, kde-format
 msgid "Ships placed. Now shoot on the enemy field!"
 msgstr ""
 
-#: playfield.cpp:273
+#: playfield.cpp:275
 #, fuzzy, kde-format
 #| msgid "Waiting for other player to start the match..."
 msgid "Waiting for other player to start the game..."
 msgstr "Đang đợi người khác khởi động trận chiến..."
 
-#: playfield.cpp:277
+#: playfield.cpp:279
 #, fuzzy, kde-format
 msgid "Waiting for other player to place his ships..."
 msgstr "Đang đợi người khác đặt tàu chiến..."
 
-#: playfield.cpp:291
+#: playfield.cpp:293
 #, fuzzy, kde-format
 #| msgid ""
 #| "Please place your ships. Use the \"Shift\" key to place the ships "
@@ -511,30 +523,32 @@ msgid "Place your %1 ships. Use the right mouse button to rotate them."
 msgstr ""
 "Xin hãy bố trí đội tàu của bạn. Dùng phím \"Shift\" để đặt tàu thẳng đứng."
 
-#: playfield.cpp:297
+#: playfield.cpp:299
 #, kde-format
 msgid "You can't place your remaining ships."
 msgstr ""
 
-#: playfield.cpp:298
+#: playfield.cpp:300
 #, fuzzy, kde-format
 #| msgid "Start Game"
+msgctxt "@action"
 msgid "Restart"
 msgstr "Bắt đầu trò chơi"
 
-#: playfield.cpp:299
+#: playfield.cpp:301
 #, kde-format
+msgctxt "@action"
 msgid "Abort"
 msgstr ""
 
-#: playfield.cpp:300
+#: playfield.cpp:302
 #, kde-format
 msgid ""
 "You can't place your remaining ships. Please restart placing ships or abort "
 "game"
 msgstr ""
 
-#: playfield.cpp:300
+#: playfield.cpp:302
 #, kde-format
 msgid "Restart placing ships"
 msgstr ""
