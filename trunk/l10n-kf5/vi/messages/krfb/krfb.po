@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krfb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-06 00:45+0000\n"
+"POT-Creation-Date: 2022-07-18 00:45+0000\n"
 "PO-Revision-Date: 2007-07-11 23:20+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -345,7 +345,17 @@ msgid ""
 "another port in the settings and restart krfb."
 msgstr ""
 
-#: mainwindow.cpp:223
+#. i18n: ectx: property (whatsThis), widget (QLabel, titleLabel)
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#. i18n: ectx: property (whatsThis), widget (QLabel, aboutLabel)
+#: mainwindow.cpp:223 mainwindow.cpp:230 ui/mainwidget.ui:83
+#: ui/mainwidget.ui:86 ui/mainwidget.ui:114
+#, fuzzy, kde-format
+#| msgid "Desktop Sharing"
+msgid "KDE Desktop Sharing"
+msgstr "Chia sẻ màn hình"
+
+#: mainwindow.cpp:224
 #, fuzzy, kde-format
 #| msgid ""
 #| "This field contains the address of your computer and the display number, "
@@ -378,17 +388,7 @@ msgstr ""
 "không phải luôn luôn đoán đúng. Nếu máy tính của bạn nằm ở sau bức tường "
 "lửa, nó có thể ở địa chỉ khác hay không cho phép máy tính khác tới nó."
 
-#. i18n: ectx: property (whatsThis), widget (QLabel, titleLabel)
-#. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#. i18n: ectx: property (whatsThis), widget (QLabel, aboutLabel)
-#: mainwindow.cpp:224 mainwindow.cpp:231 ui/mainwidget.ui:83
-#: ui/mainwidget.ui:86 ui/mainwidget.ui:114
-#, fuzzy, kde-format
-#| msgid "Desktop Sharing"
-msgid "KDE Desktop Sharing"
-msgstr "Chia sẻ màn hình"
-
-#: mainwindow.cpp:230
+#: mainwindow.cpp:231
 #, kde-format
 msgid ""
 "Any remote user with normal desktop sharing password will have to be "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: neochat\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-12 00:46+0000\n"
+"POT-Creation-Date: 2022-07-18 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -36,7 +36,7 @@ msgstr ""
 #: imports/NeoChat/Component/ChatBox/AttachmentPane.qml:159
 #: imports/NeoChat/Menu/Timeline/MessageDelegateContextMenu.qml:29
 #: imports/NeoChat/Page/ImageEditorPage.qml:20
-#: imports/NeoChat/Page/RoomPage.qml:459
+#: imports/NeoChat/Page/RoomPage.qml:463
 #, kde-format
 msgid "Edit"
 msgstr ""
@@ -62,7 +62,12 @@ msgstr ""
 
 #: imports/NeoChat/Component/ChatBox/ChatBar.qml:97
 #, kde-format
-msgid "Write your message..."
+msgid "Send an encrypted message…"
+msgstr ""
+
+#: imports/NeoChat/Component/ChatBox/ChatBar.qml:97
+#, kde-format
+msgid "Send a message…"
 msgstr ""
 
 #: imports/NeoChat/Component/ChatBox/ChatBar.qml:290
@@ -225,14 +230,14 @@ msgstr ""
 msgid "Complete the authentication steps in your browser"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/EncryptedDelegate.qml:16
+#: imports/NeoChat/Component/Timeline/EncryptedDelegate.qml:15
 #, kde-format
 msgid ""
 "This message is encrypted and the sender has not shared the key with this "
 "device."
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/FileDelegate.qml:54
+#: imports/NeoChat/Component/Timeline/FileDelegate.qml:53
 #, kde-format
 msgctxt ""
 "tooltip for a button on a message; offers ability to open its downloaded "
@@ -240,20 +245,20 @@ msgctxt ""
 msgid "Open File"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/FileDelegate.qml:65
+#: imports/NeoChat/Component/Timeline/FileDelegate.qml:64
 #, kde-format
 msgctxt "file download progress"
 msgid "%1 / %2"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/FileDelegate.qml:71
+#: imports/NeoChat/Component/Timeline/FileDelegate.qml:70
 #, kde-format
 msgctxt ""
 "tooltip for a button on a message; stops downloading the message's file"
 msgid "Stop Download"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/FileDelegate.qml:118
+#: imports/NeoChat/Component/Timeline/FileDelegate.qml:117
 #, kde-format
 msgctxt ""
 "tooltip for a button on a message; offers ability to download its file"
@@ -282,7 +287,7 @@ msgid_plural "%2 reacted with %3"
 msgstr[0] ""
 msgstr[1] ""
 
-#: imports/NeoChat/Component/Timeline/ReadMarkerDelegate.qml:20
+#: imports/NeoChat/Component/Timeline/ReadMarkerDelegate.qml:58
 #, kde-format
 msgctxt "Relative time since the room was last read"
 msgid "Last read: %1"
@@ -293,7 +298,7 @@ msgstr ""
 msgid " (edited)"
 msgstr ""
 
-#: imports/NeoChat/Component/Timeline/VideoDelegate.qml:84
+#: imports/NeoChat/Component/Timeline/VideoDelegate.qml:82
 #, kde-format
 msgid "Video"
 msgstr ""
@@ -610,7 +615,7 @@ msgstr ""
 
 #: imports/NeoChat/Menu/Timeline/FileDelegateContextMenu.qml:50
 #: imports/NeoChat/Menu/Timeline/MessageDelegateContextMenu.qml:35
-#: imports/NeoChat/Page/RoomPage.qml:471 src/notificationsmanager.cpp:68
+#: imports/NeoChat/Page/RoomPage.qml:475 src/notificationsmanager.cpp:68
 #, kde-format
 msgid "Reply"
 msgstr ""
@@ -853,7 +858,7 @@ msgid_plural "%2 are typing"
 msgstr[0] ""
 msgstr[1] ""
 
-#: imports/NeoChat/Page/RoomPage.qml:446
+#: imports/NeoChat/Page/RoomPage.qml:450
 #, kde-format
 msgid "React"
 msgstr ""
@@ -1236,57 +1241,57 @@ msgstr ""
 msgid "Add Emoji..."
 msgstr ""
 
-#: imports/NeoChat/Settings/GeneralSettingsPage.qml:18
+#: imports/NeoChat/Settings/GeneralSettingsPage.qml:19
 #, kde-format
 msgid "General settings:"
 msgstr ""
 
-#: imports/NeoChat/Settings/GeneralSettingsPage.qml:19
+#: imports/NeoChat/Settings/GeneralSettingsPage.qml:20
 #, kde-format
 msgid "Close to system tray"
 msgstr ""
 
-#: imports/NeoChat/Settings/GeneralSettingsPage.qml:29
+#: imports/NeoChat/Settings/GeneralSettingsPage.qml:30
 #, kde-format
 msgid "Minimize to system tray on startup"
 msgstr ""
 
-#: imports/NeoChat/Settings/GeneralSettingsPage.qml:41
+#: imports/NeoChat/Settings/GeneralSettingsPage.qml:42
 #, kde-format
 msgid "Notifications and events:"
 msgstr ""
 
-#: imports/NeoChat/Settings/GeneralSettingsPage.qml:42
+#: imports/NeoChat/Settings/GeneralSettingsPage.qml:43
 #, kde-format
 msgid "Show notifications"
 msgstr ""
 
-#: imports/NeoChat/Settings/GeneralSettingsPage.qml:51
+#: imports/NeoChat/Settings/GeneralSettingsPage.qml:52
 #, kde-format
 msgid "Show leave and join events"
 msgstr ""
 
-#: imports/NeoChat/Settings/GeneralSettingsPage.qml:60
+#: imports/NeoChat/Settings/GeneralSettingsPage.qml:61
 #, kde-format
 msgid "Show name change events"
 msgstr ""
 
-#: imports/NeoChat/Settings/GeneralSettingsPage.qml:69
+#: imports/NeoChat/Settings/GeneralSettingsPage.qml:70
 #, kde-format
 msgid "Show avatar update events"
 msgstr ""
 
-#: imports/NeoChat/Settings/GeneralSettingsPage.qml:78
+#: imports/NeoChat/Settings/GeneralSettingsPage.qml:79
 #, kde-format
 msgid "Rooms and private chats:"
 msgstr ""
 
-#: imports/NeoChat/Settings/GeneralSettingsPage.qml:79
+#: imports/NeoChat/Settings/GeneralSettingsPage.qml:80
 #, kde-format
 msgid "Separated"
 msgstr ""
 
-#: imports/NeoChat/Settings/GeneralSettingsPage.qml:88
+#: imports/NeoChat/Settings/GeneralSettingsPage.qml:89
 #, kde-format
 msgid "Intermixed"
 msgstr ""
@@ -1296,12 +1301,12 @@ msgstr ""
 msgid "Use s/text/replacement syntax to edit your last message"
 msgstr ""
 
-#: imports/NeoChat/Settings/GeneralSettingsPage.qml:114
+#: imports/NeoChat/Settings/GeneralSettingsPage.qml:112
 #, kde-format
 msgid "Send Typing Notifications"
 msgstr ""
 
-#: imports/NeoChat/Settings/GeneralSettingsPage.qml:123
+#: imports/NeoChat/Settings/GeneralSettingsPage.qml:121
 #, kde-format
 msgid "Automatically hide/unhide the room information when resizing the window"
 msgstr ""

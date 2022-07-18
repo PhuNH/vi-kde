@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fsview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-01 00:18+0000\n"
+"POT-Creation-Date: 2022-07-14 00:45+0000\n"
 "PO-Revision-Date: 2020-12-10 11:54+0100\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -73,12 +73,12 @@ msgstr "Kiểu MIME"
 msgid "Go To"
 msgstr "Tới"
 
-#: fsview.cpp:284 fsview_part.cpp:121
+#: fsview.cpp:284 fsview_part.cpp:106
 #, kde-format
 msgid "Stop at Depth"
 msgstr "Dừng ở độ sâu"
 
-#: fsview.cpp:285 fsview_part.cpp:118
+#: fsview.cpp:285 fsview_part.cpp:103
 #, kde-format
 msgid "Stop at Area"
 msgstr "Dừng ở vùng"
@@ -108,12 +108,12 @@ msgstr "Cập nhật"
 msgid "Refresh '%1'"
 msgstr "Cập nhật '%1'"
 
-#: fsview.cpp:313 fsview_part.cpp:128
+#: fsview.cpp:313 fsview_part.cpp:113
 #, kde-format
 msgid "Color Mode"
 msgstr "Chế độ màu"
 
-#: fsview.cpp:316 fsview_part.cpp:124
+#: fsview.cpp:316 fsview_part.cpp:109
 #, kde-format
 msgid "Visualization"
 msgstr "Cách thức hiển thị"
@@ -128,34 +128,19 @@ msgstr "Không có"
 msgid "Depth"
 msgstr "Độ sâu"
 
-#: fsview_part.cpp:73
+#: fsview_part.cpp:69
 #, kde-format
 msgid "Read 1 folder, in %2"
 msgid_plural "Read %1 folders, in %2"
 msgstr[0] "Đọc %1 thư mục trong %2"
 
-#: fsview_part.cpp:77
+#: fsview_part.cpp:73
 #, kde-format
 msgid "1 folder"
 msgid_plural "%1 folders"
 msgstr[0] "%1 thư mục"
 
-#: fsview_part.cpp:94 main.cpp:23
-#, kde-format
-msgid "FSView"
-msgstr "FSView"
-
-#: fsview_part.cpp:95 main.cpp:24
-#, kde-format
-msgid "Filesystem Viewer"
-msgstr "Bộ xem hệ thống tệp"
-
-#: fsview_part.cpp:97 main.cpp:26
-#, kde-format
-msgid "(c) 2002, Josef Weidendorfer"
-msgstr "© 2002, Josef Weidendorfer"
-
-#: fsview_part.cpp:102
+#: fsview_part.cpp:87
 #, kde-format
 msgid ""
 "<p>This is the FSView plugin, a graphical browsing mode showing filesystem "
@@ -170,46 +155,46 @@ msgstr ""
 "một cách dự định.</p><p>Để tìm chi tiết về cách sử dụng và tuỳ chọn sẵn "
 "sàng, xem trợ giúp có sẵn dưới trình đơn « Trợ giúp > Sổ tay FSView ».</p>"
 
-#: fsview_part.cpp:134
+#: fsview_part.cpp:119
 #, kde-format
 msgid "&FSView Manual"
 msgstr "Sổ tay &FSView"
 
-#: fsview_part.cpp:136
+#: fsview_part.cpp:121
 #, kde-format
 msgid "Show FSView manual"
 msgstr "Hiện sổ tay FSView"
 
-#: fsview_part.cpp:137
+#: fsview_part.cpp:122
 #, kde-format
 msgid "Opens the help browser with the FSView documentation"
 msgstr "Mở bộ duyệt qua trợ giúp với tài liệu hướng dẫn FSView"
 
-#: fsview_part.cpp:169
+#: fsview_part.cpp:154
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Move to Trash"
 msgstr ""
 
-#: fsview_part.cpp:176
+#: fsview_part.cpp:161
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Delete"
 msgstr ""
 
-#: fsview_part.cpp:181
+#: fsview_part.cpp:166
 #, kde-format
 msgctxt "@action:inmenu Edit"
 msgid "&Edit File Type..."
 msgstr ""
 
-#: fsview_part.cpp:185
+#: fsview_part.cpp:170
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Properties"
 msgstr ""
 
-#: fsview_part.cpp:218
+#: fsview_part.cpp:203
 #, kde-format
 msgid ""
 "FSView intentionally does not support automatic updates when changes are "
@@ -238,6 +223,21 @@ msgstr "FSView"
 #, kde-format
 msgid "&Help"
 msgstr ""
+
+#: main.cpp:23
+#, kde-format
+msgid "FSView"
+msgstr "FSView"
+
+#: main.cpp:24
+#, kde-format
+msgid "Filesystem Viewer"
+msgstr "Bộ xem hệ thống tệp"
+
+#: main.cpp:26
+#, kde-format
+msgid "(c) 2002, Josef Weidendorfer"
+msgstr "© 2002, Josef Weidendorfer"
 
 #: main.cpp:33
 #, kde-format

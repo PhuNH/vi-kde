@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: licentia\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-13 00:48+0000\n"
+"POT-Creation-Date: 2022-07-14 00:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -562,43 +562,49 @@ msgctxt "@menu-action"
 msgid "Report Bug…"
 msgstr ""
 
-#: src/ui/GlobalMenu.qml:51
+#: src/ui/GlobalMenu.qml:51 src/ui/main.qml:90
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Licentia"
 msgstr ""
 
-#: src/ui/LicensePanel.qml:75
+#: src/ui/GlobalMenu.qml:55 src/ui/main.qml:94
 #, kde-format
-msgid "About This License"
+msgid "About Licentia"
 msgstr ""
 
-#: src/ui/LicensePanel.qml:85
+#: src/ui/LicensePanel.qml:58
+#, kde-format
+msgctxt "About [License SPDX identifier]"
+msgid "About %1"
+msgstr ""
+
+#: src/ui/LicensePanel.qml:68
 #, kde-format
 msgid "License Source"
 msgstr ""
 
-#: src/ui/LicensePanel.qml:126
+#: src/ui/LicensePanel.qml:109
 #, kde-format
 msgid "How to:"
 msgstr ""
 
-#: src/ui/LicensePanel.qml:149
+#: src/ui/LicensePanel.qml:132
 #, kde-format
 msgid "Permissions:"
 msgstr ""
 
-#: src/ui/LicensePanel.qml:183
+#: src/ui/LicensePanel.qml:163
 #, kde-format
 msgid "Conditions:"
 msgstr ""
 
-#: src/ui/LicensePanel.qml:217
+#: src/ui/LicensePanel.qml:194
 #, kde-format
 msgid "Limitations:"
 msgstr ""
 
-#: src/ui/LicensePanel.qml:253
+#: src/ui/LicensePanel.qml:227
 #, kde-format
 msgid "Projects using:"
 msgstr ""
@@ -608,7 +614,12 @@ msgstr ""
 msgid "Licentia"
 msgstr ""
 
-#: src/ui/PageHeader.qml:37
+#: src/ui/PageHeader.qml:22
 #, kde-format
-msgid "Copy license to clipboard (Ctrl+C)"
+msgid "Original License"
+msgstr ""
+
+#: src/ui/PageHeader.qml:35
+#, kde-format
+msgid "Copy License to Clipboard (Ctrl+C)"
 msgstr ""

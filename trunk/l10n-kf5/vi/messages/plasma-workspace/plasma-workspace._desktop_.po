@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-13 00:55+0000\n"
+"POT-Creation-Date: 2022-07-18 00:54+0000\n"
 "PO-Revision-Date: 2022-07-11 20:01+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -91,11 +91,6 @@ msgctxt "Name"
 msgid "GMenuDBusMenuProxy"
 msgstr "GMenuDBusMenuProxy"
 
-#: kcms/autostart/kcm_autostart.desktop:2
-msgctxt "Name"
-msgid "Autostart"
-msgstr "Khởi động tự động"
-
 #: kcms/colors/colorschemes.knsrc:2
 msgctxt "Name"
 msgid "Color Schemes"
@@ -116,12 +111,6 @@ msgctxt "Comment"
 msgid "Plasma color scheme editor"
 msgstr "Trình biên tập quy hoạch màu Plasma"
 
-#: kcms/colors/kcm_colors.desktop:2
-msgctxt "Name"
-msgid "Colors"
-msgstr "Màu"
-
-#: kcms/cursortheme/kcm_cursortheme.desktop:7
 #: kcms/cursortheme/xcursor/xcursor.knsrc:2
 msgctxt "Name"
 msgid "Cursors"
@@ -137,18 +126,7 @@ msgctxt "Name"
 msgid "Plasma Styles"
 msgstr "Kiểu cách Plasma"
 
-#: kcms/feedback/kcm_feedback.desktop:7
-msgctxt "Name"
-msgid "User Feedback"
-msgstr "Phản hồi của người dùng"
-
-#: kcms/fonts/kcm_fonts.desktop:7 kcms/kfontinst/kcmfontinst/kfontinst.knsrc:2
-#: kcms/kfontinst/kio/fonts.desktop:5
-msgctxt "Name"
-msgid "Fonts"
-msgstr "Phông chữ"
-
-#: kcms/icons/icons.knsrc:2 kcms/icons/kcm_icons.desktop:7
+#: kcms/icons/icons.knsrc:2
 msgctxt "Name"
 msgid "Icons"
 msgstr "Biểu tượng"
@@ -183,60 +161,26 @@ msgctxt "Description"
 msgid "Modifying the system-wide font configuration requires privileges."
 msgstr "Việc chỉnh sửa cấu hình phông chữ toàn hệ thống đòi hỏi đặc quyền."
 
-#: kcms/kfontinst/kcmfontinst/kcm_fontinst.desktop:7
+#: kcms/kfontinst/kcmfontinst/kfontinst.knsrc:2
+#: kcms/kfontinst/kio/fonts.desktop:5
 msgctxt "Name"
-msgid "Font Management"
-msgstr "Quản lí phông chữ"
+msgid "Fonts"
+msgstr "Phông chữ"
 
 #: kcms/kfontinst/thumbnail/fontthumbnail.desktop:3
 msgctxt "Name"
 msgid "Font Files"
 msgstr "Tệp phông chữ"
 
-#: kcms/lookandfeel/kcm_lookandfeel.desktop:8
-msgctxt "Name"
-msgid "Global Theme"
-msgstr "Chủ đề toàn cục"
-
 #: kcms/lookandfeel/lookandfeel.knsrc:2
 msgctxt "Name"
 msgid "Global Themes"
 msgstr "Chủ đề toàn cục"
 
-#: kcms/nightcolor/kcm_nightcolor.desktop:8
-msgctxt "Name"
-msgid "Night Color"
-msgstr "Màu buổi tối"
-
-#: kcms/notifications/kcm_notifications.desktop:7
-msgctxt "Name"
-msgid "Notifications"
-msgstr "Thông báo"
-
-#: kcms/region_language/kcm_regionandlang.desktop:2
-msgctxt "Name"
-msgid "Region & Language"
-msgstr "Vùng & ngôn ngữ"
-
-#: kcms/region_language/kcm_regionandlang.desktop:18
-msgctxt "Comment"
-msgid "Set Language, Numeric, Currency and Time Formats"
-msgstr "Đặt ngôn ngữ, dạng thức số, tiền tệ và thời gian"
-
 #: kcms/style/gtk_themes.knsrc:2
 msgctxt "Name"
 msgid "GNOME/GTK Application Styles"
 msgstr "Kiểu cách ứng dụng GNOME/GTK"
-
-#: kcms/style/kcm_style.desktop:7
-msgctxt "Name"
-msgid "Application Style"
-msgstr "Kiểu cách ứng dụng"
-
-#: kcms/users/kcm_users.desktop:6
-msgctxt "Name"
-msgid "Users"
-msgstr "Người dùng"
 
 #: kioslave/desktop/./directory.trash:2
 msgctxt "Name"
@@ -392,6 +336,16 @@ msgstr "Plasma (X11)"
 msgctxt "Name"
 msgid "Plasma (Development, X11 ${CMAKE_INSTALL_FULL_BINDIR})"
 msgstr "Plasma (Phát triển, X11 ${CMAKE_INSTALL_FULL_BINDIR})"
+
+#: lookandfeel/sddm-theme/metadata.desktop:2
+msgctxt "Name"
+msgid "Breeze"
+msgstr "Breeze"
+
+#: lookandfeel/sddm-theme/metadata.desktop:57
+msgctxt "Description"
+msgid "Breeze"
+msgstr "Breeze"
 
 #: menu/desktop/hidden.directory:3
 msgctxt "Name"
@@ -669,16 +623,6 @@ msgctxt "Comment"
 msgid "Searches through files, emails and contacts"
 msgstr "Tìm kiếm tệp, thư và liên hệ"
 
-#: sddm-theme/metadata.desktop:2
-msgctxt "Name"
-msgid "Breeze"
-msgstr "Breeze"
-
-#: sddm-theme/metadata.desktop:57
-msgctxt "Description"
-msgid "Breeze"
-msgstr "Breeze"
-
 #: shell/org.kde.plasmashell.desktop.cmake:4
 msgctxt "Name"
 msgid "Plasma Desktop Workspace"
@@ -763,6 +707,50 @@ msgstr "Phông nền"
 msgctxt "Name"
 msgid "XembedSniProxy"
 msgstr "XembedSniProxy"
+
+#~ msgctxt "Name"
+#~ msgid "Autostart"
+#~ msgstr "Khởi động tự động"
+
+#~ msgctxt "Name"
+#~ msgid "Colors"
+#~ msgstr "Màu"
+
+#~ msgctxt "Name"
+#~ msgid "User Feedback"
+#~ msgstr "Phản hồi của người dùng"
+
+#~ msgctxt "Name"
+#~ msgid "Font Management"
+#~ msgstr "Quản lí phông chữ"
+
+#~ msgctxt "Name"
+#~ msgid "Global Theme"
+#~ msgstr "Chủ đề toàn cục"
+
+#~ msgctxt "Name"
+#~ msgid "Night Color"
+#~ msgstr "Màu buổi tối"
+
+#~ msgctxt "Name"
+#~ msgid "Notifications"
+#~ msgstr "Thông báo"
+
+#~ msgctxt "Name"
+#~ msgid "Region & Language"
+#~ msgstr "Vùng & ngôn ngữ"
+
+#~ msgctxt "Comment"
+#~ msgid "Set Language, Numeric, Currency and Time Formats"
+#~ msgstr "Đặt ngôn ngữ, dạng thức số, tiền tệ và thời gian"
+
+#~ msgctxt "Name"
+#~ msgid "Application Style"
+#~ msgstr "Kiểu cách ứng dụng"
+
+#~ msgctxt "Name"
+#~ msgid "Users"
+#~ msgstr "Người dùng"
 
 #~ msgctxt "Name"
 #~ msgid "Formats"
