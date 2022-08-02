@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-22 02:11+0000\n"
+"POT-Creation-Date: 2022-07-26 02:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -28,33 +28,43 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: libdiscover/appstream/AppStreamUtils.cpp:75
+#: libdiscover/appstream/AppStreamUtils.cpp:83
 #, kde-format
 msgid "Proprietary"
 msgstr ""
 
-#: libdiscover/appstream/AppStreamUtils.cpp:77
+#: libdiscover/appstream/AppStreamUtils.cpp:85
 #, kde-format
 msgid "Public Domain"
 msgstr ""
 
-#: libdiscover/appstream/AppStreamUtils.cpp:114
+#: libdiscover/appstream/AppStreamUtils.cpp:91
+#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:108
+#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:238
+#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:326
+#: libdiscover/UpdateModel/UpdateModel.cpp:117
+#: libdiscover/UpdateModel/UpdateModel.cpp:323
+#, kde-format
+msgid "Unknown"
+msgstr ""
+
+#: libdiscover/appstream/AppStreamUtils.cpp:129
 #: libdiscover/resources/AbstractResource.cpp:283
 #, kde-format
 msgid "%1, released on %2"
 msgstr ""
 
-#: libdiscover/appstream/OdrsReviewsBackend.cpp:143
+#: libdiscover/appstream/OdrsReviewsBackend.cpp:147
 #, kde-format
 msgid "Error while fetching reviews: %1"
 msgstr ""
 
-#: libdiscover/appstream/OdrsReviewsBackend.cpp:189
+#: libdiscover/appstream/OdrsReviewsBackend.cpp:193
 #, kde-format
 msgid "Error while submitting usefulness: %1"
 msgstr ""
 
-#: libdiscover/appstream/OdrsReviewsBackend.cpp:246
+#: libdiscover/appstream/OdrsReviewsBackend.cpp:250
 #, kde-format
 msgid "Error while submitting review: %1"
 msgstr ""
@@ -502,15 +512,6 @@ msgstr ""
 #: libdiscover/backends/FlatpakBackend/FlatpakBackend.cpp:1784
 #, kde-format
 msgid "Failed to load \"%1\" source"
-msgstr ""
-
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:108
-#: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:238
-#: libdiscover/backends/PackageKitBackend/PackageKitMessages.cpp:326
-#: libdiscover/UpdateModel/UpdateModel.cpp:117
-#: libdiscover/UpdateModel/UpdateModel.cpp:323
-#, kde-format
-msgid "Unknown"
 msgstr ""
 
 #: libdiscover/backends/FlatpakBackend/FlatpakResource.cpp:112
@@ -1657,12 +1658,12 @@ msgstr ""
 msgid "Unavailable"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:108
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:113
 #, kde-format
 msgid "Failed Offline Update"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:109
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:114
 #, kde-format
 msgid ""
 "Failed to update %1 package\n"
@@ -1673,97 +1674,97 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:110
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:158
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:115
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:163
 #, kde-format
 msgctxt "@action:button"
 msgid "Open Discover"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:110
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:115
 #, kde-format
 msgctxt "@action:button"
 msgid "Repair System"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:120
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:125
 #, kde-format
 msgid "Repairing failed offline update"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:128
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:133
 #, kde-format
 msgid "Repair Failed"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:129
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:134
 #, kde-kuit-format
 msgctxt "@info"
 msgid "%1<nl/>Please report this error to your distribution."
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:140
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:145
 #, kde-format
 msgid "Repaired Successfully"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:156
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:161
 #, kde-format
 msgid "Offline Updates"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:157
+#: libdiscover/backends/PackageKitBackend/PackageKitNotifier.cpp:162
 #, kde-format
 msgid "Successfully updated %1 package"
 msgid_plural "Successfully updated %1 packages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:266
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:301
 #, kde-format
 msgctxt "package-name (version)"
 msgid "%1 (%2)"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:268
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:303
 #, kde-format
 msgctxt "comma separating package names"
 msgid ", "
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:315
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:350
 #, kde-format
 msgid "Obsoletes:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:316
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:351
 #, kde-format
 msgid "Release Notes:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:317
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:352
 #, kde-format
 msgid "Update State:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:318
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:353
 #, kde-format
 msgid "Restart:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:321
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:356
 #, kde-format
 msgid "Vendor:"
 msgstr ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:341
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:376
 #, kde-format
 msgid "%2 (plus %1 dependency)"
 msgid_plural "%2 (plus %1 dependencies)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:405
+#: libdiscover/backends/PackageKitBackend/PackageKitResource.cpp:440
 #, kde-format
 msgid "Failed to start '%1'"
 msgstr ""
@@ -1922,12 +1923,6 @@ msgstr ""
 #: libdiscover/backends/RpmOstreeBackend/RpmOstreeTransaction.cpp:119
 #, kde-format
 msgid "Current rpm-ostree transaction in progress:"
-msgstr ""
-
-#: libdiscover/backends/SnapBackend/snap-backend-categories.xml:5
-#, kde-format
-msgctxt "Category"
-msgid "Applications"
 msgstr ""
 
 #: libdiscover/backends/SnapBackend/SnapBackend.cpp:43

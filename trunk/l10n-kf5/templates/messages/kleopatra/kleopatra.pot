@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-19 00:45+0000\n"
+"POT-Creation-Date: 2022-08-02 00:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -256,24 +256,24 @@ msgstr ""
 msgid "Certification Not Possible"
 msgstr ""
 
-#: src/commands/certifycertificatecommand.cpp:222
+#: src/commands/certifycertificatecommand.cpp:221
 #, kde-format
 msgid "Certification successful."
 msgstr ""
 
-#: src/commands/certifycertificatecommand.cpp:223
+#: src/commands/certifycertificatecommand.cpp:222
 #, kde-format
 msgid "Certification Succeeded"
 msgstr ""
 
-#: src/commands/certifycertificatecommand.cpp:225
+#: src/commands/certifycertificatecommand.cpp:224
 #, kde-format
 msgid ""
 "<p>An error occurred while trying to certify<br/><br/><b>%1</b>:</p><p>\t%2</"
 "p>"
 msgstr ""
 
-#: src/commands/certifycertificatecommand.cpp:229
+#: src/commands/certifycertificatecommand.cpp:228
 #, kde-format
 msgid "Certification Error"
 msgstr ""
@@ -471,32 +471,32 @@ msgstr ""
 msgid "Root Trust Update Failed"
 msgstr ""
 
-#: src/commands/changeroottrustcommand.cpp:258
+#: src/commands/changeroottrustcommand.cpp:262
 #, kde-format
 msgid "Cannot open existing file \"%1\" for reading: %2"
 msgstr ""
 
-#: src/commands/changeroottrustcommand.cpp:267
+#: src/commands/changeroottrustcommand.cpp:291
 #, kde-format
 msgid "Cannot open file \"%1\" for reading and writing: %2"
 msgstr ""
 
-#: src/commands/changeroottrustcommand.cpp:271
+#: src/commands/changeroottrustcommand.cpp:295
 #, kde-format
 msgid "Cannot set restrictive permissions on file %1: %2"
 msgstr ""
 
-#: src/commands/changeroottrustcommand.cpp:330
+#: src/commands/changeroottrustcommand.cpp:359
 #, kde-format
 msgid "Failed to move file %1 to its final destination, %2: %3"
 msgstr ""
 
-#: src/commands/changeroottrustcommand.cpp:341
+#: src/commands/changeroottrustcommand.cpp:370
 #, kde-format
 msgid "Could not find gpgconf executable"
 msgstr ""
 
-#: src/commands/changeroottrustcommand.cpp:353
+#: src/commands/changeroottrustcommand.cpp:382
 #, kde-format
 msgid "\"gpgconf --reload gpg-agent\" failed: %1"
 msgstr ""
@@ -566,7 +566,7 @@ msgstr ""
 msgid "CRL cache cleared successfully."
 msgstr ""
 
-#: src/commands/command_p.h:105 src/dialogs/newopenpgpcertificateresultdialog.cpp:140
+#: src/commands/command_p.h:105
 #, kde-format
 msgctxt "@title:window"
 msgid "Success"
@@ -1133,7 +1133,7 @@ msgid "All Files"
 msgstr ""
 
 #: src/commands/exportsecretkeycommand.cpp:115
-#: src/commands/exportsecretkeycommand.cpp:274
+#: src/commands/exportsecretkeycommand.cpp:279
 #: src/commands/exportsecretsubkeycommand.cpp:269
 #, kde-format
 msgctxt "@title:window"
@@ -1152,7 +1152,7 @@ msgctxt "@info:status"
 msgid "Backing up secret key..."
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:251
+#: src/commands/exportsecretkeycommand.cpp:256
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1160,26 +1160,26 @@ msgid ""
 "passphrase."
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:259
+#: src/commands/exportsecretkeycommand.cpp:264
 #: src/commands/exportsecretsubkeycommand.cpp:248
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:267
+#: src/commands/exportsecretkeycommand.cpp:272
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Writing key to file <filename>%1</filename> failed."
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:273
+#: src/commands/exportsecretkeycommand.cpp:278
 #, kde-format
 msgctxt "@info"
 msgid "The backup of the secret key was created successfully."
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:281
+#: src/commands/exportsecretkeycommand.cpp:286
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -1436,7 +1436,7 @@ msgstr ""
 
 #: src/commands/importcertificatefromfilecommand.cpp:148
 #: src/commands/importcertificatescommand.cpp:286
-#: src/view/keytreeview.cpp:347
+#: src/view/keytreeview.cpp:275
 #, kde-format
 msgid "Certificates"
 msgstr ""
@@ -1870,8 +1870,8 @@ msgstr ""
 msgid "Please select the card slot the key should be written to:"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:211 src/view/pgpcardwidget.cpp:411
-#: src/view/pgpcardwidget.cpp:458
+#: src/commands/keytocardcommand.cpp:211 src/view/pgpcardwidget.cpp:413
+#: src/view/pgpcardwidget.cpp:460
 #, kde-format
 msgid "Failed to find the OpenPGP card with the serial number: %1"
 msgstr ""
@@ -1883,7 +1883,7 @@ msgstr ""
 
 #: src/commands/keytocardcommand.cpp:239 src/commands/keytocardcommand.cpp:369
 #: src/commands/pivgeneratecardkeycommand.cpp:132
-#: src/view/pgpcardwidget.cpp:346
+#: src/view/pgpcardwidget.cpp:348
 #, kde-format
 msgid ""
 "It will no longer be possible to decrypt past communication encrypted for "
@@ -2093,20 +2093,26 @@ msgctxt "@title"
 msgid "No Directory Servers Configured"
 msgstr ""
 
-#: src/commands/newopenpgpcertificatecommand.cpp:155
+#: src/commands/newcertificatesigningrequestcommand.cpp:104
+#: src/kleopatraapplication.cpp:479
+#, kde-format
+msgid "You are not allowed to create S/MIME certificate signing requests."
+msgstr ""
+
+#: src/commands/newopenpgpcertificatecommand.cpp:149
 #: src/newcertificatewizard/keycreationpage.cpp:99
 #, kde-format
 msgid "Could not start key pair creation: %1"
 msgstr ""
 
-#: src/commands/newopenpgpcertificatecommand.cpp:165
+#: src/commands/newopenpgpcertificatecommand.cpp:159
 #: src/newcertificatewizard/keycreationpage.cpp:52
 #, kde-format
 msgctxt "@title"
 msgid "Creating Key Pair..."
 msgstr ""
 
-#: src/commands/newopenpgpcertificatecommand.cpp:166
+#: src/commands/newopenpgpcertificatecommand.cpp:160
 #: src/newcertificatewizard/keycreationpage.cpp:56
 #, kde-format
 msgid ""
@@ -2114,14 +2120,21 @@ msgid ""
 "may require several minutes..."
 msgstr ""
 
-#: src/commands/newopenpgpcertificatecommand.cpp:245
+#: src/commands/newopenpgpcertificatecommand.cpp:193
+#, kde-kuit-format
+msgid ""
+"<para>A new OpenPGP certificate was created successfully.</"
+"para><para>Fingerprint of the new certificate: %1</para>"
+msgstr ""
+
+#: src/commands/newopenpgpcertificatecommand.cpp:207
 #, kde-kuit-format
 msgid ""
 "<para>The creation of a new OpenPGP certificate failed.</para><para>Error: "
 "<message>%1</message></para>"
 msgstr ""
 
-#: src/commands/newopenpgpcertificatecommand.cpp:251
+#: src/commands/newopenpgpcertificatecommand.cpp:213
 #, kde-kuit-format
 msgid ""
 "<para>A new OpenPGP certificate was created successfully, but it has not "
@@ -2129,7 +2142,7 @@ msgid ""
 "<nl/>%1</para>"
 msgstr ""
 
-#: src/commands/newopenpgpcertificatecommand.cpp:258
+#: src/commands/newopenpgpcertificatecommand.cpp:220
 #: src/crypto/newsignencryptemailcontroller.cpp:576
 #: src/crypto/newsignencryptemailcontroller.cpp:581
 #, kde-format
@@ -2623,7 +2636,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_tags)
 #: src/conf/appearanceconfigwidget.ui:178
-#: src/dialogs/certificatedetailswidget.cpp:639
+#: src/dialogs/certificatedetailswidget.cpp:623
 #: src/dialogs/certifywidget.cpp:337
 #, kde-format
 msgid "Tags"
@@ -2880,23 +2893,23 @@ msgstr ""
 msgid "Backend error: gpgconf has wrong type for %1/%2: %3 %4"
 msgstr ""
 
-#: src/conf/groupsconfigdialog.cpp:70
+#: src/conf/groupsconfigdialog.cpp:90
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Groups"
 msgstr ""
 
-#: src/conf/groupsconfigdialog.cpp:73
+#: src/conf/groupsconfigdialog.cpp:93
 #, kde-format
 msgid "Groups"
 msgstr ""
 
-#: src/conf/groupsconfigdialog.cpp:83
+#: src/conf/groupsconfigdialog.cpp:107
 #, kde-format
 msgid "Help"
 msgstr ""
 
-#: src/conf/groupsconfigdialog.cpp:85
+#: src/conf/groupsconfigdialog.cpp:109
 #, kde-format
 msgctxt ""
 "Only available in German and English. Leave to English for other languages."
@@ -2927,49 +2940,75 @@ msgctxt "@title::window"
 msgid "Save changes?"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:96
+#: src/conf/groupsconfigwidget.cpp:146 src/dialogs/editgroupdialog.cpp:99
+#: src/dialogs/editgroupdialog.cpp:157
 #, kde-format
-msgctxt "@info::placeholder"
-msgid "Search..."
+msgctxt "@label"
+msgid "Search:"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:116
+#: src/conf/groupsconfigwidget.cpp:147 src/conf/groupsconfigwidget.cpp:153
+#, kde-format
+msgctxt "@label"
+msgid "Search groups"
+msgstr ""
+
+#: src/conf/groupsconfigwidget.cpp:148 src/conf/groupsconfigwidget.cpp:154
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Search the list for groups matching the search term."
+msgstr ""
+
+#: src/conf/groupsconfigwidget.cpp:155 src/dialogs/editgroupdialog.cpp:108
+#: src/dialogs/editgroupdialog.cpp:166
+#, kde-format
+msgctxt "@info::placeholder"
+msgid "Enter search term"
+msgstr ""
+
+#: src/conf/groupsconfigwidget.cpp:172
+#, kde-format
+msgctxt "groups of keys"
+msgid "groups"
+msgstr ""
+
+#: src/conf/groupsconfigwidget.cpp:181
 #, kde-format
 msgctxt "@action::button"
 msgid "New"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:119
+#: src/conf/groupsconfigwidget.cpp:184
 #, kde-format
 msgctxt "@action::button"
 msgid "Edit"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:123
+#: src/conf/groupsconfigwidget.cpp:188
 #, kde-format
 msgctxt "@action::button"
 msgid "Delete"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:127
+#: src/conf/groupsconfigwidget.cpp:192
 #, kde-format
 msgctxt "@action::button"
 msgid "Export"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:236
+#: src/conf/groupsconfigwidget.cpp:301
 #, kde-format
 msgctxt "default name for new group of keys"
 msgid "New Group"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:240
+#: src/conf/groupsconfigwidget.cpp:305
 #, kde-format
 msgctxt "@title:window a group of keys"
 msgid "New Group"
 msgstr ""
 
-#: src/conf/groupsconfigwidget.cpp:278
+#: src/conf/groupsconfigwidget.cpp:343
 #, kde-format
 msgctxt "@title:window a group of keys"
 msgid "Edit Group"
@@ -3371,7 +3410,7 @@ msgid ""
 msgstr ""
 
 #: src/crypto/createchecksumscontroller.cpp:293
-#: src/dialogs/updatenotification.cpp:72 src/mainwindow.cpp:747
+#: src/dialogs/updatenotification.cpp:74 src/mainwindow.cpp:747
 #, kde-format
 msgid "Cancel"
 msgstr ""
@@ -4135,7 +4174,6 @@ msgstr ""
 
 #: src/crypto/gui/resolverecipientspage.cpp:402
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:368
-#: src/dialogs/choosecertificateprotocoldialog.cpp:62
 #: src/view/padwidget.cpp:171
 #, kde-format
 msgid "OpenPGP"
@@ -5025,7 +5063,7 @@ msgid "%1 (%2)"
 msgstr ""
 
 #: src/dialogs/certificatedetailsinputwidget.cpp:71
-#: src/dialogs/certificatedetailswidget.cpp:409
+#: src/dialogs/certificatedetailswidget.cpp:391
 #: src/newcertificatewizard/enterdetailspage.cpp:315
 #, kde-format
 msgctxt "interpunctation for labels"
@@ -5093,170 +5131,170 @@ msgid ""
 "<interface>%1</interface> is invalid.<nl/>Local Admin rule: <icode>%2</icode>"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:354
+#: src/dialogs/certificatedetailswidget.cpp:336
 #, kde-format
 msgid "User IDs:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:359
+#: src/dialogs/certificatedetailswidget.cpp:341
 #, kde-format
 msgid "User IDs"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:374
+#: src/dialogs/certificatedetailswidget.cpp:356
 #, kde-format
 msgctxt "@action:button"
 msgid "Add User ID"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:377
+#: src/dialogs/certificatedetailswidget.cpp:359
 #, kde-format
 msgctxt "@action:button"
 msgid "Certify User IDs"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:380
+#: src/dialogs/certificatedetailswidget.cpp:362
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Certifications"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:383
+#: src/dialogs/certificatedetailswidget.cpp:365
 #, kde-format
 msgctxt "@action:button"
 msgid "Revoke Certifications"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:386
-#: src/dialogs/certificatedetailswidget.cpp:745
+#: src/dialogs/certificatedetailswidget.cpp:368
+#: src/dialogs/certificatedetailswidget.cpp:732
 #, kde-format
 msgctxt "@action:button"
 msgid "Revoke User ID"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:420
+#: src/dialogs/certificatedetailswidget.cpp:402
 #, kde-format
 msgid "Trust level:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:425
+#: src/dialogs/certificatedetailswidget.cpp:407
 #, kde-format
 msgid "Valid from:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:430
+#: src/dialogs/certificatedetailswidget.cpp:412
 #, kde-format
 msgid "Expires:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:433
+#: src/dialogs/certificatedetailswidget.cpp:415
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Change the expiration date"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:434
+#: src/dialogs/certificatedetailswidget.cpp:416
 #, kde-format
 msgctxt "@action:button"
 msgid "Change expiration"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:440
+#: src/dialogs/certificatedetailswidget.cpp:422
 #, kde-format
 msgid "Fingerprint:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:444
+#: src/dialogs/certificatedetailswidget.cpp:426
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Copy the fingerprint to the clipboard"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:445
+#: src/dialogs/certificatedetailswidget.cpp:427
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy fingerprint"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:452
+#: src/dialogs/certificatedetailswidget.cpp:434
 #, kde-format
 msgid "Issuer:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:455
+#: src/dialogs/certificatedetailswidget.cpp:437
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show the issuer certificate"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:456
+#: src/dialogs/certificatedetailswidget.cpp:438
 #, kde-format
 msgctxt "@action:button"
 msgid "Show certificate"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:462
+#: src/dialogs/certificatedetailswidget.cpp:444
 #, kde-format
 msgid "Compliance:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:467
+#: src/dialogs/certificatedetailswidget.cpp:449
 #, kde-format
 msgid "Trusted introducer for:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:469
+#: src/dialogs/certificatedetailswidget.cpp:451
 #, kde-format
 msgid "See certifications for details."
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:475
+#: src/dialogs/certificatedetailswidget.cpp:457
 #, kde-format
 msgid "Related addresses:"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:480
+#: src/dialogs/certificatedetailswidget.cpp:462
 #, kde-format
 msgid "Related addresses"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:489
+#: src/dialogs/certificatedetailswidget.cpp:473
 #, kde-format
 msgctxt "@action:button"
 msgid "More Details..."
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:492
+#: src/dialogs/certificatedetailswidget.cpp:476
 #, kde-format
 msgctxt "@action:button"
 msgid "Trust Chain Details"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:495
+#: src/dialogs/certificatedetailswidget.cpp:479
 #, kde-format
 msgctxt "@action:button"
 msgid "Update"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:501
+#: src/dialogs/certificatedetailswidget.cpp:485
 #, kde-format
 msgctxt "@action:button"
 msgid "Export"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:504
+#: src/dialogs/certificatedetailswidget.cpp:488
 #, kde-format
 msgctxt "@action:button"
 msgid "Change Passphrase"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:507
+#: src/dialogs/certificatedetailswidget.cpp:491
 #, kde-format
 msgctxt "@action:button"
 msgid "Generate Revocation Certificate"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:509
+#: src/dialogs/certificatedetailswidget.cpp:493
 #, kde-format
 msgid ""
 "A revocation certificate is a file that serves as a \"kill switch\" to "
@@ -5264,36 +5302,36 @@ msgid ""
 "to retract such a revocation certificate once it has been published."
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:620
-#: src/dialogs/certificatedetailswidget.cpp:621
+#: src/dialogs/certificatedetailswidget.cpp:604
+#: src/dialogs/certificatedetailswidget.cpp:605
 #, kde-format
 msgctxt "Expires"
 msgid "never"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:639
+#: src/dialogs/certificatedetailswidget.cpp:623
 #, kde-format
 msgid "Email"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:639
+#: src/dialogs/certificatedetailswidget.cpp:623
 #: src/newcertificatewizard/enterdetailspage.cpp:61
 #, kde-format
 msgid "Name"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:639
+#: src/dialogs/certificatedetailswidget.cpp:623
 #, kde-format
 msgid "Trust Level"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:657
+#: src/dialogs/certificatedetailswidget.cpp:641
 #, kde-format
 msgctxt "text for screen readers for an empty email address"
 msgid "no email"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:742
+#: src/dialogs/certificatedetailswidget.cpp:729
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5301,19 +5339,19 @@ msgid ""
 "</para>"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:748
+#: src/dialogs/certificatedetailswidget.cpp:735
 #, kde-format
 msgctxt "@title:window"
 msgid "Confirm Revocation"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:907
+#: src/dialogs/certificatedetailswidget.cpp:894
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Certify User IDs..."
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:908
+#: src/dialogs/certificatedetailswidget.cpp:895
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Certify User ID..."
@@ -5321,13 +5359,13 @@ msgid_plural "Certify User IDs..."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/dialogs/certificatedetailswidget.cpp:917
+#: src/dialogs/certificatedetailswidget.cpp:904
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Revoke Certifications..."
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:918
+#: src/dialogs/certificatedetailswidget.cpp:905
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Revoke Certification..."
@@ -5335,110 +5373,110 @@ msgid_plural "Revoke Certifications..."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/dialogs/certificatedetailswidget.cpp:929
+#: src/dialogs/certificatedetailswidget.cpp:916
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Publish at Mail Provider ..."
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:942
+#: src/dialogs/certificatedetailswidget.cpp:929
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Revoke User ID"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:994
+#: src/dialogs/certificatedetailswidget.cpp:981
 #, kde-format
 msgid "never"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:996
+#: src/dialogs/certificatedetailswidget.cpp:983
 #, kde-format
 msgid "Signing"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:997
-#: src/dialogs/certificatedetailswidget.cpp:1001
+#: src/dialogs/certificatedetailswidget.cpp:984
+#: src/dialogs/certificatedetailswidget.cpp:988
 #, kde-format
 msgid "First message"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:998
-#: src/dialogs/certificatedetailswidget.cpp:1002
+#: src/dialogs/certificatedetailswidget.cpp:985
+#: src/dialogs/certificatedetailswidget.cpp:989
 #, kde-format
 msgid "Last message"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:999
-#: src/dialogs/certificatedetailswidget.cpp:1003
+#: src/dialogs/certificatedetailswidget.cpp:986
+#: src/dialogs/certificatedetailswidget.cpp:990
 #, kde-format
 msgid "Message count"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1000
+#: src/dialogs/certificatedetailswidget.cpp:987
 #: src/smartcard/openpgpcard.cpp:95
 #, kde-format
 msgid "Encryption"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1035
+#: src/dialogs/certificatedetailswidget.cpp:1022
 #, kde-format
 msgid "Updating..."
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1083
+#: src/dialogs/certificatedetailswidget.cpp:1070
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Update the key from external sources."
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1099
+#: src/dialogs/certificatedetailswidget.cpp:1086
 #, kde-format
 msgid "Common Name"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1100
+#: src/dialogs/certificatedetailswidget.cpp:1087
 #, kde-format
 msgid "Organization"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1101
+#: src/dialogs/certificatedetailswidget.cpp:1088
 #, kde-format
 msgid "Street"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1102
+#: src/dialogs/certificatedetailswidget.cpp:1089
 #, kde-format
 msgid "City"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1103
+#: src/dialogs/certificatedetailswidget.cpp:1090
 #, kde-format
 msgid "State"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1104
+#: src/dialogs/certificatedetailswidget.cpp:1091
 #, kde-format
 msgid "Country"
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1132
+#: src/dialogs/certificatedetailswidget.cpp:1119
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Update the CRLs and do a full validation check of the certificate."
 msgstr ""
 
-#: src/dialogs/certificatedetailswidget.cpp:1141
+#: src/dialogs/certificatedetailswidget.cpp:1128
 #, kde-format
 msgid "The issuer certificate could not be found locally."
 msgstr ""
 
-#: src/dialogs/certificateselectiondialog.cpp:134
+#: src/dialogs/certificateselectiondialog.cpp:133
 #, kde-format
 msgid "Please select one or more of the following certificates:"
 msgstr ""
 
-#: src/dialogs/certificateselectiondialog.cpp:135
+#: src/dialogs/certificateselectiondialog.cpp:134
 #, kde-format
 msgid "Please select one of the following certificates:"
 msgstr ""
@@ -5456,7 +5494,7 @@ msgid "Refresh certificate list"
 msgstr ""
 
 #: src/dialogs/certificateselectiondialog.cpp:168
-#: src/view/keylistcontroller.cpp:389 src/view/welcomewidget.cpp:76
+#: src/view/keylistcontroller.cpp:390 src/view/welcomewidget.cpp:127
 #, kde-format
 msgid "Import..."
 msgstr ""
@@ -5496,7 +5534,7 @@ msgstr ""
 #: src/dialogs/certificateselectiondialog.cpp:175
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Create a new certificate"
+msgid "Create a new OpenPGP certificate"
 msgstr ""
 
 #: src/dialogs/certificateselectiondialog.cpp:176
@@ -5697,46 +5735,6 @@ msgstr ""
 msgid "Owner trust set successfully."
 msgstr ""
 
-#: src/dialogs/choosecertificateprotocoldialog.cpp:46
-#, kde-format
-msgid "Choose which type of key pair you want to create."
-msgstr ""
-
-#: src/dialogs/choosecertificateprotocoldialog.cpp:65
-#, kde-format
-msgid ""
-"OpenPGP key pairs are certified by confirming the fingerprint of the public "
-"key."
-msgstr ""
-
-#: src/dialogs/choosecertificateprotocoldialog.cpp:70
-#, kde-format
-msgid "Create a Personal OpenPGP Key Pair"
-msgstr ""
-
-#: src/dialogs/choosecertificateprotocoldialog.cpp:80
-#, kde-format
-msgid "X.509"
-msgstr ""
-
-#: src/dialogs/choosecertificateprotocoldialog.cpp:83
-#, kde-format
-msgid ""
-"X.509 key pairs are certified by a certification authority (CA). The "
-"generated request needs to be sent to a CA to finalize creation."
-msgstr ""
-
-#: src/dialogs/choosecertificateprotocoldialog.cpp:88
-#, kde-format
-msgid "Create a Personal X.509 Key Pair and Certification Request"
-msgstr ""
-
-#: src/dialogs/choosecertificateprotocoldialog.cpp:113
-#, kde-format
-msgctxt "@title:window"
-msgid "Choose Type of Key Pair"
-msgstr ""
-
 #: src/dialogs/deletecertificatesdialog.cpp:92
 #, kde-format
 msgid "These are the certificates you have selected for deletion:"
@@ -5796,44 +5794,86 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: src/dialogs/deletecertificatesdialog.cpp:222
-#: src/view/pgpcardwidget.cpp:348
+#: src/view/pgpcardwidget.cpp:350
 #, kde-format
 msgid "Secret Key Deletion"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:78
+#: src/dialogs/editgroupdialog.cpp:81
 #, kde-format
 msgctxt "Name of a group of keys"
 msgid "Name:"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:88
+#: src/dialogs/editgroupdialog.cpp:93
 #, kde-format
-msgid "Available keys:"
+msgctxt "@title"
+msgid "Available Keys"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:92 src/dialogs/editgroupdialog.cpp:132
+#: src/dialogs/editgroupdialog.cpp:100 src/dialogs/editgroupdialog.cpp:106
 #, kde-format
-msgctxt "Placeholder text"
-msgid "Search..."
+msgctxt "@label"
+msgid "Search available keys"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:113
+#: src/dialogs/editgroupdialog.cpp:101 src/dialogs/editgroupdialog.cpp:107
 #, kde-format
-msgid "Add the selected keys to the group"
+msgctxt "@info:tooltip"
+msgid "Search the list of available keys for keys matching the search term."
 msgstr ""
 
 #: src/dialogs/editgroupdialog.cpp:119
 #, kde-format
+msgid "available keys"
+msgstr ""
+
+#: src/dialogs/editgroupdialog.cpp:135
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Selected Keys"
+msgstr ""
+
+#: src/dialogs/editgroupdialog.cpp:136
+#, kde-format
+msgid "Add the selected keys to the group"
+msgstr ""
+
+#: src/dialogs/editgroupdialog.cpp:142
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Selected Keys"
+msgstr ""
+
+#: src/dialogs/editgroupdialog.cpp:143
+#, kde-format
 msgid "Remove the selected keys from the group"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:128
+#: src/dialogs/editgroupdialog.cpp:151
 #, kde-format
-msgid "Group keys:"
+msgctxt "@title"
+msgid "Group Keys"
 msgstr ""
 
-#: src/dialogs/editgroupdialog.cpp:263
+#: src/dialogs/editgroupdialog.cpp:158 src/dialogs/editgroupdialog.cpp:164
+#, kde-format
+msgctxt "@label"
+msgid "Search group keys"
+msgstr ""
+
+#: src/dialogs/editgroupdialog.cpp:159 src/dialogs/editgroupdialog.cpp:165
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Search the list of group keys for keys matching the search term."
+msgstr ""
+
+#: src/dialogs/editgroupdialog.cpp:176
+#, kde-format
+msgid "group keys"
+msgstr ""
+
+#: src/dialogs/editgroupdialog.cpp:306
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Group"
@@ -6128,69 +6168,6 @@ msgstr ""
 #: src/dialogs/newopenpgpcertificatedetailsdialog.cpp:126
 #, kde-format
 msgid "Enter a name and/or an email address to use for the certificate."
-msgstr ""
-
-#: src/dialogs/newopenpgpcertificateresultdialog.cpp:85
-#: src/newcertificatewizard/resultpage.cpp:109
-#, kde-format
-msgctxt "@title:group"
-msgid "Next Steps"
-msgstr ""
-
-#: src/dialogs/newopenpgpcertificateresultdialog.cpp:89
-#, kde-format
-msgctxt "@action:button"
-msgid "Make a Backup Of Your Key Pair..."
-msgstr ""
-
-#: src/dialogs/newopenpgpcertificateresultdialog.cpp:92
-#, kde-format
-msgctxt "@action:button"
-msgid "Send Public Key By EMail..."
-msgstr ""
-
-#: src/dialogs/newopenpgpcertificateresultdialog.cpp:95
-#, kde-format
-msgctxt "@action:button"
-msgid "Upload Public Key To Directory Service..."
-msgstr ""
-
-#: src/dialogs/newopenpgpcertificateresultdialog.cpp:143
-#, kde-kuit-format
-msgid ""
-"<para>A new OpenPGP certificate was created successfully. Find some "
-"suggested next steps below.</para><para>Fingerprint of the new certificate: "
-"%1</para>"
-msgstr ""
-
-#: src/dialogs/newopenpgpcertificateresultdialog.cpp:197
-#: src/newcertificatewizard/resultpage.cpp:313
-#, kde-format
-msgid "My new public OpenPGP key"
-msgstr ""
-
-#: src/dialogs/newopenpgpcertificateresultdialog.cpp:197
-#: src/newcertificatewizard/resultpage.cpp:314
-#, kde-format
-msgid "Please find attached my new public OpenPGP key."
-msgstr ""
-
-#: src/dialogs/newopenpgpcertificateresultdialog.cpp:200
-#: src/newcertificatewizard/resultpage.cpp:318
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para><application>Kleopatra</application> tried to send a mail via your "
-"default mail client.</para><para>Some mail clients are known not to support "
-"attachments when invoked this way.</para><para>If your mail client does not "
-"have an attachment, then attach the file <filename>%1</filename> manually.</"
-"para>"
-msgstr ""
-
-#: src/dialogs/newopenpgpcertificateresultdialog.cpp:204
-#, kde-format
-msgctxt "@title:window"
-msgid "Sending Mail"
 msgstr ""
 
 #: src/dialogs/ownertrustdialog.cpp:37
@@ -6515,7 +6492,7 @@ msgid "Show all test results"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, detailsGB)
-#: src/dialogs/selftestdialog.ui:76 src/view/keylistcontroller.cpp:422
+#: src/dialogs/selftestdialog.ui:76 src/view/keylistcontroller.cpp:423
 #, kde-format
 msgid "Details"
 msgstr ""
@@ -6603,113 +6580,141 @@ msgstr ""
 msgid "(optional) Set Initial PIN (SigG)"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:79 src/view/keylistcontroller.cpp:445
+#: src/dialogs/subkeyswidget.cpp:79
+#, kde-format
+msgctxt "@label"
+msgid "Subkeys:"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:84
+#, kde-format
+msgctxt "@label"
+msgid "Subkeys"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:87
+#, kde-format
+msgctxt "@title:column"
+msgid "ID"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:88
+#, kde-format
+msgctxt "@title:column"
+msgid "Type"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:89
+#, kde-format
+msgctxt "@title:column"
+msgid "Valid From"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:90
+#, kde-format
+msgctxt "@title:column"
+msgid "Valid Until"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:91
+#, kde-format
+msgctxt "@title:column"
+msgid "Status"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:92
+#, kde-format
+msgctxt "@title:column"
+msgid "Strength"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:93
+#, kde-format
+msgctxt "@title:column"
+msgid "Usage"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:94
+#, kde-format
+msgctxt "@title:column"
+msgid "Primary"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:95
+#, kde-format
+msgctxt "@title:column"
+msgid "Storage"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:118 src/view/keylistcontroller.cpp:446
 #, kde-format
 msgid "Change Expiry Date..."
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:99
+#: src/dialogs/subkeyswidget.cpp:138
 #, kde-format
 msgid "Export OpenSSH key"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:110
+#: src/dialogs/subkeyswidget.cpp:149
 #, kde-format
 msgid "Restore printed backup"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:124
+#: src/dialogs/subkeyswidget.cpp:163
 #, kde-format
 msgid "Transfer to smartcard"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:141
+#: src/dialogs/subkeyswidget.cpp:180
 #, kde-format
 msgid "Export secret subkey"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:206
+#: src/dialogs/subkeyswidget.cpp:241
 #, kde-format
-msgctxt "stored..."
-msgid "on SmartCard with serial no. %1"
+msgctxt "yes, is primary key"
+msgid "yes"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:208
+#: src/dialogs/subkeyswidget.cpp:241
 #, kde-format
-msgctxt "stored..."
+msgctxt "no, is not primary key"
+msgid "no"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:244
+#, kde-format
+msgctxt "smart card <serial number>"
+msgid "smart card %1"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:246
+#, kde-format
+msgid "smart card"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:249
+#, kde-format
+msgctxt "key is 'offline key', i.e. secret key is not stored on this computer"
+msgid "offline"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:251
+#, kde-format
 msgid "on this computer"
 msgstr ""
 
-#: src/dialogs/subkeyswidget.cpp:224
+#: src/dialogs/subkeyswidget.cpp:253
 #, kde-format
-msgctxt "@title:window"
-msgid "Subkeys Details"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/dialogs/subkeyswidget.ui:29
-#, kde-format
-msgid "Subkeys:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
-#: src/dialogs/subkeyswidget.ui:40
-#, kde-format
-msgid "ID"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
-#: src/dialogs/subkeyswidget.ui:45
-#, kde-format
-msgid "Type"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
-#: src/dialogs/subkeyswidget.ui:50
-#, kde-format
-msgid "Valid From"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
-#: src/dialogs/subkeyswidget.ui:55
-#, kde-format
-msgid "Valid Until"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
-#: src/dialogs/subkeyswidget.ui:60
-#, kde-format
-msgid "Status"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
-#: src/dialogs/subkeyswidget.ui:65
-#, kde-format
-msgid "Strength"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
-#: src/dialogs/subkeyswidget.ui:70
-#, kde-format
-msgid "Usage"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
-#: src/dialogs/subkeyswidget.ui:75
-#, kde-format
-msgid "Primary"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, stored)
-#: src/dialogs/subkeyswidget.ui:85
-#, kde-format
+msgctxt "unknown storage location"
 msgid "unknown"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, storedLbl)
-#: src/dialogs/subkeyswidget.ui:92
+#: src/dialogs/subkeyswidget.cpp:278
 #, kde-format
-msgid "Stored:"
+msgctxt "@title:window"
+msgid "Subkeys Details"
 msgstr ""
 
 #: src/dialogs/trustchainwidget.cpp:63
@@ -6723,30 +6728,30 @@ msgctxt "@title:window"
 msgid "Trust Chain"
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:71
+#: src/dialogs/updatenotification.cpp:73
 #, kde-format
 msgid "Searching for updates..."
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:161
+#: src/dialogs/updatenotification.cpp:163
 #, kde-format
 msgctxt "@info"
 msgid "No update found in the available version database."
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:162
+#: src/dialogs/updatenotification.cpp:164
 #, kde-format
 msgctxt "@title"
 msgid "Up to date"
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:189
+#: src/dialogs/updatenotification.cpp:191
 #, kde-format
 msgctxt "%1 is the version number"
 msgid "Version %1 is available."
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:192
+#: src/dialogs/updatenotification.cpp:194
 #, kde-format
 msgctxt "Link to NEWS style changelog"
 msgid ""
@@ -6754,18 +6759,18 @@ msgid ""
 "features</a>."
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:196
+#: src/dialogs/updatenotification.cpp:198
 #, kde-format
 msgctxt "@title:window"
 msgid "Update Available"
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:201
+#: src/dialogs/updatenotification.cpp:203
 #, kde-format
 msgid "Show this notification for future updates."
 msgstr ""
 
-#: src/dialogs/updatenotification.cpp:208
+#: src/dialogs/updatenotification.cpp:210
 #, kde-format
 msgid "&Get update"
 msgstr ""
@@ -6790,52 +6795,57 @@ msgid ""
 "key"
 msgstr ""
 
-#: src/dialogs/weboftrustwidget.cpp:100 src/view/keylistcontroller.cpp:437
+#: src/dialogs/weboftrustwidget.cpp:55
+#, kde-format
+msgid "User IDs and certifications"
+msgstr ""
+
+#: src/dialogs/weboftrustwidget.cpp:101 src/view/keylistcontroller.cpp:438
 #, kde-format
 msgid "Certify..."
 msgstr ""
 
-#: src/dialogs/weboftrustwidget.cpp:115 src/dialogs/weboftrustwidget.cpp:142
-#: src/view/keylistcontroller.cpp:441
+#: src/dialogs/weboftrustwidget.cpp:116 src/dialogs/weboftrustwidget.cpp:143
+#: src/view/keylistcontroller.cpp:442
 #, kde-format
 msgid "Revoke Certification..."
 msgstr ""
 
-#: src/dialogs/weboftrustwidget.cpp:134
+#: src/dialogs/weboftrustwidget.cpp:135
 #, kde-format
 msgid "Show Certificate Details..."
 msgstr ""
 
-#: src/dialogs/weboftrustwidget.cpp:159
+#: src/dialogs/weboftrustwidget.cpp:160
 #, kde-format
 msgid "Revocation of self-certifications is currently not possible."
 msgstr ""
 
-#: src/dialogs/weboftrustwidget.cpp:161
+#: src/dialogs/weboftrustwidget.cpp:162
 #, kde-format
 msgid ""
 "You cannot revoke this certification because it wasn't made with one of your "
 "keys (or the required secret key is missing)."
 msgstr ""
 
-#: src/dialogs/weboftrustwidget.cpp:163
+#: src/dialogs/weboftrustwidget.cpp:164
 #, kde-format
 msgid ""
 "You cannot revoke this revocation certification. (But you can re-certify the "
 "corresponding user ID.)"
 msgstr ""
 
-#: src/dialogs/weboftrustwidget.cpp:165
+#: src/dialogs/weboftrustwidget.cpp:166
 #, kde-format
 msgid "You cannot revoke this expired certification."
 msgstr ""
 
-#: src/dialogs/weboftrustwidget.cpp:167
+#: src/dialogs/weboftrustwidget.cpp:168
 #, kde-format
 msgid "You cannot revoke this invalid certification."
 msgstr ""
 
-#: src/dialogs/weboftrustwidget.cpp:264
+#: src/dialogs/weboftrustwidget.cpp:265
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -6843,7 +6853,7 @@ msgid ""
 "message></para>"
 msgstr ""
 
-#: src/dialogs/weboftrustwidget.cpp:267
+#: src/dialogs/weboftrustwidget.cpp:268
 #, kde-format
 msgctxt "@title"
 msgid "Certifications Loading Failed"
@@ -7409,44 +7419,44 @@ msgid "&File"
 msgstr ""
 
 #. i18n: ectx: Menu (view)
-#: src/kleopatra.rc:27
+#: src/kleopatra.rc:28
 #, kde-format
 msgid "&View"
 msgstr ""
 
 #. i18n: ectx: Menu (certMenu)
 #. i18n: ectx: Menu (listview_popup)
-#: src/kleopatra.rc:43 src/kleopatra.rc:118
+#: src/kleopatra.rc:44 src/kleopatra.rc:119
 #, kde-format
 msgid "&Certificates"
 msgstr ""
 
 #. i18n: ectx: Menu (tools)
-#: src/kleopatra.rc:59
+#: src/kleopatra.rc:60
 #, kde-format
 msgid "&Tools"
 msgstr ""
 
 #. i18n: ectx: Menu (settings)
-#: src/kleopatra.rc:75
+#: src/kleopatra.rc:76
 #, kde-format
 msgid "&Settings"
 msgstr ""
 
 #. i18n: ectx: Menu (window)
-#: src/kleopatra.rc:80
+#: src/kleopatra.rc:81
 #, kde-format
 msgid "&Window"
 msgstr ""
 
 #. i18n: ectx: Menu (help)
-#: src/kleopatra.rc:91
+#: src/kleopatra.rc:92
 #, kde-format
 msgid "&Help"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: src/kleopatra.rc:103 src/kwatchgnupg/kwatchgnupgui.rc:13
+#: src/kleopatra.rc:104 src/kwatchgnupg/kwatchgnupgui.rc:13
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
@@ -7556,47 +7566,47 @@ msgstr ""
 msgid "String or Fingerprint for query and search"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:307
+#: src/kleopatraapplication.cpp:374
 #, kde-format
 msgid "Failed to execute command"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:350
+#: src/kleopatraapplication.cpp:417
 #, kde-format
 msgid "Ambiguous protocol: --openpgp and --cms"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:384
+#: src/kleopatraapplication.cpp:451
 #, kde-format
 msgid "No search string specified for --search"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:395
+#: src/kleopatraapplication.cpp:462
 #, kde-format
 msgid "No fingerprint argument specified for --query"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:441
+#: src/kleopatraapplication.cpp:518
 #, kde-format
 msgid "Ambiguous commands \"%1\" and \"%2\""
 msgstr ""
 
-#: src/kleopatraapplication.cpp:448
+#: src/kleopatraapplication.cpp:525
 #, kde-format
 msgid "No files specified for \"%1\" command"
 msgstr ""
 
-#: src/kleopatraapplication.cpp:462
+#: src/kleopatraapplication.cpp:539
 #, kde-format
 msgid "Cannot read \"%1\""
 msgstr ""
 
-#: src/kleopatraapplication.cpp:729
+#: src/kleopatraapplication.cpp:806
 #, kde-format
 msgid "Opening an external link is administratively prohibited."
 msgstr ""
 
-#: src/kleopatraapplication.cpp:730
+#: src/kleopatraapplication.cpp:807
 #, kde-format
 msgid "Prohibited"
 msgstr ""
@@ -7915,13 +7925,13 @@ msgstr ""
 msgid "Ongoing Background Tasks"
 msgstr ""
 
-#: src/mainwindow.cpp:731 src/view/keylistcontroller.cpp:397
+#: src/mainwindow.cpp:731 src/view/keylistcontroller.cpp:398
 #, kde-format
 msgid "Sign/Encrypt..."
 msgstr ""
 
 #: src/mainwindow.cpp:732 src/utils/clipboardmenu.cpp:47
-#: src/view/keylistcontroller.cpp:393
+#: src/view/keylistcontroller.cpp:394
 #, kde-format
 msgid "Decrypt/Verify..."
 msgstr ""
@@ -8195,6 +8205,30 @@ msgstr ""
 msgid "Key pair created successfully."
 msgstr ""
 
+#: src/newcertificatewizard/listwidget.cpp:177
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Entry"
+msgstr ""
+
+#: src/newcertificatewizard/listwidget.cpp:179
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Entry"
+msgstr ""
+
+#: src/newcertificatewizard/listwidget.cpp:181
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Up"
+msgstr ""
+
+#: src/newcertificatewizard/listwidget.cpp:183
+#, kde-format
+msgctxt "@action:button"
+msgid "Move Down"
+msgstr ""
+
 #: src/newcertificatewizard/newcertificatewizard.cpp:40
 #, kde-format
 msgctxt "@title:window"
@@ -8217,6 +8251,12 @@ msgstr ""
 #: src/newcertificatewizard/resultpage.cpp:105
 #, kde-format
 msgid "Restart This Wizard (Keeps Your Parameters)"
+msgstr ""
+
+#: src/newcertificatewizard/resultpage.cpp:109
+#, kde-format
+msgctxt "@title:group"
+msgid "Next Steps"
 msgstr ""
 
 #: src/newcertificatewizard/resultpage.cpp:112
@@ -8323,6 +8363,27 @@ msgstr ""
 #, kde-format
 msgctxt "@title"
 msgid "Sending Mail"
+msgstr ""
+
+#: src/newcertificatewizard/resultpage.cpp:313
+#, kde-format
+msgid "My new public OpenPGP key"
+msgstr ""
+
+#: src/newcertificatewizard/resultpage.cpp:314
+#, kde-format
+msgid "Please find attached my new public OpenPGP key."
+msgstr ""
+
+#: src/newcertificatewizard/resultpage.cpp:318
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para><application>Kleopatra</application> tried to send a mail via your "
+"default mail client.</para><para>Some mail clients are known not to support "
+"attachments when invoked this way.</para><para>If your mail client does not "
+"have an attachment, then attach the file <filename>%1</filename> manually.</"
+"para>"
 msgstr ""
 
 #: src/newcertificatewizard/resultpage.cpp:368
@@ -9528,189 +9589,204 @@ msgstr ""
 msgid "Loading certificate cache..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:359 src/view/welcomewidget.cpp:72
+#: src/view/keylistcontroller.cpp:360
 #, kde-format
-msgid "New Key Pair..."
+msgid "New OpenPGP Key Pair..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:363
+#: src/view/keylistcontroller.cpp:360
+#, kde-format
+msgid "Create a new OpenPGP certificate"
+msgstr ""
+
+#: src/view/keylistcontroller.cpp:364
 #, kde-format
 msgid "Export..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:363
+#: src/view/keylistcontroller.cpp:364
 #, kde-format
 msgid "Export the selected certificate (public key) to a file"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:367
+#: src/view/keylistcontroller.cpp:368
 #, kde-format
 msgid "Publish on Server..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:367
+#: src/view/keylistcontroller.cpp:368
 #, kde-format
 msgid "Publish the selected certificate (public key) on a public keyserver"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:372
+#: src/view/keylistcontroller.cpp:373
 #, kde-format
 msgid "Publish at Mail Provider..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:372
+#: src/view/keylistcontroller.cpp:373
 #, kde-format
 msgid ""
 "Publish the selected certificate (public key) at mail provider's Web Key "
 "Directory if offered"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:377
+#: src/view/keylistcontroller.cpp:378
 #, kde-format
 msgid "Backup Secret Keys..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:381
+#: src/view/keylistcontroller.cpp:382
 #, kde-format
 msgid "Print Secret Key..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:385
+#: src/view/keylistcontroller.cpp:386
 #, kde-format
 msgid "Lookup on Server..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:385
+#: src/view/keylistcontroller.cpp:386
 #, kde-format
 msgid "Search for certificates online using a public keyserver"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:389
+#: src/view/keylistcontroller.cpp:390
 #, kde-format
 msgid "Import a certificate from a file"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:393
+#: src/view/keylistcontroller.cpp:394
 #, kde-format
 msgid "Decrypt and/or verify files"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:397
+#: src/view/keylistcontroller.cpp:398
 #, kde-format
 msgid "Encrypt and/or sign files"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:401
+#: src/view/keylistcontroller.cpp:402
 #, kde-format
 msgid "Sign/Encrypt Folder..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:401
+#: src/view/keylistcontroller.cpp:402
 #, kde-format
 msgid "Encrypt and/or sign folders"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:405
+#: src/view/keylistcontroller.cpp:406
 #, kde-format
 msgid "Create Checksum Files..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:409
+#: src/view/keylistcontroller.cpp:410
 #, kde-format
 msgid "Verify Checksum Files..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:414
+#: src/view/keylistcontroller.cpp:415
 #, kde-format
 msgid "Redisplay"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:418
+#: src/view/keylistcontroller.cpp:419
 #, kde-format
 msgid "Stop Operation"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:428
+#: src/view/keylistcontroller.cpp:429
 #, kde-format
 msgid "Revoke Certificate..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:428
+#: src/view/keylistcontroller.cpp:429
 #, kde-format
 msgid "Revoke the selected OpenPGP certificate"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:433
+#: src/view/keylistcontroller.cpp:434
 #, kde-format
 msgid "Delete"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:433
+#: src/view/keylistcontroller.cpp:434
 #, kde-format
 msgid "Delete selected certificates"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:437
+#: src/view/keylistcontroller.cpp:438
 #, kde-format
 msgid "Certify the validity of the selected certificate"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:441
+#: src/view/keylistcontroller.cpp:442
 #, kde-format
 msgid "Revoke the certification of the selected certificate"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:449
+#: src/view/keylistcontroller.cpp:450
 #, kde-format
 msgid "Change Certification Trust..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:453
+#: src/view/keylistcontroller.cpp:454
 #, kde-format
 msgid "Change Passphrase..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:457
+#: src/view/keylistcontroller.cpp:458
 #, kde-format
 msgid "Add User ID..."
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:462
+#: src/view/keylistcontroller.cpp:463
 #, kde-format
 msgid "Refresh OpenPGP Certificates"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:474
+#: src/view/keylistcontroller.cpp:473
+#, kde-format
+msgid "New S/MIME Certification Request..."
+msgstr ""
+
+#: src/view/keylistcontroller.cpp:473
+#, kde-format
+msgid "Create a new S/MIME certificate signing request (CSR)"
+msgstr ""
+
+#: src/view/keylistcontroller.cpp:480
 #, kde-format
 msgid "Trust Root Certificate"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:478
+#: src/view/keylistcontroller.cpp:484
 #, kde-format
 msgid "Distrust Root Certificate"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:482
+#: src/view/keylistcontroller.cpp:488
 #, kde-format
 msgid "Technical Details"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:487
+#: src/view/keylistcontroller.cpp:493
 #, kde-format
 msgid "Refresh S/MIME Certificates"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:491
+#: src/view/keylistcontroller.cpp:497
 #, kde-format
 msgid "Clear CRL Cache"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:495
+#: src/view/keylistcontroller.cpp:501
 #, kde-format
 msgid "Dump CRL Cache"
 msgstr ""
 
-#: src/view/keylistcontroller.cpp:499
+#: src/view/keylistcontroller.cpp:505
 #, kde-format
 msgid "Import CRL From File..."
 msgstr ""
@@ -9720,12 +9796,12 @@ msgstr ""
 msgid "View Columns"
 msgstr ""
 
-#: src/view/keytreeview.cpp:348 src/view/keytreeview.cpp:687
+#: src/view/keytreeview.cpp:276 src/view/keytreeview.cpp:615
 #, kde-format
 msgid "Hierarchical list of certificates"
 msgstr ""
 
-#: src/view/keytreeview.cpp:348 src/view/keytreeview.cpp:687
+#: src/view/keytreeview.cpp:276 src/view/keytreeview.cpp:615
 #, kde-format
 msgid "List of certificates"
 msgstr ""
@@ -9752,7 +9828,7 @@ msgctxt "@action"
 msgid "Load Certificates"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:142 src/view/pgpcardwidget.cpp:185
+#: src/view/netkeywidget.cpp:142 src/view/pgpcardwidget.cpp:187
 #, kde-format
 msgid "Actions:"
 msgstr ""
@@ -10031,12 +10107,18 @@ msgctxt "The owner of a smartcard. GnuPG refers to this as cardholder."
 msgid "Cardholder:"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:150 src/view/pgpcardwidget.cpp:165
+#: src/view/pgpcardwidget.cpp:150 src/view/pgpcardwidget.cpp:166
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit"
+msgstr ""
+
+#: src/view/pgpcardwidget.cpp:151 src/view/pgpcardwidget.cpp:167
 #, kde-format
 msgid "Change"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:159
+#: src/view/pgpcardwidget.cpp:160
 #, kde-format
 msgctxt ""
 "The URL under which a public key that corresponds to a smartcard can be "
@@ -10044,205 +10126,205 @@ msgctxt ""
 msgid "Pubkey URL:"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:177 src/view/pivcardwidget.cpp:120
+#: src/view/pgpcardwidget.cpp:179 src/view/pivcardwidget.cpp:120
 #, kde-format
 msgid "Keys:"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:190
+#: src/view/pgpcardwidget.cpp:192
 #, kde-format
 msgid "Generate New Keys"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:191
+#: src/view/pgpcardwidget.cpp:193
 #, kde-format
 msgid "Create a new primary key and generate subkeys on the card."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:196
+#: src/view/pgpcardwidget.cpp:198
 #, kde-format
 msgid "Change PIN"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:197
+#: src/view/pgpcardwidget.cpp:199
 #, kde-format
 msgid "Change the PIN required for using the keys on the smartcard."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:202
+#: src/view/pgpcardwidget.cpp:204
 #, kde-format
 msgid "Unblock Card"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:203
+#: src/view/pgpcardwidget.cpp:205
 #, kde-format
 msgid "Unblock the smartcard and set a new PIN."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:208
+#: src/view/pgpcardwidget.cpp:210
 #, kde-format
 msgid "Change Admin PIN"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:209
+#: src/view/pgpcardwidget.cpp:211
 #, kde-format
 msgid "Change the PIN required for administrative operations."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:214
+#: src/view/pgpcardwidget.cpp:216
 #, kde-format
 msgid "Change Reset Code"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:215
+#: src/view/pgpcardwidget.cpp:217
 #, kde-format
 msgid "Change the PIN required to unblock the smartcard and set a new PIN."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:223
+#: src/view/pgpcardwidget.cpp:225
 #, kde-format
 msgid "Create OpenPGP Key"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:224
+#: src/view/pgpcardwidget.cpp:226
 #, kde-format
 msgid "Create an OpenPGP key for the keys stored on the card."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:243
+#: src/view/pgpcardwidget.cpp:245
 #, kde-format
 msgctxt "Placeholder is a version number"
 msgid "Unknown OpenPGP v%1 card"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:245
+#: src/view/pgpcardwidget.cpp:247
 #, kde-format
 msgctxt ""
 "First placeholder is manufacturer, second placeholder is a version number"
 msgid "%1 OpenPGP v%2 card"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:251 src/view/pgpcardwidget.cpp:253
+#: src/view/pgpcardwidget.cpp:253 src/view/pgpcardwidget.cpp:255
 #, kde-format
 msgid "not set"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:297
+#: src/view/pgpcardwidget.cpp:299
 #, kde-format
 msgctxt "@title:window"
 msgid "Generating Keys"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:298
+#: src/view/pgpcardwidget.cpp:300
 #, kde-format
 msgid "This may take several minutes..."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:314
+#: src/view/pgpcardwidget.cpp:316
 #, kde-format
 msgctxt "@info"
 msgid "Failed to generate new key: %1"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:323
+#: src/view/pgpcardwidget.cpp:325
 #, kde-format
 msgid "Save backup of encryption key"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:325
+#: src/view/pgpcardwidget.cpp:327
 #, kde-format
 msgid "Backup Key"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:328
+#: src/view/pgpcardwidget.cpp:330
 #, kde-format
 msgctxt "@info"
 msgid "Failed to move backup. The backup key is still stored under: %1"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:335
+#: src/view/pgpcardwidget.cpp:337
 #, kde-format
 msgctxt "@info"
 msgid "Successfully generated a new key for this card."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:336 src/view/pgpcardwidget.cpp:431
-#: src/view/pgpcardwidget.cpp:478
+#: src/view/pgpcardwidget.cpp:338 src/view/pgpcardwidget.cpp:433
+#: src/view/pgpcardwidget.cpp:480
 #, kde-format
 msgctxt "@title"
 msgid "Success"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:344
+#: src/view/pgpcardwidget.cpp:346
 #, kde-format
 msgid ""
 "The existing keys on this card will be <b>deleted</b> and replaced by new "
 "keys."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:381
+#: src/view/pgpcardwidget.cpp:383
 #, kde-format
 msgid "Change cardholder"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:382
+#: src/view/pgpcardwidget.cpp:384
 #, kde-format
 msgid "New name:"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:391
+#: src/view/pgpcardwidget.cpp:393
 #, kde-format
 msgctxt "@info"
 msgid "The \"<\" character may not be used."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:396
+#: src/view/pgpcardwidget.cpp:398
 #, kde-format
 msgctxt "@info"
 msgid "Double spaces are not allowed"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:401
+#: src/view/pgpcardwidget.cpp:403
 #, kde-format
 msgctxt "@info"
 msgid "The size of the name may not exceed 38 characters."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:425
+#: src/view/pgpcardwidget.cpp:427
 #, kde-format
 msgctxt "@info"
 msgid "Name change failed: %1"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:430
+#: src/view/pgpcardwidget.cpp:432
 #, kde-format
 msgctxt "@info"
 msgid "Name successfully changed."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:441
+#: src/view/pgpcardwidget.cpp:443
 #, kde-format
 msgid "Change the URL where the pubkey can be found"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:442
+#: src/view/pgpcardwidget.cpp:444
 #, kde-format
 msgid "New pubkey URL:"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:451
+#: src/view/pgpcardwidget.cpp:453
 #, kde-format
 msgctxt "@info"
 msgid "The size of the URL may not exceed 254 characters."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:472
+#: src/view/pgpcardwidget.cpp:474
 #, kde-format
 msgctxt "@info"
 msgid "URL change failed: %1"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:477
+#: src/view/pgpcardwidget.cpp:479
 #, kde-format
 msgctxt "@info"
 msgid "URL successfully changed."
@@ -10566,39 +10648,39 @@ msgstr ""
 msgid "All Certificates"
 msgstr ""
 
-#: src/view/welcomewidget.cpp:49
+#: src/view/welcomewidget.cpp:100
 #, kde-format
 msgctxt "%1 is version"
 msgid "Welcome to Kleopatra %1"
 msgstr ""
 
-#: src/view/welcomewidget.cpp:55
+#: src/view/welcomewidget.cpp:106
 #, kde-format
 msgid ""
 "Kleopatra is a front-end for the crypto software <a href=\"https://gnupg.org"
 "\">GnuPG</a>."
 msgstr ""
 
-#: src/view/welcomewidget.cpp:57
+#: src/view/welcomewidget.cpp:108
 #, kde-format
 msgid ""
 "For most actions you need either a public key (certificate) or your own "
 "private key."
 msgstr ""
 
-#: src/view/welcomewidget.cpp:59
+#: src/view/welcomewidget.cpp:110
 #, kde-format
 msgid "The private key is needed to decrypt or sign."
 msgstr ""
 
-#: src/view/welcomewidget.cpp:60
+#: src/view/welcomewidget.cpp:111
 #, kde-format
 msgid ""
 "The public key can be used by others to verify your identity or encrypt to "
 "you."
 msgstr ""
 
-#: src/view/welcomewidget.cpp:63
+#: src/view/welcomewidget.cpp:114
 #, kde-format
 msgctxt ""
 "More info about public key cryptography, please link to your local version "
@@ -10606,30 +10688,35 @@ msgctxt ""
 msgid "https://en.wikipedia.org/wiki/Public-key_cryptography"
 msgstr ""
 
-#: src/view/welcomewidget.cpp:64
+#: src/view/welcomewidget.cpp:115
 #, kde-format
 msgctxt "%1 is link a wiki article"
 msgid "You can learn more about this on <a href=\"%1\">Wikipedia</a>."
 msgstr ""
 
-#: src/view/welcomewidget.cpp:86
+#: src/view/welcomewidget.cpp:123
+#, kde-format
+msgid "New Key Pair..."
+msgstr ""
+
+#: src/view/welcomewidget.cpp:137
 #, kde-format
 msgid "Create a new OpenPGP key pair"
 msgstr ""
 
-#: src/view/welcomewidget.cpp:87
+#: src/view/welcomewidget.cpp:138
 #, kde-format
 msgid ""
 "To create an S/MIME certificate request use \"New Key Pair\" from the 'File' "
 "Menu instead"
 msgstr ""
 
-#: src/view/welcomewidget.cpp:96
+#: src/view/welcomewidget.cpp:147
 #, kde-format
 msgid "Import from a file."
 msgstr ""
 
-#: src/view/welcomewidget.cpp:97
+#: src/view/welcomewidget.cpp:148
 #, kde-format
 msgid "To import from a public keyserver use \"Lookup on Server\" instead."
 msgstr ""

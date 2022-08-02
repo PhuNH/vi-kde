@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-15 00:48+0000\n"
+"POT-Creation-Date: 2022-08-01 00:46+0000\n"
 "PO-Revision-Date: 2021-01-28 12:03+0100\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -17,28 +17,58 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 20.08.1\n"
 
-#: package/contents/ui/main.qml:24
-#, kde-format
-msgid "Peek at Desktop"
-msgstr ""
+#: package/contents/ui/main.qml:32
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "Minimize All Windows"
+msgctxt "@action:button"
+msgid "Restore All Minimized Windows"
+msgstr "Thu nhỏ tất cả các cửa sổ"
 
-#: package/contents/ui/main.qml:25
-#, kde-format
-msgid ""
-"Temporarily reveals the Desktop by moving open windows into screen corners"
-msgstr ""
-
-#: package/contents/ui/main.qml:136
+#: package/contents/ui/main.qml:32 package/contents/ui/main.qml:184
 #, kde-format
 msgctxt "@action"
 msgid "Minimize All Windows"
 msgstr "Thu nhỏ tất cả các cửa sổ"
 
+#: package/contents/ui/main.qml:35
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop Peeking at Desktop"
+msgstr ""
+
+#: package/contents/ui/main.qml:35 package/contents/ui/main.qml:185
+#, kde-format
+msgctxt "@action:button"
+msgid "Peek at Desktop"
+msgstr ""
+
+#: package/contents/ui/main.qml:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Restores the previously minimized windows"
+msgstr ""
+
+#: package/contents/ui/main.qml:39
+#, fuzzy, kde-format
+#| msgid "Show the desktop by moving windows aside"
+msgid "Shows the Desktop by minimizing all windows"
+msgstr "Hiện bàn làm việc bằng cách di chuyển các cửa sổ sang bên"
+
+#: package/contents/ui/main.qml:42
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Moves windows back to their original positions"
+msgstr ""
+
+#: package/contents/ui/main.qml:42
+#, kde-format
+msgid ""
+"Temporarily reveals the Desktop by moving open windows into screen corners"
+msgstr ""
+
 #~ msgid "Show Desktop"
 #~ msgstr "Hiện bàn làm việc"
-
-#~ msgid "Show the desktop by moving windows aside"
-#~ msgstr "Hiện bàn làm việc bằng cách di chuyển các cửa sổ sang bên"
 
 #~ msgid "Show the Plasma desktop"
 #~ msgstr "Hiện bàn làm việc Plasma"

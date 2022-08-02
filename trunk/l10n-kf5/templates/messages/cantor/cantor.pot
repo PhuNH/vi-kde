@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cantor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-23 00:40+0000\n"
+"POT-Creation-Date: 2022-08-01 00:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -43,10 +43,14 @@ msgstr ""
 msgid "Stop"
 msgstr ""
 
-#: animationresultitem.cpp:114 imageresultitem.cpp:88 resultitem.cpp:59
-#: textresultitem.cpp:214
+#: animationresultitem.cpp:113
 #, kde-format
-msgid "Save result"
+msgid "Save animation result"
+msgstr ""
+
+#: animationresultitem.cpp:113
+#, kde-format
+msgid "Animations (*.gif)"
 msgstr ""
 
 #: assistants/advancedplot/advancedplotassistant.cpp:30
@@ -291,24 +295,24 @@ msgstr ""
 msgid "Variables:"
 msgstr ""
 
-#: backendchoosedialog.cpp:62
+#: backendchoosedialog.cpp:64
 #, kde-format
 msgid "Select the Backend"
 msgstr ""
 
-#: backendchoosedialog.cpp:101
+#: backendchoosedialog.cpp:110
 #, kde-format
 msgid "<h1>%1</h1><div><b>Recommended version:</b> %2</div>"
 msgstr ""
 
-#: backendchoosedialog.cpp:104
+#: backendchoosedialog.cpp:113
 #, kde-format
 msgid ""
 "<hr><div>%1</div><br><div>See <a href=\"%2\">%2</a> for more information.</"
 "div>"
 msgstr ""
 
-#: backendchoosedialog.cpp:116
+#: backendchoosedialog.cpp:125
 #, kde-format
 msgid ""
 "<hr><div><b><font color='#e50000'>Some requirements are not fulfilled: </"
@@ -460,7 +464,7 @@ msgstr ""
 #: backends/maxima/settings.ui:21 backends/octave/settings.ui:21
 #: backends/python/settings.ui:21 backends/qalculate/settings.ui:21
 #: backends/R/settings.ui:21 backends/sage/settings.ui:21
-#: backends/scilab/settings.ui:21 cantor.cpp:634
+#: backends/scilab/settings.ui:21 cantor.cpp:632
 #, kde-format
 msgid "General"
 msgstr ""
@@ -774,7 +778,7 @@ msgstr ""
 msgid "Error: expected \" before ;"
 msgstr ""
 
-#: backends/maxima/maximaexpression.cpp:404
+#: backends/maxima/maximaexpression.cpp:406
 #, kde-format
 msgid "Waiting for the plot result"
 msgstr ""
@@ -838,8 +842,8 @@ msgstr ""
 
 #: backends/octave/octavesession.cpp:414 backends/sage/sagesession.cpp:238
 #: backends/sage/sagesession.cpp:271 backends/sage/sagesession.cpp:337
-#: backends/sage/sagesession.cpp:348 cantor.cpp:218 cantor.cpp:220
-#: cantor.cpp:338 cantor.cpp:345 lib/session.cpp:381 main.cpp:65 main.cpp:129
+#: backends/sage/sagesession.cpp:348 cantor.cpp:216 cantor.cpp:218
+#: cantor.cpp:336 cantor.cpp:343 lib/session.cpp:381 main.cpp:66 main.cpp:130
 #: markdownentry.cpp:797 textentry.cpp:553 worksheet.cpp:1273
 #, kde-format
 msgid "Cantor"
@@ -2291,7 +2295,7 @@ msgstr ""
 msgid "The file %1 is already opened."
 msgstr ""
 
-#: cantor.cpp:104 cantor.cpp:230
+#: cantor.cpp:104 cantor.cpp:228
 #, kde-format
 msgid "Open file"
 msgstr ""
@@ -2301,29 +2305,29 @@ msgstr ""
 msgid "Download Examples"
 msgstr ""
 
-#: cantor.cpp:151
+#: cantor.cpp:149
 #, kde-format
 msgid "&Open Example"
 msgstr ""
 
-#: cantor.cpp:156
+#: cantor.cpp:154
 #, kde-format
 msgid "Go to previous worksheet"
 msgstr ""
 
-#: cantor.cpp:168
+#: cantor.cpp:166
 #, kde-format
 msgid "Go to next worksheet"
 msgstr ""
 
-#: cantor.cpp:229
+#: cantor.cpp:227
 #, kde-format
 msgid ""
 "All supported files (*.cws *ipynb);;Cantor Worksheet (*.cws);;Jupyter "
 "Notebook (*.ipynb)"
 msgstr ""
 
-#: cantor.cpp:297
+#: cantor.cpp:295
 #, kde-format
 msgid ""
 "<h1>No Backend Found</h1>\n"
@@ -2340,69 +2344,69 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: cantor.cpp:317
+#: cantor.cpp:315
 #, kde-format
 msgid "Error"
 msgstr ""
 
-#: cantor.cpp:338
+#: cantor.cpp:336
 #, kde-format
 msgid "Backend %1 is not installed"
 msgstr ""
 
-#: cantor.cpp:345
+#: cantor.cpp:343
 #, kde-format
 msgid ""
 "%1 backend installed, but inactive. Please check installation and Cantor "
 "settings"
 msgstr ""
 
-#: cantor.cpp:372
+#: cantor.cpp:370
 #, kde-format
 msgid "Session %1"
 msgstr ""
 
-#: cantor.cpp:393
+#: cantor.cpp:391
 #, kde-format
 msgid "Failed to find the Cantor Part with error %1"
 msgstr ""
 
-#: cantor.cpp:440 cantor_part.cpp:621
+#: cantor.cpp:438 cantor_part.cpp:621
 #, kde-format
 msgid "Calculating..."
 msgstr ""
 
-#: cantor.cpp:443 cantor_part.cpp:632 cantor_part.cpp:695
+#: cantor.cpp:441 cantor_part.cpp:632 cantor_part.cpp:695
 #, kde-format
 msgid "Ready"
 msgstr ""
 
-#: cantor.cpp:487
+#: cantor.cpp:485
 #, kde-format
 msgid "Changed"
 msgstr ""
 
-#: cantor.cpp:571
+#: cantor.cpp:569
 #, kde-format
 msgid "Multiple unsaved Worksheets are opened. Do you want to close them?"
 msgstr ""
 
-#: cantor.cpp:572
+#: cantor.cpp:570
 #, kde-format
 msgid "Close Cantor"
 msgstr ""
 
-#: cantor.cpp:588
+#: cantor.cpp:586
 #, kde-format
 msgid "The current project has been modified. Do you want to save it?"
 msgstr ""
 
-#: cantor.cpp:589
+#: cantor.cpp:587
 #, kde-format
 msgid "Save Project"
 msgstr ""
 
-#: cantor.cpp:635
+#: cantor.cpp:633
 #, kde-format
 msgid "Formatting"
 msgstr ""
@@ -2750,7 +2754,7 @@ msgstr ""
 msgid "(C) 2009-2015 Alexander Rieder"
 msgstr ""
 
-#: cantor_part.cpp:410 main.cpp:80
+#: cantor_part.cpp:410 main.cpp:81
 #, kde-format
 msgid "Alexander Rieder"
 msgstr ""
@@ -2853,6 +2857,12 @@ msgstr ""
 #: cantor_part.rc:33
 #, kde-format
 msgid "&Worksheet"
+msgstr ""
+
+#. i18n: ectx: Menu (settings)
+#: cantor_part.rc:50
+#, kde-format
+msgid "Settings"
 msgstr ""
 
 #. i18n: ectx: Menu (file)
@@ -3206,6 +3216,17 @@ msgstr ""
 msgid "Cannot load image %1"
 msgstr ""
 
+#: imageresultitem.cpp:97
+#, kde-format
+msgid "Save image result"
+msgstr ""
+
+#: imageresultitem.cpp:99 imagesettingsdialog.cpp:153
+#: markdownentry.cpp:775
+#, kde-format
+msgid "Images (%1)"
+msgstr ""
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, ImageSettingsBase)
 #: imagesettings.ui:14
 #, kde-format
@@ -3280,11 +3301,6 @@ msgstr ""
 #: imagesettingsdialog.cpp:151 markdownentry.cpp:773
 #, kde-format
 msgid "Open image file"
-msgstr ""
-
-#: imagesettingsdialog.cpp:153 markdownentry.cpp:775
-#, kde-format
-msgid "Images (%1)"
 msgstr ""
 
 #: latexentry.cpp:61 textentry.cpp:111
@@ -3416,93 +3432,93 @@ msgid ""
 "will be disabled. %2"
 msgstr ""
 
-#: main.cpp:71
+#: main.cpp:72
 #, kde-format
 msgid "KDE Frontend to mathematical applications"
 msgstr ""
 
-#: main.cpp:73
+#: main.cpp:74
 #, kde-format
 msgid "(C) 2016 Filipe Saraiva<br/>(C) 2009-2015 Alexander Rieder"
 msgstr ""
 
-#: main.cpp:77
+#: main.cpp:78
 #, kde-format
 msgid "Filipe Saraiva"
 msgstr ""
 
-#: main.cpp:77
+#: main.cpp:78
 #, kde-format
 msgid "Maintainer<br/>Qt5/KF5 port, Scilab and Python backends"
 msgstr ""
 
-#: main.cpp:78
+#: main.cpp:79
 #, kde-format
 msgid "Nikita Sirgienko"
 msgstr ""
 
-#: main.cpp:78 main.cpp:79
+#: main.cpp:79 main.cpp:80
 #, kde-format
 msgctxt "@info:credit"
 msgid "Developer"
 msgstr ""
 
-#: main.cpp:79
+#: main.cpp:80
 #, kde-format
 msgid "Alexander Semke"
 msgstr ""
 
-#: main.cpp:80
+#: main.cpp:81
 #, kde-format
 msgid "Original author<br/>Maintainer (2009 - 2015)"
 msgstr ""
 
-#: main.cpp:81
+#: main.cpp:82
 #, kde-format
 msgid "Aleix Pol Gonzalez"
 msgstr ""
 
-#: main.cpp:81
+#: main.cpp:82
 #, kde-format
 msgid "KAlgebra backend"
 msgstr ""
 
-#: main.cpp:82
+#: main.cpp:83
 #, kde-format
 msgid "Miha Čančula"
 msgstr ""
 
-#: main.cpp:82
+#: main.cpp:83
 #, kde-format
 msgid "Octave backend"
 msgstr ""
 
-#: main.cpp:83
+#: main.cpp:84
 #, kde-format
 msgid "Martin Küttler"
 msgstr ""
 
-#: main.cpp:83
+#: main.cpp:84
 #, kde-format
 msgid "Interface"
 msgstr ""
 
-#: main.cpp:85 main.cpp:86
+#: main.cpp:86 main.cpp:87
 #, kde-format
 msgid "Cantor icon"
 msgstr ""
 
-#: main.cpp:91
+#: main.cpp:92
 #, kde-format
 msgid "Use  backend <backend>"
 msgstr ""
 
-#: main.cpp:94
+#: main.cpp:95
 #, kde-format
 msgid "Documents to open."
 msgstr ""
 
-#: main.cpp:129
+#: main.cpp:130
 #, kde-format
 msgid "Couldn't open the file %1"
 msgstr ""
@@ -3667,6 +3683,11 @@ msgstr ""
 #: panelplugins/variablemgr/variablemanagerwidget.cpp:182
 #, kde-format
 msgid "Load file"
+msgstr ""
+
+#: resultitem.cpp:59
+#, kde-format
+msgid "Save result"
 msgstr ""
 
 #: resultitem.cpp:60
@@ -3993,6 +4014,16 @@ msgstr ""
 #: textresultitem.cpp:161
 #, kde-format
 msgid "Cannot render Eps file. You may need additional packages"
+msgstr ""
+
+#: textresultitem.cpp:213
+#, kde-format
+msgid "Save text result"
+msgstr ""
+
+#: textresultitem.cpp:213
+#, kde-format
+msgid "Text Files (*.txt)"
 msgstr ""
 
 #: worksheet.cpp:1190

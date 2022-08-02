@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calligra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-18 00:45+0000\n"
+"POT-Creation-Date: 2022-08-01 00:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3181,7 +3181,7 @@ msgstr ""
 msgid "Invalid document. Sheet name is empty."
 msgstr ""
 
-#: core/Map.cpp:242 engine/MapBase.cpp:186
+#: core/Map.cpp:242 engine/MapBase.cpp:187
 #, kde-format
 msgid "Sheet%1"
 msgstr ""
@@ -3339,17 +3339,17 @@ msgstr ""
 msgid "Related Functions"
 msgstr ""
 
-#: engine/Localization.cpp:237
-#, kde-format
-msgid "false"
-msgstr ""
-
-#: engine/Localization.cpp:237
+#: engine/Localization.cpp:413
 #, kde-format
 msgid "true"
 msgstr ""
 
-#: engine/SheetBase.cpp:346
+#: engine/Localization.cpp:414
+#, kde-format
+msgid "false"
+msgstr ""
+
+#: engine/SheetBase.cpp:343
 #, kde-format
 msgid "Dependency"
 msgstr ""
@@ -15411,7 +15411,7 @@ msgstr ""
 msgid "Function Modules"
 msgstr ""
 
-#: part/dialogs/PreferenceDialog.cpp:341 part/View.cpp:746
+#: part/dialogs/PreferenceDialog.cpp:341 part/View.cpp:750
 #, kde-format
 msgid "Tools"
 msgstr ""
@@ -15822,7 +15822,7 @@ msgstr ""
 msgid "Modify current sheet's properties"
 msgstr ""
 
-#: part/View.cpp:235 part/View.cpp:2002
+#: part/View.cpp:235 part/View.cpp:2034
 #, kde-format
 msgid "Insert Sheet"
 msgstr ""
@@ -15842,12 +15842,12 @@ msgstr ""
 msgid "Duplicate the selected sheet"
 msgstr ""
 
-#: part/View.cpp:246 part/View.cpp:1812 part/View.cpp:1816 part/View.cpp:2007
+#: part/View.cpp:246 part/View.cpp:1844 part/View.cpp:1848 part/View.cpp:2039
 #, kde-format
 msgid "Remove Sheet"
 msgstr ""
 
-#: part/View.cpp:247 part/View.cpp:2003 part/View.cpp:2008
+#: part/View.cpp:247 part/View.cpp:2035 part/View.cpp:2040
 #, kde-format
 msgid "Remove the active sheet"
 msgstr ""
@@ -15967,12 +15967,12 @@ msgstr ""
 msgid "Anchor"
 msgstr ""
 
-#: part/View.cpp:315 part/View.cpp:1080 part/View.cpp:1512 ui/dialogs/LinkDialog.cpp:139
+#: part/View.cpp:315 part/View.cpp:1084 part/View.cpp:1544 ui/dialogs/LinkDialog.cpp:139
 #, kde-format
 msgid "Cell"
 msgstr ""
 
-#: part/View.cpp:316 part/View.cpp:1080
+#: part/View.cpp:316 part/View.cpp:1084
 #, kde-format
 msgid "Page"
 msgstr ""
@@ -16143,124 +16143,124 @@ msgstr ""
 msgid "Calculate using the countA"
 msgstr ""
 
-#: part/View.cpp:1429 part/View.cpp:1448 part/View.cpp:1834
+#: part/View.cpp:1433 part/View.cpp:1452 part/View.cpp:1866
 #, kde-format
 msgid "You cannot change a protected sheet."
 msgstr ""
 
-#: part/View.cpp:1468
+#: part/View.cpp:1472
 #, kde-format
 msgid "You cannot hide the last visible sheet."
 msgstr ""
 
-#: part/View.cpp:1520
+#: part/View.cpp:1552
 #, kde-format
 msgid "Enter a password."
 msgstr ""
 
-#: part/View.cpp:1532
+#: part/View.cpp:1564
 #, kde-format
 msgid "Enter the password."
 msgstr ""
 
-#: part/View.cpp:1540
+#: part/View.cpp:1572
 #, kde-format
 msgid "Password is incorrect."
 msgstr ""
 
-#: part/View.cpp:1558
+#: part/View.cpp:1590
 #, kde-format
 msgid "Protect Document"
 msgstr ""
 
-#: part/View.cpp:1561
+#: part/View.cpp:1593
 #, kde-format
 msgid "Unprotect Document"
 msgstr ""
 
-#: part/View.cpp:1581
+#: part/View.cpp:1613
 #, kde-format
 msgid "Protect Sheet"
 msgstr ""
 
-#: part/View.cpp:1584
+#: part/View.cpp:1616
 #, kde-format
 msgid "Unprotect Sheet"
 msgstr ""
 
-#: part/View.cpp:1803
+#: part/View.cpp:1835
 msgctxt "(qtundo-format)"
 msgid "Reset Print Range"
 msgstr ""
 
-#: part/View.cpp:1812
+#: part/View.cpp:1844
 #, kde-format
 msgid "You cannot delete the only sheet."
 msgstr ""
 
-#: part/View.cpp:1815
+#: part/View.cpp:1847
 #, kde-format
 msgid ""
 "You are about to remove the active sheet.\n"
 "Do you want to continue?"
 msgstr ""
 
-#: part/View.cpp:1840 ui/CellToolBase.cpp:1678
+#: part/View.cpp:1872 ui/CellToolBase.cpp:1678
 #, kde-format
 msgid "Enter name:"
 msgstr ""
 
-#: part/View.cpp:1840
+#: part/View.cpp:1872
 #, kde-format
 msgid "Rename Sheet"
 msgstr ""
 
-#: part/View.cpp:1845 part/View.cpp:1851
+#: part/View.cpp:1877 part/View.cpp:1883
 #, kde-format
 msgid "Change Sheet Name"
 msgstr ""
 
-#: part/View.cpp:1845
+#: part/View.cpp:1877
 #, kde-format
 msgid "Sheet name cannot be empty."
 msgstr ""
 
-#: part/View.cpp:1851
+#: part/View.cpp:1883
 #, kde-format
 msgid "This name is already used."
 msgstr ""
 
-#: part/View.cpp:1919
+#: part/View.cpp:1951
 #, kde-format
 msgid "Sum: "
 msgstr ""
 
-#: part/View.cpp:1923
+#: part/View.cpp:1955
 #, kde-format
 msgid "Average: "
 msgstr ""
 
-#: part/View.cpp:1927
+#: part/View.cpp:1959
 #, kde-format
 msgid "Min: "
 msgstr ""
 
-#: part/View.cpp:1931
+#: part/View.cpp:1963
 #, kde-format
 msgid "Max: "
 msgstr ""
 
-#: part/View.cpp:1935
+#: part/View.cpp:1967
 #, kde-format
 msgid "Count: "
 msgstr ""
 
-#: part/View.cpp:1939
+#: part/View.cpp:1971
 #, kde-format
 msgid "CountA: "
 msgstr ""
 
-#: part/View.cpp:1946
+#: part/View.cpp:1978
 #, kde-format
 msgid "%1x%2"
 msgstr ""
@@ -16530,7 +16530,7 @@ msgstr ""
 msgid "All Borders"
 msgstr ""
 
-#: ui/CellToolBase.cpp:319 ui/CellToolBase.cpp:546 ui/dialogs/FormulaDialog.cpp:84
+#: ui/CellToolBase.cpp:319 ui/dialogs/FormulaDialog.cpp:84
 #: ui/dialogs/FormulaDialog.cpp:190 ui/dialogs/FormulaDialog.cpp:722
 #: ui/dialogs/ValidityDialog.cpp:64 ui/FilterPopup.cpp:55
 #, kde-format
@@ -16969,7 +16969,7 @@ msgstr ""
 msgid "Removes the cells from the spreadsheet"
 msgstr ""
 
-#: ui/CellToolBase.cpp:547
+#: ui/CellToolBase.cpp:546 ui/CellToolBase.cpp:547
 #, kde-format
 msgid "Clear All"
 msgstr ""
@@ -17332,7 +17332,7 @@ msgstr ""
 msgid "Insert a function"
 msgstr ""
 
-#: ui/CellToolBase.cpp:730 ui/CellToolBase.cpp:2931
+#: ui/CellToolBase.cpp:730 ui/CellToolBase.cpp:2930
 #, kde-format
 msgid "Others..."
 msgstr ""
@@ -17569,20 +17569,20 @@ msgstr ""
 msgid "Edit Link"
 msgstr ""
 
-#: ui/CellToolBase.cpp:2573 ui/CellToolBase.cpp:2585 ui/CellToolBase.cpp:2607
-#: ui/CellToolBase.cpp:2894 ui/CellToolBase.cpp:2906
+#: ui/CellToolBase.cpp:2572 ui/CellToolBase.cpp:2584 ui/CellToolBase.cpp:2606
+#: ui/CellToolBase.cpp:2893 ui/CellToolBase.cpp:2905
 #, kde-format
 msgid "You must select multiple cells."
 msgstr ""
 
-#: ui/CellToolBase.cpp:2812
+#: ui/CellToolBase.cpp:2811
 #, kde-format
 msgid ""
 "No database drivers available. To use this feature you need to install the "
 "necessary Qt database drivers."
 msgstr ""
 
-#: ui/CellToolBase.cpp:3395
+#: ui/CellToolBase.cpp:3394
 msgctxt "(qtundo-format)"
 msgid "Replace"
 msgstr ""
@@ -17918,7 +17918,7 @@ msgctxt "(qtundo-format)"
 msgid "Auto-Format"
 msgstr ""
 
-#: ui/commands/BorderColorCommand.cpp:19
+#: ui/commands/BorderColorCommand.cpp:20
 msgctxt "(qtundo-format)"
 msgid "Change Border Color"
 msgstr ""
@@ -17963,7 +17963,7 @@ msgctxt "(qtundo-format)"
 msgid "Remove Cells"
 msgstr ""
 
-#: ui/commands/DeleteCommand.cpp:20
+#: ui/commands/DeleteCommand.cpp:22
 msgctxt "(qtundo-format)"
 msgid "Delete"
 msgstr ""
@@ -17978,12 +17978,12 @@ msgctxt "(qtundo-format)"
 msgid "Decrease Indentation"
 msgstr ""
 
-#: ui/commands/LinkCommand.cpp:25
+#: ui/commands/LinkCommand.cpp:23
 msgctxt "(qtundo-format)"
 msgid "Remove Link"
 msgstr ""
 
-#: ui/commands/LinkCommand.cpp:25
+#: ui/commands/LinkCommand.cpp:23
 msgctxt "(qtundo-format)"
 msgid "Set Link"
 msgstr ""
@@ -19713,26 +19713,6 @@ msgstr ""
 #: ui/dialogs/LinkDialog.cpp:146
 #, kde-format
 msgid "Cell or Named Area:"
-msgstr ""
-
-#: ui/dialogs/LinkDialog.cpp:288
-#, kde-format
-msgid "Internet address is empty"
-msgstr ""
-
-#: ui/dialogs/LinkDialog.cpp:290
-#, kde-format
-msgid "Mail address is empty"
-msgstr ""
-
-#: ui/dialogs/LinkDialog.cpp:292
-#, kde-format
-msgid "File name is empty"
-msgstr ""
-
-#: ui/dialogs/LinkDialog.cpp:294
-#, kde-format
-msgid "Destination cell is empty"
 msgstr ""
 
 #: ui/dialogs/ListDialog.cpp:47

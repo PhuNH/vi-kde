@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-16 00:48+0000\n"
+"POT-Creation-Date: 2022-08-02 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -162,6 +162,16 @@ msgstr ""
 #: core/accountmanager.cpp:61
 #, kde-format
 msgid "Server not found: %1"
+msgstr ""
+
+#: core/bannerinfo/bannerinfo.cpp:42
+#, kde-format
+msgid "New version available %1"
+msgstr ""
+
+#: core/bannerinfo/bannerinfos.cpp:64
+#, kde-format
+msgid "(link)"
 msgstr ""
 
 #: core/commands/command.cpp:53
@@ -793,12 +803,7 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: core/model/bannerinfosmodel.cpp:51
-#, kde-format
-msgid "New version available %1"
-msgstr ""
-
-#: core/model/bannerinfosmodel.cpp:55
+#: core/model/bannerinfosmodel.cpp:52
 #, kde-format
 msgid "link"
 msgstr ""
@@ -1270,12 +1275,12 @@ msgstr ""
 msgid "<strong>%1</strong> are typing..."
 msgstr ""
 
-#: core/rocketchataccount.cpp:2711
+#: core/rocketchataccount.cpp:2724
 #, kde-format
 msgid "Export Messages"
 msgstr ""
 
-#: core/rocketchataccount.cpp:2712
+#: core/rocketchataccount.cpp:2725
 #, kde-format
 msgid "Your email has been queued for sending."
 msgstr ""
@@ -3328,6 +3333,7 @@ msgid "Protocol"
 msgstr ""
 
 #: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:39
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:33
 #, kde-format
 msgid "Host"
 msgstr ""
@@ -3338,6 +3344,7 @@ msgid "The port to bind to on the IRC host server."
 msgstr ""
 
 #: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:43
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:30
 #, kde-format
 msgid "Port"
 msgstr ""
@@ -3352,14 +3359,31 @@ msgstr ""
 msgid "Peer Password"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:15
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:17
 #, kde-format
 msgid "LDAP Enabled"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:18
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:20
+#, kde-format
+msgid "Reconnect"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:23
 #, kde-format
 msgid "Attempt to utilize LDAP for authentication."
+msgstr ""
+
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:29
+#, kde-format
+msgid "Port to access LDAP. eg: 389 or 636 for LDAPS"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:36
+#, kde-format
+msgid ""
+"Try to reconnect automatically when connection is interrupted by some reason "
+"while executing operations."
 msgstr ""
 
 #: widgets/administratorsettingsdialog/message/messagesettingswidget.cpp:16
@@ -3801,7 +3825,7 @@ msgstr ""
 msgid "Search..."
 msgstr ""
 
-#: widgets/bannerinfodialog/bannermessagewidget.cpp:19
+#: widgets/bannerinfodialog/bannermessagewidget.cpp:20
 #, kde-format
 msgid "Read"
 msgstr ""
@@ -5439,47 +5463,47 @@ msgstr ""
 msgid "Save Sound"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:440
+#: widgets/room/delegate/messagelistdelegate.cpp:444
 #: widgets/room/usersinroommenu.cpp:85
 #, kde-format
 msgid "User Info"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:448
+#: widgets/room/delegate/messagelistdelegate.cpp:452
 #, kde-format
 msgid "Start a Private Conversation"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:580
+#: widgets/room/delegate/messagelistdelegate.cpp:584
 #, kde-format
 msgid "1 reply"
 msgid_plural "%1 replies"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:587
+#: widgets/room/delegate/messagelistdelegate.cpp:591
 #, kde-format
 msgid "1 message"
 msgid_plural "%1 messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:587
+#: widgets/room/delegate/messagelistdelegate.cpp:591
 #, kde-format
 msgid "No message yet"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:780
+#: widgets/room/delegate/messagelistdelegate.cpp:784
 #, kde-format
 msgid "Following"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:784
+#: widgets/room/delegate/messagelistdelegate.cpp:788
 #, kde-format
 msgid "Message has been pinned"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:788
+#: widgets/room/delegate/messagelistdelegate.cpp:792
 #, kde-format
 msgid "Message has been starred"
 msgstr ""

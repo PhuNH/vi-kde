@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: itinerary\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-13 00:46+0000\n"
+"POT-Creation-Date: 2022-07-29 00:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -142,14 +142,14 @@ msgid_plural "%1 reservations imported."
 msgstr[0] ""
 msgstr[1] ""
 
-#: app/applicationcontroller.cpp:397
+#: app/applicationcontroller.cpp:398
 #, kde-format
-msgid "Pass imported."
+msgid "Health certificate imported."
 msgstr ""
 
 #: app/applicationcontroller.cpp:404
 #, kde-format
-msgid "Health certificate imported."
+msgid "Pass imported."
 msgstr ""
 
 #: app/applicationcontroller.cpp:410
@@ -187,36 +187,87 @@ msgstr ""
 msgid "No camera available."
 msgstr ""
 
-#: app/BusDelegate.qml:24 app/TrainDelegate.qml:27 app/TransferDelegate.qml:47
+#: app/BoatDelegate.qml:18 app/BusDelegate.qml:24 app/TrainDelegate.qml:27
+#: app/TransferDelegate.qml:47
 #, kde-format
 msgid "%1 to %2"
 msgstr ""
 
-#: app/BusDelegate.qml:47
+#: app/BoatDelegate.qml:35 app/BusDelegate.qml:47
 #, kde-format
 msgid "From: %1"
 msgstr ""
 
-#: app/BusDelegate.qml:61
+#: app/BoatDelegate.qml:48 app/BusDelegate.qml:61
 #, kde-format
 msgid "To: %1"
 msgstr ""
 
-#: app/BusDelegate.qml:75 app/TrainDelegate.qml:84
+#: app/BoatDelegate.qml:58 app/BusDelegate.qml:75 app/TrainDelegate.qml:84
 #, kde-format
 msgid "Arrival time: %1"
+msgstr ""
+
+#: app/BoatPage.qml:16
+#, kde-format
+msgid "Boat Ticket"
+msgstr ""
+
+#: app/BoatPage.qml:20 app/BusPage.qml:29 app/EventPage.qml:26
+#: app/FlightPage.qml:35 app/HealthCertificatePage.qml:42
+#: app/PkPassPage.qml:26 app/ProgramMembershipPage.qml:47
+#: app/TicketPage.qml:47 app/TrainPage.qml:27
+#, kde-format
+msgid "Barcode Scan Mode"
+msgstr ""
+
+#: app/BoatPage.qml:61 app/BusPage.qml:93 app/TrainEditor.qml:126
+#: app/TrainPage.qml:144
+#, kde-format
+msgid "Departure"
+msgstr ""
+
+#: app/BoatPage.qml:64 app/BoatPage.qml:83 app/BusPage.qml:96
+#: app/BusPage.qml:115 app/CarRentalPage.qml:27 app/CarRentalPage.qml:45
+#: app/FlightPage.qml:115 app/FlightPage.qml:147
+#, kde-format
+msgid "Time:"
+msgstr ""
+
+#: app/BoatPage.qml:68 app/BoatPage.qml:87 app/FlightPage.qml:130
+#: app/FlightPage.qml:162
+#, kde-format
+msgid "Terminal:"
+msgstr ""
+
+#: app/BoatPage.qml:79 app/BusPage.qml:111 app/TrainEditor.qml:143
+#: app/TrainPage.qml:194
+#, kde-format
+msgid "Arrival"
+msgstr ""
+
+#: app/BoatPage.qml:98 app/BusPage.qml:143 app/FlightPage.qml:170
+#: app/TrainEditor.qml:181 app/TrainPage.qml:294
+#, kde-format
+msgid "Booking"
+msgstr ""
+
+#: app/BoatPage.qml:104 app/BusPage.qml:149 app/CarRentalPage.qml:87
+#: app/FlightPage.qml:176 app/TrainEditor.qml:185 app/TrainPage.qml:300
+#, kde-format
+msgid "Reference:"
+msgstr ""
+
+#: app/BoatPage.qml:110 app/BusPage.qml:155 app/CarRentalPage.qml:83
+#: app/FlightPage.qml:176 app/HotelPage.qml:69 app/RestaurantPage.qml:73
+#: app/TrainEditor.qml:189 app/TrainPage.qml:306
+#, kde-format
+msgid "Under name:"
 msgstr ""
 
 #: app/BusPage.qml:17
 #, kde-format
 msgid "Bus Ticket"
-msgstr ""
-
-#: app/BusPage.qml:29 app/EventPage.qml:26 app/FlightPage.qml:35
-#: app/HealthCertificatePage.qml:42 app/PkPassPage.qml:26 app/ProgramMembershipPage.qml:47
-#: app/TicketPage.qml:47 app/TrainPage.qml:27
-#, kde-format
-msgid "Barcode Scan Mode"
 msgstr ""
 
 #: app/BusPage.qml:39 app/TrainPage.qml:55
@@ -230,25 +281,9 @@ msgstr ""
 msgid "Journey Details"
 msgstr ""
 
-#: app/BusPage.qml:93 app/TrainEditor.qml:126 app/TrainPage.qml:144
-#, kde-format
-msgid "Departure"
-msgstr ""
-
-#: app/BusPage.qml:96 app/BusPage.qml:115 app/CarRentalPage.qml:27
-#: app/CarRentalPage.qml:45 app/FlightPage.qml:115 app/FlightPage.qml:147
-#, kde-format
-msgid "Time:"
-msgstr ""
-
 #: app/BusPage.qml:100 app/BusPage.qml:119
 #, kde-format
 msgid "Station:"
-msgstr ""
-
-#: app/BusPage.qml:111 app/TrainEditor.qml:143 app/TrainPage.qml:194
-#, kde-format
-msgid "Arrival"
 msgstr ""
 
 #: app/BusPage.qml:130 app/TrainEditor.qml:160 app/TrainPage.qml:243
@@ -260,25 +295,6 @@ msgstr ""
 #: app/TrainEditor.qml:170 app/TrainPage.qml:255
 #, kde-format
 msgid "Seat:"
-msgstr ""
-
-#: app/BusPage.qml:143 app/FlightPage.qml:170 app/TrainEditor.qml:181
-#: app/TrainPage.qml:294
-#, kde-format
-msgid "Booking"
-msgstr ""
-
-#: app/BusPage.qml:149 app/CarRentalPage.qml:87 app/FlightPage.qml:176
-#: app/TrainEditor.qml:185 app/TrainPage.qml:300
-#, kde-format
-msgid "Reference:"
-msgstr ""
-
-#: app/BusPage.qml:155 app/CarRentalPage.qml:83 app/FlightPage.qml:176
-#: app/HotelPage.qml:69 app/RestaurantPage.qml:73 app/TrainEditor.qml:189
-#: app/TrainPage.qml:306
-#, kde-format
-msgid "Under name:"
 msgstr ""
 
 #: app/calendarhelper.cpp:28
@@ -729,11 +745,6 @@ msgstr ""
 msgid "Airport:"
 msgstr ""
 
-#: app/FlightPage.qml:130 app/FlightPage.qml:162
-#, kde-format
-msgid "Terminal:"
-msgstr ""
-
 #: app/FlightPage.qml:135
 #, kde-format
 msgid "Gate:"
@@ -772,24 +783,29 @@ msgstr ""
 msgid "Do you really want to delete this pass?"
 msgstr ""
 
-#: app/gpxexport.cpp:32 app/main.cpp:270 app/main.qml:17 app/main.qml:42
+#: app/gpxexport.cpp:33 app/main.cpp:270 app/main.qml:17 app/main.qml:42
 #, kde-format
 msgid "KDE Itinerary"
 msgstr ""
 
-#: app/gpxexport.cpp:46
+#: app/gpxexport.cpp:47
 #, kde-format
 msgid "Flight %1 from %2 to %3"
 msgstr ""
 
-#: app/gpxexport.cpp:50
+#: app/gpxexport.cpp:51
 #, kde-format
 msgid "Train %1 from %2 to %3"
 msgstr ""
 
-#: app/gpxexport.cpp:54
+#: app/gpxexport.cpp:55
 #, kde-format
 msgid "Bus %1 from %2 to %3"
+msgstr ""
+
+#: app/gpxexport.cpp:58
+#, kde-format
+msgid "Ferry from %1 to %2"
 msgstr ""
 
 #: app/HealthCertificateBarcode.qml:53
@@ -918,20 +934,20 @@ msgstr ""
 msgid "Identifier:"
 msgstr ""
 
-#: app/HealthCertificateRecovery.qml:81 app/HealthCertificateTest.qml:115
-#: app/HealthCertificateVaccination.qml:118
+#: app/HealthCertificateRecovery.qml:82 app/HealthCertificateTest.qml:116
+#: app/HealthCertificateVaccination.qml:119
 #, kde-format
 msgid "Issued:"
 msgstr ""
 
-#: app/HealthCertificateRecovery.qml:85 app/HealthCertificateTest.qml:119
-#: app/HealthCertificateVaccination.qml:122
+#: app/HealthCertificateRecovery.qml:86 app/HealthCertificateTest.qml:120
+#: app/HealthCertificateVaccination.qml:123
 #, kde-format
 msgid "Expires:"
 msgstr ""
 
-#: app/HealthCertificateRecovery.qml:100 app/HealthCertificateTest.qml:134
-#: app/HealthCertificateVaccination.qml:137
+#: app/HealthCertificateRecovery.qml:101 app/HealthCertificateTest.qml:135
+#: app/HealthCertificateVaccination.qml:138
 #, kde-format
 msgid "Signature:"
 msgstr ""
@@ -1172,7 +1188,7 @@ msgstr ""
 msgid "Tramway"
 msgstr ""
 
-#: app/IndoorMapPlatformSheet.qml:84 app/StatisticsPage.qml:102
+#: app/IndoorMapPlatformSheet.qml:84 app/StatisticsPage.qml:104
 #, kde-format
 msgid "Bus"
 msgstr ""
@@ -1851,65 +1867,70 @@ msgstr ""
 msgid "Show notifications on lock screen"
 msgstr ""
 
-#: app/statisticsmodel.cpp:89 app/statisticsmodel.cpp:91
+#: app/statisticsmodel.cpp:90 app/statisticsmodel.cpp:92
 #, kde-format
 msgid "%1 kg"
 msgstr ""
 
-#: app/statisticsmodel.cpp:96
+#: app/statisticsmodel.cpp:97
 #, kde-format
 msgid "Trips"
 msgstr ""
 
-#: app/statisticsmodel.cpp:101 app/statisticsmodel.cpp:131
-#: app/statisticsmodel.cpp:146 app/statisticsmodel.cpp:161
-#: app/statisticsmodel.cpp:176
+#: app/statisticsmodel.cpp:102 app/statisticsmodel.cpp:132
+#: app/statisticsmodel.cpp:147 app/statisticsmodel.cpp:162
+#: app/statisticsmodel.cpp:177 app/statisticsmodel.cpp:192
 #, kde-format
 msgid "Distance"
 msgstr ""
 
-#: app/statisticsmodel.cpp:101 app/statisticsmodel.cpp:131
-#: app/statisticsmodel.cpp:146 app/statisticsmodel.cpp:161
-#: app/statisticsmodel.cpp:176
+#: app/statisticsmodel.cpp:102 app/statisticsmodel.cpp:132
+#: app/statisticsmodel.cpp:147 app/statisticsmodel.cpp:162
+#: app/statisticsmodel.cpp:177 app/statisticsmodel.cpp:192
 #, kde-format
 msgid "%1 km"
 msgstr ""
 
-#: app/statisticsmodel.cpp:106
+#: app/statisticsmodel.cpp:107
 #, kde-format
 msgid "Hotel nights"
 msgstr ""
 
-#: app/statisticsmodel.cpp:111 app/statisticsmodel.cpp:136
-#: app/statisticsmodel.cpp:151 app/statisticsmodel.cpp:166
-#: app/statisticsmodel.cpp:181
+#: app/statisticsmodel.cpp:112 app/statisticsmodel.cpp:137
+#: app/statisticsmodel.cpp:152 app/statisticsmodel.cpp:167
+#: app/statisticsmodel.cpp:182 app/statisticsmodel.cpp:197
 #, kde-format
 msgid "CO₂"
 msgstr ""
 
-#: app/statisticsmodel.cpp:121
+#: app/statisticsmodel.cpp:122
 #, kde-format
 msgid "Visited countries"
 msgstr ""
 
-#: app/statisticsmodel.cpp:126 app/StatisticsPage.qml:86
+#: app/statisticsmodel.cpp:127 app/StatisticsPage.qml:86
 #, kde-format
 msgid "Flights"
 msgstr ""
 
-#: app/statisticsmodel.cpp:141
+#: app/statisticsmodel.cpp:142
 #, kde-format
 msgid "Train rides"
 msgstr ""
 
-#: app/statisticsmodel.cpp:156
+#: app/statisticsmodel.cpp:157
 #, kde-format
 msgid "Bus rides"
 msgstr ""
 
-#: app/statisticsmodel.cpp:171
+#: app/statisticsmodel.cpp:172
 #, kde-format
 msgid "Car rides"
+msgstr ""
+
+#: app/statisticsmodel.cpp:187
+#, kde-format
+msgid "Boat trips"
 msgstr ""
 
 #: app/StatisticsPage.qml:45 app/statisticstimerangemodel.cpp:69
@@ -1929,12 +1950,17 @@ msgctxt "@action"
 msgid "Show Names"
 msgstr ""
 
-#: app/StatisticsPage.qml:94
+#: app/StatisticsPage.qml:95
 #, kde-format
 msgid "Trains"
 msgstr ""
 
-#: app/StatisticsPage.qml:110
+#: app/StatisticsPage.qml:113
+#, kde-format
+msgid "Boat"
+msgstr ""
+
+#: app/StatisticsPage.qml:122
 #, kde-format
 msgid "Car"
 msgstr ""
@@ -2039,7 +2065,7 @@ msgstr ""
 msgid "Export Trip"
 msgstr ""
 
-#: app/TimelinePage.qml:286
+#: app/TimelinePage.qml:297
 #, kde-format
 msgid "Nothing on the itinerary for today."
 msgstr ""
@@ -2326,27 +2352,27 @@ msgstr ""
 msgid "Coach: %1 Seat: %2"
 msgstr ""
 
-#: app/VehicleLayoutPage.qml:246
+#: app/VehicleLayoutPage.qml:247
 #, kde-format
 msgid "First class"
 msgstr ""
 
-#: app/VehicleLayoutPage.qml:248
+#: app/VehicleLayoutPage.qml:249
 #, kde-format
 msgid "Second class"
 msgstr ""
 
-#: app/VehicleLayoutPage.qml:250
+#: app/VehicleLayoutPage.qml:251
 #, kde-format
 msgid "First/second class"
 msgstr ""
 
-#: app/VehicleLayoutPage.qml:251
+#: app/VehicleLayoutPage.qml:252
 #, kde-format
 msgid "Unknown class"
 msgstr ""
 
-#: app/VehicleLayoutPage.qml:295
+#: app/VehicleLayoutPage.qml:296
 #, kde-format
 msgid "No vehicle layout information available."
 msgstr ""

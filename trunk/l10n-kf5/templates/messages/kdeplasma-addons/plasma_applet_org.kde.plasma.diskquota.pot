@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeplasma-addons\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-08 00:45+0000\n"
+"POT-Creation-Date: 2022-07-31 00:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -17,17 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: package/contents/ui/main.qml:66 plugin/DiskQuota.cpp:265
+#: package/contents/ui/main.qml:77
 #, kde-format
-msgid "No quota restrictions found."
+msgctxt "@info:status"
+msgid "No quota restrictions found"
 msgstr ""
 
-#: package/contents/ui/main.qml:66
+#: package/contents/ui/main.qml:77
 #, kde-format
-msgid ""
-"Quota tool not found.\n"
-"\n"
-"Please install 'quota'."
+msgctxt "@info:status"
+msgid "Quota tool not found"
+msgstr ""
+
+#: package/contents/ui/main.qml:78
+#, kde-format
+msgctxt "@info:usagetip"
+msgid "Please install 'quota'"
 msgstr ""
 
 #: plugin/DiskQuota.cpp:44 plugin/DiskQuota.cpp:177 plugin/DiskQuota.cpp:264
@@ -67,4 +72,9 @@ msgstr ""
 #, kde-format
 msgctxt "example: Quota: 83% used"
 msgid "Quota: %1% used"
+msgstr ""
+
+#: plugin/DiskQuota.cpp:265
+#, kde-format
+msgid "No quota restrictions found."
 msgstr ""

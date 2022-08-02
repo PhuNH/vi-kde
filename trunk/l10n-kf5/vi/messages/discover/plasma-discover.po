@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-30 00:46+0000\n"
+"POT-Creation-Date: 2022-07-30 00:47+0000\n"
 "PO-Revision-Date: 2012-06-13 10:17+0800\n"
 "Last-Translator: HeroP <herophuong93@gmail.com>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
@@ -89,13 +89,13 @@ msgstr ""
 msgid "Please report this issue to the packagers of your distribution."
 msgstr ""
 
-#: discover/DiscoverObject.cpp:401 discover/DiscoverObject.cpp:402
+#: discover/DiscoverObject.cpp:403 discover/DiscoverObject.cpp:404
 #: discover/main.cpp:108
 #, kde-format
 msgid "Discover"
 msgstr "Khám phá"
 
-#: discover/DiscoverObject.cpp:402
+#: discover/DiscoverObject.cpp:404
 #, kde-format
 msgid ""
 "Discover was closed before certain tasks were done, waiting for it to finish."
@@ -211,7 +211,7 @@ msgstr ""
 msgid "Available backends:\n"
 msgstr ""
 
-#: discover/main.cpp:195
+#: discover/main.cpp:196
 #, kde-format
 msgid "Available modes:\n"
 msgstr ""
@@ -249,7 +249,7 @@ msgstr "Phần mở rộng"
 
 #: discover/qml/AddSourceDialog.qml:70 discover/qml/DiscoverWindow.qml:262
 #: discover/qml/InstallApplicationButton.qml:41
-#: discover/qml/ProgressView.qml:104 discover/qml/SourcesPage.qml:180
+#: discover/qml/ProgressView.qml:104 discover/qml/SourcesPage.qml:181
 #: discover/qml/UpdatesPage.qml:210
 #, kde-format
 msgid "Cancel"
@@ -361,72 +361,83 @@ msgstr ""
 msgid "What's New"
 msgstr ""
 
-#: discover/qml/ApplicationPage.qml:552
+#: discover/qml/ApplicationPage.qml:554
+#, fuzzy, kde-format
+#| msgid "Rating"
+msgid "Loading reviews for %1"
+msgstr "Đánh giá"
+
+#: discover/qml/ApplicationPage.qml:560
 #, kde-format
 msgid "Reviews"
 msgstr "Nhận xét"
 
-#: discover/qml/ApplicationPage.qml:582
+#: discover/qml/ApplicationPage.qml:590
 #, fuzzy, kde-format
 #| msgid "%1 reviews"
 msgid "Show all %1 Reviews"
 msgid_plural "Show all %1 Reviews"
 msgstr[0] "%1 nhận xét"
 
-#: discover/qml/ApplicationPage.qml:594
+#: discover/qml/ApplicationPage.qml:602
 #, fuzzy, kde-format
 #| msgid "Submit"
 msgid "Write a Review"
 msgstr "Gửi"
 
-#: discover/qml/ApplicationPage.qml:594
+#: discover/qml/ApplicationPage.qml:602
 #, fuzzy, kde-format
 #| msgid "Submit"
 msgid "Install to Write a Review"
 msgstr "Gửi"
 
-#: discover/qml/ApplicationPage.qml:606
+#: discover/qml/ApplicationPage.qml:614
 #, kde-format
 msgid "Get Involved"
 msgstr ""
 
-#: discover/qml/ApplicationPage.qml:637
+#: discover/qml/ApplicationPage.qml:647
 #, kde-format
 msgid "Donate"
 msgstr ""
 
-#: discover/qml/ApplicationPage.qml:638
+#: discover/qml/ApplicationPage.qml:648
 #, kde-format
 msgid "Support and thank the developers by donating to their project"
 msgstr ""
 
-#: discover/qml/ApplicationPage.qml:654
+#: discover/qml/ApplicationPage.qml:664
 #, kde-format
 msgid "Report Bug"
 msgstr ""
 
-#: discover/qml/ApplicationPage.qml:655
+#: discover/qml/ApplicationPage.qml:665
 #, kde-format
 msgid "Log an issue you found to help get it fixed"
 msgstr ""
 
-#: discover/qml/ApplicationPage.qml:682
+#: discover/qml/ApplicationPage.qml:679
+#, kde-format
+msgid "Contribute"
+msgstr ""
+
+#: discover/qml/ApplicationPage.qml:680
+#, kde-format
+msgid "Help the developers by coding, designing, testing, or translating"
+msgstr ""
+
+#: discover/qml/ApplicationPage.qml:707
 #, fuzzy, kde-format
 #| msgid "points: %1"
 msgid "All Licenses"
 msgstr "điểm: %1"
 
-#: discover/qml/ApplicationPage.qml:701
-#, kde-format
-msgid "proprietary"
-msgstr ""
-
-#: discover/qml/ApplicationPage.qml:711
+#: discover/qml/ApplicationPage.qml:736
 #, kde-format
 msgid "Risks of proprietary software"
 msgstr ""
 
-#: discover/qml/ApplicationPage.qml:721
+#: discover/qml/ApplicationPage.qml:746
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -442,7 +453,7 @@ msgid ""
 "learn more at <link url='%3'>%3</link>."
 msgstr ""
 
-#: discover/qml/ApplicationPage.qml:722
+#: discover/qml/ApplicationPage.qml:747
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -482,7 +493,7 @@ msgid "Search - %1 items"
 msgstr "Tìm kiếm trong '%1'..."
 
 #: discover/qml/ApplicationsListPage.qml:67
-#: discover/qml/ApplicationsListPage.qml:204
+#: discover/qml/ApplicationsListPage.qml:207
 #, fuzzy, kde-format
 #| msgid "Search..."
 msgid "Search"
@@ -509,18 +520,18 @@ msgstr "Đánh giá"
 msgid "Release Date"
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:171
+#: discover/qml/ApplicationsListPage.qml:173
 #, kde-format
 msgid "Nothing found"
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:183
+#: discover/qml/ApplicationsListPage.qml:185
 #, kde-format
 msgctxt "%1 is the name of an application"
 msgid "\"%1\" was not found in the available sources"
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:184
+#: discover/qml/ApplicationsListPage.qml:186
 #, kde-format
 msgctxt "%1 is the name of an application"
 msgid ""
@@ -529,13 +540,13 @@ msgid ""
 "caution."
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:186
+#: discover/qml/ApplicationsListPage.qml:188
 #, kde-format
 msgctxt "%1 is the name of an application"
 msgid "Search the web for \"%1\""
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:190
+#: discover/qml/ApplicationsListPage.qml:192
 #, kde-format
 msgctxt ""
 "If appropriate, localize this URL to be something more relevant to the "
@@ -543,7 +554,7 @@ msgctxt ""
 msgid "https://duckduckgo.com/?q=%1"
 msgstr ""
 
-#: discover/qml/ApplicationsListPage.qml:219
+#: discover/qml/ApplicationsListPage.qml:222
 #, fuzzy, kde-format
 #| msgid "Install"
 msgid "Still looking…"
@@ -632,7 +643,7 @@ msgstr ""
 msgid "Unable to find resource: %1"
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:249 discover/qml/SourcesPage.qml:170
+#: discover/qml/DiscoverWindow.qml:249 discover/qml/SourcesPage.qml:171
 #, kde-format
 msgid "Proceed"
 msgstr ""
@@ -889,53 +900,53 @@ msgstr "Tìm kiếm trong '%1'..."
 msgid "Settings"
 msgstr "<b>Đánh giá cao</b>"
 
-#: discover/qml/SourcesPage.qml:94
+#: discover/qml/SourcesPage.qml:95
 #, kde-format
 msgid "Default source"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:101
+#: discover/qml/SourcesPage.qml:102
 #, fuzzy, kde-format
 #| msgid "Add Source"
 msgid "Add Source…"
 msgstr "Thêm nguồn"
 
-#: discover/qml/SourcesPage.qml:125
+#: discover/qml/SourcesPage.qml:126
 #, kde-format
 msgid "Make default"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:211
+#: discover/qml/SourcesPage.qml:212
 #, kde-format
 msgid "Increase priority"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:217
+#: discover/qml/SourcesPage.qml:218
 #, kde-format
 msgid "Failed to increase '%1' preference"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:222
+#: discover/qml/SourcesPage.qml:223
 #, kde-format
 msgid "Decrease priority"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:228
+#: discover/qml/SourcesPage.qml:229
 #, kde-format
 msgid "Failed to decrease '%1' preference"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:233
+#: discover/qml/SourcesPage.qml:234
 #, kde-format
 msgid "Remove repository"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:244
+#: discover/qml/SourcesPage.qml:245
 #, kde-format
 msgid "Show contents"
 msgstr ""
 
-#: discover/qml/SourcesPage.qml:283
+#: discover/qml/SourcesPage.qml:284
 #, kde-format
 msgid "Missing Backends"
 msgstr ""
