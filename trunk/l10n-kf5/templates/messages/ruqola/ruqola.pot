@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-02 00:46+0000\n"
+"POT-Creation-Date: 2022-08-07 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -793,7 +793,7 @@ msgid "Role"
 msgstr ""
 
 #: core/model/adminusersmodel.cpp:114 core/model/adminusersmodel.cpp:160
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:101
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:111
 #, kde-format
 msgid "Disabled"
 msgstr ""
@@ -906,8 +906,8 @@ msgstr[1] ""
 
 #: core/model/notificationdesktopsoundpreferencemodel.cpp:54
 #: core/model/notificationpreferencemodel.cpp:63
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:92
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:97
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:102
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:107
 #, kde-format
 msgid "Nothing"
 msgstr ""
@@ -943,15 +943,15 @@ msgid "Seasons"
 msgstr ""
 
 #: core/model/notificationpreferencemodel.cpp:51
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:90
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:95
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:100
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:105
 #, kde-format
 msgid "All Messages"
 msgstr ""
 
 #: core/model/notificationpreferencemodel.cpp:57
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:91
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:96
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:101
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:106
 #, kde-format
 msgid "Mentions"
 msgstr ""
@@ -1275,12 +1275,12 @@ msgstr ""
 msgid "<strong>%1</strong> are typing..."
 msgstr ""
 
-#: core/rocketchataccount.cpp:2724
+#: core/rocketchataccount.cpp:2733
 #, kde-format
 msgid "Export Messages"
 msgstr ""
 
-#: core/rocketchataccount.cpp:2725
+#: core/rocketchataccount.cpp:2734
 #, kde-format
 msgid "Your email has been queued for sending."
 msgstr ""
@@ -3026,66 +3026,71 @@ msgctxt "@title:window"
 msgid "Administrator Server Settings - %1"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:63
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:66
 #, kde-format
 msgid "Accounts"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:64
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:67
 #, kde-format
 msgid "Encryption"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:65
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:68
 #: widgets/dialogs/createnewdiscussionwidget.cpp:54
 #: widgets/ruqolamainwindow.cpp:784
 #, kde-format
 msgid "Message"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:66
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:69
 #, kde-format
 msgid "File Upload"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:67
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:70
 #, kde-format
 msgid "Retention Policy"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:68
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:71
 #, kde-format
 msgid "General"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:69
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:72
 #, kde-format
 msgid "Rate Limiter"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:70
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:73
 #, kde-format
 msgid "Password"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:71
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:74
 #, kde-format
 msgid "Video Conference"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:72
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:75
 #, kde-format
 msgid "IRC Federation"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:73
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:76
 #, kde-format
 msgid "Webdav"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:74
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:77
 #, kde-format
 msgid "LDAP"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:78
+#, kde-format
+msgid "Layout"
 msgstr ""
 
 #: widgets/administratorsettingsdialog/encryption/encryptionsettingswidget.cpp:16
@@ -3221,90 +3226,109 @@ msgstr ""
 msgid "Storage Type"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:18
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:19
 #, kde-format
 msgid "Enable Favorite Rooms"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:34
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:29
+#, kde-format
+msgid "Enable the Update Checker"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:36
 #, kde-format
 msgid "Site URL"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:37
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:39
 #, kde-format
 msgid "Site Name"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:40
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:42
 #, kde-format
 msgid "RegExp that will be used to validate usernames"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:41
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:43
 #, kde-format
 msgid "UTF8 Usernames Validation"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:44
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:46
 #, kde-format
 msgid "RegExp that will be used to validate channel names"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:45
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:47
 #, kde-format
 msgid "UTF8 Channel Names Validation"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:48
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:50
 #, kde-format
 msgid "First Channel After Login"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:51
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:53
 #, kde-format
 msgid "Deep Link Url"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:54
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:56
 #, kde-format
 msgid "CDN Prefix"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:59
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:68
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:61
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:70
 #, kde-format
 msgid "All messages"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:60
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:62
 #, kde-format
 msgid "User mentions only"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:61
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:63
 #, kde-format
 msgid "Group mentions only"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:62
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:64
 #, kde-format
 msgid "User and group mentions only"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:64
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:66
 #, kde-format
 msgid "Unread Count"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:69
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:71
 #, kde-format
 msgid "Mentions only"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:71
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:73
 #, kde-format
 msgid "Unread Count for Direct Messages"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:75
+#, kde-format
+msgid "Update"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/general/generalsettingswidget.cpp:83
+#, kde-format
+msgid ""
+"Checks automatically for new updates / important messages from the Rocket."
+"Chat developers and receives notifications when available. The notification "
+"appears once per new version as a clickable banner and as a message from the "
+"Rocket.Cat bot, both visible only for administrators."
 msgstr ""
 
 #: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:17
@@ -3357,6 +3381,26 @@ msgstr ""
 #: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:55
 #, kde-format
 msgid "Peer Password"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/layout/layoutsettingswidget.cpp:14
+#, kde-format
+msgid "Display Roles"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/layout/layoutsettingswidget.cpp:15
+#, kde-format
+msgid "Use Real Name"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/layout/layoutsettingswidget.cpp:16
+#, kde-format
+msgid "Use Full Name Initials to Generate Default Avatar"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/layout/layoutsettingswidget.cpp:17
+#, kde-format
+msgid "Allow Special Characters in Room Names"
 msgstr ""
 
 #: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:17
@@ -3499,87 +3543,87 @@ msgstr ""
 msgid "Password History"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:38
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:54
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:35
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:48
 #, kde-format
 msgid ""
 "When enabled, users won't be able to update their passwords to some of their "
 "most recently used passwords."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:43
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:40
 #, kde-format
 msgid "Amount of most recently used passwords to prevent users from reusing."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:44
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:41
 #, kde-format
 msgid "Password History Length"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:46
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:43
 #, kde-format
 msgid "Password Policy"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:59
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:53
 #, kde-format
 msgid ""
 "Ensures that passwords must have at least this amount of characters. Use -1 "
 "to disable."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:61
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:55
 #, kde-format
 msgid "Minimum Length"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:64
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:58
 #, kde-format
 msgid ""
 "Ensures that passwords do not have more than this amount of characters. Use "
 "-1 to disable."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:66
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:60
 #, kde-format
 msgid "Maximum Length"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:69
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:63
 #, kde-format
 msgid ""
 "Ensures passwords do not contain the same character repeating next to each "
 "other."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:74
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:68
 #, kde-format
 msgid ""
 "The amount of times a character can be repeating before it is not allowed."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:75
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:69
 #, kde-format
 msgid "Max Repeating Characters"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:78
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:72
 #, kde-format
 msgid "Enforce that a password contain at least one lowercase character."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:83
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:77
 #, kde-format
 msgid "Enforce that a password contain at least one uppercase character."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:88
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:82
 #, kde-format
 msgid "Enforce that a password contain at least one numerical character."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:93
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:87
 #, kde-format
 msgid "Enforce that a password contain at least one special character."
 msgstr ""
@@ -3609,7 +3653,7 @@ msgstr ""
 msgid "API Rate Limiter"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ratelimiter/ratelimiterwidget.cpp:31
+#: widgets/administratorsettingsdialog/ratelimiter/ratelimiterwidget.cpp:28
 #, kde-format
 msgid "DDP Rate Limit"
 msgstr ""
@@ -3754,50 +3798,50 @@ msgstr ""
 msgid "BigBlueButton"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:48
-#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:69
+#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:45
+#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:63
 #, kde-format
 msgid "Domain"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:51
+#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:48
 #, kde-format
 msgid "Shared Secret"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:57
+#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:54
 #, kde-format
 msgid "Jitsi"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:72
+#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:66
 #, kde-format
 msgid "URL room prefix"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:75
+#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:69
 #, kde-format
 msgid "URL room suffix"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:78
+#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:72
 #, kde-format
 msgid ""
 "Recommended to enable if the Jitsi instance doesn't use any authentication "
 "mechanism."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:99
+#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:93
 #, kde-format
 msgid "Chrome Extension Id"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:106
+#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:100
 #, kde-format
 msgid "Application ID (iss)"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:109
+#: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:103
 #, kde-format
 msgid "Application Secret"
 msgstr ""
@@ -5159,59 +5203,79 @@ msgstr ""
 msgid "E2E Encryption"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:24
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:25
 #, kde-format
 msgid "Use Emoji"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:25
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:26
 #, kde-format
 msgid "Convert Ascii to Emoji"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:26
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:27
 #, kde-format
 msgid "Hide Roles"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:27
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:28
 #, kde-format
 msgid "Hide Avatars"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:37
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:38
 #, kde-format
 msgid "Highlight words:"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:44
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:45
 #, kde-format
 msgid "Use ',' for separating words"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:45
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:46
 #, kde-format
 msgid "Separate each word with ','."
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:53
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:55
 #, kde-format
 msgid "Desktop Notification:"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:60
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:62
 #, kde-format
 msgid "Offline Email Notification:"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:67
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:69
 #, kde-format
 msgid "Push Notification:"
 msgstr ""
 
-#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:100
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:76
+#, kde-format
+msgid "View Mode:"
+msgstr ""
+
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:110
 #, kde-format
 msgid "Each Mentions"
+msgstr ""
+
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:113
+#, kde-format
+msgid "Normal"
+msgstr ""
+
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:114
+#, kde-format
+msgid "Cozy"
+msgstr ""
+
+#: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:115
+#, kde-format
+msgid "Compact"
 msgstr ""
 
 #: widgets/myaccount/myaccountprofileconfigureavatarwidget.cpp:75
@@ -5463,47 +5527,47 @@ msgstr ""
 msgid "Save Sound"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:444
+#: widgets/room/delegate/messagelistdelegate.cpp:262
 #: widgets/room/usersinroommenu.cpp:85
 #, kde-format
 msgid "User Info"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:452
+#: widgets/room/delegate/messagelistdelegate.cpp:270
 #, kde-format
 msgid "Start a Private Conversation"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:584
+#: widgets/room/delegate/messagelistdelegate.cpp:402
 #, kde-format
 msgid "1 reply"
 msgid_plural "%1 replies"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:591
+#: widgets/room/delegate/messagelistdelegate.cpp:409
 #, kde-format
 msgid "1 message"
 msgid_plural "%1 messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:591
+#: widgets/room/delegate/messagelistdelegate.cpp:409
 #, kde-format
 msgid "No message yet"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:784
+#: widgets/room/delegate/messagelistdelegate.cpp:584
 #, kde-format
 msgid "Following"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:788
+#: widgets/room/delegate/messagelistdelegate.cpp:588
 #, kde-format
 msgid "Message has been pinned"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:792
+#: widgets/room/delegate/messagelistdelegate.cpp:592
 #, kde-format
 msgid "Message has been starred"
 msgstr ""

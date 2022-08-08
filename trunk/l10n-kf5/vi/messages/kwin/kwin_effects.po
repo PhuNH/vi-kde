@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-29 00:48+0000\n"
+"POT-Creation-Date: 2022-08-06 00:46+0000\n"
 "PO-Revision-Date: 2022-08-02 10:06+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -564,14 +564,13 @@ msgstr "Xoá bàn làm việc ảo"
 msgid "Add Virtual Desktop"
 msgstr "Thêm bàn làm việc ảo"
 
-#: overview/qml/ScreenView.qml:178
+#: overview/qml/ScreenView.qml:204
 #, kde-format
 msgid "Search..."
 msgstr "Tìm kiếm..."
 
-#: overview/qml/ScreenView.qml:205
+#: overview/qml/ScreenView.qml:231
 #, kde-format
-#| msgid "Moving windows:"
 msgid "No matching windows"
 msgstr "Không cửa sổ nào khớp"
 
@@ -933,17 +932,17 @@ msgstr "Trình đơn bật lên:"
 msgid "Torn-off menus:"
 msgstr "Trình đơn xé tách:"
 
-#: windowview/kcm/windowvieweffectkcm.cpp:41 windowview/windowvieweffect.cpp:44
+#: windowview/kcm/windowvieweffectkcm.cpp:41 windowview/windowvieweffect.cpp:45
 #, kde-format
 msgid "Toggle Present Windows (Current desktop)"
 msgstr "Ẩn/hiện \"Các cửa sổ hiện thời\" (Bàn làm việc hiện tại)"
 
-#: windowview/kcm/windowvieweffectkcm.cpp:48 windowview/windowvieweffect.cpp:54
+#: windowview/kcm/windowvieweffectkcm.cpp:48 windowview/windowvieweffect.cpp:55
 #, kde-format
 msgid "Toggle Present Windows (All desktops)"
 msgstr "Ẩn/hiện \"Các cửa sổ hiện thời\" (Tất cả các bàn làm việc)"
 
-#: windowview/kcm/windowvieweffectkcm.cpp:55 windowview/windowvieweffect.cpp:64
+#: windowview/kcm/windowvieweffectkcm.cpp:55 windowview/windowvieweffect.cpp:65
 #, kde-format
 msgid "Toggle Present Windows (Window class)"
 msgstr "Ẩn/hiện \"Các cửa sổ hiện thời\" (Lớp cửa sổ)"
@@ -954,15 +953,21 @@ msgstr "Ẩn/hiện \"Các cửa sổ hiện thời\" (Lớp cửa sổ)"
 msgid "Ignore &minimized windows"
 msgstr "Bỏ &qua các cửa sổ bị thu nhỏ"
 
-#: windowview/qml/main.qml:157
+#: windowview/qml/main.qml:197
 #, kde-format
 msgid "No Matches"
 msgstr "Không mục nào khớp"
 
-#: windowview/qml/main.qml:157
+#: windowview/qml/main.qml:197
 #, kde-format
 msgid "No Windows"
 msgstr "Không có cửa sổ nào"
+
+#: windowview/windowvieweffect.cpp:74
+#, fuzzy, kde-format
+#| msgid "Toggle Present Windows (Current desktop)"
+msgid "Toggle Present Windows (Window class on current desktop)"
+msgstr "Ẩn/hiện \"Các cửa sổ hiện thời\" (Bàn làm việc hiện tại)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, advancedGroup)
 #: wobblywindows/wobblywindows_config.ui:20
