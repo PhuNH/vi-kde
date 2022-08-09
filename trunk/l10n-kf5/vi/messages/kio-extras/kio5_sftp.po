@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kio_sftp\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-22 00:44+0000\n"
-"PO-Revision-Date: 2022-05-06 10:07+0200\n"
+"PO-Revision-Date: 2022-08-09 21:56+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 21.12.2\n"
+"X-Generator: Lokalize 22.04.1\n"
 
 #: kio_sftp.cpp:226
 #, kde-format
@@ -150,10 +150,10 @@ msgstr ""
 #, kde-format
 msgctxt "@title:window"
 msgid "Host Identity Change"
-msgstr ""
+msgstr "Thay đổi danh tính máy"
 
 #: kio_sftp.cpp:757
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgid ""
 #| "The host key for the server %1 has changed.\n"
 #| "This could either mean that DNS SPOOFING is happening or the IP address "
@@ -170,22 +170,20 @@ msgid ""
 "para><para>The %2 key fingerprint sent by the remote host is:<bcode>%3</"
 "bcode>Are you sure you want to continue connecting?</para>"
 msgstr ""
-"Khoá cho máy chủ %1 đã thay đổi.\n"
+"<para>Khoá cho máy chủ <emphasis>%1</emphasis> đã thay đổi.</para><para>"
 "Điều này có thể có nghĩa là, hoặc việc đánh lừa bằng DNS đang diễn ra, hoặc "
-"địa chỉ IP cho máy đó và khoá của nó đã thay đổi cùng lúc.\n"
-"Điểm chỉ cho khoá do máy ở xa gửi là:\n"
-" %2\n"
-"Vui lòng liên hệ với quản trị viên hệ thống của bạn.\n"
-"%3"
+"địa chỉ IP cho máy đó và khoá của nó đã thay đổi cùng lúc.</para><para>"
+"Điểm chỉ của khoá %2 do máy ở xa gửi là:<bcode>%3</bcode>Bạn có chắc chắn "
+"muốn tiếp tục kết nối không?</para>"
 
 #: kio_sftp.cpp:767
 #, kde-format
 msgctxt "@title:window"
 msgid "Host Verification Failure"
-msgstr ""
+msgstr "Thất bại xác minh máy"
 
 #: kio_sftp.cpp:768
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgid ""
 #| "The authenticity of host %1 cannot be established.\n"
 #| "The %2 key fingerprint is: %3\n"
@@ -196,15 +194,15 @@ msgid ""
 "</para><para>The %2 key fingerprint is:<bcode>%3</bcode>Are you sure you "
 "want to continue connecting?</para>"
 msgstr ""
-"Tính xác thực của máy %1 không thể được chứng minh.\n"
-"Điểm chỉ của khoá %2 là: %3\n"
-"Bạn có chắc chắn muốn tiếp tục kết nối không?"
+"<para>Tính xác thực của máy <emphasis>%1</emphasis> không thể được chứng "
+"minh.</para><para>Điểm chỉ của khoá %2 là:<bcode>%3</bcode>Bạn có chắc chắn "
+"muốn tiếp tục kết nối không?</para>"
 
 #: kio_sftp.cpp:777
 #, kde-format
 msgctxt "@action:button"
 msgid "Connect Anyway"
-msgstr ""
+msgstr "Cứ kết nối"
 
 #: kio_sftp.cpp:800 kio_sftp.cpp:818 kio_sftp.cpp:833 kio_sftp.cpp:846
 #: kio_sftp.cpp:898 kio_sftp.cpp:908

@@ -4,30 +4,31 @@
 # Nguyen Hung.Vu <Vu.Hung@techviet.com>, 2002.
 # Phan Vinh Thinh <teppi82@gmail.com>, 2006, 2011, 2012.
 # Lê Hoàng Phương <herophuong93@gmail.com>, 2012.
+# Phu Hung Nguyen <phu.nguyen@kdemail.net>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-06-07 03:05+0000\n"
-"PO-Revision-Date: 2012-01-16 16:50+0700\n"
-"Last-Translator: Lê Hoàng Phương <herophuong93@gmail.com>\n"
+"PO-Revision-Date: 2022-08-09 22:39+0200\n"
+"Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-i18n-vi@kde.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 22.04.1\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Phan Vĩnh Thịnh, Lê Hoàng Phương"
+msgstr "Nguyễn Hùng Phú,Lê Hoàng Phương,Phan Vĩnh Thịnh"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "teppi82@gmail.com, herophuong93@gmail.com"
+msgstr "phu.nguyen@kdemail.net,herophuong93@gmail.com,teppi82@gmail.com"
 
 #: backtracewidget.cpp:57
 #, kde-format
@@ -43,21 +44,21 @@ msgid ""
 "when you have installed the proper debug symbol packages and you want to "
 "obtain a better backtrace."
 msgstr ""
-"Sử dụng nút này để tải lại thông tin lỗi (backtrace). Điều này có ích khi "
-"bạn đã cài các gói biểu tượng gỡ lỗi cần thiết và bạn muốn có một backtrace "
-"tốt hơn."
+"Dùng nút này để tải lại thông tin về sự cố (vết ngăn xếp). Việc này có ích "
+"khi bạn đã cài các gói kí hiệu gỡ lỗi thích hợp và bạn muốn có một vết ngăn "
+"xếp tốt hơn."
 
 #: backtracewidget.cpp:67
 #, kde-format
 msgctxt "@action:button"
 msgid "&Install Debug Symbols"
-msgstr "&Cài đặt biểu tượng gỡ lỗi"
+msgstr "&Cài đặt các kí hiệu gỡ lỗi"
 
 #: backtracewidget.cpp:70 qml/DeveloperPage.qml:36
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to install the missing debug symbols packages."
-msgstr "Sử dụng nút này để cài đặt các gói biểu tượng gỡ lỗi cần thiết."
+msgstr "Dùng nút này để cài đặt các gói kí hiệu gỡ lỗi còn thiếu."
 
 #: backtracewidget.cpp:77
 #, kde-format
@@ -66,6 +67,8 @@ msgid ""
 "Symbol installation is unavailable because the application was updated or "
 "uninstalled after it had been started."
 msgstr ""
+"Việc cài đặt kí hiệu hiện không khả dụng vì ứng dụng đã được cập nhật hoặc "
+"gỡ cài đặt sau khi nó được khởi động."
 
 #: backtracewidget.cpp:85 qml/DeveloperPage.qml:54
 #, kde-format
@@ -73,7 +76,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "Use this button to copy the crash information (backtrace) to the clipboard."
 msgstr ""
-"Sử dụng nút này để sao chép thông tin lỗi (backtrace) vào bảng nhớ tạm."
+"Dùng nút này để sao chép thông tin về sự cố (vết ngăn xếp) vào bảng nháp."
 
 #: backtracewidget.cpp:94 qml/DeveloperPage.qml:62
 #, kde-format
@@ -82,8 +85,8 @@ msgid ""
 "Use this button to save the crash information (backtrace) to a file. This is "
 "useful if you want to take a look at it or to report the bug later."
 msgstr ""
-"Sử dụng nút này để lưu thông tin lỗi (backtrace) vào một tệp. Điều này có "
-"ích nếu bạn muốn xem lại hay báo cáo lỗi sau."
+"Dùng nút này để lưu thông tin về sự cố (vết ngăn xếp) vào một tệp. Việc này "
+"có ích nếu sau này bạn muốn xem lại hoặc báo lỗi."
 
 #: backtracewidget.cpp:115
 #, kde-format
@@ -94,12 +97,11 @@ msgid ""
 "they might actually contain a wealth of useful information.<br />Backtraces "
 "are commonly used during interactive and post-mortem debugging.</p>"
 msgstr ""
-"<h2>\"backtrace\" là gì?</h2><p>Một backtrace về cơ bản mô tả những gì đã "
-"diễn ra bên trong ứng dụng khi nó gặp lỗi để các nhà phát triển phát hiện ra "
-"vấn đề xuất phát tại đâu. Chúng nhìn có thể không có nghĩa với bạn, nhưng "
-"chúng thực sự chứa một lượng thông tin không nhỏ rất hữu ích.<br />Các "
-"backtrace thường được dùng trong các quá trình gỡ lỗi tương tác và sau khi "
-"gặp lỗi.</p>"
+"<h2>\"Vết ngăn xếp\" là gì?</h2><p>Một vết ngăn xếp về cơ bản mô tả những gì "
+"đã diễn ra bên trong ứng dụng khi nó gặp sự cố, để các nhà phát triển có thể "
+"tìm ra xem vấn đề xuất phát từ đâu. Chúng có thể trông vô nghĩa với bạn, "
+"nhưng có khả năng chúng thực sự chứa một lượng lớn thông tin có ích.<br />"
+"Vết ngăn xếp thường được dùng khi gỡ lỗi tương tác và tử hậu.</p>"
 
 #: backtracewidget.cpp:135
 #, kde-format
@@ -111,7 +113,7 @@ msgstr "Đang tải..."
 #, kde-format
 msgctxt "@info:status"
 msgid "Generating backtrace... (this may take some time)"
-msgstr "Đang tạo backtrace... (điều này cần chút thời gian)"
+msgstr "Đang tạo vết ngăn xếp... (có thể mất chút thời gian)"
 
 #: backtracewidget.cpp:189
 #, kde-format
@@ -120,14 +122,14 @@ msgid ""
 "Another debugger is currently debugging the same application. The crash "
 "information could not be fetched."
 msgstr ""
-"Một trình gỡ lỗi khác hiện đang gỡ lỗi ứng dụng này. Không thể lấy được "
-"thông tin lỗi."
+"Một trình gỡ lỗi khác hiện đang gỡ lỗi ứng dụng này. Không tìm nạp được "
+"thông tin về sự cố."
 
 #: backtracewidget.cpp:193
 #, kde-format
 msgctxt "@info:status"
 msgid "The crash information could not be fetched."
-msgstr "Không thể lấy được thông tin lỗi."
+msgstr "Không tìm nạp được thông tin về sự cố."
 
 #: backtracewidget.cpp:196
 #, kde-kuit-format
@@ -137,33 +139,34 @@ msgid ""
 "the DrKonqi debugger cannot fetch the backtrace. Please close the other "
 "debugger and click <interface>Reload</interface>."
 msgstr ""
-"Một tiến trình gỡ lỗi khác đã được gắn vào ứng dụng lỗi.Vì vậy, trình gỡ lỗi "
-"DrKonqi không thể lấy backtrace. Hãy đóng trình gỡ lỗi khác và nhấn "
-"<interface>Tải lại</interface>."
+"Một tiến trình gỡ lỗi khác đã được gắn vào ứng dụng gặp sự cố. Vì vậy, trình"
+" gỡ lỗi "
+"DrKonqi không thể tìm nạp được vết ngăn xếp. Vui lòng đóng trình gỡ lỗi khác "
+"đó và bấm <interface>Tải lại</interface>."
 
 #: backtracewidget.cpp:241 qml/RatingItem.qml:43
 #, kde-format
 msgctxt "@info"
 msgid "The generated crash information is useful"
-msgstr "Thông tin lỗi đã tạo có hữu ích"
+msgstr "Thông tin đã tạo về sự cố hữu ích"
 
 #: backtracewidget.cpp:244 qml/RatingItem.qml:45
 #, kde-format
 msgctxt "@info"
 msgid "The generated crash information may be useful"
-msgstr "Thông tin lỗi đã tạo có thể hữu ích"
+msgstr "Thông tin đã tạo về sự cố có thể hữu ích"
 
 #: backtracewidget.cpp:247 qml/RatingItem.qml:47
 #, kde-format
 msgctxt "@info"
 msgid "The generated crash information is probably not useful"
-msgstr "Thông tin lỗi đã tạo có thể không hữu ích"
+msgstr "Thông tin đã tạo về sự cố có lẽ không hữu ích"
 
 #: backtracewidget.cpp:250 qml/RatingItem.qml:49
 #, kde-format
 msgctxt "@info"
 msgid "The generated crash information is not useful"
-msgstr "Thông tin lỗi đã tạo không hữu ích"
+msgstr "Thông tin đã tạo về sự cố không hữu ích"
 
 #: backtracewidget.cpp:255
 #, kde-format
@@ -172,7 +175,8 @@ msgid ""
 "The rating of this crash information is invalid. This is a bug in DrKonqi "
 "itself."
 msgstr ""
-"Đánh giá thông tin lỗi này không hợp lệ. Đây là một lỗi của bản thân DrKonqi."
+"Việc đánh giá thông tin về sự cố này không hợp lệ. Đây là một lỗi của bản "
+"thân DrKonqi."
 
 #: backtracewidget.cpp:267
 #, kde-kuit-format
