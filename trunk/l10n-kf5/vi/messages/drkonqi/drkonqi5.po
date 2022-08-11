@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-05 00:46+0000\n"
-"PO-Revision-Date: 2022-08-10 22:36+0200\n"
+"PO-Revision-Date: 2022-08-11 19:36+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -45,8 +45,8 @@ msgid ""
 "obtain a better backtrace."
 msgstr ""
 "Dùng nút này để tải lại thông tin về sự cố (vết ngăn xếp). Việc này có ích "
-"khi bạn đã cài các gói kí hiệu gỡ lỗi thích hợp và bạn muốn có một vết ngăn "
-"xếp tốt hơn."
+"khi bạn đã cài đặt các gói kí hiệu gỡ lỗi thích hợp và bạn muốn có một vết "
+"ngăn xếp tốt hơn."
 
 #: backtracewidget.cpp:67
 #, kde-format
@@ -355,23 +355,23 @@ msgid "Requesting installation of missing debug symbols packages..."
 msgstr "Đang yêu cầu cài đặt các gói kí hiệu gỡ lỗi còn thiếu..."
 
 #: debugpackageinstaller.cpp:53
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "Cancel"
 msgid "Cancel"
-msgstr "Huỷ bỏ"
+msgstr "Huỷ"
 
 #: debugpackageinstaller.cpp:58
 #, kde-format
 msgctxt "@title:window"
 msgid "Missing debug symbols"
-msgstr "Thiếu biểu tượng gỡ lỗi"
+msgstr "Các kí hiệu gỡ lỗi còn thiếu"
 
 #: debugpackageinstaller.cpp:88
 #, kde-format
 msgctxt "@info"
 msgid "Could not find debug symbol packages for this application."
-msgstr "Không thể tìm thấy gói biểu tượng gỡ lỗi cho ứng dụng này."
+msgstr "Không tìm được gói kí hiệu gỡ lỗi cho ứng dụng này."
 
 #: debugpackageinstaller.cpp:98
 #, kde-format
@@ -379,7 +379,7 @@ msgctxt "@info"
 msgid ""
 "An error was encountered during the installation of the debug symbol "
 "packages."
-msgstr "Gặp lỗi khi đang cài đặt các gói biểu tượng gỡ lỗi."
+msgstr "Gặp lỗi khi đang cài đặt các gói kí hiệu gỡ lỗi."
 
 #: drkonqi.cpp:147
 #, kde-kuit-format
@@ -391,7 +391,7 @@ msgstr "Đã lưu báo cáo vào <filename>%1</filename>."
 #, kde-format
 msgctxt "@info"
 msgid "Could not create a file in which to save the report."
-msgstr "Không thể tạo tệp để lưu báo cáo."
+msgstr "Không tạo được tệp để lưu báo cáo."
 
 #: drkonqi.cpp:156
 #, kde-format
@@ -406,18 +406,18 @@ msgid "Cannot open file <filename>%1</filename> for writing."
 msgstr "Không thể mở tệp <filename>%1</filename> để ghi."
 
 #: drkonqi_globals.cpp:12
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "Restart Application"
 msgctxt "@action:button"
 msgid "&Restart Application"
-msgstr "Khởi động lại ứng dụng"
+msgstr "&Khởi động lại ứng dụng"
 
 #: drkonqi_globals.cpp:14
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Use this button to restart the crashed application."
-msgstr "Dùng nút này để khởi động lại ứng dụng lỗi."
+msgstr "Dùng nút này để khởi động lại ứng dụng gặp sự cố."
 
 #: drkonqidialog.cpp:119
 #, kde-format
@@ -437,11 +437,11 @@ msgctxt "@info"
 msgid ""
 "<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
 msgstr ""
-"<para>Chúng tôi rất tiếc, <application>%1</application> đã thoát không mong "
-"đợi.</para>"
+"<para>Chúng tôi rất tiếc, <application>%1</application> đã bất ngờ thoát.<"
+"/para>"
 
 #: drkonqidialog.cpp:166
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
 #| "<para>As the Crash Handler itself has failed, the automatic reporting "
@@ -457,13 +457,14 @@ msgid ""
 "system. Do not forget to include the backtrace from the <interface>Developer "
 "Information</interface> tab.</para>"
 msgstr ""
-"<para>Vì Trình xử lí lỗi đã tự thoát, tiến trình báo cáo lỗi tự động đã bị "
-"tắt để giảm nguy cơ thất bại một lần nữa.<nl /><nl />Hãy báo cáo bằng tay "
-"lỗi này cho sản phẩm \"drkonqi\" tại %1. Đừng quên kèm theo backtrace trong "
-"thẻ Thông tin nhà phát triển.</para>"
+"<para>Vì bản thân trình xử lí sự cố đã bị hỏng, tiến trình báo cáo tự động "
+"đã bị tắt để giảm nguy cơ hỏng một lần nữa.<nl /><nl />Vui lòng <link "
+"url='%1'>báo cáo thủ công</link> lỗi này đến hệ thống theo dõi lỗi của KDE. "
+"Đừng quên kèm theo vết ngăn xếp trong thẻ <interface>Thông tin nhà phát triển"
+"</interface>.</para>"
 
 #: drkonqidialog.cpp:176
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
 #| "<para>The reporting assistant is disabled because the crash handler "
@@ -476,9 +477,10 @@ msgid ""
 "(including the backtrace from the <interface>Developer Information</"
 "interface> tab.)</para>"
 msgstr ""
-"<para>Trợ tá báo cáo đã bị tắt vì hộp thoại trình xử lí lỗi được khởi động "
-"trong chế độ an toàn.<nl />Bạn có thể tự báo cáo lỗi này tới %1 (kèm theo "
-"backtrace từ thẻ Thông tin nhà phát triển.)</para>"
+"<para>Trợ tá báo cáo đã bị tắt vì hộp thoại trình xử lí sự cố được khởi động "
+"trong chế độ an toàn.<nl />Bạn có thể báo cáo thủ công lỗi này đến %1 (kèm "
+"theo vết ngăn xếp trong thẻ <interface>Thông tin nhà phát triển</interface>.)"
+"</para>"
 
 #: drkonqidialog.cpp:185
 #, kde-kuit-format
@@ -491,9 +493,14 @@ msgid ""
 "make sure the update is fully applied and will not cause any side effects.</"
 "para>"
 msgstr ""
+"<para>Trợ tá báo cáo đã bị tắt vì ứng dụng gặp sự cố có vẻ đã được cập nhật "
+"hoặc gỡ cài đặt sau khi nó được khởi động. Việc này ngăn cản sự báo cáo "
+"chính xác về sự cố và cũng có thể chính là nguyên nhân của sự cố này.</para>"
+"<para>Sau khi cập nhật, nên đăng xuất rồi đăng nhập lại để đảm bảo rằng bản "
+"cập nhật được áp dụng đầy đủ và không gây ra hiệu ứng phụ nào.</para>"
 
 #: drkonqidialog.cpp:194 qml/MainPage.qml:93
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
 #| "<para>You can help us improve KDE Software by reporting this error.<nl /"
@@ -505,13 +512,11 @@ msgid ""
 "<para>You can help us improve KDE Software by reporting this error.<nl /"
 "><link url='%1'>Learn more about bug reporting.</link></para>"
 msgstr ""
-"<para>Bạn có thể giúp chúng tôi cải thiện Phần mềm KDE bằng cách báo cáo lỗi "
-"này.<nl /> <link url='#aboutbugreporting'>Tìm hiểu thêm về báo cáo lỗi.</"
-"link></para><para><note> Nếu bạn không muốn báo cáo lỗi này, bạn có thể đóng "
-"hộp thoại lại.</note></para>"
+"<para>Bạn có thể giúp chúng tôi cải thiện phần mềm KDE bằng cách báo lỗi này."
+"<nl /><link url='%1'>Tìm hiểu thêm về việc báo lỗi.</link></para>"
 
 #: drkonqidialog.cpp:201 qml/MainPage.qml:57
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
 #| "<para>You cannot report this error, because the application does not "
@@ -521,8 +526,8 @@ msgid ""
 "<para>You cannot report this error, because <application>%1</application> "
 "does not provide a bug reporting address.</para>"
 msgstr ""
-"<para>Bạn không thể báo cáo lỗi này, bởi vì ứng dụng không cung cấp một địa "
-"chỉ báo cáo lỗi.</para>"
+"<para>Bạn không thể báo lỗi này, vì <application>%1</application> không cung "
+"cấp địa chỉ báo lỗi nào.</para>"
 
 #: drkonqidialog.cpp:209 qml/MainPage.qml:102
 #, kde-format
@@ -531,7 +536,7 @@ msgid "Details:"
 msgstr "Chi tiết:"
 
 #: drkonqidialog.cpp:213
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
 #| "<para>Executable: <application>%1</application> PID: <numid>%2</numid> "
@@ -541,11 +546,11 @@ msgid ""
 "<para>Executable: <application>%1</application> PID: %2 Signal: %3 (%4) "
 "Time: %5 %6</para>"
 msgstr ""
-"<para>Tệp thực thi: <application>%1</application> PID: <numid>%2</numid> Tín "
-"hiệu: %3 (%4)</para>"
+"<para>Tệp thực thi: <application>%1</application> PID: %2 Tín hiệu: %3 (%4) "
+"Thời gian: %5 %6</para>"
 
 #: drkonqidialog.cpp:243
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt ""
 #| "@action:button this is the debug menu button label which contains the "
 #| "debugging applications"
@@ -554,41 +559,42 @@ msgctxt ""
 "@action:button this is the debug menu button label which contains the "
 "debugging applications"
 msgid "&Debug"
-msgstr "Gỡ lỗi"
+msgstr "&Gỡ lỗi"
 
 #: drkonqidialog.cpp:245
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Starts a program to debug the crashed application."
-msgstr "Bắt đầu chương trình gỡ lỗi cho ứng dụng lỗi."
+msgstr "Khởi động một chương trình để gỡ lỗi ứng dụng gặp sự cố."
 
 #: drkonqidialog.cpp:274
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Close this dialog (you will lose the crash information.)"
-msgstr "Đóng hộp thoại này (bạn sẽ mất thông tin lỗi.)"
+msgstr "Đóng hộp thoại này (bạn sẽ mất thông tin về sự cố.)"
 
 #: drkonqidialog.cpp:283
 #, kde-format
 msgctxt "@action:inmenu 1 is the debugger name"
 msgid "Debug in %1"
-msgstr ""
+msgstr "Gỡ lỗi trong %1"
 
 #: main.cpp:112
 #, kde-format
 msgid "The KDE Crash Handler"
-msgstr "Trình xử lí lỗi KDE"
+msgstr "Trình xử lí sự cố của KDE"
 
 #: main.cpp:114
 #, kde-format
 msgid "The KDE Crash Handler gives the user feedback if a program has crashed."
-msgstr "Trình xử lí lỗi KDE phản hồi với người dùng khi một ứng dụng gặp lỗi."
+msgstr ""
+"Trình xử lí sự cố của KDE phản hồi với người dùng khi một ứng dụng gặp sự cố."
 
 #: main.cpp:117
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "(C) 2000-2009, The DrKonqi Authors"
 msgid "(C) 2000-2018, The DrKonqi Authors"
-msgstr "(C) 2000-2009, Các tác giả DrKonqi"
+msgstr "(C) 2000-2018, Các tác giả DrKonqi"
 
 #: main.cpp:118
 #, kde-format
@@ -615,15 +621,15 @@ msgid "A. L. Spehr"
 msgstr "A. L. Spehr"
 
 #: main.cpp:128
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The signal number that was caught"
 msgctxt "@info:shell"
 msgid "The signal <number> that was caught"
-msgstr "Số hiệu tín hiệu bắt được"
+msgstr "Số hiệu tín hiệu đã bắt được"
 
 #: main.cpp:129
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Name of the program"
 msgctxt "@info:shell"
@@ -631,15 +637,15 @@ msgid "<Name> of the program"
 msgstr "Tên của chương trình"
 
 #: main.cpp:130
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Path to the executable"
 msgctxt "@info:shell"
 msgid "<Path> to the executable"
-msgstr "Đường dẫn tới tệp thực thi"
+msgstr "Đường dẫn đến tệp thực thi"
 
 #: main.cpp:131
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The version of the program"
 msgctxt "@info:shell"
@@ -647,29 +653,29 @@ msgid "The <version> of the program"
 msgstr "Phiên bản của chương trình"
 
 #: main.cpp:132
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The bug address to use"
 msgctxt "@info:shell"
 msgid "The bug <address> to use"
-msgstr "Địa chỉ thông báo lỗi"
+msgstr "Địa chỉ báo lỗi"
 
 #: main.cpp:133
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Translated name of the program"
 msgctxt "@info:shell"
 msgid "Translated <name> of the program"
-msgstr "Tên đã dịch của chương trình"
+msgstr "Tên phiên dịch của chương trình"
 
 #: main.cpp:134
 #, kde-format
 msgctxt "@info:shell"
 msgid "Bugzilla product name"
-msgstr ""
+msgstr "Tên sản phẩm Bugzilla"
 
 #: main.cpp:135
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The PID of the program"
 msgctxt "@info:shell"
@@ -677,108 +683,102 @@ msgid "The <PID> of the program"
 msgstr "PID của chương trình"
 
 #: main.cpp:136
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:shell"
 #| msgid "Startup ID of the program"
 msgctxt "@info:shell"
 msgid "Startup <ID> of the program"
-msgstr "ID khởi chạy của chương trình"
+msgstr "ID khởi động của chương trình"
 
 #: main.cpp:137
 #, kde-format
 msgctxt "@info:shell"
 msgid "The program was started by kdeinit"
-msgstr "Chuơng trình được kdeinit khởi chạy"
+msgstr "Chương trình do kdeinit khởi động"
 
 #: main.cpp:138
 #, kde-format
 msgctxt "@info:shell"
 msgid "Disable arbitrary disk access"
-msgstr "Tắt bỏ truy cập đĩa tuỳ ý"
+msgstr "Tắt truy cập đĩa tuỳ ý"
 
 #: main.cpp:139
 #, kde-format
 msgctxt "@info:shell"
 msgid "The program has already been restarted"
-msgstr "Chương trình đã được khởi động lại"
+msgstr "Chương trình đã được khởi động lại rồi"
 
 #: main.cpp:142
 #, kde-format
 msgctxt "@info:shell"
 msgid "Keep the program running and generate the backtrace at startup"
-msgstr "Giữ chương trình chạy tiếp và tạo backtrace khi khởi động"
+msgstr "Để chương trình chạy tiếp và tạo vết ngăn xếp khi khởi động"
 
 #: main.cpp:144
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:shell"
 #| msgid "The thread id of the failing thread"
 msgctxt "@info:shell"
 msgid "The <thread id> of the failing thread"
-msgstr "ID luồng của luồng lỗi"
+msgstr "ID luồng của luồng bị hỏng"
 
 #: main.cpp:145
 #, kde-format
 msgctxt "@info:shell"
 msgid "Do not show a notification but launch the debug dialog directly"
-msgstr ""
+msgstr "Đừng hiển thị thông báo, mà khởi chạy trực tiếp hộp thoại gỡ lỗi"
 
 #: qml/BacktracePage.qml:12
 msgctxt "@title"
 msgid "Fetching the Backtrace (Automatic Crash Information)"
-msgstr "Lấy backtrace (thông tin lỗi tự động)"
+msgstr "Đang tìm nạp vết ngăn xếp (thông tin tự động về sự cố)"
 
 #: qml/BacktracePage.qml:26
-#, fuzzy
 #| msgid "Show backtrace content (advanced)"
 msgctxt "@action:button"
 msgid "Show backtrace content (advanced)"
-msgstr "Hiện nội dung backtrace (nâng cao)"
+msgstr "Hiện nội dung vết ngăn xếp (nâng cao)"
 
 #: qml/BacktracePage.qml:47 qml/ContextPage.qml:88 qml/DuplicatesPage.qml:127
 msgctxt "@action:button"
 msgid "Next"
-msgstr ""
+msgstr "Tiếp"
 
 #: qml/BugzillaPage.qml:43
-#, fuzzy
 #| msgctxt "@info:status"
 #| msgid "Error sending the crash report:  <message>%1.</message>"
 msgctxt "@info"
 msgid "Failed to contact bugs.kde.org: <message>%1</message>"
-msgstr "Lỗi khi đang gửi báo cáo: <message>%1.</message>"
+msgstr "Liên hệ bugs.kde.org thất bại: <message>%1</message>"
 
 #: qml/BugzillaPage.qml:48
-#, fuzzy
 #| msgctxt "@action:button"
 #| msgid "Retry..."
 msgctxt "@action"
 msgid "Retry"
-msgstr "Thử lại..."
+msgstr "Thử lại"
 
 #: qml/BugzillaPage.qml:62
 msgctxt "@info"
 msgid "Trying to contact bugs.kde.org..."
-msgstr ""
+msgstr "Đang liên hệ bugs.kde.org..."
 
 #: qml/ContextPage.qml:14
-#, fuzzy
 #| msgctxt "@title"
 #| msgid "What do you know about the crash?"
 msgctxt "@title:window"
 msgid "What do You Know About the Crash?"
-msgstr "Bạn biết điều gì về lỗi này?"
+msgstr "Bạn biết gì về sự cố này?"
 
 #: qml/ContextPage.qml:18
-#, fuzzy
 #| msgctxt "@label question"
 #| msgid ""
 #| "<strong>Do you remember what you were doing prior to the crash?</strong>"
 msgctxt "@info/rich"
 msgid "Do you remember what you were doing prior to the crash?"
-msgstr "<strong>Bạn có nhớ bạn đã làm gì trước lúc lỗi không?</strong>"
+msgstr "Bạn có nhớ bạn đang làm gì trước khi xảy ra sự cố không?"
 
 #: qml/ContextPage.qml:28
-#, fuzzy
 #| msgctxt ""
 #| "@option:radio \"yes\" to the question \"do you remember what were you "
 #| "doing prior to the crash?\""
@@ -788,7 +788,6 @@ msgid "Yes"
 msgstr "Có"
 
 #: qml/ContextPage.qml:33
-#, fuzzy
 #| msgctxt ""
 #| "@option:radio \"No\" to the question \"do you remember what were you "
 #| "doing prior to the crash?\""
@@ -798,28 +797,24 @@ msgid "No"
 msgstr "Không"
 
 #: qml/ContextPage.qml:39
-#, fuzzy
 #| msgctxt "@label question"
 #| msgid ""
 #| "<strong>Does the application crash again if you repeat the same situation?"
 #| "</strong>"
 msgctxt "@info/rich"
 msgid "Does the application crash again if you repeat the same situation?"
-msgstr ""
-"<strong>Ứng dụng có gặp lại lỗi khi bạn lặp lại tình huống này?</strong>"
+msgstr "Sự cố có xảy ra lại với ứng dụng khi bạn lặp lại tình huống không?"
 
 #: qml/ContextPage.qml:52
-#, fuzzy
 #| msgctxt "@label question"
 #| msgid ""
 #| "<strong>Please select which additional information you can provide:</"
 #| "strong>"
 msgctxt "@info/rich"
 msgid "Please select which additional information you can provide:"
-msgstr "<strong>Hãy chọn thông tin thêm nào bạn có thể cung cấp:</strong>"
+msgstr "Vui lòng chọn thông tin bổ sung mà bạn có thể cung cấp:"
 
 #: qml/ContextPage.qml:59
-#, fuzzy
 #| msgctxt ""
 #| "@option:check kind of information the user can provide about the crash, "
 #| "%1 is the application name"
@@ -829,33 +824,30 @@ msgctxt ""
 "is the application name"
 msgid ""
 "What I was doing when the application <application>%1</application> crashed"
-msgstr "Tôi đã làm gì khi ứng dụng \"%1\" gặp lỗi"
+msgstr "Việc tôi đang làm khi ứng dụng <application>%1</application> gặp sự cố"
 
 #: qml/ContextPage.qml:65
-#, fuzzy
 #| msgctxt ""
 #| "@option:check kind of information the user can provide about the crash"
 #| msgid "Unusual desktop behavior I noticed"
 msgctxt "@action:check"
 msgid "Unusual desktop behavior I noticed"
-msgstr "Hành vi máy khác thường mà tôi đã chú ý"
+msgstr "Hành vi bất thường trên máy mà tôi để ý thấy"
 
 #: qml/ContextPage.qml:70
-#, fuzzy
 #| msgctxt ""
 #| "@option:check kind of information the user can provide about the crash"
 #| msgid "Custom settings of the application that may be related"
 msgctxt "@action:check"
 msgid "Custom settings of the application that may be related"
-msgstr "Thiết lập tuỳ biến của ứng dụng mà có thể liên quan"
+msgstr "Thiết lập tuỳ biến có thể liên quan của ứng dụng"
 
 #: qml/ContextPage.qml:79 qml/DeveloperPage.qml:177
 msgctxt "@title"
 msgid "Not Sufficiently Useful"
-msgstr ""
+msgstr "Không đủ hữu ích"
 
 #: qml/ContextPage.qml:80
-#, fuzzy
 #| msgctxt "@info"
 #| msgid ""
 #| "The information you can provide is not considered helpful enough in this "
@@ -866,34 +858,32 @@ msgid ""
 "this case. If you can't think of any more information you can close the bug "
 "report dialog.</para>"
 msgstr ""
-"Thông tin bạn đã cung cấp được cho là không đủ hữu ích trong trường hợp này."
+"<para>Thông tin bạn cung cấp được cho là không đủ hữu ích trong trường hợp "
+"này. Nếu bạn không có thêm thông tin nào khác, bạn có thể đóng hộp thoại báo "
+"lỗi.</para>"
 
 #: qml/DeveloperPage.qml:24
-#, fuzzy
 #| msgctxt "@title:tab"
 #| msgid "&Developer Information"
 msgctxt "@title:window"
 msgid "Developer Information"
-msgstr "&Thông tin nhà phát triển"
+msgstr "Thông tin nhà phát triển"
 
 #: qml/DeveloperPage.qml:33
-#, fuzzy
 #| msgctxt "@action:button"
 #| msgid "&Install Debug Symbols"
 msgctxt "@action:button"
 msgid "Install Debug Symbols"
-msgstr "&Cài đặt biểu tượng gỡ lỗi"
+msgstr "Cài đặt các kí hiệu gỡ lỗi"
 
 #: qml/DeveloperPage.qml:44
-#, fuzzy
 #| msgctxt "@action:button"
 #| msgid "&Reload"
 msgctxt "@action:button"
 msgid "Reload"
-msgstr "&Tải lại"
+msgstr "Tải lại"
 
 #: qml/DeveloperPage.qml:46
-#, fuzzy
 #| msgctxt "@info:tooltip"
 #| msgid ""
 #| "Use this button to reload the crash information (backtrace). This is "
@@ -906,22 +896,21 @@ msgid ""
 "installed the proper debug symbol packages and you want to obtain a better "
 "backtrace."
 msgstr ""
-"Sử dụng nút này để tải lại thông tin lỗi (backtrace). Điều này có ích khi "
-"bạn đã cài các gói biểu tượng gỡ lỗi cần thiết và bạn muốn có một backtrace "
-"tốt hơn."
+"Dùng nút này để tải lại thông tin về sự cố (vết ngăn xếp). Việc này có ích "
+"khi bạn đã cài đặt\n"
+"các gói kí hiệu gỡ lỗi thích hợp và bạn muốn có một vết ngăn xếp tốt hơn."
 
 #: qml/DeveloperPage.qml:53
 msgctxt "@action:button"
 msgid "Copy"
-msgstr ""
+msgstr "Chép"
 
 #: qml/DeveloperPage.qml:60
 msgctxt "@action:button"
 msgid "Save"
-msgstr ""
+msgstr "Lưu"
 
 #: qml/DeveloperPage.qml:94
-#, fuzzy
 #| msgid ""
 #| "<h2>What is a \"backtrace\" ?</h2><p>A backtrace basically describes what "
 #| "was happening inside the application when it crashed, so the developers "
@@ -941,15 +930,17 @@ msgid ""
 "commonly\n"
 "used during interactive and post-mortem debugging.</para>"
 msgstr ""
-"<h2>\"backtrace\" là gì?</h2><p>Một backtrace về cơ bản mô tả những gì đã "
-"diễn ra bên trong ứng dụng khi nó gặp lỗi để các nhà phát triển phát hiện ra "
-"vấn đề xuất phát tại đâu. Chúng nhìn có thể không có nghĩa với bạn, nhưng "
-"chúng thực sự chứa một lượng thông tin không nhỏ rất hữu ích.<br />Các "
-"backtrace thường được dùng trong các quá trình gỡ lỗi tương tác và sau khi "
-"gặp lỗi.</p>"
+"<subtitle>\"Vết ngăn xếp\" là gì?</subtitle><para>Một vết ngăn xếp về cơ bản "
+"mô tả những gì đã\n"
+"diễn ra bên trong ứng dụng khi nó gặp sự cố, để các nhà phát triển có thể "
+"tìm ra xem vấn đề\n"
+"xuất phát từ đâu. Chúng có thể trông vô nghĩa với bạn, nhưng có khả năng "
+"chúng thực sự\n"
+"chứa một lượng lớn thông tin có ích.<nl />Vết ngăn xếp thường được dùng "
+"khi gỡ lỗi\n"
+"tương tác và tử hậu.</para>"
 
 #: qml/DeveloperPage.qml:142
-#, fuzzy
 #| msgctxt "@info/rich"
 #| msgid ""
 #| "You can click the <interface>Install Debug Symbols</interface> button in "
@@ -968,14 +959,15 @@ msgid ""
 "backtrace; install the needed packages (<link url='%2'> list of files</"
 "link>) and click the <interface>Reload</interface> button."
 msgstr ""
-"Bạn có thể nhấn <interface>Cài đặt biểu tượng gỡ lỗi</interface> để tự động "
-"cài đặt các gói thông tin gỡ lỗi còn thiếu. Nếu cách này không hoạt động, "
-"hãy đọc <link url='%1'>Làm thế nào để tạo báo cáo lỗi hữu ích</link> để biết "
-"cách lấy một backtrace có ích; cài đặt các gói cần thiết (<link "
-"url='%2'>danh sách của tệp</link>) và nhấn <interface>Tải lại</interface>."
+"Bạn có thể bấm nút <interface>Cài đặt các kí hiệu gỡ lỗi</interface> để tự "
+"động cài đặt các gói thông tin gỡ lỗi còn thiếu. Nếu cách này không hoạt "
+"động,\n"
+"vui lòng đọc <link url='%1'>Cách tạo báo cáo sự cố hữu ích</link> để "
+"biết cách lấy một vết ngăn xếp có ích;\n"
+"cài đặt các gói cần thiết (<link url='%2'>danh sách các tệp</link>) và bấm "
+"nút <interface>Tải lại</interface>."
 
 #: qml/DeveloperPage.qml:150
-#, fuzzy
 #| msgctxt "@info/rich"
 #| msgid ""
 #| "Please read <link url='%1'>How to create useful crash reports</link> to "
@@ -989,12 +981,12 @@ msgid ""
 "url='%2'>\n"
 "list of files</link>) and click the <interface>Reload</interface> button."
 msgstr ""
-"Hãy đọc <link url='%1'>Làm thế nào để tạo báo cáo lỗi hữu ích</link> để biết "
-"cách lấy một backtrace có ích; cài đặt các gói cần thiết (<link "
-"url='%2'>danh sách của tệp</link>) và nhấn <interface>Tải lại</interface>."
+"Vui lòng đọc <link url='%1'>Cách tạo báo cáo sự cố hữu ích</link> để biết "
+"cách lấy một vết ngăn xếp có ích; cài đặt các gói cần thiết\n"
+"(<link url='%2'>danh sách các tệp</link>) và bấm nút <interface>Tải lại"
+"</interface>."
 
 #: qml/DeveloperPage.qml:162
-#, fuzzy
 #| msgctxt "@info/rich"
 #| msgid ""
 #| "You need to install the debugger package (%1) and click the "
@@ -1004,7 +996,8 @@ msgid ""
 "<emphasis strong='true'>You need to first install the debugger application "
 "(%1) then click the <interface>Reload</interface> button.</emphasis>"
 msgstr ""
-"Bạn cần phải cài đặt gói gỡ lỗi (%1) và nhấn <interface>Tải lại</interface>."
+"<emphasis strong='true'>Bạn cần, trước tiên, cài đặt ứng dụng gỡ lỗi (%1) "
+"rồi bấm nút <interface>Tải lại</interface>.</emphasis>"
 
 #: qml/DuplicatesLoadingPage.qml:14 qml/DuplicatesPage.qml:14
 msgctxt "@title"
@@ -1012,15 +1005,13 @@ msgid "Look for Possible Duplicate Reports"
 msgstr "Tìm kiếm các báo cáo có khả năng trùng"
 
 #: qml/DuplicatesLoadingPage.qml:46
-#, fuzzy
 #| msgctxt "@info:status"
 #| msgid "Searching for duplicates (from %1 to %2)..."
 msgctxt "@info"
 msgid "Searching bug database for duplicates…"
-msgstr "Đang tìm các bản trùng (từ %1 tới %2)..."
+msgstr "Đang tìm các báo cáo trùng trong cơ sở dữ liệu lỗi…"
 
 #: qml/DuplicatesPage.qml:20
-#, fuzzy
 #| msgctxt "@info/rich"
 #| msgid ""
 #| "See if your bug has already been reported. Double click a report in the "
@@ -1032,17 +1023,16 @@ msgid ""
 "and compare it to yours. You can suggest that your crash is a duplicate of "
 "that report or directly attach your information to it."
 msgstr ""
-"Xem nếu lỗi của bạn đã được báo cáo chưa. Nhấp đúp chuột vào báo cáo trong "
-"danh sách và so sánh nó với báo cáo của bạn. Bạn có thể đặt lỗi của bạn là "
-"trùng với báo cáo đó hoặc gắn thông tin của bạn trực tiếp vào nó."
+"Xem lỗi của bạn đã được báo cáo chưa. Bấm đúp vào một báo cáo trong danh "
+"sách và so sánh với báo cáo của bạn. Bạn có thể cho biết sự cố của bạn trùng "
+"với báo cáo đó hoặc trực tiếp thêm thông tin của bạn vào báo cáo đó."
 
 #: qml/DuplicatesPage.qml:45
-#, fuzzy
 #| msgctxt "@info/plain bug resolution"
 #| msgid "[Duplicate report]"
 msgctxt "@title"
 msgid "Duplicate?"
-msgstr "[Báo cáo trùng]"
+msgstr "Trùng?"
 
 #: qml/DuplicatesPage.qml:46
 msgctxt "@label"
