@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-10 00:46+0000\n"
+"POT-Creation-Date: 2022-08-11 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -3337,6 +3337,7 @@ msgid ""
 msgstr ""
 
 #: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:17
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:22
 #: widgets/administratorsettingsdialog/retentionpolicy/retentionpolicysettingswidget.cpp:18
 #: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:17
 #: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:21
@@ -3362,7 +3363,7 @@ msgid "Protocol"
 msgstr ""
 
 #: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:39
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:33
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:39
 #, kde-format
 msgid "Host"
 msgstr ""
@@ -3373,7 +3374,7 @@ msgid "The port to bind to on the IRC host server."
 msgstr ""
 
 #: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:43
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:30
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:36
 #, kde-format
 msgid "Port"
 msgstr ""
@@ -3408,31 +3409,83 @@ msgstr ""
 msgid "Allow Special Characters in Room Names"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:17
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:18
 #, kde-format
 msgid "LDAP Enabled"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:20
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:21
 #, kde-format
 msgid "Reconnect"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:23
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:29
 #, kde-format
 msgid "Attempt to utilize LDAP for authentication."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:29
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:35
 #, kde-format
 msgid "Port to access LDAP. eg: 389 or 636 for LDAPS"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:36
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:42
 #, kde-format
 msgid ""
 "Try to reconnect automatically when connection is interrupted by some reason "
 "while executing operations."
+msgstr ""
+
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:46
+#, kde-format
+msgid "Authentication"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:55
+#, kde-format
+msgid "User DN"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:57
+#, kde-format
+msgid ""
+"The LDAP user that performs user lookups to authenticate other users when "
+"they sign in. This is typically a service account created specifically for "
+"third-party integrations. Use a fully qualified name, such as "
+"cn=Administrator,cn=Users,dc=Example,dc=com."
+msgstr ""
+
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:62
+#, kde-format
+msgid "Timeouts"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:69
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:74
+#, kde-format
+msgid "How many mileseconds wait for a search result before return an error"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:70
+#, kde-format
+msgid "Timeout (ms)"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:75
+#, kde-format
+msgid "Connection Timeout (ms)"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:80
+#, kde-format
+msgid ""
+"How many milliseconds wait after the latest LDAP operation until close the "
+"connection. (Each operation will open a new connection)"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:81
+#, kde-format
+msgid "Idle Timeout (ms)"
 msgstr ""
 
 #: widgets/administratorsettingsdialog/message/messagesettingswidget.cpp:16
@@ -3543,92 +3596,92 @@ msgstr ""
 msgid "At Least One Symbol"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:30
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:29
 #, kde-format
 msgid "Password History"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:35
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:48
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:34
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:47
 #, kde-format
 msgid ""
 "When enabled, users won't be able to update their passwords to some of their "
 "most recently used passwords."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:40
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:39
 #, kde-format
 msgid "Amount of most recently used passwords to prevent users from reusing."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:41
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:40
 #, kde-format
 msgid "Password History Length"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:43
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:42
 #, kde-format
 msgid "Password Policy"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:53
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:52
 #, kde-format
 msgid ""
 "Ensures that passwords must have at least this amount of characters. Use -1 "
 "to disable."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:55
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:54
 #, kde-format
 msgid "Minimum Length"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:58
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:57
 #, kde-format
 msgid ""
 "Ensures that passwords do not have more than this amount of characters. Use "
 "-1 to disable."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:60
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:59
 #, kde-format
 msgid "Maximum Length"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:63
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:62
 #, kde-format
 msgid ""
 "Ensures passwords do not contain the same character repeating next to each "
 "other."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:68
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:67
 #, kde-format
 msgid ""
 "The amount of times a character can be repeating before it is not allowed."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:69
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:68
 #, kde-format
 msgid "Max Repeating Characters"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:72
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:71
 #, kde-format
 msgid "Enforce that a password contain at least one lowercase character."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:77
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:76
 #, kde-format
 msgid "Enforce that a password contain at least one uppercase character."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:82
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:81
 #, kde-format
 msgid "Enforce that a password contain at least one numerical character."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:87
+#: widgets/administratorsettingsdialog/password/passwordsettingswidget.cpp:86
 #, kde-format
 msgid "Enforce that a password contain at least one special character."
 msgstr ""
@@ -5532,47 +5585,47 @@ msgstr ""
 msgid "Save Sound"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:262
+#: widgets/room/delegate/messagelistdelegate.cpp:263
 #: widgets/room/usersinroommenu.cpp:85
 #, kde-format
 msgid "User Info"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:270
+#: widgets/room/delegate/messagelistdelegate.cpp:271
 #, kde-format
 msgid "Start a Private Conversation"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:402
+#: widgets/room/delegate/messagelistdelegate.cpp:403
 #, kde-format
 msgid "1 reply"
 msgid_plural "%1 replies"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:409
+#: widgets/room/delegate/messagelistdelegate.cpp:410
 #, kde-format
 msgid "1 message"
 msgid_plural "%1 messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:409
+#: widgets/room/delegate/messagelistdelegate.cpp:410
 #, kde-format
 msgid "No message yet"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:584
+#: widgets/room/delegate/messagelistdelegate.cpp:585
 #, kde-format
 msgid "Following"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:588
+#: widgets/room/delegate/messagelistdelegate.cpp:589
 #, kde-format
 msgid "Message has been pinned"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:592
+#: widgets/room/delegate/messagelistdelegate.cpp:593
 #, kde-format
 msgid "Message has been starred"
 msgstr ""
