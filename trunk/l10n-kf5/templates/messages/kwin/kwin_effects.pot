@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-11 00:46+0000\n"
+"POT-Creation-Date: 2022-08-18 00:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -52,7 +52,6 @@ msgid ""
 msgstr ""
 
 #: desktopgrid/desktopgrid_config.cpp:49 invert/invert_config.cpp:35
-#: lookingglass/lookingglass_config.cpp:53
 #: magnifier/magnifier_config.cpp:55 mouseclick/mouseclick_config.cpp:48
 #: mousemark/mousemark_config.cpp:50 overview/kcm/overvieweffectkcm.cpp:35
 #: showpaint/showpaint_config.cpp:33 thumbnailaside/thumbnailaside_config.cpp:54
@@ -314,12 +313,6 @@ msgstr ""
 msgid "Fade to black (fullscreen splash screens only)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: lookingglass/lookingglass_config.ui:24
-#, kde-format
-msgid "&Radius:"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: magiclamp/magiclamp_config.ui:17
 #, kde-format
@@ -471,8 +464,7 @@ msgid "Ring Count:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, font)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: mouseclick/mouseclick_config.ui:210 showfps/showfps_config.ui:17
+#: mouseclick/mouseclick_config.ui:210
 #, kde-format
 msgid "Text"
 msgstr ""
@@ -528,6 +520,12 @@ msgstr ""
 #: mousemark/mousemark_config.ui:82
 #, kde-format
 msgid "Draw with the mouse by holding Shift+Meta keys and moving the mouse."
+msgstr ""
+
+#: outputlocator/outputlocator.cpp:40
+#, kde-format
+msgctxt "@label"
+msgid "Unknown"
 msgstr ""
 
 #: overview/kcm/overvieweffectkcm.cpp:41 overview/overvieweffect.cpp:31
@@ -624,105 +622,34 @@ msgid ""
 "Escape or right click to cancel."
 msgstr ""
 
-#: showfps/showfps.cpp:48
+#: showfps/qml/main.qml:110
 #, kde-format
+msgctxt "@label"
+msgid "Paint Duration"
+msgstr ""
+
+#: showfps/qml/main.qml:162
+#, kde-format
+msgctxt "@label"
+msgid "Paint Amount"
+msgstr ""
+
+#: showfps/qml/main.qml:175
+#, kde-format
+msgctxt "@label"
+msgid "Current FPS"
+msgstr ""
+
+#: showfps/qml/main.qml:184
+#, kde-format
+msgctxt "@label"
+msgid "Maximum FPS"
+msgstr ""
+
+#: showfps/qml/main.qml:192
+#, kde-format
+msgctxt "@label"
 msgid "This effect is not a benchmark"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: showfps/showfps_config.ui:23
-#, kde-format
-msgid "Text position:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextPosition)
-#: showfps/showfps_config.ui:43
-#, kde-format
-msgid "Inside Graph"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextPosition)
-#: showfps/showfps_config.ui:48
-#, kde-format
-msgid "Nowhere"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextPosition)
-#: showfps/showfps_config.ui:53
-#, kde-format
-msgid "Top Left"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextPosition)
-#: showfps/showfps_config.ui:58
-#, kde-format
-msgid "Top Right"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextPosition)
-#: showfps/showfps_config.ui:63
-#, kde-format
-msgid "Bottom Left"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TextPosition)
-#: showfps/showfps_config.ui:68
-#, kde-format
-msgid "Bottom Right"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: showfps/showfps_config.ui:76
-#, kde-format
-msgid "Text font:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: showfps/showfps_config.ui:96
-#, kde-format
-msgid "Text color:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: showfps/showfps_config.ui:119
-#, kde-format
-msgid "Text alpha:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: showfps/showfps_config.ui:154
-#, kde-format
-msgid "Show graph:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowGraph)
-#: showfps/showfps_config.ui:167
-#, kde-format
-msgid "Show on active screen"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: showfps/showfps_config.ui:174
-#, kde-format
-msgid "Show Message:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowNoBenchmark)
-#: showfps/showfps_config.ui:187
-#, kde-format
-msgid "Show \"not a benchmark\" message"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: showfps/showfps_config.ui:194
-#, kde-format
-msgid "Colorize Text:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ColorizeText)
-#: showfps/showfps_config.ui:207
-#, kde-format
-msgid "Color text by value (green > yellow > red)"
 msgstr ""
 
 #: showpaint/showpaint.cpp:38 showpaint/showpaint_config.cpp:38

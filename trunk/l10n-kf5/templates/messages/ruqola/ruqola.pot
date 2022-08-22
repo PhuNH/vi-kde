@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ruqola\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-11 00:45+0000\n"
+"POT-Creation-Date: 2022-08-21 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -634,7 +634,7 @@ msgstr ""
 #: core/model/adminusersmodel.cpp:106 core/model/directoryroomsmodel.cpp:115
 #: core/model/directoryteamsmodel.cpp:91 core/model/directoryusersmodel.cpp:101
 #: core/model/usersinrolemodel.cpp:87 widgets/administratordialog/customuserstatus/customuserstatustreewidget.cpp:40
-#: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:46
+#: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:47
 #, kde-format
 msgid "Name"
 msgstr ""
@@ -742,7 +742,7 @@ msgstr ""
 msgid "Two Factors Authentication"
 msgstr ""
 
-#: core/model/adminrolesmodel.cpp:40 widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:49
+#: core/model/adminrolesmodel.cpp:40 widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:50
 #, kde-format
 msgid "Description"
 msgstr ""
@@ -798,7 +798,7 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
-#: core/model/adminusersmodel.cpp:116 widgets/ruqolamainwindow.cpp:429
+#: core/model/adminusersmodel.cpp:116 widgets/ruqolamainwindow.cpp:438
 #, kde-format
 msgid "Status"
 msgstr ""
@@ -806,6 +806,37 @@ msgstr ""
 #: core/model/bannerinfosmodel.cpp:52
 #, kde-format
 msgid "link"
+msgstr ""
+
+#: core/model/deviceinfomodel.cpp:32 widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:39
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:41
+#, kde-format
+msgid "Host"
+msgstr ""
+
+#: core/model/deviceinfomodel.cpp:34
+#, kde-format
+msgid "Os"
+msgstr ""
+
+#: core/model/deviceinfomodel.cpp:36
+#, kde-format
+msgid "Client"
+msgstr ""
+
+#: core/model/deviceinfomodel.cpp:38
+#, kde-format
+msgid "Session Id"
+msgstr ""
+
+#: core/model/deviceinfomodel.cpp:40
+#, kde-format
+msgid "Ip"
+msgstr ""
+
+#: core/model/deviceinfomodel.cpp:44
+#, kde-format
+msgid "Login At"
 msgstr ""
 
 #: core/model/directoryroomsmodel.cpp:127
@@ -1275,12 +1306,12 @@ msgstr ""
 msgid "<strong>%1</strong> are typing..."
 msgstr ""
 
-#: core/rocketchataccount.cpp:2731
+#: core/rocketchataccount.cpp:2789
 #, kde-format
 msgid "Export Messages"
 msgstr ""
 
-#: core/rocketchataccount.cpp:2732
+#: core/rocketchataccount.cpp:2790
 #, kde-format
 msgid "Your email has been queued for sending."
 msgstr ""
@@ -1352,7 +1383,7 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-#: core/user.cpp:201 widgets/ruqolamainwindow.cpp:384
+#: core/user.cpp:201 widgets/ruqolamainwindow.cpp:393
 #, kde-format
 msgid "Administrator"
 msgstr ""
@@ -2080,7 +2111,7 @@ msgstr ""
 msgid "%1 is already in use."
 msgstr ""
 
-#: rocketchatrestapi-qt5/users/userssetpreferencesjob.cpp:121
+#: rocketchatrestapi-qt5/users/userssetpreferencesjob.cpp:137
 #, kde-format
 msgid "Invalid parameters"
 msgstr ""
@@ -2313,7 +2344,7 @@ msgstr ""
 #: widgets/administratordialog/customuserstatus/administratorcustomuserstatuscreatewidget.cpp:28
 #: widgets/dialogs/directchannelinfowidget.cpp:51
 #: widgets/dialogs/modifystatuswidget.cpp:32
-#: widgets/ruqolamainwindow.cpp:436
+#: widgets/ruqolamainwindow.cpp:445
 #, kde-format
 msgid "Status:"
 msgstr ""
@@ -3043,7 +3074,7 @@ msgstr ""
 
 #: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:68
 #: widgets/dialogs/createnewdiscussionwidget.cpp:54
-#: widgets/ruqolamainwindow.cpp:784
+#: widgets/ruqolamainwindow.cpp:803
 #, kde-format
 msgid "Message"
 msgstr ""
@@ -3069,6 +3100,7 @@ msgid "Rate Limiter"
 msgstr ""
 
 #: widgets/administratorsettingsdialog/administratorsettingswidget.cpp:73
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:63
 #, kde-format
 msgid "Password"
 msgstr ""
@@ -3337,7 +3369,7 @@ msgid ""
 msgstr ""
 
 #: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:17
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:22
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:23
 #: widgets/administratorsettingsdialog/retentionpolicy/retentionpolicysettingswidget.cpp:18
 #: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:17
 #: widgets/administratorsettingsdialog/videoconference/videoconferencewidget.cpp:21
@@ -3362,29 +3394,23 @@ msgstr ""
 msgid "Protocol"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:39
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:39
-#, kde-format
-msgid "Host"
-msgstr ""
-
 #: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:42
 #, kde-format
 msgid "The port to bind to on the IRC host server."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:43
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:36
+#: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:44
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:38
 #, kde-format
 msgid "Port"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:52
+#: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:53
 #, kde-format
 msgid "Local Password"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:55
+#: widgets/administratorsettingsdialog/ircfederation/ircfederationwidget.cpp:56
 #, kde-format
 msgid "Peer Password"
 msgstr ""
@@ -3409,44 +3435,44 @@ msgstr ""
 msgid "Allow Special Characters in Room Names"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:18
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:19
 #, kde-format
 msgid "LDAP Enabled"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:21
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:22
 #, kde-format
 msgid "Reconnect"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:29
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:31
 #, kde-format
 msgid "Attempt to utilize LDAP for authentication."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:35
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:37
 #, kde-format
 msgid "Port to access LDAP. eg: 389 or 636 for LDAPS"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:42
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:44
 #, kde-format
 msgid ""
 "Try to reconnect automatically when connection is interrupted by some reason "
 "while executing operations."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:46
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:48
 #, kde-format
 msgid "Authentication"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:55
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:57
 #, kde-format
 msgid "User DN"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:57
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:59
 #, kde-format
 msgid ""
 "The LDAP user that performs user lookups to authenticate other users when "
@@ -3455,35 +3481,35 @@ msgid ""
 "cn=Administrator,cn=Users,dc=Example,dc=com."
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:62
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:67
 #, kde-format
 msgid "Timeouts"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:69
 #: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:74
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:79
 #, kde-format
-msgid "How many mileseconds wait for a search result before return an error"
-msgstr ""
-
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:70
-#, kde-format
-msgid "Timeout (ms)"
+msgid "How many milliseconds wait for a search result before return an error"
 msgstr ""
 
 #: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:75
 #, kde-format
-msgid "Connection Timeout (ms)"
+msgid "Timeout (ms)"
 msgstr ""
 
 #: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:80
+#, kde-format
+msgid "Connection Timeout (ms)"
+msgstr ""
+
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:85
 #, kde-format
 msgid ""
 "How many milliseconds wait after the latest LDAP operation until close the "
 "connection. (Each operation will open a new connection)"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:81
+#: widgets/administratorsettingsdialog/ldap/ldapsettingswidget.cpp:86
 #, kde-format
 msgid "Idle Timeout (ms)"
 msgstr ""
@@ -3808,9 +3834,10 @@ msgstr ""
 msgid "Maximum message age in direct messages"
 msgstr ""
 
-#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:94
-#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:118
-#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:147
+#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:100
+#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:124
+#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:148
+#: widgets/administratorsettingsdialog/settingswidgetbase.cpp:177
 #, kde-format
 msgid "Apply"
 msgstr ""
@@ -3929,73 +3956,73 @@ msgstr ""
 
 #: widgets/bannerinfodialog/bannermessagewidget.cpp:20
 #, kde-format
-msgid "Read"
+msgid "Mark as Read"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:95
+#: widgets/channellist/channellistview.cpp:99
 #, kde-format
 msgid "Mark As Read"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:95
+#: widgets/channellist/channellistview.cpp:99
 #, kde-format
 msgid "Mark As Unread"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:103
+#: widgets/channellist/channellistview.cpp:107
 #: widgets/room/messagelistview.cpp:236
 #, kde-format
 msgid "Set as Favorite"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:103
+#: widgets/channellist/channellistview.cpp:107
 #, kde-format
 msgid "Unset as Favorite"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:110
+#: widgets/channellist/channellistview.cpp:114
 #, kde-format
 msgid "Hide Channel"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:125
-#: widgets/channellist/channellistview.cpp:259
+#: widgets/channellist/channellistview.cpp:129
+#: widgets/channellist/channellistview.cpp:263
 #, kde-format
 msgid "Convert to Team"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:134
+#: widgets/channellist/channellistview.cpp:138
 #, kde-format
 msgid "Convert to Channel"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:144
+#: widgets/channellist/channellistview.cpp:148
 #, kde-format
 msgid "Move to Team"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:159
+#: widgets/channellist/channellistview.cpp:163
 #: widgets/room/channelactionpopupmenu.cpp:81
 #, kde-format
 msgid "Configure Notification..."
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:166
+#: widgets/channellist/channellistview.cpp:170
 #, kde-format
 msgid "Quit Channel"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:212
+#: widgets/channellist/channellistview.cpp:216
 #, kde-format
 msgid "Any team selected."
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:212
+#: widgets/channellist/channellistview.cpp:216
 #, kde-format
 msgid "Move To Team"
 msgstr ""
 
-#: widgets/channellist/channellistview.cpp:259
+#: widgets/channellist/channellistview.cpp:263
 #, kde-format
 msgid "Are you sure to convert it to team? It can not be undo."
 msgstr ""
@@ -4053,20 +4080,15 @@ msgstr ""
 
 #: widgets/configuredialog/configuregeneralwidget.cpp:17
 #, kde-format
-msgid "Show room avatar"
+msgid "Mark room as read when clicking to write a reply"
 msgstr ""
 
 #: widgets/configuredialog/configuregeneralwidget.cpp:18
 #, kde-format
-msgid "Mark room as read when clicking to write a reply"
-msgstr ""
-
-#: widgets/configuredialog/configuregeneralwidget.cpp:19
-#, kde-format
 msgid "Enable system tray icon"
 msgstr ""
 
-#: widgets/configuredialog/configuregeneralwidget.cpp:20
+#: widgets/configuredialog/configuregeneralwidget.cpp:19
 #, kde-format
 msgid "Enable logging"
 msgstr ""
@@ -4831,7 +4853,7 @@ msgstr ""
 msgid "Fit to View"
 msgstr ""
 
-#: widgets/dialogs/showimagewidget.cpp:347
+#: widgets/dialogs/showimagewidget.cpp:361
 #: widgets/room/delegate/messageattachmentdelegatehelperimage.cpp:129
 #: widgets/room/delegate/messageattachmentdelegatehelpervideo.cpp:81
 #, kde-format
@@ -5015,6 +5037,28 @@ msgstr ""
 #: widgets/exportmessages/exportmessageswidget.cpp:39
 #, kde-format
 msgid "Html"
+msgstr ""
+
+#: widgets/managedevice/managedevicewidget.cpp:29
+#, kde-format
+msgid "Search Device"
+msgstr ""
+
+#: widgets/managedevice/managedevicewidget.cpp:42
+#, kde-format
+msgid "No device found"
+msgstr ""
+
+#: widgets/managedevice/managedevicewidget.cpp:47
+#, kde-format
+msgid "%1 device (Total: %2)"
+msgid_plural "%1 devices (Total: %2)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: widgets/managedevice/managedevicewidget.cpp:96
+#, kde-format
+msgid "Disconnect"
 msgstr ""
 
 #: widgets/messagemaximumsizedialog/messagemaximumsizedialog.cpp:18
@@ -5241,24 +5285,29 @@ msgctxt "@title:window"
 msgid "Configure my Account"
 msgstr ""
 
-#: widgets/myaccount/myaccountconfigurewidget.cpp:35
+#: widgets/myaccount/myaccountconfigurewidget.cpp:36
 #, kde-format
 msgid "Profile"
 msgstr ""
 
-#: widgets/myaccount/myaccountconfigurewidget.cpp:41
+#: widgets/myaccount/myaccountconfigurewidget.cpp:42
 #, kde-format
 msgid "Preference"
 msgstr ""
 
-#: widgets/myaccount/myaccountconfigurewidget.cpp:44
+#: widgets/myaccount/myaccountconfigurewidget.cpp:45
 #, kde-format
 msgid "Two Authentication Factor"
 msgstr ""
 
-#: widgets/myaccount/myaccountconfigurewidget.cpp:50
+#: widgets/myaccount/myaccountconfigurewidget.cpp:51
 #, kde-format
 msgid "E2E Encryption"
+msgstr ""
+
+#: widgets/myaccount/myaccountconfigurewidget.cpp:57
+#, kde-format
+msgid "Manage Device"
 msgstr ""
 
 #: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:25
@@ -5278,7 +5327,7 @@ msgstr ""
 
 #: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:28
 #, kde-format
-msgid "Hide Avatars"
+msgid "Display Avatars"
 msgstr ""
 
 #: widgets/myaccount/myaccountpreferenceconfigurewidget.cpp:38
@@ -5548,34 +5597,34 @@ msgstr ""
 msgid "Encrypt Messages"
 msgstr ""
 
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:114
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:120
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Attachment?"
 msgstr ""
 
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:115
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:121
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Open attachment <filename>%1</filename>?<nl/>"
 msgstr ""
 
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:119
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:125
 #, kde-format
 msgid "&Open With '%1'"
 msgstr ""
 
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:122
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:128
 #, kde-format
 msgid "Open &With..."
 msgstr ""
 
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:123
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:129
 #, kde-format
 msgid "Save &As..."
 msgstr ""
 
-#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:160
+#: widgets/room/delegate/messageattachmentdelegatehelperfile.cpp:170
 #, kde-format
 msgid "Save File"
 msgstr ""
@@ -5585,47 +5634,47 @@ msgstr ""
 msgid "Save Sound"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:263
+#: widgets/room/delegate/messagelistdelegate.cpp:269
 #: widgets/room/usersinroommenu.cpp:85
 #, kde-format
 msgid "User Info"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:271
+#: widgets/room/delegate/messagelistdelegate.cpp:277
 #, kde-format
 msgid "Start a Private Conversation"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:403
+#: widgets/room/delegate/messagelistdelegate.cpp:415
 #, kde-format
 msgid "1 reply"
 msgid_plural "%1 replies"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:410
+#: widgets/room/delegate/messagelistdelegate.cpp:422
 #, kde-format
 msgid "1 message"
 msgid_plural "%1 messages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:410
+#: widgets/room/delegate/messagelistdelegate.cpp:422
 #, kde-format
 msgid "No message yet"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:585
+#: widgets/room/delegate/messagelistdelegate.cpp:599
 #, kde-format
 msgid "Following"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:589
+#: widgets/room/delegate/messagelistdelegate.cpp:603
 #, kde-format
 msgid "Message has been pinned"
 msgstr ""
 
-#: widgets/room/delegate/messagelistdelegate.cpp:593
+#: widgets/room/delegate/messagelistdelegate.cpp:607
 #, kde-format
 msgid "Message has been starred"
 msgstr ""
@@ -5858,12 +5907,12 @@ msgstr ""
 msgid "Reply in Thread for Message: '%1'"
 msgstr ""
 
-#: widgets/room/roomwidget.cpp:214
+#: widgets/room/roomwidget.cpp:215
 #, kde-format
 msgid "Do you want really remove history?"
 msgstr ""
 
-#: widgets/room/roomwidget.cpp:215
+#: widgets/room/roomwidget.cpp:216
 #, kde-format
 msgid "Remove History"
 msgstr ""
@@ -6038,147 +6087,152 @@ msgstr ""
 msgid "Login Failed: generic error"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:196
+#: widgets/ruqolamainwindow.cpp:201
 #, kde-format
 msgid "Show New Notifications"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:324
+#: widgets/ruqolamainwindow.cpp:333
 #, kde-format
 msgid "Add Server..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:329
+#: widgets/ruqolamainwindow.cpp:338
 #, kde-format
 msgid "Server Info..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:333
+#: widgets/ruqolamainwindow.cpp:342
 #, kde-format
 msgid "Logout Current Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:337
+#: widgets/ruqolamainwindow.cpp:346
 #, kde-format
 msgid "Jump to Next Unread Channel"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:342
+#: widgets/ruqolamainwindow.cpp:351
 #, kde-format
 msgid "Create New Channel..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:346
+#: widgets/ruqolamainwindow.cpp:355
 #, kde-format
 msgid "Create Direct Messages..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:350
+#: widgets/ruqolamainwindow.cpp:359
 #, kde-format
 msgid "Create Discussion..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:354
+#: widgets/ruqolamainwindow.cpp:363
 #, kde-format
 msgid "Create Team..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:362
+#: widgets/ruqolamainwindow.cpp:371
 #, kde-format
 msgid "Unread on Top"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:367
+#: widgets/ruqolamainwindow.cpp:376
 #, kde-format
 msgid "Show Channel Log"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:371
+#: widgets/ruqolamainwindow.cpp:380
 #, kde-format
 msgid "Mark All Channels as Read"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:376
+#: widgets/ruqolamainwindow.cpp:385
 #, kde-format
 msgid "Register a New User..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:380
+#: widgets/ruqolamainwindow.cpp:389
 #, kde-format
 msgid "My Account..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:385
+#: widgets/ruqolamainwindow.cpp:394
 #, kde-format
 msgid "Administrator..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:391
+#: widgets/ruqolamainwindow.cpp:400
 #, kde-format
 msgid "Server Settings..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:396
+#: widgets/ruqolamainwindow.cpp:405
 #, kde-format
 msgid "Directory..."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:417
+#: widgets/ruqolamainwindow.cpp:426
 #, kde-format
 msgid "&Next Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:422
+#: widgets/ruqolamainwindow.cpp:431
 #, kde-format
 msgid "&Previous Server"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:452
+#: widgets/ruqolamainwindow.cpp:461
 #, kde-format
 msgid "Previous Selected Channel"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:459
+#: widgets/ruqolamainwindow.cpp:468
 #, kde-format
 msgid "Next Selected Channel"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:488
+#: widgets/ruqolamainwindow.cpp:497
 #, kde-format
 msgid "Show Notify History"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:492
+#: widgets/ruqolamainwindow.cpp:501
 #, kde-format
 msgid "Show RocketChat Information"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:517
+#: widgets/ruqolamainwindow.cpp:505
+#, kde-format
+msgid "Room Avatar"
+msgstr ""
+
+#: widgets/ruqolamainwindow.cpp:531
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Team"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:686
+#: widgets/ruqolamainwindow.cpp:705
 #, kde-format
 msgid ""
 "We have sent you an email to confirm your registration.\n"
 "If you do not receive an email shortly, please come back and try again."
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:687
+#: widgets/ruqolamainwindow.cpp:706
 #, kde-format
 msgid "Register New User"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:811
+#: widgets/ruqolamainwindow.cpp:830
 #, kde-format
 msgid ""
 "<qt>This will hide the menu bar completely. You can show it again by typing "
 "%1.</qt>"
 msgstr ""
 
-#: widgets/ruqolamainwindow.cpp:814
+#: widgets/ruqolamainwindow.cpp:833
 #, kde-format
 msgid "Hide menu bar"
 msgstr ""
@@ -6208,7 +6262,7 @@ msgid "View"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: widgets/ruqolaui.rc:57
+#: widgets/ruqolaui.rc:59
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
