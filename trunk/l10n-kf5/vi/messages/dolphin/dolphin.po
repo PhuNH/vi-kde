@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-23 00:49+0000\n"
-"PO-Revision-Date: 2022-08-09 21:48+0200\n"
+"PO-Revision-Date: 2022-08-24 21:34+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -300,7 +300,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action"
 msgid "Cut…"
-msgstr ""
+msgstr "Cắt…"
 
 #: dolphinmainwindow.cpp:1585
 #, kde-kuit-format
@@ -316,12 +316,12 @@ msgstr ""
 "bảng nháp vào địa điểm mới. Các thứ này sẽ bị xoá khỏi địa điểm ban đầu."
 
 #: dolphinmainwindow.cpp:1591
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Copy"
 msgctxt "@action"
 msgid "Copy…"
-msgstr "Chép"
+msgstr "Chép…"
 
 #: dolphinmainwindow.cpp:1592
 #, kde-kuit-format
@@ -360,12 +360,12 @@ msgid "Copy to Inactive Split View"
 msgstr "Chép sang khung xem chia đôi bất hoạt"
 
 #: dolphinmainwindow.cpp:1608
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Copy to Inactive Split View"
 msgctxt "@action:inmenu"
 msgid "Copy to Inactive Split View…"
-msgstr "Chép sang khung xem chia đôi bất hoạt"
+msgstr "Chép sang khung xem chia đôi bất hoạt…"
 
 #: dolphinmainwindow.cpp:1609
 #, kde-kuit-format
@@ -390,12 +390,12 @@ msgid "Move to Inactive Split View"
 msgstr "Di chuyển sang khung xem chia đôi bất hoạt"
 
 #: dolphinmainwindow.cpp:1618
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Move to Inactive Split View"
 msgctxt "@action:inmenu"
 msgid "Move to Inactive Split View…"
-msgstr "Di chuyển sang khung xem chia đôi bất hoạt"
+msgstr "Di chuyển sang khung xem chia đôi bất hoạt…"
 
 #: dolphinmainwindow.cpp:1619
 #, kde-kuit-format
@@ -490,17 +490,17 @@ msgstr "Tìm kiếm"
 
 #. i18n: This action toggles a selection mode.
 #: dolphinmainwindow.cpp:1672
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid "Search for files and folders"
 msgctxt "@action:inmenu"
 msgid "Select Files and Folders"
-msgstr "Tìm kiếm tệp và thư mục"
+msgstr "Chọn tệp và thư mục"
 
 #. i18n: Opens a selection mode for selecting files/folders.
 #. The text is kept so unspecific because it will be shown on the toolbar where space is at a premium.
 #: dolphinmainwindow.cpp:1675
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:window"
 #| msgid "Select"
 msgctxt "@action:intoolbar"
@@ -518,6 +518,12 @@ msgid ""
 "access bar at the bottom shows available actions for the currently selected "
 "items.</para>"
 msgstr ""
+"<para>Ứng dụng này chỉ có thể biết cần thực hiện hành động với tệp hoặc thư "
+"mục nào nếu chúng được <emphasis>chọn</emphasis> trước. Ấn vào đây để bật/"
+"tắt <emphasis>Chế độ chọn</emphasis>, nó giúp việc chọn và bỏ chọn dễ dàng "
+"hơn, với chỉ một lần ấn vào thứ muốn chọn/bỏ chọn.</para><para>Khi trong chế "
+"độ này, một thanh truy cập nhanh ở dưới sẽ hiển thị các hành động có thể cho "
+"các thứ hiện đang được chọn.</para>"
 
 #: dolphinmainwindow.cpp:1697
 #, kde-kuit-format
@@ -832,7 +838,7 @@ msgstr "Thông tin"
 
 #. i18n: This is the last paragraph for the "What's This"-texts of all four panels.
 #: dolphinmainwindow.cpp:2017
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
 #| "<para>To show or hide panels like this go to <interface>Control|Panels</"
@@ -842,7 +848,7 @@ msgid ""
 "<para>To show or hide panels like this go to <interface>Menu|Panels</"
 "interface> or <interface>View|Panels</interface>.</para>"
 msgstr ""
-"<para>Để hiện hoặc ẩn các bảng khác, mở <interface>Điều khiển|Bảng</"
+"<para>Để hiện hoặc ẩn các bảng như thế này, mở <interface>Trình đơn|Bảng</"
 "interface> hoặc <interface>Xem|Bảng</interface>.</para>"
 
 #: dolphinmainwindow.cpp:2022
@@ -1072,7 +1078,7 @@ msgid "Split view"
 msgstr "Chia đôi khung xem"
 
 #: dolphinmainwindow.cpp:2476
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
 #| "<para>This is the <emphasis>Menubar</emphasis>. It provides access to "
@@ -1094,11 +1100,11 @@ msgstr ""
 "các lệnh và lựa chọn cấu hình. Bấm trái vào một trình đơn bất kì trên thanh "
 "này để xem nội dung bên trong.</para><para>Bạn có thể ẩn Thanh trình đơn đi "
 "bằng cách bỏ chọn <interface>Thiết lập|Hiện Thanh trình đơn</interface>. Sau "
-"đó hầu hết nội dung của nó có thể tìm thấy ở nút <interface>Điều khiển</"
+"đó hầu hết nội dung của nó có thể tìm thấy ở nút <interface>Trình đơn</"
 "interface> trên <emphasis>Thanh công cụ</emphasis>.</para>"
 
 #: dolphinmainwindow.cpp:2483
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
 #| "<para>This is the <emphasis>Toolbar</emphasis>. It allows quick access to "
@@ -1123,14 +1129,13 @@ msgid ""
 msgstr ""
 "<para>Đây là <emphasis>Thanh công cụ</emphasis>. Nó cho phép truy cập nhanh "
 "đến các hành động thường dùng.</para><para>Nó rất dễ tuỳ biến. Tất cả các "
-"mục bạn thấy trong trình đơn <interface>Điều khiển</interface> hoặc "
+"mục bạn thấy trong trình đơn <interface>Trình đơn</interface> hoặc "
 "<interface>Thanh trình đơn</interface> đều có thể đặt được vào Thanh công "
 "cụ. Chỉ cần bấm phải vào nó và chọn <interface>Cấu hình thanh công cụ…</"
-"interface> hoặc tìm hành động này trong trình đơn <interface>Điều khiển</"
-"interface> hoặc <interface>Thiết lập</interface>.</para><para>Vị trí của "
-"thanh này và kiểu cách các nút của nó cũng có thể thay đổi được trong trình "
-"đơn bấm phải. Bấm phải vào một nút nếu bạn muốn hiện hay ẩn chữ của nó.</"
-"para>"
+"interface> hoặc tìm hành động này trong <interface>trình đơn</interface>."
+"</para><para>Vị trí của thanh này và kiểu cách các nút của nó cũng có thể "
+"thay đổi được trong trình đơn bấm phải. Bấm phải vào một nút nếu bạn muốn "
+"hiện hay ẩn chữ của nó.</para>"
 
 #: dolphinmainwindow.cpp:2495
 #, kde-kuit-format
@@ -1175,7 +1180,7 @@ msgstr ""
 "thể được kích hoạt bằng cách này.</para>"
 
 #: dolphinmainwindow.cpp:2517
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgctxt "@info:whatsthis"
 #| msgid ""
 #| "<para>This opens a window in which you can change which buttons appear on "
@@ -1190,9 +1195,8 @@ msgid ""
 msgstr ""
 "<para>Hành động này mở một cửa sổ trong đó bạn có thể thay đổi các nút xuất "
 "hiện trên <emphasis>Thanh công cụ</emphasis>.</para><para>Tất cả các mục bạn "
-"thấy trong trình đơn <interface>Điều khiển</interface> hay trong "
-"<interface>Thanh trình đơn</interface> đều có thể đặt được vào Thanh công cụ."
-"</para>"
+"thấy trong <interface>Trình đơn</interface> đều có thể đặt được vào Thanh "
+"công cụ.</para>"
 
 #: dolphinmainwindow.cpp:2521
 #, kde-kuit-format
