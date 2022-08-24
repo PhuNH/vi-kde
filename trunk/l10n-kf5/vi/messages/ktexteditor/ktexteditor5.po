@@ -436,8 +436,6 @@ msgstr "Luôn hiện"
 
 #: dialogs/clipboardhistorydialog.cpp:267
 #, kde-format
-#| msgctxt "Script command name"
-#| msgid "Select next edit point"
 msgid "Select text to paste."
 msgstr "Chọn văn bản để dán."
 
@@ -465,7 +463,6 @@ msgstr "Tự động chọn mục hoàn tất đầ&u tiên"
 #. i18n: ectx: property (title), widget (QGroupBox, gbWordCompletion)
 #: dialogs/completionconfigtab.ui:52
 #, kde-format
-#| msgid "A&uto Word Completion"
 msgid "A&uto word completion"
 msgstr "Hoàn tất &từ tự động"
 
@@ -491,9 +488,6 @@ msgstr "Xoá đuôi khi hoàn tất"
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: dialogs/completionconfigtab.ui:101
 #, kde-format
-#| msgid ""
-#| "Keyword completion provides suggestions based on the keywords which exist "
-#| "in the document's language."
 msgid ""
 "Word completion provides suggestions based on the words found in the document"
 msgstr ""
@@ -518,7 +512,6 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, gbShowDoc)
 #: dialogs/completionconfigtab.ui:136
 #, kde-format
-#| msgid "Documentation with Completion"
 msgid "Documentation with completion"
 msgstr "Tài liệu cùng với việc hoàn tất"
 
@@ -655,7 +648,6 @@ msgstr "Không di chuyển con trỏ văn bản khi dán bằng chuột"
 #. i18n: ectx: property (text), widget (QLabel, lblClipboardHistoryEntries)
 #: dialogs/editconfigwidget.ui:188
 #, kde-format
-#| msgid "Clipboard &History"
 msgid "Max Clipboard History Entries:"
 msgstr "Số lượng mục lịch sử bảng nháp tối đa:"
 
@@ -973,15 +965,6 @@ msgstr "Phím &Backspace bỏ thụt lề khi ở khoảng trống ở đầu"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/indentationconfigwidget.ui:225
 #, kde-format
-#| msgid ""
-#| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
-#| "css\">\n"
-#| "p, li { white-space: pre-wrap; }\n"
-#| "</style></head><body>\n"
-#| "<p>Tab key action (if no selection exists) <a href=\"If you want <b>Tab</"
-#| "b> to align the current line in the current code block like in emacs, "
-#| "make <b>Tab</b> a shortcut to the action <b>Align</b>.\"><span>More ...</"
-#| "span></a></p></body></html>"
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -998,8 +981,8 @@ msgstr ""
 "</style></head><body>\n"
 "<p>Hành động của phím Tab (nếu đang không bôi đen gì) <a href=\"Nếu bạn muốn "
 "phím <b>Tab</b> căn lề cho dòng hiện tại trong khối mã hiện tại như trong "
-"Emacs, hãy đặt <b>Tab</b> làm phím tắt cho hành động <b>Định dạng thụt lề"
-"</b>.\"><span>Thêm ...</span></a></p></body></html>"
+"Emacs, hãy đặt <b>Tab</b> làm phím tắt cho hành động <b>Định dạng thụt lề</"
+"b>.\"><span>Thêm ...</span></a></p></body></html>"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbTabAdvances)
 #: dialogs/indentationconfigwidget.ui:276
@@ -1832,42 +1815,36 @@ msgstr " giây"
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowHighlightingMode)
 #: dialogs/statusbarconfigwidget.ui:19
 #, kde-format
-#| msgid "Syntax highlighting"
 msgid "Show highlighting mode"
 msgstr "Hiện chế độ tô sáng"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowInputMode)
 #: dialogs/statusbarconfigwidget.ui:26
 #, kde-format
-#| msgid "Show &icon border"
 msgid "Show input mode"
 msgstr "Hiện chế độ nhập"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowActiveDictionary)
 #: dialogs/statusbarconfigwidget.ui:33
 #, kde-format
-#| msgid "Change dictionary"
 msgid "Show active dictionary"
 msgstr "Hiện từ điển hoạt động"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowTabSetting)
 #: dialogs/statusbarconfigwidget.ui:40
 #, kde-format
-#| msgid "Show tab indicators:"
 msgid "Show tab setting"
 msgstr "Hiện thiết lập kí tự lập bảng"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowLineColumn)
 #: dialogs/statusbarconfigwidget.ui:47
 #, kde-format
-#| msgid "Show line count"
 msgid "Show line column"
 msgstr "Hiện cột dòng"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowEncoding)
 #: dialogs/statusbarconfigwidget.ui:54
 #, kde-format
-#| msgid "Show line count"
 msgid "Show File Encoding"
 msgstr "Hiện kiểu mã hoá tệp"
 
@@ -2794,7 +2771,6 @@ msgstr "Chủ đề &màu:"
 
 #: printing/printconfigwidgets.cpp:483
 #, kde-format
-#| msgid "Font"
 msgid "Font:"
 msgstr "Phông chữ:"
 
@@ -3277,15 +3253,15 @@ msgid ""
 "first non-blank character that occurs after a colon to align them all on the "
 "same column."
 msgstr ""
-"Lệnh này căn lề các dòng, trong khối bôi đen hoặc trong toàn bộ tài liệu, "
-"ở cột được chỉ ra bởi một biểu thức chính quy mà được truyền vào như là một "
+"Lệnh này căn lề các dòng, trong khối bôi đen hoặc trong toàn bộ tài liệu, ở "
+"cột được chỉ ra bởi một biểu thức chính quy mà được truyền vào như là một "
 "đối số.<br><br>Nếu bạn truyền vào một dạng mẫu trống, mặc định nó sẽ căn lề "
 "ở kí tự khác trống đầu tiên.<br>Nếu dạng mẫu có một phần thu thập, nó sẽ "
-"thụt lề ở phần khớp thu thập.<br><br><i>Ví dụ</i>:<br>'<code>alignon -</code"
-">' sẽ chèn các dấu cách vào trước kí tự '-' đầu tiên của mỗi dòng để căn lề "
-"tất cả chúng ở cùng một cột.<br>'<code>alignon :\\s+(.)</code>' sẽ chèn các "
-"dấu cách vào trước kí tự khác trống đầu tiên xuất hiện sau một dấu hai chấm "
-"để căn lề tất cả chúng ở cùng một cột."
+"thụt lề ở phần khớp thu thập.<br><br><i>Ví dụ</i>:<br>'<code>alignon -</"
+"code>' sẽ chèn các dấu cách vào trước kí tự '-' đầu tiên của mỗi dòng để căn "
+"lề tất cả chúng ở cùng một cột.<br>'<code>alignon :\\s+(.)</code>' sẽ chèn "
+"các dấu cách vào trước kí tự khác trống đầu tiên xuất hiện sau một dấu hai "
+"chấm để căn lề tất cả chúng ở cùng một cột."
 
 #: script/data/commands/utils.js:423
 #, kde-format
@@ -6382,7 +6358,6 @@ msgstr "Mã hoá"
 
 #: view/katestatusbar.cpp:199 view/katestatusbar.cpp:200
 #, kde-format
-#| msgid "End of line"
 msgid "End of line type"
 msgstr "Kiểu cuối dòng"
 
@@ -6508,7 +6483,6 @@ msgstr ""
 
 #: view/kateview.cpp:463
 #, kde-format
-#| msgid "Clipboard &History"
 msgid "Clipboard &History Paste"
 msgstr "Dán lịch sử bảng nhá&p"
 
@@ -6586,25 +6560,20 @@ msgstr ""
 
 #: view/kateview.cpp:508
 #, kde-format
-#| msgid "&Indentation"
 msgid "&Format Indentation"
 msgstr "Định &dạng thụt lề"
 
 #: view/kateview.cpp:509
 #, kde-format
-#| msgid ""
-#| "Use this to align the current line or block of text to its proper indent "
-#| "level."
 msgid ""
 "Use this to auto indent the current line or block of text to its proper "
 "indent level."
 msgstr ""
-"Dùng thao tác này để tự động thụt lề dòng hoặc khối văn bản hiện tại với "
-"mức thụt lề phù hợp."
+"Dùng thao tác này để tự động thụt lề dòng hoặc khối văn bản hiện tại với mức "
+"thụt lề phù hợp."
 
 #: view/kateview.cpp:513
 #, kde-format
-#| msgid "&Align"
 msgid "&Align On..."
 msgstr "&Căn lề ở..."
 
@@ -6621,10 +6590,10 @@ msgid ""
 "blank character that occurs after a colon to align them all on the same "
 "column."
 msgstr ""
-"Lệnh này căn lề các dòng, trong khối bôi đen hoặc trong toàn bộ tài liệu, "
-"ở cột được chỉ ra bởi một biểu thức chính quy mà bạn sẽ được hỏi để nhập vào."
-"<br /><br />Nếu bạn truyền vào một dạng mẫu trống, mặc định nó sẽ căn lề "
-"ở kí tự khác trống đầu tiên.<br />Nếu dạng mẫu có một phần thu thập, nó sẽ "
+"Lệnh này căn lề các dòng, trong khối bôi đen hoặc trong toàn bộ tài liệu, ở "
+"cột được chỉ ra bởi một biểu thức chính quy mà bạn sẽ được hỏi để nhập vào."
+"<br /><br />Nếu bạn truyền vào một dạng mẫu trống, mặc định nó sẽ căn lề ở "
+"kí tự khác trống đầu tiên.<br />Nếu dạng mẫu có một phần thu thập, nó sẽ "
 "thụt lề ở phần khớp thu thập.<br /><br /><i>Ví dụ</i>:<br />Với '-' nó sẽ "
 "chèn các dấu cách vào trước kí tự '-' đầu tiên của mỗi dòng để căn lề tất cả "
 "chúng ở cùng một cột.<br />Với ':\\s+(.)' nó sẽ chèn các dấu cách vào trước "
@@ -7653,7 +7622,6 @@ msgstr "Tìm kiếm xoay vòng"
 
 #: view/kateview.cpp:3660
 #, kde-format
-#| msgid "&Align"
 msgid "Align On"
 msgstr "Căn lề ở"
 

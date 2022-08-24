@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pimcommon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-22 00:47+0000\n"
+"POT-Creation-Date: 2022-08-24 00:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -534,36 +534,66 @@ msgstr ""
 msgid "Load Template"
 msgstr ""
 
-#: pimcommon/translator/bingtranslator.cpp:53
+#: pimcommon/translator/engine/bingtranslator.cpp:57
 #, kde-format
 msgid "Error: Unable to find Bing credentials in web version."
 msgstr ""
 
-#: pimcommon/translator/bingtranslator.cpp:62
+#: pimcommon/translator/engine/bingtranslator.cpp:65
 #, kde-format
 msgid "Error: Unable to extract Bing key from web version."
 msgstr ""
 
-#: pimcommon/translator/bingtranslator.cpp:72
+#: pimcommon/translator/engine/bingtranslator.cpp:74
 #, kde-format
 msgid "Error: Unable to extract Bing token from web version."
 msgstr ""
 
-#: pimcommon/translator/bingtranslator.cpp:82
-#: pimcommon/translator/bingtranslator.cpp:92
+#: pimcommon/translator/engine/bingtranslator.cpp:83
+#: pimcommon/translator/engine/bingtranslator.cpp:92
 #, kde-format
 msgid "Error: Unable to extract additional Bing information from web version."
 msgstr ""
 
-#: pimcommon/translator/bingtranslator.cpp:105
-#: pimcommon/translator/googletranslator.cpp:114
+#: pimcommon/translator/engine/bingtranslator.cpp:103
+#: pimcommon/translator/engine/googletranslator.cpp:114
+#: pimcommon/translator/engine/yandextranslator.cpp:89
 #, kde-format
 msgid "You used same language for from and to language."
 msgstr ""
 
-#: pimcommon/translator/bingtranslator.cpp:173
+#: pimcommon/translator/engine/bingtranslator.cpp:173
 #, kde-format
 msgid "Error: Unable to parse autodetected language"
+msgstr ""
+
+#: pimcommon/translator/engine/yandextranslator.cpp:51
+#: pimcommon/translator/translatorenginebase.cpp:65
+#, kde-format
+msgid ""
+"Error: Engine systems have detected suspicious traffic from your computer "
+"network. Please try your request again later."
+msgstr ""
+
+#: pimcommon/translator/engine/yandextranslator.cpp:60
+#, kde-format
+msgid "Error: Unable to find Yandex SID in web version."
+msgstr ""
+
+#: pimcommon/translator/engine/yandextranslator.cpp:68
+#, kde-format
+msgid "Error: Unable to extract Yandex SID from web version."
+msgstr ""
+
+#: pimcommon/translator/translatorconfiguredialog.cpp:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Translator"
+msgstr ""
+
+#: pimcommon/translator/translatorconfigurewidget.cpp:26
+#, kde-format
+msgid "Engine:"
 msgstr ""
 
 #: pimcommon/translator/translatordebugdialog.cpp:22
@@ -580,13 +610,6 @@ msgstr ""
 #: pimcommon/translator/translatordebugdialog.cpp:69
 #, kde-format
 msgid "All Files (*)"
-msgstr ""
-
-#: pimcommon/translator/translatorenginebase.cpp:65
-#, kde-format
-msgid ""
-"Error: Engine systems have detected suspicious traffic from your computer "
-"network. Please try your request again later."
 msgstr ""
 
 #: pimcommon/translator/translatorutil.cpp:19
@@ -886,70 +909,70 @@ msgstr ""
 msgid "Yiddish"
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:114
+#: pimcommon/translator/translatorwidget.cpp:116
 #, kde-format
 msgid "Problem when connecting to the translator web site."
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:210
-#: pimcommon/translator/translatorwidget.cpp:213
+#: pimcommon/translator/translatorwidget.cpp:224
+#: pimcommon/translator/translatorwidget.cpp:227
 #, kde-format
 msgid "Close"
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:219
+#: pimcommon/translator/translatorwidget.cpp:233
 #, kde-format
 msgctxt "Translate from language"
 msgid "From:"
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:226
+#: pimcommon/translator/translatorwidget.cpp:240
 #, kde-format
 msgctxt "Translate to language"
 msgid "To:"
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:238
+#: pimcommon/translator/translatorwidget.cpp:252
 #, kde-format
 msgctxt "Invert language choices so that from becomes to and to becomes from"
 msgid "Invert"
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:243
-#: pimcommon/translator/translatorwidget.cpp:246
+#: pimcommon/translator/translatorwidget.cpp:257
+#: pimcommon/translator/translatorwidget.cpp:260
 #, kde-format
 msgid "Clear"
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:251
-#: pimcommon/translator/translatorwidget.cpp:254
+#: pimcommon/translator/translatorwidget.cpp:265
+#: pimcommon/translator/translatorwidget.cpp:268
 #, kde-format
 msgid "Translate"
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:261
+#: pimcommon/translator/translatorwidget.cpp:275
 #, kde-format
 msgid "Debug"
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:278
+#: pimcommon/translator/translatorwidget.cpp:293
 #, kde-format
 msgid ""
 "Drag text that you want to translate. (Be careful text will be send to "
 "Google Server)."
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:347
+#: pimcommon/translator/translatorwidget.cpp:362
 #, kde-format
 msgid "No network connection detected, we cannot translate text."
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:347
+#: pimcommon/translator/translatorwidget.cpp:362
 #, kde-format
 msgid "No network"
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:383
+#: pimcommon/translator/translatorwidget.cpp:398
 #, kde-format
 msgid "Translate error"
 msgstr ""
