@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konversation\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-22 00:45+0000\n"
+"POT-Creation-Date: 2022-08-29 00:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -136,7 +136,7 @@ msgid ""
 "is found."
 msgstr ""
 
-#: src/application.cpp:400 src/irc/server.cpp:1801 src/irc/server.cpp:3835
+#: src/application.cpp:397 src/irc/server.cpp:1801 src/irc/server.cpp:3835
 #: src/irc/server.cpp:3840
 #, kde-format
 msgid "D-Bus"
@@ -854,7 +854,7 @@ msgid "13:"
 msgstr ""
 
 #: src/config/connectionbehavior_config.cpp:29
-#: src/config/dcc_config.cpp:31 src/config/settingsdialog.cpp:116
+#: src/config/dcc_config.cpp:35 src/config/settingsdialog.cpp:116
 #, kde-format
 msgid " second"
 msgid_plural " seconds"
@@ -981,24 +981,24 @@ msgstr ""
 msgid "Password:"
 msgstr ""
 
-#: src/config/dcc_config.cpp:30
+#: src/config/dcc_config.cpp:34
 #, kde-format
 msgid " byte"
 msgid_plural " bytes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/config/dcc_config.cpp:81
+#: src/config/dcc_config.cpp:92
 #, kde-format
 msgid "Network Interface"
 msgstr ""
 
-#: src/config/dcc_config.cpp:82
+#: src/config/dcc_config.cpp:93
 #, kde-format
 msgid "Reply From IRC Server"
 msgstr ""
 
-#: src/config/dcc_config.cpp:83
+#: src/config/dcc_config.cpp:94
 #, kde-format
 msgid "Specify Manually"
 msgstr ""
@@ -2630,52 +2630,52 @@ msgstr ""
 msgid "getNickname: Server %1 is not found."
 msgstr ""
 
-#: src/dcc/chat.cpp:98
+#: src/dcc/chat.cpp:97
 #, kde-format
 msgctxt "%1=dcc extension like Chat or Whiteboard"
 msgid "Could not send a DCC %1 request to the partner via the IRC server."
 msgstr ""
 
-#: src/dcc/chat.cpp:119 src/dcc/transfersend.cpp:372
+#: src/dcc/chat.cpp:118 src/dcc/transfersend.cpp:372
 #, kde-format
 msgid "Awaiting acceptance by remote user..."
 msgstr ""
 
-#: src/dcc/chat.cpp:148
+#: src/dcc/chat.cpp:147
 #, kde-format
 msgctxt "%1=partnerNick, %2=Servername, %3=dcc extension as chat or wboard"
 msgid "%1 (on %2) offers to DCC %3 with you"
 msgstr ""
 
-#: src/dcc/chat.cpp:149
+#: src/dcc/chat.cpp:148
 #, kde-format
 msgctxt "%1=dcc extension as Chat or Whiteboard, %2=partnerNick"
 msgid "DCC %1 offer from %2"
 msgstr ""
 
-#: src/dcc/chat.cpp:150
+#: src/dcc/chat.cpp:149
 #, kde-format
 msgid "Accept"
 msgstr ""
 
-#: src/dcc/chat.cpp:151
+#: src/dcc/chat.cpp:150
 #, kde-format
 msgid "Reject"
 msgstr ""
 
-#: src/dcc/chat.cpp:157
+#: src/dcc/chat.cpp:156
 #, kde-format
 msgctxt "%1=dcc extension like Chat or Whiteboard"
 msgid "You rejected the DCC %1 offer."
 msgstr ""
 
-#: src/dcc/chat.cpp:196
+#: src/dcc/chat.cpp:195
 #, kde-format
 msgctxt "%1=dcc extension as Chat or Whiteboard"
 msgid "DCC %1 request was rejected"
 msgstr ""
 
-#: src/dcc/chat.cpp:283
+#: src/dcc/chat.cpp:284
 #, kde-format
 msgctxt "%1=dcc extension like Chat or Whiteboard"
 msgid ""
@@ -2683,14 +2683,14 @@ msgid ""
 "server."
 msgstr ""
 
-#: src/dcc/chat.cpp:301 src/dcc/chat.cpp:333 src/dcc/transferrecv.cpp:586
+#: src/dcc/chat.cpp:302 src/dcc/chat.cpp:334 src/dcc/transferrecv.cpp:586
 #: src/dcc/transfersend.cpp:394
 #, kde-format
 msgid ""
 "Failed to forward port %1. Sending DCC request to remote user regardless."
 msgstr ""
 
-#: src/dcc/chat.cpp:315
+#: src/dcc/chat.cpp:316
 #, kde-format
 msgctxt "%1=extension like Chat or Whiteboard"
 msgid ""
@@ -2698,30 +2698,30 @@ msgid ""
 "server."
 msgstr ""
 
-#: src/dcc/chat.cpp:357
+#: src/dcc/chat.cpp:358
 #, kde-format
 msgid "Could not open a socket for listening: %1"
 msgstr ""
 
-#: src/dcc/chat.cpp:368
+#: src/dcc/chat.cpp:369
 #, kde-format
 msgctxt "%1=dcc extension like Chat or Whiteboard,%2=partnerNick, %3=port"
 msgid "Offering DCC %1 connection to %2 on port %3..."
 msgstr ""
 
-#: src/dcc/chat.cpp:429
+#: src/dcc/chat.cpp:430
 #, kde-format
 msgctxt "DCC extension"
 msgid "Whiteboard"
 msgstr ""
 
-#: src/dcc/chat.cpp:432
+#: src/dcc/chat.cpp:433
 #, kde-format
 msgctxt "DCC extension"
 msgid "Chat"
 msgstr ""
 
-#: src/dcc/chat.cpp:463
+#: src/dcc/chat.cpp:464
 #, kde-format
 msgctxt ""
 "%1=extension like Chat or Whiteboard ,%2 = nickname, %3 = IP, %4 = port"
@@ -2739,18 +2739,18 @@ msgstr ""
 msgid "Socket error: %1"
 msgstr ""
 
-#: src/dcc/chat.cpp:550
+#: src/dcc/chat.cpp:549
 #, kde-format
 msgid "Could not accept the client."
 msgstr ""
 
-#: src/dcc/chat.cpp:573
+#: src/dcc/chat.cpp:571
 #, kde-format
 msgctxt "%1=dcc extension as Chat or Whiteboard, %2=partnerNick"
 msgid "Established DCC %1 connection to %2."
 msgstr ""
 
-#: src/dcc/chat.cpp:579
+#: src/dcc/chat.cpp:577
 #, kde-format
 msgid "Connection closed."
 msgstr ""
@@ -3298,10 +3298,11 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/dcc/transferpanel.cpp:429
+#: src/dcc/transferpanel.cpp:430
 #, kde-format
-msgid "Execute %1 file"
-msgid_plural "Execute %1 files"
+msgctxt "@action:button"
+msgid "Execute %1 File"
+msgid_plural "Execute %1 Files"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -5024,83 +5025,83 @@ msgid "Channel Topic"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ChannelListWidgetUI)
-#: src/irc/channellistpanel.cpp:138 src/irc/channellistpanelui.ui:14
+#: src/irc/channellistpanel.cpp:143 src/irc/channellistpanelui.ui:14
 #: src/viewer/viewcontainer.cpp:2971 src/viewer/viewcontainer.cpp:2992
 #, kde-format
 msgid "Channel List"
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:155
+#: src/irc/channellistpanel.cpp:160
 #, kde-format
 msgctxt "save list"
 msgid "Save &List..."
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:156
+#: src/irc/channellistpanel.cpp:161
 #, kde-format
 msgid "Click here to save the channel list."
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:157
+#: src/irc/channellistpanel.cpp:162
 #, kde-format
 msgctxt "refresh list"
 msgid "&Refresh List"
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:158
+#: src/irc/channellistpanel.cpp:163
 #, kde-format
 msgid "Click here to refresh the channel list."
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:160
+#: src/irc/channellistpanel.cpp:165
 #, kde-format
 msgctxt "join channel"
 msgid "&Join Channel"
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:161
+#: src/irc/channellistpanel.cpp:166
 #, kde-format
 msgid "Click here to join the channel. A new tab is created for the channel."
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:229 src/irc/channellistpanel.cpp:327
+#: src/irc/channellistpanel.cpp:234 src/irc/channellistpanel.cpp:340
 #, kde-format
 msgid "Refreshing."
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:344
+#: src/irc/channellistpanel.cpp:357
 #, kde-format
 msgid "Channels: %1 (%2 shown)"
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:345
+#: src/irc/channellistpanel.cpp:358
 #, kde-format
 msgid " Non-unique users: %1 (%2 shown)"
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:353
+#: src/irc/channellistpanel.cpp:366
 #, kde-format
 msgid "Save Channel List"
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:385
+#: src/irc/channellistpanel.cpp:398
 #, kde-format
 msgid ""
 "Konversation Channel List: %1 - %2\n"
 "\n"
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:449 src/irc/joinchanneldialog.cpp:30
+#: src/irc/channellistpanel.cpp:462 src/irc/joinchanneldialog.cpp:30
 #, kde-format
 msgid "Join Channel"
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:458
+#: src/irc/channellistpanel.cpp:471
 #, kde-format
 msgid "Open URL"
 msgstr ""
 
-#: src/irc/channellistpanel.cpp:518
+#: src/irc/channellistpanel.cpp:531
 #, kde-format
 msgid "Channel List for %1"
 msgstr ""

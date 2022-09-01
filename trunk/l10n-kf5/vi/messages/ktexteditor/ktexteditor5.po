@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate_part\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-22 00:42+0000\n"
+"POT-Creation-Date: 2022-08-30 00:42+0000\n"
 "PO-Revision-Date: 2022-08-23 00:10+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -2168,12 +2168,12 @@ msgctxt "translators: you can also translate 'Try Again' with 'Reload'"
 msgid "Try Again"
 msgstr "Tải lại"
 
-#: document/katedocument.cpp:2316 document/katedocument.cpp:6491
+#: document/katedocument.cpp:2316 document/katedocument.cpp:6521
 #, kde-format
 msgid "&Close"
 msgstr "Đón&g"
 
-#: document/katedocument.cpp:2317 document/katedocument.cpp:6492
+#: document/katedocument.cpp:2317 document/katedocument.cpp:6522
 #, kde-format
 msgid "Close message"
 msgstr "Đóng thông điệp"
@@ -2344,29 +2344,29 @@ msgstr ""
 msgid "Close Nevertheless"
 msgstr "Vẫn đóng"
 
-#: document/katedocument.cpp:4622
+#: document/katedocument.cpp:4652
 #, kde-format
 msgid "Untitled"
 msgstr "Không tên"
 
-#: document/katedocument.cpp:4745 document/katedocument.cpp:4955
-#: document/katedocument.cpp:4965 document/katedocument.cpp:5706
-#: document/katedocument.cpp:5897
+#: document/katedocument.cpp:4775 document/katedocument.cpp:4985
+#: document/katedocument.cpp:4995 document/katedocument.cpp:5736
+#: document/katedocument.cpp:5927
 #, kde-format
 msgid "Save File"
 msgstr "Lưu tệp"
 
-#: document/katedocument.cpp:4748
+#: document/katedocument.cpp:4778
 #, kde-format
 msgid "Save failed"
 msgstr "Lưu thất bại"
 
-#: document/katedocument.cpp:4976
+#: document/katedocument.cpp:5006
 #, kde-format
 msgid "Save Copy of File"
 msgstr "Lưu bản sao của tệp"
 
-#: document/katedocument.cpp:4988
+#: document/katedocument.cpp:5018
 #, kde-format
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
@@ -2379,7 +2379,7 @@ msgstr ""
 "Hãy kiểm tra rằng bạn có quyền ghi vào tệp này hoặc vẫn còn đủ chỗ trống "
 "trên đĩa."
 
-#: document/katedocument.cpp:5238
+#: document/katedocument.cpp:5268
 #, kde-format
 msgid ""
 "Using deprecated modeline 'remove-trailing-space'. Please replace with "
@@ -2392,7 +2392,7 @@ msgstr ""
 "application=katepart&branch=stable5&path=config-variables.html#variable-"
 "remove-trailing-spaces"
 
-#: document/katedocument.cpp:5244
+#: document/katedocument.cpp:5274
 #, kde-format
 msgid ""
 "Using deprecated modeline 'replace-trailing-space-save'. Please replace with "
@@ -2405,22 +2405,22 @@ msgstr ""
 "application=katepart&branch=stable5&path=config-variables.html#variable-"
 "remove-trailing-spaces"
 
-#: document/katedocument.cpp:5553
+#: document/katedocument.cpp:5583
 #, kde-format
 msgid "The file '%1' was modified on disk."
 msgstr "Tệp '%1' đã bị chỉnh sửa trên đĩa."
 
-#: document/katedocument.cpp:5556
+#: document/katedocument.cpp:5586
 #, kde-format
 msgid "The file '%1' was created on disk."
 msgstr "Tệp '%1' đã được tạo trên đĩa."
 
-#: document/katedocument.cpp:5559
+#: document/katedocument.cpp:5589
 #, kde-format
 msgid "The file '%1' was deleted on disk."
 msgstr "Tệp '%1' đã bị xoá trên đĩa."
 
-#: document/katedocument.cpp:5882
+#: document/katedocument.cpp:5912
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
@@ -2429,17 +2429,17 @@ msgstr ""
 "Tài liệu \"%1\" đã bị chỉnh sửa.\n"
 "Bạn muốn lưu các thay đổi hay loại bỏ chúng?"
 
-#: document/katedocument.cpp:5885
+#: document/katedocument.cpp:5915
 #, kde-format
 msgid "Close Document"
 msgstr "Đóng tài liệu"
 
-#: document/katedocument.cpp:5994
+#: document/katedocument.cpp:6024
 #, kde-format
 msgid "The file <a href=\"%1\">%2</a> is still loading."
 msgstr "Tệp <a href=\"%1\">%2</a> vẫn đang tải."
 
-#: document/katedocument.cpp:5999
+#: document/katedocument.cpp:6029
 #, kde-format
 msgid "&Abort Loading"
 msgstr "Huỷ bỏ &việc tải"
@@ -2862,7 +2862,7 @@ msgstr "văn bản"
 #: script/data/commands/emmet.js:9
 #, kde-format
 msgctxt "Script command name"
-msgid "Expand abbreviation"
+msgid "Expand Abbreviation"
 msgstr "Mở rộng từ viết tắt"
 
 #: script/data/commands/emmet.js:10 script/data/commands/emmet.js:14
@@ -2881,111 +2881,146 @@ msgid "Emmet"
 msgstr "Emmet"
 
 #: script/data/commands/emmet.js:13
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Wrap with tag"
 msgctxt "Script command name"
-msgid "Wrap with tag"
+msgid "Wrap with Tag"
 msgstr "Bao bằng thẻ"
 
 #: script/data/commands/emmet.js:18
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Move cursor to matching tag"
 msgctxt "Script command name"
-msgid "Move cursor to matching tag"
+msgid "Move Cursor to Matching Tag"
 msgstr "Di chuyển con trỏ đến thẻ cùng cặp"
 
 #: script/data/commands/emmet.js:22
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Select HTML/XML tag contents inwards"
 msgctxt "Script command name"
-msgid "Select HTML/XML tag contents inwards"
+msgid "Select HTML/XML Tag Contents Inwards"
 msgstr "Bôi đen nội dung thẻ HTML/XML hướng vào trong"
 
 #: script/data/commands/emmet.js:26
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Select HTML/XML tag contents outwards"
 msgctxt "Script command name"
-msgid "Select HTML/XML tag contents outwards"
+msgid "Select HTML/XML Tag Contents Outwards"
 msgstr "Bôi đen nội dung thẻ HTML/XML hướng ra ngoài"
 
 #: script/data/commands/emmet.js:30
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Toggle Comment"
 msgctxt "Script command name"
-msgid "Toggle comment"
+msgid "Toggle Comment"
 msgstr "Bật/tắt chú thích"
 
 #: script/data/commands/emmet.js:34
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Go to next edit point"
 msgctxt "Script command name"
-msgid "Go to next edit point"
+msgid "Go to Next Edit Point"
 msgstr "Đi đến điểm sửa sau"
 
 #: script/data/commands/emmet.js:38
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Go to previous edit point"
 msgctxt "Script command name"
-msgid "Go to previous edit point"
+msgid "Go to Previous Edit Point"
 msgstr "Đi đến điểm sửa trước"
 
 #: script/data/commands/emmet.js:42
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Select next edit point"
 msgctxt "Script command name"
-msgid "Select next edit point"
+msgid "Select Next Edit Point"
 msgstr "Bôi đen điểm sửa sau"
 
 #: script/data/commands/emmet.js:46
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Select previous edit point"
 msgctxt "Script command name"
-msgid "Select previous edit point"
+msgid "Select Previous Edit Point"
 msgstr "Bôi đen điểm sửa trước"
 
 #: script/data/commands/emmet.js:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Delete tag under cursor"
 msgctxt "Script command name"
-msgid "Delete tag under cursor"
+msgid "Delete Tag Under Cursor"
 msgstr "Xoá thẻ ở vị trí con trỏ"
 
 #: script/data/commands/emmet.js:54
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Split or join a tag"
 msgctxt "Script command name"
-msgid "Split or join a tag"
+msgid "Split or Join a Tag"
 msgstr "Tách hoặc nối một thẻ"
 
 #: script/data/commands/emmet.js:58
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Evaluate a simple math expression"
 msgctxt "Script command name"
-msgid "Evaluate a simple math expression"
+msgid "Evaluate a Simple Math Expression"
 msgstr "Tính một biểu thức toán đơn giản"
 
 #: script/data/commands/emmet.js:62
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Decrement number by 1"
 msgctxt "Script command name"
-msgid "Decrement number by 1"
+msgid "Decrement Number by 1"
 msgstr "Giảm số đi 1"
 
 #: script/data/commands/emmet.js:66
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Decrement number by 10"
 msgctxt "Script command name"
-msgid "Decrement number by 10"
+msgid "Decrement Number by 10"
 msgstr "Giảm số đi 10"
 
 #: script/data/commands/emmet.js:70
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Decrement number by 0.1"
 msgctxt "Script command name"
-msgid "Decrement number by 0.1"
+msgid "Decrement Number by 0.1"
 msgstr "Giảm số đi 0.1"
 
 #: script/data/commands/emmet.js:74
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Increment number by 1"
 msgctxt "Script command name"
-msgid "Increment number by 1"
+msgid "Increment Number by 1"
 msgstr "Tăng số thêm 1"
 
 #: script/data/commands/emmet.js:78
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Increment number by 10"
 msgctxt "Script command name"
-msgid "Increment number by 10"
+msgid "Increment Number by 10"
 msgstr "Tăng số thêm 10"
 
 #: script/data/commands/emmet.js:82
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Increment number by 0.1"
 msgctxt "Script command name"
-msgid "Increment number by 0.1"
+msgid "Increment Number by 0.1"
 msgstr "Tăng số thêm 0.1"
 
 #: script/data/commands/emmet.js:96
@@ -3098,9 +3133,11 @@ msgid "Increment number under cursor by 0.1"
 msgstr "Tăng số ở vị trí con trỏ thêm 0.1"
 
 #: script/data/commands/jumpMatchingIndent.js:9
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Move cursor to previous matching indent"
 msgctxt "Script command name"
-msgid "Move cursor to previous matching indent"
+msgid "Move Cursor to Previous Matching Indent"
 msgstr "Di chuyển con trỏ đến dòng trước có cùng độ thụt lề"
 
 #: script/data/commands/jumpMatchingIndent.js:11
@@ -3111,9 +3148,11 @@ msgid "Navigation"
 msgstr "Điều hướng"
 
 #: script/data/commands/jumpMatchingIndent.js:14
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Script command name"
+#| msgid "Move cursor to next matching indent"
 msgctxt "Script command name"
-msgid "Move cursor to next matching indent"
+msgid "Move Cursor to Next Matching Indent"
 msgstr "Di chuyển con trỏ đến dòng sau có cùng độ thụt lề"
 
 #: script/data/commands/jumpMatchingIndent.js:44
@@ -4117,8 +4156,9 @@ msgid "I&gnore All"
 msgstr "Bỏ &qua tất cả"
 
 #: spellcheck/spellcheckdialog.cpp:51
-#, kde-format
-msgid "Spelling (from cursor)..."
+#, fuzzy, kde-format
+#| msgid "Spelling (from cursor)..."
+msgid "Spelling (from Cursor)..."
 msgstr "Đánh vần (từ con trỏ)..."
 
 #: spellcheck/spellcheckdialog.cpp:54
@@ -6497,8 +6537,9 @@ msgid "Paste previously mouse selection contents"
 msgstr "Dán nội dung phần bôi đen từ trước bằng chuột"
 
 #: view/kateview.cpp:474
-#, kde-format
-msgid "Swap with clipboard contents"
+#, fuzzy, kde-format
+#| msgid "Swap with clipboard contents"
+msgid "Swap with Clipboard Contents"
 msgstr "Hoán đổi với nội dung bảng nháp"
 
 #: view/kateview.cpp:475
@@ -6882,8 +6923,9 @@ msgstr ""
 "bôi đen khối."
 
 #: view/kateview.cpp:723
-#, kde-format
-msgid "Switch to next Input Mode"
+#, fuzzy, kde-format
+#| msgid "Switch to next Input Mode"
+msgid "Switch to Next Input Mode"
 msgstr "Chuyển sang chế độ nhập sau"
 
 #: view/kateview.cpp:725
@@ -7228,8 +7270,9 @@ msgid "Adds a caret in the line above the current caret."
 msgstr "Thêm một dấu nháy vào dòng ở trên dấu nháy hiện tại."
 
 #: view/kateview.cpp:915
-#, kde-format
-msgid "Toggle camel case cursor movement"
+#, fuzzy, kde-format
+#| msgid "Toggle camel case cursor movement"
+msgid "Toggle Camel Case Cursor Movement"
 msgstr "Bật/tắt cách di chuyển con trỏ theo kiểu lạc đà"
 
 #: view/kateview.cpp:916
@@ -7239,7 +7282,13 @@ msgstr ""
 "Chuyển đổi giữa cách di chuyển theo từ thông thường và cách di chuyển con "
 "trỏ theo kiểu lạc đà."
 
-#: view/kateview.cpp:920 view/kateview.cpp:921
+#: view/kateview.cpp:920
+#, fuzzy, kde-format
+#| msgid "Remove cursors from empty lines"
+msgid "Remove Cursors from Empty Lines"
+msgstr "Bỏ con trỏ khỏi các dòng trống"
+
+#: view/kateview.cpp:921
 #, kde-format
 msgid "Remove cursors from empty lines"
 msgstr "Bỏ con trỏ khỏi các dòng trống"
@@ -7519,8 +7568,9 @@ msgstr ""
 "hay số."
 
 #: view/kateview.cpp:1241
-#, kde-format
-msgid "Insert a non-indented Newline"
+#, fuzzy, kde-format
+#| msgid "Insert a non-indented Newline"
+msgid "Insert a Non-Indented Newline"
 msgstr "Chèn một dòng mới không thụt lề"
 
 #: view/kateview.cpp:1242
@@ -8101,15 +8151,19 @@ msgstr "'%1' %2,  thập lục phân %3,  bát phân %4"
 msgid "Mark not set: %1"
 msgstr "Chỉ dấu không được đặt: %1"
 
+#~ msgctxt "Script command name"
+#~ msgid "Expand abbreviation"
+#~ msgstr "Mở rộng từ viết tắt"
+
+#~ msgctxt "Script command name"
+#~ msgid "Toggle comment"
+#~ msgstr "Bật/tắt chú thích"
+
 #~ msgid "Choo&se Font..."
 #~ msgstr "Chọn &phông chữ..."
 
 #~ msgid "%1, %2pt"
 #~ msgstr "%1, %2pt"
-
-#~ msgctxt "Script command name"
-#~ msgid "Expand Abbreviation"
-#~ msgstr "Mở rộng từ viết tắt"
 
 #~ msgctxt "Script command category"
 #~ msgid "Quick Coding"
