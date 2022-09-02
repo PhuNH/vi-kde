@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-09-02 00:47+0000\n"
-"PO-Revision-Date: 2022-08-10 22:17+0200\n"
+"PO-Revision-Date: 2022-09-02 17:53+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -64,7 +64,7 @@ msgid "Longitude:"
 msgstr "Kinh độ:"
 
 #: package/contents/ui/main.qml:81
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Night Color makes the colors on the screen warmer to reduce eye strain at "
 #| "the time of your choosing."
@@ -72,26 +72,26 @@ msgid ""
 "The blue light filter makes the colors on the screen warmer to reduce eye "
 "strain."
 msgstr ""
-"\"Màu buổi tối\" khiến màu trên màn hình ấm hơn giúp giảm căng thẳng cho mắt "
-"trong khoảng thời gian do bạn chọn."
+"Bộ lọc ánh sáng lam khiến màu trên màn hình ấm hơn giúp giảm căng thẳng cho "
+"mắt."
 
 #: package/contents/ui/main.qml:90
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Activate Night Color"
 msgid "Activate blue light filter"
-msgstr "Kích hoạt \"Màu buổi tối\""
+msgstr "Kích hoạt bộ lọc ánh sáng lam"
 
 #: package/contents/ui/main.qml:109
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Night Color Temperature:"
 msgid "Day color temperature:"
-msgstr "Nhiệt độ màu buổi tối:"
+msgstr "Nhiệt độ màu ban ngày:"
 
 #: package/contents/ui/main.qml:129
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "This is what Night Color will look like when active."
 msgid "This is what day color temperature will look like when active."
-msgstr "Màu buổi tối sẽ trông như thế này khi hoạt động."
+msgstr "Nhiệt độ màu ban ngày sẽ trông như thế này khi hoạt động."
 
 #: package/contents/ui/main.qml:147 package/contents/ui/main.qml:201
 #, kde-format
@@ -112,46 +112,46 @@ msgid "Cool"
 msgstr "Mát"
 
 #: package/contents/ui/main.qml:163
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Night Color Temperature:"
 msgid "Night color temperature:"
 msgstr "Nhiệt độ màu buổi tối:"
 
 #: package/contents/ui/main.qml:183
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "This is what Night Color will look like when active."
 msgid "This is what night color temperature will look like when active."
-msgstr "Màu buổi tối sẽ trông như thế này khi hoạt động."
+msgstr "Nhiệt độ màu buổi tối sẽ trông như thế này khi hoạt động."
 
 #: package/contents/ui/main.qml:248
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Activation time:"
 msgid "Switching times:"
-msgstr "Thời gian kích hoạt:"
+msgstr "Thời điểm chuyển:"
 
 #: package/contents/ui/main.qml:251
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Sunset to sunrise at current location"
 msgid "Sunset and sunrise at current location"
-msgstr "Hoàng hôn đến bình minh ở địa điểm hiện tại"
+msgstr "Hoàng hôn và bình minh ở địa điểm hiện tại"
 
 #: package/contents/ui/main.qml:252
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Sunset to sunrise at manual location"
 msgid "Sunset and sunrise at manual location"
-msgstr "Hoàng hôn đến bình minh ở địa điểm tự chọn"
+msgstr "Hoàng hôn và bình minh ở địa điểm tự chọn"
 
 #: package/contents/ui/main.qml:253
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Custom time"
 msgid "Custom times"
-msgstr "Thời gian tự chọn"
+msgstr "Thời điểm tự chọn"
 
 #: package/contents/ui/main.qml:254
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Always on"
 msgid "Always on night color"
-msgstr "Luôn bật"
+msgstr "Luôn dùng màu buổi tối"
 
 #: package/contents/ui/main.qml:295
 #, kde-kuit-format
@@ -173,7 +173,7 @@ msgstr "Vĩ độ: %1°   Kinh độ: %2°"
 #: package/contents/ui/main.qml:325
 #, kde-format
 msgid "Begin night color at:"
-msgstr ""
+msgstr "Bắt đầu màu buổi tối vào:"
 
 #: package/contents/ui/main.qml:338 package/contents/ui/main.qml:361
 #, kde-format
@@ -183,7 +183,7 @@ msgstr "Định dạng nhập: GG:PP"
 #: package/contents/ui/main.qml:348
 #, kde-format
 msgid "Begin day color at:"
-msgstr ""
+msgstr "Bắt đầu màu ban ngày vào:"
 
 #: package/contents/ui/main.qml:370
 #, kde-format
@@ -213,20 +213,24 @@ msgid "Locating…"
 msgstr "Đang định vị…"
 
 #: package/contents/ui/TimingsView.qml:32
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Night Color begins changing at %1 and is fully changed by %2"
 msgid ""
 "Color temperature begins changing to night time at %1 and is fully changed "
 "by %2"
-msgstr "Màu buổi tối bắt đầu thay đổi lúc %1 và thay đổi hoàn toàn lúc %2"
+msgstr ""
+"Nhiệt độ màu bắt đầu thay đổi sang buổi tối lúc %1 và thay đổi hoàn toàn lúc "
+"%2"
 
 #: package/contents/ui/TimingsView.qml:39
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Night Color begins changing at %1 and is fully changed by %2"
 msgid ""
 "Color temperature begins changing to day time at %1 and is fully changed by "
 "%2"
-msgstr "Màu buổi tối bắt đầu thay đổi lúc %1 và thay đổi hoàn toàn lúc %2"
+msgstr ""
+"Nhiệt độ màu bắt đầu thay đổi sang ban ngày lúc %1 và thay đổi hoàn toàn lúc "
+"%2"
 
 #~ msgid "Turn on at:"
 #~ msgstr "Bật vào lúc:"
