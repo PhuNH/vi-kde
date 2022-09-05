@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-26 00:47+0000\n"
-"PO-Revision-Date: 2022-09-02 22:52+0200\n"
+"PO-Revision-Date: 2022-09-05 11:45+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -2807,7 +2807,7 @@ msgstr "Huỷ cắt"
 #, kde-format
 msgctxt "@info explaining the next step in a process"
 msgid "Select the files and folders that should be permanently deleted."
-msgstr "Chọn các tệp và thư mục mà bạn muốn xoá hẳn."
+msgstr "Chọn các tệp và thư mục mà bạn muốn xoá hoàn toàn."
 
 #. i18n: Aborts the current step-by-step process to delete files by leaving the selection mode.
 #. i18n: Aborts the current step-by-step process of moving files to the trash by leaving the selection mode.
@@ -2899,13 +2899,15 @@ msgid ""
 "Select the file or folder that should be renamed.\n"
 "Bulk renaming is possible when multiple items are selected."
 msgstr ""
+"Chọn tệp hoặc thư mục mà bạn muốn đổi tên.\n"
+"Có thể đổi tên hàng loạt khi nhiều thứ đang được chọn."
 
 #. i18n: Aborts the current step-by-step process to delete files by leaving the selection mode.
 #: selectionmode/bottombarcontentscontainer.cpp:425
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel Renaming"
-msgstr ""
+msgstr "Huỷ đổi tên"
 
 #. i18n: A more elaborate and clearly worded version of the Copy action
 #. %2 is a textual representation of the currently selected files or folders. This can be the name of
@@ -2917,7 +2919,7 @@ msgstr ""
 msgctxt "@action"
 msgid "Copy %2 to the Clipboard"
 msgid_plural "Copy %2 to the Clipboard"
-msgstr[0] ""
+msgstr[0] "Chép %2 vào bảng nháp"
 
 #. i18n: A more elaborate and clearly worded version of the Copy Location action
 #. %2 is a textual representation of the currently selected files or folders. This can be the name of
@@ -2929,7 +2931,7 @@ msgstr[0] ""
 msgctxt "@action"
 msgid "Copy the Location of %2 to the Clipboard"
 msgid_plural "Copy the Location of %2 to the Clipboard"
-msgstr[0] ""
+msgstr[0] "Chép địa điểm của %2 vào bảng nháp"
 
 #. i18n: A more elaborate and clearly worded version of the Cut action
 #. %2 is a textual representation of the currently selected files or folders. This can be the name of
@@ -2941,7 +2943,7 @@ msgstr[0] ""
 msgctxt "@action"
 msgid "Cut %2 to the Clipboard"
 msgid_plural "Cut %2 to the Clipboard"
-msgstr[0] ""
+msgstr[0] "Cắt %2 vào bảng nháp"
 
 #. i18n: A more elaborate and clearly worded version of the Delete action
 #. %2 is a textual representation of the currently selected files or folders. This can be the name of
@@ -2953,7 +2955,7 @@ msgstr[0] ""
 msgctxt "@action"
 msgid "Permanently Delete %2"
 msgid_plural "Permanently Delete %2"
-msgstr[0] ""
+msgstr[0] "Xoá hoàn toàn %2"
 
 #. i18n: A more elaborate and clearly worded version of the Duplicate action
 #. %2 is a textual representation of the currently selected files or folders. This can be the name of
@@ -2961,13 +2963,13 @@ msgstr[0] ""
 #. If this sort of word puzzle can not be correctly translated in your language, translate it as "NULL" (without the quotes)
 #. and a fallback will be used.
 #: selectionmode/bottombarcontentscontainer.cpp:603
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu File"
 #| msgid "Duplicate Here"
 msgctxt "@action"
 msgid "Duplicate %2"
 msgid_plural "Duplicate %2"
-msgstr[0] "Tạo bản sao tại đây"
+msgstr[0] "Nhân đôi %2"
 
 #. i18n: A more elaborate and clearly worded version of the Trash action
 #. %2 is a textual representation of the currently selected files or folders. This can be the name of
@@ -2975,13 +2977,13 @@ msgstr[0] "Tạo bản sao tại đây"
 #. If this sort of word puzzle can not be correctly translated in your language, translate it as "NULL" (without the quotes)
 #. and a fallback will be used.
 #: selectionmode/bottombarcontentscontainer.cpp:611
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Move to Trash"
 msgctxt "@action"
 msgid "Move %2 to the Trash"
 msgid_plural "Move %2 to the Trash"
-msgstr[0] "Chuyển vào thùng rác"
+msgstr[0] "Chuyển %2 vào thùng rác"
 
 #. i18n: A more elaborate and clearly worded version of the Rename action
 #. %2 is a textual representation of the currently selected files or folders. This can be the name of
@@ -2989,13 +2991,13 @@ msgstr[0] "Chuyển vào thùng rác"
 #. If this sort of word puzzle can not be correctly translated in your language, translate it as "NULL" (without the quotes)
 #. and a fallback will be used.
 #: selectionmode/bottombarcontentscontainer.cpp:619
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Rename..."
 msgctxt "@action"
 msgid "Rename %2"
 msgid_plural "Rename %2"
-msgstr[0] "Đổi tên..."
+msgstr[0] "Đổi tên %2"
 
 #: selectionmode/topbar.cpp:35
 #, kde-kuit-format
@@ -3010,28 +3012,35 @@ msgid ""
 "para><para>The available action buttons at the bottom change depending on "
 "the current selection.</para>"
 msgstr ""
+"<title>Chế độ chọn</title><para>Chọn các tệp hoặc thư mục để quản lí hoặc "
+"thao tác.<list><item>Nhấn vào một tệp hoặc thư mục để chọn.</item><item>Nhấn "
+"vào một tệp hoặc thư mục đã chọn để bỏ chọn.</item><item>Nhấn vào một vùng "
+"trống sẽ <emphasis>không</emphasis> huỷ bỏ phần chọn.</item><item>Các ô chọn "
+"(tạo ra bằng cách kéo chuột từ một vùng trống) sẽ đảo ngược trạng thái chọn "
+"của các thứ bên trong nó.</item></list></para><para>Các nút hành động khả "
+"dụng ở bên dưới sẽ thay đổi theo phần chọn hiện thời.</para>"
 
 #: selectionmode/topbar.cpp:61
 #, kde-format
 msgctxt "@info label above the view explaining the state"
 msgid "Selection Mode: Click on files or folders to select or deselect them."
-msgstr ""
+msgstr "Chế độ chọn: Bấm vào các tệp hoặc thư mục để chọn hoặc bỏ chọn."
 
 #: selectionmode/topbar.cpp:63
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Selection"
 msgctxt "@info label above the view explaining the state"
 msgid "Selection Mode"
-msgstr "Chọn lựa"
+msgstr "Chế độ chọn"
 
 #: selectionmode/topbar.cpp:69
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Selection"
 msgctxt "@action:button"
 msgid "Exit Selection Mode"
-msgstr "Chọn lựa"
+msgstr "Thoát khỏi chế độ chọn"
 
 #: settings/contextmenu/contextmenusettingspage.cpp:65
 #, kde-format
@@ -3167,7 +3176,7 @@ msgstr "Hiện 'Chép địa điểm' trong trình đơn ngữ cảnh."
 #: settings/dolphin_contextmenusettings.kcfg:38
 #, kde-format
 msgid "Show 'Duplicate Here' in context menu."
-msgstr "Hiện 'Tạo bản sao tại đây' trong trình đơn ngữ cảnh."
+msgstr "Hiện 'Nhân đôi tại đây' trong trình đơn ngữ cảnh."
 
 #. i18n: ectx: label, entry (ShowOpenTerminal), group (ContextMenu)
 #: settings/dolphin_contextmenusettings.kcfg:42
@@ -3496,6 +3505,8 @@ msgid ""
 "Show a bar for easy pasting after a cut or copy was done using the selection "
 "mode bottom bar."
 msgstr ""
+"Hiện một thanh để dễ dàng dán sau khi đã cắt hoặc chép bằng thanh bên dưới "
+"trong chế độ chọn."
 
 #. i18n: ectx: label, entry (UseTabForSwitchingSplitView), group (General)
 #: settings/dolphin_generalsettings.kcfg:91
@@ -4773,7 +4784,7 @@ msgstr "Xoá (dùng lối tắt cho thùng rác)"
 #, kde-format
 msgctxt "@action:inmenu File"
 msgid "Duplicate Here"
-msgstr "Tạo bản sao tại đây"
+msgstr "Nhân đôi tại đây"
 
 #: views/dolphinviewactionhandler.cpp:147
 #, kde-format
@@ -4809,36 +4820,36 @@ msgstr ""
 "Hành động này sẽ chép đường dẫn của thứ đầu tiên được chọn vào bảng nháp."
 
 #: views/dolphinviewactionhandler.cpp:170
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Move to Trash"
 msgctxt "@action:inmenu File"
 msgid "Move to Trash…"
-msgstr "Chuyển vào thùng rác"
+msgstr "Chuyển vào thùng rác…"
 
 #: views/dolphinviewactionhandler.cpp:171
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Delete"
 msgctxt "@action:inmenu File"
 msgid "Delete…"
-msgstr "Xoá"
+msgstr "Xoá…"
 
 #: views/dolphinviewactionhandler.cpp:172
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:inmenu File"
 #| msgid "Duplicate Here"
 msgctxt "@action:inmenu File"
 msgid "Duplicate Here…"
-msgstr "Tạo bản sao tại đây"
+msgstr "Nhân đôi tại đây…"
 
 #: views/dolphinviewactionhandler.cpp:173
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:incontextmenu"
 #| msgid "Copy Location"
 msgctxt "@action:incontextmenu"
 msgid "Copy Location…"
-msgstr "Chép địa điểm"
+msgstr "Chép địa điểm…"
 
 #: views/dolphinviewactionhandler.cpp:202
 #, kde-kuit-format

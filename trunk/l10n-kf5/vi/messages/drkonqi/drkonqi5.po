@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-25 00:48+0000\n"
-"PO-Revision-Date: 2022-08-11 19:36+0200\n"
+"PO-Revision-Date: 2022-09-05 23:25+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
 "Language: vi\n"
@@ -899,17 +899,15 @@ msgstr "Trùng?"
 #: qml/DuplicatesPage.qml:46
 msgctxt "@label"
 msgid "Are you quite certain your crash is a duplicate of this bug report?"
-msgstr ""
+msgstr "Bạn có thật sự chắc chắn sự cố bạn gặp trùng lặp với bản báo lỗi này?"
 
 #: qml/DuplicatesPage.qml:74
-#, fuzzy
 #| msgid "There are no real duplicates"
 msgctxt "@action:button"
 msgid "Crash is a duplicate"
-msgstr "Không có báo cáo trùng thực sự nào"
+msgstr "Sự cố trùng lặp"
 
 #: qml/DuplicatesPage.qml:76
-#, fuzzy
 #| msgctxt "@info:tooltip"
 #| msgid ""
 #| "Use this button to suggest that the crash you experienced is related to "
@@ -919,22 +917,21 @@ msgid ""
 "Use this action when you are certain that your crash is a duplicate of this "
 "bug report"
 msgstr ""
-"Dùng nút này để gợi ý rằng lỗi bạn gặp phải có liên quan tới báo cáo lỗi này"
+"Dùng hành động này khi bạn chắc chắn là sự cố bạn gặp trùng lặp với bản báo "
+"lỗi này"
 
 #: qml/DuplicatesPage.qml:86
-#, fuzzy
 #| msgid "There are no real duplicates"
 msgctxt "@action:button"
 msgid "Crash is not a duplicate"
-msgstr "Không có báo cáo trùng thực sự nào"
+msgstr "Sự cố không trùng lặp"
 
 #: qml/DuplicatesPage.qml:94
 msgctxt "@action:button"
 msgid "Suggest this crash is related"
-msgstr "Gợi ý rằng lỗi này có liên quan"
+msgstr "Đề xuất rằng sự cố này có liên quan"
 
 #: qml/DuplicatesPage.qml:96
-#, fuzzy
 #| msgctxt "@info:tooltip"
 #| msgid ""
 #| "Use this button to suggest that the crash you experienced is related to "
@@ -946,15 +943,16 @@ msgid ""
 "this bug\n"
 "                                     report"
 msgstr ""
-"Dùng nút này để gợi ý rằng lỗi bạn gặp phải có liên quan tới báo cáo lỗi này"
+"Dùng nút này để đề xuất rằng\n"
+"                                     sự cố bạn gặp có liên quan đến bản báo"
+" lỗi này"
 
 #: qml/DuplicatesPage.qml:108
-#, fuzzy
 #| msgctxt "@action:button"
 #| msgid "Suggest this crash is related"
 msgctxt "@action:button"
 msgid "This crash is not related"
-msgstr "Gợi ý rằng lỗi này có liên quan"
+msgstr "Sự cố này không liên quan"
 
 #: qml/LoginPage.qml:15
 msgctxt "@title"
@@ -962,17 +960,16 @@ msgid "Login into the bug tracking system"
 msgstr "Đăng nhập vào hệ thống theo dõi lỗi"
 
 #: qml/LoginPage.qml:67
-#, fuzzy
 #| msgctxt "@info:status '1' is replaced with \"bugs.kde.org\""
 #| msgid "You need to login with your %1 account in order to proceed."
 msgctxt "@info:status '1' is replaced with the short URL of the bugzilla "
 msgid "You need to login with your %1 account in order to proceed."
-msgstr "Bạn cần đăng nhập với danh khoản %1 của bạn để tiếp tục."
+msgstr "Bạn cần đăng nhập bằng danh khoản %1 của bạn để tiếp tục."
 
 #: qml/LoginPage.qml:72
 msgctxt "@label:textbox bugzilla account email"
 msgid "E-mail Address:"
-msgstr ""
+msgstr "Địa chỉ thư điện tử:"
 
 #: qml/LoginPage.qml:76
 msgctxt "@label:textbox bugzilla account password"
@@ -982,10 +979,9 @@ msgstr "Mật khẩu:"
 #: qml/LoginPage.qml:81
 msgctxt "@option:check"
 msgid "Save login information using the KDE Wallet system"
-msgstr "Lưu thông tin đăng nhập vào hệ thống KDE Wallet"
+msgstr "Lưu thông tin đăng nhập bằng hệ thống Ví KDE"
 
 #: qml/LoginPage.qml:88
-#, fuzzy
 #| msgctxt "@info/rich"
 #| msgid ""
 #| "<note>You need a user account on the <link url='%1'>KDE bug tracking "
@@ -1002,11 +998,11 @@ msgid ""
 "<link url='%2'>create one here</link>. Please do not use disposable email "
 "accounts.</note>"
 msgstr ""
-"<note>Bạn cần một danh khoản người dùng trên <link url='%1'>hệ thống theo "
-"dõi lỗi KDE</link> để tiếp tục gửi báo cáo lỗi bởi vì chúng tôi có thể cần "
-"liên hệ với bạn sau để yêu cầu thêm thông tin. Nếu bạn chưa có danh khoản, "
-"bạn có thể tạo <link url='%2'>tại đây</link>. Đừng dùng các danh khoản thư "
-"điện tử có thể bỏ đi của bạn.</note>"
+"<note>Bạn cần một danh khoản người dùng trong <link url='%1'>hệ thống theo "
+"dõi lỗi của KDE</link> để gửi báo cáo lỗi, vì chúng tôi có thể sẽ cần liên "
+"hệ với bạn\n"
+"để yêu cầu thêm thông tin. Nếu chưa có, bạn có thể thoải mái <link url='%2'>"
+"tạo một cái tại đây</link>. Đừng dùng các danh khoản thư dùng tạm.</note>"
 
 #: qml/LoginPage.qml:101
 msgctxt "@action:button"
@@ -1014,7 +1010,6 @@ msgid "Login"
 msgstr "Đăng nhập"
 
 #: qml/LoginPage.qml:102
-#, fuzzy
 #| msgctxt "@info:tooltip"
 #| msgid ""
 #| "Use this button to login to the KDE bug tracking system using the "
@@ -1024,24 +1019,22 @@ msgid ""
 "Use this button to login to the KDE bug tracking system using the provided e-"
 "mail address and password."
 msgstr ""
-"Dùng nút này để đăng nhập vào hệ thống theo dõi lỗi KDE sử dụng tên đăng "
-"nhập và mật khẩu đã tạo."
+"Dùng nút này để đăng nhập vào hệ thống theo dõi lỗi của KDE bằng địa chỉ thư "
+"điện tử và mật khẩu đã cho."
 
 #: qml/MainPage.qml:20
-#, fuzzy
 #| msgctxt "@action:button"
 #| msgid "Report Bug"
 msgctxt "@action"
 msgid "Report Bug"
-msgstr "Báo cáo lỗi"
+msgstr "Báo lỗi"
 
 #: qml/MainPage.qml:22
 msgctxt "@info:tooltip"
 msgid "Starts the bug report assistant."
-msgstr "Bắt đầu trợ tá báo cáo lỗi."
+msgstr "Khởi động trợ tá báo lỗi."
 
 #: qml/MainPage.qml:29
-#, fuzzy
 #| msgctxt "@action:button"
 #| msgid "Restart Application"
 msgctxt "@action"
@@ -1049,15 +1042,13 @@ msgid "Restart Application"
 msgstr "Khởi động lại ứng dụng"
 
 #: qml/MainPage.qml:35
-#, fuzzy
 #| msgctxt "@title:tab"
 #| msgid "&Developer Information"
 msgctxt "@action"
 msgid "Developer Information"
-msgstr "&Thông tin nhà phát triển"
+msgstr "Thông tin nhà phát triển"
 
 #: qml/MainPage.qml:63
-#, fuzzy
 #| msgctxt "@info"
 #| msgid ""
 #| "<para>As the Crash Handler itself has failed, the automatic reporting "
@@ -1075,13 +1066,14 @@ msgid ""
 "the backtrace from the <interface>Developer Information</interface>\n"
 "tab.</para>"
 msgstr ""
-"<para>Vì Trình xử lí lỗi đã tự thoát, tiến trình báo cáo lỗi tự động đã bị "
-"tắt để giảm nguy cơ thất bại một lần nữa.<nl /><nl />Hãy báo cáo bằng tay "
-"lỗi này cho sản phẩm \"drkonqi\" tại %1. Đừng quên kèm theo backtrace trong "
-"thẻ Thông tin nhà phát triển.</para>"
+"<para>Vì bản thân trình xử lí sự cố đã bị hỏng, tiến\n"
+"trình báo cáo tự động đã bị tắt để giảm nguy cơ hỏng\n"
+"một lần nữa.<nl /><nl />\n"
+"Vui lòng <link url='%1'>báo cáo thủ công</link> lỗi này\n"
+"đến hệ thống theo dõi lỗi của KDE. Đừng quên kèm theo\n"
+"vết ngăn xếp trong thẻ <interface>Thông tin nhà phát triển</interface>.</para>"
 
 #: qml/MainPage.qml:75
-#, fuzzy
 #| msgctxt "@info"
 #| msgid ""
 #| "<para>The reporting assistant is disabled because the crash handler "
@@ -1094,9 +1086,10 @@ msgid ""
 "You can manually report this bug to <link>%1</link> (including the backtrace "
 "from the <interface>Developer Information</interface> tab.)</para>"
 msgstr ""
-"<para>Trợ tá báo cáo đã bị tắt vì hộp thoại trình xử lí lỗi được khởi động "
-"trong chế độ an toàn.<nl />Bạn có thể tự báo cáo lỗi này tới %1 (kèm theo "
-"backtrace từ thẻ Thông tin nhà phát triển.)</para>"
+"<para>Trợ tá báo cáo đã bị tắt vì hộp thoại trình xử lí sự cố được khởi động "
+"trong chế độ an toàn.<nl />\n"
+"Bạn có thể báo cáo thủ công lỗi này đến <link>%1</link> (kèm theo vết ngăn "
+"xếp trong thẻ <interface>Thông tin nhà phát triển</interface>.)</para>"
 
 #: qml/MainPage.qml:82
 msgctxt "@info"
@@ -1109,9 +1102,15 @@ msgid ""
 "in to make sure the update is fully applied and will not cause\n"
 "any side effects.</para>"
 msgstr ""
+"<para>Trợ tá báo cáo đã bị tắt vì ứng dụng gặp sự cố\n"
+"có vẻ đã được cập nhật hoặc gỡ cài đặt sau khi nó được\n"
+"khởi động. Việc này ngăn cản sự báo cáo chính xác về\n"
+"sự cố và cũng có thể chính là nguyên nhân của sự cố này.</para>\n"
+"<para>Sau khi cập nhật, nên đăng xuất rồi đăng nhập lại để\n"
+"đảm bảo rằng bản cập nhật được áp dụng đầy đủ và không\n"
+"gây ra hiệu ứng phụ nào.</para>"
 
 #: qml/MainPage.qml:108
-#, fuzzy
 #| msgctxt "@info"
 #| msgid ""
 #| "<para>Executable: <application>%1</application> PID: <numid>%2</numid> "
@@ -1121,19 +1120,17 @@ msgid ""
 "<para>Executable: <application>%1</application> PID: %2 Signal: %3 (%4) "
 "Time: %5</para>"
 msgstr ""
-"<para>Tệp thực thi: <application>%1</application> PID: <numid>%2</numid> Tín "
-"hiệu: %3 (%4)</para>"
+"<para>Tệp thực thi: <application>%1</application> PID: %2 Tín hiệu: %3 (%4) "
+"Thời gian: %5</para>"
 
 #: qml/PerfectDuplicatePage.qml:14
-#, fuzzy
 #| msgctxt "@info"
 #| msgid "Your problem has already been reported as bug <numid>%1</numid>."
 msgctxt "@title"
 msgid "Problem is Already Reported"
-msgstr "Vấn đề của bạn đã được báo cáo qua lỗi <numid>%1</numid>."
+msgstr "Vấn đề đã được báo cáo rồi"
 
 #: qml/PerfectDuplicatePage.qml:29
-#, fuzzy
 #| msgctxt "@label"
 #| msgid ""
 #| "Your crash has already been reported as <a href=\"%1\">Bug %1</a>, which "
@@ -1144,11 +1141,11 @@ msgid ""
 "which is a duplicate of the <emphasis strong='true'>closed</emphasis> <link "
 "url=\"%2\">Bug %2</link>."
 msgstr ""
-"Lỗi này đã được báo cáo là <a href=\"%1\">lỗi %1</a> - là bản trùng của <a "
-"href=\"%2\">lỗi %2</a> đã đóng."
+"Sự cố bạn gặp đã được báo cáo bằng <link url=\"%1\">lỗi %1</link>, trùng lặp "
+"với <link url=\"%2\">lỗi %2</link> <emphasis strong='true'>đã bị đóng<"
+"/emphasis>."
 
 #: qml/PerfectDuplicatePage.qml:34
-#, fuzzy
 #| msgctxt "@label"
 #| msgid ""
 #| "Your crash has already been reported as <a href=\"%1\">Bug %1</a> which "
@@ -1158,11 +1155,10 @@ msgid ""
 "Your crash has already been reported as <link url=\"%1\">Bug %1</link> which "
 "has been <emphasis strong='true'>closed</emphasis>."
 msgstr ""
-"Lỗi của bạn đã được báo cáo là <a href=\"%1\">lỗi %1</a> - lỗi này đã "
-"<strong>đóng</strong>."
+"Sự cố bạn gặp đã được báo cáo bằng <link url=\"%1\">lỗi %1</link> "
+"<emphasis strong='true'>đã bị đóng</emphasis>."
 
 #: qml/PerfectDuplicatePage.qml:39
-#, fuzzy
 #| msgctxt "@label"
 #| msgid ""
 #| "Your crash has already been reported as <a href=\"%1\">Bug %1</a>, which "
@@ -1173,11 +1169,10 @@ msgid ""
 "which is a <emphasis strong='true'>duplicate</emphasis> of <link url="
 "\"%2\">Bug %2</link>"
 msgstr ""
-"Lỗi của bạn đã được báo cáo là <a href=\"%1\">lỗi %1</a> - là <strong>bản "
-"trùng</strong> của <a href=\"%2\">lỗi %2</a>"
+"Sự cố bạn gặp đã được báo cáo bằng <link url=\"%1\">lỗi %1</link>, <emphasis "
+"strong='true'>trùng lặp</emphasis> với <link url=\"%2\">lỗi %2</link>"
 
 #: qml/PerfectDuplicatePage.qml:43
-#, fuzzy
 #| msgctxt "@label"
 #| msgid ""
 #| "Your crash is a <strong>duplicate</strong> and has already been reported "
@@ -1187,8 +1182,8 @@ msgid ""
 "Your crash is a <emphasis strong='true'>duplicate</emphasis> and has already "
 "been reported as <link url=\"%1\">Bug %2</link>."
 msgstr ""
-"Lỗi của bạn là một <strong>bản trùng</strong> và đã được báo cáo là <a href="
-"\"%1\">Lỗi %1</a>."
+"Sự cố bạn gặp <emphasis strong='true'>trùng lặp</emphasis> và đã được báo "
+"cáo bằng <link url=\"%1\">lỗi %2</link>."
 
 #: qml/PerfectDuplicatePage.qml:52
 msgctxt "@label"
@@ -1196,24 +1191,25 @@ msgid ""
 "You may choose to add additional information, but you should only do so if "
 "you have new or requested information."
 msgstr ""
+"Bạn có thể chọn nhập thông tin bổ sung, nhưng chỉ nên làm vậy nếu bạn có "
+"thông tin mới hoặc được yêu cầu."
 
 #: qml/PerfectDuplicatePage.qml:60
 msgctxt "@action:button"
 msgid "Close"
-msgstr ""
+msgstr "Đóng"
 
 #: qml/PerfectDuplicatePage.qml:65
 msgctxt "@action:button"
 msgid "Attach Additional Information"
-msgstr ""
+msgstr "Kèm thông tin bổ sung"
 
 #: qml/PreviewPage.qml:14
 msgctxt "@title"
 msgid "Preview the Report"
-msgstr "Xem trước báo cáo"
+msgstr "Xem thử báo cáo"
 
 #: qml/PreviewPage.qml:20
-#, fuzzy
 #| msgctxt "@label"
 #| msgid ""
 #| "This is a preview of the report's contents which will be sent. <nl />\n"
@@ -1223,44 +1219,41 @@ msgid ""
 "<para>This is a preview of the report's contents which will be sent.</"
 "para><para>If you want to modify it go to the previous pages.</para>"
 msgstr ""
-"Đây là xem trước của nội dung báo cáo sẽ được gửi.<nl />\n"
-"Nếu bạn muốn thay đổi nó hãy trở về các trang trước."
+"<para>Đây là bản xem thử nội dung của báo cáo sẽ được gửi đi.</"
+"para><para>Nếu bạn muốn chỉnh sửa, hãy quay về các trang trước.</para>"
 
 #: qml/PreviewPage.qml:38
 msgctxt "@action:button"
 msgid "Submit"
-msgstr ""
+msgstr "Gửi"
 
 #: qml/RatingItem.qml:33
 msgctxt "@info"
 msgid "Waiting for data…"
-msgstr ""
+msgstr "Đang chờ dữ liệu…"
 
 #: qml/ReportPage.qml:15
 msgctxt "@title"
 msgid "Enter the Details about the Crash"
-msgstr "Nhập chi tiết về lỗi"
+msgstr "Nhập chi tiết về sự cố"
 
 #: qml/ReportPage.qml:26
-#, fuzzy
 #| msgctxt "@label question"
 #| msgid ""
 #| "<strong>Please select which additional information you can provide:</"
 #| "strong>"
 msgctxt "@info"
 msgid "Please provide the following information in English."
-msgstr "<strong>Hãy chọn thông tin thêm nào bạn có thể cung cấp:</strong>"
+msgstr "Vui lòng cung cấp các thông tin sau bằng tiếng Anh."
 
 #: qml/ReportPage.qml:35
-#, fuzzy
 #| msgctxt "@title:window"
 #| msgid "Contents of the Report"
 msgctxt "@info"
 msgid "Title of the bug report:"
-msgstr "Nội dung báo cáo"
+msgstr "Tiêu đề bản báo lỗi:"
 
 #: qml/ReportPage.qml:40
-#, fuzzy
 #| msgctxt "@info:tooltip examples of good bug report titles"
 #| msgid ""
 #| "<strong>Examples of good titles:</strong><nl />\"Plasma crashed after "
@@ -1281,19 +1274,22 @@ msgid ""
 "couple of times</item>\n"
 "</list>"
 msgstr ""
-"<strong>Ví dụ về các tiêu đề tốt:</strong><nl />\"Plasma crashed after "
-"adding the Notes widget and writing on it\"<nl />\"Konqueror crashed when "
-"accessing the Facebook application 'X'\"<nl />\"Kopete suddenly closed after "
-"resuming the computer and talking to a MSN buddy\"<nl />\"Kate closed while "
-"editing a log file and pressing the Delete key a couple of times\""
+"<subtitle>Ví dụ các tiêu đề tốt:</subtitle>\n"
+"<list>\n"
+"<item>Plasma crashed after adding the Notes widget and writing on it</item>\n"
+"<item>Konqueror crashed when accessing the Facebook application 'X'</item>\n"
+"<item>Kopete closed after resuming the computer and talking to a MSN buddy</"
+"item>\n"
+"<item>Kate closed while editing a log file and pressing the Delete key a "
+"couple of times</item>\n"
+"</list>"
 
 #: qml/ReportPage.qml:60
-#, fuzzy
 #| msgctxt "@title"
 #| msgid "Information about bug reporting"
 msgctxt "@info"
 msgid "Information about the crash:"
-msgstr "Thông tin về việc báo cáo lỗi"
+msgstr "Thông tin về sự cố:"
 
 #: qml/ReportPage.qml:65
 msgctxt "@info"
@@ -1308,6 +1304,14 @@ msgid ""
 "<item>Note any non-default configuration in the application</item>\n"
 "</list>"
 msgstr ""
+"<subtitle>Mô tả chi tiết nhất có thể về hoàn cảnh xảy ra sự cố:</subtitle>\n"
+"<list>\n"
+"<item>Trình bày các hành động bạn đang thực hiện trong và ngoài ứng dụng "
+"ngay trước khi xảy ra sự cố.</item>\n"
+"<item>Ghi lại bạn có nhận thấy hành vi nào bất thường trong ứng dụng hoặc "
+"trong toàn bộ môi trường.</item>\n"
+"<item>Ghi lại bất kì cấu hình nào không phải mặc định trong ứng dụng</item>\n"
+"</list>"
 
 #: qml/ReportPage.qml:79
 msgctxt "the minimum required length of a text was reached"
@@ -1320,7 +1324,6 @@ msgid "Provide more information"
 msgstr "Cung cấp thêm thông tin"
 
 #: qml/ReportPage.qml:103
-#, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Distribution method:"
 msgctxt "@info"
@@ -1328,7 +1331,6 @@ msgid "Distribution method:"
 msgstr "Phương pháp phân phối:"
 
 #: qml/ReportPage.qml:126
-#, fuzzy
 #| msgctxt "@option:check"
 #| msgid "KDE Platform is compiled from sources"
 msgctxt "@option:check"
@@ -1336,7 +1338,6 @@ msgid "KDE Platform is compiled from source"
 msgstr "Nền tảng KDE được biên dịch từ nguồn"
 
 #: qml/ReportPage.qml:134
-#, fuzzy
 #| msgctxt "@info/rich"
 #| msgid ""
 #| "<note>The crash and system information will be automatically added to the "
@@ -1346,70 +1347,64 @@ msgid ""
 "<note>The crash and system information will be automatically added to the "
 "bug report.</note>"
 msgstr ""
-"<note>Thông tin về hệ thống và lỗi sẽ được tự động thêm vào báo cáo lỗi.</"
+"<note>Thông tin về sự cố và hệ thống sẽ được tự động thêm vào bản báo lỗi.</"
 "note>"
 
 #: qml/ReportPage.qml:143
-#, fuzzy
 #| msgctxt "@title"
 #| msgid "Preview the Report"
 msgctxt "@action:button"
 msgid "Preview Report"
-msgstr "Xem trước báo cáo"
+msgstr "Xem thử báo cáo"
 
 #: qml/SendingPage.qml:45
-#, fuzzy
 #| msgctxt "@action:button"
 #| msgid "&Save to File..."
 msgctxt "@action:button"
 msgid "Save Report to File"
-msgstr "&Lưu thành tệp..."
+msgstr "Lưu báo cáo vào tệp"
 
 #: qml/SendingPage.qml:46
-#, fuzzy
 #| msgctxt "@info:tooltip"
 #| msgid "Use this button to view the information of the selected bug report."
 msgctxt "@info:tooltip"
 msgid ""
 "Use this button to save the crash information to a file for manual reporting."
-msgstr "Dùng nút này để xem thông tin của báo cáo đã chọn."
+msgstr ""
+"Dùng nút này để lưu thông tin về sự cố vào một tệp để báo cáo thủ công."
 
 #: qml/SendingPage.qml:63
-#, fuzzy
 #| msgctxt "@info:status"
 #| msgid "Error sending the crash report:  <message>%1.</message>"
 msgctxt "@info"
 msgid "Failed to submit bug report: <message>%1</message>"
-msgstr "Lỗi khi đang gửi báo cáo: <message>%1.</message>"
+msgstr "Gửi bản báo lỗi thất bại: <message>%1</message>"
 
 #: qml/SendingPage.qml:67
 msgctxt "@action retry submitting bug report"
 msgid "Retry Submission"
-msgstr ""
+msgstr "Thử gửi lại"
 
 #: qml/SendingPage.qml:81
 msgctxt "@info"
 msgid "Submitting bug report..."
-msgstr ""
+msgstr "Đang gửi bản báo lỗi..."
 
 #: qml/SentPage.qml:12
-#, fuzzy
 #| msgctxt "@title:window"
 #| msgid "Crash Reporting Assistant"
 msgctxt "@title"
 msgid "Crash Report Sent"
-msgstr "Trợ tá báo cáo lỗi"
+msgstr "Đã gửi báo cáo sự cố"
 
 #: qml/SentPage.qml:18
-#, fuzzy
 #| msgctxt "@info"
 #| msgid "<link url='%1'>Report's webpage</link>"
 msgctxt "@info"
 msgid "URL: <link url='%1'>%1</link>"
-msgstr "<link url='%1'>Trang web báo cáo</link>"
+msgstr "URL: <link url='%1'>%1</link>"
 
 #: qml/SentPage.qml:23
-#, fuzzy
 #| msgctxt "@info/rich"
 #| msgid ""
 #| "Crash report sent.<nl/>URL: <link>%1</link><nl/>Thank you for being part "
@@ -1417,19 +1412,16 @@ msgstr "<link url='%1'>Trang web báo cáo</link>"
 msgctxt "@info"
 msgid "Thank you for being part of KDE. You can now close this window."
 msgstr ""
-"Đã gửi báo cáo lỗi.<nl />URL: <link>%1</link><nl />Cám ơn bạn vì đã tham gia "
-"đóng góp cho KDE. Giờ bạn có thể đóng cửa sổ này."
+"Cảm ơn bạn đã tham gia đóng góp cho KDE. Giờ bạn có thể đóng cửa sổ này."
 
 #: qml/WelcomePage.qml:14
-#, fuzzy
 #| msgctxt "@title"
 #| msgid "Welcome to the Reporting Assistant"
 msgctxt "@title:window"
 msgid "Welcome to the Reporting Assistant"
-msgstr "Chào mừng đến với trợ tá báo cáo"
+msgstr "Chào mừng đến với Trợ tá báo cáo"
 
 #: qml/WelcomePage.qml:19
-#, fuzzy
 #| msgctxt "@info"
 #| msgid ""
 #| "This assistant will analyze the crash information and guide you through "
@@ -1439,11 +1431,10 @@ msgid ""
 "This assistant will analyze the crash information and guide you through the "
 "bug reporting process."
 msgstr ""
-"Trợ tá này sẽ phân tích thông tin lỗi và hướng dẫn bạn qua tiến trình báo "
-"cáo lỗi."
+"Trợ tá này sẽ phân tích thông tin về sự cố và hướng dẫn bạn trong quá trình "
+"báo lỗi."
 
 #: qml/WelcomePage.qml:32
-#, fuzzy
 #| msgctxt "@info note before starting the bug reporting process"
 #| msgid ""
 #| "<p><note>Since communication between you and the developers is required "
@@ -1459,27 +1450,29 @@ msgid ""
 "</note></para><para>Feel free to close this dialog if you do not accept this."
 "</para>"
 msgstr ""
-"<p><note>Do liên hệ giữa bạn và các nhà phát triển là cần thiết để gỡ lỗi "
-"được hiệu quả, để tiếp tục báo cáo lỗi này <strong>bạn cần phải đồng ý rằng "
-"các nhà phát triển sẽ có thể liên hệ với bạn.</strong></note></p><p>Nếu bạn "
-"không đồng ý bạn hoàn toàn có thể đóng hộp thoại này.</p>"
+"<para><note>Để gỡ lỗi hiệu quả, cần có sự liên lạc giữa bạn và các nhà phát "
+"triển. Do đó, để tiếp tục\n"
+"báo cáo lỗi này, <emphasis strong='true'>bạn cần phải đồng ý rằng các nhà "
+"phát triển có thể sẽ liên hệ với bạn</emphasis>.\n"
+"</note></para><para>Đừng ngại đóng hộp thoại này nếu bạn không chấp nhận "
+"việc này.</para>"
 
 #: qml/WelcomePage.qml:45
 msgctxt "@action:button"
 msgid "I Agree to be Contacted"
-msgstr ""
+msgstr "Tôi đồng ý được liên hệ"
 
 #: qmlextensions/platformmodel.cpp:36
 #, kde-format
 msgctxt "@info/status error"
 msgid "Failed to get platform list"
-msgstr ""
+msgstr "Lấy danh sách nền tảng thất bại"
 
 #: qmlextensions/reproducibilitymodel.cpp:38
 #, kde-format
 msgctxt "@item:inlistbox  user didn't tried to repeat the crash situation"
 msgid "I did not try again"
-msgstr "Tôi không thử lại"
+msgstr "Tôi chưa thử lại"
 
 #: qmlextensions/reproducibilitymodel.cpp:40
 #, kde-format
@@ -1491,7 +1484,7 @@ msgstr "Không bao giờ"
 #, kde-format
 msgctxt "@item:inlistbox the bug can be reproduced sometimes"
 msgid "Sometimes"
-msgstr "Thỉnh thoảng"
+msgstr "Đôi khi"
 
 #: qmlextensions/reproducibilitymodel.cpp:44
 #, kde-format
@@ -1503,61 +1496,59 @@ msgstr "Luôn luôn"
 #, kde-format
 msgctxt "Placeholder is an application name; it crashed"
 msgid "%1 Closed Unexpectedly"
-msgstr ""
+msgstr "%1 đã bất ngờ bị đóng"
 
 #: statusnotifier.cpp:54
 #, kde-format
 msgid "Please report this error to help improve this software."
-msgstr ""
+msgstr "Vui lòng báo lỗi này để giúp cải thiện phần mềm."
 
 #: statusnotifier.cpp:61
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "Report Bug"
 msgid "Report &Bug"
-msgstr "Báo cáo lỗi"
+msgstr "&Báo lỗi"
 
 #: statusnotifier.cpp:67
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "Restart Application"
 msgid "&Restart Application"
-msgstr "Khởi động lại ứng dụng"
+msgstr "&Khởi động lại ứng dụng"
 
 #: statusnotifier.cpp:78
 #, kde-format
 msgctxt "Allows the user to hide this notifier item"
 msgid "Hide"
-msgstr ""
+msgstr "Ẩn"
 
 #: statusnotifier.cpp:98
 #, kde-format
 msgctxt "Notification text"
 msgid "Please report this error to help improve this software."
-msgstr ""
+msgstr "Vui lòng báo lỗi này để giúp cải thiện phần mềm."
 
 #: statusnotifier.cpp:99
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@info"
 #| msgid ""
 #| "<para>We are sorry, <application>%1</application> closed unexpectedly.</"
 #| "para>"
 msgctxt "Notification text"
 msgid "The application closed unexpectedly."
-msgstr ""
-"<para>Chúng tôi rất tiếc, <application>%1</application> đã thoát không mong "
-"đợi.</para>"
+msgstr "Ứng dụng đã bất ngờ bị đóng."
 
 #: statusnotifier.cpp:110
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "Report Bug"
 msgctxt "Notification action button, keep short"
 msgid "Report Bug"
-msgstr "Báo cáo lỗi"
+msgstr "Báo lỗi"
 
 #: statusnotifier.cpp:113
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@action:button"
 #| msgid "Restart Application"
 msgctxt "Notification action button, keep short"
@@ -1567,45 +1558,47 @@ msgstr "Khởi động lại ứng dụng"
 #: tests/backtraceparsertest/backtraceparsertest_manual.cpp:22
 #, kde-format
 msgid "backtraceparsertest_manual"
-msgstr ""
+msgstr "backtraceparsertest_manual"
 
 #: tests/backtraceparsertest/backtraceparsertest_manual.cpp:27
 #, kde-format
 msgid "The debugger name passed to the parser factory"
 msgstr ""
+"Tên trình gỡ lỗi được truyền vào cho nhà máy tạo trình phân tách (parser"
+" factory)"
 
 #: tests/backtraceparsertest/backtraceparsertest_manual.cpp:28
 #, kde-format
 msgid "A file containing the backtrace."
-msgstr ""
+msgstr "Tệp chứa vết ngăn xếp."
 
 #: tests/bugzillalibtest/bugzillalibtest.cpp:118
 #, kde-format
 msgid "BugzillaLib Test (DrKonqi2)"
-msgstr ""
+msgstr "Kiểm thử BugzillaLib (DrKonqi2)"
 
 #: tests/bugzillalibtest/bugzillalibtest.cpp:120
 #, kde-format
 msgid "Test application for bugtracker manager lib"
-msgstr ""
+msgstr "Ứng dụng kiểm thử cho thư viện quản lí trình theo dõi lỗi"
 
 #: tests/bugzillalibtest/bugzillalibtest.cpp:122
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "(C) 2000-2009, The DrKonqi Authors"
 msgid "(c) 2009, DrKonqi2 Developers"
-msgstr "(C) 2000-2009, Các tác giả DrKonqi"
+msgstr "(c) 2009, Các nhà phát triển DrKonqi2"
 
 #: tests/bugzillalibtest/bugzillalibtest.cpp:125
 #, kde-format
 msgctxt "@info:shell"
 msgid "bugstest.kde.org username"
-msgstr ""
+msgstr "tên người dùng bugtest.kde.org"
 
 #: tests/bugzillalibtest/bugzillalibtest.cpp:126
 #, kde-format
 msgctxt "@info:shell"
 msgid "bugstest.kde.org password"
-msgstr ""
+msgstr "mật khẩu bugtest.kde.org"
 
 #~ msgctxt "@title title of the dialog"
 #~ msgid "About Bug Reporting - Help"
